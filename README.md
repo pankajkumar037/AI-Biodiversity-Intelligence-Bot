@@ -153,7 +153,7 @@ edge against the site rather than applying the evidence globally.
 
 | # | Check | On failure |
 |---|---|---|
-| V1 | structure valid, practice is a real candidate | retry |
+| V1 | structure valid, practice is a real candidate, and it addresses something the user said is wrong | retry |
 | V2 | every `S#` exists in the evidence block | retry |
 | V3 | every number matches a claim: same metric, same unit, value in range | retry, then strip the number |
 | V4 | direction agrees with the claim or a graph edge | retry |
@@ -161,14 +161,47 @@ edge against the site rather than applying the evidence globally.
 | V6 | mechanism has a source and a risk query ran for that practice | retry |
 | V7 | mechanism is supported by the cited text (Flash-Lite judge) | one retry, then soften |
 | V8 | no generic filler | retry |
-| V9 | every reasoning step anchors to a real path id or `S#` | strip the step |
+| V9 | every reasoning step anchors to a real path id or `S#`; a cause/effect step anchored only to evidence is judged against that text | strip the step |
 | V10 | each recommendation connects ≥3 environmental variables | retry, drop if impossible |
 
 Verification never blocks a response. When retries are spent the answer degrades: unverifiable
 numbers are stripped, unanchored reasoning steps are removed, confidence is multiplied down, and
 the trace records exactly what failed.
 
+The model is never shown a number it could parrot. The dossier it reasons over is qualitative —
+rank order, `raises`/`lowers` lists, path directions — and the only figures anywhere in its
+input are on `CLAIMS` lines in the evidence block. Path ids and evidence labels are separate
+families with separate fields (`mechanism_paths`, `mechanism_sources`), so a citation can always
+be checked against the right thing.
+
 `confidence = evidence × context × agreement × data_quality`, always reported with its breakdown.
+
+---
+
+## What an answer looks like
+
+Sections run in a fixed order, and the question decides the lead:
+
+```
+SITE         every value with its source (user / soilgrids / nasa_power / inferred)
+DIAGNOSIS    flags with the rule ids that fired, compound patterns
+CAUSES       "You reported: ..." then root-cause chains, observed drivers first
+WHAT CHANGED baseline vs hypothetical, what moved, what stayed, what still binds  (what-if only, leads)
+EVIDENCE     the cited chunks with document, page and a line of text
+RECOMMENDED  an order note when the top-ranked practice is not first, then cards
+TRADE-OFFS   downgraded practices with the penalty applied, and the model's trade-off steps
+EXCLUDED     what was ruled out and why
+CONFIDENCE   the four factors
+```
+
+A "why" question leads with CAUSES. A what-if runs on a hypothetical copy of the profile and
+the baseline is restored on the next turn, so a hypothetical never leaks forward. A message that
+names a different land use or place starts a fresh profile rather than merging into the old one.
+
+Anything the user says is wrong on their land — pesticide use, a pollinator decline, residue
+burning, recent clearing, a nearby pollution source, visible erosion — becomes a profile field,
+a flag, a target in the causal graph and the first retrieval queries. These *problem flags* count
+double in scoring, and a recommendation that addresses none of them fails verification.
 
 ---
 
@@ -180,14 +213,17 @@ python -m venv .venv
 pip install -r requirements.txt
 
 cp .env.example .env            # then fill in the three values
-uvicorn main:app --reload
+uvicorn main:app
 ```
+
+Then open http://127.0.0.1:8000/ — the UI is served from `frontend/` on the same origin.
+`--reload` is unreliable on Windows; restart the process after backend edits.
 
 `.env` needs `GEMINI_API_KEY`, `db_password`, and `MONGODB_URI` containing the literal
 `<db_password>` placeholder. `.env` is gitignored and must stay that way.
 
 ```bash
-pytest tests/ evals/ -q         # 55 tests, no database or API key needed
+pytest tests/ evals/ -q         # 118 tests, no database or API key needed
 ruff check .
 python evals/run_eval.py        # the A/B/C/D ablation (makes live API calls)
 ```
@@ -200,12 +236,15 @@ python evals/run_eval.py        # the A/B/C/D ablation (makes live API calls)
 |---|---|---|
 | GET | `/health` | database ping, collection counts, Atlas index status |
 | POST | `/chat` | one conversational turn: `{session_id, message, profile_patch?}` |
+| POST | `/chat/stream` | the same turn as server-sent events, one per pipeline node, then the result |
 | POST | `/analyze` | structured profile in, full analysis out, no conversation |
+| POST | `/analyze/stream` | streamed twin of `/analyze` |
 | GET | `/session/{id}` | stored profile, constraints, recommendation history |
 | POST | `/session/{id}/reset` | clear the thread and the site memory |
 | GET | `/trace/{session_id}/{turn}` | the full reasoning trace for one turn |
 | GET | `/knowledge/stats` | corpus size and indexed documents |
 | POST | `/search` | debug: raw hybrid retrieval for one query |
+| GET | `/ui/` | the frontend (`/` redirects here) |
 
 Every response carries a `trace_id`. Errors return a JSON body, never a stack trace.
 
@@ -218,6 +257,21 @@ what it kept, the evidence with scores, the verification result, and the confide
 
 It is the part of the system that shows its working, and it is built incrementally in graph
 state rather than reconstructed at the end.
+
+---
+
+## Frontend
+
+`frontend/` is three files — HTML, CSS, JS — with no build step, served by FastAPI. One centred
+conversation. Each answer opens with a thinking block that streams the pipeline's steps as they
+finish (from `/chat/stream`) and collapses to "Reasoned for 38s · 4 flags · 12 sources" when
+done; the answer then reveals section by section. Evidence, reasoning, profile, verification and
+the traversed causal graph are inline toggles under each answer. Input modes: free text,
+structured JSON (goes to `/analyze`), or coordinates (reverse-geocoded, then SoilGrids and
+NASA POWER). Send becomes Stop while a turn runs.
+
+Only the pipeline progress is truly streamed; the answer text is assembled by the Python
+renderer after verification and revealed client-side.
 
 ---
 
@@ -238,8 +292,13 @@ state rather than reconstructed at the end.
 - **Risk edges read the full graph, not just traversable ones.** Several well-evidenced
   trade-offs are marked non-traversable in the extracted data, and dropping them would hide the
   caveats a recommendation needs to carry.
-- **Latency is 100–160 s for a full reasoning turn.** Most of it is the Flash call with thinking,
-  multiplied by verification retries.
+- **Latency is 25–170 s for a full reasoning turn**, depending on the reasoning model and how
+  many verification passes it takes. A first-pass-clean turn on Flash-Lite is about 25 s.
+- **Some corpus chunks are bibliography fragments.** The ingestion split a few reference-list
+  passages as if they were prose, and one can surface as evidence. A cleaning pass over
+  `data/extracted` is the fix.
+- **Landscape metrics are not computed.** Habitat-diversity and fragmentation thresholds exist
+  and fire when the user supplies the value; ESA WorldCover and GBIF are not wired.
 - **Regional defaults are indicative.** `regional_defaults.json` is not yet traced to an ICAR
   table and is marked for verification.
 - **The ablation study is small.** Treat `evals/report.md` as a direction, not a measurement.
