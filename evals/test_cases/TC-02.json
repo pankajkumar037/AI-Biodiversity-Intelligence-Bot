@@ -1,0 +1,23 @@
+{
+  "id": "TC-02",
+  "category": "complete_input",
+  "description": "A fully specified semi-arid site needs no clarifying question.",
+  "profile": {
+    "soc_percent": 0.3,
+    "rainfall_mm": 400,
+    "cropping_system": "monoculture",
+    "climate_zone": "semi-arid",
+    "land_use": "cropland",
+    "crop": "wheat",
+    "biodiversity_trend": "declining"
+  },
+  "expected": {
+    "flags": ["low_SOC", "water_limited", "monoculture", "biodiversity_decline"],
+    "patterns": ["C-01"],
+    "must_recommend_any": ["intercropping", "mulching"],
+    "must_downgrade": ["cover_crops"],
+    "min_variables_per_recommendation": 3,
+    "banned_phrases": ["sustainable practices", "improve soil health"],
+    "every_number_traces_to_a_claim": true
+  }
+}

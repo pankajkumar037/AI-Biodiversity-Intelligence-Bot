@@ -1,0 +1,19 @@
+{
+  "id": "TC-04",
+  "category": "grassland_constraint",
+  "description": "Grassland rules out cropland-only practices and admits grazing ones.",
+  "profile": {
+    "soc_percent": 0.45,
+    "rainfall_mm": 500,
+    "climate_zone": "semi-arid",
+    "land_use": "grassland",
+    "biodiversity_trend": "declining"
+  },
+  "constraints": ["no_livestock"],
+  "expected": {
+    "flags": ["low_SOC", "water_limited", "biodiversity_decline"],
+    "must_exclude": ["rotational_grazing", "agroforestry_silvopastoral"],
+    "min_variables_per_recommendation": 3,
+    "every_number_traces_to_a_claim": true
+  }
+}

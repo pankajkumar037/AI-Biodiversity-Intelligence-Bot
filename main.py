@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from core import db
-from core.schemas import AnalyzeRequest, SearchRequest
+from core.schemas import AnalyzeRequest, ChatRequest, SearchRequest
 from graph_flow import build
 from retrieval import assemble, rerank, search
 
@@ -38,6 +38,57 @@ async def unhandled_error(request: Request, exc: Exception) -> JSONResponse:
 def health() -> dict:
     """Database ping, collection counts and Atlas index status."""
     return {"trace_id": str(uuid.uuid4()), **db.ping()}
+
+
+@app.post("/chat")
+def chat(request: ChatRequest) -> dict:
+    """One conversational turn against a checkpointed session thread."""
+    turn = build.next_turn(request.session_id)
+    result = build.run_chat(
+        session_id=request.session_id,
+        message=request.message,
+        profile_patch=request.profile_patch,
+        turn=turn,
+    )
+    build.save_session(request.session_id, result)
+    return {
+        "trace_id": str(uuid.uuid4()),
+        "session_id": request.session_id,
+        "turn": turn,
+        "intent": result.get("intent"),
+        "answer": result.get("answer", ""),
+        "question": result.get("question"),
+        "recommendations": (result.get("adjudication") or {}).get("recommendations", []),
+        "confidence": result.get("confidence"),
+        "trace": result.get("trace", {}),
+    }
+
+
+@app.get("/session/{session_id}")
+def session(session_id: str) -> dict:
+    """Stored profile, constraints and recommendation history for a session."""
+    return {"trace_id": str(uuid.uuid4()), **build.load_session(session_id)}
+
+
+@app.post("/session/{session_id}/reset")
+def reset_session(session_id: str) -> dict:
+    """Clear the conversation thread and the stored site memory."""
+    build.reset_session(session_id)
+    return {"trace_id": str(uuid.uuid4()), "session_id": session_id, "reset": True}
+
+
+@app.get("/trace/{session_id}/{turn}")
+def trace(session_id: str, turn: int) -> dict:
+    """Full reasoning trace for one turn, for the UI panel."""
+    stored = build.load_trace(session_id, turn)
+    if stored is None:
+        return JSONResponse(
+            status_code=404,
+            content={"trace_id": str(uuid.uuid4()),
+                     "message": f"no trace stored for turn {turn} of {session_id}"},
+        )
+    return {"trace_id": str(uuid.uuid4()), "session_id": session_id,
+            "turn": turn, "trace": stored}
 
 
 @app.post("/analyze")

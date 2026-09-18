@@ -153,6 +153,7 @@ class SiteProfileDraft(BaseModel):
     """What the extraction LLM is allowed to return. Never written to state directly."""
 
     soc_percent: float | None = None
+    soc_g_per_kg: float | None = None
     soil_organic_matter_percent: float | None = None
     ph: float | None = None
     rainfall_mm: float | None = None

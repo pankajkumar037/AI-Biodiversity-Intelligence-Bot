@@ -1,0 +1,20 @@
+line-length = 100
+target-version = "py311"
+
+[lint]
+select = ["E", "F", "W", "I", "UP", "B", "C4", "SIM"]
+ignore = [
+    "B008",    # FastAPI dependencies are declared as call defaults by design
+    "E501",    # long lines are caught by the formatter, not worth failing CI over
+    "SIM102",  # nested ifs are often the clearer way to write a rule
+    "SIM114",  # separate branches document separate rules, even with one body
+    "SIM112",  # db_password is the env var name the deployment already uses
+    "UP042",   # str+Enum keeps Pydantic and JSON round-tripping predictable
+]
+
+[lint.per-file-ignores]
+"evals/run_eval.py" = ["E402"]  # sys.path is set before the project imports
+"tests/*" = ["E402"]
+# The corpus loader is a one-off script that already ran to build the database.
+# It is kept for reproducibility rather than maintained as application code.
+"db_ingestion/*" = ["SIM103", "B905"]

@@ -1,0 +1,25 @@
+{
+  "id": "TC-01",
+  "category": "constraint",
+  "description": "The brief's semi-arid wheat monoculture case, carried through a constraint and a what-if.",
+  "turns": [
+    "Biodiversity is declining on my land",
+    "SOC 0.3%, low rainfall, wheat monoculture, semi-arid Rajasthan",
+    "The land is leased, I can't plant trees",
+    "What if I add drip irrigation?"
+  ],
+  "expected": {
+    "turn_1_asks_question": true,
+    "turn_1_asks_for_any": ["rainfall_mm", "soc_percent", "land_use", "cropping_system"],
+    "flags": ["low_SOC", "water_limited", "monoculture"],
+    "must_recommend_any": ["intercropping", "mulching"],
+    "must_downgrade": ["cover_crops"],
+    "must_flag_risk": ["cover_crops:water_competition"],
+    "turn_3_must_exclude": ["agroforestry_agrisilvicultural"],
+    "turn_3_no_question": true,
+    "turn_4_must_mention_metric": ["salinity"],
+    "min_variables_per_recommendation": 3,
+    "banned_phrases": ["sustainable practices", "improve soil health"],
+    "every_number_traces_to_a_claim": true
+  }
+}

@@ -10,17 +10,16 @@ from core.schemas import (
     EvidenceItem,
     FieldSource,
     Intent,
-    SiteProfileDraft,
 )
 from generation import adjudicate as adjudicate_mod
 from generation import render as render_mod
 from graph_flow.state import AgentState, as_fields, profile_values, to_profile
 from intake import extract, geo, normalize
-from knowledge import loader
 from reasoning import causal, combine, diagnose, sequence, voi
 from reasoning import graph as graph_mod
 from retrieval import planner
-from verification import checks, confidence as confidence_mod
+from verification import checks
+from verification import confidence as confidence_mod
 
 CRITICAL_SLOTS = ["soc_percent", "rainfall_mm", "land_use", "cropping_system"]
 
@@ -112,6 +111,21 @@ def route_intent(state: AgentState) -> dict[str, Any]:
                               "trace": {"intent": intent.value}}
     if constraint:
         update["user_constraints"] = [constraint]
+
+    if intent == Intent.what_if:
+        # Snapshot the standing answer before this turn overwrites it, so the
+        # comparison is against what the user was actually told last time.
+        update["what_if_baseline"] = {
+            "flags": list(state.get("flags", [])),
+            "practices": [
+                {"practice_id": candidate["practice_id"],
+                 "name": candidate["name"],
+                 "suitability": candidate["suitability"],
+                 "downgraded": candidate["downgraded"]}
+                for candidate in state.get("candidates", [])[:6]
+            ],
+            "profile": profile_values(state.get("profile", {})),
+        }
     return update
 
 
@@ -441,6 +455,10 @@ def render(state: AgentState) -> dict[str, Any]:
         audience=Audience(audience) if audience else None,
     )
 
+    baseline = state.get("what_if_baseline")
+    if baseline:
+        answer += _what_if_comparison(baseline, state)
+
     warnings = state.get("warnings", [])
     if warnings:
         answer += "\nNOTES\n" + "\n".join(f"    {note}" for note in warnings) + "\n"
@@ -453,6 +471,65 @@ def render(state: AgentState) -> dict[str, Any]:
             "confidence": report.model_dump(),
         },
     }
+
+
+def _what_if_comparison(baseline: dict, state: AgentState) -> str:
+    """Side-by-side of what the change did to the diagnosis and the ranking."""
+    before = {item["practice_id"]: item for item in baseline.get("practices", [])}
+    after = {
+        candidate["practice_id"]: candidate
+        for candidate in state.get("candidates", [])[:6]
+    }
+
+    lines = ["", "WHAT CHANGED"]
+
+    old_flags, new_flags = set(baseline.get("flags", [])), set(state.get("flags", []))
+    if old_flags - new_flags:
+        lines.append(f"    resolved: {', '.join(sorted(old_flags - new_flags))}")
+    if new_flags - old_flags:
+        lines.append(f"    newly flagged: {', '.join(sorted(new_flags - old_flags))}")
+
+    old_values = baseline.get("profile", {})
+    new_values = profile_values(state.get("profile", {}))
+    changed = [
+        f"{name}: {old_values.get(name)} -> {value}"
+        for name, value in new_values.items()
+        if old_values.get(name) != value
+    ]
+    if changed:
+        lines.append(f"    inputs: {'; '.join(changed)}")
+
+    for practice_id, candidate in after.items():
+        previous = before.get(practice_id)
+        if previous is None:
+            lines.append(
+                f"    {candidate['name']}: now in play at {candidate['suitability']:.2f}"
+            )
+        elif previous["downgraded"] and not candidate["downgraded"]:
+            lines.append(
+                f"    {candidate['name']}: no longer downgraded "
+                f"({previous['suitability']:.2f} -> {candidate['suitability']:.2f}), "
+                f"the condition behind its risk no longer holds"
+            )
+        elif not previous["downgraded"] and candidate["downgraded"]:
+            risk = candidate["risks_applied"][0]["risk"] if candidate["risks_applied"] else ""
+            lines.append(
+                f"    {candidate['name']}: now downgraded "
+                f"({previous['suitability']:.2f} -> {candidate['suitability']:.2f}) - {risk}"
+            )
+        elif abs(previous["suitability"] - candidate["suitability"]) >= 0.05:
+            lines.append(
+                f"    {candidate['name']}: {previous['suitability']:.2f} -> "
+                f"{candidate['suitability']:.2f}"
+            )
+
+    for practice_id, previous in before.items():
+        if practice_id not in after:
+            lines.append(f"    {previous['name']}: no longer applies")
+
+    if len(lines) == 2:
+        lines.append("    nothing in the ranking moved")
+    return "\n".join(lines) + "\n"
 
 
 def ask(state: AgentState) -> dict[str, Any]:

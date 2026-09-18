@@ -104,7 +104,11 @@ EXTRACT_SYSTEM_V1 = """\
 Extract site facts from the user's message into the schema. Rules:
 - Only fill a field the user actually stated or clearly implied. Everything else
   stays null. Do not guess a value from the region or the crop.
-- Soil organic carbon in g/kg goes to soc_percent divided by 10.
+- Copy every number in the unit the user used. Never convert anything yourself.
+  A percentage such as "SOC 0.3%" goes to soc_percent as 0.3. A value in g/kg such
+  as "organic carbon 3 g/kg" goes to soc_g_per_kg as 3. Organic matter goes to
+  soil_organic_matter_percent. Putting a converted number in the wrong field is the
+  worst mistake you can make here.
 - "low rainfall" and similar words go to rainfall_category, not rainfall_mm.
 - climate_zone only when the user names it or names a place whose zone is
   unambiguous, such as "semi-arid Rajasthan".

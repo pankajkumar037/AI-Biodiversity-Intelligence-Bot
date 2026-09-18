@@ -1,6 +1,7 @@
 """Assemble the LangGraph. Code decides the flow; the model only fills in content."""
 from __future__ import annotations
 
+import contextlib
 from functools import lru_cache
 from typing import Any
 
@@ -33,7 +34,7 @@ def _add_reasoning_chain(builder: StateGraph) -> None:
     builder.add_node("verify", nodes.verify)
     builder.add_node("render", nodes.render)
 
-    for (name, _), (next_name, _) in zip(REASONING_CHAIN, REASONING_CHAIN[1:]):
+    for (name, _), (next_name, _) in zip(REASONING_CHAIN, REASONING_CHAIN[1:], strict=False):
         builder.add_edge(name, next_name)
     builder.add_edge("retrieve", "adjudicate")
     builder.add_edge("adjudicate", "verify")
@@ -123,6 +124,77 @@ def run_analysis(values: dict[str, Any], constraints: list[str] | None = None,
         "verify_attempts": 0,
     }
     return analysis_graph().invoke(state)
+
+
+def next_turn(session_id: str) -> int:
+    """Turn number for the next message in this session."""
+    stored = db.sessions().find_one({"_id": session_id}, {"turn": 1})
+    return int(stored.get("turn", 0)) + 1 if stored else 1
+
+
+def save_session(session_id: str, result: dict[str, Any]) -> None:
+    """Persist site memory and this turn's trace alongside the checkpoint."""
+    turn = int(result.get("turn", 1))
+    adjudication = result.get("adjudication") or {}
+    history = [
+        {
+            "turn": turn,
+            "practice_id": recommendation.get("practice_id"),
+            "status": "recommended",
+        }
+        for recommendation in adjudication.get("recommendations", [])
+    ]
+    history += [
+        {"turn": turn, "practice_id": item.get("practice_id"),
+         "status": "excluded", "reason": item.get("reason")}
+        for item in result.get("excluded", [])
+    ]
+
+    db.sessions().update_one(
+        {"_id": session_id},
+        {
+            "$set": {
+                "turn": turn,
+                "profile": result.get("profile", {}),
+                "user_constraints": result.get("user_constraints", []),
+                f"traces.{turn}": result.get("trace", {}),
+            },
+            "$push": {"recommendation_history": {"$each": history}},
+        },
+        upsert=True,
+    )
+
+
+def load_session(session_id: str) -> dict[str, Any]:
+    """Profile, constraints and recommendation history for a session."""
+    stored = db.sessions().find_one({"_id": session_id}, {"traces": 0})
+    if not stored:
+        return {"session_id": session_id, "exists": False, "profile": {},
+                "user_constraints": [], "recommendation_history": []}
+    return {
+        "session_id": session_id,
+        "exists": True,
+        "turn": stored.get("turn", 0),
+        "profile": stored.get("profile", {}),
+        "user_constraints": stored.get("user_constraints", []),
+        "recommendation_history": stored.get("recommendation_history", []),
+    }
+
+
+def load_trace(session_id: str, turn: int) -> dict[str, Any] | None:
+    """The stored reasoning trace for one turn, or None."""
+    stored = db.sessions().find_one({"_id": session_id}, {f"traces.{turn}": 1})
+    if not stored:
+        return None
+    return (stored.get("traces") or {}).get(str(turn))
+
+
+def reset_session(session_id: str) -> None:
+    """Drop the site memory and the checkpointed thread for this session."""
+    db.sessions().delete_one({"_id": session_id})
+    # NOTE: an absent thread is the normal case when a session never ran.
+    with contextlib.suppress(Exception):
+        chat_graph().checkpointer.delete_thread(session_id)
 
 
 def run_chat(session_id: str, message: str, profile_patch: dict[str, Any] | None = None,

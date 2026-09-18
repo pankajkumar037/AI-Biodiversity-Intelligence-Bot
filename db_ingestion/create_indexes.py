@@ -1,7 +1,9 @@
-import os, time
+import os
+import time
 from pathlib import Path
-from dotenv import load_dotenv
 from urllib.parse import quote_plus
+
+from dotenv import load_dotenv
 from pymongo import MongoClient
 from pymongo.operations import SearchIndexModel
 

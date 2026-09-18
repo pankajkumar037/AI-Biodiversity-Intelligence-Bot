@@ -1,0 +1,20 @@
+{
+  "id": "TC-03",
+  "category": "different_climate",
+  "description": "A humid site must not inherit the dryland water-competition reasoning.",
+  "profile": {
+    "soc_percent": 0.4,
+    "rainfall_mm": 1600,
+    "cropping_system": "monoculture",
+    "climate_zone": "humid",
+    "land_use": "cropland",
+    "crop": "rice"
+  },
+  "expected": {
+    "flags": ["low_SOC", "monoculture"],
+    "must_not_flag": ["water_limited"],
+    "must_not_downgrade_for_water_competition": ["cover_crops"],
+    "min_variables_per_recommendation": 3,
+    "every_number_traces_to_a_claim": true
+  }
+}

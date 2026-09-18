@@ -152,13 +152,13 @@ def pair_candidates(ranked: list[dict], flags: list[str],
             synergies = []
             conflicts = []
 
-            for node, value in first["harms"].items():
+            for node in first["harms"]:
                 partner_value = second["net_effects"].get(node, 0.0)
                 if partner_value > 0:
                     synergies.append(
                         f"{second['name']} raises {node}, which {first['name']} lowers"
                     )
-            for node, value in second["harms"].items():
+            for node in second["harms"]:
                 partner_value = first["net_effects"].get(node, 0.0)
                 if partner_value > 0:
                     synergies.append(

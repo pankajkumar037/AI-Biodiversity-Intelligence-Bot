@@ -75,6 +75,9 @@ def normalise_draft(draft: SiteProfileDraft) -> tuple[dict[str, Any], list[str],
 
     if draft.soc_percent is not None:
         values["soc_percent"] = float(draft.soc_percent)
+    elif draft.soc_g_per_kg is not None:
+        values["soc_percent"] = round(soc_from_g_per_kg(float(draft.soc_g_per_kg)), 3)
+        warnings.append("Converted organic carbon from g/kg to percent")
     elif draft.soil_organic_matter_percent is not None:
         values["soc_percent"] = round(
             soc_from_organic_matter(float(draft.soil_organic_matter_percent)), 3
@@ -90,8 +93,9 @@ def normalise_draft(draft: SiteProfileDraft) -> tuple[dict[str, Any], list[str],
     if draft.rainfall_mm is not None:
         values["rainfall_mm"] = float(draft.rainfall_mm)
     elif draft.rainfall_category is not None:
+        # NOTE: stored as a representative figure, not as a measurement. The warning
+        # carries that caveat; it is not a profile field of its own.
         values["rainfall_mm"] = RAINFALL_CATEGORY_MM[draft.rainfall_category]
-        values["rainfall_is_category"] = True
         warnings.append(
             f"Used a representative {draft.rainfall_category} rainfall figure; "
             f"give millimetres if you know them"
