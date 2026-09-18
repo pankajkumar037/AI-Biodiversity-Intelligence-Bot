@@ -77,7 +77,7 @@ def reset_session(session_id: str) -> dict:
     return {"trace_id": str(uuid.uuid4()), "session_id": session_id, "reset": True}
 
 
-@app.get("/trace/{session_id}/{turn}")
+@app.get("/trace/{session_id}/{turn}", response_model=None)
 def trace(session_id: str, turn: int) -> dict | JSONResponse:
     """Full reasoning trace for one turn, for the UI panel."""
     stored = build.load_trace(session_id, turn)
