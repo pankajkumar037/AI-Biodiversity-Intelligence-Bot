@@ -57,11 +57,21 @@
   }
 
   // ── controls ───────────────────────────────────────────────────
+  function clearComposer() {
+    $$(".composer-body input, .composer-body textarea").forEach((el) => { el.value = ""; });
+    $("#text-input").style.height = "auto";
+  }
   $("#mode").addEventListener("click", (e) => {
     const b = e.target.closest("button"); if (!b) return;
+    if (b.dataset.mode === state.mode) return;
     state.mode = b.dataset.mode;
     $$("#mode button").forEach((x) => x.classList.toggle("on", x === b));
     $$(".composer-body [data-for]").forEach((x) => { x.hidden = x.dataset.for !== state.mode; });
+    // Nothing typed in one mode may leak into another: a coordinate left behind
+    // would silently attach to a text turn.
+    clearComposer();
+    const focus = { text: "#text-input", json: "#json-input", coords: "#lat" }[state.mode];
+    $(focus).focus();
   });
   $("#starters").addEventListener("click", (e) => {
     const b = e.target.closest("button[data-q]"); if (!b || state.busy) return;
@@ -80,11 +90,14 @@
     } else if (state.mode === "json") {
       let profile; try { profile = JSON.parse($("#json-input").value); } catch (err) { addError("That JSON does not parse: " + err.message); return; }
       const constraints = $("#json-constraints").value.split(",").map((s) => s.trim()).filter(Boolean);
+      clearComposer();
       runTurn({ kind: "analyze", profile, constraints });
     } else {
       const lat = parseFloat($("#lat").value), lon = parseFloat($("#lon").value);
       if (Number.isNaN(lat) || Number.isNaN(lon)) { addError("Give both a latitude and a longitude."); return; }
-      runTurn({ kind: "chat", message: $("#coords-note").value.trim() || `Site at ${lat}, ${lon}`, profile_patch: { lat, lon } });
+      const note = $("#coords-note").value.trim();
+      clearComposer();
+      runTurn({ kind: "chat", message: note || `Site at ${lat}, ${lon}`, profile_patch: { lat, lon } });
     }
   });
   $("#new-chat").addEventListener("click", async () => {
@@ -95,14 +108,6 @@
     $("#session-note").textContent = `Session ${state.sessionId}.`;
     window.scrollTo({ top: 0 });
   });
-  $("#demo").addEventListener("click", async () => {
-    if (state.busy) return;
-    const turns = ["Biodiversity is declining on my land",
-                   "SOC 0.3%, low rainfall, wheat monoculture, semi-arid Rajasthan",
-                   "The land is leased, I can't plant trees",
-                   "What if I add drip irrigation?"];
-    for (const t of turns) { const ok = await runTurn({ kind: "chat", message: t }); if (!ok) break; }
-  });
 
   // ── a turn ─────────────────────────────────────────────────────
   function setBusy(on) {
@@ -110,7 +115,7 @@
     $("#send").classList.toggle("stop", on);
     $("#send").setAttribute("aria-label", on ? "Stop" : "Send");
     $("#send").title = on ? "Stop this turn" : "";
-    $("#demo").disabled = on; $("#new-chat").disabled = on;
+    $("#new-chat").disabled = on;
   }
 
   async function runTurn(req) {
