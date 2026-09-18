@@ -40,20 +40,40 @@ def intake(state: AgentState) -> dict[str, Any]:
         return {"warnings": [f"Could not read values from your message: {exc}"]}
 
     values, derived, warnings, rejected = normalize.normalise_draft(draft)
-    update: dict[str, Any] = {
-        "profile": {
-            **as_fields(values, FieldSource.user, turn),
-            **as_fields(derived, FieldSource.inferred, turn, uncertainty=0.6),
-        },
-        "trace": {"intake": {"extracted": values, "derived": derived, "rejected": rejected}},
+    fields = {
+        **as_fields(values, FieldSource.user, turn),
+        **as_fields(derived, FieldSource.inferred, turn, uncertainty=0.6),
     }
+    reset_reason = _new_site_reason(profile_values(state.get("profile", {})), values)
+    update: dict[str, Any] = {
+        # A different land use or place is a different site: nothing carries over.
+        "profile": {REPLACE: fields} if reset_reason else fields,
+        "trace": {"intake": {"extracted": values, "derived": derived, "rejected": rejected,
+                             "profile_reset": reset_reason}},
+    }
+    if reset_reason:
+        update["what_if_baseline"] = None
+        update["restore_profile"] = None
+        update["user_constraints"] = [REPLACE, *draft.constraints]
+        update["rejected_practices"] = [REPLACE]
+    elif draft.constraints:
+        update["user_constraints"] = draft.constraints
     if warnings or rejected:
         update["warnings"] = warnings + rejected
-    if draft.constraints:
-        update["user_constraints"] = draft.constraints
     if draft.audience:
         update["audience"] = draft.audience.value
     return update
+
+
+def _new_site_reason(existing: dict[str, Any], stated: dict[str, Any]) -> str | None:
+    """Why the stored profile should be discarded, or None to keep building on it."""
+    if not existing:
+        return None
+    for name in ("land_use", "place_name"):
+        old, new = existing.get(name), stated.get(name)
+        if old and new and str(old).strip().lower() != str(new).strip().lower():
+            return f"{name.replace('_', ' ')} changed from {old} to {new}"
+    return None
 
 
 def normalize_node(state: AgentState) -> dict[str, Any]:
@@ -653,14 +673,14 @@ def concept(state: AgentState) -> dict[str, Any]:
     if not items:
         return {"answer": "I could not find anything on that in the indexed sources."}
 
-    lines = [f"What the sources say about {planner.practice_text(practice) if practice else query.strip()}:", ""]
+    topic = planner.practice_text(practice) if practice else query.strip()
+    lines = [f"ANSWER What the indexed sources say about {topic}. This is general evidence, "
+             f"not advice for your site; tell me about the land and I will work through "
+             f"what applies there.", "", "EVIDENCE"]
     for item in items:
         page = f", p{item.page_start}" if item.page_start is not None else ""
-        lines.append(f"    {item.text.strip()}")
-        lines.append(f"        — {item.doc_title}{page} [{item.label}]")
-        lines.append("")
-    lines.append("This is general evidence, not advice for your site. "
-                 "Tell me about the land and I will work through what applies there.")
+        text = " ".join(item.text.split())
+        lines.append(f"    [{item.label}] {item.doc_title}{page}: {text}")
 
     return {
         "answer": "\n".join(lines),

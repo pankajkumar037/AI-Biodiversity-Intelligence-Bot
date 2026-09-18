@@ -33,3 +33,12 @@ def test_verification_failure_sends_the_answer_back_for_another_pass():
 def test_out_of_scope_answer_redirects_without_advice():
     answer = nodes.out_of_scope({})["answer"]
     assert "soil" in answer.lower()
+
+
+def test_a_different_land_use_or_place_is_a_new_site():
+    from graph_flow.nodes import _new_site_reason
+    assert _new_site_reason({"land_use": "cropland", "crop": "wheat"}, {"land_use": "grassland"})
+    assert _new_site_reason({"place_name": "Sangrur"}, {"place_name": "Jodhpur"})
+    assert _new_site_reason({"land_use": "cropland"}, {"land_use": "Cropland"}) is None
+    assert _new_site_reason({"land_use": "cropland"}, {"soc_percent": 0.4}) is None
+    assert _new_site_reason({}, {"land_use": "grassland"}) is None

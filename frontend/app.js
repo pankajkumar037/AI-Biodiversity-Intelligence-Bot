@@ -212,6 +212,10 @@
       $(".label", msg.think).textContent = NEXT_LABEL.retrieve;
       return;
     }
+    if (ev.node === "verify" && trace.verification?.degraded) {
+      $(".label", msg.think).textContent = NEXT_LABEL.verify;
+      return;
+    }
     const d = describe(ev.node, u, trace);
     if (ev.node === "adjudicate" && (u.verify_attempts || 1) > 1) {
       const h = document.createElement("li"); h.className = "head"; h.textContent = `retry ${u.verify_attempts - 1}`; msg.steps.appendChild(h);
@@ -227,14 +231,15 @@
     const bits = [];
     const f = trace.diagnosis?.flags?.length; if (f) bits.push(`${f} flag${f === 1 ? "" : "s"}`);
     const e = trace.evidence?.length; if (e) bits.push(`${e} sources`);
-    const v = trace.verification; if (v) bits.push(v.degraded ? "degraded" : `${v.attempts} pass${v.attempts === 1 ? "" : "es"}`);
+    const v = trace.verification; if (v && !v.degraded) bits.push(`${v.attempts} pass${v.attempts === 1 ? "" : "es"}`);
     $(".label", msg.think).textContent = `Reasoned for ${(ms / 1000).toFixed(ms < 10000 ? 1 : 0)}s${bits.length ? " · " + bits.join(" · ") : ""}`;
     msg.think.open = false;
   }
   function describe(node, u, t) {
     switch (node) {
-      case "intake": { const ex = t.intake?.extracted || {}, k = Object.keys(ex), rej = t.intake?.rejected || [];
-        return { text: k.length ? `read ${k.map((x) => x.replace(/_/g, " ")).join(", ")}` : "nothing new stated", warn: rej.length > 0 }; }
+      case "intake": { const ex = t.intake?.extracted || {}, k = Object.keys(ex), rej = t.intake?.rejected || [], reset = t.intake?.profile_reset;
+        const read = k.length ? `read ${k.map((x) => x.replace(/_/g, " ")).join(", ")}` : "nothing new stated";
+        return { text: reset ? `${read} — ${reset}, so this is a new site and nothing from before is kept` : read, warn: rej.length > 0 }; }
       case "normalize": { const k = Object.keys(t.inferred || {}); return { text: k.length ? `inferred ${k.join(", ")} — marked as inference, a stated value would replace it` : "nothing to infer" }; }
       case "geo_enrich": { const g = t.geo; if (!g) return { text: "no location given" };
         const where = g.place ? g.place.split(",").slice(0, 2).join(",") : `${fmt(g.lat, 4)}, ${fmt(g.lon, 4)}`;

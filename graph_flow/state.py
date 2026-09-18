@@ -46,8 +46,14 @@ def merge_trace(old: dict[str, Any], new: dict[str, Any] | None) -> dict[str, An
     return merged
 
 
-def add_unique(old: list[str], new: list[str]) -> list[str]:
-    """Append without duplicating, for constraints and rejected practices."""
+def add_unique(old: list[str], new: list[str] | None) -> list[str]:
+    """Append without duplicating, for constraints and rejected practices.
+
+    A list starting with REPLACE discards what was there and keeps the rest, which
+    is how a new site's constraints replace the previous site's.
+    """
+    if new and new[0] == REPLACE:
+        old, new = [], new[1:]
     merged = list(old or [])
     for item in new or []:
         if item not in merged:

@@ -43,3 +43,15 @@ def test_trace_sections_accumulate_and_overwrite_by_key():
     merged = merge_trace({"diagnosis": {"flags": ["low_SOC"]}}, {"queries": [1, 2]})
     assert set(merged) == {"diagnosis", "queries"}
     assert merge_trace({"a": 1}, {"a": 2})["a"] == 2
+
+
+def test_a_replace_marker_starts_the_list_over():
+    from graph_flow.state import REPLACE
+    assert add_unique(["leased_land_no_trees"], [REPLACE, "no_livestock"]) == ["no_livestock"]
+    assert add_unique(["leased_land_no_trees"], [REPLACE]) == []
+
+
+def test_a_replace_marker_swaps_the_whole_profile():
+    from graph_flow.state import REPLACE
+    fresh = {"land_use": {"value": "grassland", "source": "user"}}
+    assert merge_profile({"crop": USER}, {REPLACE: fresh}) == fresh
