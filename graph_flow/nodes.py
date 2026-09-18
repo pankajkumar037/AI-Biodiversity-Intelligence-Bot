@@ -215,10 +215,19 @@ def candidates_node(state: AgentState) -> dict[str, Any]:
         "trace": {
             "candidates": [
                 {"practice_id": candidate["practice_id"],
+                 "name": candidate["name"],
                  "suitability": candidate["suitability"],
+                 "coverage": candidate["coverage"],
+                 "benefit": candidate["benefit"],
+                 "penalty": candidate["penalty"],
                  "net_effects": candidate["net_effects"],
                  "risks_applied": candidate["risks_applied"],
-                 "downgraded": candidate["downgraded"]}
+                 "downgraded": candidate["downgraded"],
+                 "paths": [
+                     {"path": path["path"], "weight": path["weight"],
+                      "condition": path["condition"]}
+                     for path in candidate["paths"][:4]
+                 ]}
                 for candidate in ranked[:6]
             ],
             "excluded": excluded,

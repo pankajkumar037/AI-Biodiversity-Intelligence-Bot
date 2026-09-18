@@ -202,14 +202,13 @@ def reset_session(session_id: str) -> None:
         chat_graph().checkpointer.delete_thread(session_id)
 
 
-def run_chat(session_id: str, message: str, profile_patch: dict[str, Any] | None = None,
-             turn: int = 1) -> dict[str, Any]:
-    """Run one conversational turn against the checkpointed thread."""
+def _turn_state(session_id: str, message: str, profile_patch: dict[str, Any] | None,
+                turn: int) -> dict[str, Any]:
+    """Fresh per-turn state. Anything left in the checkpoint from last turn would
+    let one turn's question, warnings or what-if comparison resurface under the next."""
     from core.schemas import FieldSource
     from graph_flow.state import as_fields
 
-    # Everything here is per-turn state. Leaving any of it in the checkpoint would
-    # let one turn's question, warnings or what-if comparison resurface under the next.
     state: dict[str, Any] = {
         "message": message,
         "session_id": session_id,
@@ -222,7 +221,100 @@ def run_chat(session_id: str, message: str, profile_patch: dict[str, Any] | None
     }
     if profile_patch:
         state["profile"] = as_fields(profile_patch, FieldSource.user, turn)
+    return state
 
+
+def run_chat(session_id: str, message: str, profile_patch: dict[str, Any] | None = None,
+             turn: int = 1) -> dict[str, Any]:
+    """Run one conversational turn against the checkpointed thread."""
     return chat_graph().invoke(
-        state, config={"configurable": {"thread_id": session_id}}
+        _turn_state(session_id, message, profile_patch, turn),
+        config={"configurable": {"thread_id": session_id}},
     )
+
+
+# Keys worth sending to a client as each node finishes. Evidence text and full
+# candidate objects are large; the trace sections already summarise them.
+STREAMED_KEYS = ("trace", "question", "intent", "flags", "warnings", "verify_attempts",
+                 "verify_feedback", "filter_level")
+
+
+def _node_event(node: str, update: dict[str, Any], elapsed_ms: int) -> dict[str, Any]:
+    payload = {key: update[key] for key in STREAMED_KEYS if key in update}
+    return {"type": "node", "node": node, "elapsed_ms": elapsed_ms, "update": payload}
+
+
+def stream_chat(session_id: str, message: str, profile_patch: dict[str, Any] | None = None,
+                turn: int = 1):
+    """Yield one event per node as the turn runs, then the finished result.
+
+    LangGraph's update stream is what makes the reasoning visible while it happens:
+    the client sees diagnose finish before retrieval starts, not a spinner.
+    """
+    import time
+
+    graph = chat_graph()
+    config = {"configurable": {"thread_id": session_id}}
+    started = time.perf_counter()
+    last = started
+
+    for event in graph.stream(_turn_state(session_id, message, profile_patch, turn),
+                              config=config, stream_mode="updates"):
+        now = time.perf_counter()
+        for node, update in event.items():
+            yield _node_event(node, update or {}, int((now - last) * 1000))
+        last = now
+
+    result = graph.get_state(config).values
+    result["turn"] = turn
+    save_session(session_id, result)
+    yield {"type": "done", "elapsed_ms": int((time.perf_counter() - started) * 1000),
+           "result": result}
+
+
+def stream_analysis(values: dict[str, Any], constraints: list[str] | None = None,
+                    audience: str | None = None):
+    """Same as stream_chat for the single-shot pipeline."""
+    import time
+
+    from core.schemas import FieldSource
+    from graph_flow.state import as_fields
+
+    state: dict[str, Any] = {
+        "profile": as_fields(values, FieldSource.user, 0),
+        "user_constraints": list(constraints or []),
+        "audience": audience,
+        "turn": 1,
+        "trace": {},
+        "verify_attempts": 0,
+    }
+    started = time.perf_counter()
+    last = started
+    final: dict[str, Any] = dict(state)
+
+    for event in analysis_graph().stream(state, stream_mode="updates"):
+        now = time.perf_counter()
+        for node, update in event.items():
+            yield _node_event(node, update or {}, int((now - last) * 1000))
+            _merge_into(final, update or {})
+        last = now
+
+    yield {"type": "done", "elapsed_ms": int((time.perf_counter() - started) * 1000),
+           "result": final}
+
+
+def _merge_into(state: dict[str, Any], update: dict[str, Any]) -> None:
+    """Apply the same reducers the graph uses, for the uncheckpointed analysis graph."""
+    from graph_flow.state import add_unique, merge_profile, merge_trace, reset_or_extend
+
+    for key, value in update.items():
+        if key == "trace":
+            state["trace"] = merge_trace(state.get("trace", {}), value)
+        elif key == "profile":
+            state["profile"] = merge_profile(state.get("profile", {}), value)
+        elif key in ("user_constraints", "rejected_practices"):
+            state[key] = add_unique(state.get(key, []), value)
+        elif key == "warnings":
+            state[key] = reset_or_extend(state.get(key, []), value)
+        else:
+            state[key] = value

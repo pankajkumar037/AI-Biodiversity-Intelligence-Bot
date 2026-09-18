@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Darukaa — site reasoning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wordmark">
+    <span class="wordmark-name">Darukaa</span>
+    <span class="wordmark-sub">site reasoning · biodiversity intelligence</span>
+  </div>
+  <div class="topbar-right">
+    <span id="health" class="pill pill-muted">checking backend…</span>
+    <span class="session-label">session <code id="session-id">—</code></span>
+  </div>
+</header>
+
+<nav class="rail" id="rail" aria-label="pipeline">
+  <!-- nodes injected -->
+</nav>
+
+<main class="layout">
+
+  <aside class="sidebar">
+    <section class="block">
+      <h2 class="block-title">Input</h2>
+      <div class="segmented" role="tablist" id="mode">
+        <button data-mode="text" class="on" role="tab">Text</button>
+        <button data-mode="json" role="tab">JSON</button>
+        <button data-mode="coords" role="tab">Coordinates</button>
+      </div>
+      <label class="field">
+        <span>Audience</span>
+        <select id="audience">
+          <option value="">not set</option>
+          <option value="farmer">farmer</option>
+          <option value="ngo">NGO / programme officer</option>
+          <option value="researcher">researcher</option>
+        </select>
+      </label>
+    </section>
+
+    <section class="block">
+      <h2 class="block-title">Demo scenario</h2>
+      <p class="hint">The brief's semi-arid wheat case, four turns: incomplete input, full profile, a leased-land constraint, then drip irrigation as a what-if.</p>
+      <button id="demo" class="btn btn-primary">Run the Rajasthan case</button>
+      <ol class="demo-turns" id="demo-turns">
+        <li>Biodiversity is declining on my land</li>
+        <li>SOC 0.3%, low rainfall, wheat monoculture, semi-arid Rajasthan</li>
+        <li>The land is leased, I can't plant trees</li>
+        <li>What if I add drip irrigation?</li>
+      </ol>
+    </section>
+
+    <section class="block">
+      <h2 class="block-title">Session</h2>
+      <button id="reset" class="btn">Reset session</button>
+      <button id="download" class="btn" disabled>Download reasoning trace</button>
+    </section>
+
+    <section class="block">
+      <h2 class="block-title">Corpus</h2>
+      <dl class="stats" id="stats">
+        <div><dt>chunks</dt><dd>—</dd></div>
+        <div><dt>causal edges</dt><dd>—</dd></div>
+        <div><dt>documents</dt><dd>—</dd></div>
+      </dl>
+    </section>
+
+    <section class="block block-foot">
+      <label class="field">
+        <span>API base</span>
+        <input id="api-base" type="text" placeholder="same origin">
+      </label>
+    </section>
+  </aside>
+
+  <section class="chat">
+    <div class="messages" id="messages">
+      <div class="msg msg-system">
+        <p>Tell me about a piece of land. I'll ask for what I need, diagnose it against threshold rules, trace causes through a causal graph, retrieve evidence, and only then write a recommendation — every number checked against a cited source.</p>
+        <p class="hint">Nothing here is generated from the model's own knowledge. If the corpus can't support a figure, you'll get a direction and no number.</p>
+      </div>
+    </div>
+
+    <form class="composer" id="composer">
+      <div class="composer-text" data-for="text">
+        <textarea id="text-input" rows="2" placeholder="e.g. SOC 0.3%, low rainfall, wheat monoculture, semi-arid Rajasthan"></textarea>
+      </div>
+      <div class="composer-json" data-for="json" hidden>
+        <textarea id="json-input" rows="7" spellcheck="false">{
+  "soc_percent": 0.3,
+  "rainfall_mm": 400,
+  "cropping_system": "monoculture",
+  "climate_zone": "semi-arid",
+  "land_use": "cropland",
+  "crop": "wheat"
+}</textarea>
+        <input id="json-constraints" type="text" placeholder="constraints, comma separated (e.g. leased_land_no_trees)">
+      </div>
+      <div class="composer-coords" data-for="coords" hidden>
+        <input id="lat" type="number" step="0.0001" placeholder="latitude" value="26.24">
+        <input id="lon" type="number" step="0.0001" placeholder="longitude" value="73.02">
+        <input id="coords-note" type="text" placeholder="anything else you know (optional)">
+      </div>
+      <div class="composer-row">
+        <span class="hint" id="composer-hint">Enter to send · Shift+Enter for a new line</span>
+        <button type="submit" id="send" class="btn btn-primary">Send</button>
+      </div>
+    </form>
+  </section>
+
+  <aside class="inspector">
+    <header class="inspector-head">
+      <div class="conf" id="conf">
+        <span class="conf-label">confidence</span>
+        <span class="conf-value">—</span>
+      </div>
+      <div class="tabs" role="tablist" id="tabs">
+        <button data-tab="profile" class="on">Profile</button>
+        <button data-tab="reasoning">Reasoning</button>
+        <button data-tab="graph">Graph</button>
+        <button data-tab="retrieval">Retrieval</button>
+        <button data-tab="verification">Verification</button>
+        <button data-tab="landscape">Landscape</button>
+      </div>
+    </header>
+    <div class="panels">
+      <section class="panel on" data-panel="profile"><p class="empty">No site yet.</p></section>
+      <section class="panel" data-panel="reasoning"><p class="empty">Diagnosis and ranking appear here as the pipeline runs.</p></section>
+      <section class="panel" data-panel="graph"><p class="empty">Causal paths the engine actually traversed.</p></section>
+      <section class="panel" data-panel="retrieval"><p class="empty">Every query, its filter level, and what was kept.</p></section>
+      <section class="panel" data-panel="verification"><p class="empty">V1–V10 results, retries, and anything stripped.</p></section>
+      <section class="panel" data-panel="landscape"><p class="empty">Geo enrichment for the site, when coordinates are known.</p></section>
+    </div>
+  </aside>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,16 +1,22 @@
 """FastAPI entry point. Routes only — all logic lives in the packages."""
 from __future__ import annotations
 
+import json
 import uuid
+from collections.abc import Iterator
+from pathlib import Path
 
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, RedirectResponse, StreamingResponse
+from fastapi.staticfiles import StaticFiles
 
 from core import db
 from core.schemas import AnalyzeRequest, ChatRequest, SearchRequest
 from graph_flow import build
 from retrieval import assemble, rerank, search
+
+FRONTEND_DIR = Path(__file__).resolve().parent / "frontend"
 
 app = FastAPI(title="Darukaa Biodiversity Intelligence", version="0.1.0")
 app.add_middleware(
@@ -19,6 +25,29 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+def _sse(events: Iterator[dict]) -> Iterator[str]:
+    """Server-sent events framing. Errors become a final event, never a dropped socket."""
+    trace_id = str(uuid.uuid4())
+    try:
+        for event in events:
+            yield f"data: {json.dumps({'trace_id': trace_id, **event}, default=str)}\n\n"
+    except Exception as exc:  # noqa: BLE001 - reported to the client as an event
+        yield f"data: {json.dumps({'trace_id': trace_id, 'type': 'error', 'error': type(exc).__name__, 'message': str(exc)})}\n\n"
+
+
+def _chat_payload(result: dict, session_id: str, turn: int) -> dict:
+    return {
+        "session_id": session_id,
+        "turn": turn,
+        "intent": result.get("intent"),
+        "answer": result.get("answer", ""),
+        "question": result.get("question"),
+        "recommendations": (result.get("adjudication") or {}).get("recommendations", []),
+        "confidence": result.get("confidence"),
+        "trace": result.get("trace", {}),
+    }
 
 
 @app.exception_handler(Exception)
@@ -51,17 +80,25 @@ def chat(request: ChatRequest) -> dict:
         turn=turn,
     )
     build.save_session(request.session_id, result)
-    return {
-        "trace_id": str(uuid.uuid4()),
-        "session_id": request.session_id,
-        "turn": turn,
-        "intent": result.get("intent"),
-        "answer": result.get("answer", ""),
-        "question": result.get("question"),
-        "recommendations": (result.get("adjudication") or {}).get("recommendations", []),
-        "confidence": result.get("confidence"),
-        "trace": result.get("trace", {}),
-    }
+    return {"trace_id": str(uuid.uuid4()), **_chat_payload(result, request.session_id, turn)}
+
+
+@app.post("/chat/stream")
+def chat_stream(request: ChatRequest) -> StreamingResponse:
+    """The same turn as /chat, but one event per pipeline node as it finishes."""
+    turn = build.next_turn(request.session_id)
+
+    def events() -> Iterator[dict]:
+        for event in build.stream_chat(request.session_id, request.message,
+                                       request.profile_patch, turn):
+            if event["type"] == "done":
+                event = {**event, "result": _chat_payload(event["result"],
+                                                          request.session_id, turn)}
+            yield event
+
+    return StreamingResponse(_sse(events()), media_type="text/event-stream",
+                             headers={"Cache-Control": "no-cache",
+                                      "X-Accel-Buffering": "no"})
 
 
 @app.get("/session/{session_id}")
@@ -108,6 +145,31 @@ def analyze(request: AnalyzeRequest) -> dict:
     }
 
 
+@app.post("/analyze/stream")
+def analyze_stream(request: AnalyzeRequest) -> StreamingResponse:
+    """Streamed twin of /analyze."""
+
+    def events() -> Iterator[dict]:
+        for event in build.stream_analysis(
+            request.profile, request.constraints,
+            request.audience.value if request.audience else None,
+        ):
+            if event["type"] == "done":
+                result = event["result"]
+                event = {**event, "result": {
+                    "answer": result.get("answer", ""),
+                    "recommendations": (result.get("adjudication") or {}).get(
+                        "recommendations", []),
+                    "confidence": result.get("confidence"),
+                    "trace": result.get("trace", {}),
+                }}
+            yield event
+
+    return StreamingResponse(_sse(events()), media_type="text/event-stream",
+                             headers={"Cache-Control": "no-cache",
+                                      "X-Accel-Buffering": "no"})
+
+
 @app.post("/search")
 def debug_search(request: SearchRequest) -> dict:
     """Debug route: raw hybrid retrieval for one query, with scores and filter level."""
@@ -139,3 +201,13 @@ def knowledge_stats() -> dict:
         "documents": doc_ids,
         "n_documents": len(doc_ids),
     }
+
+
+@app.get("/", include_in_schema=False)
+def root() -> RedirectResponse:
+    return RedirectResponse(url="/ui/")
+
+
+# The UI is plain files served from the same origin, so no CORS dance during the demo.
+if FRONTEND_DIR.is_dir():
+    app.mount("/ui", StaticFiles(directory=str(FRONTEND_DIR), html=True), name="ui")
