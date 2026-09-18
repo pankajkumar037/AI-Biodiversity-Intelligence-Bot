@@ -1,0 +1,27 @@
+{
+  "practice_id": "manure",
+  "name": "Farmyard manure application",
+  "addresses_flags": ["low_SOC", "bare_fallow"],
+  "hard_constraints": {
+    "land_use_in": ["cropland", "grassland", "orchard", "fallow"],
+    "incompatible_constraints": []
+  },
+  "soft_risks": [
+    {
+      "if": "always",
+      "risk": "Manure is a recognised agricultural source of trace metals and can overload nutrients if applied heavily",
+      "penalty": 0.12,
+      "mitigation": "Match application to crop nutrient demand and avoid manure from intensive systems with metal supplements"
+    }
+  ],
+  "requires_first": [],
+  "impacted_metrics": ["SOC", "nutrient_availability", "soil_biota", "nitrogen", "pollution_load"],
+  "mechanism": "Animal manure returns carbon and nutrients in a form soil organisms process readily, rebuilding organic matter in depleted soils.",
+  "time_horizon": "short",
+  "region_variants": [],
+  "evidence_chunk_ids": [
+    "soilpol_agri_sources__p04",
+    "ipbes_ch6_responses__w03__p02",
+    "soilpol_ecosystem__p06"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "practice_id": "agroforestry_agrisilvicultural",
+  "name": "Agrisilvicultural agroforestry (trees with crops)",
+  "addresses_flags": ["low_SOC", "monoculture", "low_habitat_diversity", "low_natural_cover", "biodiversity_decline"],
+  "hard_constraints": {
+    "land_use_in": ["cropland", "fallow"],
+    "min_rainfall_mm": 300,
+    "incompatible_constraints": ["leased_land_no_trees"]
+  },
+  "soft_risks": [
+    {
+      "if": "climate_zone in [arid, semi-arid]",
+      "risk": "Trees compete with the crop for water, and FAO records SOC decreases under agroforestry in dry climates",
+      "penalty": 0.2,
+      "mitigation": "Use drought-tolerant species at wide spacing and stay below the optimal tree density threshold"
+    },
+    {
+      "if": "always",
+      "risk": "Crop yield falls in mature, highly dense plantations through competition for light, water and nutrients",
+      "penalty": 0.1,
+      "mitigation": "Prune to manage shade and keep density below the threshold where competition dominates"
+    }
+  ],
+  "requires_first": ["mulching"],
+  "impacted_metrics": ["SOC", "habitat_diversity", "species_richness", "soil_moisture", "tree_cover", "erosion", "water_holding_capacity"],
+  "mechanism": "Trees add deep roots and litterfall that build carbon, while the canopy moderates microclimate and provides habitat structure the cropped field lacks.",
+  "time_horizon": "long",
+  "region_variants": [
+    {
+      "region": "India semi-arid",
+      "note": "Rainfed Ailanthus and aonla-based models are the region-matched systems documented for this zone.",
+      "source_unit": "handa_4_1_ailanthus_rainfed"
+    }
+  ],
+  "evidence_chunk_ids": [
+    "v3_p38_agrisilvicultural__p14",
+    "v3_p38_agrisilvicultural__p05",
+    "handa_4_1_ailanthus_rainfed__p01"
+  ]
+}

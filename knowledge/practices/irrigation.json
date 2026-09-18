@@ -1,0 +1,32 @@
+{
+  "practice_id": "irrigation",
+  "name": "Supplemental irrigation",
+  "addresses_flags": ["water_limited"],
+  "hard_constraints": {
+    "land_use_in": ["cropland", "orchard"],
+    "incompatible_constraints": ["no_irrigation"]
+  },
+  "soft_risks": [
+    {
+      "if": "climate_zone in [arid, semi-arid]",
+      "risk": "Irrigation raises soil salinity in dryland areas, and without proper drainage salts accumulate in the root zone",
+      "penalty": 0.25,
+      "mitigation": "Provide drainage, apply a leaching fraction, and monitor electrical conductivity each season"
+    },
+    {
+      "if": "always",
+      "risk": "Abstraction can draw down a shared groundwater table",
+      "penalty": 0.1,
+      "mitigation": "Pair with rainwater harvesting and use drip delivery to cut total demand"
+    }
+  ],
+  "requires_first": [],
+  "impacted_metrics": ["soil_moisture", "crop_yield", "salinity", "biomass", "water_holding_capacity"],
+  "mechanism": "Adding water when rainfall falls short lifts the moisture constraint on growth, at the cost of importing dissolved salts that stay behind as water evaporates.",
+  "time_horizon": "short",
+  "region_variants": [],
+  "evidence_chunk_ids": [
+    "v3_p28_irrigation__p01",
+    "keerthika2026__full__p01"
+  ]
+}

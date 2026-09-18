@@ -1,0 +1,39 @@
+{
+  "practice_id": "cover_crops",
+  "name": "Cover cropping between cash crops",
+  "addresses_flags": ["low_SOC", "bare_fallow", "monoculture", "biodiversity_decline"],
+  "hard_constraints": {
+    "land_use_in": ["cropland", "fallow", "orchard"],
+    "incompatible_constraints": []
+  },
+  "soft_risks": [
+    {
+      "if": "climate_zone in [arid, semi-arid]",
+      "risk": "Cover crop water use competes with the cash crop and can reduce its yield in dry conditions",
+      "penalty": 0.25,
+      "mitigation": "Terminate early, choose low-water-use species, or pair with no-till and residue mulching so the water is returned as cover"
+    },
+    {
+      "if": "rainfall_mm < 400",
+      "risk": "Insufficient rainfall to establish the cover without drawing down stored soil water",
+      "penalty": 0.15,
+      "mitigation": "Restrict to seasons with reliable rainfall, or grow only where supplemental water exists"
+    }
+  ],
+  "requires_first": [],
+  "impacted_metrics": ["SOC", "soil_moisture", "soil_biota", "nutrient_availability", "erosion", "crop_yield"],
+  "mechanism": "A living cover returns root and shoot biomass to the soil between cash crops, feeding soil biota and protecting the surface from erosion.",
+  "time_horizon": "medium",
+  "region_variants": [
+    {
+      "region": "semi-arid",
+      "note": "FAO reports that in semiarid regions cover crops may reduce cash crop yields under conventional tillage but not under no-tillage, because evapotranspiration is lower.",
+      "source_unit": "v3_p01_cover_cropping"
+    }
+  ],
+  "evidence_chunk_ids": [
+    "joshi2023_agj__p14",
+    "v3_p01_cover_cropping__p02",
+    "v4_c21_covercrop_almond_spain__p15"
+  ]
+}

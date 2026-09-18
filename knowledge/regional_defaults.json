@@ -1,0 +1,38 @@
+[
+  {
+    "zone": "semi-arid",
+    "region": "Rajasthan, India",
+    "defaults": {
+      "soc_percent": 0.35,
+      "ph": 8.2,
+      "rainfall_mm": 450,
+      "natural_cover_percent": 12
+    },
+    "source": "Indicative values for the western Rajasthan semi-arid zone; replace with a cited ICAR agro-ecological table before submission",
+    "verify": true
+  },
+  {
+    "zone": "arid",
+    "region": "Western Rajasthan, India",
+    "defaults": {
+      "soc_percent": 0.22,
+      "ph": 8.4,
+      "rainfall_mm": 260,
+      "natural_cover_percent": 8
+    },
+    "source": "Indicative values for the Thar arid zone; replace with a cited ICAR agro-ecological table before submission",
+    "verify": true
+  },
+  {
+    "zone": "humid",
+    "region": "India, humid zone",
+    "defaults": {
+      "soc_percent": 0.85,
+      "ph": 6.2,
+      "rainfall_mm": 1600,
+      "natural_cover_percent": 35
+    },
+    "source": "Indicative values only; replace with a cited source before submission",
+    "verify": true
+  }
+]

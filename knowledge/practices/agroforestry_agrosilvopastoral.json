@@ -1,0 +1,34 @@
+{
+  "practice_id": "agroforestry_agrosilvopastoral",
+  "name": "Agrosilvopastoral agroforestry (trees, crops and livestock)",
+  "addresses_flags": ["low_SOC", "monoculture", "low_habitat_diversity", "low_natural_cover"],
+  "hard_constraints": {
+    "land_use_in": ["cropland", "grassland", "pasture", "fallow"],
+    "min_rainfall_mm": 300,
+    "incompatible_constraints": ["leased_land_no_trees", "no_livestock"]
+  },
+  "soft_risks": [
+    {
+      "if": "always",
+      "risk": "Livestock damage crops and compact soil, and tree area is taken out of cropping",
+      "penalty": 0.18,
+      "mitigation": "Separate grazing from the cropping season and fence the crop phase"
+    },
+    {
+      "if": "climate_zone in [arid, semi-arid]",
+      "risk": "Three competing components draw on the same limited water",
+      "penalty": 0.15,
+      "mitigation": "Keep tree density low and stagger the livestock phase to the post-harvest period"
+    }
+  ],
+  "requires_first": ["mulching"],
+  "impacted_metrics": ["SOC", "habitat_diversity", "tree_cover", "nutrient_availability", "bulk_density", "crop_yield"],
+  "mechanism": "Trees, crops and animals occupy the same land in sequence, cycling nutrients through manure and litter while the canopy shelters both.",
+  "time_horizon": "long",
+  "region_variants": [],
+  "evidence_chunk_ids": [
+    "v3_p40_agrosilvopastoral__p04",
+    "v3_p40_agrosilvopastoral__p09",
+    "v4_c17_dehesa_iberia__p08"
+  ]
+}

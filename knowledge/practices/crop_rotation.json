@@ -1,0 +1,33 @@
+{
+  "practice_id": "crop_rotation",
+  "name": "Diversified crop rotation with a legume phase",
+  "addresses_flags": ["monoculture", "low_SOC", "biodiversity_decline"],
+  "hard_constraints": {
+    "land_use_in": ["cropland", "fallow"],
+    "incompatible_constraints": []
+  },
+  "soft_risks": [
+    {
+      "if": "climate_zone in [arid, semi-arid]",
+      "risk": "Lack of stored soil water can make a second crop in the rotation unprofitable",
+      "penalty": 0.12,
+      "mitigation": "Keep the rotation to seasons with reliable rainfall and use a short-duration pulse"
+    },
+    {
+      "if": "ph > 8.0",
+      "risk": "Several rotation legumes grow poorly in alkaline soils",
+      "penalty": 0.1,
+      "mitigation": "Select alkalinity-tolerant pulses such as chickpea and treat sodicity first"
+    }
+  ],
+  "requires_first": [],
+  "impacted_metrics": ["SOC", "nitrogen", "nutrient_availability", "soil_biota", "water_holding_capacity", "crop_yield"],
+  "mechanism": "Alternating crop families breaks pest cycles and alternates rooting depth and residue quality, which sustains carbon and nitrogen supply.",
+  "time_horizon": "medium",
+  "region_variants": [],
+  "evidence_chunk_ids": [
+    "v3_p03_crop_rotations__p16",
+    "v3_p03_crop_rotations__p09",
+    "v3_p03_crop_rotations__p02"
+  ]
+}

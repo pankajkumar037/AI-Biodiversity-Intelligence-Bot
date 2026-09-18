@@ -1,0 +1,39 @@
+{
+  "practice_id": "no_till",
+  "name": "No-till establishment",
+  "addresses_flags": ["low_SOC", "water_limited", "bare_fallow"],
+  "hard_constraints": {
+    "land_use_in": ["cropland", "orchard"],
+    "incompatible_constraints": []
+  },
+  "soft_risks": [
+    {
+      "if": "always",
+      "risk": "Weed pressure rises and nitrogen can be temporarily immobilised in the residue layer",
+      "penalty": 0.12,
+      "mitigation": "Plan weed management for the first seasons and adjust nitrogen timing"
+    },
+    {
+      "if": "constraint no_machinery",
+      "risk": "Direct seeding usually needs a seed drill the farm may not have",
+      "penalty": 0.2,
+      "mitigation": "Share equipment through a cooperative or start with reduced tillage instead"
+    }
+  ],
+  "requires_first": [],
+  "impacted_metrics": ["SOC", "soil_moisture", "water_holding_capacity", "bulk_density", "soil_biota", "carbon_sequestration_rate"],
+  "mechanism": "Leaving the soil undisturbed keeps aggregates and residue intact, so water infiltrates and stays and carbon is not exposed to rapid oxidation.",
+  "time_horizon": "medium",
+  "region_variants": [
+    {
+      "region": "semi-arid",
+      "note": "FAO reports cover crops do not reduce cash crop yields under no-tillage in semiarid regions because evapotranspiration is lower.",
+      "source_unit": "v3_p01_cover_cropping"
+    }
+  ],
+  "evidence_chunk_ids": [
+    "v4_c01_notill_olive_lebanon__p01",
+    "v4_c21_covercrop_almond_spain__p11",
+    "v4_c05_ca_south_africa__p14"
+  ]
+}

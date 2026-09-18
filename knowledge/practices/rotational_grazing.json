@@ -1,0 +1,27 @@
+{
+  "practice_id": "rotational_grazing",
+  "name": "Rotational grazing",
+  "addresses_flags": ["low_SOC", "bare_fallow", "biodiversity_decline"],
+  "hard_constraints": {
+    "land_use_in": ["grassland", "pasture"],
+    "incompatible_constraints": ["no_livestock"]
+  },
+  "soft_risks": [
+    {
+      "if": "climate_zone in [arid, semi-arid]",
+      "risk": "Recovery between grazing periods is slow where rainfall is low, so the rest interval must be long",
+      "penalty": 0.12,
+      "mitigation": "Lengthen rest periods and lower stocking density in dry years"
+    }
+  ],
+  "requires_first": [],
+  "impacted_metrics": ["SOC", "biomass", "species_richness", "erosion", "bulk_density"],
+  "mechanism": "Moving animals between paddocks gives grass time to regrow, keeping root systems and ground cover intact instead of grazing them to bare soil.",
+  "time_horizon": "medium",
+  "region_variants": [],
+  "evidence_chunk_ids": [
+    "ipbes_ch6_responses__w05__p02",
+    "v3_p39_silvopastoral__p17",
+    "ipbes_ch6_responses__w03__p02"
+  ]
+}

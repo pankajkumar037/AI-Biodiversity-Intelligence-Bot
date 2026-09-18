@@ -1,0 +1,33 @@
+{
+  "practice_id": "intercropping",
+  "name": "Cereal-legume intercropping",
+  "addresses_flags": ["monoculture", "low_SOC", "biodiversity_decline", "low_habitat_diversity"],
+  "hard_constraints": {
+    "land_use_in": ["cropland", "fallow"],
+    "incompatible_constraints": []
+  },
+  "soft_risks": [
+    {
+      "if": "climate_zone in [arid, semi-arid]",
+      "risk": "Strong competition between the two crops for water and light can cut the yield of the main crop",
+      "penalty": 0.12,
+      "mitigation": "Use wider strip arrangements and a drought-tolerant legume, and conserve moisture with mulch first"
+    }
+  ],
+  "requires_first": ["mulching"],
+  "impacted_metrics": ["SOC", "species_richness", "habitat_diversity", "nitrogen", "soil_biota", "erosion", "crop_yield"],
+  "mechanism": "Two crops with different rooting depths and nitrogen habits share the field, adding a legume nitrogen source and more niches above and below ground.",
+  "time_horizon": "medium",
+  "region_variants": [
+    {
+      "region": "India semi-arid",
+      "note": "Strip arrangements are the common dryland form, chosen so the legume does not shade the cereal during grain fill.",
+      "source_unit": "v3_p05_intercropping_strip"
+    }
+  ],
+  "evidence_chunk_ids": [
+    "v3_p05_intercropping_strip__p05",
+    "v3_p05_intercropping_strip__p07",
+    "v3_p04_intercropping_multi__p01"
+  ]
+}

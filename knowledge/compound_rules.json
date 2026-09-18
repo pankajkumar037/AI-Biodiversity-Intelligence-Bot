@@ -1,0 +1,34 @@
+[
+  {
+    "rule_id": "C-01",
+    "name": "carbon_water_trap",
+    "if_all": ["low_SOC", "water_limited"],
+    "implies": "reinforcing_loop",
+    "loop": ["SOC", "water_holding_capacity", "biomass", "SOC"],
+    "note": "Low carbon holds less water, which limits biomass, which returns less carbon."
+  },
+  {
+    "rule_id": "C-02",
+    "name": "simplified_system_biodiversity_loss",
+    "if_all": ["monoculture", "biodiversity_decline"],
+    "implies": "diversity_deficit",
+    "loop": ["habitat_diversity", "species_richness", "soil_biota", "SOC"],
+    "note": "A single-species system supplies few niches, so soil and above-ground diversity fall together."
+  },
+  {
+    "rule_id": "C-03",
+    "name": "exposed_soil_erosion_risk",
+    "if_all": ["low_SOC", "bare_fallow"],
+    "implies": "erosion_exposure",
+    "loop": ["SOC", "soil_erosion", "nutrient_availability", "biomass", "SOC"],
+    "note": "Carbon-poor bare soil erodes, losing the nutrients that would rebuild cover."
+  },
+  {
+    "rule_id": "C-04",
+    "name": "fragmented_dryland",
+    "if_all": ["water_limited", "low_natural_cover"],
+    "implies": "habitat_scarcity",
+    "loop": ["tree_cover", "soil_moisture", "species_richness"],
+    "note": "Scarce natural cover in a dry landscape leaves little refuge for pollinators and soil biota."
+  }
+]

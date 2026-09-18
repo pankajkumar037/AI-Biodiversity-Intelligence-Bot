@@ -1,0 +1,32 @@
+{
+  "practice_id": "hedges_buffer_strips",
+  "name": "Field-margin hedges and buffer strips",
+  "addresses_flags": ["low_habitat_diversity", "low_natural_cover", "biodiversity_decline", "monoculture"],
+  "hard_constraints": {
+    "land_use_in": ["cropland", "grassland", "fallow", "orchard"],
+    "incompatible_constraints": []
+  },
+  "soft_risks": [
+    {
+      "if": "always",
+      "risk": "Margins take a strip of land out of production",
+      "penalty": 0.08,
+      "mitigation": "Site strips on the least productive edges and field boundaries already out of use"
+    },
+    {
+      "if": "constraint leased_land_no_trees",
+      "risk": "Woody margins may not be permitted on leased land",
+      "penalty": 0.15,
+      "mitigation": "Use herbaceous flower strips rather than woody hedges"
+    }
+  ],
+  "requires_first": [],
+  "impacted_metrics": ["pollinators", "habitat_diversity", "species_richness", "fragmentation", "erosion"],
+  "mechanism": "Permanent vegetation at field edges supplies flowering resources and nesting habitat, and reconnects patches across an otherwise uniform field.",
+  "time_horizon": "medium",
+  "region_variants": [],
+  "evidence_chunk_ids": [
+    "sowbfa_pollination__p06",
+    "ipbes_pollinators__w01__p01"
+  ]
+}

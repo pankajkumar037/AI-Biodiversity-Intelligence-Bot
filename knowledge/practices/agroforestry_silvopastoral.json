@@ -1,0 +1,28 @@
+{
+  "practice_id": "agroforestry_silvopastoral",
+  "name": "Silvopastoral agroforestry (trees with pasture)",
+  "addresses_flags": ["low_SOC", "low_habitat_diversity", "low_natural_cover", "biodiversity_decline"],
+  "hard_constraints": {
+    "land_use_in": ["grassland", "pasture", "fallow"],
+    "min_rainfall_mm": 250,
+    "incompatible_constraints": ["leased_land_no_trees", "no_livestock"]
+  },
+  "soft_risks": [
+    {
+      "if": "always",
+      "risk": "Livestock trampling compacts soil and overgrazing concentrates around trees, reducing cover and structure",
+      "penalty": 0.15,
+      "mitigation": "Rotate animals between paddocks and fence young trees until established"
+    }
+  ],
+  "requires_first": [],
+  "impacted_metrics": ["SOC", "tree_cover", "habitat_diversity", "bulk_density", "soil_biota", "biomass"],
+  "mechanism": "Scattered trees supply dry-season fodder and shade while their litter and roots raise carbon in pasture soils.",
+  "time_horizon": "long",
+  "region_variants": [],
+  "evidence_chunk_ids": [
+    "v3_p39_silvopastoral__p09",
+    "v3_p39_silvopastoral__p05",
+    "v3_p39_silvopastoral__p01"
+  ]
+}

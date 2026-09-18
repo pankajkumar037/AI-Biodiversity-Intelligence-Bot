@@ -1,0 +1,40 @@
+{
+  "practice_id": "mulching",
+  "name": "Organic residue mulching",
+  "addresses_flags": ["water_limited", "low_SOC", "bare_fallow", "dry_subhumid"],
+  "hard_constraints": {
+    "land_use_in": ["cropland", "fallow", "orchard", "grassland"],
+    "max_rainfall_mm": 1000,
+    "incompatible_constraints": []
+  },
+  "soft_risks": [
+    {
+      "if": "rainfall_mm > 1000",
+      "risk": "In cool wet conditions mulch can depress yields through allelochemicals and slow soil warming",
+      "penalty": 0.2,
+      "mitigation": "Use thinner layers and mulch only in the dry season"
+    },
+    {
+      "if": "constraint residue_needed_for_fodder",
+      "risk": "Crop residues compete with fodder, fuel and construction uses",
+      "penalty": 0.2,
+      "mitigation": "Mulch only the share of residue not needed as fodder, or grow a dedicated biomass strip"
+    }
+  ],
+  "requires_first": [],
+  "impacted_metrics": ["soil_moisture", "SOC", "temperature", "erosion", "soil_biota", "nutrient_availability"],
+  "mechanism": "A surface residue layer cuts evaporation and raindrop impact, holding moisture and feeding soil organisms as it breaks down.",
+  "time_horizon": "short",
+  "region_variants": [
+    {
+      "region": "semi-arid",
+      "note": "FAO notes a net SOC decline over time in semiarid environments where net primary productivity is too low to supply enough residue.",
+      "source_unit": "v3_p02_organic_mulch"
+    }
+  ],
+  "evidence_chunk_ids": [
+    "v3_p02_organic_mulch__p06",
+    "v3_p02_organic_mulch__p01",
+    "v4_c20_mulch_granada__p01"
+  ]
+}

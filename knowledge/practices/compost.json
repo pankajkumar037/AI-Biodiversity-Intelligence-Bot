@@ -1,0 +1,27 @@
+{
+  "practice_id": "compost",
+  "name": "Compost application",
+  "addresses_flags": ["low_SOC", "bare_fallow"],
+  "hard_constraints": {
+    "land_use_in": ["cropland", "orchard", "grassland", "fallow"],
+    "incompatible_constraints": []
+  },
+  "soft_risks": [
+    {
+      "if": "always",
+      "risk": "Untreated or contaminated feedstock can carry trace metals and other pollutants into the soil",
+      "penalty": 0.12,
+      "mitigation": "Compost fully before application and avoid feedstock of unknown origin"
+    }
+  ],
+  "requires_first": [],
+  "impacted_metrics": ["SOC", "nutrient_availability", "soil_biota", "species_richness", "water_holding_capacity"],
+  "mechanism": "Stabilised organic matter adds carbon directly and feeds the soil community that holds it in aggregates.",
+  "time_horizon": "short",
+  "region_variants": [],
+  "evidence_chunk_ids": [
+    "v3_p02_organic_mulch__p07",
+    "sowbfa_soil_biodiv_mgmt__p05",
+    "ipbes_ch6_responses__w02__p06"
+  ]
+}

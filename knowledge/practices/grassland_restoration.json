@@ -1,0 +1,27 @@
+{
+  "practice_id": "grassland_restoration",
+  "name": "Grassland and degraded-land restoration",
+  "addresses_flags": ["low_SOC", "low_natural_cover", "low_habitat_diversity", "biodiversity_decline", "bare_fallow"],
+  "hard_constraints": {
+    "land_use_in": ["grassland", "pasture", "fallow", "degraded"],
+    "incompatible_constraints": []
+  },
+  "soft_risks": [
+    {
+      "if": "climate_zone in [arid, semi-arid]",
+      "risk": "Establishment is slow and uncertain where rainfall is low and erratic",
+      "penalty": 0.15,
+      "mitigation": "Sow native drought-adapted species and protect from grazing during establishment"
+    }
+  ],
+  "requires_first": [],
+  "impacted_metrics": ["SOC", "species_richness", "habitat_diversity", "erosion", "biomass", "fragmentation"],
+  "mechanism": "Re-establishing perennial vegetation rebuilds root carbon and ground cover, giving soil biota and above-ground species a continuous habitat again.",
+  "time_horizon": "long",
+  "region_variants": [],
+  "evidence_chunk_ids": [
+    "srccl_ch4_land_degradation__w02__p06",
+    "ipbes_ch6_responses__w08__p04",
+    "srccl_ch3_desertification__w02__p10"
+  ]
+}

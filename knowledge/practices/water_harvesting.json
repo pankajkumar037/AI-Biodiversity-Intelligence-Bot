@@ -1,0 +1,26 @@
+{
+  "practice_id": "water_harvesting",
+  "name": "In-field rainwater harvesting",
+  "addresses_flags": ["water_limited", "dry_subhumid", "low_SOC"],
+  "hard_constraints": {
+    "land_use_in": ["cropland", "grassland", "fallow", "orchard"],
+    "max_rainfall_mm": 900,
+    "incompatible_constraints": []
+  },
+  "soft_risks": [
+    {
+      "if": "always",
+      "risk": "Earthworks need labour up front and can concentrate runoff if poorly sited",
+      "penalty": 0.1,
+      "mitigation": "Follow the contour and start with small structures on part of the field"
+    }
+  ],
+  "requires_first": [],
+  "impacted_metrics": ["soil_moisture", "crop_yield", "biomass", "erosion", "water_holding_capacity"],
+  "mechanism": "Contour bunds and pits hold rainfall where it falls so it infiltrates instead of running off, extending the moisture available to the crop.",
+  "time_horizon": "short",
+  "region_variants": [],
+  "evidence_chunk_ids": [
+    "srccl_ch3_desertification__w08__p05"
+  ]
+}

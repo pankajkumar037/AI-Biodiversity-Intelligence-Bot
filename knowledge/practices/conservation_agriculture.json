@@ -1,0 +1,33 @@
+{
+  "practice_id": "conservation_agriculture",
+  "name": "Conservation agriculture (minimum disturbance, cover, rotation)",
+  "addresses_flags": ["low_SOC", "water_limited", "monoculture", "bare_fallow"],
+  "hard_constraints": {
+    "land_use_in": ["cropland"],
+    "incompatible_constraints": ["no_machinery"]
+  },
+  "soft_risks": [
+    {
+      "if": "climate_zone in [arid, semi-arid]",
+      "risk": "FAO records crop yield decreases under conservation agriculture in some semi-arid regions",
+      "penalty": 0.2,
+      "mitigation": "Introduce the three components in sequence rather than at once, starting with residue cover"
+    },
+    {
+      "if": "constraint residue_needed_for_fodder",
+      "risk": "The permanent soil cover component competes with fodder use of residues",
+      "penalty": 0.2,
+      "mitigation": "Retain a partial cover and source fodder from a dedicated strip"
+    }
+  ],
+  "requires_first": ["mulching", "reduced_tillage"],
+  "impacted_metrics": ["SOC", "erosion", "soil_moisture", "water_holding_capacity", "soil_biota", "crop_yield"],
+  "mechanism": "Minimum disturbance, permanent soil cover and crop rotation act together so carbon accumulates while the surface stays protected.",
+  "time_horizon": "long",
+  "region_variants": [],
+  "evidence_chunk_ids": [
+    "v4_c05_ca_south_africa__p14",
+    "sowbfa_soil_biodiv_mgmt__p06",
+    "v3_p05_intercropping_strip__p01"
+  ]
+}

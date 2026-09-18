@@ -1,0 +1,34 @@
+{
+  "practice_id": "shelterbelts",
+  "name": "Shelterbelts and windbreaks",
+  "addresses_flags": ["water_limited", "low_natural_cover", "low_habitat_diversity"],
+  "hard_constraints": {
+    "land_use_in": ["cropland", "grassland", "fallow"],
+    "min_rainfall_mm": 200,
+    "incompatible_constraints": ["leased_land_no_trees"]
+  },
+  "soft_risks": [
+    {
+      "if": "climate_zone in [arid, semi-arid]",
+      "risk": "The tree rows themselves use water and take land out of production",
+      "penalty": 0.12,
+      "mitigation": "Use narrow single-row belts of native drought-tolerant species on the windward edge"
+    }
+  ],
+  "requires_first": [],
+  "impacted_metrics": ["erosion", "soil_moisture", "tree_cover", "habitat_diversity", "temperature"],
+  "mechanism": "A row of trees across the prevailing wind slows it near the ground, cutting wind erosion and evaporation in the sheltered zone.",
+  "time_horizon": "long",
+  "region_variants": [
+    {
+      "region": "India hot arid",
+      "note": "Shelterbelt planting is a documented practice for the hot arid zone.",
+      "source_unit": "tewari_hot_arid__full"
+    }
+  ],
+  "evidence_chunk_ids": [
+    "tewari_hot_arid__full__p04",
+    "sowbfa_diversification__w00__p05",
+    "v3_p38_agrisilvicultural__p06"
+  ]
+}
