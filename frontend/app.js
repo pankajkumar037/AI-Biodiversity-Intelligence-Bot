@@ -206,6 +206,12 @@
   function onNode(msg, trace, ev) {
     const u = ev.update || {};
     if (u.trace) Object.assign(trace, u.trace);
+    // A failed check that is about to be retried is not a thought; the retry header
+    // and the Verification toggle carry it.
+    if (ev.node === "verify" && u.verify_feedback) {
+      $(".label", msg.think).textContent = NEXT_LABEL.retrieve;
+      return;
+    }
     const d = describe(ev.node, u, trace);
     if (ev.node === "adjudicate" && (u.verify_attempts || 1) > 1) {
       const h = document.createElement("li"); h.className = "head"; h.textContent = `retry ${u.verify_attempts - 1}`; msg.steps.appendChild(h);
