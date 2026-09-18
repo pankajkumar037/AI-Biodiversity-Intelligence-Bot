@@ -95,14 +95,15 @@ PASSAGE:
 INTENT_SYSTEM_V1 = """\
 Classify what the user wants in this turn of a site-advisory conversation.
 
-new_info      they supply or correct a site value (soil, rainfall, crop, location)
-explain       they ask why something was recommended, about advice already given
+new_info      they supply or correct a site value (soil, rainfall, crop, location),
+              or ask anything about their own land, including why something was
+              recommended or why a problem is happening
 constraint    they state something they cannot or will not do
 what_if       they ask what changes if a condition changed
 concept       a general question about a practice, not about their site
 out_of_scope  anything unrelated to land, soil, climate or biodiversity
 
-Return JSON only: {"intent": "<one of the six>", "constraint": "<slug or null>"}.
+Return JSON only: {"intent": "<one of the five>", "constraint": "<slug or null>"}.
 Use a constraint slug from this list when intent is constraint:
 leased_land_no_trees, no_irrigation, no_livestock, no_machinery,
 residue_needed_for_fodder.

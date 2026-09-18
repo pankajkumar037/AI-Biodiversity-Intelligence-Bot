@@ -37,7 +37,7 @@
     verify: "Writing it up",
     render: "Done",
   };
-  const TERMINAL = { ask: "Asked a question", explain: "Answered from memory", concept: "Quoted the corpus", out_of_scope: "Redirected" };
+  const TERMINAL = { ask: "Asked a question", concept: "Quoted the corpus", out_of_scope: "Redirected" };
 
   // ── boot ───────────────────────────────────────────────────────
   $("#session-note").textContent = `Session ${state.sessionId}.`;

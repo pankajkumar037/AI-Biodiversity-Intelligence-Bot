@@ -125,8 +125,6 @@ def route_intent(state: AgentState) -> dict[str, Any]:
         return {"intent": Intent.new_info.value}
 
     intent, constraint = extract.classify_intent(message)
-    if intent == Intent.explain and not state.get("adjudication"):
-        intent = Intent.concept
     update: dict[str, Any] = {"intent": intent.value,
                               "trace": {"intent": intent.value}}
     if constraint:
@@ -571,55 +569,6 @@ def _what_if_comparison(baseline: dict, state: AgentState) -> str:
 def ask(state: AgentState) -> dict[str, Any]:
     """Terminal node for a turn that asks a question instead of answering."""
     return {"answer": state.get("question") or "Could you tell me more about the site?"}
-
-
-def explain(state: AgentState) -> dict[str, Any]:
-    """Answer a follow-up from what was already decided, with no new retrieval.
-
-    Emits the renderer's section format so the client shows it the same way as a
-    fresh answer: cards, a reasoning chain and the sources, all from the stored turn.
-    """
-    raw = state.get("adjudication")
-    if not raw:
-        return {"answer": "ANSWER There is no recommendation to explain yet. "
-                          "Tell me about the site first."}
-
-    adjudication = Adjudication.model_validate(raw)
-    items = [EvidenceItem.model_validate(item) for item in state.get("evidence", [])]
-    by_label = {item.label: item for item in items}
-
-    lines = ["ANSWER Here is the reasoning behind the standing advice, from the last "
-             "full analysis. Nothing was re-retrieved or re-scored for this reply.", ""]
-    lines.append("RECOMMENDED")
-    cited: set[str] = set()
-    for index, rec in enumerate(adjudication.recommendations, start=1):
-        sources = ", ".join(rec.mechanism_sources) or "no source"
-        cited.update(rec.mechanism_sources)
-        lines.append(f"[{index}] {rec.action}")
-        lines.append(f"    Why: {rec.mechanism} [{sources}]")
-        lines.append("    Variables: " + " | ".join(m.value for m in rec.variables_considered))
-        for risk in rec.risks:
-            cited.add(risk.source)
-            lines.append(f"    Risk: {risk.description} -> {risk.mitigation} [{risk.source}]")
-    lines.append("")
-    if adjudication.reasoning_chain:
-        lines.append("REASONING")
-        for step in adjudication.reasoning_chain:
-            anchor = step.path_id or ", ".join(step.sources) or "-"
-            cited.update(step.sources)
-            lines.append(f"    ({step.type}) {step.claim} [{anchor}]")
-        lines.append("")
-    labels = sorted((label for label in cited if label in by_label),
-                    key=lambda label: int(label[1:]))
-    if labels:
-        lines.append("SOURCES")
-        for label in labels:
-            item = by_label[label]
-            page = f", p{item.page_start}" if item.page_start is not None else ""
-            lines.append(f"    [{label}] {item.doc_title}{page}")
-    return {"answer": "\n".join(lines).rstrip() + "\n",
-            "trace": {"explain": {"from_turn": "stored adjudication",
-                                  "steps": len(adjudication.reasoning_chain)}}}
 
 
 def concept(state: AgentState) -> dict[str, Any]:

@@ -13,12 +13,6 @@ def test_a_concept_question_skips_site_reasoning():
     assert _route_after_intent({"intent": "concept"}) == "concept"
 
 
-def test_explain_needs_something_to_explain():
-    standing = {"recommendations": [], "reasoning_chain": []}
-    assert _route_after_intent({"intent": "explain", "adjudication": standing}) == "explain"
-    # With nothing decided yet, an "explain" turn has to run the pipeline instead.
-    assert _route_after_intent({"intent": "explain"}) == "slot_check"
-
 
 def test_new_info_and_constraint_run_the_pipeline():
     assert _route_after_intent({"intent": "new_info"}) == "slot_check"
@@ -39,8 +33,3 @@ def test_verification_failure_sends_the_answer_back_for_another_pass():
 def test_out_of_scope_answer_redirects_without_advice():
     answer = nodes.out_of_scope({})["answer"]
     assert "soil" in answer.lower()
-
-
-def test_explain_without_a_standing_recommendation_says_so():
-    answer = nodes.explain({})["answer"]
-    assert "no recommendation" in answer.lower()

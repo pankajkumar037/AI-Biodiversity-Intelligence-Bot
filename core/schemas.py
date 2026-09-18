@@ -82,7 +82,6 @@ class FieldSource(str, Enum):
 
 class Intent(str, Enum):
     new_info = "new_info"
-    explain = "explain"
     constraint = "constraint"
     what_if = "what_if"
     concept = "concept"
