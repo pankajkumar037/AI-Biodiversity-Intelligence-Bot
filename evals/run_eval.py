@@ -188,7 +188,9 @@ def score(case: dict, outcome: dict) -> dict:
     violations = sorted(recommended & should_exclude)
 
     expected_downgrade = set(case["expected"].get("must_downgrade", []))
-    risk_detected = bool(expected_downgrade) and not (recommended & expected_downgrade)
+    risk_detected = (
+        not (recommended & expected_downgrade) if expected_downgrade else None
+    )
 
     wanted = set(case["expected"].get("must_recommend_any", []))
     hit_wanted = bool(recommended & wanted) if wanted else None
@@ -258,8 +260,13 @@ def write_report(results: list[dict]) -> None:
 
     lines += [
         "## Reading this honestly", "",
-        "- Configs A and B have no evidence block to cite, so a grounding rate of 0 or",
-        "  n/a means the numbers could not be checked at all, not that they are wrong.",
+        "- Config A has no evidence block, so its citations and numbers cannot be",
+        "  checked at all; a 0 there means unverifiable, not necessarily wrong.",
+        "- Configs B and C see the same evidence as D. A citation validity below 1.0",
+        "  there means the model cited a label that was never given to it, which is",
+        "  exactly what verification exists to catch.",
+        "- n/a for the risky-practice row means the case has no downgraded practice",
+        "  to check.",
         "- `risk_detected` is coarse: it only asks whether a practice the engine",
         "  downgrades stayed out of the recommendation set.",
         "- Sample sizes here are small. Treat the table as a direction, not a",
