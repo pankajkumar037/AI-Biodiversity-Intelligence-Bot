@@ -1,0 +1,208 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Integrated response options based on land management of soils",
+  "content_type": "practice",
+  "summary": "This section describes integrated response options for land management of soils, specifically focusing on increasing soil organic carbon content, reducing soil erosion, reducing soil salinisation, reducing soil compaction, and biochar addition to soil, detailing their descriptions, contexts, and caveats.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch6_interlinkages__w01__p01",
+      "heading_path": [
+        "6.2 Response options, co-benefits and adverse side effects across the land challenges",
+        "6.2.1 Integrated response options based on land management",
+        "6.2.1.3 Integrated response options based on land management of soils"
+      ],
+      "text": "Practices that increase soil organic matter content include a) land-use change to an ecosystem with higher equilibrium soil carbon levels (e.g., from cropland to forest), b) management of the vegetation: including high input carbon practices, for example, improved varieties, rotations and cover crops, perennial cropping systems, biotechnology to increase inputs and recalcitrance of below ground carbon, c) nutrient management and organic material input to increase carbon returns to the soil, including: optimised fertiliser and organic material application rate, type, timing and precision application, d) reduced tillage intensity and residue retention, and e) improved water management: including irrigation in arid/semi-arid conditions.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Increased soil organic carbon content",
+      "practices": [
+        "cover_crops",
+        "reduced_tillage",
+        "irrigation",
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "SOC",
+        "soil_organic_matter",
+        "water_holding_capacity",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland",
+        "forest"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w01__p02",
+      "heading_path": [
+        "6.2 Response options, co-benefits and adverse side effects across the land challenges",
+        "6.2.1 Integrated response options based on land management",
+        "6.2.1.3 Integrated response options based on land management of soils"
+      ],
+      "text": "Increasing soil carbon stocks removes CO2 from the atmosphere and increases the water-holding capacity of the soil, thereby conferring resilience to climate change and enhancing adaptation capacity. It is a key strategy for addressing both desertification and land degradation. There is some evidence that crop yields and yield stability increase by increased organic matter content, though some studies show equivocal impacts.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Increased soil organic carbon content",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "SOC",
+        "water_holding_capacity",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w01__p03",
+      "heading_path": [
+        "6.2 Response options, co-benefits and adverse side effects across the land challenges",
+        "6.2.1 Integrated response options based on land management",
+        "6.2.1.3 Integrated response options based on land management of soils"
+      ],
+      "text": "Soil erosion is the removal of soil from the land surface by water, wind or tillage, which occurs worldwide but it is particularly severe in Asia, Latin America and the Caribbean, and the Near East and North Africa. Soil erosion management includes conservation practices (e.g., the use of minimum tillage or zero tillage, crop rotations and cover crops, rational grazing systems), engineering-like practices (e.g., construction of terraces and contour cropping for controlling water erosion), or forest barriers and strip cultivation for controlling wind erosion. In eroded soils, the advance of erosion gullies and sand dunes can be limited by increasing plant cover, among other practices.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Reduced soil erosion",
+      "practices": [
+        "no_till",
+        "reduced_tillage",
+        "cover_crops",
+        "rotational_grazing",
+        "terracing"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w01__p04",
+      "heading_path": [
+        "6.2 Response options, co-benefits and adverse side effects across the land challenges",
+        "6.2.1 Integrated response options based on land management",
+        "6.2.1.3 Integrated response options based on land management of soils"
+      ],
+      "text": "Soil salinisation is a major process of land degradation that decreases soil fertility and affects agricultural production, aquaculture and forestry. It is a significant component of desertification processes in drylands. Practices to reduce soil salinisation include improvement of water management (e.g., water-use efficiency and irrigation/drainage technology in arid/semi-arid areas, surface and groundwater management), improvement of soil health (through increase in soil organic matter content) and improved cropland, grazing land and livestock management, agroforestry and conservation agriculture.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "Reduced soil salinisation",
+      "practices": [
+        "irrigation",
+        "agroforestry_agrisilvicultural",
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "salinity",
+        "SOC"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland",
+        "forest"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w01__p05",
+      "heading_path": [
+        "6.2 Response options, co-benefits and adverse side effects across the land challenges",
+        "6.2.1 Integrated response options based on land management",
+        "6.2.1.3 Integrated response options based on land management of soils"
+      ],
+      "text": "The use of biochar, a solid product of the pyrolysis process, as a soil amendment increases the water-holding capacity of soil. It may therefore provide better access to water and nutrients for crops and other vegetation types (so can form part of cropland, grazing land and forest management).",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "Biochar addition to soil",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "water_holding_capacity",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland",
+        "forest"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch6_interlinkages__w01__c01",
+      "passage_id": "srccl_ch6_interlinkages__w01__p02",
+      "subject": "Increasing soil carbon stocks",
+      "metric": "water_holding_capacity",
+      "direction": "increase",
+      "evidence_span": "Increasing soil carbon stocks removes CO2 from the atmosphere and increases the water-holding capacity of the soil",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w01__c02",
+      "passage_id": "srccl_ch6_interlinkages__w01__p05",
+      "subject": "Biochar",
+      "metric": "water_holding_capacity",
+      "direction": "increase",
+      "evidence_span": "The use of biochar, a solid product of the pyrolysis process, as a soil amendment increases the water-holding capacity of soil.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "Increased soil organic carbon content",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "condition": null,
+      "passage_id": "srccl_ch6_interlinkages__w01__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "Biochar addition to soil",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "condition": null,
+      "passage_id": "srccl_ch6_interlinkages__w01__p05",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w01",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 572,
+    "pdf_end": 583,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:52:34Z",
+    "pdf_sha256": "4e31151945b99892"
+  }
+}

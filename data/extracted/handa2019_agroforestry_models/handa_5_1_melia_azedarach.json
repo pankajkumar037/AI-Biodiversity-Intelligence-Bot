@@ -1,0 +1,178 @@
+{
+  "extraction_status": "ok",
+  "section_title": "5.1. Agroforestry Model: Melia (Melia azedarach) based Agroforestry System",
+  "content_type": "model",
+  "summary": "This document describes a Melia azedarach-based agroforestry system evaluated in Dharwad, Karnataka, on medium black clay soil under rainfed conditions. The system involves intercropping soybean with Melia azedarach at various spacings, with economic analysis favoring a 5 x 4 m spacing.",
+  "passages": [
+    {
+      "passage_id": "handa_5_1_melia_azedarach__p01",
+      "heading_path": [
+        "5.1. Agroforestry Model: Melia (Melia azedarach) based Agroforestry System"
+      ],
+      "text": "A field trial on Melia azedarach based agroforestry system was initiated at the Main Agricultural Research Station, University of Agricultural Sciences, Dharwad on medium black clay soil under rainfed conditions during 2002. The experiment consisted of Melia azedarach planted at four spacings, viz, 5 x 1 m, 5 x 2 m, 5 x 3 m and 5 x 4 m. Soybean (JS-335) crop was grown in the interspace of melia rows during Kharif season every year. Recommended package of practices was followed for soybean. Fertilizer dose of 100:50:100 NPK kg/ha was applied to melia in the initial four years. All the silvi-cultural practices were followed for better development of M. azedarach.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Package of Practices",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "handa_5_1_melia_azedarach__p02",
+      "heading_path": [
+        "5.1. Agroforestry Model: Melia (Melia azedarach) based Agroforestry System",
+        "Yield/Annual Returns"
+      ],
+      "text": "Soybean: Grain yield was 1000-1200 kg/ha in 5 x 4 m spacing of Melia azedarach.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Yield",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "handa_5_1_melia_azedarach__p03",
+      "heading_path": [
+        "5.1. Agroforestry Model: Melia (Melia azedarach) based Agroforestry System",
+        "Economics"
+      ],
+      "text": "At the end of the 10th year net returns and BCR were higher in melia at 5 x 4 m + field crop (Rs 10502/ha/yr and Rs 1.86:1, respectively) followed by sole field crop (Rs 6410/ha/yr and Rs 1.73:1, respectively) as compared to Melia azedarach at 5 x 1m + field crops (Rs 4351/ha/yr and Rs 1.27:1, respectively). The findings of the investigation reveal that Melia azedarach can be grown at a wider spacing of 5 x 4 m and the interspace can be used to raise agricultural crops. The system is economically viable.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Economics",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "handa_5_1_melia_azedarach__p04",
+      "heading_path": [
+        "5.1. Agroforestry Model: Melia (Melia azedarach) based Agroforestry System",
+        "Environmental Benefits"
+      ],
+      "text": "The technology is helpful for increasing green cover, soil fertility and income of farmers.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Environmental Benefits",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "handa_5_1_melia_azedarach__c01",
+      "passage_id": "handa_5_1_melia_azedarach__p02",
+      "subject": "Soybean",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value_low": 1000,
+      "value_high": 1200,
+      "unit": "kg_ha",
+      "conditions": "5 x 4 m spacing of Melia azedarach",
+      "evidence_span": "Soybean: Grain yield was 1000-1200 kg/ha in 5 x 4 m spacing of Melia azedarach.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "handa_5_1_melia_azedarach__c02",
+      "passage_id": "handa_5_1_melia_azedarach__p04",
+      "subject": "Melia azedarach based agroforestry system",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "evidence_span": "The technology is helpful for increasing green cover, soil fertility and income of farmers.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": "5 x 4 m spacing",
+      "passage_id": "handa_5_1_melia_azedarach__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "passage_id": "handa_5_1_melia_azedarach__p04",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Melia (Melia azedarach) based Agroforestry System",
+    "tree_species": [
+      "Melia azedarach"
+    ],
+    "crop_species": [
+      "Soybean (JS-335)"
+    ],
+    "region_of_adoption": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "stated_benefits": [
+      "increasing green cover",
+      "soil fertility",
+      "income of farmers",
+      "economically viable"
+    ],
+    "stated_constraints": [
+      "Leaf eating caterpillar observed on soybean",
+      "Pruning up to two-thirds from the base is essential for Melia azedarach"
+    ]
+  },
+  "_meta": {
+    "unit_id": "handa_5_1_melia_azedarach",
+    "doc_id": "handa2019_agroforestry_models",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 54,
+    "pdf_end": 58,
+    "manifest_practices": [],
+    "manifest_climate_zones": [
+      "semi-arid"
+    ],
+    "extracted_at": "2026-09-18T08:59:42Z",
+    "pdf_sha256": "57c0490af2498ab2"
+  }
+}

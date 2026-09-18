@@ -1,0 +1,1345 @@
+{
+  "extraction_status": "ok",
+  "section_title": "A global meta-analysis of cover crop response on soil carbon storage within a corn production system",
+  "content_type": "assessment",
+  "summary": "This meta-analysis investigated the impact of cover crops on soil organic carbon (SOC) accumulation in corn production systems. Information from 61 peer-reviewed studies, comprising 198 paired comparisons, was analyzed. The results indicate that cover crops, on average, increased SOC by 7.3%. The impact of cover crops on SOC accumulation was found to be influenced by factors such as soil texture, climate, crop rotation, tillage type, and cover crop biomass. The study estimates that current cover crop-based corn production systems in the United States are sequestering 5.5 million Mg of SOC annually and have the potential to sequester 175 million Mg SOC globally per year. These findings can aid in improving carbon footprint calculations and developing science-based policy recommendations, suggesting cover cropping as a strategy to sequester atmospheric carbon and enhance the resilience of corn production systems to climate change.",
+  "passages": [
+    {
+      "passage_id": "joshi2023_agj__p01",
+      "heading_path": [
+        "Abstract"
+      ],
+      "text": "By influencing soil organic carbon (SOC), cover crops play a key role in shaping soil health and hence the system's long-term sustainability. However, the magnitude by which cover crops impacts SOC depends on multiple factors, including soil type, climate, crop rotation, tillage type, cover crop growth, and years under management. To elucidate how these multiple factors influence the relative impact of cover crops on SOC, we conducted a meta-analysis on the impacts of cover crops within rotations that included corn (Zea mays L.) on SOC accumulation. Information on climatic conditions, soil characteristics, management, and cover crop performance was extracted, resulting in 198 paired comparisons from 61 peer-reviewed studies. Over the course of each study, cover crops on average increased SOC by 7.3% (95% CI, 4.9%–9.6%). Furthermore, the impact of cover crop-induced increases in percent change SOC was evaluated across soil textures, cover crop types, crop rotations, biomass amounts, cover crop durations, tillage practices, and climatic zones. Our results suggest that current cover crop-based corn production systems are sequestering 5.5 million Mg of SOC per year in the United States and have the potential to sequester 175 million Mg SOC per year globally. These findings can be used to improve carbon footprint calculations and develop science-based policy recommendations. Taken altogether, cover cropping is a promising strategy to sequester atmospheric C and hence make corn production systems more resilient to changing climates.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "cover crops and SOC",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "global",
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "joshi2023_agj__p02",
+      "heading_path": [
+        "1",
+        "INTRODUCTION"
+      ],
+      "text": "In 2020, 1162 million metric tons of corn (Zea mays L.) grain was produced globally on 202 million hectares of land (FAOSTAT, 2022). Corn grain is used to produce many products including human food, animal feed, energy products, plastics, cosmetics, diapers, and baby powder (Erenstein et al., 2021; Grote et al., 2021). However, because growing corn can contribute to greenhouse gas (GHG) emissions, it is important to minimize corn's carbon footprint (Chaplot & Smith, 2022; Lee et al., 2021). It has been hypothesized that the carbon footprint can be reduced by growing cover crops within the corn production system (Joshi et al., 2022).\nCover crops are plants that typically are not intended to be harvested and are used to reduce erosion by covering the soil between two cash crops. Farmers have many management options when growing cover crops including what, when, and where to plant (Reese et al., 2014). Interactions among management, climate, and soil conditions dictate cover crops performance, which ultimately impacts cash crop yields and the carbon dioxide equivalence (CO2) (Abdalla et al., 2019; Jian et al., 2020; McClelland et al., 2021; Poeplau & Don, 2015). For example, in arid and semiarid climates, water used by the cover crop can reduce cash crop yields, whereas in temperate environments cover crops can improve soil and plant health (Reese et al., 2014).\nThe CO2 equivalent (CO2e) is used to reduce the complexity of GHG emissions from multiple gases into a single value (Joshi et al., 2022). In crop production, the dominant GHG considered in CO2 calculations are N2O, CO2, and CH4. This paper considers only one of those gases, CO2, because it is directly related to SOC. Carbon dioxide emissions can be assessed by several approaches including direct emission measurement, the prediction of emissions with models, the measurement of temporal changes in SOC, or by some combination of all three (Joshi et al., 2022). This meta-analysis is based on the reported temporal changes in SOC stocks in field experiments that contained cover crop and no cover crop treatments.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "cover crops and SOC",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid",
+        "temperate",
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "joshi2023_agj__p03",
+      "heading_path": [
+        "1",
+        "INTRODUCTION"
+      ],
+      "text": "Cover crops have been reported to have a mixed effect on the amount of carbon sequestered in the soil (Blanco-Canqui, 2022). In a review of US studies, Blanco-Canqui (2022) found that only 29% of the total 77 paired comparisons reported higher SOC stocks in cover crops as compared to no cover crop treatments. The positive effect of cover crops on SOC was attributed to soils with low initial SOC, higher cover crop biomass production, and the use of cover crops for many years. In 71% of the total comparisons included in his study, cover crops had no effect on SOC stocks. Blanco-Canqui (2022) attributed this lack of impact to many factors including tillage, cover crop species, fertilization, irrigation, initial SOC, soil texture, and climate. Blanco-Canqui (2022) did not conduct a quantitative synthesis because most studies do not provide the required information (variances). Fortunately, techniques are available to overcome this barrier (Adams et al., 1997; Basche & DeLong, 2017; Hedges et al., 1999).\nPrevious meta-analytic studies determined cover crop effects on SOC including a wide range of crop rotations (Abdalla et al., 2019; Jian et al., 2020; McClelland et al., 2021; Poeplau & Don, 2015). However, our current study is unique in that it focuses on corn cropping systems and it considers studies within and outside the United States. The objective of this paper was to determine the impact of cover crops on SOC accumulation within rotations that included corn crops.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "cover crops and SOC",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "joshi2023_agj__p04",
+      "heading_path": [
+        "2",
+        "MATERIALS AND METHODS",
+        "2.1",
+        "Literature search and data extraction"
+      ],
+      "text": "This meta-analysis was conducted by searching for digital online peer-reviewed articles that were published prior to May 2022 (Figure 1). In a search of the Web of Science and Google Scholar, relevant articles were collected followed by data extracted, an assessment of data quality, and statistical analysis and interpretation. The keywords used in the Web of Science and Google Scholar search were soil organic matter, soil organic carbon, soil carbon, soil C, corn, maize, Zea mays, cover crop, green manure, rye, oat, vetch, and catch crop. This search resulted in 3856 published articles, which were published prior to May 2022. In addition to the publication date, the articles had to meet the following inclusion criteria: (1) corn had to be included in the rotation; (2) changes in soil organic carbon (SOC) had to be reported; (3) the study had to contain cover crop and no cover crop treatments; (4) the cover crop was not harvested, but was terminated or incorporated, and (5) the replicated field experiment had to be completed for at least 2 years. Because many studies were missing critical information that could not be obtained elsewhere, only 61 were selected for data extraction (Supporting Information).",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "meta-analysis methodology",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "joshi2023_agj__p05",
+      "heading_path": [
+        "2",
+        "MATERIALS AND METHODS",
+        "2.1",
+        "Literature search and data extraction"
+      ],
+      "text": "During data extraction, information on crop rotation, tillage type, cover crop type and biomass produced, method and timing of cover crop termination, fertilizer application, crop yield, location (latitude and longitude), annual temperature and precipitation, soil organic carbon (SOC) and depth of sampling, soil pH, texture, bulk density (bd), when the study was initiated and completed, number of replications, and irrigation were extracted. Whenever total carbon in soil was reported as soil organic matter (SOM), it was converted to soil organic carbon by assuming that organic matter contained 58% carbon (Xu et al., 2019).\nBulk density was used in the model building, as well as to convert gravimetric values to volumetric amounts using the following equations as reported by Xu et al. (2019):\nSOC (Mgha¯¹) = SOC (%) × soil increment (cm) xbd (gcm-³)\nSOC (Mgha¯¹) = SOC (gkg¯¹) × soil increment (cm) xbd (gcm³) × 0.1\nQuestions and gaps in the databases were filled by contacting the authors, extracting soil information from the Web Soil Survey for US studies and ISRIC SoilGrids for non-US studies. Missing climate information was obtained from NOAA (2022). Where possible, soil information was standardized to three soil depths (0-15, 0–30, and 0–60 cm). In the case of multiple soil depth measurements at the same site, SOC for the whole soil profile, that is, from surface to deepest layer, was used in this meta-analysis. This was done to avoid pseudoreplication that may result when data from multiple soil depths are included in the analysis.\nWhenever initial SOC amounts were not provided, it was assumed that the initial SOC stocks were identical for the cover crop and no cover treatments. If there was a difference in the initial SOC stocks between treatments, we either added or subtracted the difference in the final SOC stocks as explained by Xu et al. (2019). Moreover, the SOC stocks were standardized to the 0-15, 0–30, and 0-60 cm depths. For example, if a particular study reported data differently than our standardized soil depth increments, such as 0-10, 10-20, and 20-30 cm, then bulk density along with the depth increments were used, as explained in Equation (1) and (2), to first calculate SOC stock for the respective depth increments, which were afterward added together to determine the SOC stock for the whole soil profile. Moreover, if the depth increment reported in a study did not align with our standard depth categories, we followed the approach of Xu et al. (2019) and adjusted reported values based on if the site was tilled. For tilled sites, the vertical distribution of SOC stocks was assumed to be homogeneous for the first 30 cm. Therefore, for all tilled 0-30 cm depth increments, SOC stock was determined from the surface SOC stock value reported in the study. For no-tillage sites, a conversion factor of 1.35 was used to convert SOC stock provided for the 0–20 cm depth to the 0-30 cm depth (Puget and Lal, 2005; Xu et al., 2019; Yang & Wander, 1999).",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "data extraction and standardization",
+      "practices": [
+        "cover_crops",
+        "no_till",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "SOC",
+        "bulk_density"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "joshi2023_agj__p06",
+      "heading_path": [
+        "2",
+        "MATERIALS AND METHODS",
+        "2.2",
+        "Statistical analysis"
+      ],
+      "text": "The statistical analysis was separated into multiple categories that included exploratory data analysis, cumulative meta-analysis and sensitivity/publication bias analysis, and model building. In exploratory data analysis, the distribution of the study site location was graphically presented using ArcMap. In addition, the type and amount of information collected for each category was determined using frequency plots.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "statistical analysis",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "joshi2023_agj__p07",
+      "heading_path": [
+        "2",
+        "MATERIALS AND METHODS",
+        "2.2",
+        "Statistical analysis",
+        "2.2.1",
+        "Cumulative meta-analysis: Overall cover crop effects"
+      ],
+      "text": "The cumulative meta-analysis determined the overall effect of the treatments (i.e., effect sizes) on the measured parameters. In this analysis, the effect size was determined as the natural log of the response ratio using the equation,\nln (R) = ln (XCC/XNCC) = ln (XCC) - ln (NCC) (3)\nwhere ln(R) is the natural log of response ratios, Xcc is the mean SOC stock or corn yield values for the cover crop treatment, and XNCC is the mean SOC stock or corn yield values for the no cover crop treatment (Hedges et al., 1999). In a meta-analysis, individual effect sizes are usually weighted by the inverse of sample variances to increase the weights of studies with lower variances (Philibert et al., 2012). However, because many studies do not report sample variances, standard deviation (SD), standard errors (SE), or the coefficient of variability (CV), weighting factors (w₁) for the ith observation (i.e., individual effect sizes) were determined based on Adams et al. (1997). This approach is based on the number of replications used in each study (N) and it was determined with the following equation:\nw₁ = (NCC * NNCC)/(NCC + NNCC) (4)\nwhere NCC and NNCC were the number of replications for the cover crop and no cover crop treatments, respectively. Nevertheless, meta-analysis employing sample variances (SD, SE, or CV) as weighting factors is regarded as a more rigorous methodology; thus, additional research is necessary to compare the reported and estimated approaches.\nTo account for various sources of dependencies between effect sizes within and across studies, we created a multilevel mixed-effects meta-analytic model utilizing the “nlme” package in R (Pinheiro et al., 2017; R Core Team, 2017; Van den Noortgate et al., 2013). In this model, effect sizes were assigned as a fixed effect, study/site/common controls were nested as random effects, and w₁ as weighting factors (Thapa, Mirsky, et al., 2018, Thapa, Poffenbarger, et al., 2018). In the end, we estimated the robust standard error for the mean effect size by utilizing the “clubSandwich” package in R, which is cluster-based technique for robust variance estimation (Pustejovsky & Tipton, 2022; Thapa, Mirsky, et al., 2018). Using robust standard errors, the 95% confidence intervals (CIS) were calculated for the weighted mean effect sizes, that is, the natural log means [ln(R)]. The mean effect sizes and their 95% CIs were back-transformed to percent change in the response using the equation\n% change in response = (en(R)-1) × 100% (5)\nwhere In(R) is the mean effect sizes. If the 95% CIs did not contain zero, the overall cover crop effect on the response variable was considered significantly different from the controls (p < 0.05). The C sequestration rate, that is, the rate of change in SOC (Mg SOC [ha × year]¯¹) was determined with the equation\nSOCrate = (SOCCC,T1 - SOCcc,то) /Т (6)\nwhere SOCcc. T1 and SOCcc, To refer to the final (T1) and initial (T0) SOC amounts for the cover crop treatment after T years.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "statistical analysis",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "joshi2023_agj__p08",
+      "heading_path": [
+        "2",
+        "MATERIALS AND METHODS",
+        "2.2",
+        "Statistical analysis",
+        "2.2.2",
+        "Moderator analysis: Effect of soil, climate, and management on the overall effects"
+      ],
+      "text": "Moderator or subgroup analysis was conducted to determine if the overall cover crop effects on percent change in SOC were affected by potential co-variates. Co-variates considered in this study include soil texture, climatic zone, crop rotation, tillage type, cover crop biomass, and years under cover crop management. To perform this analysis, separate means and their 95% CIs for each of the moderators were determined by assigning each one as a sole co-variate in the original multilevel meta-analytic mixed-effects model described above. The mean cover crop effect for each moderator was considered significant if their 95% CIs did not contain zero (p < 0.05) and the treatment was considered different if the 95% CIs did not overlap. Moderator analysis on cover crop SOC responses was conducted by grouping the metadata into the following categories:\n1. Cover crop performance by the amount of cover crop biomass produced (≤ 3, 3–7 and ≥ 7 Mg biomass ha¯¹),\n2. The tillage type (cultivated [CT] and no-tillage [NT]),\n3. Crop rotation types (corn-corn, corn-soybean, and corn-other). Here corn-other includes corn rotation with any other crops such as rice (Oryza sativa), sunflower",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "moderator analysis",
+      "practices": [
+        "cover_crops",
+        "no_till",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "joshi2023_agj__p09",
+      "heading_path": [
+        "2",
+        "MATERIALS AND METHODS",
+        "2.2",
+        "Statistical analysis",
+        "2.2.3",
+        "Publication bias and sensitivity analysis"
+      ],
+      "text": "The publication bias is classically conducted using a funnel plot analysis, but many studies did not provide sample variance information required to create meaningful funnel plots. Therefore, a histogram was constructed to check the distribution of all individual effect sizes in the dataset to test for evidence of publication bias (Basche & DeLonge, 2017; Gurevitch et al., 2001; Thapa, Mirsky, et al., 2018). We also conducted a Jacknife sensitivity analysis to determine the sensitivity to any given study and hence, the robustness of the analysis (Philibert et al., 2012; Thapa, Mirsky, et al., 2018). During Jacknife analysis, each study was assigned a unique study ID and data from one of the studies was excluded from the database in each calculation.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "publication bias and sensitivity analysis",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "joshi2023_agj__p10",
+      "heading_path": [
+        "2",
+        "MATERIALS AND METHODS",
+        "2.2",
+        "Statistical analysis",
+        "2.2.4",
+        "Stepwise multiple linear regression"
+      ],
+      "text": "Stepwise regression involves recursively adding and removing predictors in the predictive model to find a subset of variables that provides the best precision and accuracy (Iduseri & Osemwenkhae, 2015). A combination of forward and backward regression models was constructed by using bulk density, clay percent, sand percent, silt percent, annual temperature, annual rainfall, initial SOC stock, N fertilizer application rate, and cover crop biomass to predict the cover crop effects on SOC stocks, that is, the natural log of the response ratios (Equation 3). However, only studies that provided both cover crop biomass and initial SOC stock were included in the regression modeling. The \"stepAIC\" function, from the \"MASS” package in R studio was used that had a combination of both forward and backward regression during model building.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "stepwise multiple linear regression",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC",
+        "bulk_density"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "joshi2023_agj__p11",
+      "heading_path": [
+        "3",
+        "RESULTS AND DISCUSSION",
+        "3.1",
+        "Database description"
+      ],
+      "text": "A total of 61 articles met the criteria for inclusion in the meta-analysis. These studies resulted in 198 pairwise comparisons from 67 sites located on 5 different continents (Figure 2). North America (62.8%) had the highest number of sites followed by Asia (11.4%), Africa (10%), South America (8.5%), and Europe (7.14%). Sixteen different countries included in the analysis were the United States, Brazil, China, India, Argentina, Bangladesh, Benin, Italy, Kenya, Mexico, Pakistan, Poland, South Africa, Spain, Sweden, and Ethiopia (Figure 2). In the United States, most of the studies were in the Cfa, Dfa, and DFb Köppen climate zones. These climate zones are partially aligned with what is referred to as the Corn Belt. Among all studies, nine were published between 2021 and 2022, 38 were published between 2011 and 2020, 11 were published between 2001 and 2010, and three were published between 1990 and 2000. (Figure 3a).\nThe number of years under cover crop management varied among studies with 41, 14, 9, and 6 studies having durations of between 2 and 5, 6 and 10, 11 and 15, and 16 and 20 years, respectively (Figure 3b). The most common soil texture was medium (44.3%) followed by coarse (30%) (Figure 3c). The studies were conducted in tropical, temperate, and cold climate zones. Of these, most studies were conducted in the temperate (38.5%) and cold (45.7%) zones (Figure 3d).",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "database description",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "tropical",
+        "temperate",
+        "arid",
+        "semi-arid",
+        "humid",
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "joshi2023_agj__p12",
+      "heading_path": [
+        "3",
+        "RESULTS AND DISCUSSION",
+        "3.2",
+        "Soil organic carbon change due to cover crops"
+      ],
+      "text": "Of 198 observations assessed in our analysis, cover crops had a negative effect on SOC in 25% of the comparisons and a positive effect on SOC in 75%. When weighted across all observations, cover crops when compared with the no-cover crop treatment increased the percent change in SOC by 7.3% (95% CI, 4.9%-9.6%; Figure 4). These findings were consistent with other meta-analysis studies and confirmed the positive impact of cover crops on SOC sequestration (Abdalla et al., 2019; Jian et al., 2020; McClelland et al., 2021; Poeplau & Don, 2015). The strong positive impact on the percent change in SOC is attributed to greater C inputs via root exudates from living cover crops during growth as well as the stabilization of shoot and root biomass C from decaying cover crops following its termination (Crystal-Ornelas et al., 2021; Janzen et al., 2022).\nThe net effect of cover crops on SOC is impacted by what, where, how much, and how long the cover crop is grown (Figure 4). In the reported studies, increasing the amount of cover crop biomass increased SOC storage. For example, cover crops in the moderate (3–7 Mg ha¯¹ per year-1) and high (>7 Mg ha¯¹ per year¯¹) biomass categories increased the percent SOC gains by 10.9% (95% CI, 6.1%-16.1%) and 12.4% (95% CI, 5.6%–19.6%), respectively. Whereas a low",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "cover crops and SOC",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "joshi2023_agj__p13",
+      "heading_path": [
+        "3",
+        "RESULTS AND DISCUSSION",
+        "3.2",
+        "Soil organic carbon change due to cover crops"
+      ],
+      "text": "cover crop biomass <3 Mg ha¯¹ per year-¹ the cover crop did not increase percent SOC gains (95% CI, -0.5%-7.6%). These results suggest that to increase SOC, cover crop biomass may need to be >3 Mg ha¯¹ per year. A systemic review conducted by Blanco-Canqui (2022) also reported that cover crop biomass less than 2 Mg ha¯¹ per year may have no effect on SOC stocks and that SOC gains increase with greater biomass production. McClelland et al. (2021) also found that SOC stocks increased substantially with greater cover crop biomass production (>7 Mg ha¯¹ per year).\nOur meta-regression analysis further corroborates these previous studies by showing a positive relationship between individual mean effect sizes of cover crops on SOC and above-ground cover crop biomass (p < 0.01; Figure 5a). This observed effect suggests that degradation follows first-order kinetics (Joshi et al., 2020; Sainju & Singh, 1997). Although none of the studies assessed provided information on cover crop root biomass, a higher above-ground shoot biomass is typically associated with a higher below-ground root biomass. From a SOC perspective, cover crop root biomass may be more critical than shoot biomass as studies have pointed out that crop root contribution to SOC can be very high (Balesdent & Balabane, 1996; Gale et al., 2000; Wilhelm et al., 2004; Wilts et al., 2004). To address the relative contribution",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "cover crops and SOC",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "joshi2023_agj__p14",
+      "heading_path": [
+        "3",
+        "RESULTS AND DISCUSSION",
+        "3.2",
+        "Soil organic carbon change due to cover crops"
+      ],
+      "text": "of shoots and roots future studies should quantify both cover crop shoot and root biomass to better elucidate SOC responses to cover crop performance.\nAll cover crop types increased SOC when compared to no cover crops (Figure 4). For instance, legume cover crops increased SOC by 8.7% (95% CI, 5.5%–12.0%), whereas the SOC gains due to multi-species cover crop mixtures and non-legumes were 6.6% (95% CI, 2.6%-10.9%) and 6.7% (95% CI, 4.1%-9.4%) respectively. The % change in SOC did not differ among cover crop types. This finding is consistent with previous studies that also observe a lack of SOC response to cover crop species (Abdalla et al., 2019; Poeplau & Don, 2015).\nThe length of time that cover crops were utilized had a mixed impact on SOC gains, which were 7.7% (95% CI, 4.3%-11.14%), 6.0% (95% CI, 2.1%-10.1%), and 8.4% (95% CI, 2.8%-14.2%) for systems that had contained cover crops for <5 years, 5–10 years, and >10 years, respectively (Figure 4). Our lack of difference between SOC gains and cover crop duration is attributed to the large variation in the data set (Figure 5b). These results were aligned with the analysis that showed that the length of time that cover crops were adopted did not impact SOC gains (p = 0.926, Figure 5b). McClelland et al. (2021) had similar results. However, few others have reported that SOC gains increase with time. For example, Das et al. (2022), reported that short-term studies had a smaller impact on SOC gains than mid-term and long- term studies. Blanco-Canqui (2022) reported higher SOC gains were observed when cover crops had been adopted for at least 5 years, Crystal-Ornelas et al. (2021) observed that the soil health benefits from adopting cover crops accrue over time, and Poeplau and Don (2015) reported that cover crops increased SOC at the rate of 0.32 Mg ha¯¹ per year. A comparison across studies indicates that cover crop-induced SOC gains most likely increase with time.\nIn the 0-15 cm depth, cover crops increased the % increase in SOC by 7.7% (95% CI, 3.5%-12.0%; Figure 5). When averaged over 0–30 cm depth, the percent SOC increase was 7.8% (95% CI, 4.3%-11.3%). These results suggest that cover crops increased the percent change in SOC stocks on the surface by 30 cm. Across soil textures, cover crops also had a positive impact on SOC, with increases of 6.5% (95% CI, 2.1%-10.6%), 7.6% (95% CI, 4.1%–11.2%), and 7.9% (95% CI, 3.3%-12.7%) in fine, medium, and coarse-textured soils, respectively (Figure 4). A meta-analysis conducted by Bai et al. (2019) also reported a greater increase in SOC in coarse and medium-textured soils than in fine-textured soils. The large percent SOC change in the coarse-textured soils may be attributed to the soils having relatively low initial SOC levels (Augustin & Cihacek, 2016; Vieira et al., 2009).\nIn the corn followed by corn rotation, cover crops increased the percent SOC gain by 7.9% (95% CI, 4.5%–11.5%), whereas in the corn followed by soybean rotation, the cover crops increase was 4.6% (95% CI, 0.9%-8.4%; Figure 4). This apparent crop rotation effect could be caused by the surface corn residue covering the soil which slowed mineralization and/or the addition of low C/N ratio soybean residue that stimulated mineralization. Clearly, additional research is needed to better define differences between these rotations.",
+      "page_start": 8,
+      "page_end": 8,
+      "topic": "cover crops and SOC",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "joshi2023_agj__p15",
+      "heading_path": [
+        "3",
+        "RESULTS AND DISCUSSION",
+        "3.3",
+        "Soil carbon sequestration potential of cover crops"
+      ],
+      "text": "The SOC rate of change for the 0-15 and 0-30 cm depths were 0.44 (95% CI, 0.15–0.72), and 0.88 (95% CI, 0.56–1.2) Mg SOC (ha × year)¯¹, respectively. By subtracting these two depths from each other, SOC sequestration rate in the 15-30 cm depth was calculated. This calculation suggests that almost the same amount of carbon was stored in the 0-15 cm depth (0.44 Mg SOC (ha × year)¯¹) and 15–30 cm (0.44 Mg SOC (ha × year)-1) depth. The lack of differences between the 0-15 and 15-30 cm depths may be attributed to higher SOC mineralization rates in the 0–15 than the 15-30 cm soil depth (Clay et al., 2015). The annual amount of carbon sequestered was comparable to others. Poeplau and Don (2015) reported that for the 0-22 cm soil depth, SOC was sequestered at a rate of 0.32 Mg SOC (ha × year)-1, whereas Blanco-Canqui (2022) reported that SOC sequestration rates ranged from 0.2 to 0.9 Mg SOC (ha × year)¯¹ for the 0–30 cm soil depth.\nBased on the amount of US cover crop cultivated land seeded to corn (~6.2 million ha; Cruthfield, 2016), ~5.5 (95% CI, 3.1-7.4) million Mg of SOC per year are being sequestered annually. If all US corn fields (36.4 million ha) used cover crops, 32.0 million Mg SOC per year might be sequestered annually, which would result in a CO2e value of 107 million metric tons. When extended over the globe, the 200 million ha of soil seeded to corn has the potential to sequester ~175 (95% CI, 112–240) million Mg SOC per year. Sieverding et al. (2020) used data provided by Pelton (2019) to determine that the CO2e for corn grown in the United States was ~3309 kg CO2e ha¯¹. Liu et al. (2020) reported that the CO2e could be reduced by 4453 kg CO2e ha¯¹ for corn with cover crops that are grown in Nebraska.",
+      "page_start": 9,
+      "page_end": 9,
+      "topic": "SOC sequestration potential",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "global",
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "joshi2023_agj__p16",
+      "heading_path": [
+        "3",
+        "RESULTS AND DISCUSSION",
+        "3.4",
+        "Modeling cover crop-induced changes in SOC stocks"
+      ],
+      "text": "To predict the change in SOC stocks caused by cover crops, 10 factors were utilized as variables in a stepwise multiple linear regression model, with In(R) as the response variable. The In(R) value ranged from negative to zero, which indicates a reduction to no change in SOC due to cover crop cultivation, whereas positive ln(R) indicates an increase in SOC under cover crops. Out of 10 different variables, cover crop-induced changes in SOC stocks were best predicted by bulk density, clay percent, cover crop biomass temperature, and initial SOC. The resulting equation was,\nln (R) = -0.44 + 0.26 × bulk density – 0.0025 × Clay + 0.004 × cover crop biomass + 0.02 × temperature -0.001 × Initial SOC, R2 = 0.61, n = 48,",
+      "page_start": 9,
+      "page_end": 9,
+      "topic": "modeling SOC changes",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC",
+        "bulk_density"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "joshi2023_agj__p17",
+      "heading_path": [
+        "3",
+        "RESULTS AND DISCUSSION",
+        "3.4",
+        "Modeling cover crop-induced changes in SOC stocks"
+      ],
+      "text": "where clay was in percent, cover crop biomass was in Mg ha¯¹ per year, and annual temperature was in °C. This result suggests that increases in SOC with cover crops decrease with increasing SOC and clay content and increase with cover crop biomass production. This interpretation is consistent with Blanco-Canqui (2022) and Poeplau and Don (2015). Another potential factor affecting In(R) may be years under cover crop management. However, dataset used in the model (n = 48) was dominated with studies that had cover crop management for 5 years or less, hence it was not included as model input. The exclusion of years of cover crop from the model suggests that more long-term studies are needed.",
+      "page_start": 10,
+      "page_end": 10,
+      "topic": "modeling SOC changes",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "joshi2023_agj__p18",
+      "heading_path": [
+        "3",
+        "RESULTS AND DISCUSSION",
+        "3.5",
+        "Cover crop impact on corn yield"
+      ],
+      "text": "Contrasting results have been recorded globally about the impact of cover crops on the yield of the main crop. For example, cover crops can reduce corn yields (Eckert, 1991; Olson et al., 2014; Ruis et al., 2017), not influence yields (Bich et al., 2014), and increase crop yields (Astier et al., 2006; Calegari et al., 2008; Fronning et al., 2008; Reese et al., 2014). Mixed findings for cover crops impact on corn yields may be attributed to cover crops and main crops competing for water, nutrients, and light (Munawar et al., 1990) and improving nutrient and water use efficiency (Thapa, Poffenbarger, et al., 2018; Thorup-Kristensen et al., 2003). Despite the multiple agroecosystem benefits from cover crops including SOC sequestration, uncertainties in the yield impacts of cover crops most likely have slowed farmer adoption of cover crops (Singer et al., 2007).\nIn our meta-analysis, only 27 studies provided corn yield information resulting in a total of 93 pair-wise comparisons. Due to the relatively small sample size that had high variability, care must be used in interpreting this information. When the data were pooled across all cropping systems, legume cover crops increased corn yields by 34.9% (95% CI,11.6%-63.3%; Figure 7). This large yield increase was not expected and may be attributed to the small number of comparisons included in the analysis, low yields in the studies that provided yield data, and/or that the cash crop did not have an adequate amount of N. Legume cover crops can fix atmospheric N which may be made available to the cash crop following mineralization (Daryanto et al., 2018; Marcillo & Miguez, 2017; Thapa, Tully et al., 2022a, Thapa, Cabrera, et al., 2022; Thorup-Kristensen et al., 2003). Planting cover crops not only adds N to the crop that follows, but also provides other ecosystem services that have a positive effect on subsequent crop yields. For instance, cover crops can improve soil properties, conserve soil moisture, and suppress weeds (Joshi et al., 2022; Thorup-Kristensen et al., 2003). By preserving soil moisture, cover crop residues help main crops use water more effectively, resulting in high N uptake even at low soil inorganic N conditions (Frye et al., 1988).",
+      "page_start": 10,
+      "page_end": 10,
+      "topic": "cover crops and corn yield",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "crop_yield",
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "joshi2023_agj__p19",
+      "heading_path": [
+        "5",
+        "LIMITATIONS AND FUTURE STUDY CONSIDERATIONS"
+      ],
+      "text": "Many of the papers failed to report important information used in the meta-analysis. For example, initial SOC, changes in SOC over the entire rooting zone, cover crop biomass produced, cash crop yields, pH, bulk densities, soil texture, and nutrient concentrations were often not reported. Moreover, many studies did not report the measured sample variance values such as standard deviation, standard errors, or the coefficient of variability. Therefore, providing such information in future studies will be helpful for a more robust meta-analysis. Also not reporting important information, such as yields of the cash crop, or the amount of cover crop biomass reduces the ability to evaluate important interactions. Others have noted similar data gaps with which data are reported (Abdalla et al., 2019; Jian et al., 2020; Poeplau & Don, 2015). To improve global predictive models, these database gaps need to be minimized. Overall, our study found that cover crops have a positive effect on SOC sequestration. However, we did not consider different greenhouse gas (NO2 and CH4) emission during the growth and decomposition to determine the full carbon footprint of cover crop. Therefore, assessing SOC stocks along with greenhouse gases in response to cover crops should be considered in the future to increase our understanding of the corn cover crop system.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "limitations and future research",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "joshi2023_agj__p20",
+      "heading_path": [
+        "6",
+        "CONCLUSION"
+      ],
+      "text": "In this meta-analysis, data from 61 publications were used to determine the effects of cover crops on SOC stocks and corn yields within a corn cropping system. A database was created by extracting information provided by individual studies along with soils, climate, management, and cover crop information. Overall, integrating cover crops in corn production systems increased SOC stocks by 7.3% (95% CI, 4.9%-9.6%). The SOC stock responses for cover crops varied by location depending on soil (texture and initial SOC), climate, management (cover crop types, tillage, and crop rotations), and cover crop biomass production. The SOC gains from cover crop adoption are more likely to be observed in low-C and coarse-textured soils. Similarly, cover crop biomass production had a strong positive effect on the magnitude of SOC accumulation. Cover crop performance depends on soil nutrient status, climate, management (cover crop types, cover crop planting, and termination dates/methods), and growing window depending on main crop rotations.\nWarmer growing conditions and more rainfall in temperate and tropical climatic zones support higher cover crop biomass production and return rates. However, higher temperatures also help to accelerate cover crop decomposition. The net SOC gains were similar across climate zones. Based on these results, we can conclude that soil, climate, and management influence both cover crop performance and its ability for SOC sequestration.\nAt an average SOC sequestration rate of 0.88 Mg ha¯¹ per year at 0-30 cm, current corn fields with cover crops are potentially sequestering 5.5 million Mg of SOC-C per year in the United States and 160 million Mg SOC per year globally. If all US corn fields used cover crops, 32.1 million Mg SOC per year could be sequestered annually in the United States, which would result in a CO2e value of 107 million metric tons. These findings imply that cover crop-induced increases in SOC can improve soil health and soils' ability to adapt to changing climates while also mitigating it. In the long term, improved SOC under cover crops will lead to better soil functions and productivity. Findings from this study can be used to identify areas that may have the greatest potential to sequester carbon and also shape management decisions for optimizing SOC storage under cover crops. Taken altogether, we conclude that growing cover crops on croplands rather than leaving them in a fallow phase can be one of the strategies to sequester atmospheric C and mitigate greenhouse gas emissions, thereby potentially enhancing the sustainability of corn production systems worldwide.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "conclusion",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "temperate",
+        "tropical",
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "joshi2023_agj__c01",
+      "passage_id": "joshi2023_agj__p01",
+      "subject": "cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 7.3,
+      "value_low": 4.9,
+      "value_high": 9.6,
+      "unit": "percent",
+      "basis": "average increase",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Over the course of each study, cover crops on average increased SOC by 7.3% (95% CI, 4.9%–9.6%).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c02",
+      "passage_id": "joshi2023_agj__p01",
+      "subject": "cover crop-based corn production systems",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 5.5,
+      "unit": "Mg_ha_yr",
+      "basis": "annual sequestration",
+      "conditions": "United States",
+      "time_horizon_years": null,
+      "evidence_span": "Our results suggest that current cover crop-based corn production systems are sequestering 5.5 million Mg of SOC per year in the United States and have the potential to sequester 175 million Mg SOC per year globally.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c03",
+      "passage_id": "joshi2023_agj__p01",
+      "subject": "cover crop-based corn production systems",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 175,
+      "unit": "Mg_ha_yr",
+      "basis": "annual sequestration potential",
+      "conditions": "globally",
+      "time_horizon_years": null,
+      "evidence_span": "Our results suggest that current cover crop-based corn production systems are sequestering 5.5 million Mg of SOC per year in the United States and have the potential to sequester 175 million Mg SOC per year globally.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c04",
+      "passage_id": "joshi2023_agj__p03",
+      "subject": "cover crops",
+      "metric": "SOC",
+      "direction": "mixed",
+      "value": null,
+      "unit": null,
+      "basis": "effect on carbon sequestered",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Cover crops have been reported to have a mixed effect on the amount of carbon sequestered in the soil (Blanco-Canqui, 2022).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c05",
+      "passage_id": "joshi2023_agj__p03",
+      "subject": "cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "unit": null,
+      "basis": "positive effect",
+      "conditions": "soils with low initial SOC, higher cover crop biomass production, and the use of cover crops for many years",
+      "time_horizon_years": null,
+      "evidence_span": "The positive effect of cover crops on SOC was attributed to soils with low initial SOC, higher cover crop biomass production, and the use of cover crops for many years.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c06",
+      "passage_id": "joshi2023_agj__p03",
+      "subject": "cover crops",
+      "metric": "SOC",
+      "direction": "no_change",
+      "value": null,
+      "unit": null,
+      "basis": "no effect",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "In 71% of the total comparisons included in his study, cover crops had no effect on SOC stocks.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c07",
+      "passage_id": "joshi2023_agj__p12",
+      "subject": "cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 7.3,
+      "value_low": 4.9,
+      "value_high": 9.6,
+      "unit": "percent",
+      "basis": "weighted average",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "When weighted across all observations, cover crops when compared with the no-cover crop treatment increased the percent change in SOC by 7.3% (95% CI, 4.9%-9.6%; Figure 4).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c08",
+      "passage_id": "joshi2023_agj__p12",
+      "subject": "cover crops with moderate biomass",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 10.9,
+      "value_low": 6.1,
+      "value_high": 16.1,
+      "unit": "percent",
+      "basis": "increase in SOC storage",
+      "conditions": "3–7 Mg ha⁻¹ per year",
+      "time_horizon_years": null,
+      "evidence_span": "For example, cover crops in the moderate (3–7 Mg ha¯¹ per year-1) and high (>7 Mg ha¯¹ per year¯¹) biomass categories increased the percent SOC gains by 10.9% (95% CI, 6.1%-16.1%) and 12.4% (95% CI, 5.6%–19.6%), respectively.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c09",
+      "passage_id": "joshi2023_agj__p12",
+      "subject": "cover crops with high biomass",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 12.4,
+      "value_low": 5.6,
+      "value_high": 19.6,
+      "unit": "percent",
+      "basis": "increase in SOC storage",
+      "conditions": ">7 Mg ha⁻¹ per year",
+      "time_horizon_years": null,
+      "evidence_span": "For example, cover crops in the moderate (3–7 Mg ha¯¹ per year-1) and high (>7 Mg ha¯¹ per year¯¹) biomass categories increased the percent SOC gains by 10.9% (95% CI, 6.1%-16.1%) and 12.4% (95% CI, 5.6%–19.6%), respectively.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c10",
+      "passage_id": "joshi2023_agj__p13",
+      "subject": "cover crops with low biomass",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": -0.5,
+      "value_high": 7.6,
+      "unit": "percent",
+      "basis": "percent SOC gains",
+      "conditions": "<3 Mg ha⁻¹ per year",
+      "time_horizon_years": null,
+      "evidence_span": "cover crop biomass <3 Mg ha¯¹ per year-¹ the cover crop did not increase percent SOC gains (95% CI, -0.5%-7.6%).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c11",
+      "passage_id": "joshi2023_agj__p14",
+      "subject": "legume cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 8.7,
+      "value_low": 5.5,
+      "value_high": 12.0,
+      "unit": "percent",
+      "basis": "increase in SOC",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "For instance, legume cover crops increased SOC by 8.7% (95% CI, 5.5%–12.0%), whereas the SOC gains due to multi-species cover crop mixtures and non-legumes were 6.6% (95% CI, 2.6%-10.9%) and 6.7% (95% CI, 4.1%-9.4%) respectively.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c12",
+      "passage_id": "joshi2023_agj__p14",
+      "subject": "multi-species cover crop mixtures",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 6.6,
+      "value_low": 2.6,
+      "value_high": 10.9,
+      "unit": "percent",
+      "basis": "SOC gains",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "For instance, legume cover crops increased SOC by 8.7% (95% CI, 5.5%–12.0%), whereas the SOC gains due to multi-species cover crop mixtures and non-legumes were 6.6% (95% CI, 2.6%-10.9%) and 6.7% (95% CI, 4.1%-9.4%) respectively.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c13",
+      "passage_id": "joshi2023_agj__p14",
+      "subject": "non-legume cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 6.7,
+      "value_low": 4.1,
+      "value_high": 9.4,
+      "unit": "percent",
+      "basis": "SOC gains",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "For instance, legume cover crops increased SOC by 8.7% (95% CI, 5.5%–12.0%), whereas the SOC gains due to multi-species cover crop mixtures and non-legumes were 6.6% (95% CI, 2.6%-10.9%) and 6.7% (95% CI, 4.1%-9.4%) respectively.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c14",
+      "passage_id": "joshi2023_agj__p14",
+      "subject": "cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 7.7,
+      "value_low": 4.3,
+      "value_high": 11.14,
+      "unit": "percent",
+      "basis": "SOC gains",
+      "conditions": "<5 years",
+      "time_horizon_years": null,
+      "evidence_span": "The length of time that cover crops were utilized had a mixed impact on SOC gains, which were 7.7% (95% CI, 4.3%-11.14%), 6.0% (95% CI, 2.1%-10.1%), and 8.4% (95% CI, 2.8%-14.2%) for systems that had contained cover crops for <5 years, 5–10 years, and >10 years, respectively (Figure 4).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c15",
+      "passage_id": "joshi2023_agj__p14",
+      "subject": "cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 6.0,
+      "value_low": 2.1,
+      "value_high": 10.1,
+      "unit": "percent",
+      "basis": "SOC gains",
+      "conditions": "5-10 years",
+      "time_horizon_years": null,
+      "evidence_span": "The length of time that cover crops were utilized had a mixed impact on SOC gains, which were 7.7% (95% CI, 4.3%-11.14%), 6.0% (95% CI, 2.1%-10.1%), and 8.4% (95% CI, 2.8%-14.2%) for systems that had contained cover crops for <5 years, 5–10 years, and >10 years, respectively (Figure 4).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c16",
+      "passage_id": "joshi2023_agj__p14",
+      "subject": "cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 8.4,
+      "value_low": 2.8,
+      "value_high": 14.2,
+      "unit": "percent",
+      "basis": "SOC gains",
+      "conditions": ">10 years",
+      "time_horizon_years": null,
+      "evidence_span": "The length of time that cover crops were utilized had a mixed impact on SOC gains, which were 7.7% (95% CI, 4.3%-11.14%), 6.0% (95% CI, 2.1%-10.1%), and 8.4% (95% CI, 2.8%-14.2%) for systems that had contained cover crops for <5 years, 5–10 years, and >10 years, respectively (Figure 4).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c17",
+      "passage_id": "joshi2023_agj__p14",
+      "subject": "cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 7.7,
+      "value_low": 3.5,
+      "value_high": 12.0,
+      "unit": "percent",
+      "basis": "increase in SOC",
+      "conditions": "0-15 cm depth",
+      "time_horizon_years": null,
+      "evidence_span": "In the 0-15 cm depth, cover crops increased the % increase in SOC by 7.7% (95% CI, 3.5%-12.0%; Figure 5).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c18",
+      "passage_id": "joshi2023_agj__p14",
+      "subject": "cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 7.8,
+      "value_low": 4.3,
+      "value_high": 11.3,
+      "unit": "percent",
+      "basis": "SOC increase",
+      "conditions": "0-30 cm depth",
+      "time_horizon_years": null,
+      "evidence_span": "When averaged over 0–30 cm depth, the percent SOC increase was 7.8% (95% CI, 4.3%-11.3%).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c19",
+      "passage_id": "joshi2023_agj__p14",
+      "subject": "cover crops in fine-textured soils",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 6.5,
+      "value_low": 2.1,
+      "value_high": 10.6,
+      "unit": "percent",
+      "basis": "increase in SOC",
+      "conditions": "fine-textured soils",
+      "time_horizon_years": null,
+      "evidence_span": "Across soil textures, cover crops also had a positive impact on SOC, with increases of 6.5% (95% CI, 2.1%-10.6%), 7.6% (95% CI, 4.1%–11.2%), and 7.9% (95% CI, 3.3%-12.7%) in fine, medium, and coarse-textured soils, respectively (Figure 4).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c20",
+      "passage_id": "joshi2023_agj__p14",
+      "subject": "cover crops in medium-textured soils",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 7.6,
+      "value_low": 4.1,
+      "value_high": 11.2,
+      "unit": "percent",
+      "basis": "increase in SOC",
+      "conditions": "medium-textured soils",
+      "time_horizon_years": null,
+      "evidence_span": "Across soil textures, cover crops also had a positive impact on SOC, with increases of 6.5% (95% CI, 2.1%-10.6%), 7.6% (95% CI, 4.1%–11.2%), and 7.9% (95% CI, 3.3%-12.7%) in fine, medium, and coarse-textured soils, respectively (Figure 4).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c21",
+      "passage_id": "joshi2023_agj__p14",
+      "subject": "cover crops in coarse-textured soils",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 7.9,
+      "value_low": 3.3,
+      "value_high": 12.7,
+      "unit": "percent",
+      "basis": "increase in SOC",
+      "conditions": "coarse-textured soils",
+      "time_horizon_years": null,
+      "evidence_span": "Across soil textures, cover crops also had a positive impact on SOC, with increases of 6.5% (95% CI, 2.1%-10.6%), 7.6% (95% CI, 4.1%–11.2%), and 7.9% (95% CI, 3.3%-12.7%) in fine, medium, and coarse-textured soils, respectively (Figure 4).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c22",
+      "passage_id": "joshi2023_agj__p14",
+      "subject": "cover crops in corn-corn rotation",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 7.9,
+      "value_low": 4.5,
+      "value_high": 11.5,
+      "unit": "percent",
+      "basis": "percent SOC gain",
+      "conditions": "corn followed by corn rotation",
+      "time_horizon_years": null,
+      "evidence_span": "In the corn followed by corn rotation, cover crops increased the percent SOC gain by 7.9% (95% CI, 4.5%–11.5%), whereas in the corn followed by soybean rotation, the cover crops increase was 4.6% (95% CI, 0.9%-8.4%; Figure 4).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c23",
+      "passage_id": "joshi2023_agj__p14",
+      "subject": "cover crops in corn-soybean rotation",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 4.6,
+      "value_low": 0.9,
+      "value_high": 8.4,
+      "unit": "percent",
+      "basis": "percent SOC increase",
+      "conditions": "corn followed by soybean rotation",
+      "time_horizon_years": null,
+      "evidence_span": "In the corn followed by corn rotation, cover crops increased the percent SOC gain by 7.9% (95% CI, 4.5%–11.5%), whereas in the corn followed by soybean rotation, the cover crops increase was 4.6% (95% CI, 0.9%-8.4%; Figure 4).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c24",
+      "passage_id": "joshi2023_agj__p15",
+      "subject": "SOC rate of change",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": 0.44,
+      "value_low": 0.15,
+      "value_high": 0.72,
+      "unit": "Mg_ha_yr",
+      "basis": "rate of change",
+      "conditions": "0-15 cm depth",
+      "time_horizon_years": null,
+      "evidence_span": "The SOC rate of change for the 0-15 and 0-30 cm depths were 0.44 (95% CI, 0.15–0.72), and 0.88 (95% CI, 0.56–1.2) Mg SOC (ha × year)¯¹, respectively.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c25",
+      "passage_id": "joshi2023_agj__p15",
+      "subject": "SOC rate of change",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": 0.88,
+      "value_low": 0.56,
+      "value_high": 1.2,
+      "unit": "Mg_ha_yr",
+      "basis": "rate of change",
+      "conditions": "0-30 cm depth",
+      "time_horizon_years": null,
+      "evidence_span": "The SOC rate of change for the 0-15 and 0-30 cm depths were 0.44 (95% CI, 0.15–0.72), and 0.88 (95% CI, 0.56–1.2) Mg SOC (ha × year)¯¹, respectively.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c26",
+      "passage_id": "joshi2023_agj__p15",
+      "subject": "US corn fields with cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 5.5,
+      "value_low": 3.1,
+      "value_high": 7.4,
+      "unit": "Mg_ha_yr",
+      "basis": "annual sequestration",
+      "conditions": "United States",
+      "time_horizon_years": null,
+      "evidence_span": "Based on the amount of US cover crop cultivated land seeded to corn (~6.2 million ha; Cruthfield, 2016), ~5.5 (95% CI, 3.1-7.4) million Mg of SOC per year are being sequestered annually.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c27",
+      "passage_id": "joshi2023_agj__p15",
+      "subject": "all US corn fields with cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 32.0,
+      "unit": "Mg_ha_yr",
+      "basis": "potential annual sequestration",
+      "conditions": "United States",
+      "time_horizon_years": null,
+      "evidence_span": "If all US corn fields (36.4 million ha) used cover crops, 32.0 million Mg SOC per year might be sequestered annually, which would result in a CO2e value of 107 million metric tons.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c28",
+      "passage_id": "joshi2023_agj__p15",
+      "subject": "global corn fields with cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 175,
+      "value_low": 112,
+      "value_high": 240,
+      "unit": "Mg_ha_yr",
+      "basis": "potential annual sequestration",
+      "conditions": "globally",
+      "time_horizon_years": null,
+      "evidence_span": "When extended over the globe, the 200 million ha of soil seeded to corn has the potential to sequester ~175 (95% CI, 112–240) million Mg SOC per year.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c29",
+      "passage_id": "joshi2023_agj__p16",
+      "subject": "cover crop-induced changes in SOC stocks",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "unit": null,
+      "basis": "predicted by model",
+      "conditions": "positive ln(R)",
+      "time_horizon_years": null,
+      "evidence_span": "The In(R) value ranged from negative to zero, which indicates a reduction to no change in SOC due to cover crop cultivation, whereas positive ln(R) indicates an increase in SOC under cover crops.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c30",
+      "passage_id": "joshi2023_agj__p16",
+      "subject": "cover crop-induced changes in SOC stocks",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "unit": null,
+      "basis": "predicted by model",
+      "conditions": "cover crop biomass",
+      "time_horizon_years": null,
+      "evidence_span": "Out of 10 different variables, cover crop-induced changes in SOC stocks were best predicted by bulk density, clay percent, cover crop biomass temperature, and initial SOC.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c31",
+      "passage_id": "joshi2023_agj__p17",
+      "subject": "SOC",
+      "metric": "SOC",
+      "direction": "decrease",
+      "value": null,
+      "unit": null,
+      "basis": "predicted by model",
+      "conditions": "increasing SOC and clay content",
+      "time_horizon_years": null,
+      "evidence_span": "This result suggests that increases in SOC with cover crops decrease with increasing SOC and clay content and increase with cover crop biomass production.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c32",
+      "passage_id": "joshi2023_agj__p17",
+      "subject": "SOC",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "unit": null,
+      "basis": "predicted by model",
+      "conditions": "cover crop biomass production",
+      "time_horizon_years": null,
+      "evidence_span": "This result suggests that increases in SOC with cover crops decrease with increasing SOC and clay content and increase with cover crop biomass production.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c33",
+      "passage_id": "joshi2023_agj__p18",
+      "subject": "legume cover crops",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 34.9,
+      "value_low": 11.6,
+      "value_high": 63.3,
+      "unit": "percent",
+      "basis": "corn yields",
+      "conditions": "pooled across all cropping systems",
+      "time_horizon_years": null,
+      "evidence_span": "When the data were pooled across all cropping systems, legume cover crops increased corn yields by 34.9% (95% CI,11.6%-63.3%; Figure 7).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c34",
+      "passage_id": "joshi2023_agj__p20",
+      "subject": "cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 7.3,
+      "value_low": 4.9,
+      "value_high": 9.6,
+      "unit": "percent",
+      "basis": "overall integration",
+      "conditions": "corn production systems",
+      "time_horizon_years": null,
+      "evidence_span": "Overall, integrating cover crops in corn production systems increased SOC stocks by 7.3% (95% CI, 4.9%-9.6%).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c35",
+      "passage_id": "joshi2023_agj__p20",
+      "subject": "cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 0.88,
+      "unit": "Mg_ha_yr",
+      "basis": "average sequestration rate",
+      "conditions": "0-30 cm",
+      "time_horizon_years": null,
+      "evidence_span": "At an average SOC sequestration rate of 0.88 Mg ha¯¹ per year at 0-30 cm, current corn fields with cover crops are potentially sequestering 5.5 million Mg of SOC-C per year in the United States and 160 million Mg SOC per year globally.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c36",
+      "passage_id": "joshi2023_agj__p20",
+      "subject": "US corn fields with cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 5.5,
+      "unit": "Mg_ha_yr",
+      "basis": "potential sequestration",
+      "conditions": "United States",
+      "time_horizon_years": null,
+      "evidence_span": "At an average SOC sequestration rate of 0.88 Mg ha¯¹ per year at 0-30 cm, current corn fields with cover crops are potentially sequestering 5.5 million Mg of SOC-C per year in the United States and 160 million Mg SOC per year globally.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c37",
+      "passage_id": "joshi2023_agj__p20",
+      "subject": "US corn fields with cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 32.1,
+      "unit": "Mg_ha_yr",
+      "basis": "potential annual sequestration",
+      "conditions": "United States",
+      "time_horizon_years": null,
+      "evidence_span": "If all US corn fields used cover crops, 32.1 million Mg SOC per year could be sequestered annually in the United States, which would result in a CO2e value of 107 million metric tons.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "joshi2023_agj__c38",
+      "passage_id": "joshi2023_agj__p20",
+      "subject": "global corn fields with cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 160,
+      "unit": "Mg_ha_yr",
+      "basis": "potential annual sequestration",
+      "conditions": "globally",
+      "time_horizon_years": null,
+      "evidence_span": "At an average SOC sequestration rate of 0.88 Mg ha¯¹ per year at 0-30 cm, current corn fields with cover crops are potentially sequestering 5.5 million Mg of SOC-C per year in the United States and 160 million Mg SOC per year globally.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "increased C inputs via root exudates and stabilization of biomass",
+      "passage_id": "joshi2023_agj__p12",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "biomass > 3 Mg ha⁻¹ per year",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p13",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "legume cover crops",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p14",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "multi-species cover crop mixtures",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p14",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "non-legumes",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p14",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "duration <5 years",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p14",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "duration 5-10 years",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p14",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "duration >10 years",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p14",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "0-15 cm depth",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p14",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "0-30 cm depth",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p14",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "fine-textured soils",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p14",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "medium-textured soils",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p14",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "coarse-textured soils",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p14",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "corn-corn rotation",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p14",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "corn-soybean rotation",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p14",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "conventional tillage",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p19",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "no-tillage",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p19",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "cold climate zones",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p20",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "temperate climate zones",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p20",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "tropical climate zones",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p20",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": "legume cover crops",
+      "mechanism": "fixation of atmospheric N, improved soil properties, conserved soil moisture, suppressed weeds",
+      "passage_id": "joshi2023_agj__p18",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "low-C and coarse-textured soils",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p20",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "biomass production",
+      "mechanism": null,
+      "passage_id": "joshi2023_agj__p20",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "joshi2023_agj__full",
+    "doc_id": "joshi2023_agj",
+    "model": "gemini-2.5-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 1,
+    "pdf_end": 14,
+    "manifest_practices": [
+      "cover_crops"
+    ],
+    "manifest_climate_zones": [
+      "global"
+    ],
+    "extracted_at": "2026-09-18T08:23:54Z",
+    "pdf_sha256": "fcb3eaf7478d1081"
+  }
+}

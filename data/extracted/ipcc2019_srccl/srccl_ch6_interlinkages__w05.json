@@ -1,0 +1,288 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+  "content_type": "assessment",
+  "summary": "This assessment synthesizes the impacts of various land-based and value-chain response options on mitigation, adaptation, desertification, land degradation, and food security, highlighting co-benefits and trade-offs.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch6_interlinkages__w05__p01",
+      "heading_path": [
+        "Chapter 6",
+        "Table 6.47 | Effects on food security of soil-based response options."
+      ],
+      "text": "Increased soil organic carbon content: 60–225 million people. Reduced soil erosion: 633 million people yr–1. Reduced soil salinisation: 1–100 million people. Reduced soil compaction: 1–100 million people.",
+      "page_start": 606,
+      "page_end": 606,
+      "topic": "soil-based response options",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "SOC",
+        "erosion",
+        "salinity",
+        "bulk_density",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w05__p02",
+      "heading_path": [
+        "Chapter 6",
+        "Integrated response options based on land management across all/other ecosystems"
+      ],
+      "text": "In terms of measures to tackle pollution, including acidification, Shindell et al. (2012) considered about 400 emission control measures to reduce ozone and black carbon (BC). This strategy increases annual crop yields by 30–135 Mt due to ozone reductions in 2030 and beyond. If annual grain consumption per capita is assumed as 300 kg yr–1, increase in annual crop yields by 30–135 Mt would feed 100–450 million people.",
+      "page_start": 606,
+      "page_end": 606,
+      "topic": "pollution control",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "crop_yield",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w05__p03",
+      "heading_path": [
+        "Chapter 6",
+        "Integrated response options based on land management across all/other ecosystems"
+      ],
+      "text": "Indirectly, the loss of pollinators (due to combined causes, including the loss of habitats and flowering species) would contribute to 1.42 million additional deaths per year from non-communicable and malnutrition-related diseases, and 27.0 million lost disability-adjusted life years (DALYs) per year.",
+      "page_start": 606,
+      "page_end": 606,
+      "topic": "pollinators and food security",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "pollinators",
+        "habitat_diversity"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w05__p04",
+      "heading_path": [
+        "Chapter 6",
+        "Integrated response options based on land management specifically for CDR"
+      ],
+      "text": "The spreading of crushed minerals on land as part of enhanced weathering on nutrient-depleted soils can potentially increase crop yield by replenishing plant available silicon, potassium and other plant nutrients, but there are no estimates in the literature reporting the potential magnitude of this effect on global food production.",
+      "page_start": 607,
+      "page_end": 607,
+      "topic": "enhanced weathering",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w05__p05",
+      "heading_path": [
+        "Chapter 6",
+        "Integrated response options based on value chain management through demand management"
+      ],
+      "text": "Dietary change can free up agricultural land for additional production and reduce the risk of some diseases, with large positive impacts on food security. Kummu et al. (2012) estimate that an additional billion people could be fed if food waste was halved globally.",
+      "page_start": 607,
+      "page_end": 607,
+      "topic": "demand management",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w05__p06",
+      "heading_path": [
+        "Chapter 6",
+        "Integrated response options based on risk management"
+      ],
+      "text": "Diversification is associated with increased welfare and incomes and decreased levels of poverty in several country studies. These are likely to have large food security benefits, but there is little global quantification.",
+      "page_start": 608,
+      "page_end": 608,
+      "topic": "livelihood diversification",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w05__p07",
+      "heading_path": [
+        "Chapter 6",
+        "Integrated response options based on risk management"
+      ],
+      "text": "Local seed use can provide considerable benefits for food security because of the increased ability of farmers to revive and strengthen local food systems; studies have reported more diverse and healthy food in areas with strong food sovereignty networks. However, there may be lower food yields from local and unimproved seeds, so the overall impact of local seed use on food security is ambiguous.",
+      "page_start": 608,
+      "page_end": 608,
+      "topic": "local seed use",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "species_richness",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w05__p08",
+      "heading_path": [
+        "Chapter 6",
+        "6.3.6 Summarising the potential of the integrated response options across mitigation, adaptation, desertification land degradation and food security"
+      ],
+      "text": "As seen in Tables 6.54 to 6.61, three response options across the 14 for which there are data for every land challenge: increased food productivity, agroforestry and increased soil organic carbon content, deliver large benefits across all five land challenges.",
+      "page_start": 609,
+      "page_end": 609,
+      "topic": "integrated response options",
+      "practices": [
+        "agroforestry_agrisilvicultural",
+        "other"
+      ],
+      "metrics": [
+        "SOC",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch6_interlinkages__w05__c01",
+      "passage_id": "srccl_ch6_interlinkages__w05__p02",
+      "subject": "emission control measures",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 30,
+      "value_low": 30,
+      "value_high": 135,
+      "unit": "percent_change",
+      "basis": "unstated",
+      "conditions": "ozone reductions in 2030 and beyond",
+      "evidence_span": "This strategy increases annual crop yields by 30–135 Mt due to ozone reductions in 2030 and beyond.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w05__c02",
+      "passage_id": "srccl_ch6_interlinkages__w05__p03",
+      "subject": "loss of pollinators",
+      "metric": "species_richness",
+      "direction": "decrease",
+      "evidence_span": "Indirectly, the loss of pollinators (due to combined causes, including the loss of habitats and flowering species) would contribute to 1.42 million additional deaths per year from non-communicable and malnutrition-related diseases, and 27.0 million lost disability-adjusted life years (DALYs) per year.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w05__c03",
+      "passage_id": "srccl_ch6_interlinkages__w05__p05",
+      "subject": "halving food waste",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 1000,
+      "unit": "count",
+      "basis": "unstated",
+      "conditions": "globally",
+      "evidence_span": "Kummu et al. (2012) estimate that an additional billion people could be fed if food waste was halved globally.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "pollinators",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "mechanism": "pollination services",
+      "passage_id": "srccl_ch6_interlinkages__w05__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "food waste reduction",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "mechanism": "halving food waste",
+      "passage_id": "srccl_ch6_interlinkages__w05__p05",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "local seed use",
+      "to_node": "species_richness",
+      "effect": "increase",
+      "mechanism": "food sovereignty networks",
+      "passage_id": "srccl_ch6_interlinkages__w05__p07",
+      "strength_stated": "unstated"
+    }
+  ],
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w05",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 616,
+    "pdf_end": 627,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:11:46Z",
+    "pdf_sha256": "6267013008b6257d"
+  }
+}

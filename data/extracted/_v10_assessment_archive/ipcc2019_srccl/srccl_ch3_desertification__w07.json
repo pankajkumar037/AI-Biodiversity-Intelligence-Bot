@@ -1,0 +1,69 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Ch3 Desertification",
+  "content_type": "other",
+  "summary": "This document is a reference list for Chapter 3 on Desertification from the IPCC Special Report on Climate Change and Land (SRCCL).",
+  "passages": [
+    {
+      "passage_id": "srccl_ch3_desertification__w07__p01",
+      "heading_path": [
+        "Chapter 3",
+        "Desertification"
+      ],
+      "text": "Sombrero, A., and A. De Benito, 2010: Carbon accumulation in soil. Ten-year study of conservation tillage and crop rotation in a semi-arid area of Castile-Leon, Spain. Soil Tillage Res., 107, 64–70, doi:10.1016/j.still.2010.02.009.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "conservation tillage and crop rotation",
+      "practices": [
+        "conservation_agriculture",
+        "crop_rotation"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch3_desertification__w07__c01",
+      "passage_id": "srccl_ch3_desertification__w07__p01",
+      "subject": "conservation tillage and crop rotation",
+      "metric": "SOC",
+      "direction": "increase",
+      "conditions": "semi-arid area of Castile-Leon, Spain",
+      "time_horizon_years": 10,
+      "evidence_span": "Sombrero, A., and A. De Benito, 2010: Carbon accumulation in soil. Ten-year study of conservation tillage and crop rotation in a semi-arid area of Castile-Leon, Spain.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "conservation tillage and crop rotation",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "semi-arid area of Castile-Leon, Spain",
+      "passage_id": "srccl_ch3_desertification__w07__p01",
+      "strength_stated": "unstated"
+    }
+  ],
+  "_meta": {
+    "unit_id": "srccl_ch3_desertification__w07",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 336,
+    "pdf_end": 347,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:50:06Z",
+    "pdf_sha256": "bcee83d9cecc3bed"
+  }
+}

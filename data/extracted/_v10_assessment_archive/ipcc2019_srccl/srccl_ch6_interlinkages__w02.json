@@ -1,0 +1,193 @@
+{
+  "extraction_status": "ok",
+  "section_title": "6.3.1.1 Integrated response options based on land management",
+  "content_type": "assessment",
+  "summary": "This assessment summarizes the mitigation potential of various land management practices in agriculture, including cropland management, grazing land management, livestock management, agroforestry, and integrated water management, based on existing scientific literature.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch6_interlinkages__w02__p01",
+      "heading_path": [
+        "6.3 Potentials for addressing the land challenges",
+        "6.3.1 Potential of the integrated response options for delivering mitigation",
+        "6.3.1.1 Integrated response options based on land management"
+      ],
+      "text": "Increasing the productivity of land used for food production can deliver significant mitigation by avoiding emissions that would occur if increased food demand were met through expansion of the agricultural land area (Burney et al. 2010). If pursued through increased agrochemical inputs, numerous adverse impacts on GHG emissions (and other environmental sustainability) can occur (Table 6.5), but, if pursued through sustainable intensification, increased food productivity could provide high levels of mitigation. For example, yield improvement has been estimated to have contributed to emissions savings of >13 GtCO2 yr–1 since 1961 (Burney et al. 2010) (Table 6.13). This can also reduce the GHG intensity of products (Bennetzen et al. 2016a,b) which means a smaller environmental footprint of production, since demand can be met using less land and/or with fewer animals.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Increased food productivity",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "crop_yield",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w02__p02",
+      "heading_path": [
+        "6.3 Potentials for addressing the land challenges",
+        "6.3.1 Potential of the integrated response options for delivering mitigation",
+        "6.3.1.1 Integrated response options based on land management"
+      ],
+      "text": "Improved cropland management could provide moderate levels of mitigation (1.4–2.3 GtCO2e yr–1) (Smith et al. 2008, 2014; Pradhan et al. 2013) (Table 6.13). The lower estimate of potential is from Pradhan et al. (2013) for decreasing emissions intensity, and the upper end of technical potential is estimated by adding technical potentials for cropland management (about 1.4 GtCO2e yr–1), rice management (about 0.2 GtCO2e yr–1) and restoration of degraded land (about 0.7 GtCO2e yr–1) from Smith et al. (2008) and Smith et al. (2014). Note that much of this potential arises from soil carbon sequestration so there is an overlap with that response option. (Section 6.3.1.1).",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Improved cropland management",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w02__p03",
+      "heading_path": [
+        "6.3 Potentials for addressing the land challenges",
+        "6.3.1 Potential of the integrated response options for delivering mitigation",
+        "6.3.1.1 Integrated response options based on land management"
+      ],
+      "text": "Grazing lands can store large stocks of carbon in soil and root biomass compartments (Conant and Paustian 2002; O’Mara 2012; Zhou et al. 2017). The global mitigation potential is moderate (1.4–1.8 GtCO2 yr–1), with the lower value in the range for technical potential taken from Smith et al. (2008) which includes only grassland management measures, and the upper value in the range from Herrero et al. (2016), which includes also indirect effects and some components of livestock management, and soil carbon sequestration, so there is overlap with these response options (Section 6.3.1.1).",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Grazing land management",
+      "practices": [
+        "grassland_restoration",
+        "rotational_grazing"
+      ],
+      "metrics": [
+        "SOC",
+        "biomass",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w02__p04",
+      "heading_path": [
+        "6.3 Potentials for addressing the land challenges",
+        "6.3.1 Potential of the integrated response options for delivering mitigation",
+        "6.3.1.1 Integrated response options based on land management"
+      ],
+      "text": "Integrated water management provides moderate benefits for climate mitigation due to interactions with other land management strategies. For example, promoting soil carbon conservation (e.g., reduced tillage) can improve the water retention capacity of soils. Jat et al. (2015) found that improved tillage practices and residue incorporation increased water-use efficiency by 30%, rice–wheat yields by 5–37%, income by 28–40% and reduced GHG emission by 16–25%. While irrigated agriculture accounts for only 20% of the total cultivated land, the energy consumption from groundwater irrigation is significant. However, current estimates of mitigation potential are limited to reductions in GHG emissions mainly in cropland and rice cultivation (Smith et al. 2008, 2014) (Chapter 2 and Table 6.13). Li et al. (2006) estimated a 0.52–0.72 GtCO2 yr–1 reduction using the alternate wetting and drying technique.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "Integrated water management",
+      "practices": [
+        "irrigation",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "water_holding_capacity",
+        "crop_yield",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch6_interlinkages__w02__c01",
+      "passage_id": "srccl_ch6_interlinkages__w02__p01",
+      "subject": "Increased food productivity",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 13,
+      "unit": "Mg_ha_yr",
+      "evidence_span": "yield improvement has been estimated to have contributed to emissions savings of >13 GtCO2 yr–1 since 1961",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w02__c02",
+      "passage_id": "srccl_ch6_interlinkages__w02__p02",
+      "subject": "Improved cropland management",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value_low": 1.4,
+      "value_high": 2.3,
+      "unit": "Mg_ha_yr",
+      "evidence_span": "Improved cropland management could provide moderate levels of mitigation (1.4–2.3 GtCO2e yr–1)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w02__c03",
+      "passage_id": "srccl_ch6_interlinkages__w02__p03",
+      "subject": "Grazing land management",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value_low": 1.4,
+      "value_high": 1.8,
+      "unit": "Mg_ha_yr",
+      "evidence_span": "The global mitigation potential is moderate (1.4–1.8 GtCO2 yr–1)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w02__c04",
+      "passage_id": "srccl_ch6_interlinkages__w02__p04",
+      "subject": "Integrated water management",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value_low": 0.52,
+      "value_high": 0.72,
+      "unit": "Mg_ha_yr",
+      "evidence_span": "Li et al. (2006) estimated a 0.52–0.72 GtCO2 yr–1 reduction using the alternate wetting and drying technique.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "integrated_nutrient_mgmt",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w02__p01",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w02__p04",
+      "strength_stated": "moderate"
+    }
+  ],
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w02",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 583,
+    "pdf_end": 594,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:52:48Z",
+    "pdf_sha256": "3d4ee43d5c7afe38"
+  }
+}

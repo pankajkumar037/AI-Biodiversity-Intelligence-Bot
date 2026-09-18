@@ -1,0 +1,180 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+  "content_type": "assessment",
+  "summary": "This chapter assesses the interlinkages between response options for climate mitigation, adaptation, desertification, land degradation, and food security, highlighting synergies, trade-offs, and the role of socio-ecological systems in implementation.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch6_interlinkages__w00__p01",
+      "heading_path": [
+        "6.1 Introduction",
+        "6.1.3 Challenges and response options in current and historical interventions"
+      ],
+      "text": "Since land-based challenges overlap, part of the ice-free land area is exposed to combinations of two or more challenges. For instance, land degradation (severe soil erosion) or desertification from land use and food insecurity (chronic undernourishment) are combined with a strong climate change adaptation challenge (dissimilarity in seasonal cycles) in 4.5% of the ice-free land area.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Land-based challenges overlap",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "species_richness",
+        "rainfall",
+        "temperature"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w00__p02",
+      "heading_path": [
+        "Box 6.1 | Case studies by anthrome type showing historical interlinkages between land-based challenges and the development of local responses",
+        "A. Croplands. Land degradation, groundwater stress and food insecurity: Soil and water conservation measures in the Tigray region of Ethiopia"
+      ],
+      "text": "Since around 2000, the large-scale implementation of soil and water conservation (SWC) measures, integrated catchment management, conservation agriculture and indigenous tree regeneration has started to yield positive effects on the vegetation cover and led to the stabilisation of about 25% of the gullies by 2010. Most of the degraded landscapes have been restored, with positive impacts over the last two decades on soil fertility, water availability and crop productivity.",
+      "page_start": 11,
+      "page_end": 12,
+      "topic": "Soil and water conservation in Tigray, Ethiopia",
+      "practices": [
+        "conservation_agriculture",
+        "check_dams"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "water_holding_capacity",
+        "crop_yield",
+        "erosion"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w00__p03",
+      "heading_path": [
+        "Box 6.1 | Case studies by anthrome type showing historical interlinkages between land-based challenges and the development of local responses",
+        "B. Rangelands. Biodiversity hotspot, land degradation and climate change: Pasture intensification in the Cerrados of Brazil"
+      ],
+      "text": "Pasture intensification through liming, fertilisation and controlled grazing could increase soil organic carbon and reduce net GHG emission intensity per unit meat product, but only at increased investment cost per unit of area.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "Pasture intensification in Brazil",
+      "practices": [
+        "rotational_grazing",
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "SOC",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "rangeland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w00__p04",
+      "heading_path": [
+        "Box 6.1 | Case studies by anthrome type showing historical interlinkages between land-based challenges and the development of local responses",
+        "C. Semi-natural forests. Biodiversity hotspot, land degradation, climate change and food insecurity: Restoration and resilience of tropical forests in Indonesia"
+      ],
+      "text": "For adaptation options, the community forestry scheme Hutan Desa (Village Forest) in Sumatra and Kalimantan helped to avoid deforestation (co-benefits with mitigation) by between 0.6 and 0.9 ha km–2 in Sumatra and 0.6 and 0.8 ha km–2 in Kalimantan in the period 2012–2016; Santika et al. 2017), improve local livelihood options, and restore degraded ecosystems (positive side effects for NCP provision).",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "Community forestry in Indonesia",
+      "practices": [
+        "grassland_restoration"
+      ],
+      "metrics": [
+        "tree_cover",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch6_interlinkages__w00__c01",
+      "passage_id": "srccl_ch6_interlinkages__w00__p02",
+      "subject": "soil and water conservation measures",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": 25,
+      "unit": "percent",
+      "evidence_span": "Since around 2000, the large-scale implementation of soil and water conservation (SWC) measures, integrated catchment management, conservation agriculture and indigenous tree regeneration has started to yield positive effects on the vegetation cover and led to the stabilisation of about 25% of the gullies by 2010.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w00__c02",
+      "passage_id": "srccl_ch6_interlinkages__w00__p03",
+      "subject": "pasture intensification",
+      "metric": "SOC",
+      "direction": "increase",
+      "evidence_span": "Pasture intensification through liming, fertilisation and controlled grazing could increase soil organic carbon and reduce net GHG emission intensity per unit meat product, but only at increased investment cost per unit of area.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w00__c03",
+      "passage_id": "srccl_ch6_interlinkages__w00__p04",
+      "subject": "community forestry scheme",
+      "metric": "tree_cover",
+      "direction": "increase",
+      "evidence_span": "For adaptation options, the community forestry scheme Hutan Desa (Village Forest) in Sumatra and Kalimantan helped to avoid deforestation (co-benefits with mitigation) by between 0.6 and 0.9 ha km–2 in Sumatra and 0.6 and 0.8 ha km–2 in Kalimantan in the period 2012–2016",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "soil and water conservation measures",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "passage_id": "srccl_ch6_interlinkages__w00__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "pasture intensification",
+      "to_node": "SOC",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w00__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "community forestry scheme",
+      "to_node": "tree_cover",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w00__p04",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w00",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 561,
+    "pdf_end": 572,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:10:28Z",
+    "pdf_sha256": "70a1adc2792e8bfc"
+  }
+}

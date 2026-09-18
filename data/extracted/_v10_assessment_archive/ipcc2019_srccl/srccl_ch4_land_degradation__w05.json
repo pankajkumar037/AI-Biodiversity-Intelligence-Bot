@@ -1,0 +1,152 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4.9.6 Management of land degradation induced by tropical cyclones",
+  "content_type": "practice",
+  "summary": "This section discusses the management of land degradation caused by tropical cyclones, focusing on coastal wetlands and the risks of maladaptation from hard engineering solutions like sea walls. It highlights the importance of nature-based solutions and community involvement in coastal adaptation.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch4_land_degradation__w05__p01",
+      "heading_path": [
+        "4.9.6 Management of land degradation induced by tropical cyclones"
+      ],
+      "text": "Tropical cyclones mainly, but not exclusively, affect coastal regions, threatening maintenance of the associated ecosystems, mangroves, wetlands, seagrasses, and so on. These areas not only provide food, water and shelter for fish, birds and other wildlife, but also provide important ecosystem services such as water-quality improvement, flood abatement and carbon sequestration (Meng et al. 2017).",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Coastal ecosystem services",
+      "practices": [],
+      "metrics": [
+        "pollution_load",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w05__p02",
+      "heading_path": [
+        "4.9.6 Management of land degradation induced by tropical cyclones"
+      ],
+      "text": "There is a high agreement with medium evidence that the success of wetland restoration depends mainly on the flow of the water through the system, the degree to which re-flooding occurs, disturbance regimes, and the control of invasive species (Burlakova et al. 2009; López-Rosas et al. 2013). The implementation of the Ecological Mangrove Rehabilitation protocol (López-Portillo et al. 2017) that includes monitoring and reporting tasks, has been proven to deliver successful rehabilitation of wetland ecosystem services.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Wetland restoration",
+      "practices": [
+        "other"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w05__p03",
+      "heading_path": [
+        "4.9.6 Management of land degradation induced by tropical cyclones",
+        "4.9.8 Avoiding coastal maladaptation"
+      ],
+      "text": "In many cases, increased rates of coastal erosion due to the construction of sea walls are the result of the negligence of local coastal morphological dynamics and natural variability as well as the interplay of environmental and anthropogenic drivers of coastal change (medium evidence, high agreement). Sea walls in response to coastal erosion may be ill-suited for extreme wave heights under cyclone impacts and can lead to coastal degradation by keeping overflowing sea water from flowing back into the sea, and therefore affect the coastal vegetation through saltwater intrusion, as observed in Tuvalu (Government of Tuvalu 2006; Wairiu 2017).",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Coastal maladaptation",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "erosion",
+        "salinity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "risk"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w05__p04",
+      "heading_path": [
+        "4.9.6 Management of land degradation induced by tropical cyclones",
+        "4.9.8 Avoiding coastal maladaptation"
+      ],
+      "text": "Nature-based solutions and approaches such as ‘building with nature’ (Slobbe et al. 2013) may allow for more sustainable coastal protection mechanisms and avoid coastal degradation. Examples from the Maldives, several Pacific islands and the North Atlantic show the importance of the involvement of local communities in coastal adaptation projects, considering local skills, capacities, as well as demographic and socio-political dynamics, in order to ensure the proper monitoring and maintenance of coastal adaptation measures (Sovacool 2012; Muir et al. 2014; Young et al. 2014; Buggy and McNamara 2016; Petzold 2016).",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Nature-based coastal protection",
+      "practices": [
+        "other"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch4_land_degradation__w05__c01",
+      "passage_id": "srccl_ch4_land_degradation__w05__p03",
+      "subject": "sea walls",
+      "metric": "erosion",
+      "direction": "increase",
+      "evidence_span": "In many cases, increased rates of coastal erosion due to the construction of sea walls are the result of the negligence of local coastal morphological dynamics and natural variability as well as the interplay of environmental and anthropogenic drivers of coastal change",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "sea walls",
+      "to_node": "erosion",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "negligence of local coastal morphological dynamics and natural variability",
+      "passage_id": "srccl_ch4_land_degradation__w05__p03",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "sea walls",
+      "to_node": "salinity",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "keeping overflowing sea water from flowing back into the sea",
+      "passage_id": "srccl_ch4_land_degradation__w05__p03",
+      "strength_stated": "moderate"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Ecological Mangrove Rehabilitation",
+    "tree_species": [],
+    "crop_species": [],
+    "region_of_adoption": [],
+    "stated_benefits": [
+      "successful rehabilitation of wetland ecosystem services"
+    ],
+    "stated_constraints": []
+  },
+  "_meta": {
+    "unit_id": "srccl_ch4_land_degradation__w05",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 410,
+    "pdf_end": 421,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:51:35Z",
+    "pdf_sha256": "460564a5fb2a2739"
+  }
+}

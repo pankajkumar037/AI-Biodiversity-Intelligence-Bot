@@ -1,0 +1,109 @@
+{
+  "extraction_status": "ok",
+  "section_title": "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+  "content_type": "other",
+  "summary": "This document is a reference list of scientific literature related to land degradation, restoration, and management practices, including conservation agriculture, agroforestry, and soil management.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch6_responses__w06__p01",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Lahmar, R., Bationo, B. A., Dan Lamso, N., Guéro, Y., & Tittonell, P. (2012). Tailoring conservation agriculture technologies to West Africa semi-arid zones: Building on traditional local practices for soil restoration. Field Crops Research, 132, 158-167.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "conservation agriculture",
+      "practices": [
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "soil_organic_matter"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w06__p02",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Lal, R. (2015b). Sequestering carbon and increasing productivity by conservation agriculture. Journal of Soil and Water Conservation, 70(3), 55A-62A.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "conservation agriculture",
+      "practices": [
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "SOC",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch6_responses__w06__c01",
+      "passage_id": "ipbes_ch6_responses__w06__p02",
+      "subject": "conservation agriculture",
+      "metric": "SOC",
+      "direction": "increase",
+      "evidence_span": "Sequestering carbon and increasing productivity by conservation agriculture.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w06__c02",
+      "passage_id": "ipbes_ch6_responses__w06__p02",
+      "subject": "conservation agriculture",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "evidence_span": "Sequestering carbon and increasing productivity by conservation agriculture.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "conservation_agriculture",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "ipbes_ch6_responses__w06__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "conservation_agriculture",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "ipbes_ch6_responses__w06__p02",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch6_responses__w06",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 559,
+    "pdf_end": 570,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:58:04Z",
+    "pdf_sha256": "9166d4d0c6a4f414"
+  }
+}

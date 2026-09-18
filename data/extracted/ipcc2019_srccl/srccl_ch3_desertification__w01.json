@@ -1,0 +1,395 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Desertification",
+  "content_type": "assessment",
+  "summary": "This assessment explores the complex interactions between human and climatic drivers of desertification, the challenges in mapping and quantifying desertification, and the feedback mechanisms between desertification and climate, including sand/dust aerosols, albedo changes, and greenhouse gas fluxes.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch3_desertification__w01__p01",
+      "heading_path": [
+        "3.1.4.3 Interaction of drivers: Desertification syndrome versus drylands development paradigm"
+      ],
+      "text": "All in all, there is high confidence that anthropogenic and climatic drivers interact in complex ways in causing desertification. As discussed in Section 3.2.2, the relative influence of human or climatic drivers on desertification varies from place to place (high confidence).",
+      "page_start": 260,
+      "page_end": 260,
+      "topic": "Drivers of desertification",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w01__p02",
+      "heading_path": [
+        "3.2 Observations of desertification",
+        "3.2.1 Status and trends of desertification"
+      ],
+      "text": "Depending on the definitions applied and methodologies used in evaluation, the status and extent of desertification globally and regionally still show substantial variations (high confidence). There is high confidence that the range and intensity of desertification has increased in some dryland areas over the past several decades.",
+      "page_start": 260,
+      "page_end": 260,
+      "topic": "Status and trends of desertification",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w01__p03",
+      "heading_path": [
+        "3.3 Desertification feedbacks to climate"
+      ],
+      "text": "Drylands are characterised by limited soil moisture compared to humid regions. Thus, the sensible heat (heat that causes the atmospheric temperature to rise) accounts for more of the surface net radiation than latent heat (evaporation) in these regions. This tight coupling between the surface energy balance and the soil moisture in semi-arid and dry sub-humid zones makes these regions susceptible to land–atmosphere feedback loops that can amplify changes to the water cycle.",
+      "page_start": 268,
+      "page_end": 268,
+      "topic": "Land-atmosphere feedback",
+      "practices": [],
+      "metrics": [
+        "soil_moisture",
+        "temperature"
+      ],
+      "climate_zones": [
+        "semi-arid",
+        "dry_sub_humid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w01__p04",
+      "heading_path": [
+        "3.3 Desertification feedbacks to climate",
+        "3.3.1 Sand and dust aerosols"
+      ],
+      "text": "Biological or structural soil crusts have been shown to effectively stabilise dryland soils. Thus their loss due to intense land use and/or climate change can be expected to cause an increase in sand and dust storms (high confidence).",
+      "page_start": 268,
+      "page_end": 268,
+      "topic": "Soil crusts and dust storms",
+      "practices": [],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w01__p05",
+      "heading_path": [
+        "3.3 Desertification feedbacks to climate",
+        "3.3.1 Sand and dust aerosols"
+      ],
+      "text": "There is high confidence that there is a negative relationship between vegetation green-up and the occurrence of dust storms. Changes in groundwater can affect vegetation and the generation of atmospheric dust. This can occur through groundwater processes such as the vertical movement of salt to the surface causing salinisation, supply of near-surface soil moisture, and sustenance of groundwater dependent vegetation.",
+      "page_start": 268,
+      "page_end": 268,
+      "topic": "Vegetation and dust storms",
+      "practices": [],
+      "metrics": [
+        "species_richness",
+        "soil_moisture",
+        "salinity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w01__p06",
+      "heading_path": [
+        "3.3 Desertification feedbacks to climate",
+        "3.3.2 Changes in surface albedo"
+      ],
+      "text": "Increasing surface albedo in dryland regions will impact the local climate, decreasing surface temperature and precipitation, and provide a positive feedback on the albedo (high confidence).",
+      "page_start": 269,
+      "page_end": 269,
+      "topic": "Albedo feedback",
+      "practices": [],
+      "metrics": [
+        "temperature",
+        "rainfall"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w01__p07",
+      "heading_path": [
+        "3.3 Desertification feedbacks to climate",
+        "3.3.3 Changes in vegetation and greenhouse gas fluxes"
+      ],
+      "text": "Desertification usually leads to a loss in productivity and a decline in above- and below-ground carbon stocks. Drivers such as overgrazing lead to a decrease in both plant and SOC pools.",
+      "page_start": 270,
+      "page_end": 270,
+      "topic": "Carbon stocks and desertification",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w01__p08",
+      "heading_path": [
+        "3.4 Desertification impacts on natural and socio-economic systems under climate change",
+        "3.4.1 Impacts on natural and managed ecosystems",
+        "3.4.1.1 Impacts on ecosystems and their services in drylands"
+      ],
+      "text": "There is high confidence that desertification processes such as soil erosion, secondary salinisation, and overgrazing have negatively impacted provisioning ecosystem services in drylands, particularly food and fodder production.",
+      "page_start": 270,
+      "page_end": 270,
+      "topic": "Ecosystem services",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "salinity",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "risk"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w01__p09",
+      "heading_path": [
+        "3.4 Desertification impacts on natural and socio-economic systems under climate change",
+        "3.4.1 Impacts on natural and managed ecosystems",
+        "3.4.1.1 Impacts on ecosystems and their services in drylands"
+      ],
+      "text": "Precipitation, by affecting soil moisture content, is considered to be the principal determinant of the capacity of drylands to sequester carbon. Lower annual rainfall resulted in the release of carbon into the atmosphere for a number of sites located in Mongolia, China and North America. Low soil water availability promotes soil microbial respiration, yet there is insufficient moisture to stimulate plant productivity, resulting in net carbon emissions at an ecosystem level.",
+      "page_start": 271,
+      "page_end": 271,
+      "topic": "Carbon sequestration",
+      "practices": [],
+      "metrics": [
+        "soil_moisture",
+        "rainfall",
+        "carbon_sequestration_rate",
+        "microbial_biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w01__p10",
+      "heading_path": [
+        "3.4 Desertification impacts on natural and socio-economic systems under climate change",
+        "3.4.1 Impacts on natural and managed ecosystems",
+        "3.4.1.2 Impacts on biodiversity: Plant and wildlife"
+      ],
+      "text": "Desertification, including through land-use change, already contributed to the loss of biodiversity across drylands (medium confidence).",
+      "page_start": 271,
+      "page_end": 271,
+      "topic": "Biodiversity",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "risk"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch3_desertification__w01__c01",
+      "passage_id": "srccl_ch3_desertification__w01__p04",
+      "subject": "loss of soil crusts",
+      "metric": "erosion",
+      "direction": "increase",
+      "basis": "high confidence",
+      "evidence_span": "Thus their loss due to intense land use and/or climate change can be expected to cause an increase in sand and dust storms (high confidence) (Rajot et al. 2003; Field et al. 2010; Rodriguez-Caballero et al. 2018).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w01__c02",
+      "passage_id": "srccl_ch3_desertification__w01__p06",
+      "subject": "increasing surface albedo",
+      "metric": "temperature",
+      "direction": "decrease",
+      "basis": "high confidence",
+      "evidence_span": "Increasing surface albedo in dryland regions will impact the local climate, decreasing surface temperature and precipitation, and provide a positive feedback on the albedo (high confidence) (Charney et al. 1975).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w01__c03",
+      "passage_id": "srccl_ch3_desertification__w01__p06",
+      "subject": "increasing surface albedo",
+      "metric": "rainfall",
+      "direction": "decrease",
+      "basis": "high confidence",
+      "evidence_span": "Increasing surface albedo in dryland regions will impact the local climate, decreasing surface temperature and precipitation, and provide a positive feedback on the albedo (high confidence) (Charney et al. 1975).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w01__c04",
+      "passage_id": "srccl_ch3_desertification__w01__p07",
+      "subject": "desertification",
+      "metric": "biomass",
+      "direction": "decrease",
+      "evidence_span": "Desertification usually leads to a loss in productivity and a decline in above- and below-ground carbon stocks (Abril et al. 2005; Asner et al. 2003).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w01__c05",
+      "passage_id": "srccl_ch3_desertification__w01__p07",
+      "subject": "desertification",
+      "metric": "SOC",
+      "direction": "decrease",
+      "evidence_span": "Desertification usually leads to a loss in productivity and a decline in above- and below-ground carbon stocks (Abril et al. 2005; Asner et al. 2003).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w01__c06",
+      "passage_id": "srccl_ch3_desertification__w01__p08",
+      "subject": "desertification processes",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "basis": "high confidence",
+      "evidence_span": "There is high confidence that desertification processes such as soil erosion, secondary salinisation, and overgrazing have negatively impacted provisioning ecosystem services in drylands, particularly food and fodder production (Majeed and Muhammad 2019; Mirzabaev et al. 2016; Qadir et al. 2009; Van Loo et al. 2017; Tokbergenova et al. 2018) (Section 3.4.2.2).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w01__c07",
+      "passage_id": "srccl_ch3_desertification__w01__p09",
+      "subject": "lower annual rainfall",
+      "metric": "carbon_sequestration_rate",
+      "direction": "decrease",
+      "evidence_span": "Lower annual rainfall resulted in the release of carbon into the atmosphere for a number of sites located in Mongolia, China and North America (Biederman et al. 2017; Chen et al. 2009; Fay et al. 2008; Hao et al. 2008; Mi et al. 2015; Sharkhuu et al. 2016).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w01__c08",
+      "passage_id": "srccl_ch3_desertification__w01__p10",
+      "subject": "desertification",
+      "metric": "species_richness",
+      "direction": "decrease",
+      "basis": "medium confidence",
+      "evidence_span": "Desertification, including through land-use change, already contributed to the loss of biodiversity across drylands (medium confidence) (Newbold et al. 2015; Wilting et al. 2017).",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "soil crusts",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": "drylands",
+      "passage_id": "srccl_ch3_desertification__w01__p04",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "vegetation green-up",
+      "to_node": "dust storms",
+      "effect": "decrease",
+      "condition": "drylands",
+      "passage_id": "srccl_ch3_desertification__w01__p05",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "surface albedo",
+      "to_node": "temperature",
+      "effect": "decrease",
+      "condition": "drylands",
+      "passage_id": "srccl_ch3_desertification__w01__p06",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "surface albedo",
+      "to_node": "rainfall",
+      "effect": "decrease",
+      "condition": "drylands",
+      "passage_id": "srccl_ch3_desertification__w01__p06",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "desertification",
+      "to_node": "SOC",
+      "effect": "decrease",
+      "condition": "drylands",
+      "passage_id": "srccl_ch3_desertification__w01__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "desertification",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "drylands",
+      "passage_id": "srccl_ch3_desertification__w01__p08",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "rainfall",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "condition": "drylands",
+      "passage_id": "srccl_ch3_desertification__w01__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "desertification",
+      "to_node": "species_richness",
+      "effect": "decrease",
+      "condition": "drylands",
+      "passage_id": "srccl_ch3_desertification__w01__p10",
+      "strength_stated": "moderate"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch3_desertification__w01",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 270,
+    "pdf_end": 281,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:06:20Z",
+    "pdf_sha256": "109b29a84e8c795b"
+  }
+}

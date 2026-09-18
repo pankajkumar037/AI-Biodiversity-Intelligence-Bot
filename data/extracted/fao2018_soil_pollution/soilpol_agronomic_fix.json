@@ -1,0 +1,337 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Changes in agronomic practices to minimise food-chain contamination and impacts on ecosystem services",
+  "content_type": "assessment",
+  "summary": "This document outlines agronomic management practices, including integrated crop management, integrated nutrient management, and specific strategies for reducing cadmium uptake in crops, to minimize soil pollution and food-chain contamination.",
+  "passages": [
+    {
+      "passage_id": "soilpol_agronomic_fix__p01",
+      "heading_path": [
+        "3.3 | CHANGES IN AGRONOMIC PRACTICES TO MINIMISE FOOD-CHAIN CONTAMINATION AND IMPACTS ON ECOSYSTEM SERVICES",
+        "3.3.1 | FERTILIZERS"
+      ],
+      "text": "Cover crop: to reduce soil loss and nitrate leaching; consider a legume-based cover crop on vegetable farms and on distant fields on dairy farms where manure is not spread.",
+      "page_start": 80,
+      "page_end": 80,
+      "topic": "Cover crops",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "erosion",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "soilpol_agronomic_fix__p02",
+      "heading_path": [
+        "3.3 | CHANGES IN AGRONOMIC PRACTICES TO MINIMISE FOOD-CHAIN CONTAMINATION AND IMPACTS ON ECOSYSTEM SERVICES",
+        "3.3.1 | FERTILIZERS"
+      ],
+      "text": "Minimum tillage: to reduce nutrient loss through soil erosion.",
+      "page_start": 80,
+      "page_end": 80,
+      "topic": "Minimum tillage",
+      "practices": [
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "soilpol_agronomic_fix__p03",
+      "heading_path": [
+        "3.3 | CHANGES IN AGRONOMIC PRACTICES TO MINIMISE FOOD-CHAIN CONTAMINATION AND IMPACTS ON ECOSYSTEM SERVICES"
+      ],
+      "text": "Maintaining organic carbon-rich soils, restoring and improving degraded agricultural lands and, in general terms, increasing the soil carbon content all play an important role in addressing the three-fold challenge of food security, adaptation of food systems and people to climate change, and the mitigation of anthropogenic emissions.",
+      "page_start": 81,
+      "page_end": 81,
+      "topic": "Soil carbon",
+      "practices": [],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "soilpol_agronomic_fix__p04",
+      "heading_path": [
+        "3.3 | CHANGES IN AGRONOMIC PRACTICES TO MINIMISE FOOD-CHAIN CONTAMINATION AND IMPACTS ON ECOSYSTEM SERVICES"
+      ],
+      "text": "Beneficial microbes are essential for decomposing organic matter in the soil and for increasing the availability of essential macro-nutrients (nitrogen, phosphorus, potassium, sulfur, calcium and magnesium) and micro-nutrients (boron, copper, chlorine, iron, manganese, molybdenum and zinc) to crop plants.",
+      "page_start": 81,
+      "page_end": 81,
+      "topic": "Bio-fertilizers",
+      "practices": [],
+      "metrics": [
+        "soil_organic_matter",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "soilpol_agronomic_fix__p05",
+      "heading_path": [
+        "3.3 | CHANGES IN AGRONOMIC PRACTICES TO MINIMISE FOOD-CHAIN CONTAMINATION AND IMPACTS ON ECOSYSTEM SERVICES"
+      ],
+      "text": "Beneficial microbes increase plant tolerance to different environmental stresses (e.g. drought, heat, cold, salinity) and increase plant resistance to insects and disease.",
+      "page_start": 81,
+      "page_end": 81,
+      "topic": "Bio-fertilizers",
+      "practices": [],
+      "metrics": [
+        "soil_moisture",
+        "temperature",
+        "salinity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "soilpol_agronomic_fix__p06",
+      "heading_path": [
+        "3.3 | CHANGES IN AGRONOMIC PRACTICES TO MINIMISE FOOD-CHAIN CONTAMINATION AND IMPACTS ON ECOSYSTEM SERVICES",
+        "3.3.2 | PESTICIDES"
+      ],
+      "text": "Integrated pest management (IPM) is an approach based on prevention, monitoring, and control that offers the opportunity to eliminate or drastically reduce the use of pesticides, and thus reduce the risks of pesticide to human health and the environment.",
+      "page_start": 81,
+      "page_end": 82,
+      "topic": "Integrated pest management",
+      "practices": [],
+      "metrics": [
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "soilpol_agronomic_fix__p07",
+      "heading_path": [
+        "3.3 | CHANGES IN AGRONOMIC PRACTICES TO MINIMISE FOOD-CHAIN CONTAMINATION AND IMPACTS ON ECOSYSTEM SERVICES",
+        "3.3.3 | METALS"
+      ],
+      "text": "Cadmium (Cd) is the most widely studied metal in terms of food-chain contamination, and there are a number of options to minimise plant uptake of Cd from soil. They are summarised in Table 9 and can be grouped into manipulation of crops (species, cultivar and rotation), of soil conditions and of water (irrigation) attributes.",
+      "page_start": 82,
+      "page_end": 82,
+      "topic": "Cadmium contamination",
+      "practices": [
+        "crop_rotation"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "soilpol_agronomic_fix__p08",
+      "heading_path": [
+        "3.3 | CHANGES IN AGRONOMIC PRACTICES TO MINIMISE FOOD-CHAIN CONTAMINATION AND IMPACTS ON ECOSYSTEM SERVICES",
+        "3.3.3 | METALS"
+      ],
+      "text": "As Cd is a cationic metal, the addition of lime to raise soil pH and increase the cation-exchange capacity of soil can be used to increase soil sorption and reduce crop uptake, although effects are not consistent in field studies.",
+      "page_start": 83,
+      "page_end": 83,
+      "topic": "Cadmium remediation",
+      "practices": [
+        "gypsum_amendment"
+      ],
+      "metrics": [
+        "pH"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "soilpol_agronomic_fix__p09",
+      "heading_path": [
+        "3.3 | CHANGES IN AGRONOMIC PRACTICES TO MINIMISE FOOD-CHAIN CONTAMINATION AND IMPACTS ON ECOSYSTEM SERVICES",
+        "3.3.3 | METALS"
+      ],
+      "text": "The addition of Zn has also been shown to reduce crop Cd concentrations through a competitive uptake of Zn over Cd for loading into edible portions.",
+      "page_start": 83,
+      "page_end": 83,
+      "topic": "Cadmium remediation",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "soilpol_agronomic_fix__p10",
+      "heading_path": [
+        "3.3 | CHANGES IN AGRONOMIC PRACTICES TO MINIMISE FOOD-CHAIN CONTAMINATION AND IMPACTS ON ECOSYSTEM SERVICES",
+        "3.3.3 | METALS"
+      ],
+      "text": "Avoidance of irrigation waters rich in Cl will also reduce food chain contamination by Cd, due to chloro-complexation of the Cd2+ ion that increases mobility in soil and hence increases plant Cd uptake.",
+      "page_start": 83,
+      "page_end": 83,
+      "topic": "Cadmium remediation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "salinity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "soilpol_agronomic_fix__c01",
+      "passage_id": "soilpol_agronomic_fix__p01",
+      "subject": "Cover crops",
+      "metric": "erosion",
+      "direction": "decrease",
+      "evidence_span": "Cover crop: to reduce soil loss and nitrate leaching",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "soilpol_agronomic_fix__c02",
+      "passage_id": "soilpol_agronomic_fix__p02",
+      "subject": "Minimum tillage",
+      "metric": "erosion",
+      "direction": "decrease",
+      "evidence_span": "Minimum tillage: to reduce nutrient loss through soil erosion.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "soilpol_agronomic_fix__c03",
+      "passage_id": "soilpol_agronomic_fix__p08",
+      "subject": "Lime addition",
+      "metric": "pH",
+      "direction": "increase",
+      "evidence_span": "the addition of lime to raise soil pH",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "soilpol_agronomic_fix__c04",
+      "passage_id": "soilpol_agronomic_fix__p10",
+      "subject": "Irrigation water rich in Cl",
+      "metric": "salinity",
+      "direction": "increase",
+      "evidence_span": "Avoidance of irrigation waters rich in Cl will also reduce food chain contamination by Cd, due to chloro-complexation of the Cd2+ ion that increases mobility in soil and hence increases plant Cd uptake.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "cover_crops",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "passage_id": "soilpol_agronomic_fix__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "minimum_tillage",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "passage_id": "soilpol_agronomic_fix__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "beneficial_microbes",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "passage_id": "soilpol_agronomic_fix__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "lime_addition",
+      "to_node": "pH",
+      "effect": "increase",
+      "passage_id": "soilpol_agronomic_fix__p08",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "zinc_addition",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "passage_id": "soilpol_agronomic_fix__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "irrigation_water_rich_in_Cl",
+      "to_node": "salinity",
+      "effect": "increase",
+      "passage_id": "soilpol_agronomic_fix__p10",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "soilpol_agronomic_fix",
+    "doc_id": "fao2018_soil_pollution",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 92,
+    "pdf_end": 96,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T10:59:27Z",
+    "pdf_sha256": "7f660f68ec8f29af",
+    "prompt_type": "assessment"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "extraction_status": "ok",
+  "section_title": "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+  "content_type": "practice",
+  "summary": "This document outlines various strategies for halting land degradation and restoring degraded land, including conservation agriculture, integrated crop-livestock-forestry systems, agroecology, agroforestry, and integrated watershed management. It also discusses responses to forest, rangeland, and urban land degradation.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch6_responses__w01__p01",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Conservation agriculture"
+      ],
+      "text": "Conservation agriculture, as defined by the FAO, is characterized by three specific actions including: (i) continuous minimum mechanical soil disturbance; (ii) permanent organic soil cover; and (iii) diversification of crop species grown in sequences and/or associations.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Conservation agriculture definition",
+      "practices": [
+        "conservation_agriculture"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w01__p02",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Integrated crop, livestock and forestry systems"
+      ],
+      "text": "Integrated crop and livestock has been used to restore degraded croplands in North America, Western Europe, Brazil, Uruguay and Argentina (Franzluebbers et al., 2014; Peyraud et al., 2014). Integrated crop and livestock - and integrated crop, livestock and forestry - have increased the amount of cultivated pasture in Brazil to nearly 101 million ha as compared to 57 million ha of native pasture.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Integrated crop, livestock and forestry systems",
+      "practices": [
+        "crop_livestock_integration",
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w01__p03",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Agroecology"
+      ],
+      "text": "They typically involve management practices such as cover crops, green manures, intercropping, agroforestry and crop-livestock mixtures that promote organic matter accumulation and nutrient cycling, soil biological activity, natural control mechanisms (disease suppression, biocontrol of insects, weed interference), resource conservation and regeneration (soil, water, germplasm), and general enhancements of agrobiodiversity and synergisms between components (Altieri, 2002; Gliessman, 2014).",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Agroecology practices",
+      "practices": [
+        "cover_crops",
+        "intercropping",
+        "agroforestry_agrisilvicultural",
+        "crop_livestock_integration"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "nutrient_availability",
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w01__p04",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Agroforestry"
+      ],
+      "text": "Agroforestry can reduce or reverse land degradation by: (i) maintaining soil fertility through increased carbon inputs, nitrogen fixation and nutrient cycling; (ii) reducing erosion; and (iii) conserving water (quantity and quality) through increased infiltration and reduced surface runoff.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Agroforestry benefits",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "SOC",
+        "nitrogen",
+        "nutrient_availability",
+        "erosion",
+        "soil_moisture",
+        "water_holding_capacity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w01__p05",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Use of Enhanced Plant Genetics"
+      ],
+      "text": "Therefore, combining improved plant genetics with decreased tillage and efficient use of fertilizer and irrigation water can not only increase soil organic carbon, but contribute to climate change mitigation (Lal, 2002).",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Enhanced plant genetics and management",
+      "practices": [
+        "reduced_tillage",
+        "integrated_nutrient_mgmt",
+        "irrigation"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch6_responses__w01__c01",
+      "passage_id": "ipbes_ch6_responses__w01__p02",
+      "subject": "Integrated crop and livestock and integrated crop, livestock and forestry",
+      "metric": "biomass",
+      "direction": "increase",
+      "evidence_span": "Integrated crop and livestock - and integrated crop, livestock and forestry - have increased the amount of cultivated pasture in Brazil to nearly 101 million ha as compared to 57 million ha of native pasture.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w01__c02",
+      "passage_id": "ipbes_ch6_responses__w01__p05",
+      "subject": "Combining improved plant genetics with decreased tillage and efficient use of fertilizer and irrigation water",
+      "metric": "SOC",
+      "direction": "increase",
+      "evidence_span": "Therefore, combining improved plant genetics with decreased tillage and efficient use of fertilizer and irrigation water can not only increase soil organic carbon, but contribute to climate change mitigation (Lal, 2002).",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "integrated crop, livestock and forestry systems",
+      "to_node": "biomass",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "ipbes_ch6_responses__w01__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "improved plant genetics, decreased tillage, efficient fertilizer and irrigation",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "ipbes_ch6_responses__w01__p05",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Conservation Agriculture",
+    "tree_species": [],
+    "crop_species": [],
+    "region_of_adoption": [
+      "global"
+    ],
+    "stated_benefits": [
+      "preventive and mitigation strategy for addressing global cropland degradation"
+    ],
+    "stated_constraints": [
+      "market pressure for monocrop production",
+      "climatic factors",
+      "access to conservation agriculture technology",
+      "appropriately scaled incentives",
+      "information regarding adoption"
+    ]
+  },
+  "_meta": {
+    "unit_id": "ipbes_ch6_responses__w01",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 504,
+    "pdf_end": 515,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:57:03Z",
+    "pdf_sha256": "5ce147ff940a9761"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Desertification",
+  "content_type": "other",
+  "summary": "This document provides a comprehensive list of references related to desertification, land degradation, and sustainable land management, covering topics such as climate change impacts, soil erosion, rainwater harvesting, and policy responses.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch3_desertification__w08__p01",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "Sombrero, A., and A. De Benito, 2010: Carbon accumulation in soil. Ten-year study of conservation tillage and crop rotation in a semi-arid area of Castile-Leon, Spain. Soil Tillage Res., 107, 64–70, doi:10.1016/j.still.2010.02.009.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Carbon accumulation in soil",
+      "practices": [
+        "no_till",
+        "crop_rotation"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w08__p02",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "Srinivasa Rao, C.H., K. Sumantra, and P. Thakur, 2015: Carbon sequestration through conservation agriculture in rainfed systems. In: Integrated Soil and Water Resource Management for Livelihood and Environmental Security [Rajkhowa, D.J., A. Das, S.V. Ngachan, A. Sikka, and M. Lyngdoh (eds.)]. ICAR Research Complexfor NEH Region, Umiam, Meghalaya, India, pp. 56–67.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Carbon sequestration",
+      "practices": [
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w08__p03",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "Suleimenov, M., Z. Kaskarbayev, K. Akshalov, and N. Yushchenko, 2014: Conservation agriculture for long-term soil productivity. In: Novel Measurement and Assessment Tools for Monitoring and Management of Land and Water Resources in Agricultural Landscapes of Central Asia [Mueller, L., A. Saparov and G. Lischeid (eds.)]. Springer International Publishing, Cham, Switzerland, pp. 441–454.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Conservation agriculture",
+      "practices": [
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w08__p04",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "Taye, G. et al., 2015: Evolution of the effectiveness of stone bunds and trenches in reducing runoff and soil loss in the semi-arid Ethiopian highlands. Zeitschrift für Geomorphol., 59, 477–493, doi:10.1127/zfg/2015/0166.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Soil and water conservation",
+      "practices": [
+        "terracing"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w08__p05",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "Wicke, B., E.M.W. Smeets, R. Akanda, L. Stille, R.K. Singh, A.R. Awan, K. Mahmood, and A.P.C. Faaij, 2013: Biomass production in agroforestry and forestry systems on salt-affected soils in South Asia: Exploration of the GHG balance and economic performance of three case studies. J. Environ. Manage., 127, 324–334, doi:10.1016/J.JENVMAN.2013.05.060.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Agroforestry on salt-affected soils",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "biomass",
+        "salinity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch3_desertification__w08__c01",
+      "passage_id": "srccl_ch3_desertification__w08__p04",
+      "subject": "stone bunds and trenches",
+      "metric": "erosion",
+      "direction": "decrease",
+      "evidence_span": "Evolution of the effectiveness of stone bunds and trenches in reducing runoff and soil loss in the semi-arid Ethiopian highlands.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "conservation_agriculture",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "srccl_ch3_desertification__w08__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "terracing",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": "semi-arid Ethiopian highlands",
+      "mechanism": null,
+      "passage_id": "srccl_ch3_desertification__w08__p04",
+      "strength_stated": "unstated"
+    }
+  ],
+  "_meta": {
+    "unit_id": "srccl_ch3_desertification__w08",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 347,
+    "pdf_end": 356,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:50:19Z",
+    "pdf_sha256": "ddc08b578b0ebe23"
+  }
+}

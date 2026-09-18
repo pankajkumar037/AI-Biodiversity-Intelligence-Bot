@@ -1,0 +1,218 @@
+{
+  "extraction_status": "ok",
+  "section_title": "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+  "content_type": "assessment",
+  "summary": "This assessment reviews various economic, social, and cultural instruments used to halt land degradation and restore degraded lands, including payment for ecosystem services, biodiversity offsets, natural capital accounting, and community-based management.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch6_responses__w04__p01",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Payment for ecosystem services"
+      ],
+      "text": "The well-known Costa Rican programme is often considered as a successful case, because it had the effect of increasing forest cover and improving rural livelihoods (Porras et al., 2014).",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Payment for ecosystem services",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w04__p02",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Box 6 9 Natural Capital, Ecosystem Accounting and Watershed Management in Colombia"
+      ],
+      "text": "This more “data and resource intensive”, yet better targeted approach, gave an estimated threefold increase in return on investment for sediment retention compared with investments based on participants’ general willingness to fund.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Natural capital accounting",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w04__p03",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Box 6 10 Cost-benefit analyses of restoration."
+      ],
+      "text": "In the case of a “private benefits only” scenario, only 197 million ha could be profitably restored, and to meet Bonn Challenge restoration target governments would have to provide landowners a total subsidy of approximately $139 billion or $911/ha (also see Chapter 5, Section 5.2.3.4).",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "Cost-benefit analysis",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w04__p04",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Participatory approach in resource management and governance"
+      ],
+      "text": "As a result, it is estimated that the forest area in Nepal has increased from 37.4% in 1985-86 to 40.4% in 2015 (DFRS, 2015) (see Box 6.13).",
+      "page_start": 8,
+      "page_end": 8,
+      "topic": "Community forestry",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w04__p05",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Certification"
+      ],
+      "text": "In Indonesia, the effectiveness of FSC on social and environmental outcomes was evaluated using matching technique between FSC-certified timber concessions and non-certified logging concessions (Miteva et al., 2015). They estimated that between 2000 and 2008, FSC reduced aggregate deforestation by 5%. In addition, they note that FSC reduced firewood dependence by 33%, respiratory infections by 32%, and malnutrition by 1% on average across participating households (Miteva et al., 2015).",
+      "page_start": 9,
+      "page_end": 9,
+      "topic": "Certification",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "tree_cover",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch6_responses__w04__c01",
+      "passage_id": "ipbes_ch6_responses__w04__p01",
+      "subject": "Costa Rican programme",
+      "metric": "tree_cover",
+      "direction": "increase",
+      "evidence_span": "The well-known Costa Rican programme is often considered as a successful case, because it had the effect of increasing forest cover and improving rural livelihoods (Porras et al., 2014).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w04__c02",
+      "passage_id": "ipbes_ch6_responses__w04__p02",
+      "subject": "data and resource intensive approach",
+      "metric": "erosion",
+      "direction": "increase",
+      "value": 3,
+      "unit": "ratio",
+      "evidence_span": "This more “data and resource intensive”, yet better targeted approach, gave an estimated threefold increase in return on investment for sediment retention compared with investments based on participants’ general willingness to fund.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w04__c03",
+      "passage_id": "ipbes_ch6_responses__w04__p04",
+      "subject": "community forestry in Nepal",
+      "metric": "tree_cover",
+      "direction": "increase",
+      "value_low": 37.4,
+      "value_high": 40.4,
+      "unit": "percent",
+      "evidence_span": "As a result, it is estimated that the forest area in Nepal has increased from 37.4% in 1985-86 to 40.4% in 2015 (DFRS, 2015)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w04__c04",
+      "passage_id": "ipbes_ch6_responses__w04__p05",
+      "subject": "FSC certification",
+      "metric": "tree_cover",
+      "direction": "decrease",
+      "value": 5,
+      "unit": "percent",
+      "evidence_span": "They estimated that between 2000 and 2008, FSC reduced aggregate deforestation by 5%.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "Costa Rican programme",
+      "to_node": "tree_cover",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w04__p01",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "data and resource intensive approach",
+      "to_node": "erosion",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w04__p02",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "community forestry",
+      "to_node": "tree_cover",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w04__p04",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "FSC certification",
+      "to_node": "tree_cover",
+      "effect": "decrease",
+      "mechanism": "reduced aggregate deforestation",
+      "passage_id": "ipbes_ch6_responses__w04__p05",
+      "strength_stated": "strong"
+    }
+  ],
+  "_meta": {
+    "unit_id": "ipbes_ch6_responses__w04",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 537,
+    "pdf_end": 548,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:57:43Z",
+    "pdf_sha256": "c26857d73961d38a"
+  }
+}

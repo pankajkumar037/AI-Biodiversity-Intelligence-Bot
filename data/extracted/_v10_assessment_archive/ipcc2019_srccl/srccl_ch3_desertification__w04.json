@@ -1,0 +1,136 @@
+{
+  "extraction_status": "ok",
+  "section_title": "3.7.5.1 Jordan",
+  "content_type": "practice",
+  "summary": "This section describes the implementation of Mechanized Micro Rainwater Harvesting (MIRWH) and gully plugs in the Jordan Badia region to restore degraded rangelands, improve soil moisture, and increase forage production.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch3_desertification__w04__p01",
+      "heading_path": [
+        "3.7.5 Integrated watershed management",
+        "3.7.5.1 Jordan"
+      ],
+      "text": "To restore the desertified Badia an IWM plan was developed using hillslope-implemented water harvesting micro catchments as a targeted restoration approach (Tabieh et al. 2015). Mechanized Micro Rainwater Harvesting (MIRWH) technology using the ‘Vallerani plough’ (Antinori and Vallerani 1994; Gammoh and Oweis 2011; Ngigi 2003) is being widely applied for rehabilitation of highly degraded rangeland areas in Jordan. A tractor digs out small water harvesting pits on the contour of the slope (Figure 3.17) allowing the retention, infiltration and local storage of surface runoff in the soil (Oweis 2017). The micro catchments are planted with native shrub seedlings, such as saltbush (Atriplex halimus), with enhanced survival as a function of increased soil moisture (Figure 3.18) and increased dry matter yields (>300 kg ha–1) that can serve as forage for livestock (Oweis 2017; Tabieh et al. 2015).",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Mechanized Micro Rainwater Harvesting (MIRWH)",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "biomass"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w04__p02",
+      "heading_path": [
+        "3.7.5 Integrated watershed management",
+        "3.7.5.1 Jordan"
+      ],
+      "text": "Simultaneously to MIRWH upland measures, the gully erosion is being treated through intermittent stone plug intervention (Figure 3.19), stabilising the gully beds, increasing soil moisture in proximity of the plugs, dissipating the surface runoff’s energy, and mitigating further back-cutting erosion and quick drainage of water. Eventually, the treated gully areas silt up and dense vegetation cover can re-establish. In addition, grazing management practices are implemented to increase the longevity of the treatment.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Gully plug intervention",
+      "practices": [
+        "check_dams"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "erosion"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch3_desertification__w04__c01",
+      "passage_id": "srccl_ch3_desertification__w04__p01",
+      "subject": "Mechanized Micro Rainwater Harvesting (MIRWH)",
+      "metric": "biomass",
+      "direction": "increase",
+      "value_low": 300,
+      "unit": "kg_ha",
+      "evidence_span": "increased dry matter yields (>300 kg ha–1) that can serve as forage for livestock",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "Mechanized Micro Rainwater Harvesting (MIRWH)",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "passage_id": "srccl_ch3_desertification__w04__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "Mechanized Micro Rainwater Harvesting (MIRWH)",
+      "to_node": "biomass",
+      "effect": "increase",
+      "passage_id": "srccl_ch3_desertification__w04__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "gully plug intervention",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "passage_id": "srccl_ch3_desertification__w04__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "gully plug intervention",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "passage_id": "srccl_ch3_desertification__w04__p02",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Mechanized Micro Rainwater Harvesting (MIRWH)",
+    "system_type": "other",
+    "tree_species": [
+      "Atriplex halimus"
+    ],
+    "crop_species": [],
+    "region_of_adoption": [
+      "Jordan Badia"
+    ],
+    "stated_benefits": [
+      "enhanced survival of seedlings",
+      "increased dry matter yields",
+      "forage for livestock",
+      "stabilising gully beds",
+      "dissipating surface runoff energy",
+      "mitigating back-cutting erosion"
+    ],
+    "stated_constraints": [
+      "costs vary based on seedling costs and availability of trained labour"
+    ]
+  },
+  "_meta": {
+    "unit_id": "srccl_ch3_desertification__w04",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 303,
+    "pdf_end": 314,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:49:31Z",
+    "pdf_sha256": "946cfe71d823ddf6"
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Land degradation",
+  "content_type": "assessment",
+  "summary": "This document is a reference list for Chapter 4 of the IPCC Special Report on Climate Change and Land (SRCCL), covering topics such as land degradation, soil carbon, erosion, agroforestry, and climate change impacts.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch4_land_degradation__w07__p01",
+      "heading_path": [
+        "Chapter 4",
+        "Land degradation"
+      ],
+      "text": "McNicol, I.M., C.M. Ryan, and E.T.A. Mitchard, 2018: Carbon losses from deforestation and widespread degradation offset by extensive growth in African woodlands.",
+      "page_start": 422,
+      "page_end": 422,
+      "topic": "Carbon dynamics in African woodlands",
+      "practices": [],
+      "metrics": [
+        "carbon_sequestration_rate",
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w07__p02",
+      "heading_path": [
+        "Chapter 4",
+        "Land degradation"
+      ],
+      "text": "Mokria, M., A. Gebrekirstos, E. Aynekulu, and A. Bräuning, 2015: Tree dieback affects climate change mitigation potential of a dry afromontane forest in northern Ethiopia.",
+      "page_start": 422,
+      "page_end": 422,
+      "topic": "Tree dieback and climate mitigation",
+      "practices": [],
+      "metrics": [
+        "tree_cover",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w07__p03",
+      "heading_path": [
+        "Chapter 4",
+        "Land degradation"
+      ],
+      "text": "Mondal, A., D. Khare, and S. Kundu, 2016: Change in rainfall erosivity in the past and future due to climate change in the central part of India.",
+      "page_start": 422,
+      "page_end": 422,
+      "topic": "Rainfall erosivity in India",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "rainfall"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w07__p04",
+      "heading_path": [
+        "Chapter 4",
+        "Land degradation"
+      ],
+      "text": "Ndegwa, G.M., U. Nehren, F. Grüninger, M. Iiyama, and D. Anhuf, 2016: Charcoal production through selective logging leads to degradation of dry woodlands: A case study from Mutomo District, Kenya.",
+      "page_start": 423,
+      "page_end": 423,
+      "topic": "Charcoal production and land degradation",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "biomass"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w07__p05",
+      "heading_path": [
+        "Chapter 4",
+        "Land degradation"
+      ],
+      "text": "Nguyen, T.T.N. et al. 2017: Effects of biochar on soil available inorganic nitrogen: A review and meta-analysis.",
+      "page_start": 423,
+      "page_end": 423,
+      "topic": "Biochar effects on soil nitrogen",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "nitrogen",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w07__p06",
+      "heading_path": [
+        "Chapter 4",
+        "Land degradation"
+      ],
+      "text": "Ogle, S.M., A. Swan, and K. Paustian, 2012: No-till management impacts on crop productivity, carbon input and soil carbon sequestration.",
+      "page_start": 424,
+      "page_end": 424,
+      "topic": "No-till management impacts",
+      "practices": [
+        "no_till"
+      ],
+      "metrics": [
+        "crop_yield",
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w07__p07",
+      "heading_path": [
+        "Chapter 4",
+        "Land degradation"
+      ],
+      "text": "Pellegrini, A.F.A. et al. 2018: Fire frequency drives decadal changes in soil carbon and nitrogen and ecosystem productivity.",
+      "page_start": 425,
+      "page_end": 425,
+      "topic": "Fire frequency and soil nutrients",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "nitrogen",
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w07__p08",
+      "heading_path": [
+        "Chapter 4",
+        "Land degradation"
+      ],
+      "text": "Piñeiro, G., J.M. Paruelo, M. Oesterheld, and E.G. Jobbágy, 2010: Pathways of grazing effects on soil organic carbon and nitrogen.",
+      "page_start": 426,
+      "page_end": 426,
+      "topic": "Grazing effects on soil carbon and nitrogen",
+      "practices": [
+        "rotational_grazing"
+      ],
+      "metrics": [
+        "SOC",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "rangeland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch4_land_degradation__w07__c01",
+      "passage_id": "srccl_ch4_land_degradation__w07__p01",
+      "subject": "deforestation and widespread degradation",
+      "metric": "biomass",
+      "direction": "decrease",
+      "evidence_span": "Carbon losses from deforestation and widespread degradation offset by extensive growth in African woodlands.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w07__c02",
+      "passage_id": "srccl_ch4_land_degradation__w07__p04",
+      "subject": "Charcoal production through selective logging",
+      "metric": "biomass",
+      "direction": "decrease",
+      "evidence_span": "Charcoal production through selective logging leads to degradation of dry woodlands",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w07__c03",
+      "passage_id": "srccl_ch4_land_degradation__w07__p06",
+      "subject": "No-till management",
+      "metric": "SOC",
+      "direction": "increase",
+      "evidence_span": "No-till management impacts on crop productivity, carbon input and soil carbon sequestration.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w07__c04",
+      "passage_id": "srccl_ch4_land_degradation__w07__p07",
+      "subject": "Fire frequency",
+      "metric": "SOC",
+      "direction": "decrease",
+      "evidence_span": "Fire frequency drives decadal changes in soil carbon and nitrogen and ecosystem productivity.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "deforestation and widespread degradation",
+      "to_node": "biomass",
+      "effect": "decrease",
+      "passage_id": "srccl_ch4_land_degradation__w07__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "Charcoal production",
+      "to_node": "biomass",
+      "effect": "decrease",
+      "passage_id": "srccl_ch4_land_degradation__w07__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "No-till management",
+      "to_node": "SOC",
+      "effect": "increase",
+      "passage_id": "srccl_ch4_land_degradation__w07__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "Fire frequency",
+      "to_node": "SOC",
+      "effect": "decrease",
+      "passage_id": "srccl_ch4_land_degradation__w07__p07",
+      "strength_stated": "unstated"
+    }
+  ],
+  "_meta": {
+    "unit_id": "srccl_ch4_land_degradation__w07",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 432,
+    "pdf_end": 443,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:10:01Z",
+    "pdf_sha256": "887ae2c0a8843aec"
+  }
+}

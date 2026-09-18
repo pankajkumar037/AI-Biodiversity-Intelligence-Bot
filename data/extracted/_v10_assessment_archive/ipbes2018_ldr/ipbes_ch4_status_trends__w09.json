@@ -1,0 +1,66 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+  "content_type": "assessment",
+  "summary": "This document provides a comprehensive list of references for the IPBES assessment report on land degradation and restoration, covering topics such as soil organic carbon, land-use change, biodiversity loss, and the impacts of various agricultural and industrial practices on ecosystem functions.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch4_status_trends__w09__p01",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS"
+      ],
+      "text": "Pelosi, C., Pey, B., Hedde, M., Caro, G., Capowiez, Y., Guernion, M., Peigné, J., Piron, D., Bertrand, M., & Cluzeau, D. (2014). Reducing tillage in cultivated fields increases earthworm functional diversity. Applied Soil Ecology. https://doi.org/10.1016/j.apsoil.2013.10.005",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "soil biota",
+      "practices": [
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch4_status_trends__w09__c01",
+      "passage_id": "ipbes_ch4_status_trends__w09__p01",
+      "subject": "Reducing tillage in cultivated fields",
+      "metric": "soil_biota",
+      "direction": "increase",
+      "evidence_span": "Reducing tillage in cultivated fields increases earthworm functional diversity.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "soil_biota",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "ipbes_ch4_status_trends__w09__p01",
+      "strength_stated": "unstated"
+    }
+  ],
+  "_meta": {
+    "unit_id": "ipbes_ch4_status_trends__w09",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 378,
+    "pdf_end": 389,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:56:26Z",
+    "pdf_sha256": "b5eacfaf879784fa"
+  }
+}

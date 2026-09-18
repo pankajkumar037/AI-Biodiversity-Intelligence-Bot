@@ -1,0 +1,339 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Impact on ecosystem services of soil pollution from agriculture",
+  "content_type": "assessment",
+  "summary": "This assessment details the pathways and impacts of soil pollution from agricultural inputs (fertilizers, pesticides, manure, and urban waste) on ecosystem services, food safety, and human health, highlighting the risks of heavy metals, organic chemicals, and pathogens.",
+  "passages": [
+    {
+      "passage_id": "soilpol_ecosystem__p01",
+      "heading_path": [
+        "2.2 | IMPACT ON ECOSYSTEM SERVICES OF SOIL POLLUTION FROM AGRICULTURE"
+      ],
+      "text": "Entry of pollutants directly (release of effluents on land) or indirectly (use of polluted water as irrigation to crops) has been reported to contaminate vast areas of soil resources and groundwater bodies, affecting crop production as well as human and animal health through food contamination.",
+      "page_start": 51,
+      "page_end": 51,
+      "topic": "soil pollution pathways",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "crop_yield",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "soilpol_ecosystem__p02",
+      "heading_path": [
+        "2.2.1 | SYNTHETIC FERTILIZERS"
+      ],
+      "text": "Excess N in soil has been identified as the main cause of soil acidification and salinization through nitrification and other N-transformation processes. Soils acidify very slowly under natural conditions over hundreds to millions of years, but this process is significantly accelerated by agricultural practices, mainly excessive N fertilization, which causes reductions in soil pH by 0.26 pH units on average in different land uses.",
+      "page_start": 52,
+      "page_end": 52,
+      "topic": "soil acidification",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "pH"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "soilpol_ecosystem__p03",
+      "heading_path": [
+        "2.2.3 | ACIDIFICATION AND CROP LOSS"
+      ],
+      "text": "If the content of nitrogen applied to agricultural soils is higher than the plants’ requirements, nitrification microbial activity will lead to the accumulation of nitrates (NO3-) that can easily leach to groundwater due to their high solubility, polluting it. When soil nutrient availability increases, microbial biomass and activity increases as well, but the microbial biodiversity is altered, causing imbalances in the nutrient cycle.",
+      "page_start": 52,
+      "page_end": 52,
+      "topic": "nitrogen fertilization impacts",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "microbial_biomass",
+        "soil_biota",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "soilpol_ecosystem__p04",
+      "heading_path": [
+        "2.2.3 | ACIDIFICATION AND CROP LOSS"
+      ],
+      "text": "The main risk from P fertilizers is transport to surface water bodies, which has been documented to cause eutrophication of aquatic ecosystems in many regions. The P is transported to water bodies adsorbed to eroded soil particles or from excessive amounts of P fertilizer or animal manure applied when conditions are not suitable.",
+      "page_start": 52,
+      "page_end": 52,
+      "topic": "phosphorus pollution",
+      "practices": [
+        "integrated_nutrient_mgmt",
+        "manure"
+      ],
+      "metrics": [
+        "erosion",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "risk"
+    },
+    {
+      "passage_id": "soilpol_ecosystem__p05",
+      "heading_path": [
+        "2.2.4 | PESTICIDES"
+      ],
+      "text": "For example, some organochlorine pesticides suppress symbiotic nitrogen fixation, resulting in lower crop yields.",
+      "page_start": 53,
+      "page_end": 53,
+      "topic": "pesticide impacts",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "nitrogen",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "soilpol_ecosystem__p06",
+      "heading_path": [
+        "2.2.5 | MANURE"
+      ],
+      "text": "Application of untreated manure may lead to heavy metal pollution, which not only results in adverse effects on various parameters relating to plant quality and yield, but also causes changes in the size, composition and activity of the microbial community affecting nutrient cycling and reducing nutrient availability.",
+      "page_start": 53,
+      "page_end": 53,
+      "topic": "manure application impacts",
+      "practices": [
+        "manure"
+      ],
+      "metrics": [
+        "crop_yield",
+        "microbial_biomass",
+        "soil_biota",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "soilpol_ecosystem__p07",
+      "heading_path": [
+        "2.2.6 | URBAN WASTES IN AGRICULTURE"
+      ],
+      "text": "Composting and pretreatments reduce the content of contaminants and pathogen organisms present in urban waste before their application as amendments in soils, and provide an economical and environmentally friendly approach for stabilizing animal waste and converting it into a worthy organic fertilizer. Frequently, however, high levels of heavy metals such as Pb, Cd, Cu, Zn, Cr, Ni, and salts remain in the amendments and may affect soil properties and inhibit plant growth.",
+      "page_start": 54,
+      "page_end": 54,
+      "topic": "urban waste management",
+      "practices": [
+        "compost"
+      ],
+      "metrics": [
+        "crop_yield",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "soilpol_ecosystem__p08",
+      "heading_path": [
+        "2.3.1 | PATHWAYS OF EXPOSURE OF HUMANS TO SOIL POLLUTANTS AND THEIR EFFECTS ON HUMAN HEALTH"
+      ],
+      "text": "Generally, people can be exposed to contaminants present in soil through ingestion or through the consumption of plants or animals that have accumulated large amounts of soil pollutants; through dermal exposure, from using spaces such as parks and gardens; or by inhaling soil contaminants that have been vapourized.",
+      "page_start": 56,
+      "page_end": 56,
+      "topic": "human exposure pathways",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "soilpol_ecosystem__p09",
+      "heading_path": [
+        "2.3.1 | PATHWAYS OF EXPOSURE OF HUMANS TO SOIL POLLUTANTS AND THEIR EFFECTS ON HUMAN HEALTH"
+      ],
+      "text": "The uptake of metals by plants from soils may result in a significant risk to health. The absorption by plant roots is one of the main routes of entrance of heavy metals into the food chain, and varies according to the level of consumption.",
+      "page_start": 57,
+      "page_end": 57,
+      "topic": "heavy metal uptake",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "soilpol_ecosystem__c01",
+      "passage_id": "soilpol_ecosystem__p02",
+      "subject": "excess N fertilization",
+      "metric": "pH",
+      "direction": "decrease",
+      "value": 0.26,
+      "unit": "ratio",
+      "basis": "unstated",
+      "conditions": "different land uses",
+      "evidence_span": "excessive N fertilization, which causes reductions in soil pH by 0.26 pH units on average in different land uses",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "soilpol_ecosystem__c02",
+      "passage_id": "soilpol_ecosystem__p03",
+      "subject": "increased soil nutrient availability",
+      "metric": "microbial_biomass",
+      "direction": "increase",
+      "evidence_span": "When soil nutrient availability increases, microbial biomass and activity increases as well",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "soilpol_ecosystem__c03",
+      "passage_id": "soilpol_ecosystem__p03",
+      "subject": "increased soil nutrient availability",
+      "metric": "soil_biota",
+      "direction": "mixed",
+      "evidence_span": "When soil nutrient availability increases, microbial biomass and activity increases as well, but the microbial biodiversity is altered, causing imbalances in the nutrient cycle.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "soilpol_ecosystem__c04",
+      "passage_id": "soilpol_ecosystem__p05",
+      "subject": "organochlorine pesticides",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "evidence_span": "some organochlorine pesticides suppress symbiotic nitrogen fixation, resulting in lower crop yields",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "soilpol_ecosystem__c05",
+      "passage_id": "soilpol_ecosystem__p06",
+      "subject": "untreated manure",
+      "metric": "nutrient_availability",
+      "direction": "decrease",
+      "evidence_span": "Application of untreated manure may lead to heavy metal pollution, which not only results in adverse effects on various parameters relating to plant quality and yield, but also causes changes in the size, composition and activity of the microbial community affecting nutrient cycling and reducing nutrient availability.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "excess N fertilization",
+      "to_node": "pH",
+      "effect": "decrease",
+      "condition": "cropland",
+      "mechanism": "nitrification and other N-transformation processes",
+      "passage_id": "soilpol_ecosystem__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "soil nutrient availability",
+      "to_node": "microbial_biomass",
+      "effect": "increase",
+      "condition": "cropland",
+      "mechanism": "unstated",
+      "passage_id": "soilpol_ecosystem__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "organochlorine pesticides",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "cropland",
+      "mechanism": "suppression of symbiotic nitrogen fixation",
+      "passage_id": "soilpol_ecosystem__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "untreated manure",
+      "to_node": "nutrient_availability",
+      "effect": "decrease",
+      "condition": "cropland",
+      "mechanism": "heavy metal pollution and changes in microbial community",
+      "passage_id": "soilpol_ecosystem__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "heavy metals in urban waste",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "cropland",
+      "mechanism": "inhibition of plant growth",
+      "passage_id": "soilpol_ecosystem__p07",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "soilpol_ecosystem",
+    "doc_id": "fao2018_soil_pollution",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 63,
+    "pdf_end": 69,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T10:59:12Z",
+    "pdf_sha256": "e8875e766ebfd42d",
+    "prompt_type": "assessment"
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Management practices to preserve and enhance soil biodiversity",
+  "content_type": "assessment",
+  "summary": "This assessment reviews management practices for soil biodiversity, including sustainable soil management, conservation agriculture, and organic agriculture. It highlights the importance of soil biodiversity for ecosystem services and discusses the global adoption of practices like no-tillage, agroforestry, and integrated nutrient management.",
+  "passages": [
+    {
+      "passage_id": "sowbfa_soil_biodiv_mgmt__p01",
+      "heading_path": [
+        "5.6.3 Management practices to preserve and enhance soil biodiversity"
+      ],
+      "text": "Key means of benefiting soil biodiversity include reducing the use of synthetic fertilizers, pesticides and herbicides, maintaining or increasing soil organic matter, and minimizing soil erosion and disturbance. No-tillage agriculture, agroforestry and diversified cropping practices, for example, help to provide stable habitats for soil organisms.",
+      "page_start": 253,
+      "page_end": 253,
+      "topic": "soil biodiversity management",
+      "practices": [
+        "no_till",
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "soil_biota",
+        "soil_organic_matter",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_soil_biodiv_mgmt__p02",
+      "heading_path": [
+        "Box 5.14 The Voluntary Guidelines for Sustainable Soil Management"
+      ],
+      "text": "Soil organic matter levels supporting soil biodiversity should be maintained or enhanced through the provision of sufficient vegetative cover (e.g. cover crops, multiple crops), optimal nutrient additions, addition of diverse organic amendments, minimizing soil disturbance, avoiding salinization, and maintaining or restoring vegetation such as hedgerows and shelterbelts.",
+      "page_start": 254,
+      "page_end": 254,
+      "topic": "sustainable soil management",
+      "practices": [
+        "cover_crops",
+        "integrated_nutrient_mgmt",
+        "shelterbelts"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "soil_biota",
+        "salinity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_soil_biodiv_mgmt__p03",
+      "heading_path": [
+        "Box 5.14 The Voluntary Guidelines for Sustainable Soil Management"
+      ],
+      "text": "The use of nitrogen fixing leguminous species, microbial inoculants, mycorrhizas (spores, hyphae, and root fragments), earthworms and other beneficial micro-, meso- and macro- soil organisms (e.g. beetle banks) should be encouraged where appropriate, with attention to limiting the risk of invasive processes by promoting the use of local biodiversity and avoiding the risk of disturbance in soil services.",
+      "page_start": 254,
+      "page_end": 254,
+      "topic": "soil biodiversity management",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "soil_biota",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_soil_biodiv_mgmt__p04",
+      "heading_path": [
+        "5.6.3 Management practices to preserve and enhance soil biodiversity"
+      ],
+      "text": "A wide range of specific soil-management practices are reported. For example, countries report beneficial effects on BFA from the implementation of organic agriculture, agroforestry, reduced tillage, integrated soil fertility management, cover cropping, crop diversification, crop rotation, crop associations and fallows.",
+      "page_start": 255,
+      "page_end": 255,
+      "topic": "soil biodiversity management",
+      "practices": [
+        "agroforestry_agrisilvicultural",
+        "reduced_tillage",
+        "integrated_nutrient_mgmt",
+        "cover_crops",
+        "crop_rotation"
+      ],
+      "metrics": [
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "sowbfa_soil_biodiv_mgmt__p05",
+      "heading_path": [
+        "Box 5.15 Burkina Faso’s Operation Manure Pits"
+      ],
+      "text": "Training was provided on aerobic composting in heaps, which was found to be well suited to farms located in areas of high evaporation and low water availability. A study in 2011 found that the application of compost following the implementation of the programme led to significant yield increases in grain crops.",
+      "page_start": 256,
+      "page_end": 256,
+      "topic": "composting",
+      "practices": [
+        "compost"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "sowbfa_soil_biodiv_mgmt__p06",
+      "heading_path": [
+        "5.6.4 Conservation agriculture"
+      ],
+      "text": "It is widely reported that conservation agriculture increases the diversity and abundance of soil and above-ground biota. For example, reduced tillage can increase the abundance of fungi, which can increase nitrogen retention in the agro-ecosystem.",
+      "page_start": 257,
+      "page_end": 257,
+      "topic": "conservation agriculture",
+      "practices": [
+        "reduced_tillage",
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "soil_biota",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_soil_biodiv_mgmt__p07",
+      "heading_path": [
+        "5.6.4 Conservation agriculture"
+      ],
+      "text": "It is also generally considered that adopting conservation agriculture provides financial benefits to farmers: profit margins can be equal or higher than in conventional agriculture, as yields can be maintained at similar or higher levels while the use of agrochemicals and labour and tractor hours is reduced.",
+      "page_start": 257,
+      "page_end": 257,
+      "topic": "conservation agriculture",
+      "practices": [
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "sowbfa_soil_biodiv_mgmt__c01",
+      "passage_id": "sowbfa_soil_biodiv_mgmt__p05",
+      "subject": "application of compost",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "evidence_span": "A study in 2011 found that the application of compost following the implementation of the programme led to significant yield increases in grain crops (Zongo, 2011).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_soil_biodiv_mgmt__c02",
+      "passage_id": "sowbfa_soil_biodiv_mgmt__p06",
+      "subject": "conservation agriculture",
+      "metric": "soil_biota",
+      "direction": "increase",
+      "evidence_span": "It is widely reported that conservation agriculture increases the diversity and abundance of soil and above-ground biota",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_soil_biodiv_mgmt__c03",
+      "passage_id": "sowbfa_soil_biodiv_mgmt__p06",
+      "subject": "reduced tillage",
+      "metric": "soil_biota",
+      "direction": "increase",
+      "evidence_span": "For example, reduced tillage can increase the abundance of fungi (Thiele-Bruhn et al., 2012)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_soil_biodiv_mgmt__c04",
+      "passage_id": "sowbfa_soil_biodiv_mgmt__p06",
+      "subject": "fungi abundance",
+      "metric": "nitrogen",
+      "direction": "increase",
+      "evidence_span": "which can increase nitrogen retention in the agro-ecosystem (de Vries and Bardgett, 2012).",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "reduced tillage",
+      "to_node": "fungi abundance",
+      "effect": "increase",
+      "passage_id": "sowbfa_soil_biodiv_mgmt__p06",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "fungi abundance",
+      "to_node": "nitrogen retention",
+      "effect": "increase",
+      "passage_id": "sowbfa_soil_biodiv_mgmt__p06",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "application of compost",
+      "to_node": "crop yield",
+      "effect": "increase",
+      "condition": "grain crops",
+      "passage_id": "sowbfa_soil_biodiv_mgmt__p05",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "sowbfa_soil_biodiv_mgmt",
+    "doc_id": "fao2019_sowbfa",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 297,
+    "pdf_end": 301,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T10:58:30Z",
+    "pdf_sha256": "6d5b5327b27a21bc",
+    "prompt_type": "assessment"
+  }
+}

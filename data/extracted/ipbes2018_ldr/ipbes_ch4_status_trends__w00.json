@@ -1,0 +1,266 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Status and trends of land degradation and restoration and associated changes in biodiversity and ecosystem functions",
+  "content_type": "assessment",
+  "summary": "This chapter assesses the status and trends of land degradation, its biophysical processes, and its impacts on biodiversity and ecosystem services. It highlights the complexity of defining and measuring degradation, the role of human drivers, and the importance of baselines for restoration.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch4_status_trends__w00__p01",
+      "heading_path": [
+        "Executive Summary"
+      ],
+      "text": "There is wide consensus that land degradation is a global phenomenon resulting in a substantial loss of both biodiversity and ecosystem services. However, the global extent, severity and trends in degradation remain inconclusive.",
+      "page_start": 224,
+      "page_end": 224,
+      "topic": "Global status of land degradation",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w00__p02",
+      "heading_path": [
+        "Executive Summary"
+      ],
+      "text": "Degradation is occurring in all land-cover, land-use and landscape types and in all countries. This results in a loss of biodiversity and ecosystem services through: the loss of forests, rangelands and wetlands; increased erosion resulting in reduced net primary production and crop yields; increases in destructive wildfires, sometimes exacerbated by invasive alien plants; increases in outbreaks of pests and diseases causing losses to natural and crop fauna and flora; changes in forage quality; and the loss of regulating services such as carbon sequestration and hydrological function.",
+      "page_start": 224,
+      "page_end": 224,
+      "topic": "Drivers and impacts of land degradation",
+      "practices": [],
+      "metrics": [
+        "species_richness",
+        "tree_cover",
+        "erosion",
+        "biomass",
+        "crop_yield",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w00__p03",
+      "heading_path": [
+        "Executive Summary"
+      ],
+      "text": "For instance, removal of vegetation through overgrazing may exacerbate soil erosion, losses of soil organisms and soil organic matter. In combination, these impacts change soil fertility, water infiltration and the water-holding capacity of the soil. The combined effect leads to reduced net primary production, loss of biodiversity and reduced resilience of the landscape when environmental changes occur.",
+      "page_start": 224,
+      "page_end": 224,
+      "topic": "Biophysical processes of degradation",
+      "practices": [
+        "rotational_grazing"
+      ],
+      "metrics": [
+        "erosion",
+        "soil_biota",
+        "soil_organic_matter",
+        "nutrient_availability",
+        "water_holding_capacity",
+        "biomass",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "rangeland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w00__p04",
+      "heading_path": [
+        "Executive Summary"
+      ],
+      "text": "Soils are the single biggest store of terrestrial carbon. The loss of soil organic carbon (SOC) has negative impacts on soil biodiversity and soil water and nutrient holding capacity. An estimated 55 Pg C has been lost from soil organic carbon predominantly from croplands since 1800s. Croplands can lose 50% or more of the soil organic carbon compared to natural habitats, and many forms of land degradation have negative impacts on soil organic carbon.",
+      "page_start": 225,
+      "page_end": 225,
+      "topic": "Soil carbon and degradation",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "soil_biota",
+        "water_holding_capacity",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w00__p05",
+      "heading_path": [
+        "Executive Summary"
+      ],
+      "text": "Erosion and the leaching of agricultural chemicals due to poor land management has profound off-site impacts on wetland, river systems, coastal waters and groundwater. Intensive agriculture has resulted in widespread eutrophication of rivers, lakes, dams and wetland systems – with hypoxic areas in waterways and at the mouths of major catchments having profound impacts on coastal fisheries resources.",
+      "page_start": 225,
+      "page_end": 225,
+      "topic": "Off-site impacts of agriculture",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "risk"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w00__p06",
+      "heading_path": [
+        "Executive Summary"
+      ],
+      "text": "Biodiversity loss – as a consequence of land transformation – is reasonably well understood. However, impacts on biodiversity from other forms of degradation are poorly resolved, especially at regional and global scales. By 2005, land use and related pressures had reduced species richness by about 15% compared with what they would have been in the absence of human impacts.",
+      "page_start": 226,
+      "page_end": 226,
+      "topic": "Biodiversity loss",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w00__p07",
+      "heading_path": [
+        "4.1 Introduction",
+        "4.1.2 The degradation process"
+      ],
+      "text": "The analogy of a cusp threshold illustrates some of the different types of degradation. The effects of stress caused by human activities to which organisms are susceptible, and therefore the ecosystem service they provide (e.g., depleted soil nitrogen and crop production), can be envisaged as a response curve. The ecosystem service responds rapidly, almost linearly to the particular stress involved, until the stress declines. As the stress declines from right to left, further increases in the service (e.g., crop yield) decrease, often reaching a plateau when additional reductions of the specific stress have no further effect.",
+      "page_start": 227,
+      "page_end": 227,
+      "topic": "Degradation thresholds",
+      "practices": [],
+      "metrics": [
+        "nitrogen",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch4_status_trends__w00__c01",
+      "passage_id": "ipbes_ch4_status_trends__w00__p04",
+      "subject": "croplands",
+      "metric": "SOC",
+      "direction": "decrease",
+      "value": 50,
+      "unit": "percent",
+      "basis": "established but incomplete",
+      "conditions": "compared to natural habitats",
+      "evidence_span": "Croplands can lose 50% or more of the soil organic carbon compared to natural habitats",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w00__c02",
+      "passage_id": "ipbes_ch4_status_trends__w00__p06",
+      "subject": "species richness",
+      "metric": "species_richness",
+      "direction": "decrease",
+      "value": 15,
+      "unit": "percent",
+      "basis": "reasonably well understood",
+      "conditions": "by 2005, compared to absence of human impacts",
+      "evidence_span": "By 2005, land use and related pressures had reduced species richness by about 15% compared with what they would have been in the absence of human impacts.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "overgrazing",
+      "to_node": "erosion",
+      "effect": "increase",
+      "mechanism": "removal of vegetation",
+      "passage_id": "ipbes_ch4_status_trends__w00__p03",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "overgrazing",
+      "to_node": "soil_organic_matter",
+      "effect": "decrease",
+      "mechanism": "removal of vegetation",
+      "passage_id": "ipbes_ch4_status_trends__w00__p03",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "soil_organic_matter",
+      "to_node": "soil_fertility",
+      "effect": "decrease",
+      "mechanism": "combined impacts of erosion and loss of soil organisms",
+      "passage_id": "ipbes_ch4_status_trends__w00__p03",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "SOC",
+      "to_node": "soil_biota",
+      "effect": "decrease",
+      "mechanism": "loss of soil organic carbon",
+      "passage_id": "ipbes_ch4_status_trends__w00__p04",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "SOC",
+      "to_node": "water_holding_capacity",
+      "effect": "decrease",
+      "mechanism": "loss of soil organic carbon",
+      "passage_id": "ipbes_ch4_status_trends__w00__p04",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "intensive_agriculture",
+      "to_node": "pollution_load",
+      "effect": "increase",
+      "mechanism": "overuse of fertilizers",
+      "passage_id": "ipbes_ch4_status_trends__w00__p05",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch4_status_trends__w00",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 279,
+    "pdf_end": 290,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:13:22Z",
+    "pdf_sha256": "08bd077db10b242b"
+  }
+}

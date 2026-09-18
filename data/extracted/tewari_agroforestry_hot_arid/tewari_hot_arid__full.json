@@ -1,0 +1,271 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Agroforestry in hot arid environments",
+  "content_type": "assessment",
+  "summary": "This document reviews traditional and improved agroforestry systems in the hot arid regions of India, specifically the Thar desert. It details the ecological and socioeconomic context, the structure of traditional systems, and the benefits of improved agroforestry practices for soil fertility, erosion control, microclimate moderation, and livelihood security.",
+  "passages": [
+    {
+      "passage_id": "tewari_hot_arid__full__p01",
+      "heading_path": [
+        "General Features and Ecology",
+        "Climate and Soils"
+      ],
+      "text": "The production and life support system in this part of hot Indian arid zone are constrained by climatic limitations such as low annual precipitation (100–300 mm year-1); very high temperature during summer season (mean maximum temperature 41 C) touching a maximum of 48–50 C.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "climatic constraints",
+      "practices": [],
+      "metrics": [
+        "rainfall",
+        "temperature"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "tewari_hot_arid__full__p02",
+      "heading_path": [
+        "Production Attributes",
+        "Upper Transect"
+      ],
+      "text": "It was very interesting that yield of pearl millet, main cereal crop of the region, below the canopy of woody components in any system was not affected at all, rather in Ziziphus spp—P. cineraria and Ziziphus spp—P. cineraria—Salvadoran spp systems, it was substantially increased below the tree canopies in comparison of open spaces.",
+      "page_start": 9,
+      "page_end": 9,
+      "topic": "crop yield under tree canopy",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "tewari_hot_arid__full__p03",
+      "heading_path": [
+        "Production Attributes",
+        "Upper Transect"
+      ],
+      "text": "However, legumes such as moth bean, cluster bean, and green gram exhibited slightly yield reduction below the tree canopies, 5.0 % (Ziziphus spp—P. cineraria system) to 19.5 % (P. cineraria system); 12.5 % (Ziziphus spp—P. cineraria—Salvadora spp system) to 18.2 % (Ziziphus spp–P. cineraria system); and 10.0 % (P. cineraria system) to 33.7 % (P. cineraria—A. nilotica system), respectively.",
+      "page_start": 9,
+      "page_end": 9,
+      "topic": "crop yield under tree canopy",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "tewari_hot_arid__full__p04",
+      "heading_path": [
+        "Agroforestry Systems Play a Critical Role in Controlling Soil Erosion"
+      ],
+      "text": "The shelterbelts on agricultural fields form a type of agroforestry practice which is quite effective in controlling the soil erosion in arid regions. It is clear from the data that the soil loss was higher in agricultural field without trees as compared to field with agroforestry practices (shelterbelts).",
+      "page_start": 22,
+      "page_end": 22,
+      "topic": "soil erosion control",
+      "practices": [
+        "shelterbelts"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "tewari_hot_arid__full__p05",
+      "heading_path": [
+        "Agroforestry Systems Provide Economically Viable and Environment Friendly Means to Improve Soil Fertility"
+      ],
+      "text": "In general, organic carbon content decreases with depth but the same was slightly higher under the canopy of both the tree species than in open field condition. The total nitrogen, available P and K were higher under the canopy of P. cineraria followed by A. nilotica and the values for the same were lowest in open field condition.",
+      "page_start": 23,
+      "page_end": 23,
+      "topic": "soil fertility",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "SOC",
+        "nitrogen",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "tewari_hot_arid__full__p06",
+      "heading_path": [
+        "Agroforestry Systems Play a Very Important Role in Moderating the Micro-climate in Arid Regions"
+      ],
+      "text": "Similarly, it was found during monsoon season that the soil temperature just beneath the tree cover was lower by as much as 16 C in top soil zone and 5 C at 30 cm depth when compared to open field conditions, thereby indicating better soil-thermal regime.",
+      "page_start": 24,
+      "page_end": 24,
+      "topic": "microclimate moderation",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "temperature"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "tewari_hot_arid__full__c01",
+      "passage_id": "tewari_hot_arid__full__p02",
+      "subject": "tree canopy",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "evidence_span": "yield of pearl millet, main cereal crop of the region, below the canopy of woody components in any system was not affected at all, rather in Ziziphus spp—P. cineraria and Ziziphus spp—P. cineraria—Salvadoran spp systems, it was substantially increased below the tree canopies in comparison of open spaces.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "tewari_hot_arid__full__c02",
+      "passage_id": "tewari_hot_arid__full__p03",
+      "subject": "tree canopy",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "evidence_span": "However, legumes such as moth bean, cluster bean, and green gram exhibited slightly yield reduction below the tree canopies",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "tewari_hot_arid__full__c03",
+      "passage_id": "tewari_hot_arid__full__p04",
+      "subject": "shelterbelts",
+      "metric": "erosion",
+      "direction": "decrease",
+      "evidence_span": "It is clear from the data that the soil loss was higher in agricultural field without trees as compared to field with agroforestry practices (shelterbelts).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "tewari_hot_arid__full__c04",
+      "passage_id": "tewari_hot_arid__full__p05",
+      "subject": "tree canopy",
+      "metric": "SOC",
+      "direction": "increase",
+      "evidence_span": "organic carbon content decreases with depth but the same was slightly higher under the canopy of both the tree species than in open field condition.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "tewari_hot_arid__full__c05",
+      "passage_id": "tewari_hot_arid__full__p05",
+      "subject": "tree canopy",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "evidence_span": "The total nitrogen, available P and K were higher under the canopy of P. cineraria followed by A. nilotica and the values for the same were lowest in open field condition.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "tewari_hot_arid__full__c06",
+      "passage_id": "tewari_hot_arid__full__p06",
+      "subject": "tree canopy",
+      "metric": "temperature",
+      "direction": "decrease",
+      "evidence_span": "it was found during monsoon season that the soil temperature just beneath the tree cover was lower by as much as 16 C in top soil zone and 5 C at 30 cm depth when compared to open field conditions",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "tree canopy",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": "pearl millet",
+      "passage_id": "tewari_hot_arid__full__p02",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "tree canopy",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "legumes",
+      "passage_id": "tewari_hot_arid__full__p03",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "shelterbelts",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "passage_id": "tewari_hot_arid__full__p04",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "tree canopy",
+      "to_node": "SOC",
+      "effect": "increase",
+      "passage_id": "tewari_hot_arid__full__p05",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "tree canopy",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "passage_id": "tewari_hot_arid__full__p05",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "tree canopy",
+      "to_node": "temperature",
+      "effect": "decrease",
+      "passage_id": "tewari_hot_arid__full__p06",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "tewari_hot_arid__full",
+    "doc_id": "tewari_agroforestry_hot_arid",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 1,
+    "pdf_end": 26,
+    "manifest_practices": [
+      "agroforestry_agrisilvicultural"
+    ],
+    "manifest_climate_zones": [
+      "arid"
+    ],
+    "extracted_at": "2026-09-18T11:05:50Z",
+    "pdf_sha256": "527acbb10c844de1",
+    "prompt_type": "assessment"
+  }
+}

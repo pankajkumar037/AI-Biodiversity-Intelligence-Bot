@@ -1,0 +1,325 @@
+{
+  "extraction_status": "ok",
+  "section_title": "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+  "content_type": "assessment",
+  "summary": "This document evaluates various economic, social, and cultural instruments for halting land degradation and restoring degraded land, including payment for ecosystem services (PES), biodiversity offsets, natural capital accounting, and community-based management. It highlights the importance of economic incentives, secure land tenure, and participatory approaches, while noting that effectiveness varies by context and implementation design.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch6_responses__w04__p01",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Payment for ecosystem services"
+      ],
+      "text": "The well-known Costa Rican programme is often considered as a successful case, because it had the effect of increasing forest cover and improving rural livelihoods.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Payment for ecosystem services",
+      "practices": [],
+      "metrics": [
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w04__p02",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Payment for ecosystem services"
+      ],
+      "text": "A recent review of the role of community-based forest management to achieve forest carbon benefits and social co-benefits suggests that REDD+ is likely to reduce forest degradation but not necessarily deforestation.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "REDD+",
+      "practices": [],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w04__p03",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Biodiversity offsets"
+      ],
+      "text": "One scenario of offsetting involves a developer - affecting land or habitat through activities such as mining, housing, industrial and infrastructural development (on the “impact site”) - compensating for the resultant habitat loss by financing habitat restoration in a degraded land elsewhere (on the “offset site”) of equivalent ecological value.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Biodiversity offsets",
+      "practices": [],
+      "metrics": [
+        "habitat_diversity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w04__p04",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Natural Capital Accounting as a response to land and ecosystem degradation"
+      ],
+      "text": "In Sub-Saharan Africa, low livestock productivity was found to be a major cause of land degradation and conversion (rangeland to cropland). Results show that adoption of soil fertility enhancing practices, as a solution, requires improvement in market infrastructure (i.e., market access and advisory and extension services) along with the provision of appropriate incentive schemes.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Economics of land degradation",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "soil_organic_matter"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "rangeland",
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w04__p05",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Natural Capital Accounting as a response to land and ecosystem degradation"
+      ],
+      "text": "In a total economic value-based study on the drivers of land degradation in India, Mythili and Goedecke, 2016 found that agricultural input subsidies and “decreasing land-man ratios” are two major determinants of land degradation at state levels - suggesting that reform of environmentally-harmful input subsidies is necessary.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Economics of land degradation",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w04__p06",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Natural Capital Accounting as a response to land and ecosystem degradation"
+      ],
+      "text": "The Chinese national ecosystem assessment (2000-2010) reported that investment in restoration and preservation of natural capital has improved the provision of major ecosystem services at the national level, although with very little effect on habitat loss and environmental pollution.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Natural capital accounting",
+      "practices": [],
+      "metrics": [
+        "habitat_diversity",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w04__p07",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Benefits and costs of ecological restoration"
+      ],
+      "text": "In a study of large-scale landscape restoration in Mali, Sidibé et al. (2014) found that adapting agroforestry is economically beneficial at the local and global levels; providing local benefits to farmers in the range of $5.2 to $5.9 for every dollar invested and with net present values ranging between $17.8 and $62/ha/yr when discounted at 2.5%, 5%, and 10% over a time horizon of 25 years. When carbon sequestration is integrated in the analysis, practicing agroforestry and reforestation options yield up to $13.6 of benefits for every dollar invested (at a discount rate of 5%), equivalent to a value of $428.8/ha/year.",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "Economics of restoration",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w04__p08",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Participatory approach in resource management and governance"
+      ],
+      "text": "In Nepal, the development and practice of community forestry since the late 1970s has been a successful response to halt deforestation and reduce the severity of associated soil erosion and landslides, prevalent in 1960-70s. This has involved devolution of forest management and governance authority to local forest users organised into “community forest user groups”. As a result, it is estimated that the forest area in Nepal has increased from 37.4% in 1985-86 to 40.4% in 2015.",
+      "page_start": 8,
+      "page_end": 8,
+      "topic": "Community-based management",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w04__p09",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Certification"
+      ],
+      "text": "In Indonesia, the effectiveness of FSC on social and environmental outcomes was evaluated using matching technique between FSC-certified timber concessions and non-certified logging concessions. They estimated that between 2000 and 2008, FSC reduced aggregate deforestation by 5%. In addition, they note that FSC reduced firewood dependence by 33%, respiratory infections by 32%, and malnutrition by 1% on average across participating households.",
+      "page_start": 9,
+      "page_end": 9,
+      "topic": "Certification",
+      "practices": [],
+      "metrics": [
+        "tree_cover",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch6_responses__w04__c01",
+      "passage_id": "ipbes_ch6_responses__w04__p01",
+      "subject": "Costa Rican programme",
+      "metric": "tree_cover",
+      "direction": "increase",
+      "evidence_span": "The well-known Costa Rican programme is often considered as a successful case, because it had the effect of increasing forest cover and improving rural livelihoods.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w04__c02",
+      "passage_id": "ipbes_ch6_responses__w04__p02",
+      "subject": "REDD+",
+      "metric": "biomass",
+      "direction": "decrease",
+      "evidence_span": "A recent review of the role of community-based forest management to achieve forest carbon benefits and social co-benefits suggests that REDD+ is likely to reduce forest degradation but not necessarily deforestation.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w04__c03",
+      "passage_id": "ipbes_ch6_responses__w04__p06",
+      "subject": "Investment in restoration and preservation of natural capital",
+      "metric": "habitat_diversity",
+      "direction": "no_change",
+      "evidence_span": "The Chinese national ecosystem assessment (2000-2010) reported that investment in restoration and preservation of natural capital has improved the provision of major ecosystem services at the national level, although with very little effect on habitat loss and environmental pollution.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w04__c04",
+      "passage_id": "ipbes_ch6_responses__w04__p08",
+      "subject": "Community forestry",
+      "metric": "erosion",
+      "direction": "decrease",
+      "evidence_span": "In Nepal, the development and practice of community forestry since the late 1970s has been a successful response to halt deforestation and reduce the severity of associated soil erosion and landslides, prevalent in 1960-70s.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w04__c05",
+      "passage_id": "ipbes_ch6_responses__w04__p08",
+      "subject": "Community forestry",
+      "metric": "tree_cover",
+      "direction": "increase",
+      "value": 3.0,
+      "unit": "percent",
+      "evidence_span": "As a result, it is estimated that the forest area in Nepal has increased from 37.4% in 1985-86 to 40.4% in 2015.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w04__c06",
+      "passage_id": "ipbes_ch6_responses__w04__p09",
+      "subject": "FSC certification",
+      "metric": "tree_cover",
+      "direction": "decrease",
+      "value": 5.0,
+      "unit": "percent",
+      "evidence_span": "They estimated that between 2000 and 2008, FSC reduced aggregate deforestation by 5%.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "Costa Rican programme",
+      "to_node": "tree_cover",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w04__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "REDD+",
+      "to_node": "biomass",
+      "effect": "decrease",
+      "condition": "forest degradation",
+      "passage_id": "ipbes_ch6_responses__w04__p02",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "community forestry",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch6_responses__w04__p08",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "community forestry",
+      "to_node": "tree_cover",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w04__p08",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "FSC certification",
+      "to_node": "tree_cover",
+      "effect": "decrease",
+      "condition": "deforestation",
+      "passage_id": "ipbes_ch6_responses__w04__p09",
+      "strength_stated": "moderate"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch6_responses__w04",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 537,
+    "pdf_end": 548,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:17:09Z",
+    "pdf_sha256": "c26857d73961d38a"
+  }
+}

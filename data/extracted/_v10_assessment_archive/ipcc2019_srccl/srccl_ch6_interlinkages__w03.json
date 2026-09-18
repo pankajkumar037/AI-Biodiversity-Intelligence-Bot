@@ -1,0 +1,98 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+  "content_type": "assessment",
+  "summary": "This assessment summarizes the mitigation, adaptation, and desertification-control potentials of various land management and value chain response options, based on IPCC Chapter 6.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch6_interlinkages__w03__p01",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+        "Table 6.13 | Mitigation effects of response options based on land management in agriculture."
+      ],
+      "text": "Table 6.13 | Mitigation effects of response options based on land management in agriculture. Integrated response option Potential Confidence Citation Increased food productivity >13 GtCO2e yr–1 Low confidence Chapter 5 Burney et al. 2010 Improved cropland managementa 1.4–2.3 GtCO2e yr–1 Medium confidence Chapter 2; Chapter 5 Pradhan et al. 2013; Smith et al. 2008, 2014 Improved grazing land managementa 1.4–1.8 GtCO2e yr–1 Medium confidence Chapter 2; Chapter 5 Conant et al. 2017; Herrero et al. 2016; Smith et al. 2008, 2014 Improved livestock managementa 0.2–2.4 GtCO2e yr–1 Medium confidence Chapter 2; Chapter 5 Herrero et al. 2016; Smith et al. 2008, 2014 Agroforestry 0.1–5.7 GtCO2e yr–1 Medium confidence Chapter 2 Albrecht and Kandji 2003; Dickie et al. 2014; Griscom et al. 2017; Hawken 2017; Zomer et al. 2016 Agricultural diversification >0 Low confidence Campbell et al. 2014; Cohn et al. 2017 Reduced grassland conversion to cropland 0.03–0.7 GtCO2e yr–1 Low confidence Note high value not shown in Chapter 2; calculated from values in Griscom et al. 2017; Krause et al. 2017; Poeplau et al. 2011 Integrated water management 0.1–0.72 GtCO2 yr–1 Low confidence IPCC 2014; Howell et al. 2015; Li et al. 2006; Rahman and Bulbul 2015; Smith et al. 2008, 2014",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Mitigation potentials of agricultural response options",
+      "practices": [
+        "other",
+        "crop_rotation",
+        "rotational_grazing",
+        "agroforestry_agrisilvicultural",
+        "irrigation"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w03__p02",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+        "Integrated response options based on land management of soils"
+      ],
+      "text": "When grasslands are converted to croplands, they lose about 36% of their soil organic carbon stocks after 20 years (Poeplau et al. 2011). Assuming an average starting soil organic carbon stock of grasslands of 115 tC ha–1 (Poeplau et al. 2011), this is equivalent to a loss of 41.5 tC ha–1 on conversion to cropland.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Soil organic carbon loss from land conversion",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch6_interlinkages__w03__c01",
+      "passage_id": "srccl_ch6_interlinkages__w03__p02",
+      "subject": "grassland conversion to cropland",
+      "metric": "SOC",
+      "direction": "decrease",
+      "value": 36,
+      "unit": "percent",
+      "time_horizon_years": 20,
+      "evidence_span": "When grasslands are converted to croplands, they lose about 36% of their soil organic carbon stocks after 20 years (Poeplau et al. 2011).",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "grassland conversion to cropland",
+      "to_node": "SOC",
+      "effect": "decrease",
+      "passage_id": "srccl_ch6_interlinkages__w03__p02",
+      "strength_stated": "unstated"
+    }
+  ],
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w03",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 594,
+    "pdf_end": 605,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:52:59Z",
+    "pdf_sha256": "2adaf65f7a49a398"
+  }
+}

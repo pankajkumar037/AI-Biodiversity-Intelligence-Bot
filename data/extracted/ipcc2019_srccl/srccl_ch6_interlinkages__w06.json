@@ -1,0 +1,277 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+  "content_type": "assessment",
+  "summary": "This assessment evaluates the feasibility and impacts of various land management and risk management response options on mitigation, adaptation, desertification, land degradation, food security, and Nature's Contributions to People (NCP). It highlights that while many options offer co-benefits, they also face institutional, socio-cultural, and economic barriers, and their efficacy can be sensitive to future climate change impacts.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch6_interlinkages__w06__p01",
+      "heading_path": [
+        "6.4 Managing interactions and interlinkages",
+        "6.4.1 Feasibility of the integrated response options with respect to costs, barriers, saturation and reversibility"
+      ],
+      "text": "Reversibility is an issue for all options that increase terrestrial carbon stock, either through increased soil carbon or changes in land cover (e.g., reforestation, afforestation), since future changes in climate or land cover could result in reduced carbon storage. In addition, the benefits of options that improve land management (e.g., improved cropland management, improved grazing management) will cease if the practice is halted, reversing any potential benefits.",
+      "page_start": 618,
+      "page_end": 618,
+      "topic": "Reversibility of land management options",
+      "practices": [
+        "grassland_restoration",
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "SOC",
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w06__p02",
+      "heading_path": [
+        "6.4 Managing interactions and interlinkages",
+        "6.4.2 Sensitivity of the integrated response options to climate change impacts"
+      ],
+      "text": "Improved grazing land management may continue to be feasible as a response option in the future under climate change in northern regions, but will likely become more difficult in tropical regions and Australia as temperature rises will reduce the carrying capacity of lands. Improved livestock management also faces numerous challenges, particularly related to stresses on animals from temperatures, water, and diseases; overall, livestock numbers are projected to decline 7.5–9.6% by 2050.",
+      "page_start": 623,
+      "page_end": 623,
+      "topic": "Climate change sensitivity of livestock and grazing management",
+      "practices": [
+        "rotational_grazing",
+        "crop_livestock_integration"
+      ],
+      "metrics": [
+        "biomass",
+        "temperature",
+        "rainfall"
+      ],
+      "climate_zones": [
+        "tropical",
+        "temperate"
+      ],
+      "land_use": [
+        "rangeland",
+        "integrated_system"
+      ],
+      "content_role": "risk"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w06__p03",
+      "heading_path": [
+        "6.4 Managing interactions and interlinkages",
+        "6.4.2 Sensitivity of the integrated response options to climate change impacts"
+      ],
+      "text": "Integrated water management to improve water availability and reliability of water for agricultural production is likely to become more challenging in future scenarios of water declines, which are likely to be regionally uneven.",
+      "page_start": 623,
+      "page_end": 623,
+      "topic": "Climate change sensitivity of water management",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "water_holding_capacity",
+        "rainfall"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w06__p04",
+      "heading_path": [
+        "6.4 Managing interactions and interlinkages",
+        "6.4.2 Sensitivity of the integrated response options to climate change impacts"
+      ],
+      "text": "Climate change can alter the sink capacity for soil carbon sequestration, reducing the potential for increased soil organic carbon as an option. Projected climate change can reduce soil resilience to extreme weather, pests and biological invasion, environmental pollutants and other pressures, making reduced soil erosion and reduced soil compaction as response options harder to achieve.",
+      "page_start": 624,
+      "page_end": 624,
+      "topic": "Climate change impacts on soil management",
+      "practices": [
+        "conservation_agriculture",
+        "no_till",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "SOC",
+        "erosion",
+        "bulk_density"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "risk"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w06__p05",
+      "heading_path": [
+        "6.4 Managing interactions and interlinkages",
+        "6.4.2 Sensitivity of the integrated response options to climate change impacts"
+      ],
+      "text": "Climate change will likely increase demand for irrigation in dryland areas, which can increase risks of salinisation, diminishing the effectiveness of this response.",
+      "page_start": 624,
+      "page_end": 624,
+      "topic": "Climate change impacts on irrigation and salinisation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "salinity",
+        "water_holding_capacity"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "risk"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w06__p06",
+      "heading_path": [
+        "6.4 Managing interactions and interlinkages",
+        "6.4.3 Impacts of integrated response options on Nature’s Contributions to People (NCP) and the UN Sustainable Development Goals (SDGs)",
+        "6.4.3.1 Impacts of integrated response options on NCP"
+      ],
+      "text": "Overall, several response options stand out as having co-benefits across 10 or more NCP with no adverse impacts, including: improved cropland management, agroforestry, forest management and forest restoration, increased soil organic content, fire management, restoration and avoided conversion of coastal wetlands, and use of local seeds.",
+      "page_start": 627,
+      "page_end": 627,
+      "topic": "Co-benefits of land management options",
+      "practices": [
+        "conservation_agriculture",
+        "agroforestry_agrisilvicultural",
+        "grassland_restoration",
+        "other"
+      ],
+      "metrics": [
+        "SOC",
+        "species_richness",
+        "habitat_diversity"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w06__p07",
+      "heading_path": [
+        "6.4 Managing interactions and interlinkages",
+        "6.4.3 Impacts of integrated response options on Nature’s Contributions to People (NCP) and the UN Sustainable Development Goals (SDGs)",
+        "6.4.3.1 Impacts of integrated response options on NCP"
+      ],
+      "text": "Further, many NCPs trade-off with one another, so supply of one might lead to less availability of another – for example, use of ecosystems to produce bioenergy will likely lead to decreases in water availability if mono-cropped high-intensity plantations are used.",
+      "page_start": 627,
+      "page_end": 627,
+      "topic": "Trade-offs in ecosystem services",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "water_holding_capacity",
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch6_interlinkages__w06__c01",
+      "passage_id": "srccl_ch6_interlinkages__w06__p02",
+      "subject": "livestock numbers",
+      "metric": "biomass",
+      "direction": "decrease",
+      "value": 7.5,
+      "value_low": 7.5,
+      "value_high": 9.6,
+      "unit": "percent_change",
+      "basis": "projected",
+      "conditions": "by 2050",
+      "time_horizon_years": 31,
+      "evidence_span": "overall, livestock numbers are projected to decline 7.5–9.6% by 2050",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w06__c02",
+      "passage_id": "srccl_ch6_interlinkages__w06__p05",
+      "subject": "irrigation demand",
+      "metric": "water_holding_capacity",
+      "direction": "increase",
+      "evidence_span": "Climate change will likely increase demand for irrigation in dryland areas, which can increase risks of salinisation, diminishing the effectiveness of this response",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w06__c03",
+      "passage_id": "srccl_ch6_interlinkages__w06__p05",
+      "subject": "salinisation risk",
+      "metric": "salinity",
+      "direction": "increase",
+      "evidence_span": "Climate change will likely increase demand for irrigation in dryland areas, which can increase risks of salinisation",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "temperature",
+      "to_node": "livestock numbers",
+      "effect": "decrease",
+      "condition": "tropical regions",
+      "mechanism": "stresses on animals from temperatures, water, and diseases",
+      "passage_id": "srccl_ch6_interlinkages__w06__p02",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "irrigation",
+      "to_node": "salinisation",
+      "effect": "increase",
+      "condition": "dryland areas",
+      "mechanism": "increased demand for irrigation",
+      "passage_id": "srccl_ch6_interlinkages__w06__p05",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "bioenergy plantations",
+      "to_node": "water availability",
+      "effect": "decrease",
+      "condition": "mono-cropped high-intensity plantations",
+      "mechanism": "trade-offs between NCPs",
+      "passage_id": "srccl_ch6_interlinkages__w06__p07",
+      "strength_stated": "moderate"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w06",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 627,
+    "pdf_end": 638,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:12:01Z",
+    "pdf_sha256": "675063467c02128a"
+  }
+}

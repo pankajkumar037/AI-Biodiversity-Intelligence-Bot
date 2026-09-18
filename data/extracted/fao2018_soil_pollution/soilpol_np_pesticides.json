@@ -1,0 +1,252 @@
+{
+  "extraction_status": "ok",
+  "section_title": "1.4.1 Heavy metals and metalloids, 1.4.2 Nitrogen and phosphorus, 1.4.3 Pesticides, 1.4.4 Polycyclic aromatic hydrocarbons",
+  "content_type": "assessment",
+  "summary": "This document provides an overview of soil pollutants, including heavy metals, nitrogen and phosphorus, pesticides, and polycyclic aromatic hydrocarbons (PAHs), detailing their sources, environmental behavior, and impacts on soil functions and human health.",
+  "passages": [
+    {
+      "passage_id": "soilpol_np_pesticides__p01",
+      "heading_path": [
+        "1.4.1 | HEAVY METALS AND METALLOIDS"
+      ],
+      "text": "Trace metals from inorganic (Cu-based) and organic pesticides represent a major environmental and toxicological concern. Cu is easily immobilized by soil organic matter (SOM) and Fe- and Mn-(hydro)oxides, remaining at high concentrations on upper layers of soils. However, fungicide-derived Cu has been found in large amounts in the potentially available fraction of the soil.",
+      "page_start": 20,
+      "page_end": 20,
+      "topic": "heavy metals",
+      "practices": [],
+      "metrics": [
+        "soil_organic_matter",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "soilpol_np_pesticides__p02",
+      "heading_path": [
+        "1.4.2 | NITROGEN AND PHOSPHORUS"
+      ],
+      "text": "However, there is not a linear correlation between an increase in the amount of fertilizer applied to agricultural soils and an increase in crop production; on the contrary, increases may result in low nutrient use efficiency and in turn lower crop yields, and may cause acute environmental problems.",
+      "page_start": 21,
+      "page_end": 21,
+      "topic": "fertilizer application",
+      "practices": [],
+      "metrics": [
+        "crop_yield",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "soilpol_np_pesticides__p03",
+      "heading_path": [
+        "1.4.2 | NITROGEN AND PHOSPHORUS"
+      ],
+      "text": "While nutrients are essential to crop production, when they are applied in excess they can have negative effects on yields. Nitrogen increases chlorophyll production, and energy for flower growth and root elongation is redirected to foliage proliferation, causing disorders in plants and making them more vulnerable to pathogen attacks. It can also affect crop nutrient balance. Nitrogen pollution influences soil organic matter decomposition, as it affects microbial community composition and activities, as well as soil acidity and salinity.",
+      "page_start": 21,
+      "page_end": 21,
+      "topic": "nitrogen pollution",
+      "practices": [],
+      "metrics": [
+        "crop_yield",
+        "soil_organic_matter",
+        "microbial_biomass",
+        "pH",
+        "salinity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "soilpol_np_pesticides__p04",
+      "heading_path": [
+        "1.4.3 | PESTICIDES"
+      ],
+      "text": "Without pesticide use, crop losses have been estimated to vary from 32 percent for cereals to 78 percent in fruit production.",
+      "page_start": 22,
+      "page_end": 22,
+      "topic": "pesticide use",
+      "practices": [],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "soilpol_np_pesticides__p05",
+      "heading_path": [
+        "1.4.3 | PESTICIDES"
+      ],
+      "text": "The recent report by the Intergovernmental Technical Panel on Soils (ITPS) on the impact of plant protection products on soil functions and ecosystem services highlighted the severe impact of copper-based fungicides on earthworms and microbial biomass. These fungicides are widely used in organic viticulture to control vine fungal diseases.",
+      "page_start": 25,
+      "page_end": 25,
+      "topic": "pesticide impact",
+      "practices": [],
+      "metrics": [
+        "soil_biota",
+        "microbial_biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "soilpol_np_pesticides__p06",
+      "heading_path": [
+        "1.4.4 | POLYCYCLIC AROMATIC HYDROCARBONS"
+      ],
+      "text": "The very low water solubility of PAHs and the slow mass-transfer rates from solid phase may limit their availability to microorganisms, thus hindering natural attenuation by microbial processes. Polycyclic aromatic hydrocarbons accumulate in soils because of their persistence and hydrophobicity and tend to be retained in the soil for long periods of time.",
+      "page_start": 26,
+      "page_end": 26,
+      "topic": "PAH persistence",
+      "practices": [],
+      "metrics": [
+        "microbial_biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "soilpol_np_pesticides__p07",
+      "heading_path": [
+        "1.4.4 | POLYCYCLIC AROMATIC HYDROCARBONS"
+      ],
+      "text": "In a more recent study, Loganathan and Lam found higher concentrations of PAHs in soils in India compared to those in Africa, the Islamic Republic of Iran, Brazil, the Russian Federation, Canada and Australia. Thus, PAHs are ubiquitous contaminants in soils, but their concentration varies depending on the distance from the pollutant source, soil properties and climatic conditions.",
+      "page_start": 27,
+      "page_end": 27,
+      "topic": "PAH distribution",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "soilpol_np_pesticides__c01",
+      "passage_id": "soilpol_np_pesticides__p02",
+      "subject": "excess fertilizer application",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "evidence_span": "increases may result in low nutrient use efficiency and in turn lower crop yields",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "soilpol_np_pesticides__c02",
+      "passage_id": "soilpol_np_pesticides__p03",
+      "subject": "nitrogen excess",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "evidence_span": "While nutrients are essential to crop production, when they are applied in excess they can have negative effects on yields.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "soilpol_np_pesticides__c03",
+      "passage_id": "soilpol_np_pesticides__p03",
+      "subject": "nitrogen pollution",
+      "metric": "soil_organic_matter",
+      "direction": "decrease",
+      "evidence_span": "Nitrogen pollution influences soil organic matter decomposition",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "soilpol_np_pesticides__c04",
+      "passage_id": "soilpol_np_pesticides__p03",
+      "subject": "nitrogen pollution",
+      "metric": "pH",
+      "direction": "decrease",
+      "evidence_span": "It can also affect crop nutrient balance. Nitrogen pollution influences soil organic matter decomposition, as it affects microbial community composition and activities, as well as soil acidity and salinity.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "soilpol_np_pesticides__c05",
+      "passage_id": "soilpol_np_pesticides__p05",
+      "subject": "copper-based fungicides",
+      "metric": "soil_biota",
+      "direction": "decrease",
+      "evidence_span": "highlighted the severe impact of copper-based fungicides on earthworms and microbial biomass.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "fertilizer application",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "excess application",
+      "passage_id": "soilpol_np_pesticides__p02",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "nitrogen pollution",
+      "to_node": "soil_organic_matter",
+      "effect": "decrease",
+      "passage_id": "soilpol_np_pesticides__p03",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "copper-based fungicides",
+      "to_node": "soil_biota",
+      "effect": "decrease",
+      "passage_id": "soilpol_np_pesticides__p05",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "copper-based fungicides",
+      "to_node": "microbial_biomass",
+      "effect": "decrease",
+      "passage_id": "soilpol_np_pesticides__p05",
+      "strength_stated": "strong"
+    }
+  ],
+  "_meta": {
+    "unit_id": "soilpol_np_pesticides",
+    "doc_id": "fao2018_soil_pollution",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 32,
+    "pdf_end": 39,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T10:58:57Z",
+    "pdf_sha256": "4a1c1b9dec283cb2",
+    "prompt_type": "assessment"
+  }
+}

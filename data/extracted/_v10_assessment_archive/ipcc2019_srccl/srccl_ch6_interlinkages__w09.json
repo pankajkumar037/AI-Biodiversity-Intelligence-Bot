@@ -1,0 +1,67 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+  "content_type": "other",
+  "summary": "This document is a reference list for Chapter 6 of the IPCC Special Report on Climate Change and Land (SRCCL), covering topics such as desertification, land degradation, food security, and greenhouse gas fluxes.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch6_interlinkages__w09__p01",
+      "heading_path": [
+        "Chapter 6",
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Mekuria, W., and E. Aynekulu, 2013: Exclosure land management for restoration of the soils in degraded communal grazing lands in northern Ethiopia. L. Degrad. Dev., 24, 528–538, doi:10.1002/ldr.1146.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "Exclosure land management for soil restoration",
+      "practices": [
+        "grassland_restoration"
+      ],
+      "metrics": [
+        "soil_organic_matter"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "degraded_land",
+        "grassland"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch6_interlinkages__w09__c01",
+      "passage_id": "srccl_ch6_interlinkages__w09__p01",
+      "subject": "Exclosure land management",
+      "metric": "soil_organic_matter",
+      "direction": "increase",
+      "evidence_span": "Mekuria, W., and E. Aynekulu, 2013: Exclosure land management for restoration of the soils in degraded communal grazing lands in northern Ethiopia.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "grassland_restoration",
+      "to_node": "soil_organic_matter",
+      "effect": "increase",
+      "condition": "degraded communal grazing lands in northern Ethiopia",
+      "passage_id": "srccl_ch6_interlinkages__w09__p01",
+      "strength_stated": "unstated"
+    }
+  ],
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w09",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 660,
+    "pdf_end": 671,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:54:10Z",
+    "pdf_sha256": "9fd75bbbb0714fbb"
+  }
+}

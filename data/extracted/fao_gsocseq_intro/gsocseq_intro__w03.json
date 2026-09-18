@@ -1,0 +1,235 @@
+{
+  "extraction_status": "ok",
+  "section_title": "GSOCseq introduction and methodology",
+  "content_type": "methods",
+  "summary": "This document outlines the methodology for the GSOCseq platform, which models soil organic carbon (SOC) stock changes over time using a three-phase approach: initialization (spin-up), warm-up (short spin-up), and forward run (scenario modeling). It includes procedures for adjusting carbon inputs, estimating baseline carbon, and accounting for uncertainties in input parameters.",
+  "passages": [
+    {
+      "passage_id": "gsocseq_intro__w03__p01",
+      "heading_path": [
+        "Local adjustment of scenarios and % increase in C inputs"
+      ],
+      "text": "Local adjustment of scenarios and % increase in C inputs. E.g. Croplands: SSM1 - Low (+10%), SSM2 - Medium (+25%), SSM3 - High (+50%). Grazing lands: SSM1 - Low (+5%), SSM2 - Medium (+30%), SSM3 - High (+70%).",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Carbon input scenarios for croplands and grazing lands",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "gsocseq_intro__w03__p02",
+      "heading_path": [
+        "Standard Products"
+      ],
+      "text": "Standard Products. Low (+5%), Medium (+10%), High (+20%).",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Standard SOC sequestration rate products",
+      "practices": [],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "gsocseq_intro__w03__p03",
+      "heading_path": [
+        "Non-Standard Products Using modified coefficients"
+      ],
+      "text": "Non-Standard Products Using modified coefficients. Low (+10%crop ;+5% grass), Medium (+25% crop ;+30% grass), High (+50%crop ;+70% grass).",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Non-standard SOC sequestration rate products",
+      "practices": [],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "gsocseq_intro__w03__p04",
+      "heading_path": [
+        "For each 1km x 1km pixel"
+      ],
+      "text": "For each 1km x 1km pixel: Phase 1 Long ‘Spin up’; initialization (equilibrium or analytical approach) (Year -10,000 to -500). Phase 2 ‘Warm-up’ (short spin up) (2000-2020). Phase 3 ‘Forward’ (2020-2040). Approach based on Smith et al 2006; 2008; Gottschalk et al. 2012.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Modeling phases for SOC stock estimation",
+      "practices": [],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w03__p05",
+      "heading_path": [
+        "Phase 1 . Spin up"
+      ],
+      "text": "Initialization phase Required to: obtain C stocks of different pools (BIO, HUM, DPM, RPM, etc); Estimate baseline C-inputs (C inputs required to reach GSOC stocks) (referred as Ceq). Ceq = C inputs under business as usual/baseline. Procedure: Model is run for a long time span (e.g. 500 years ) using historic climate (1980-2000)… first using a fixed C input (1 t)… C inputs are adjusted until SOC stock = GSOC map: Ceq=Ci×[(Cmeas−IOM)/(Csim−IOM)]",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Phase 1 Spin up methodology",
+      "practices": [],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w03__p06",
+      "heading_path": [
+        "Phase 2 . Warm up – Short Spin up (18-20 years)"
+      ],
+      "text": "Required to: Adjust climate variation between 2000-2020; Harmonize major time differences in GSOC map FAO (generated soil profiles 1960-2000s)... current; Adjust Land use changes 2000-2020; Adjust over or under estimation in C stocks of a specific pool (E.g. High DPM); Not necessary if current SOC stocks = GSOC. Procedure: The model is run for 18-20 years using monthly climate data, year to year (2001-2020); Annual C inputs are corrected according to annual changes in NPP.",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "Phase 2 Warm up methodology",
+      "practices": [],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w03__p07",
+      "heading_path": [
+        "Phase 2 . Warm up – Short Spin up (Cont.)"
+      ],
+      "text": "Annual NPP to adjust year to year C inputs; NPP by MIAMI Model (Lieth, 1972; Gottschalk et al., 2012); Other preferred NPP sources/models can be used. NPP can be adjusted for Land Use changes (Schulze et al 2010): NPPt forests = NPPMIAMI x 0.88; NPPt grasslands = NPPMIAMI x 0.72; NPPt croplands = NPPMIAMI x 0.53",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "NPP adjustment for land use changes",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest",
+        "grassland",
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w03__p08",
+      "heading_path": [
+        "Phase 3 . Forward run (2020 – 2040)"
+      ],
+      "text": "Required to: Obtain SOC stocks in different SSM scenarios after 20 years; Estimate SOC sequestration rates. Procedure: Model is run for 20 years using average climate 2000-2020. The 4 scenarios are run: BAU; SSM1 (‘Low increase’) ( + 5% in C); SSM 2 (‘Medium increase’) : (+10%); SSM 3 (‘High increase’): (+20%).",
+      "page_start": 8,
+      "page_end": 8,
+      "topic": "Phase 3 Forward run methodology",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w03__p10",
+      "heading_path": [
+        "General Uncertainties"
+      ],
+      "text": "U (%) =100* (UL CI – LL CI) / (2 *SOCav). UL = upper limit of the 95% confidence interval of the estimated SOC at the end of the simulation (in t C.ha-1), LL= lower limit of the 95% confidence interval of the estimated SOC at the end of the simulation (in t C.ha-1); a SOCav = the average of the estimated SOC at the end of the simulation (t C.ha-1). SOC max/UL = Model (SOC FAO max, Ci max, Temp min, Pp max, Clay max); SOC min/LL = Model (SOC FAO min, Ci min, Temp max, Pp min, Clay min).",
+      "page_start": 10,
+      "page_end": 10,
+      "topic": "Uncertainty calculation methodology",
+      "practices": [],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w03__p12",
+      "heading_path": [
+        "Uncertainties"
+      ],
+      "text": "General uncertainties of main parameters affecting SOC dynamics. Derived from Gottschalk et al. (2007) and Hastings et al. (2010). Parameter | Uncertainty in the input | Minimum value | Maximum value. Temperature | ± 2 % | Monthly Temp * 0.98 | Monthly Temp * 1.02. Precipitation | ± 5 % | Monthly PP * 0.95 | Monthly PP * 1.05. Clay content | ± 10 % | Clay * 0.90 | Clay * 1.10. FAO SOC | ± 20 % | SOC FAO *0.8 | SOC FAO * 1.2. C input increase in SSM scenario | ± 15 % | C eq * (SSM1 % increase - 15%) | C eq * (SSM % increase + 15%)",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "General uncertainties of parameters affecting SOC dynamics",
+      "practices": [],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "table"
+    }
+  ],
+  "claims": [],
+  "links": [],
+  "_meta": {
+    "unit_id": "gsocseq_intro__w03",
+    "doc_id": "fao_gsocseq_intro",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 34,
+    "pdf_end": 45,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T11:03:08Z",
+    "pdf_sha256": "e7eed8db55e134e2",
+    "prompt_type": "inventory"
+  }
+}

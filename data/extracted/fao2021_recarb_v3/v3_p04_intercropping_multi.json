@@ -1,0 +1,911 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4. Intercropping: Multiple cropping",
+  "content_type": "practice",
+  "summary": "Intercropping involves cultivating multiple crop species on the same land, leading to biological interactions between plants. It can be categorized into row, strip, and mixed intercropping, and further distinguished by simultaneous or relay intercropping based on growth periods. Intercropping has been shown to increase crop yields, provide ecological services like pest and disease control, improve nutrient use efficiency, and enhance soil quality. It can suppress weeds by occupying niche space and reduce pest and disease pressure through host dilution. Long-term intercropping can increase soil organic carbon concentration through enhanced belowground carbon inputs, making it a valuable practice for sustainable soil management. Intercropping also increases soil macro-aggregates and microbial activity, and enhances soil nitrogen due to better retention. It can mitigate climate change by reducing CO2 and N2O emissions and maximizes cultural and regulation services. However, intercropping can sometimes increase N2O emissions and may lead to decreased production of one crop if competition is strong. Potential barriers to adoption include cultural resistance, labor shortages, high labor costs without mechanization, and lack of tailored mechanization markets.",
+  "passages": [
+    {
+      "passage_id": "v3_p04_intercropping_multi__p01",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "1. Description of the practice"
+      ],
+      "text": "Intercropping is the cultivation of multiple crop species on a single piece of land with biologically significant interaction between individual plants belonging to different species (Brooker et al., 2015). Intercropping can be divided into row intercropping, strip intercropping and fully mixed intercropping. Row intercropping implies either that crop species are grown in alternate rows or (more rarely) that species are grown fully mixed within an overall row arrangement. Strip intercropping means species are arranged in strips that comprise multiple crop rows. Mixed intercropping means that there is no distinct row arrangement. Furthermore, distinction is made between simultaneous intercrops that consist of species with the same growing period and relay-intercrops that comprise species with different growing periods, but still a significant period of co-growth during which they interact.",
+      "page_start": 38,
+      "page_end": 38,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p02",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "1. Description of the practice"
+      ],
+      "text": "Global meta-analyses show that intercropping increases crop yields (Li et al., 2020; Yu et al., 2015, Martin-Guay et al., 2018) and it also provides several ecological services such as pest, disease and weed control and it has positive effects on nutrient use efficiency and soil quality (Cong et al., 2015; Xu et al., 2020; Li et al., 2020). Intercropping can suppress weeds since mixed crops take away “niche space\" that would have allowed weeds to grow (Liebman and Dyck, 1993). Furthermore, pest and disease pressure are reduced due to the dilution of suitable hosts (Boudreau, 2013). Long-term intercropping helps to enhance soil organic carbon concentration partly through enhanced belowground carbon inputs. Therefore, intercropping is a good option in the toolbox for sustainable soil management.",
+      "page_start": 38,
+      "page_end": 38,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "SOC",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p03",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "2. Range of applicability"
+      ],
+      "text": "Intercropping has a long history of practice in smallholder farming in tropical and temperate regions of Africa, Asia, Europe and the Americas for centuries (Li et al., 2020). Currently, intercropping is not widely used in modern mechanized farming, except for fully mixed systems of small grains and legumes which can be harvested simultaneously with grain separation after harvest if required (Bedoussac et al., 2015).",
+      "page_start": 39,
+      "page_end": 39,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "tropical",
+        "temperate"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p04",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "3. Impact on soil organic carbon stocks"
+      ],
+      "text": "So far, six studies have looked at the effect of intercropping on soil C sequestration. Most of the studies are short-term, with the longest one covering an intercropping period of 7 years. Intercropping generally increases soil carbon sequestration compared to monoculture, with the changes in C storage ranging from -0.020 to 0.184 tC/ha/yr (Table 14). The effect of intercropping on soil C storage is most pronounced in the topsoil (Cong et al., 2015).",
+      "page_start": 39,
+      "page_end": 39,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p05",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "4. Other benefits of the practice",
+        "4.1. Improvement of soil properties"
+      ],
+      "text": "Intercropping increases soil macro-aggregates contents and soil microbial activity compared to corresponding monocropping (Tian et al., 2019). Importantly, intercropping enhances organic soil nitrogen, presumably due to better retention of nitrogen in the soil-plant system due to species complementarities (Cong et al., 2015) (Figure 1).",
+      "page_start": 40,
+      "page_end": 40,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "microbial_biomass",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p06",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "4. Other benefits of the practice",
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Reduced soil erosion through prolonged growing period of intercropped species (Chen et al., 2010).",
+      "page_start": 40,
+      "page_end": 40,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p07",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "4. Other benefits of the practice",
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Intercropping can efficiently capture nutrients through temporal and spatial niche differentiation as well as complementary use of different nutrient sources (e.g. biological fixed N and soil mineral N) (Tsialtas et al., 2018).",
+      "page_start": 40,
+      "page_end": 40,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p08",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "4. Other benefits of the practice",
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Intercropping can promote soil biodiversity through continuously providing more diverse root exudates for soil food web throughout the growing season (Zhong and Zeng, 2019).",
+      "page_start": 40,
+      "page_end": 40,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p09",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "4. Other benefits of the practice",
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Intercropping may help improve soil structure through promoting root growth and increasing soil organic carbon (Cong et al., 2015).",
+      "page_start": 41,
+      "page_end": 41,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "soil_organic_matter"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p10",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "4. Other benefits of the practice",
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Intercropping can efficiently capture water through temporal and spatial niche differentiation (Miyazawa et al., 2010).",
+      "page_start": 41,
+      "page_end": 41,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p11",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "4.3. (Increases in production (e.g. food/fuel/feed/timber/fibre)"
+      ],
+      "text": "Intercropping can increase crop yield through temporal differentiation of crop growth (Dong et al., 2018) or improvement of N utilization efficiency (Chen et al., 2019). More importantly, intercropping can also enhance yield stability, which is especially obvious in cereal-grain legume intercropping (Raseduzzaman and Jensen, 2017).",
+      "page_start": 41,
+      "page_end": 41,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p12",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "4.4. Mitigation of and adaptation to climate change"
+      ],
+      "text": "A few studies showed that intercropping can mitigate climate change by reducing CO2 and N2O emission compared to monocropping (Chai et al., 2014; Huang et al., 2019).",
+      "page_start": 41,
+      "page_end": 41,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "temperature"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p13",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "4.5. Socio-economic benefits"
+      ],
+      "text": "Intercropping maximizes cultural and regulation services compared with a single crop (Alcon et al., 2020).",
+      "page_start": 41,
+      "page_end": 41,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p14",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "4.6. Other benefits of the practice"
+      ],
+      "text": "Intercropping also suppresses diseases and weeds (Lv et al., 2018; Silberg, Richardson and Lopez, 2020).",
+      "page_start": 41,
+      "page_end": 41,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p15",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "5.2. Increases in greenhouse gas emissions"
+      ],
+      "text": "In some cases, intercrop may increase N2O emissions compared with a single crop, which may be partly due to crop cultivars (Pappa et al., 2011).",
+      "page_start": 42,
+      "page_end": 42,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "temperature"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p16",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "5.3. Decreases in production (e.g. food/fuel/feed/timber/fibre)"
+      ],
+      "text": "When the competition between the two crops is strong, the yield advantage of intercropping is strong only when the proportion of the more competitive crops is large (Zhang, Yang and Dong, 2011). At this time, the yield advantage of intercropping is at the expense of the yield of another crop.",
+      "page_start": 42,
+      "page_end": 42,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p17",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "7. Potential barriers to adoption"
+      ],
+      "text": "The Western mindset is not yet geared towards exploiting diversity (Li et al., 2020; Tilman, 2020).",
+      "page_start": 42,
+      "page_end": 42,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p18",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "7. Potential barriers to adoption"
+      ],
+      "text": "Labor shortage.",
+      "page_start": 42,
+      "page_end": 42,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p19",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "7. Potential barriers to adoption"
+      ],
+      "text": "Labor cost is high if mechanization is unavailable.",
+      "page_start": 42,
+      "page_end": 42,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p20",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "7. Potential barriers to adoption"
+      ],
+      "text": "There is no current market for tailored mechanization for modern intercropping (Li et al., 2020; Stomph et al., 2020).",
+      "page_start": 43,
+      "page_end": 43,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p21",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "7. Potential barriers to adoption"
+      ],
+      "text": "Western stakeholders have insufficient knowledge of the advantages of intercropping (Tilman, 2020).",
+      "page_start": 43,
+      "page_end": 43,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p04_intercropping_multi__p22",
+      "heading_path": [
+        "4. Intercropping: Multiple cropping",
+        "7. Potential barriers to adoption"
+      ],
+      "text": "It is difficult to realize scale mechanization.",
+      "page_start": 43,
+      "page_end": 43,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "v3_p04_intercropping_multi__c01",
+      "passage_id": "v3_p04_intercropping_multi__p02",
+      "subject": "Intercropping",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Global meta-analyses show that intercropping increases crop yields",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p04_intercropping_multi__c02",
+      "passage_id": "v3_p04_intercropping_multi__p02",
+      "subject": "Intercropping",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "Long-term",
+      "time_horizon_years": null,
+      "evidence_span": "Long-term intercropping helps to enhance soil organic carbon concentration partly through enhanced belowground carbon inputs.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p04_intercropping_multi__c03",
+      "passage_id": "v3_p04_intercropping_multi__p04",
+      "subject": "Intercropping",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": -0.02,
+      "value_high": 0.184,
+      "unit": "t_ha",
+      "basis": "C storage",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Intercropping generally increases soil carbon sequestration compared to monoculture, with the changes in C storage ranging from -0.020 to 0.184 tC/ha/yr",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p04_intercropping_multi__c04",
+      "passage_id": "v3_p04_intercropping_multi__p05",
+      "subject": "Intercropping",
+      "metric": "soil_organic_matter",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "macro-aggregates contents",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Intercropping increases soil macro-aggregates contents",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p04_intercropping_multi__c05",
+      "passage_id": "v3_p04_intercropping_multi__p05",
+      "subject": "Intercropping",
+      "metric": "microbial_biomass",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Intercropping increases soil macro-aggregates contents and soil microbial activity compared to corresponding monocropping",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p04_intercropping_multi__c06",
+      "passage_id": "v3_p04_intercropping_multi__p05",
+      "subject": "Intercropping",
+      "metric": "nitrogen",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "organic soil nitrogen",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "intercropping enhances organic soil nitrogen, presumably due to better retention of nitrogen in the soil-plant system due to species complementarities",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p04_intercropping_multi__c07",
+      "passage_id": "v3_p04_intercropping_multi__p06",
+      "subject": "Intercropping",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "prolonged growing period",
+      "time_horizon_years": null,
+      "evidence_span": "Reduced soil erosion through prolonged growing period of intercropped species",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p04_intercropping_multi__c08",
+      "passage_id": "v3_p04_intercropping_multi__p07",
+      "subject": "Intercropping",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "temporal and spatial niche differentiation",
+      "time_horizon_years": null,
+      "evidence_span": "Intercropping can efficiently capture nutrients through temporal and spatial niche differentiation as well as complementary use of different nutrient sources",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p04_intercropping_multi__c09",
+      "passage_id": "v3_p04_intercropping_multi__p08",
+      "subject": "Intercropping",
+      "metric": "soil_biota",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "continuously providing more diverse root exudates",
+      "time_horizon_years": null,
+      "evidence_span": "Intercropping can promote soil biodiversity through continuously providing more diverse root exudates for soil food web throughout the growing season",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p04_intercropping_multi__c10",
+      "passage_id": "v3_p04_intercropping_multi__p09",
+      "subject": "Intercropping",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "promoting root growth",
+      "time_horizon_years": null,
+      "evidence_span": "Intercropping may help improve soil structure through promoting root growth and increasing soil organic carbon",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p04_intercropping_multi__c11",
+      "passage_id": "v3_p04_intercropping_multi__p10",
+      "subject": "Intercropping",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "temporal and spatial niche differentiation",
+      "time_horizon_years": null,
+      "evidence_span": "Intercropping can efficiently capture water through temporal and spatial niche differentiation",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p04_intercropping_multi__c12",
+      "passage_id": "v3_p04_intercropping_multi__p11",
+      "subject": "Intercropping",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "temporal differentiation of crop growth",
+      "time_horizon_years": null,
+      "evidence_span": "Intercropping can increase crop yield through temporal differentiation of crop growth",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p04_intercropping_multi__c13",
+      "passage_id": "v3_p04_intercropping_multi__p11",
+      "subject": "Intercropping",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "yield stability",
+      "conditions": "cereal-grain legume intercropping",
+      "time_horizon_years": null,
+      "evidence_span": "intercropping can also enhance yield stability, which is especially obvious in cereal-grain legume intercropping",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p04_intercropping_multi__c14",
+      "passage_id": "v3_p04_intercropping_multi__p12",
+      "subject": "Intercropping",
+      "metric": "temperature",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "CO2 and N2O emission",
+      "conditions": "compared to monocropping",
+      "time_horizon_years": null,
+      "evidence_span": "intercropping can mitigate climate change by reducing CO2 and N2O emission compared to monocropping",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p04_intercropping_multi__c15",
+      "passage_id": "v3_p04_intercropping_multi__p15",
+      "subject": "Intercropping",
+      "metric": "temperature",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "N2O emissions",
+      "conditions": "compared with a single crop",
+      "time_horizon_years": null,
+      "evidence_span": "intercrop may increase N2O emissions compared with a single crop",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p04_intercropping_multi__c16",
+      "passage_id": "v3_p04_intercropping_multi__p16",
+      "subject": "Intercropping",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "yield of another crop",
+      "conditions": "When the competition between the two crops is strong",
+      "time_horizon_years": null,
+      "evidence_span": "the yield advantage of intercropping is at the expense of the yield of another crop.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "intercropping",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p04_intercropping_multi__p02",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "Long-term",
+      "mechanism": "enhanced belowground carbon inputs",
+      "passage_id": "v3_p04_intercropping_multi__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p04_intercropping_multi__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "soil_organic_matter",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "promoting root growth",
+      "passage_id": "v3_p04_intercropping_multi__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": "prolonged growing period",
+      "mechanism": null,
+      "passage_id": "v3_p04_intercropping_multi__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": "temporal and spatial niche differentiation",
+      "mechanism": null,
+      "passage_id": "v3_p04_intercropping_multi__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "soil_biota",
+      "effect": "increase",
+      "condition": "continuously providing more diverse root exudates",
+      "mechanism": null,
+      "passage_id": "v3_p04_intercropping_multi__p08",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": "temporal and spatial niche differentiation",
+      "mechanism": null,
+      "passage_id": "v3_p04_intercropping_multi__p10",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": "temporal differentiation of crop growth",
+      "mechanism": null,
+      "passage_id": "v3_p04_intercropping_multi__p11",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "temperature",
+      "effect": "decrease",
+      "condition": "compared to monocropping",
+      "mechanism": null,
+      "passage_id": "v3_p04_intercropping_multi__p12",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "temperature",
+      "effect": "increase",
+      "condition": "compared with a single crop",
+      "mechanism": null,
+      "passage_id": "v3_p04_intercropping_multi__p15",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "When the competition between the two crops is strong",
+      "mechanism": null,
+      "passage_id": "v3_p04_intercropping_multi__p16",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "v3_p04_intercropping_multi",
+    "doc_id": "fao2021_recarb_v3",
+    "model": "gemini-2.5-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 56,
+    "pdf_end": 66,
+    "manifest_practices": [
+      "intercropping"
+    ],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:26:28Z",
+    "pdf_sha256": "d9a1fb6542b6270a"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "extraction_status": "ok",
+  "section_title": "GSOCseq introduction and methodology",
+  "content_type": "methods",
+  "summary": "This document provides an overview of the Global Soil Partnership (GSP) and the GSOCseq initiative, which aims to map soil organic carbon sequestration potential to support national targets and sustainable soil management.",
+  "passages": [
+    {
+      "passage_id": "gsocseq_intro__w00__p01",
+      "heading_path": [
+        "The Global Soil Organic Carbon Sequestration Potential Map (GSOCseq)"
+      ],
+      "text": "The Global Soil Organic Carbon Sequestration Potential Map (GSOCseq)",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "GSOCseq",
+      "practices": [],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w00__p02",
+      "heading_path": [
+        "The Global Soil Partnership (GSP)"
+      ],
+      "text": "The Global Soil Partnership (GSP) Was established in December 2012 with the main aim of: 1 creating a mechanism to foster strong partnerships and collaboration to place soils on the global agenda; 2 promoting Sustainable Soil Management (SSM); 3 improving the governance of soils.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Global Soil Partnership",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w00__p03",
+      "heading_path": [
+        "The Global Soil Partnership (GSP) in numbers"
+      ],
+      "text": "10 years of GSP! 8 regional partnerships, over 370 partners worldwide 160 focal points appointed directly by UN’s Food and Agriculture Organization FAO member countries 7 International Networks",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Global Soil Partnership",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w00__p05",
+      "heading_path": [
+        "GSP - area of work: Soil Data and Information"
+      ],
+      "text": "Soil Data is essential for... Global challenges, e.g. Earth-System Models National and regional data-driven policy-making Field operations, e.g. to optimize fertilizer and pesticide applications However... Soil Data is... Not harmonized Not updated regularly Fragmented among and within Institutions",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Soil Data and Information",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w00__p06",
+      "heading_path": [
+        "GSP - area of work: Soil Data and Information"
+      ],
+      "text": "Global Data Products: 4, 36 Map Layers, Country Driven. System Development: 7, National Soil Information Systems (TCP), Digital Transformation. Capacity Development: 60, Training Workshops, DSM, Product Oriented. Capacity Development: 1200+, National Experts, Large Expert Network. Publications: 12, Key Publications, Technical, Scientific.",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "Soil Data and Information",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "gsocseq_intro__w00__p08",
+      "heading_path": [
+        "GloSIS: Country-driven Global Data Products"
+      ],
+      "text": "GSOCmap V1.0 (2017) >> V1.5 (2019) >> V.1.5 (2020) >> V1.6 (2022) - Global Soil Organic Carbon Map. GSOCseq V1.0 (2021) >> v1.1 (2022) - Global Soil Organic Carbon Sequestration Potential Map. GSASmap V1.0 (October 2021) - Global Salt Affected Soils Map. GBSmap V1.0 (May 2022 by INBS) - Global Black Soil Distribution Map. GSERmap - Global Soil Erosion Map. GSNmap - Global Soil Nutrient Map.",
+      "page_start": 8,
+      "page_end": 8,
+      "topic": "GloSIS Data Products",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "gsocseq_intro__w00__p09",
+      "heading_path": [
+        "Why GSOCseq?"
+      ],
+      "text": "Following FAO members request, Global Soil Partnership (GSP) has started the GSOCseq initiative to: 1 Set attainable and evidence based national targets for carbon sequestration; 2 Identify areas that have high SOC sequestration for SSM projects 3 Enhance National capacities on sustainable soil management, soil data management, digital soil mapping and modelling; as inputs for NDCs and reporting",
+      "page_start": 9,
+      "page_end": 9,
+      "topic": "GSOCseq",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w00__p10",
+      "heading_path": [
+        "The GSOCseq approach for reporting CSCs in GHGI"
+      ],
+      "text": "It’s important to understand what the GSOCseq approach allows you to report on: CO2 emission/removals in non-waterlogged mineral soils in croplands and grasslands; CO2 emissions/removals in paddy field soils. However, the current GSOCseq has the following limitations: It does not replace the need for ground data as well as the Tier 1 approach; Further parametrization might be needed (e.g. SOC dynamics in Vulcanic soils); It cannot report CO2 emissions/removals for forests; It does not take into account CH4, NO2 emissions.",
+      "page_start": 10,
+      "page_end": 10,
+      "topic": "GSOCseq",
+      "practices": [],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland",
+        "forest"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [],
+  "links": [],
+  "_meta": {
+    "unit_id": "gsocseq_intro__w00",
+    "doc_id": "fao_gsocseq_intro",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 1,
+    "pdf_end": 12,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T11:02:25Z",
+    "pdf_sha256": "43aaa0ffea6df71b",
+    "prompt_type": "inventory"
+  }
+}

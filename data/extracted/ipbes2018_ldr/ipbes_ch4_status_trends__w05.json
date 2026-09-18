@@ -1,0 +1,363 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+  "content_type": "assessment",
+  "summary": "This assessment details the status and trends of land degradation, focusing on biodiversity loss, pest and disease incidence, fire impacts, and the consequences of intensive grazing, cropping, and forestry practices on ecosystem functions.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch4_status_trends__w05__p01",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "Pest and disease incidence"
+      ],
+      "text": "More frequent extreme weather events can reduce the resistance and defences of many organisms and make them vulnerable to diseases and predation that normally cause little harm. Damaged plants can facilitate transmission of viruses and bacteria. Spider mites, grasshoppers and aphids cause even more severe damage.",
+      "page_start": 276,
+      "page_end": 276,
+      "topic": "Pest and disease incidence",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w05__p02",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.9 Biodiversity Loss",
+        "Trends"
+      ],
+      "text": "A meta-analysis reported that by 2005 land use and related pressures had reduced local species richness (including all kinds of organisms) by an average of 13.6% (95% confidence interval: 9.1-17.8%) and total abundance (i.e., measured as density, cover, or biomass) of plants and animals by 10.7% (95% confidence interval: 3.8% gain to 23.7% reduction) compared with what they would have been in the absence of human effects.",
+      "page_start": 277,
+      "page_end": 277,
+      "topic": "Biodiversity loss",
+      "practices": [],
+      "metrics": [
+        "species_richness",
+        "biomass"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w05__p03",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.9 Biodiversity Loss",
+        "Trends"
+      ],
+      "text": "The distribution of declines in biodiversity is not geographically uniform. Croplands, pastures and urban areas have been found to have suffered the highest decrease in species richness and abundance compared to primary ecosystems and secondary growth.",
+      "page_start": 278,
+      "page_end": 278,
+      "topic": "Biodiversity loss",
+      "practices": [],
+      "metrics": [
+        "species_richness",
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w05__p04",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "Processes of biodiversity loss"
+      ],
+      "text": "A meta-analysis comparing multiple experimental results with previous meta-analysis on the effects of major anthropogenic disturbances on ecosystem productivity and decomposition found that intermediate levels of species loss (21-40%) reduced plant production by 5-10%. Higher levels of extinction (41-60%) had effects similar to ozone depletion, acidification, elevated CO2 and nutrient pollution.",
+      "page_start": 279,
+      "page_end": 279,
+      "topic": "Ecosystem function",
+      "practices": [],
+      "metrics": [
+        "species_richness",
+        "crop_yield",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w05__p05",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "The loss of soil biodiversity"
+      ],
+      "text": "Soil biota create open soil structures, aerate the soil and maintain a fertile mix of mineral materials, allowing and modulating gaseous exchange, water storage and movement, without which plant growth would be compromised. Tillage affects soil structure, for example creating hard layers where fine materials washed from the tilled horizons are deposited immediately below the plough depth.",
+      "page_start": 280,
+      "page_end": 280,
+      "topic": "Soil biodiversity",
+      "practices": [
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "soil_biota",
+        "bulk_density",
+        "water_holding_capacity",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w05__p06",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.3.2 Grazing land degradation",
+        "4.3.2.1 Intensive grazing"
+      ],
+      "text": "Intensively managed pastures are the norm in the EU, North America, Japan and the Republic of Korea. These systems have mineral fertilizer inputs and a greatly reduced biodiversity, compared with the natural pastures or forest they replaced.",
+      "page_start": 282,
+      "page_end": 282,
+      "topic": "Grazing land degradation",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w05__p07",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.3.3 Cropping Systems"
+      ],
+      "text": "Irrigation by water extraction from aquifers can exceed recharge rates (known as over-drafts) in many regions worldwide, such as Northeast India and Northwest Pakistan, and California’s Central Valley. Water used for irrigation can contain salt and brings salts deeper in the soil profile to the rooting zone.",
+      "page_start": 283,
+      "page_end": 283,
+      "topic": "Cropping systems",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "salinity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w05__p08",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.3.4 Forest degradation"
+      ],
+      "text": "Reduced evapotranspiration, infiltration rates and water-holding capacities can cause increased runoff and a decrease in watershed protection, leading to an increase in flooding, erosion and reduced water supply for human use. Furthermore, beyond the forested region itself, deforestation and forest degradation can disrupt normal weather patterns, creating hotter and drier weather thus increasing drought, crop failures, and displacement of major ecosystems.",
+      "page_start": 287,
+      "page_end": 287,
+      "topic": "Forest degradation",
+      "practices": [],
+      "metrics": [
+        "water_holding_capacity",
+        "erosion",
+        "temperature",
+        "rainfall",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w05__p09",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "Box 4 3 Agroforestry."
+      ],
+      "text": "Agroforestry practices can sequester carbon and enhance microbial biomass and enhance water-holding capacity compared to monoculture. Nitrogen-fixing leguminous trees, such as Erythrina poeppigiana, can be used to provide organic material with a high nitrogen content.",
+      "page_start": 287,
+      "page_end": 287,
+      "topic": "Agroforestry",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate",
+        "microbial_biomass",
+        "water_holding_capacity",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch4_status_trends__w05__c01",
+      "passage_id": "ipbes_ch4_status_trends__w05__p02",
+      "subject": "land use and related pressures",
+      "metric": "species_richness",
+      "direction": "decrease",
+      "value": 13.6,
+      "unit": "percent",
+      "basis": "high confidence",
+      "conditions": "by 2005",
+      "evidence_span": "A meta-analysis reported that by 2005 land use and related pressures had reduced local species richness (including all kinds of organisms) by an average of 13.6% (95% confidence interval: 9.1-17.8%)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w05__c02",
+      "passage_id": "ipbes_ch4_status_trends__w05__p04",
+      "subject": "intermediate levels of species loss (21-40%)",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value_low": 5,
+      "value_high": 10,
+      "unit": "percent",
+      "basis": "unstated",
+      "conditions": "intermediate levels of species loss",
+      "evidence_span": "intermediate levels of species loss (21-40%) reduced plant production by 5-10%.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w05__c03",
+      "passage_id": "ipbes_ch4_status_trends__w05__p06",
+      "subject": "intensively managed pastures",
+      "metric": "species_richness",
+      "direction": "decrease",
+      "basis": "unstated",
+      "conditions": "compared with natural pastures or forest",
+      "evidence_span": "These systems have mineral fertilizer inputs and a greatly reduced biodiversity, compared with the natural pastures or forest they replaced.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w05__c04",
+      "passage_id": "ipbes_ch4_status_trends__w05__p08",
+      "subject": "deforestation and forest degradation",
+      "metric": "erosion",
+      "direction": "increase",
+      "basis": "unstated",
+      "conditions": "reduced evapotranspiration and infiltration",
+      "evidence_span": "Reduced evapotranspiration, infiltration rates and water-holding capacities can cause increased runoff and a decrease in watershed protection, leading to an increase in flooding, erosion (Bruijnzeel, 2004b) and reduced water supply for human use",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w05__c05",
+      "passage_id": "ipbes_ch4_status_trends__w05__p09",
+      "subject": "agroforestry practices",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "basis": "unstated",
+      "conditions": "compared to monoculture",
+      "evidence_span": "Agroforestry practices can sequester carbon and enhance microbial biomass and enhance water-holding capacity compared to monoculture",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "land use and related pressures",
+      "to_node": "species_richness",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch4_status_trends__w05__p02",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "species loss",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch4_status_trends__w05__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "tillage",
+      "to_node": "bulk_density",
+      "effect": "increase",
+      "mechanism": "creating hard layers",
+      "passage_id": "ipbes_ch4_status_trends__w05__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mineral fertilizer inputs",
+      "to_node": "species_richness",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch4_status_trends__w05__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "irrigation",
+      "to_node": "salinity",
+      "effect": "increase",
+      "mechanism": "brings salts deeper in the soil profile",
+      "passage_id": "ipbes_ch4_status_trends__w05__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "deforestation and forest degradation",
+      "to_node": "erosion",
+      "effect": "increase",
+      "mechanism": "reduced evapotranspiration and infiltration",
+      "passage_id": "ipbes_ch4_status_trends__w05__p08",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry practices",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "passage_id": "ipbes_ch4_status_trends__w05__p09",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch4_status_trends__w05",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 334,
+    "pdf_end": 345,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:14:52Z",
+    "pdf_sha256": "c8f930a9ddcd69eb"
+  }
+}

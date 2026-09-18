@@ -1,0 +1,194 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4.4 THE WAY FORWARD",
+  "content_type": "assessment",
+  "summary": "This assessment section discusses the current status of biophysical knowledge regarding land degradation, highlighting the need for improved monitoring, data collection, and the integration of observations with modeling to better understand degradation processes and trends.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch4_status_trends__w07__p01",
+      "heading_path": [
+        "4.4 THE WAY FORWARD",
+        "4.4.1 Status of biophysical knowledge of land degradation"
+      ],
+      "text": "Unfortunately there is a pervasive and alarming trend toward even sparser coverage and even losses of complete environmental and ecological monitoring networks, for example, more than half the global hydrological stations reporting in 1970 were not operating in 2000 (Wahl et al., 1995). A lack of stable, long-term commitment to observations, and lack of a clear transition plan from research to operations, are two frequent limitations in the development of adequate responses to land degradation (Hansen et al., 2013; Karl et al., 1995). This shortage of data is exacerbated by uneven distribution of observation locations. The problem is not unique to poor or developing nations: in many developed countries, long-term monitoring is declining (e.g., Wahl et al., 1995). In addition to this loss of stations, there is an insidious loss of stations having at least 30 years records. These are exactly the stations most needed for detection of trends in the context of climatic change.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "monitoring networks",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w07__p02",
+      "heading_path": [
+        "4.4 THE WAY FORWARD",
+        "4.4.1 Status of biophysical knowledge of land degradation"
+      ],
+      "text": "These issues are illustrated in the case of extensive livestock production (see Section 4.3.2), which has declined by 50%. Since there are no global maps of stocking or carrying capacity, the location and severity and causes cannot be known – has fodder quality declined or has rangeland been lost to other uses, or a combination of both? For crop agriculture the opposite occurs, global crop yields have increased despite reports of widespread cropland degradation. In this case it is probable that increased use of fertiliser and improved crop varieties may be the cause, not alleviation of degradation, but the answers to these questions are unknown and unknowable with current data.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "livestock and crop production",
+      "practices": [],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland",
+        "rangeland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w07__p03",
+      "heading_path": [
+        "4.4 THE WAY FORWARD",
+        "4.4.2 Gaps in understanding of processes of degradation",
+        "4.4.2.1 Types of degradation"
+      ],
+      "text": "It needs to be emphasised that the convenience of the term “degradation” can result in an unconscious notion that it is a phenomenon unto itself. In fact, there is not a single condition, rather there are multiple forms of degradation that reduce ecosystem services: sheet erosion in agricultural fields, water pollution, landscape fragmentation, extinction of species, to name a few, have little in common in their causes by or effects on humans.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "degradation definition",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "pollution_load",
+        "fragmentation",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w07__p04",
+      "heading_path": [
+        "4.4 THE WAY FORWARD",
+        "4.4.2 Gaps in understanding of processes of degradation",
+        "4.4.2.2 Deficient ecological knowledge",
+        "Combined use of observations and modelling"
+      ],
+      "text": "To address the functioning, predictability, and projected evolution of the many components of degradation, improved data and its coupling with mathematical models are equally needed (Simmons et al., 2016). These two often reinforce each other – modelling is dependent on observations for development, evaluation, calibration, validation and parameterization and can provide estimates of conditions in places where local measurements are not possible. Current land surface models mostly do not include degraded conditions, and can have both a spatial and temporal resolution that are too coarse for application to small-scale degradation., Advances in Integrated Assessment Modelling that include anthropogenic degradation would be of great value.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "modelling and observations",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w07__p05",
+      "heading_path": [
+        "4.4 THE WAY FORWARD",
+        "4.4.3 Measurement, monitoring and trend detection",
+        "4.4.3.1 Routine monitoring"
+      ],
+      "text": "The most direct improvement in assessment of degradation would be a dramatic increase in routine, regular monitoring. The current situation is inadequate. The most basic information about many forms of degradation is rarely available. An apparently simple question such as “what is the biodiversity of an ecosystem?” often can only be answered for limited types of species and few locations. Furthermore, much of the existing information is suspect, mostly based on dated and hard to verify data (Chomitz, 2006) (see Section 4.1.6). Without improved information, assessments are inconclusive.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "monitoring",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch4_status_trends__w07__c01",
+      "passage_id": "ipbes_ch4_status_trends__w07__p01",
+      "subject": "global hydrological stations",
+      "metric": "rainfall",
+      "direction": "decrease",
+      "value": 50,
+      "unit": "percent_change",
+      "basis": "reporting stations in 1970 vs 2000",
+      "conditions": null,
+      "time_horizon_years": 30,
+      "evidence_span": "more than half the global hydrological stations reporting in 1970 were not operating in 2000",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w07__c02",
+      "passage_id": "ipbes_ch4_status_trends__w07__p02",
+      "subject": "extensive livestock production",
+      "metric": "biomass",
+      "direction": "decrease",
+      "value": 50,
+      "unit": "percent_change",
+      "conditions": null,
+      "evidence_span": "extensive livestock production (see Section 4.3.2), which has declined by 50%.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w07__c03",
+      "passage_id": "ipbes_ch4_status_trends__w07__p02",
+      "subject": "global crop yields",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "conditions": null,
+      "evidence_span": "global crop yields have increased despite reports of widespread cropland degradation.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "monitoring",
+      "to_node": "assessment",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "improved information",
+      "passage_id": "ipbes_ch4_status_trends__w07__p05",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "fertiliser use",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "increased use of fertiliser and improved crop varieties",
+      "passage_id": "ipbes_ch4_status_trends__w07__p02",
+      "strength_stated": "moderate"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch4_status_trends__w07",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 356,
+    "pdf_end": 367,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:56:06Z",
+    "pdf_sha256": "0186024aabf95185"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Desertification impacts on natural and socio-economic systems under climate change",
+  "content_type": "assessment",
+  "summary": "This assessment examines the impacts of desertification on ecosystem services, biodiversity, and climate feedbacks in drylands, highlighting the role of soil erosion, dust storms, and vegetation changes.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch3_desertification__w01__p01",
+      "heading_path": [
+        "3.4 Desertification impacts on natural and socio-economic systems under climate change",
+        "3.4.1 Impacts on natural and managed ecosystems",
+        "3.4.1.1 Impacts on ecosystems and their services in drylands"
+      ],
+      "text": "There is high confidence that desertification processes such as soil erosion, secondary salinisation, and overgrazing have negatively impacted provisioning ecosystem services in drylands, particularly food and fodder production (Majeed and Muhammad 2019; Mirzabaev et al. 2016; Qadir et al. 2009; Van Loo et al. 2017; Tokbergenova et al. 2018).",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "ecosystem services",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "salinity",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "dry_sub_humid"
+      ],
+      "land_use": [
+        "cropland",
+        "rangeland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w01__p02",
+      "heading_path": [
+        "3.4 Desertification impacts on natural and socio-economic systems under climate change",
+        "3.4.1 Impacts on natural and managed ecosystems",
+        "3.4.1.1 Impacts on ecosystems and their services in drylands"
+      ],
+      "text": "Land-use changes often lead to reductions in SOC and organic matter inputs into soil (Albaladejo et al. 2013; Almagro et al. 2010; Hoffmann et al. 2012; Lavee et al. 1998; Rey et al. 2011), increasing soil salinity and soil erosion (Lavee et al. 1998; Martinez-Mena et al. 2008). In addition to the loss of soil, erosion reduces soil nutrients and organic matter, thereby impacting land’s productive capacity. To illustrate, soil erosion by water is estimated to result in the loss of 23–42 Mt of nitrogen and 14.6–26.4 Mt of phosphorus from soils globally each year (Pierzynski et al. 2017).",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "soil degradation",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "soil_organic_matter",
+        "salinity",
+        "erosion",
+        "nutrient_availability",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w01__p03",
+      "heading_path": [
+        "3.4 Desertification impacts on natural and socio-economic systems under climate change",
+        "3.4.1 Impacts on natural and managed ecosystems",
+        "3.4.1.1 Impacts on ecosystems and their services in drylands"
+      ],
+      "text": "When desertification reduces vegetation cover, this alters the soil surface, affecting the albedo and the water balance (Gonzalez-Martin et al. 2014) (Section 3.3). In such situations, erosive winds have no more obstacles, which favours the occurrence of wind erosion and dust storms. Mineral aerosols have an important influence on the dispersal of soil nutrients and lead to changes in soil characteristics (Goudie and Middleton 2001; Middleton 2017). Thereby, the soil formation as a supporting ecosystem service is negatively affected (Section 3.3.1). Soil erosion by wind results in a loss of fine soil particles (silt and clay), reducing the ability of soil to sequester carbon (Wiesmeier et al. 2015).",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "soil degradation",
+      "practices": [],
+      "metrics": [
+        "temperature",
+        "erosion",
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w01__p04",
+      "heading_path": [
+        "3.4 Desertification impacts on natural and socio-economic systems under climate change",
+        "3.4.1 Impacts on natural and managed ecosystems",
+        "3.4.1.2 Impacts on biodiversity: Plant and wildlife"
+      ],
+      "text": "Desertification, including through land-use change, already contributed to the loss of biodiversity across drylands (medium confidence) (Newbold et al. 2015; Wilting et al. 2017).",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "biodiversity",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch3_desertification__w01__c01",
+      "passage_id": "srccl_ch3_desertification__w01__p01",
+      "subject": "desertification processes",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "evidence_span": "There is high confidence that desertification processes such as soil erosion, secondary salinisation, and overgrazing have negatively impacted provisioning ecosystem services in drylands, particularly food and fodder production",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w01__c02",
+      "passage_id": "srccl_ch3_desertification__w01__p02",
+      "subject": "soil erosion by water",
+      "metric": "nitrogen",
+      "direction": "decrease",
+      "value_low": 23,
+      "value_high": 42,
+      "unit": "none",
+      "basis": "Mt per year",
+      "evidence_span": "soil erosion by water is estimated to result in the loss of 23–42 Mt of nitrogen and 14.6–26.4 Mt of phosphorus from soils globally each year",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w01__c03",
+      "passage_id": "srccl_ch3_desertification__w01__p04",
+      "subject": "desertification",
+      "metric": "species_richness",
+      "direction": "decrease",
+      "evidence_span": "Desertification, including through land-use change, already contributed to the loss of biodiversity across drylands",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "desertification",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "passage_id": "srccl_ch3_desertification__w01__p01",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "soil erosion",
+      "to_node": "nutrient_availability",
+      "effect": "decrease",
+      "passage_id": "srccl_ch3_desertification__w01__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "desertification",
+      "to_node": "species_richness",
+      "effect": "decrease",
+      "passage_id": "srccl_ch3_desertification__w01__p04",
+      "strength_stated": "moderate"
+    }
+  ],
+  "_meta": {
+    "unit_id": "srccl_ch3_desertification__w01",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 270,
+    "pdf_end": 281,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:48:53Z",
+    "pdf_sha256": "109b29a84e8c795b"
+  }
+}

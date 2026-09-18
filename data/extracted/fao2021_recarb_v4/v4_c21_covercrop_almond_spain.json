@@ -1,0 +1,1346 @@
+{
+  "extraction_status": "ok",
+  "section_title": "21. Reduced tillage frequency and no-till to allow ground covers and seeding cover crops in rainfed almond fields, Spain",
+  "content_type": "practice",
+  "summary": "This case study examines the effects of reduced tillage and no-till practices, combined with cover crops and green manure, in rainfed almond orchards in semiarid Spain. The study aims to protect soil against erosion, increase soil organic matter, and evaluate impacts on soil carbon sequestration, CO2 emissions, and crop yields. The practices involve reducing tillage frequency or eliminating it, and establishing native plant covers or seeding legumes and cereals as green manure in strips between trees. Cover crops are terminated in spring, leaving residues as mulch or incorporating them into the soil. The study compares conventional tillage with reduced tillage, reduced tillage plus green manure, and no tillage.",
+  "passages": [
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p01",
+      "heading_path": [
+        "1. Related practices and hot-spot"
+      ],
+      "text": "No-till, Reduced tillage, cover cropping, organic agriculture; Drylands",
+      "page_start": 223,
+      "page_end": 223,
+      "topic": "practices",
+      "practices": [
+        "cover_crops",
+        "reduced_tillage",
+        "no_till",
+        "conservation_agriculture",
+        "other"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p02",
+      "heading_path": [
+        "2. Description of the case study"
+      ],
+      "text": "These agricultural practices consist of reducing tillage frequency (twice per year) or halting tillage compared to\nconventional tillage (≥ four times per year) in two organic rainfed almond (Prunus dulcis Mill.) orchards under\nsemiarid conditions. The aim is to protect soil against erosion and increase its organic matter content in the 7\nto 10-meter-wide strips between the almond trees by allowing the establishment of a native plant cover (i.e.\nground covers) or by seeding different varieties of legumes and cereals (i.e. green manure). The green manure\nconsists of seeding a mixture of common vetch (Vicia sativa L.) and oat (Avena sativa L.) in a 3:1 ratio at 150\nkg/ha in early fall to provide a cover crop during winter, but different varieties of legumes and grasses can be\ncombined in order to increase species diversification. Given the water scarcity of this region, species with\nshallow root systems and low water requirements are desirable (e.g. Vicia ervilia W.). Early termination of\nground covers and green manure is appropriate in this region where rainfall amount is relatively low (300\nmm/yr) to avoid competition for water with the main crop. Generally, both types of cover crops are cut in early-\nor mid-spring when a significant amount of plant biomass is present (although management can be adapted to\neach year weather conditions), after which plant residues are left on the ground as mulching (in no tillage\nsystems) or incorporated into the soil by chisel ploughing to 15-20 cm depth (in reduced tillage systems). In\nour study case, the effect of shifting from conventional tillage to reduced tillage, reduced tillage plus green\nmanure, and no tillage, on soil carbon sequestration, soil CO2 emission rates, and crop yields will be reported.",
+      "page_start": 223,
+      "page_end": 223,
+      "topic": "case study description",
+      "practices": [
+        "cover_crops",
+        "reduced_tillage",
+        "no_till",
+        "mulching",
+        "conservation_agriculture",
+        "other"
+      ],
+      "metrics": [
+        "SOC",
+        "erosion",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p03",
+      "heading_path": [
+        "3. Context of the case study"
+      ],
+      "text": "The study took place in two calcareous arid and semiarid sites of the south of Spain, at about 50 km Est of Murcia\n(site 1: 38°3′15″ N, 1°46′12″ W; 633 m a.s.l; site 2: 37°51′59″ N, 1°43′11″ W; 839 m a.s.l.).",
+      "page_start": 224,
+      "page_end": 224,
+      "topic": "context",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p04",
+      "heading_path": [
+        "4. Possibility of scaling up"
+      ],
+      "text": "These agricultural practices can be implemented in rainfed and irrigated woody-crops growing worldwide.",
+      "page_start": 224,
+      "page_end": 224,
+      "topic": "scalability",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p05",
+      "heading_path": [
+        "5. Impact on soil organic carbon stocks"
+      ],
+      "text": "Soil samples were collected in the rows between almond trees following crop harvest in November 2018, ten\nyears after the management practices were implemented. Four paired undisturbed (core of 100 cm³ volume)\nand disturbed soil samples were collected for each management treatment, for bulk density estimations and\norganic carbon analyses, respectively. Soil organic carbon stock (t/ha) was computed as a product of soil organic\nC concentration, bulk density and depth for each sampling point (Table 84).",
+      "page_start": 224,
+      "page_end": 224,
+      "topic": "soil organic carbon",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "bulk_density"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p06",
+      "heading_path": [
+        "6.1. Improvement of soil properties"
+      ],
+      "text": "An improvement on biophysical properties, such as soil structure (aggregate stability) and soil water infiltration\ncapacity (when no tillage is applied) was observed with decreasing tillage frequency (Almagro et al., 2016;\nAlmagro et al., 2017; Martínez-Mena et al., in press).",
+      "page_start": 225,
+      "page_end": 225,
+      "topic": "soil properties",
+      "practices": [
+        "no_till",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "water_holding_capacity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p07",
+      "heading_path": [
+        "6.2 Minimization of threats to soil functions",
+        "Table 85. Soil threats"
+      ],
+      "text": "The plant covers in the strips between the almond trees reduced soil\nerosion rates and the associated carbon and nutrient mobilized by this\nprocess by 60-80% compared to conventional tillage (Martínez-Mena et\nal., 2020).",
+      "page_start": 225,
+      "page_end": 225,
+      "topic": "soil erosion",
+      "practices": [
+        "cover_crops",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "erosion",
+        "SOC",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p08",
+      "heading_path": [
+        "6.2 Minimization of threats to soil functions",
+        "Table 85. Soil threats"
+      ],
+      "text": "Improvement of nitrogen availability under green manure (Martínez-Mena\net al., in press) and reduction of nutrient losses by erosion in all reduced\ntillage systems (Martínez-Mena et al., 2020).",
+      "page_start": 225,
+      "page_end": 225,
+      "topic": "nutrient management",
+      "practices": [
+        "cover_crops",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "nitrogen",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p09",
+      "heading_path": [
+        "6.2 Minimization of threats to soil functions",
+        "Table 85. Soil threats"
+      ],
+      "text": "Reducing tillage intensity increased field available water content (Almagro\net al., 2016).",
+      "page_start": 225,
+      "page_end": 225,
+      "topic": "soil water management",
+      "practices": [
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p10",
+      "heading_path": [
+        "6.3 Increases in production (e.g. food/fuel/feed/timber)"
+      ],
+      "text": "After 10 years, no differences in crop yields between conventional and reduced tillage systems were observed.\nMean values ranged from 40 to 321 kg/ha under conventional tillage and from 30 to 311 kg/ha under reduced\ntillage depending on the farm. However, when conventional tillage was converted to no tillage crop yields\ndecreased by 73 percent (Martin-Gorriz et al., 2020). This probably occurred because soil compaction under\nno tillage increased year after year, hampering organic matter mineralization and nitrogen availability for the\nmain crop. Our results suggest that growing organic woody crops under rainfed semiarid conditions might not\nbe compatible with no tillage practices when no fertilizers are applied, as it is our case, particularly in soils with\nhigh-carbonate contents and impoverished in organic matter and nutrients (Martínez-Mena et al., in press).\nTherefore, tillage operations should be performed occasionally (i.e. once every 4-5 years) to allow soil aeration\nand decompaction, or no tillage should be combined with other practices, such as organic nitrogen fertilization.",
+      "page_start": 225,
+      "page_end": 225,
+      "topic": "crop yield",
+      "practices": [
+        "reduced_tillage",
+        "no_till",
+        "integrated_nutrient_mgmt",
+        "other"
+      ],
+      "metrics": [
+        "crop_yield",
+        "soil_organic_matter",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p11",
+      "heading_path": [
+        "6.4 Mitigation of and adaptation to climate change"
+      ],
+      "text": "No differences in soil CO2 emissions were observed between tillage treatments (Almagro et al., 2017), and N2O\nand CH4 emissions are expected to be negligible compared to the CO2 ones in these organic rainfed farming\nsystems (Sánchez-García et al., 2016). On the other hand, the response of soil CO2 flux to soil temperature and\nmoisture was buffered by the plant covers in reduced tillage systems, making covered soils more resilient to\nextreme rainfall events, droughts, and warming, than bare soils (under conventional tillage; Almagro et al.,\n2017). Furthermore, the effectiveness of these agricultural practices in controlling soil erosion and carbon and\nnutrient losses is higher during extreme erosive events (Martínez-Mena et al., 2020), which are forecasted to\nincrease under climate change scenarios.",
+      "page_start": 226,
+      "page_end": 226,
+      "topic": "climate change mitigation",
+      "practices": [
+        "cover_crops",
+        "reduced_tillage",
+        "no_till"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate",
+        "erosion",
+        "nutrient_availability",
+        "temperature",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p12",
+      "heading_path": [
+        "6.5 Socio-economic benefits"
+      ],
+      "text": "Reduced tillage lowered the GHG emissions and improved the ratio of profit/GHG emissions with respect to\nconventional tillage, resulting in the best strategy for almond producers and the sustainability of land in our\nstudy case (Martin-Gorriz et al., 2020). On the other hand, reduced tillage combined with green manure\nincreased the GHG emissions from farm operations and reduced the ratio of profit/GHG emissions as a\nconsequence of using seeds. Nevertheless, adding green manure becomes more positive when other socio-\neconomic benefits and externalities (i.e. ecosystem services) are considered, such as the fact that: i) crop yields\nincrease in the long-term (Martínez-Mena et al., in press); ii) reducing soil organic matter and nutrient losses\n(indirect costs) by preventing soil erosion (Martínez-Mena et al., 2020); and iii) maintaining soil fertility and\nhealth condition (Almagro et al., 2017). Although no tillage (without fertilizer application) provided the lowest\nGHG emissions, yields were significantly reduced, and consequently, this practice is very close of being\neconomically unfeasible, even with subsidies (Martin-Gorriz et al., 2020).",
+      "page_start": 226,
+      "page_end": 226,
+      "topic": "socio-economic benefits",
+      "practices": [
+        "cover_crops",
+        "reduced_tillage",
+        "no_till",
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "crop_yield",
+        "soil_organic_matter",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p13",
+      "heading_path": [
+        "7. Potential drawbacks to the practice",
+        "7.1 Tradeoffs with other threats to soil functions",
+        "Table 86. Soil threats"
+      ],
+      "text": "Although soil nutrient balance and cycles can improve, competition for\nnutrients with the main crop can also occur (Martínez-Mena et al., 2013).",
+      "page_start": 226,
+      "page_end": 226,
+      "topic": "nutrient imbalance",
+      "practices": [
+        "cover_crops",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p14",
+      "heading_path": [
+        "7.1 Tradeoffs with other threats to soil functions",
+        "Table 86. Soil threats"
+      ],
+      "text": "Increased when passing from reduced tillage to zero tillage (Martínez-Mena\net al., 2013).",
+      "page_start": 226,
+      "page_end": 226,
+      "topic": "soil compaction",
+      "practices": [
+        "reduced_tillage",
+        "no_till"
+      ],
+      "metrics": [
+        "bulk_density"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p15",
+      "heading_path": [
+        "Soil water management"
+      ],
+      "text": "Competition for water with the main crop can be promoted, especially in\ndry years (Martínez-Mena et al., 2013).",
+      "page_start": 227,
+      "page_end": 227,
+      "topic": "soil water management",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p16",
+      "heading_path": [
+        "7.3 Decreases in production (e.g. food/fuel/feed/timber/fibre)"
+      ],
+      "text": "Conversion from reduced to no tillage decreased crop yields abruptly from the beginning of the experiment. In\nthis regard, N fertilization and occasional tillage could improve crop productivity in no tillage woody cropping\nsystems.",
+      "page_start": 227,
+      "page_end": 227,
+      "topic": "crop yield",
+      "practices": [
+        "reduced_tillage",
+        "no_till",
+        "integrated_nutrient_mgmt",
+        "other"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p17",
+      "heading_path": [
+        "7.5 Other conflicts"
+      ],
+      "text": "There is a lag between the observed improvements in some soil physico-chemical properties and those in crop\nyields when reduced tillage is adopted, which hamper farmer adoption because the benefits are not immediate.",
+      "page_start": 227,
+      "page_end": 227,
+      "topic": "adoption barriers",
+      "practices": [
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p18",
+      "heading_path": [
+        "9. Potential barriers for adoption",
+        "Table 87. Potential barriers to adoption"
+      ],
+      "text": "Harsh pedo-climatic conditions (semiarid soils with low availability of\norganic matter, water and nutrients)",
+      "page_start": 228,
+      "page_end": 228,
+      "topic": "biophysical barriers",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p19",
+      "heading_path": [
+        "9. Potential barriers for adoption",
+        "Table 87. Potential barriers to adoption"
+      ],
+      "text": "Farmer perception regarding the traditional belief that a \"clean\" and \"tidy\"\norchard must always be free of vegetation except for the trees (Ramos et\nal., 2010).",
+      "page_start": 228,
+      "page_end": 228,
+      "topic": "cultural barriers",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p20",
+      "heading_path": [
+        "9. Potential barriers for adoption",
+        "Table 87. Potential barriers to adoption"
+      ],
+      "text": "Peer pressure; degree of autonomy in choosing and implementing results;\nand community support (Borgström et al., 2016; Runhaar et al., 2017).",
+      "page_start": 228,
+      "page_end": 228,
+      "topic": "social barriers",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p21",
+      "heading_path": [
+        "9. Potential barriers for adoption",
+        "Table 87. Potential barriers to adoption"
+      ],
+      "text": "Cost/benefit ratio; benefits of applying green manure under semiarid\nconditions are not immediate; lack of availability of business models\n(Ferwerda, 2015).",
+      "page_start": 228,
+      "page_end": 228,
+      "topic": "economic barriers",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p22",
+      "heading_path": [
+        "9. Potential barriers for adoption",
+        "Table 87. Potential barriers to adoption"
+      ],
+      "text": "Lack of economic incentives and support from governments, including\nsubsidies (Runhaar et al., 2017).",
+      "page_start": 228,
+      "page_end": 228,
+      "topic": "institutional barriers",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p23",
+      "heading_path": [
+        "9. Potential barriers for adoption",
+        "Table 87. Potential barriers to adoption"
+      ],
+      "text": "Lack of strictness of legislation and standards (Ahnström et al., 2009).",
+      "page_start": 228,
+      "page_end": 228,
+      "topic": "legal barriers",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p24",
+      "heading_path": [
+        "9. Potential barriers for adoption",
+        "Table 87. Potential barriers to adoption"
+      ],
+      "text": "Lack of: i) awareness among farmers, ii) community feeling, iii)\ninnovativeness, and iv) understanding of the agroecosystem (Ferwerda\n2015; Schoonhoven and Runhaar, 2018).",
+      "page_start": 228,
+      "page_end": 228,
+      "topic": "knowledge barriers",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c21_covercrop_almond_spain__p25",
+      "heading_path": [
+        "9. Potential barriers for adoption",
+        "Table 87. Potential barriers to adoption"
+      ],
+      "text": "Lack of motivation.",
+      "page_start": 228,
+      "page_end": 228,
+      "topic": "other barriers",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c01",
+      "passage_id": "v4_c21_covercrop_almond_spain__p06",
+      "subject": "soil structure",
+      "metric": "soil_organic_matter",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "when no tillage is applied",
+      "time_horizon_years": null,
+      "evidence_span": "An improvement on biophysical properties, such as soil structure (aggregate stability) and soil water infiltration capacity (when no tillage is applied) was observed with decreasing tillage frequency",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c02",
+      "passage_id": "v4_c21_covercrop_almond_spain__p06",
+      "subject": "soil water infiltration capacity",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "when no tillage is applied",
+      "time_horizon_years": null,
+      "evidence_span": "An improvement on biophysical properties, such as soil structure (aggregate stability) and soil water infiltration capacity (when no tillage is applied) was observed with decreasing tillage frequency",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c03",
+      "passage_id": "v4_c21_covercrop_almond_spain__p07",
+      "subject": "plant covers",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": 60,
+      "value_low": 60,
+      "value_high": 80,
+      "unit": "percent_change",
+      "basis": "compared to conventional tillage",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "The plant covers in the strips between the almond trees reduced soil erosion rates and the associated carbon and nutrient mobilized by this process by 60-80% compared to conventional tillage",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c04",
+      "passage_id": "v4_c21_covercrop_almond_spain__p07",
+      "subject": "plant covers",
+      "metric": "SOC",
+      "direction": "decrease",
+      "value": 60,
+      "value_low": 60,
+      "value_high": 80,
+      "unit": "percent_change",
+      "basis": "compared to conventional tillage",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "The plant covers in the strips between the almond trees reduced soil erosion rates and the associated carbon and nutrient mobilized by this process by 60-80% compared to conventional tillage",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c05",
+      "passage_id": "v4_c21_covercrop_almond_spain__p07",
+      "subject": "plant covers",
+      "metric": "nutrient_availability",
+      "direction": "decrease",
+      "value": 60,
+      "value_low": 60,
+      "value_high": 80,
+      "unit": "percent_change",
+      "basis": "compared to conventional tillage",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "The plant covers in the strips between the almond trees reduced soil erosion rates and the associated carbon and nutrient mobilized by this process by 60-80% compared to conventional tillage",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c06",
+      "passage_id": "v4_c21_covercrop_almond_spain__p08",
+      "subject": "green manure",
+      "metric": "nitrogen",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Improvement of nitrogen availability under green manure (Martínez-Mena et al., in press)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c07",
+      "passage_id": "v4_c21_covercrop_almond_spain__p08",
+      "subject": "reduced tillage systems",
+      "metric": "nutrient_availability",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "by erosion",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "reduction of nutrient losses by erosion in all reduced tillage systems (Martínez-Mena et al., 2020)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c08",
+      "passage_id": "v4_c21_covercrop_almond_spain__p09",
+      "subject": "reduced tillage",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "field available water content",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Reducing tillage intensity increased field available water content (Almagro et al., 2016)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c09",
+      "passage_id": "v4_c21_covercrop_almond_spain__p10",
+      "subject": "conventional tillage vs reduced tillage",
+      "metric": "crop_yield",
+      "direction": "no_change",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "mean values",
+      "conditions": null,
+      "time_horizon_years": 10,
+      "evidence_span": "After 10 years, no differences in crop yields between conventional and reduced tillage systems were observed.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c10",
+      "passage_id": "v4_c21_covercrop_almond_spain__p10",
+      "subject": "conventional tillage vs no tillage",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": 73,
+      "value_low": null,
+      "value_high": null,
+      "unit": "percent",
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "However, when conventional tillage was converted to no tillage crop yields decreased by 73 percent",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c11",
+      "passage_id": "v4_c21_covercrop_almond_spain__p10",
+      "subject": "no tillage",
+      "metric": "soil_organic_matter",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "year after year",
+      "time_horizon_years": null,
+      "evidence_span": "This probably occurred because soil compaction under no tillage increased year after year, hampering organic matter mineralization and nitrogen availability for the main crop.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c12",
+      "passage_id": "v4_c21_covercrop_almond_spain__p10",
+      "subject": "no tillage",
+      "metric": "nitrogen",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "year after year",
+      "time_horizon_years": null,
+      "evidence_span": "This probably occurred because soil compaction under no tillage increased year after year, hampering organic matter mineralization and nitrogen availability for the main crop.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c13",
+      "passage_id": "v4_c21_covercrop_almond_spain__p11",
+      "subject": "tillage treatments",
+      "metric": "carbon_sequestration_rate",
+      "direction": "no_change",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "soil CO2 emissions",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "No differences in soil CO2 emissions were observed between tillage treatments",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c14",
+      "passage_id": "v4_c21_covercrop_almond_spain__p11",
+      "subject": "plant covers in reduced tillage systems",
+      "metric": "temperature",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "resilience to extreme events",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "the response of soil CO2 flux to soil temperature and moisture was buffered by the plant covers in reduced tillage systems, making covered soils more resilient to extreme rainfall events, droughts, and warming, than bare soils",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c15",
+      "passage_id": "v4_c21_covercrop_almond_spain__p11",
+      "subject": "plant covers in reduced tillage systems",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "resilience to extreme events",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "the response of soil CO2 flux to soil temperature and moisture was buffered by the plant covers in reduced tillage systems, making covered soils more resilient to extreme rainfall events, droughts, and warming, than bare soils",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c16",
+      "passage_id": "v4_c21_covercrop_almond_spain__p11",
+      "subject": "agricultural practices",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "effectiveness in controlling",
+      "conditions": "during extreme erosive events",
+      "time_horizon_years": null,
+      "evidence_span": "the effectiveness of these agricultural practices in controlling soil erosion and carbon and nutrient losses is higher during extreme erosive events",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c17",
+      "passage_id": "v4_c21_covercrop_almond_spain__p11",
+      "subject": "agricultural practices",
+      "metric": "nutrient_availability",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "effectiveness in controlling losses",
+      "conditions": "during extreme erosive events",
+      "time_horizon_years": null,
+      "evidence_span": "the effectiveness of these agricultural practices in controlling soil erosion and carbon and nutrient losses is higher during extreme erosive events",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c18",
+      "passage_id": "v4_c21_covercrop_almond_spain__p12",
+      "subject": "reduced tillage",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "GHG emissions",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Reduced tillage lowered the GHG emissions and improved the ratio of profit/GHG emissions with respect to conventional tillage",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c19",
+      "passage_id": "v4_c21_covercrop_almond_spain__p12",
+      "subject": "reduced tillage combined with green manure",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "GHG emissions",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "On the other hand, reduced tillage combined with green manure increased the GHG emissions from farm operations and reduced the ratio of profit/GHG emissions as a consequence of using seeds.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c20",
+      "passage_id": "v4_c21_covercrop_almond_spain__p12",
+      "subject": "green manure",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "in the long-term",
+      "time_horizon_years": null,
+      "evidence_span": "i) crop yields increase in the long-term (Martínez-Mena et al., in press)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c21",
+      "passage_id": "v4_c21_covercrop_almond_spain__p12",
+      "subject": "green manure",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "soil organic matter and nutrient losses",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "ii) reducing soil organic matter and nutrient losses (indirect costs) by preventing soil erosion (Martínez-Mena et al., 2020)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c22",
+      "passage_id": "v4_c21_covercrop_almond_spain__p12",
+      "subject": "no tillage (without fertilizer application)",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "GHG emissions",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Although no tillage (without fertilizer application) provided the lowest GHG emissions, yields were significantly reduced",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c23",
+      "passage_id": "v4_c21_covercrop_almond_spain__p12",
+      "subject": "no tillage (without fertilizer application)",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "yields were significantly reduced",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c24",
+      "passage_id": "v4_c21_covercrop_almond_spain__p13",
+      "subject": "soil nutrient balance and cycles",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Although soil nutrient balance and cycles can improve, competition for nutrients with the main crop can also occur",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c25",
+      "passage_id": "v4_c21_covercrop_almond_spain__p13",
+      "subject": "competition for nutrients",
+      "metric": "nutrient_availability",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "competition for nutrients with the main crop can also occur",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c26",
+      "passage_id": "v4_c21_covercrop_almond_spain__p14",
+      "subject": "reduced tillage to zero tillage",
+      "metric": "bulk_density",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Increased when passing from reduced tillage to zero tillage",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c27",
+      "passage_id": "v4_c21_covercrop_almond_spain__p15",
+      "subject": "cover crops",
+      "metric": "soil_moisture",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "competition for water",
+      "conditions": "especially in dry years",
+      "time_horizon_years": null,
+      "evidence_span": "Competition for water with the main crop can be promoted, especially in dry years",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c21_covercrop_almond_spain__c28",
+      "passage_id": "v4_c21_covercrop_almond_spain__p16",
+      "subject": "reduced to no tillage",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "from the beginning of the experiment",
+      "time_horizon_years": null,
+      "evidence_span": "Conversion from reduced to no tillage decreased crop yields abruptly from the beginning of the experiment.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "increase soil organic matter content",
+      "passage_id": "v4_c21_covercrop_almond_spain__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "no_till",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "increase soil organic matter content",
+      "passage_id": "v4_c21_covercrop_almond_spain__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "reduced soil erosion rates",
+      "passage_id": "v4_c21_covercrop_almond_spain__p07",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "reduced mobilization of associated carbon",
+      "passage_id": "v4_c21_covercrop_almond_spain__p07",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "nutrient_availability",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "reduced mobilization of associated nutrients",
+      "passage_id": "v4_c21_covercrop_almond_spain__p07",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "green manure",
+      "to_node": "nitrogen",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c21_covercrop_almond_spain__p08",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "nutrient_availability",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "reduction of nutrient losses by erosion",
+      "passage_id": "v4_c21_covercrop_almond_spain__p08",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c21_covercrop_almond_spain__p09",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "crop_yield",
+      "effect": "no_change",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c21_covercrop_almond_spain__p10",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "no_till",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c21_covercrop_almond_spain__p10",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "no_till",
+      "to_node": "soil_organic_matter",
+      "effect": "increase",
+      "condition": "year after year",
+      "mechanism": "soil compaction",
+      "passage_id": "v4_c21_covercrop_almond_spain__p10",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "no_till",
+      "to_node": "nitrogen",
+      "effect": "decrease",
+      "condition": "year after year",
+      "mechanism": "soil compaction",
+      "passage_id": "v4_c21_covercrop_almond_spain__p10",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "temperature",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "buffered by plant covers",
+      "passage_id": "v4_c21_covercrop_almond_spain__p11",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "buffered by plant covers",
+      "passage_id": "v4_c21_covercrop_almond_spain__p11",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": "during extreme erosive events",
+      "mechanism": null,
+      "passage_id": "v4_c21_covercrop_almond_spain__p11",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "nutrient_availability",
+      "effect": "decrease",
+      "condition": "during extreme erosive events",
+      "mechanism": null,
+      "passage_id": "v4_c21_covercrop_almond_spain__p11",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "lowered GHG emissions",
+      "passage_id": "v4_c21_covercrop_almond_spain__p12",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": "in the long-term",
+      "mechanism": null,
+      "passage_id": "v4_c21_covercrop_almond_spain__p12",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "preventing soil erosion",
+      "passage_id": "v4_c21_covercrop_almond_spain__p12",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "no_till",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "lowest GHG emissions",
+      "passage_id": "v4_c21_covercrop_almond_spain__p12",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "no_till",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c21_covercrop_almond_spain__p12",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "nutrient_availability",
+      "effect": "decrease",
+      "condition": "especially in dry years",
+      "mechanism": "competition for water",
+      "passage_id": "v4_c21_covercrop_almond_spain__p15",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c21_covercrop_almond_spain__p16",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "lag between improvements and yields",
+      "passage_id": "v4_c21_covercrop_almond_spain__p17",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Reduced tillage and cover crops in rainfed almond fields",
+    "system_type": "agroforestry_horti_pastoral",
+    "tree_species": [
+      "Prunus dulcis Mill."
+    ],
+    "crop_species": [
+      "Vicia sativa L.",
+      "Avena sativa L.",
+      "Vicia ervilia W."
+    ],
+    "region_of_adoption": [
+      "Spain"
+    ],
+    "rainfall_mm_low": 300,
+    "rainfall_mm_high": 300,
+    "soil_requirements": "calcareous",
+    "establishment_notes": "Strips of 7 to 10-meter-wide between trees. Cover crops cut in early- or mid-spring. Residues left as mulch or incorporated.",
+    "stated_benefits": [
+      "protect soil against erosion",
+      "increase soil organic matter content",
+      "improve soil structure (aggregate stability)",
+      "improve soil water infiltration capacity",
+      "reduce soil erosion rates",
+      "reduce associated carbon mobilization",
+      "reduce associated nutrient mobilization",
+      "improve nitrogen availability",
+      "increase field available water content",
+      "lower GHG emissions",
+      "improve profit/GHG emissions ratio",
+      "increase crop yields in the long-term",
+      "reduce soil organic matter losses",
+      "reduce nutrient losses",
+      "maintain soil fertility and health condition",
+      "resilience to extreme rainfall events, droughts, and warming"
+    ],
+    "stated_constraints": [
+      "competition for water with the main crop",
+      "soil compaction (in no-till systems)",
+      "decreased crop yields (in no-till systems)",
+      "lag between observed improvements and crop yields",
+      "harsh pedo-climatic conditions",
+      "semiarid soils with low availability of organic matter, water and nutrients",
+      "farmer perception regarding clean orchards",
+      "peer pressure",
+      "lack of autonomy",
+      "lack of community support",
+      "cost/benefit ratio not immediate",
+      "lack of availability of business models",
+      "lack of economic incentives and support from governments",
+      "lack of strictness of legislation and standards",
+      "lack of awareness among farmers",
+      "lack of community feeling",
+      "lack of innovativeness",
+      "lack of understanding of the agroecosystem",
+      "lack of motivation"
+    ]
+  },
+  "_meta": {
+    "unit_id": "v4_c21_covercrop_almond_spain",
+    "doc_id": "fao2021_recarb_v4",
+    "model": "gemini-2.5-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 247,
+    "pdf_end": 256,
+    "manifest_practices": [
+      "cover_crops",
+      "reduced_tillage"
+    ],
+    "manifest_climate_zones": [
+      "semi-arid"
+    ],
+    "extracted_at": "2026-09-18T08:33:16Z",
+    "pdf_sha256": "6823abc15aadf857"
+  }
+}

@@ -1,0 +1,942 @@
+{
+  "extraction_status": "ok",
+  "section_title": "3. Crop rotations",
+  "content_type": "practice",
+  "summary": "Crop rotation is an ancient agricultural practice involving the sequential planting of different crops on the same land. It offers benefits such as improved resource use efficiency, increased nitrogen supply from legumes, and breaking pest cycles. While its potential for soil organic carbon (SOC) sequestration is debated, with studies showing increases, decreases, or no change, it is generally considered to have the capacity to store or mitigate SOC losses. Crop rotations are applicable across various pedoclimates and land uses, though their diversity can be limited by climate, soil type, and socio-economic factors. The practice can also improve soil physical and biological properties, reduce soil erosion, and contribute to climate change mitigation by reducing nitrous oxide emissions. Potential drawbacks include increased greenhouse gas emissions in some scenarios and economic barriers related to market access for alternative crops. Careful planning considering pedoclimatic limitations and market exploration is recommended before implementation.",
+  "passages": [
+    {
+      "passage_id": "v3_p03_crop_rotations__p01",
+      "heading_path": [
+        "1. Description of the practice"
+      ],
+      "text": "Crop rotation consists of the repetitive growing of an ordered succession of crops (or crops and fallow) on the\nsame land, where one cycle often takes several seasons or years to complete (Francis, 1989). It is also one of the\noldest agronomical practices and dates back more than 3 000 years ago, to the Han dynasty of China and the\nRoman Empire eras (Farina et al. 2017). At that time, growers already knew that using different species (mainly\nlegumes) as the precedents of the main crop (most often winter cereals) resulted in some increases in grain\nyields. Nowadays, crop rotations are still present in the cropping systems and, in some socioeconomic contexts\nis encouraged by agricultural policies (for example, in the European Union).",
+      "page_start": 26,
+      "page_end": 26,
+      "topic": "description",
+      "practices": [
+        "crop_rotation"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p03_crop_rotations__p02",
+      "heading_path": [
+        "1. Description of the practice"
+      ],
+      "text": "Over the years, scientific research has revealed that the benefits of this ancient management practice are due to\nimproved resources use efficiency, increased N supply by legumes (from biological nitrogen fixation), and the\nbreaking of pest cycles (Ryan et al., 2008). However, there is not a general conclusion on soil organic carbon\n(SOC) sequestration potential of crop rotations in the literature, since either increases, decreases or no effects\non SOC sequestration have been observed (McDaniel et al., 2014). Therefore, care must be taken when\nassessing the potential of this management practice on SOC sequestration.",
+      "page_start": 26,
+      "page_end": 26,
+      "topic": "benefits",
+      "practices": [
+        "crop_rotation"
+      ],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p03_crop_rotations__p03",
+      "heading_path": [
+        "2. Range of applicability"
+      ],
+      "text": "The use of crop rotations in permanent croplands can be ubiquitous, although a high degree of crop diversity is\nusually hindered by pedo-climatic and socio-economic limitations. The climatic water balance (i.e. the\ndifference between annual precipitation and potential evapotranspiration) is one key limiting factor for the\nimplementation of diverse crop rotations. For instance, in many regions of the Mediterranean basin, crop\nrotations are mainly based on winter season crops (e.g. winter cereals, pulses, etc.) since the lack of available\nsoil water impedes profitable crop cultivation during summer months (Photo 4).",
+      "page_start": 26,
+      "page_end": 26,
+      "topic": "applicability",
+      "practices": [
+        "crop_rotation"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "rainfall"
+      ],
+      "climate_zones": [
+        "semi-arid",
+        "dry_sub_humid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v3_p03_crop_rotations__p04",
+      "heading_path": [
+        "2. Range of applicability"
+      ],
+      "text": "In other cases, such in northern latitudes, low temperatures and snowfall during autumn and winter months\nrestricts crop cultivation until spring. In turn, different soil characteristics can limit the range of crops to be\nchosen for rotation. A clear example is the role played by soil pH on some crops. For instance, lupins are well\nadapted in slightly acidic to neutral soils whereas they grow poorly in alkaline soils.",
+      "page_start": 27,
+      "page_end": 27,
+      "topic": "applicability",
+      "practices": [
+        "crop_rotation"
+      ],
+      "metrics": [
+        "pH"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v3_p03_crop_rotations__p05",
+      "heading_path": [
+        "2. Range of applicability"
+      ],
+      "text": "As stated, socio-economic factors also play a major role in the use of diverse crop rotations. Since the advent of\nindustrialized agriculture and the availability of synthetic fertilizers, cereals have been dominant in the globe,\nwith just four crops (i.e. wheat, maize, rice and barley) representing more than 50 percent of the global cropland\n(Leff, Ramankutty and Foley, 2004). Cereals are highly demanding in N fertilizer which has led to different\nnegative environmental consequences. Consequently, an adequately designed crop rotation including N2-fixing\nlegumes not only increases subsequent cereal yields but also reduces the losses of reactive N to the environment\n(Plaza-Bonilla et al., 2015, 2017). The specialization of industrial farms to only a few commodities and the lack\nof financial support to invest in different machinery also impede adoption by many farmers. Similarly, the lack\nof appropriate markets for alternative products represents a major limitation for the implementation of diverse\ncrop rotations in many areas of the globe.",
+      "page_start": 27,
+      "page_end": 27,
+      "topic": "applicability",
+      "practices": [
+        "crop_rotation",
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v3_p03_crop_rotations__p06",
+      "heading_path": [
+        "3. Impact on soil organic carbon stocks"
+      ],
+      "text": "Many factors affect SOC stocks and its dynamic, (i.e. annual precipitation and temperature, soil type, different\nmanagement practices, etc.). Moreover, its distribution throughout soil profile varies greatly with depth, with\nlarger amounts of SOC near the surface. Therefore, quantifying SOC sequestration potential of a given crop\nsequence and management practice in a specific agricultural environment requires considering key criteria.",
+      "page_start": 27,
+      "page_end": 27,
+      "topic": "SOC sequestration",
+      "practices": [
+        "crop_rotation"
+      ],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate",
+        "temperature",
+        "rainfall"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v3_p03_crop_rotations__p07",
+      "heading_path": [
+        "3. Impact on soil organic carbon stocks"
+      ],
+      "text": "Strict criteria of selection were followed to assure robustness in the data presented in Table 10 (following Olson\n(2013)). First, the description of each treatment was examined to characterize both the monoculture and the\ncrop rotation, making sure that both were set up in an agricultural land use. Therefore, experiments comparing\ncrop rotations with wild forest or non-cultivated land were discarded, considering that the effect of crop rotation\non SOC sequestration was not evaluated per se. Also, any information regarding the previous management of\nthe land had to be taken into account, since the SOC content does not change quickly and is highly dependent\non previous land use and management practices. Second, the sampling methodology was carefully examined and\nthe selected studies followed the subsequent criteria: (i) only studies reporting SOC stocks at the beginning of\nthe comparison to adequately characterize the baseline, (ii) studies with different sampling times, (iii) studies\ncovering greater depth than the plough layer (in order to include C inputs buried by tillage implements), and\n(iv) studies reporting the results in SOC stocks. Studies using an equivalent soil mass were also promoted to\nensure that the real mass sampled was the same between rotations independently of soil bulk density (Ellert and\nBettany, 1995). Unfortunately, the number of studies fulfilling these criteria was very low.",
+      "page_start": 27,
+      "page_end": 27,
+      "topic": "SOC sequestration",
+      "practices": [
+        "crop_rotation",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "SOC",
+        "bulk_density"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p03_crop_rotations__p08",
+      "heading_path": [
+        "3. Impact on soil organic carbon stocks"
+      ],
+      "text": "From the selected literature, it can be concluded that crop rotations have the capacity to store or at least mitigate\nSOC losses in a range of pedoclimates from tropical to dry and cool temperate areas under a range of different\ncrop sequences (Table 10). For instance, in tropical conditions, Fugisaki et al. (2018) found that crop rotations\nled to an average increase of 830 kg C/ha/yr in the SOC storage potential compared to monoculture. In warm\nand cool conditions, two studies showed different impacts of crop rotations on SOC stocks.",
+      "page_start": 27,
+      "page_end": 27,
+      "topic": "SOC sequestration",
+      "practices": [
+        "crop_rotation"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "tropical",
+        "arid",
+        "temperate"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p03_crop_rotations__p09",
+      "heading_path": [
+        "3. Impact on soil organic carbon stocks"
+      ],
+      "text": "On the one hand, Chan et al. (2011) found that crop rotation mitigated SOC losses from 278 to 176 kg C/ha/yr\n(Table 10). This result was the consequence of a previous management practice that had sequestered large\namounts of SOC during years; importantly the crop rotation mitigated this loss. On the other hand, Börjesson\net al. (2018) compared a wheat monoculture to a 3-year ley of grass-clover (Festuca pratensis, Phleum pratense\nL. and Trifolium pratense L.) where the biomass was removed twice per year. Under wheat monoculture SOC\nwas lost at a rate of 380 kg C/ha/yr while the introduction of the 3-year ley reverted the losses and led to a SOC\nsequestration rate of 470 kg C/ha/yr (Table 10).",
+      "page_start": 28,
+      "page_end": 28,
+      "topic": "SOC sequestration",
+      "practices": [
+        "crop_rotation"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p03_crop_rotations__p10",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.1. Improvement of soil properties"
+      ],
+      "text": "The implementation of crop rotations provides several benefits in terms of soil properties. Soil physical\nproperties improve significantly when using diverse crops through a variety of mechanisms, which impact on\nsoil structure. The more stable the structural aggregates, the more resistant the soil structure is to different\ndegradation processes such as erosion, compaction, soil crusting, etc. Crops differ in their root systems. Cereals\nsuch as wheat or barley present a fibrous root system which mostly develops at the soil surface. Differently, other\ncrops such as crucifers (e.g. rapeseed) tend to have a vertical root system, which enhances soil vertical porosity\nand oxygen, water and nutrient transport to deeper layers when decomposed. In turn, some perennials such as\nalfalfa have a tap-root able to grow to very deep soil layers, which enhances the use of remnant soil water and\nnutrients, reducing drainage and N leaching. Moreover, legumes present higher activity in the rhizosphere (the\nenvironment close to the roots where most of soil biological activity occurs) and greater root exudation (Kumar\net al., 2019). This last process entails the release of organic products from roots to ease the uptake of different\nnutrients. Similarly, many crops promote symbiosis between roots and arbuscular fungi. These fungi produce\nGlycoproteins, which are a major binding agent for soil aggregates. Glycoproteins, root exudates and soil\nparticles enmeshment by roots and fungi play a major role in binding soil mineral particles and enhancing\naggregate stability (Wright and Anderson, 2000). As a consequence of the introduction of legumes in crop\nrotations, the need for soil tillage is reduced (Preissel et al., 2015).",
+      "page_start": 30,
+      "page_end": 30,
+      "topic": "soil properties",
+      "practices": [
+        "crop_rotation",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "erosion",
+        "nutrient_availability",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p03_crop_rotations__p11",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.1. Improvement of soil properties"
+      ],
+      "text": "Crop rotations also lead to improved soil biological properties. In many cases, the changes in soil organic matter\nresulting from the use of different crop species and the different quality of their residues (e.g. C/N and lignin/N\nratios) are the main levers for enhanced soil biological activity. Cereal/legume rotations decrease the number\nof plant-parasitic nematodes and increase P availability in P-depleted African soils of Niger and Burkina Faso\n(Alvey et al., 2011). Moreover, in some instances, the benefits of crop rotations can be synergic to those of other\npractices such as reduced- or no-tillage. For instance, different soil biological indicators such as organic matter\ncontent, active C, respiration and protein were enhanced when using no-tillage in combination with a crop\nrotation of maize and perennial grass and cover crops in a temperate area of north-east United States of America\n(Nunes et al., 2018).",
+      "page_start": 30,
+      "page_end": 30,
+      "topic": "soil biology",
+      "practices": [
+        "crop_rotation",
+        "no_till",
+        "cover_crops"
+      ],
+      "metrics": [
+        "soil_biota",
+        "nutrient_availability",
+        "SOC"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p03_crop_rotations__p12",
+      "heading_path": [
+        "4. Other benefits of the practice"
+      ],
+      "text": "The use of rotations reduces soil erosion through different root system\nand greater soil structure stability.",
+      "page_start": 31,
+      "page_end": 31,
+      "topic": "soil erosion",
+      "practices": [
+        "crop_rotation"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p03_crop_rotations__p13",
+      "heading_path": [
+        "4. Other benefits of the practice"
+      ],
+      "text": "Reduction in root diseases when using crop rotations increases\nnitrogen use efficiency (Angus et al., 1998), while different rooting\npatterns increase nutrient use efficiencies (Thorup-Kristensen, 2006).\nP cycling is increased with root exudates and mycorrhizal activity\n(Grant et al., 2002).",
+      "page_start": 31,
+      "page_end": 31,
+      "topic": "nutrient cycling",
+      "practices": [
+        "crop_rotation"
+      ],
+      "metrics": [
+        "nitrogen",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p03_crop_rotations__p14",
+      "heading_path": [
+        "4. Other benefits of the practice"
+      ],
+      "text": "Crop rotations increase soil microbial richness and diversity (Venter,\nJacobs and Hawkins, 2016)",
+      "page_start": 31,
+      "page_end": 31,
+      "topic": "soil biology",
+      "practices": [
+        "crop_rotation"
+      ],
+      "metrics": [
+        "soil_biota",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p03_crop_rotations__p15",
+      "heading_path": [
+        "4. Other benefits of the practice"
+      ],
+      "text": "Crop rotation increases water-use efficiency (Ryan et al., 2008)",
+      "page_start": 31,
+      "page_end": 31,
+      "topic": "water management",
+      "practices": [
+        "crop_rotation"
+      ],
+      "metrics": [
+        "water_holding_capacity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p03_crop_rotations__p16",
+      "heading_path": [
+        "4.3. (Increases in production (e.g. food/fuel/feed/timber/fibre)"
+      ],
+      "text": "The benefits of crop rotations in terms of an increase in productivity for subsequent crops have been known for\nmore than 3000 years (Karlen et al., 1994). For instance, the use of a preceding break-crop before wheat\nincreases wheat yield from 0.5 t/ha to 1.2 t/ha, with the greatest increases after grain legumes such as field\npeas, faba bean, chickpeas, lentils or lupins (Angus et al., 2015). According to these authors, additional yield\nincreases (20-60 percent) are also found in the second year of wheat after a break-crop.",
+      "page_start": 31,
+      "page_end": 31,
+      "topic": "crop yield",
+      "practices": [
+        "crop_rotation"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p03_crop_rotations__p17",
+      "heading_path": [
+        "4.4. Mitigation of and adaptation to climate change"
+      ],
+      "text": "Nitrogen fertilization is the agricultural management practice that leads to the greatest soil nitrous oxide (N2O)\nemissions to the atmosphere (Bouwman et al., 2013), as this gas is a powerful greenhouse gas with a global\nwarming potential 265 times that of carbon dioxide. Thanks to their capacity to fix atmospheric N in symbiosis\nwith bacteria, crop diversification with legumes entails a reduction in the needs of N fertilizer at the crop and\nthe rotation scale, minimizing the emission of N2O. For instance, the mitigation of N2O when cropping legumes\ninstead of fertilized cereals or oilseeds has been reported in the Northern Great Plains of North America (Lemke\net al., 2002), France (Jeauffroy et al., 2013), and Australia (Schwenke et al., 2015).",
+      "page_start": 31,
+      "page_end": 31,
+      "topic": "climate change mitigation",
+      "practices": [
+        "crop_rotation",
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "global",
+        "temperate",
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p03_crop_rotations__p18",
+      "heading_path": [
+        "4.5. Socio-economic benefits"
+      ],
+      "text": "Crop rotations present different socio-economic benefits. Besides the diversification of revenues that takes\nplace when establishing complex crop rotations compared to the reliance on a single commodity, crop rotations\nalso spread labour needs, reduces equipment costs and peak labour demand, buffers price changes in the\nmarketplace and increases the interaction with the local community for labour (Francis, 2005).",
+      "page_start": 32,
+      "page_end": 32,
+      "topic": "socio-economic benefits",
+      "practices": [
+        "crop_rotation"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p03_crop_rotations__p19",
+      "heading_path": [
+        "5. Potential drawbacks to the practice",
+        "5.1. Tradeoffs with other threats to soil functions"
+      ],
+      "text": "Soil threats are very uncommon when using diverse crop rotations if basic agronomic rules are followed.",
+      "page_start": 32,
+      "page_end": 32,
+      "topic": "drawbacks",
+      "practices": [
+        "crop_rotation"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p03_crop_rotations__p20",
+      "heading_path": [
+        "5. Potential drawbacks to the practice",
+        "5.2. Increases in greenhouse gas emissions"
+      ],
+      "text": "The implementation of some crop rotations can entail GHG emissions to the atmosphere in comparison to the\ntraditional cropping systems of a given area. For instance, Plaza-Bonilla et al. (2018) quantified the C footprint\n(i.e. all direct and indirect emissions of GHG) of innovative crop 3-year rotations based on the introduction of\ngrain legumes in comparison to the traditional rotation based on cereals and sunflower in south-west France.\nThe authors observed a greater C footprint of the rotations, including grain legumes, when cover crops were\nnot used as a result of SOC losses. However, as stated, that process is finite until SOC reaches a new equilibrium\nwhile significant amounts of GHG emissions are avoided thanks to the N-fertilizer savings when adopting\nlegumes (Plaza-Bonilla et al., 2018).",
+      "page_start": 32,
+      "page_end": 32,
+      "topic": "GHG emissions",
+      "practices": [
+        "crop_rotation",
+        "cover_crops",
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "risk"
+    },
+    {
+      "passage_id": "v3_p03_crop_rotations__p21",
+      "heading_path": [
+        "6. Recommendations before implementing the practice"
+      ],
+      "text": "Before establishing any crop rotation, the pedoclimatic limitations to the different crops must be analyzed and\ntaken into account. Potential markets must be explored and, if possible, secured before establishing alternative\nor neglected crops. These last should be implemented in small fractions of the available land.",
+      "page_start": 32,
+      "page_end": 32,
+      "topic": "implementation",
+      "practices": [
+        "crop_rotation"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "v3_p03_crop_rotations__c01",
+      "passage_id": "v3_p03_crop_rotations__p02",
+      "subject": "crop rotations",
+      "metric": "carbon_sequestration_rate",
+      "direction": "mixed",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "However, there is not a general conclusion on soil organic carbon\n(SOC) sequestration potential of crop rotations in the literature, since either increases, decreases or no effects\non SOC sequestration have been observed (McDaniel et al., 2014).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p03_crop_rotations__c02",
+      "passage_id": "v3_p03_crop_rotations__p02",
+      "subject": "crop rotations",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "improved resources use efficiency, increased N supply by legumes (from biological nitrogen fixation), and the\nbreaking of pest cycles (Ryan et al., 2008).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p03_crop_rotations__c03",
+      "passage_id": "v3_p03_crop_rotations__p05",
+      "subject": "crop rotation including N2-fixing legumes",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "an adequately designed crop rotation including N2-fixing\nlegumes not only increases subsequent cereal yields but also reduces the losses of reactive N to the environment",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p03_crop_rotations__c04",
+      "passage_id": "v3_p03_crop_rotations__p08",
+      "subject": "crop rotations",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 830,
+      "value_low": null,
+      "value_high": null,
+      "unit": "kg_ha",
+      "basis": "average",
+      "conditions": "tropical conditions",
+      "time_horizon_years": null,
+      "evidence_span": "For instance, in tropical conditions, Fugisaki et al. (2018) found that crop rotations\nled to an average increase of 830 kg C/ha/yr in the SOC storage potential compared to monoculture.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p03_crop_rotations__c05",
+      "passage_id": "v3_p03_crop_rotations__p09",
+      "subject": "crop rotation",
+      "metric": "SOC",
+      "direction": "decrease",
+      "value": 278,
+      "value_low": 176,
+      "value_high": null,
+      "unit": "kg_ha",
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Chan et al. (2011) found that crop rotation mitigated SOC losses from 278 to 176 kg C/ha/yr",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p03_crop_rotations__c06",
+      "passage_id": "v3_p03_crop_rotations__p09",
+      "subject": "3-year ley of grass-clover",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 470,
+      "value_low": null,
+      "value_high": null,
+      "unit": "kg_ha",
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "while the introduction of the 3-year ley reverted the losses and led to a SOC\nsequestration rate of 470 kg C/ha/yr (Table 10).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p03_crop_rotations__c07",
+      "passage_id": "v3_p03_crop_rotations__p11",
+      "subject": "Cereal/legume rotations",
+      "metric": "soil_biota",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "P-depleted African soils",
+      "time_horizon_years": null,
+      "evidence_span": "Cereal/legume rotations decrease the number\nof plant-parasitic nematodes",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p03_crop_rotations__c08",
+      "passage_id": "v3_p03_crop_rotations__p11",
+      "subject": "Cereal/legume rotations",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "P-depleted African soils",
+      "time_horizon_years": null,
+      "evidence_span": "and increase P availability in P-depleted African soils of Niger and Burkina Faso\n(Alvey et al., 2011).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p03_crop_rotations__c09",
+      "passage_id": "v3_p03_crop_rotations__p16",
+      "subject": "break-crop before wheat",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 0.5,
+      "value_low": null,
+      "value_high": 1.2,
+      "unit": "t_ha",
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "the use of a preceding break-crop before wheat\nincreases wheat yield from 0.5 t/ha to 1.2 t/ha",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p03_crop_rotations__c10",
+      "passage_id": "v3_p03_crop_rotations__p16",
+      "subject": "grain legumes as break-crops",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 20,
+      "value_low": 60,
+      "value_high": null,
+      "unit": "percent",
+      "basis": null,
+      "conditions": "second year of wheat after a break-crop",
+      "time_horizon_years": null,
+      "evidence_span": "additional yield\nincreases (20-60 percent) are also found in the second year of wheat after a break-crop.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p03_crop_rotations__c11",
+      "passage_id": "v3_p03_crop_rotations__p17",
+      "subject": "crop diversification with legumes",
+      "metric": "nitrogen",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "crop diversification with legumes entails a reduction in the needs of N fertilizer at the crop and\nthe rotation scale, minimizing the emission of N2O.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p03_crop_rotations__c12",
+      "passage_id": "v3_p03_crop_rotations__p20",
+      "subject": "crop rotations including grain legumes",
+      "metric": "carbon_sequestration_rate",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "cover crops not used",
+      "time_horizon_years": null,
+      "evidence_span": "The authors observed a greater C footprint of the rotations, including grain legumes, when cover crops were\nnot used as a result of SOC losses.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "crop_rotation",
+      "to_node": "SOC",
+      "effect": "mixed",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p03_crop_rotations__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "crop_rotation",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "mixed",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p03_crop_rotations__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "crop_rotation",
+      "to_node": "nitrogen",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "biological nitrogen fixation",
+      "passage_id": "v3_p03_crop_rotations__p02",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "crop_rotation",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p03_crop_rotations__p05",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "crop_rotation",
+      "to_node": "nitrogen",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "biological nitrogen fixation",
+      "passage_id": "v3_p03_crop_rotations__p05",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "crop_rotation",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "tropical conditions",
+      "mechanism": null,
+      "passage_id": "v3_p03_crop_rotations__p08",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "crop_rotation",
+      "to_node": "SOC",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p03_crop_rotations__p09",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "crop_rotation",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p03_crop_rotations__p09",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "crop_rotation",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "improved root system and soil structure stability",
+      "passage_id": "v3_p03_crop_rotations__p12",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "crop_rotation",
+      "to_node": "nitrogen",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "reduction in root diseases",
+      "passage_id": "v3_p03_crop_rotations__p13",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "crop_rotation",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "root exudates and mycorrhizal activity",
+      "passage_id": "v3_p03_crop_rotations__p13",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "crop_rotation",
+      "to_node": "soil_biota",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p03_crop_rotations__p14",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "crop_rotation",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p03_crop_rotations__p15",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "crop_rotation",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p03_crop_rotations__p16",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "crop_rotation",
+      "to_node": "nitrogen",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "N fixation by legumes",
+      "passage_id": "v3_p03_crop_rotations__p17",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "crop_rotation",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "decrease",
+      "condition": "cover crops not used",
+      "mechanism": null,
+      "passage_id": "v3_p03_crop_rotations__p20",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Crop rotations",
+    "system_type": "other",
+    "tree_species": [],
+    "crop_species": [
+      "cereals",
+      "legumes",
+      "winter cereals",
+      "pulses",
+      "wheat",
+      "maize",
+      "rice",
+      "barley",
+      "lupins",
+      "field peas",
+      "faba bean",
+      "chickpeas",
+      "lentils",
+      "rapeseed",
+      "alfalfa",
+      "canola",
+      "grass-clover"
+    ],
+    "region_of_adoption": [
+      "China",
+      "Roman Empire",
+      "European Union",
+      "Mediterranean basin",
+      "Northern Great Plains of North America",
+      "France",
+      "Australia",
+      "south-west France",
+      "north-east United States of America"
+    ],
+    "rainfall_mm_low": null,
+    "rainfall_mm_high": null,
+    "soil_requirements": "slightly acidic to neutral soils",
+    "establishment_notes": null,
+    "stated_benefits": [
+      "improved resources use efficiency",
+      "increased N supply by legumes",
+      "breaking of pest cycles",
+      "capacity to store or at least mitigate SOC losses",
+      "improved soil physical properties",
+      "improved soil biological properties",
+      "reduced soil erosion",
+      "increased nitrogen use efficiency",
+      "increased nutrient use efficiencies",
+      "increased P availability",
+      "increased soil microbial richness and diversity",
+      "increased water-use efficiency",
+      "increase in productivity for subsequent crops",
+      "reduction in the needs of N fertilizer",
+      "minimizing the emission of N2O",
+      "diversification of revenues",
+      "spread labour needs",
+      "reduces equipment costs",
+      "buffers price changes in the marketplace",
+      "increases the interaction with the local community for labour"
+    ],
+    "stated_constraints": [
+      "limited by pedo-climatic and socio-economic limitations",
+      "lack of available soil water impedes profitable crop cultivation during summer months",
+      "low temperatures and snowfall during autumn and winter months restricts crop cultivation until spring",
+      "different soil characteristics can limit the range of crops",
+      "grow poorly in alkaline soils",
+      "specialization of industrial farms to only a few commodities",
+      "lack of financial support to invest in different machinery",
+      "lack of appropriate markets for alternative products",
+      "entail GHG emissions to the atmosphere in comparison to the traditional cropping systems",
+      "pedoclimatic limitations to the different crops must be analyzed",
+      "potential markets must be explored and, if possible, secured before establishing alternative or neglected crops"
+    ]
+  },
+  "_meta": {
+    "unit_id": "v3_p03_crop_rotations",
+    "doc_id": "fao2021_recarb_v3",
+    "model": "gemini-2.5-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 44,
+    "pdf_end": 56,
+    "manifest_practices": [
+      "crop_rotation"
+    ],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:25:57Z",
+    "pdf_sha256": "9df2bfc2f6fb5113"
+  }
+}

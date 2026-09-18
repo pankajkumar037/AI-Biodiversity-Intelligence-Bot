@@ -1,0 +1,245 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Trees in Agroforestry Systems in India",
+  "content_type": "assessment",
+  "summary": "This unit provides statistics on the number of stems and volume of trees under agroforestry systems in India, including decadal changes from 2013 to 2023 for top species, and state-wise breakdowns.",
+  "passages": [
+    {
+      "passage_id": "isfr1_agroforestry__w01__p01",
+      "heading_path": [
+        "Trees in Agroforestry Systems in India",
+        "Table 7.4 State/UTs wise Number of Stems ('000) and Volume (M m3) of Trees under Agroforestry Systems in India"
+      ],
+      "text": "Table 7.4 State/UTs wise Number of Stems ('000) and Volume (M m3) of Trees under Agroforestry Systems in India | State/UTs | Notified Geographical Area (km2) | Total No. of Trees ('000) | Total Volume (M m3) | Top 3 Species as per number of stems | Chandigarh | 114 | 20 | 0.01 | Mangifera indica, Morus species, Syzygium cumini | Dadra & Nagar Haveli, and Daman & Diu | 602 | 2,359 | 0.53 | Mangifera indica, Phoenix sylvestris, Manihot utilissima | Jammu & Kashmir | 2,22,236 | 1,10,146 | 29.59 | Pyrus species, Quercus leucotrichophora, Grewia oppositifolia | Ladakh | 1,202 | 0.12 | Salix species, Prunus species, Populus ciliata | Lakshadweep | 30 | 247 | 0.04 | Cocos nucifera, Thespesia populnea, Muntingia Calabura | Puducherry | 490 | 1,735 | 0.21 | Prosopis juliflora, Casuarina equisetifolia, Cocos nucifera | Total | 32,87,469 | 82,88,872 | 1,291.68",
+      "page_start": 202,
+      "page_end": 202,
+      "topic": "India, 2023",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr1_agroforestry__w01__p02",
+      "heading_path": [
+        "Trees in Agroforestry Systems in India",
+        "Table 7.5 Decadal Change in Top 30 Species (as per 2023) by Number of Stems ('000) and their respective Volume (M m3) under Agroforestry Systems in India"
+      ],
+      "text": "Table 7.5 Decadal Change in Top 30 Species (as per 2023) by Number of Stems ('000) and their respective Volume (M m3) under Agroforestry Systems in India | Rank 2023 | Species | Respective Rank in 2013 | ISFR 2023 No. of Trees | ISFR 2023 Vol. | ISFR 2023 % of Vol. of 2023 | ISFR 2013 No. of Trees | ISFR 2013 Vol. | ISFR 2013 % of Vol. of 2013 | Decadal Change from 2013 to 2023 No. of Trees | Decadal Change from 2013 to 2023 Vol. | Decadal Change from 2013 to 2023 Change % No. of Trees* | Decadal Change from 2013 to 2023 Change % Vol. | 1 | Mangifera indica | 1 | 6,86,775 | 196.84 | 15.24 | 3,45,055 | 149.35 | 13.29 | 3,41,720 | 47.49 | 99.03 | 31.80 | 2 | Azadirachta indica | 4 | 5,91,880 | 101.86 | 7.89 | 2,08,467 | 75.98 | 6.76 | 3,83,413 | 25.88 | 183.92 | 34.06 | 3 | Prosopis juliflora | - | 4,87,625 | 9.89 | 0.77 | Not reported in top 40 species in 2013 | 4 | Areca catechu | 2 | 3,91,717 | 8.21 | 0.64 | 2,71,003 | 7.32 | 0.65 | 1,20,714 | 0.89 | 44.54 | 12.13 | 5 | Eucalyptus species | 7 | 2,74,432 | 17.84 | 1.38 | 1,18,918 | 21.50 | 1.91 | 1,55,514 | -3.66 | 130.77 | -17.01 | 6 | Tectona grandis | 10 | 2,54,348 | 23.33 | 1.81 | 75,194 | 11.27 | 1.00 | 1,79,154 | 12.06 | 238.26 | 107.08 | 7 | Cocos nucifera | 3 | 2,53,926 | 53.00 | 4.10 | 2,11,762 | 60.08 | 5.34 | 42,164 | -7.08 | 19.91 | -11.78 | 8 | Butea monosperma | 6 | 2,41,369 | 36.94 | 2.86 | 1,31,976 | 28.49 | 2.53 | 1,09,393 | 8.45 | 82.89 | 29.65 | 9 | Acacia arabica/ Acacia nilotica | 5 | 2,32,987 | 34.77 | 2.69 | 1,52,668 | 29.03 | 2.58 | 80,319 | 5.74 | 52.61 | 19.79 | 10 | Ziziphus mauritiana/ Ziziphus jujuba | 21 | 2,18,818 | 16.29 | 1.26 | 45,191 | 8.44 | 0.75 | 1,73,627 | 7.85 | 384.21 | 93.10",
+      "page_start": 202,
+      "page_end": 202,
+      "topic": "India, 2013-2023",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr1_agroforestry__w01__p03",
+      "heading_path": [
+        "Trees in Agroforestry Systems in India",
+        "Table 7.5 Decadal Change in Top 30 Species (as per 2023) by Number of Stems ('000) and their respective Volume (M m3) under Agroforestry Systems in India"
+      ],
+      "text": "Table 7.5 Decadal Change in Top 30 Species (as per 2023) by Number of Stems ('000) and their respective Volume (M m3) under Agroforestry Systems in India | Rank 2023 | Species | Respective Rank in 2013 | ISFR 2023 No. of Trees | ISFR 2023 Vol. | ISFR 2023 % of Vol. of 2023 | ISFR 2013 No. of Trees | ISFR 2013 Vol. | ISFR 2013 % of Vol. of 2013 | Decadal Change from 2013 to 2023 No. of Trees | Decadal Change from 2013 to 2023 Vol. | Decadal Change from 2013 to 2023 Change % No. of Trees* | Decadal Change from 2013 to 2023 Change % Vol. | 11 | Hevea brasiliensis | 12 | 2,00,463 | 16.39 | 1.27 | 57,120 | 9.07 | 0.81 | 1,43,343 | 7.33 | 250.95 | 80.81 | 12 | Leucaena leucocephala | - | 1,48,420 | 7.90 | 0.61 | Not reported in top 40 species in 2013 | 13 | Citrus species | - | 1,34,910 | 1.94 | 0.15 | Not reported in top 40 species in 2013 | 14 | Acacia auriculiformis | - | 1,18,765 | 7.46 | 0.58 | Not reported in top 40 species in 2013 | 15 | Prosopis cineraria | 25 | 1,03,055 | 34.92 | 2.70 | 28,021 | 9.58 | 0.85 | 75,034 | 25.34 | 267.78 | 264.51 | 16 | Borassus flabelliformis | 9 | 93,922 | 44.84 | 3.47 | 94,238 | 64.12 | 5.70 | -316 | -19.28 | -0.34 | -30.07 | 17 | Anacardium occidentale | 19 | 88,133 | 5.35 | 0.41 | 46,050 | 5.34 | 0.48 | 42,083 | 0.01 | 91.39 | 0.15 | 18 | Dalbergia sissoo | 14 | 80,628 | 19.56 | 1.51 | 53,829 | 18.01 | 1.60 | 26,799 | 1.55 | 49.79 | 8.62 | 19 | Terminalia tomentosa | 31 | 77,184 | 11.35 | 0.88 | 19,038 | 5.41 | 0.48 | 58,146 | 5.94 | 305.42 | 109.95 | 20 | Grewia oppositifolia | 23 | 72,506 | 3.45 | 0.27 | 42,391 | 5.20 | 0.46 | 30,115 | -1.75 | 71.04 | -33.69 | 21 | Syzygium cumini | 18 | 72,193 | 19.13 | 1.48 | 46,156 | 18.75 | 1.67 | 26,037 | 0.38 | 56.41 | 2.03 | 22 | Psidium guajava | - | 69,855 | 1.80 | 0.14 | Not reported in top 40 species in 2013 | 23 | Pongamia pinnata | - | 68,807 | 12.22 | 0.95 | Not reported in top 40 species in 2013 | 24 | Populus species | 20 | 67,855 | 3.47 | 0.27 | 45,494 | 7.49 | 0.67 | 22,361 | -4.02 | 49.15 | -53.67 | 25 | Shorea robusta | 15 | 67,673 | 21.96 | 1.70 | 50,062 | 21.52 | 1.91 | 17,611 | 0.44 | 35.18 | 2.03 | 26 | Annona squamosa | - | 66,048 | 0.97 | 0.08 | Not reported in top 40 species in 2013 | 27 | Acacia leucophloea/ Vachellia leucophloea | 11 | 61,173 | 7.42 | 0.57 | 67,915 | 8.36 | 0.74 | -6,742 | -0.94 | -9.93 | -11.25 | 28 | Holoptelea integrifolia | 32 | 57,364 | 8.25 | 0.64 | 16,388 | 4.71 | 0.42 | 40,976 | 3.55 | 250.04 | 75.35 | 29 | Madhuca longifolia/ M. latifolia/ M. indica | 28 | 57,355 | 67.05 | 5.19 | 24,586 | 63.94 | 5.69 | 32,769 | 3.11 | 133.28 | 4.86 | 30 | Pinus kesiya | 22 | 54,332 | 7.67 | 0.59 | 45,146 | 7.14 | 0.64 | 9,186 | 0.53 | 20.35 | 7.39",
+      "page_start": 203,
+      "page_end": 203,
+      "topic": "India, 2013-2023",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr1_agroforestry__w01__p04",
+      "heading_path": [
+        "Trees in Agroforestry Systems in India"
+      ],
+      "text": "It is observed from Table 7.5 that the top five prevalent species in agroforestry as given in ISFR 2013 were Mangifera indica, followed by Areca catechu, Cocos nucifera, Azadirachta indica, and Acacia nilotica. On the other hand, as per ISFR 2023 the most prevalent species in agroforestry are Mangifera indica, followed by Azadirachta indica, Prosopis juliflora, Areca catechu, and Eucalyptus species. This reveals that the prevalence of the agroforestry species has changed from 2013 to 2023. It may be noted here that Prosopis juliflora has been found as third most prevalent species in the present assessment (ISFR 2023) among all the agroforestry species. The species Prosopis juliflora has been found mainly in the agricultural bunds in 5,896 number of plots considered for agroforestry estimation. This species contributes approximately 5.88 % of total number of trees (8,28,88,72,000) estimated across the country.",
+      "page_start": 203,
+      "page_end": 203,
+      "topic": "India, 2013-2023",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "isfr1_agroforestry__w01__p05",
+      "heading_path": [
+        "Green Credit Initiative by Govt. of India"
+      ],
+      "text": "Green Credit Initiative was launched by Hon’ble Prime Minister on the side-lines of COP 28 in 2023. It is an initiative within the Government’s Lifestyle for Environment or LIFE movement. The Green Credit Rules have been notified by the Government of India on 12th October 2023 under the Environment Protection Act, 1986, as a mechanism to encourage voluntary plantation activity across the country, resulting in award of Green Credits, and to build an inventory of degraded land which can be utilised for Afforestation programmes.",
+      "page_start": 204,
+      "page_end": 204,
+      "topic": "India, 2023",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "isfr1_agroforestry__w01__p06",
+      "heading_path": [
+        "Green Credit Initiative by Govt. of India",
+        "Objectives of the Green Credit Programme (GCP)"
+      ],
+      "text": "GCP aims to establish a dynamic land bank for plantations accessible via a dedicated web portal. This facility enables the registration of degraded forest lands by Forest departments. The inventory thus formed becomes a valuable resource available for voluntary plantation activities. Encouraging Public Sector Undertakings to select Plantation Blocks from the registered Plantation blocks for afforestation. Issuance of Green Credits: Green Credits serve as a key incentive for entities engaging in tree plantation. The issuance follows specific methodologies and guidelines stipulated by the Administrator. Digital Processes: The GCP streamlines its operations through technology-based tools like a web platform and a registry. These digital resources ensure seamless registration, verification, and monitoring of plantation-related activities.",
+      "page_start": 204,
+      "page_end": 204,
+      "topic": "India, 2023",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "isfr1_agroforestry__w01__p07",
+      "heading_path": [
+        "Green Credit Initiative by Govt. of India",
+        "Desirable Outcomes"
+      ],
+      "text": "• It aims to enhance India’s forest and tree cover • To build an inventory of degraded land under the control and management of Forest Departments suitable for plantation. • To encourage participation of individuals and entities in pro-planet actions by rewarding Green Credits.",
+      "page_start": 204,
+      "page_end": 204,
+      "topic": "India, 2023",
+      "practices": [],
+      "metrics": [
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "isfr1_agroforestry__w01__p08",
+      "heading_path": [
+        "Important Characteristics of India's Forests",
+        "Introduction"
+      ],
+      "text": "For efficient management of forest resources, it is imperative to study the characteristics defining the health and productivity of the constituent species and the ecosystem. The meaning of “forest health” varies differently, depending on the context in which it is being used. Generally, there are two broad categories of definition of forest health, viz., Utilitarian perspective and Ecosystem perspective. From the Utilitarian standpoint, forest health is defined as the production of forest conditions which directly satisfy human needs. From an Ecosystem standpoint, it is defined by resilience, recurrence, perseverance and biophysical processes which lead to sustainable ecological conditions. A healthy forest can resist damages from devastating events like acute insect and disease attacks, fire, wind, and flooding, and fully recover from these catastrophic events to continue its life history functions over time.",
+      "page_start": 208,
+      "page_end": 208,
+      "topic": "India",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "isfr1_agroforestry__w01__p09",
+      "heading_path": [
+        "Important Characteristics of India's Forests",
+        "8.2 Important Characteristics of Forests"
+      ],
+      "text": "FSI adopted the new National Forest Inventory design in 2016. Under the inventory plot design of NFI, information on various important parameters such as forest enabling conditions (soil depth, humus, soil organic carbon, soil erosion, presence of ground flora (grasses and undergrowth); forest vegetation (origin of forest stand, intensity of regeneration, size class, crop composition, canopy layer, basal area); disturbances (forest fire, injuries to crop, grazing incidence, biotic influence, invasive species, illicit felling, girdling, lopping), etc., is recorded in the Plot Description Form (PDF) as an observation in the circular plot of 60 m radius (approx. 1.13 ha). Accordingly, the plot level data of NFI from the year 2017- 2022 collected from 27,917 sample plots has been used to generate the estimates presented here.",
+      "page_start": 210,
+      "page_end": 210,
+      "topic": "India, 2017-2022",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "erosion",
+        "species_richness",
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "isfr1_agroforestry__w01__p10",
+      "heading_path": [
+        "Important Characteristics of India's Forests",
+        "8.3 Data Processing Methodology"
+      ],
+      "text": "The following land use classes are used during the NFI and are given in the NFI field manual: (01) Closed forest, (02) Dense forest, (03) Open forest, (04) Scrub, (06) Shifting cultivation, (07) Young crop including plantations of forestry species, (08) Trees in line, (09) Forest roads, (10) Govt. grass lands, (11) Barren lands, (12) Agricultural land without trees in surround, (13) Agricultural land with trees in surround, (14) Non forestry plantations, (15) Habitation, (16) Water bodies. While recording the parameters of characteristics of the forests many of the parameters will not be relevant for some of the land use classes. The aggregate area of these land use classes for that parameters have not be calculated and have been given as not applicable or NA.",
+      "page_start": 210,
+      "page_end": 210,
+      "topic": "India",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest",
+        "cropland",
+        "grassland"
+      ],
+      "content_role": "context"
+    }
+  ],
+  "claims": [],
+  "links": [],
+  "_meta": {
+    "unit_id": "isfr1_agroforestry__w01",
+    "doc_id": "fsi2023_isfr_v1",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 246,
+    "pdf_end": 254,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T11:00:13Z",
+    "pdf_sha256": "9ba8449373fc0226",
+    "prompt_type": "inventory"
+  }
+}

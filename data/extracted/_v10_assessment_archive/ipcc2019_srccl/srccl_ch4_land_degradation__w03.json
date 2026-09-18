@@ -1,0 +1,189 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4.8.1.3 Agroforestry",
+  "content_type": "practice",
+  "summary": "Agroforestry is a land-use system involving woody perennials grown with crops or livestock, offering potential for climate change adaptation and mitigation, though adoption is often slow due to risk perception and time lags.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch4_land_degradation__w03__p01",
+      "heading_path": [
+        "4.8 Addressing land degradation in the context of climate change",
+        "4.8.1.3 Agroforestry"
+      ],
+      "text": "Agroforestry is defined as a collective name for land-use systems in which woody perennials (trees, shrubs, etc.) are grown in association with herbaceous plants (crops, pastures) and/or livestock in a spatial arrangement, a rotation, or both, and in which there are both ecological and economic interactions between the tree and non-tree components of the system (Young, 1995, p. 11). At least since the 1980s, agroforestry has been widely touted as an ideal land management practice in areas vulnerable to climate variations and subject to soil erosion. Agroforestry holds the promise of improving soil and climatic conditions, while generating income from wood energy, timber and non-timber products – sometimes presented as a synergy of adaptation and mitigation of climate change (Mbow et al. 2014).",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "Agroforestry definition and potential",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "biomass",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w03__p02",
+      "heading_path": [
+        "4.8 Addressing land degradation in the context of climate change",
+        "4.8.1.3 Agroforestry"
+      ],
+      "text": "There is strong scientific consensus that a combination of forestry with agricultural crops and/or livestock, agroforestry systems can provide additional ecosystem services when compared with monoculture crop systems (Waldron et al. 2017; Sonwa et al. 2011, 2014, 2017; Charles et al. 2013). Agroforestry can enable sustainable intensification by allowing continuous production on the same unit of land with higher productivity without the need to use shifting agriculture systems to maintain crop yields (Nath et al. 2016).",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "Agroforestry benefits",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w03__p03",
+      "heading_path": [
+        "4.8 Addressing land degradation in the context of climate change",
+        "4.8.1.3 Agroforestry"
+      ],
+      "text": "Reported co-benefits of agroforestry in cocoa production include increased carbon sequestration in soils and biomass, improved water and nutrient use efficiency and the creation of a favourable micro-climate for crop production (Sonwa et al. 2017; Chia et al. 2016). Importantly, the maintenance of soil fertility using agroforestry has the potential to reduce the practice of shifting agriculture (of cocoa) which results in deforestation (Gockowski and Sonwa 2011). However, positive interactions within these systems can be ecosystem and/or species specific, but co-benefits such as increased resilience to extreme climate events, or improved soil fertility are not always observed (Blaser et al. 2017; Abdulai et al. 2018).",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "Agroforestry co-benefits and constraints",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "SOC",
+        "biomass",
+        "nutrient_availability",
+        "temperature"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w03__p04",
+      "heading_path": [
+        "4.8 Addressing land degradation in the context of climate change",
+        "4.8.1.3 Agroforestry"
+      ],
+      "text": "Despite the many proven benefits, adoption of agroforestry has been low and slow (Toth et al. 2017; Pattanayak et al. 2003; Jerneck and Olsson 2014). There are several reasons for the slow uptake, but the perception of risks and the time lag between adoption and realisation of benefits are often important (Pattanayak et al. 2003; Mercer 2004; Jerneck and Olsson 2013).",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "Agroforestry adoption",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "constraint"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch4_land_degradation__w03__c01",
+      "passage_id": "srccl_ch4_land_degradation__w03__p02",
+      "subject": "agroforestry systems",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "evidence_span": "Agroforestry can enable sustainable intensification by allowing continuous production on the same unit of land with higher productivity without the need to use shifting agriculture systems to maintain crop yields",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w03__c02",
+      "passage_id": "srccl_ch4_land_degradation__w03__p03",
+      "subject": "agroforestry in cocoa production",
+      "metric": "SOC",
+      "direction": "increase",
+      "evidence_span": "Reported co-benefits of agroforestry in cocoa production include increased carbon sequestration in soils and biomass",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "agroforestry",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "sustainable intensification",
+      "passage_id": "srccl_ch4_land_degradation__w03__p02",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "cocoa production",
+      "mechanism": null,
+      "passage_id": "srccl_ch4_land_degradation__w03__p03",
+      "strength_stated": "moderate"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Agroforestry",
+    "system_type": "agroforestry_agrisilvicultural",
+    "tree_species": [],
+    "crop_species": [
+      "cocoa",
+      "coffee"
+    ],
+    "region_of_adoption": [
+      "India",
+      "Western Kenya"
+    ],
+    "stated_benefits": [
+      "improving soil and climatic conditions",
+      "generating income from wood energy, timber and non-timber products",
+      "synergy of adaptation and mitigation of climate change",
+      "sustainable intensification",
+      "increased carbon sequestration in soils and biomass",
+      "improved water and nutrient use efficiency",
+      "creation of a favourable micro-climate for crop production"
+    ],
+    "stated_constraints": [
+      "adoption has been low and slow",
+      "perception of risks",
+      "time lag between adoption and realisation of benefits",
+      "positive interactions can be ecosystem and/or species specific",
+      "co-benefits such as increased resilience to extreme climate events, or improved soil fertility are not always observed"
+    ]
+  },
+  "_meta": {
+    "unit_id": "srccl_ch4_land_degradation__w03",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 388,
+    "pdf_end": 399,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:51:10Z",
+    "pdf_sha256": "0818df610daffe91"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "extraction_status": "ok",
+  "section_title": "2.1. Agroforestry Model: Bakain (Melia azedarach) based Agri-silvicultural System",
+  "content_type": "model",
+  "summary": "This document describes an agri-silvicultural system based on Melia azedarach (Bakain) suitable for arid and dry regions, particularly in Telangana, India. The system integrates timber production with food crops like foxtail millet, providing economic returns for small and marginal landholders.",
+  "passages": [
+    {
+      "passage_id": "handa_2_1_bakain_agrisilvi__p01",
+      "heading_path": [
+        "2.1. Agroforestry Model: Bakain (Melia azedarach) based Agri-silvicultural System",
+        "Habit and Habitat"
+      ],
+      "text": "Melia azedarach is a small to medium, deciduous tree from 6 to 35 m in height. The bark is brown, narrow which gives a striped appearance It tolerates a wide range of climate and soil conditions. Young trees are vulnerable to high temperature. It is a drought resistant tree.",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "Tree characteristics",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "handa_2_1_bakain_agrisilvi__p02",
+      "heading_path": [
+        "2.1. Agroforestry Model: Bakain (Melia azedarach) based Agri-silvicultural System",
+        "Package of Practices"
+      ],
+      "text": "The tree is propagated through seed. The land should ploughed and well levelled before digging pits of size 45 cm x 45 cm x 45 cm. The following spacing may be used: bund 3 m, boundary 3 m, and block 4 m x 4 m. FYM@ 5t/ha and 60:60:40 NPK/ha should be applied at the time of planting. For tending side branches should be removed.",
+      "page_start": 8,
+      "page_end": 8,
+      "topic": "Management practices",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "handa_2_1_bakain_agrisilvi__p03",
+      "heading_path": [
+        "2.1. Agroforestry Model: Bakain (Melia azedarach) based Agri-silvicultural System",
+        "Yield (Productivity)"
+      ],
+      "text": "About 30.5 t/ha (crop + tree) biomass products; inter-crop yield: 1.8 -2.0 t/ha",
+      "page_start": 8,
+      "page_end": 8,
+      "topic": "Yield",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "biomass",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "handa_2_1_bakain_agrisilvi__p04",
+      "heading_path": [
+        "2.1. Agroforestry Model: Bakain (Melia azedarach) based Agri-silvicultural System",
+        "Environmental Benefits"
+      ],
+      "text": "Environmental Benefits: High carbon assimilation by tree + crop combination.",
+      "page_start": 8,
+      "page_end": 8,
+      "topic": "Environmental impact",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "handa_2_1_bakain_agrisilvi__p05",
+      "heading_path": [
+        "2.1. Agroforestry Model: Bakain (Melia azedarach) based Agri-silvicultural System",
+        "Way Forward"
+      ],
+      "text": "The technology is suitable for arid and dry regions in Telangana where arable crops are not profitable. This system will give both timber and food crops from the same piece of land.",
+      "page_start": 9,
+      "page_end": 9,
+      "topic": "Suitability",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "context"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "handa_2_1_bakain_agrisilvi__c01",
+      "passage_id": "handa_2_1_bakain_agrisilvi__p03",
+      "subject": "biomass products",
+      "metric": "biomass",
+      "direction": "increase",
+      "value": 30.5,
+      "unit": "t_ha",
+      "evidence_span": "About 30.5 t/ha (crop + tree) biomass products",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "handa_2_1_bakain_agrisilvi__c02",
+      "passage_id": "handa_2_1_bakain_agrisilvi__p03",
+      "subject": "inter-crop yield",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value_low": 1.8,
+      "value_high": 2.0,
+      "unit": "t_ha",
+      "evidence_span": "inter-crop yield: 1.8 -2.0 t/ha",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "biomass",
+      "effect": "increase",
+      "passage_id": "handa_2_1_bakain_agrisilvi__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "passage_id": "handa_2_1_bakain_agrisilvi__p04",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Bakain (Melia azedarach) based Agri-silvicultural System",
+    "tree_species": [
+      "Melia azedarach"
+    ],
+    "crop_species": [
+      "Foxtail millet"
+    ],
+    "region_of_adoption": [
+      "Gujarat",
+      "Kathiawar Peninsula",
+      "Madhya Pradesh",
+      "Rajasthan",
+      "Haryana",
+      "Punjab",
+      "Telangana",
+      "Andhra Pradesh"
+    ],
+    "stated_benefits": [
+      "High carbon assimilation",
+      "Suitable for small and marginal lands",
+      "Higher returns",
+      "Provides both timber and food crops"
+    ],
+    "stated_constraints": [
+      "Young trees are vulnerable to high temperature"
+    ]
+  },
+  "_meta": {
+    "unit_id": "handa_2_1_bakain_agrisilvi",
+    "doc_id": "handa2019_agroforestry_models",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 25,
+    "pdf_end": 28,
+    "manifest_practices": [],
+    "manifest_climate_zones": [
+      "arid"
+    ],
+    "extracted_at": "2026-09-18T08:58:41Z",
+    "pdf_sha256": "a38301b65ca687a2"
+  }
+}

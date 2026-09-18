@@ -1,0 +1,352 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+  "content_type": "assessment",
+  "summary": "This assessment examines the potential of various integrated response options to address desertification, land degradation, and food security, highlighting the interlinkages between land management practices and these environmental and social outcomes.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch6_interlinkages__w04__p01",
+      "heading_path": [
+        "6.3.3 Potential of the integrated response options for addressing desertification",
+        "6.3.3.1 Integrated response options based on land management",
+        "Integrated response options based on land management in agriculture"
+      ],
+      "text": "Integrated water management strategies such as water-use efficiency and irrigation, improve soil health through increase in soil organic matter content, thereby delivering benefits for prevention or reversal of desertification. Climate change will amplify existing stress on water availability and on agricultural systems, particularly in semi-arid environments. In 2011, semi-arid ecosystems in the southern hemisphere contributed 51% of the global net carbon sink. These results suggest that arid ecosystems could be an important global carbon sink, depending on soil water availability.",
+      "page_start": 595,
+      "page_end": 595,
+      "topic": "Integrated water management and carbon sinks",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "water_holding_capacity",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "semi-arid",
+        "arid"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w04__p02",
+      "heading_path": [
+        "6.3.3 Potential of the integrated response options for addressing desertification",
+        "6.3.3.1 Integrated response options based on land management",
+        "Integrated response options based on land management in forestry"
+      ],
+      "text": "Forests tend to maintain water and soil quality by reducing runoff and trapping sediments and nutrients, but planting of non-native species in semi-arid regions can deplete soil water resources if they have high evapotranspiration rates.",
+      "page_start": 596,
+      "page_end": 596,
+      "topic": "Forest management and soil water",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w04__p03",
+      "heading_path": [
+        "6.3.3 Potential of the integrated response options for addressing desertification",
+        "6.3.3.1 Integrated response options based on land management",
+        "Integrated response options based on land management of soils"
+      ],
+      "text": "Biochar could potentially deliver benefits in efforts to address desertification though improving water-holding capacity, but the global effect is not quantified.",
+      "page_start": 596,
+      "page_end": 596,
+      "topic": "Biochar and desertification",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "water_holding_capacity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w04__p04",
+      "heading_path": [
+        "6.3.4 Potential of the integrated response options for addressing land degradation",
+        "6.3.4.1 Integrated response options based on land management",
+        "Integrated response options based on land management in agriculture"
+      ],
+      "text": "Land degradation can be addressed by the implementation of improved cropland, livestock and grazing land management practices, such as those outlined in the recently published Voluntary Guidelines for Sustainable Soil Management. The guidelines include a list of practices aimed at minimising soil erosion, enhancing soil organic matter content, fostering soil nutrient balance and cycles, preventing, minimising and mitigating soil salinisation and alkalinisation, soil contamination, soil acidification, soil sealing, soil compaction, and improving soil water management.",
+      "page_start": 599,
+      "page_end": 599,
+      "topic": "Sustainable soil management",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "erosion",
+        "soil_organic_matter",
+        "nutrient_availability",
+        "salinity",
+        "bulk_density",
+        "water_holding_capacity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "rangeland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w04__p05",
+      "heading_path": [
+        "6.3.4 Potential of the integrated response options for addressing land degradation",
+        "6.3.4.1 Integrated response options based on land management",
+        "Integrated response options based on land management in forestry"
+      ],
+      "text": "Management of wild animals can influence land degradation processes by grazing, trampling and compacting soil surfaces, thereby altering surface temperatures and chemical reactions affecting sediment and carbon retention.",
+      "page_start": 601,
+      "page_end": 601,
+      "topic": "Wild animal management and land degradation",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "bulk_density",
+        "temperature",
+        "erosion",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w04__p06",
+      "heading_path": [
+        "6.3.5 Potential of the integrated response options for addressing food security",
+        "6.3.5.1 Integrated response options based on land management",
+        "Integrated response options based on land management in agriculture"
+      ],
+      "text": "Improved cropland management to achieve food security aims at closing yield gaps by increasing use efficiency of essential inputs such as water and nutrients. Large production increases (45–70% for most crops) are possible from closing yield gaps to 100% of attainable yield, by increasing fertiliser use and irrigation, but overuse of nutrients could cause adverse environmental impacts.",
+      "page_start": 603,
+      "page_end": 603,
+      "topic": "Cropland management and food security",
+      "practices": [
+        "irrigation",
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "crop_yield",
+        "nutrient_availability",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w04__p07",
+      "heading_path": [
+        "6.3.5 Potential of the integrated response options for addressing food security",
+        "6.3.5.1 Integrated response options based on land management",
+        "Integrated response options based on land management of soils"
+      ],
+      "text": "Increasing soil organic matter stocks can increase yield and improve yield stability, though this is not universally seen. Increasing soil organic carbon by 1 tC ha–1 could increase food grain production in developing countries by 32 Mt yr–1.",
+      "page_start": 605,
+      "page_end": 605,
+      "topic": "Soil organic matter and food security",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w04__p08",
+      "heading_path": [
+        "6.3.5 Potential of the integrated response options for addressing food security",
+        "6.3.5.1 Integrated response options based on land management",
+        "Integrated response options based on land management of soils"
+      ],
+      "text": "Biochar on balance, could provide moderate benefits for food security by improving yields by 25% in the tropics, but with more limited impacts in temperate regions, or through improved water-holding capacity and nutrient-use efficiency.",
+      "page_start": 605,
+      "page_end": 605,
+      "topic": "Biochar and food security",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "crop_yield",
+        "water_holding_capacity",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "tropical",
+        "temperate"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch6_interlinkages__w04__c01",
+      "passage_id": "srccl_ch6_interlinkages__w04__p01",
+      "subject": "Integrated water management",
+      "metric": "soil_organic_matter",
+      "direction": "increase",
+      "evidence_span": "Integrated water management strategies such as water-use efficiency and irrigation, improve soil health through increase in soil organic matter content",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w04__c02",
+      "passage_id": "srccl_ch6_interlinkages__w04__p02",
+      "subject": "Planting of non-native species",
+      "metric": "soil_moisture",
+      "direction": "decrease",
+      "evidence_span": "planting of non-native species in semi-arid regions can deplete soil water resources if they have high evapotranspiration rates",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w04__c03",
+      "passage_id": "srccl_ch6_interlinkages__w04__p05",
+      "subject": "Wild animal management",
+      "metric": "bulk_density",
+      "direction": "increase",
+      "evidence_span": "Management of wild animals can influence land degradation processes by grazing, trampling and compacting soil surfaces",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w04__c04",
+      "passage_id": "srccl_ch6_interlinkages__w04__p06",
+      "subject": "Closing yield gaps",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 45,
+      "value_high": 70,
+      "unit": "percent_change",
+      "evidence_span": "Large production increases (45–70% for most crops) are possible from closing yield gaps to 100% of attainable yield",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w04__c05",
+      "passage_id": "srccl_ch6_interlinkages__w04__p07",
+      "subject": "Increasing soil organic carbon",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 32,
+      "unit": "none",
+      "evidence_span": "Increasing soil organic carbon by 1 tC ha–1 could increase food grain production in developing countries by 32 Mt yr–1.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w04__c06",
+      "passage_id": "srccl_ch6_interlinkages__w04__p08",
+      "subject": "Biochar",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 25,
+      "unit": "percent_change",
+      "conditions": "tropics",
+      "evidence_span": "Biochar on balance, could provide moderate benefits for food security by improving yields by 25% in the tropics",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "Integrated water management",
+      "to_node": "soil_organic_matter",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w04__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "Planting of non-native species",
+      "to_node": "soil_moisture",
+      "effect": "decrease",
+      "condition": "semi-arid regions",
+      "passage_id": "srccl_ch6_interlinkages__w04__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "Wild animal management",
+      "to_node": "bulk_density",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w04__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "Closing yield gaps",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w04__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "Increasing soil organic carbon",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w04__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "Biochar",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": "tropics",
+      "passage_id": "srccl_ch6_interlinkages__w04__p08",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w04",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 605,
+    "pdf_end": 616,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:11:33Z",
+    "pdf_sha256": "b29c9b1504b67390"
+  }
+}

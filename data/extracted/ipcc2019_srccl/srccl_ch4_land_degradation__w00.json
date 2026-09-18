@@ -1,0 +1,445 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Land degradation",
+  "content_type": "assessment",
+  "summary": "This chapter provides a comprehensive assessment of land degradation, defining it as a negative trend in land condition caused by human-induced processes, including climate change. It explores the complex interactions between land degradation, climate change, and human livelihoods, highlighting that land degradation is both a driver of and affected by climate change. The chapter also discusses sustainable land management (SLM) and sustainable forest management (SFM) as key strategies to avoid, reduce, or reverse degradation, while noting the challenges and trade-offs involved.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch4_land_degradation__w00__p01",
+      "heading_path": [
+        "Executive summary"
+      ],
+      "text": "Land degradation affects people and ecosystems throughout the planet and is both affected by climate change and contributes to it. In this report, land degradation is defined as a negative trend in land condition, caused by direct or indirect human-induced processes including anthropogenic climate change, expressed as long-term reduction or loss of at least one of the following: biological productivity, ecological integrity, or value to humans.",
+      "page_start": 347,
+      "page_end": 347,
+      "topic": "Definition of land degradation",
+      "practices": [],
+      "metrics": [
+        "species_richness",
+        "biomass"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w00__p02",
+      "heading_path": [
+        "Executive summary"
+      ],
+      "text": "Land-use changes and unsustainable land management are direct human causes of land degradation (very high confidence), with agriculture being a dominant sector driving degradation (very high confidence). Soil loss from conventionally tilled land exceeds the rate of soil formation by >2 orders of magnitude (medium confidence).",
+      "page_start": 347,
+      "page_end": 347,
+      "topic": "Drivers of land degradation",
+      "practices": [
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w00__p03",
+      "heading_path": [
+        "Executive summary"
+      ],
+      "text": "Climate change exacerbates the rate and magnitude of several ongoing land degradation processes and introduces new degradation patterns (high confidence). Human-induced global warming has already caused observed changes in two drivers of land degradation: increased frequency, intensity and/or amount of heavy precipitation (medium confidence); and increased heat stress (high confidence).",
+      "page_start": 347,
+      "page_end": 347,
+      "topic": "Climate change and land degradation",
+      "practices": [],
+      "metrics": [
+        "rainfall",
+        "temperature"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w00__p04",
+      "heading_path": [
+        "Executive summary"
+      ],
+      "text": "Land degradation is a driver of climate change through emission of greenhouse gases (GHGs) and reduced rates of carbon uptake (very high confidence).",
+      "page_start": 347,
+      "page_end": 347,
+      "topic": "Land degradation and climate change",
+      "practices": [],
+      "metrics": [
+        "pollution_load",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w00__p05",
+      "heading_path": [
+        "Executive summary"
+      ],
+      "text": "Cropland soils have lost 20–60% of their organic carbon content prior to cultivation, and soils under conventional agriculture continue to be a source of GHGs (medium confidence).",
+      "page_start": 347,
+      "page_end": 347,
+      "topic": "Soil organic carbon",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w00__p06",
+      "heading_path": [
+        "Executive summary"
+      ],
+      "text": "Large-scale implementation of dedicated biomass production for bioenergy increases competition for land with potentially serious consequences for food security and land degradation (high confidence). Increasing the extent and intensity of biomass production, for example, through fertiliser additions, irrigation or monoculture energy plantations, can result in local land degradation.",
+      "page_start": 347,
+      "page_end": 347,
+      "topic": "Bioenergy and land degradation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "risk"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w00__p07",
+      "heading_path": [
+        "Executive summary"
+      ],
+      "text": "Poorly implemented intensification of land management contributes to land degradation (e.g., salinisation from irrigation) and disrupted livelihoods (high confidence).",
+      "page_start": 347,
+      "page_end": 347,
+      "topic": "Land management",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "salinity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w00__p08",
+      "heading_path": [
+        "Executive summary"
+      ],
+      "text": "Land degradation can be avoided, reduced or reversed by implementing sustainable land management, restoration and rehabilitation practices that simultaneously provide many co-benefits, including adaptation to and mitigation of climate change (high confidence).",
+      "page_start": 348,
+      "page_end": 348,
+      "topic": "Sustainable land management",
+      "practices": [
+        "grassland_restoration"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w00__p09",
+      "heading_path": [
+        "4.2.1 Processes of land degradation"
+      ],
+      "text": "While pressures leading to land degradation are often exerted on specific components of the land systems (i.e., soils, water, biota), once degradation processes start, other components become affected through cascading and interactive effects. For example, different pressures and degradation processes can have convergent effects, as can be the case of overgrazing leading to wind erosion, landscape drainage resulting in wetland drying, and warming causing more frequent burning; all of which can independently lead to reductions of the soil organic matter (SOM) pools as a second-order process.",
+      "page_start": 354,
+      "page_end": 354,
+      "topic": "Land degradation processes",
+      "practices": [
+        "rotational_grazing"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "rangeland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w00__p10",
+      "heading_path": [
+        "4.2.1 Processes of land degradation"
+      ],
+      "text": "Still, the reduction of organic matter pools is also a first-order process triggered directly by the effects of rising temperatures (Crowther et al. 2016) as well as other climate changes such as precipitation shifts (Viscarra Rossel et al. 2014).",
+      "page_start": 354,
+      "page_end": 354,
+      "topic": "Soil organic matter",
+      "practices": [],
+      "metrics": [
+        "soil_organic_matter",
+        "temperature",
+        "rainfall"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w00__p11",
+      "heading_path": [
+        "4.2.1.1 Types of land degradation processes"
+      ],
+      "text": "The most widespread and studied land degradation processes affecting soils are water and wind erosion, which have accompanied agriculture since its onset and are still dominant (Table 4.1).",
+      "page_start": 354,
+      "page_end": 354,
+      "topic": "Soil erosion",
+      "practices": [],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w00__p12",
+      "heading_path": [
+        "4.2.1.1 Types of land degradation processes"
+      ],
+      "text": "Other physical degradation processes in which no material detachment and transport are involved include soil compaction, hardening, sealing and any other mechanism leading to the loss of porous space crucial for holding and exchanging air and water (Hamza and Anderson 2005).",
+      "page_start": 354,
+      "page_end": 354,
+      "topic": "Soil physical degradation",
+      "practices": [],
+      "metrics": [
+        "bulk_density",
+        "water_holding_capacity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w00__p13",
+      "heading_path": [
+        "4.2.1.1 Types of land degradation processes"
+      ],
+      "text": "One of the most relevant chemical degradation processes of soils in the context of climate change is the depletion of its organic matter pool. Reduced in agricultural soils through the increase of respiration rates by tillage and the decline of below-ground plant biomass inputs, SOM pools have been diminished also by the direct effects of warming, not only in cultivated land, but also under natural vegetation (Bond-Lamberty et al. 2018).",
+      "page_start": 355,
+      "page_end": 355,
+      "topic": "Soil organic matter",
+      "practices": [
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "temperature"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w00__p14",
+      "heading_path": [
+        "4.2.1.1 Types of land degradation processes"
+      ],
+      "text": "Salinisation, although perceived and reported in soils, is typically triggered by water table-level rises, driving salts to the surface under dry to sub-humid climates (Schofield and Kirkby 2003). While salty soils occur naturally under these climates (primary salinity), human interventions have expanded their distribution, secondary salinity with irrigation without proper drainage being the predominant cause of salinisation (Rengasamy 2006).",
+      "page_start": 355,
+      "page_end": 355,
+      "topic": "Salinisation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "salinity"
+      ],
+      "climate_zones": [
+        "arid",
+        "dry_sub_humid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w00__p15",
+      "heading_path": [
+        "4.2.1.2 Land degradation processes and climate change"
+      ],
+      "text": "Important exceptions are three processes in which climate change is a dominant global or regional pressure and the main driver of their current acceleration. These are: coastal erosion as affected by sea level rise and increased storm frequency/intensity (high agreement, medium evidence) (Johnson et al. 2015; Alongi 2015; Harley et al. 2017; Nicholls et al. 2016); permafrost thawing responding to warming (high agreement, robust evidence) (Liljedahl et al. 2016; Peng et al. 2016; Batir et al. 2017); and increased burning responding to warming and altered precipitation regimes (high agreement, robust evidence) (Jolly et al. 2015; Abatzoglou and Williams 2016; Taufik et al. 2017; Knorr et al. 2016).",
+      "page_start": 356,
+      "page_end": 356,
+      "topic": "Climate change and land degradation",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "temperature",
+        "rainfall"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch4_land_degradation__w00__c01",
+      "passage_id": "srccl_ch4_land_degradation__w00__p02",
+      "subject": "Soil loss from conventionally tilled land",
+      "metric": "erosion",
+      "direction": "increase",
+      "basis": "medium confidence",
+      "evidence_span": "Soil loss from conventionally tilled land exceeds the rate of soil formation by >2 orders of magnitude (medium confidence).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w00__c02",
+      "passage_id": "srccl_ch4_land_degradation__w00__p05",
+      "subject": "Cropland soils",
+      "metric": "SOC",
+      "direction": "decrease",
+      "value": 20,
+      "value_high": 60,
+      "unit": "percent",
+      "basis": "medium confidence",
+      "evidence_span": "Cropland soils have lost 20–60% of their organic carbon content prior to cultivation, and soils under conventional agriculture continue to be a source of GHGs (medium confidence).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w00__c03",
+      "passage_id": "srccl_ch4_land_degradation__w00__p15",
+      "subject": "Coastal erosion",
+      "metric": "erosion",
+      "direction": "increase",
+      "basis": "high agreement, medium evidence",
+      "evidence_span": "These are: coastal erosion as affected by sea level rise and increased storm frequency/intensity (high agreement, medium evidence)",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "agriculture",
+      "to_node": "land degradation",
+      "effect": "increase",
+      "mechanism": "unsustainable land management",
+      "passage_id": "srccl_ch4_land_degradation__w00__p02",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "climate change",
+      "to_node": "land degradation",
+      "effect": "increase",
+      "mechanism": "increased frequency, intensity and/or amount of heavy precipitation and increased heat stress",
+      "passage_id": "srccl_ch4_land_degradation__w00__p03",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "land degradation",
+      "to_node": "climate change",
+      "effect": "increase",
+      "mechanism": "emission of greenhouse gases and reduced rates of carbon uptake",
+      "passage_id": "srccl_ch4_land_degradation__w00__p04",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "biomass production",
+      "to_node": "land degradation",
+      "effect": "increase",
+      "condition": "large-scale implementation",
+      "passage_id": "srccl_ch4_land_degradation__w00__p06",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "irrigation",
+      "to_node": "salinisation",
+      "effect": "increase",
+      "condition": "without proper drainage",
+      "passage_id": "srccl_ch4_land_degradation__w00__p14",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "warming",
+      "to_node": "permafrost thawing",
+      "effect": "increase",
+      "passage_id": "srccl_ch4_land_degradation__w00__p15",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch4_land_degradation__w00",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 355,
+    "pdf_end": 366,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:08:19Z",
+    "pdf_sha256": "495468a71a1bf6c6"
+  }
+}

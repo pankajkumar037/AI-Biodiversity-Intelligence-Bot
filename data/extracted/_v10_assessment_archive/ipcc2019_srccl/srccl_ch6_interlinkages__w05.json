@@ -1,0 +1,227 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+  "content_type": "assessment",
+  "summary": "This assessment summarizes the impacts of various integrated response options on food security, mitigation, adaptation, desertification, and land degradation, based on global data and literature reviews.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch6_interlinkages__w05__p01",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+        "Table 6.47 | Effects on food security of soil-based response options."
+      ],
+      "text": "Table 6.47 | Effects on food security of soil-based response options. Integrated response option Potential Confidence Citation Increased soil organic carbon content 60–225 million people Low confidence Frank et al. 2017 Reduced soil erosion 633 million people yr–1 Low confidence FAO 2018b; FAO et al. 2018; Lal 1998; Pradhan et al. 2013; World Bank 2018a Reduced soil salinisation 1–100 million people Low confidence Qadir et al. 2013 Reduced soil compaction 1–100 million people Low confidence Anderson and Peters 2016 Biochar addition to soil Range from positive impact in the tropics from biochar addition to soil to a maximum potential negative impact on >100 million people by worst-case conversion of 20% of global cropland Low confidence Jeffery et al. 2017; worse-case negative impacts calculated from area values in Smith 2016",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "food security",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "SOC",
+        "erosion",
+        "salinity",
+        "bulk_density",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w05__p02",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+        "Table 6.48 | Effects on food security of response options in all/other ecosystems."
+      ],
+      "text": "Table 6.48 | Effects on food security of response options in all/other ecosystems. Integrated response option Potential Confidence Citation Fire management ~62 million people Low confidence FAO 2015, 2018b; FAO et al. 2018; Pradhan et al. 2013; World Bank 2018a,b Reduced landslides and natural hazards 1–100 million people Low confidence Campbell 2015 Reduced pollution including acidification Increase annual crop yields 30–135 Mt globally; feeds 100–450 million people Low confidence FAO 2018b; FAO et al. 2018; Pradhan et al. 2013; World Bank 2018a Management of invasive species/encroachment No global estimates No evidence Restoration and reduced conversion of coastal wetlands Very small negative impact but not quantified Low confidence Restoration and reduced conversion of peatlands Potential negative impact on 21–31 million people Low confidence Clark and Tilman 2017; FAO 2018b Biodiversity conservation No global estimates No evidence",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "food security",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w05__p03",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+        "Table 6.50 | Effects on food security of demand management options."
+      ],
+      "text": "Table 6.50 | Effects on food security of demand management options. Integrated response option Potential Confidence Citation Dietary change 821 million people High confidence Aleksandrowicz et al. 2016; Tilman and Clark 2014 Reduced post-harvest losses 1000 million people Medium confidence Kummu et al. 2012 Reduced food waste (consumer or retailer) 700–1000 million people Medium confidence FAO 2018b; Kummu et al. 2012 Material substitution No global estimates No evidence",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "food security",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w05__p04",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+        "Table 6.51 | Effects on food security of supply management options."
+      ],
+      "text": "Table 6.51 | Effects on food security of supply management options. Integrated response option Potential Confidence Citation Sustainable sourcing >1 million people Low confidence Tayleur et al. 2017 Management of supply chains >1 million people Low confidence FAO 2018b; Kummu et al. 2012 Enhanced urban food systems Up to 1260 million people Low confidence Benis and Ferrão 2017; Padgham et al. 2014; Specht et al. 2014; Zeeuw and Drechsel 2015 Improved food processing and retailing 500 million people Low confidence World Bank 2017 Improved energy use in food systems Up to 2500 million people Low confidence IEA 2014",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "food security",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w05__p05",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+        "Table 6.52 | Effects on food security of risk management options."
+      ],
+      "text": "Table 6.52 | Effects on food security of risk management options. Integrated response option Potential Confidence Citation Management of urban sprawl >1 million likely Low confidence Bren d’Amour et al. 2016; Chen 2017 Livelihood diversification >100 million Low confidence Morton 2007 Use of local seeds >100 million Low confidence Altieri et al. 2012 Disaster risk management >100 million Medium confidence Genesio et al. 2011; Hillbruner and Moloney 2012 Risk-sharing instruments >1 million likely Low confidence Claassen et al. 2011a; Goodwin et al. 2004",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "food security",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "table"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch6_interlinkages__w05__c01",
+      "passage_id": "srccl_ch6_interlinkages__w05__p01",
+      "subject": "Increased soil organic carbon content",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 60,
+      "value_high": 225,
+      "unit": "count",
+      "basis": "million people",
+      "evidence_span": "Increased soil organic carbon content 60–225 million people",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w05__c02",
+      "passage_id": "srccl_ch6_interlinkages__w05__p01",
+      "subject": "Reduced soil erosion",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": 633,
+      "unit": "count",
+      "basis": "million people yr–1",
+      "evidence_span": "Reduced soil erosion 633 million people yr–1",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w05__c03",
+      "passage_id": "srccl_ch6_interlinkages__w05__p03",
+      "subject": "Dietary change",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 821,
+      "unit": "count",
+      "basis": "million people",
+      "evidence_span": "Dietary change 821 million people",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w05__c04",
+      "passage_id": "srccl_ch6_interlinkages__w05__p04",
+      "subject": "Improved energy use in food systems",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 2500,
+      "unit": "count",
+      "basis": "million people",
+      "evidence_span": "Up to 2500 million people could benefit from increased energy efficiency in agriculture",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "Increased soil organic carbon content",
+      "to_node": "food security",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w05__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "Reduced soil erosion",
+      "to_node": "food security",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w05__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "Dietary change",
+      "to_node": "food security",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w05__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "Improved energy use in food systems",
+      "to_node": "food security",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w05__p04",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w05",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 616,
+    "pdf_end": 627,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:53:26Z",
+    "pdf_sha256": "6267013008b6257d"
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Desertification",
+  "content_type": "assessment",
+  "summary": "This document provides a comprehensive bibliography of scientific literature related to desertification, land degradation, and sustainable land management, covering topics such as climate change impacts, soil erosion, carbon sequestration, and socio-economic drivers.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch3_desertification__w08__p01",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "Simonneaux, V., A. Cheggour, C. Deschamps, F. Mouillot, O. Cerdan, and Y. Le Bissonnais, 2015: Land use and climate change effects on soil erosion in a semi-arid mountainous watershed (High Atlas, Morocco).",
+      "page_start": 337,
+      "page_end": 337,
+      "topic": "soil erosion",
+      "practices": [],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w08__p02",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "Singh, G. et al., 2012: Effects of rainwater harvesting and afforestation on soil properties and growth of Emblica officinalis while restoring degraded hills in western India.",
+      "page_start": 337,
+      "page_end": 337,
+      "topic": "restoration",
+      "practices": [
+        "irrigation",
+        "other"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w08__p03",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "Sombrero, A., and A. De Benito, 2010: Carbon accumulation in soil. Ten-year study of conservation tillage and crop rotation in a semi-arid area of Castile-Leon, Spain.",
+      "page_start": 337,
+      "page_end": 337,
+      "topic": "carbon sequestration",
+      "practices": [
+        "reduced_tillage",
+        "crop_rotation"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w08__p04",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "Srinivasa Rao, C.H., K. Sumantra, and P. Thakur, 2015: Carbon sequestration through conservation agriculture in rainfed systems.",
+      "page_start": 337,
+      "page_end": 337,
+      "topic": "carbon sequestration",
+      "practices": [
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w08__p05",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "Taye, G. et al., 2015: Evolution of the effectiveness of stone bunds and trenches in reducing runoff and soil loss in the semi-arid Ethiopian highlands.",
+      "page_start": 338,
+      "page_end": 338,
+      "topic": "soil conservation",
+      "practices": [
+        "terracing"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w08__p06",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "Tang, Z., H. An, G. Zhu, and Z. Shangguan, 2018: Beta diversity diminishes in a chronosequence of desertification in a desert steppe.",
+      "page_start": 338,
+      "page_end": 338,
+      "topic": "biodiversity",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w08__p07",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "Vargas, R. et al., 2012: Precipitation variability and fire influence the temporal dynamics of soil CO2 efflux in an arid grassland.",
+      "page_start": 340,
+      "page_end": 340,
+      "topic": "soil carbon",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "rainfall"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w08__p08",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "Wicke, B., E.M.W. Smeets, R. Akanda, L. Stille, R.K. Singh, A.R. Awan, K. Mahmood, and A.P.C. Faaij, 2013: Biomass production in agroforestry and forestry systems on salt-affected soils in South Asia: Exploration of the GHG balance and economic performance of three case studies.",
+      "page_start": 341,
+      "page_end": 341,
+      "topic": "agroforestry",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "biomass",
+        "salinity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch3_desertification__w08__c01",
+      "passage_id": "srccl_ch3_desertification__w08__p03",
+      "subject": "conservation tillage and crop rotation",
+      "metric": "SOC",
+      "direction": "increase",
+      "evidence_span": "Carbon accumulation in soil. Ten-year study of conservation tillage and crop rotation in a semi-arid area of Castile-Leon, Spain.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w08__c02",
+      "passage_id": "srccl_ch3_desertification__w08__p05",
+      "subject": "stone bunds and trenches",
+      "metric": "erosion",
+      "direction": "decrease",
+      "evidence_span": "Evolution of the effectiveness of stone bunds and trenches in reducing runoff and soil loss in the semi-arid Ethiopian highlands.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w08__c03",
+      "passage_id": "srccl_ch3_desertification__w08__p06",
+      "subject": "desertification",
+      "metric": "species_richness",
+      "direction": "decrease",
+      "evidence_span": "Beta diversity diminishes in a chronosequence of desertification in a desert steppe.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "conservation tillage and crop rotation",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "semi-arid",
+      "mechanism": null,
+      "passage_id": "srccl_ch3_desertification__w08__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "stone bunds and trenches",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": "semi-arid",
+      "mechanism": null,
+      "passage_id": "srccl_ch3_desertification__w08__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "desertification",
+      "to_node": "species_richness",
+      "effect": "decrease",
+      "condition": "desert steppe",
+      "mechanism": null,
+      "passage_id": "srccl_ch3_desertification__w08__p06",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch3_desertification__w08",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 347,
+    "pdf_end": 356,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:08:01Z",
+    "pdf_sha256": "ddc08b578b0ebe23"
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "extraction_status": "ok",
+  "section_title": "5.5 Diversification in production systems",
+  "content_type": "assessment",
+  "summary": "This section provides an overview of diversification practices in food and agriculture, including integrated crop-livestock systems, home gardens, and agroforestry. It highlights the global trends, benefits for biodiversity and livelihoods, and the challenges associated with data collection and monitoring.",
+  "passages": [
+    {
+      "passage_id": "sowbfa_diversification__w00__p01",
+      "heading_path": [
+        "5.5 Diversification in production systems"
+      ],
+      "text": "Integrated crop–livestock systems are major contributors to global food production and can provide opportunities to reduce waste and the use of external inputs. Despite the spread of “landless” livestock systems, low-income countries have seen a general trend towards greater integration of crop and livestock production activities as population density has increased.",
+      "page_start": 223,
+      "page_end": 223,
+      "topic": "Integrated crop-livestock systems",
+      "practices": [
+        "crop_livestock_integration"
+      ],
+      "metrics": [
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "sowbfa_diversification__w00__p02",
+      "heading_path": [
+        "5.5 Diversification in production systems"
+      ],
+      "text": "Agroforestry is reported to be increasing in every region: it is estimated that more than 5 million km2 of agricultural land (23 percent of the total) have at least 20 percent tree cover.",
+      "page_start": 223,
+      "page_end": 223,
+      "topic": "Agroforestry",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "sowbfa_diversification__w00__p03",
+      "heading_path": [
+        "5.5 Diversification in production systems",
+        "5.5.1 Integrated crop–livestock systems"
+      ],
+      "text": "Livestock are often fed on crop residues, such as straw or leaves, and by-products of crop-processing, such as bran, molasses and pulps, that might otherwise be discarded. These residues and by-products represent about one-third of the total feed intake of livestock globally.",
+      "page_start": 225,
+      "page_end": 225,
+      "topic": "Integrated crop-livestock systems",
+      "practices": [
+        "crop_livestock_integration"
+      ],
+      "metrics": [
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_diversification__w00__p04",
+      "heading_path": [
+        "5.5 Diversification in production systems",
+        "5.5.1 Integrated crop–livestock systems"
+      ],
+      "text": "Appropriately used livestock manure can benefit soil biodiversity. If a farm contains a combination of crop fields and pastures, this will add some diversity to local habitats and may help support a more diverse range of pollinators, biological control agents and other components of associated biodiversity.",
+      "page_start": 226,
+      "page_end": 226,
+      "topic": "Integrated crop-livestock systems",
+      "practices": [
+        "crop_livestock_integration"
+      ],
+      "metrics": [
+        "soil_biota",
+        "pollinators",
+        "habitat_diversity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_diversification__w00__p05",
+      "heading_path": [
+        "5.5 Diversification in production systems",
+        "5.5.1 Integrated crop–livestock systems"
+      ],
+      "text": "Multipurpose trees (e.g. Leucaena and Gliricidia) grown in hedges between crop plots enhance soil fertility, improve crop yields, provide feed for animals and serve as a source of fuelwood.",
+      "page_start": 226,
+      "page_end": 226,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrisilvicultural",
+        "shelterbelts"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "crop_yield",
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_diversification__w00__p06",
+      "heading_path": [
+        "5.5 Diversification in production systems",
+        "5.5.2 Home gardens"
+      ],
+      "text": "Products from home gardens can dramatically improve the quality of such diets by increasing the availability and accessibility of micronutrient-rich or protein-rich foods such as leafy green vegetables, fish and eggs.",
+      "page_start": 229,
+      "page_end": 229,
+      "topic": "Home gardens",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_diversification__w00__p07",
+      "heading_path": [
+        "5.5 Diversification in production systems",
+        "5.5.3 Agroforestry"
+      ],
+      "text": "Tree density is kept low so that canopy cover is not continuous. These practices contribute to agricultural productivity and help to conserve plant and animal biodiversity by offering diverse above-ground and below-ground habitat niches.",
+      "page_start": 234,
+      "page_end": 234,
+      "topic": "Agroforestry",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "crop_yield",
+        "species_richness",
+        "habitat_diversity"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "sowbfa_diversification__w00__c01",
+      "passage_id": "sowbfa_diversification__w00__p03",
+      "subject": "crop residues and by-products",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": 33.3,
+      "unit": "percent",
+      "basis": "unstated",
+      "conditions": "global livestock feed intake",
+      "evidence_span": "These residues and by-products represent about one-third of the total feed intake of livestock globally (considering cattle, buffaloes, sheep, goats, chickens and pigs across all production systems)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_diversification__w00__c02",
+      "passage_id": "sowbfa_diversification__w00__p04",
+      "subject": "livestock manure",
+      "metric": "soil_biota",
+      "direction": "increase",
+      "basis": "unstated",
+      "evidence_span": "Appropriately used livestock manure can benefit soil biodiversity (FAO, 2018f).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_diversification__w00__c03",
+      "passage_id": "sowbfa_diversification__w00__p05",
+      "subject": "multipurpose trees in hedges",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "basis": "unstated",
+      "evidence_span": "Multipurpose trees (e.g. Leucaena and Gliricidia) grown in hedges between crop plots enhance soil fertility",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_diversification__w00__c04",
+      "passage_id": "sowbfa_diversification__w00__p05",
+      "subject": "multipurpose trees in hedges",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "basis": "unstated",
+      "evidence_span": "improve crop yields",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_diversification__w00__c05",
+      "passage_id": "sowbfa_diversification__w00__p07",
+      "subject": "agroforestry practices",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "basis": "unstated",
+      "conditions": "parkland systems",
+      "evidence_span": "These practices contribute to agricultural productivity",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "crop residues and by-products",
+      "to_node": "livestock feed intake",
+      "effect": "increase",
+      "passage_id": "sowbfa_diversification__w00__p03",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "livestock manure",
+      "to_node": "soil_biota",
+      "effect": "increase",
+      "passage_id": "sowbfa_diversification__w00__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "multipurpose trees",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "passage_id": "sowbfa_diversification__w00__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "multipurpose trees",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "passage_id": "sowbfa_diversification__w00__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "home gardens",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "passage_id": "sowbfa_diversification__w00__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry practices",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "passage_id": "sowbfa_diversification__w00__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry practices",
+      "to_node": "species_richness",
+      "effect": "increase",
+      "passage_id": "sowbfa_diversification__w00__p07",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "sowbfa_diversification__w00",
+    "doc_id": "fao2019_sowbfa",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 267,
+    "pdf_end": 278,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T10:56:37Z",
+    "pdf_sha256": "663acfbd150dc5cc",
+    "prompt_type": "assessment"
+  }
+}

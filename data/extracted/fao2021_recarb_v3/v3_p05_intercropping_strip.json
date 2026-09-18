@@ -1,0 +1,1159 @@
+{
+  "extraction_status": "ok",
+  "section_title": "5. Intercropping: strip cropping",
+  "content_type": "practice",
+  "summary": "Strip cropping is a soil conservation practice involving growing crops in alternating long, narrow strips, typically on sloping land, to prevent soil erosion. Different types include contour, field, and wind strip cropping, each suited to specific land relief and wind conditions. The practice is ancient and has been recommended for minimizing wind and rain erosion. It can be combined with other conservation practices like no-tillage. While effective for erosion control, wind strip cropping does not significantly increase soil water or control runoff. The practice is better suited for mechanized farms and performs well when high yields are expected.",
+  "passages": [
+    {
+      "passage_id": "v3_p05_intercropping_strip__p01",
+      "heading_path": [
+        "1. Description of the practice"
+      ],
+      "text": "Strip cropping is the growing of crops in alternating long, narrow strips, generally used in sloping areas as a measure of preventing soil erosion (Vandermeer, 1989; Wojtkowsk, 2008). This is commonly adopted to grain/fiber production using a plant species to block run-off or wind erosion. For instance, strips seeded to cereals alternated with strips of a sod-forming crop (such as hay) arranged to follow an approximate contour of the land are a recommendation to minimize losses by wind or rain (USDA-NRCS, 1995). In fact, this practice is an ancient recommendation for soil conservation, as reported by Kell and Brown (1938) of USDA in a technical bulletin in 1938. These authors defined three types of systematic arrangement of strips according to farmland slope, which were denominated contour, field, and wind strip cropping, briefly detailed here. Contour strip cropping is recommended in areas of variable land slope, where seeding obeys the natural land relief by establishing the plant rows on contour lines. Strips are relatively narrow but width can be variable. In these systems, dense erosion-control crops alternate with clean-tilled or erosion-permitting crops placed crosswise of the line of slope, approximately on the contour. Field strip cropping is possible where crops can be set up in more or less uniform strips laid out crosswise of the general slope but not obeying the true contour, and is a modified form of contour strip cropping. This is applicable to uniform gradual slopes of soils resistant to erosion, connecting water ways where the true relief contour cannot be easily followed. Wind strip cropping is recommended in flat lands. Different strip crops, relatively narrow and straight, are placed parallel to the direction of the prevailing wind without regard to the contour of the land. Actually, the combination with other soil conservation practices, such as no-tillage, are also recommended, considering that wind strip cropping does not promote significant soil water gains or run-off control.",
+      "page_start": 48,
+      "page_end": 48,
+      "topic": "Strip cropping",
+      "practices": [
+        "intercropping",
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "erosion",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p05_intercropping_strip__p02",
+      "heading_path": [
+        "2. Range of applicability"
+      ],
+      "text": "Strip cropping has been used worldwide on sloping lands where agricultural mechanization is possible. This practice performs better when high yields are expected, and planting and harvesting are performed by machinery. It is recommended to protect against erosion (wind and water), except for non-mechanizable steep hillsides (Wojtkowsk, 2008; USDA-NRCS, 1995).",
+      "page_start": 49,
+      "page_end": 49,
+      "topic": "Strip cropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v3_p05_intercropping_strip__p03",
+      "heading_path": [
+        "3. Impact on soil organic carbon stocks"
+      ],
+      "text": "Academic (Exner et al., 1999; Baumhardt and Blanco-Canqui, 2014; Soni et al., 2013) and technical (e.g USDA-NRCS reports 2020) literature suggest that strip cropping is strategic to reduce soil erosion and to sustain or improve soil quality. Other articles affirmed this practice supports the provision of ecosystem services such as biodiversity conservation (Vandermeer, 1989; Hauggaard-Nielsen, 2010). However, the absence of published research to allow reasonable global coverage of the impact on soil carbon sequestration evidences a scientific gap (Table 18).",
+      "page_start": 49,
+      "page_end": 49,
+      "topic": "Strip cropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "erosion",
+        "SOC",
+        "habitat_diversity"
+      ],
+      "climate_zones": [
+        "global",
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p05_intercropping_strip__p04",
+      "heading_path": [
+        "4.1. Improvement of soil properties"
+      ],
+      "text": "Increased water infiltration owing to the run-off contention by the strips (USDA-NRCS, 1995) explains the reduction of soil erosion and nutrient loss. In addition, wind erosion and its impacts on crops can be controlled by this practice (Swan et al., 2015). Because different crops are combined under strip cropping, the biodiversity of the agroecosystem is enhanced and the nature of crop type and field arrangement favors the accumulation of soil organic carbon (Baumhardt and Blanco-Canqui, 2014).",
+      "page_start": 50,
+      "page_end": 50,
+      "topic": "Strip cropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "erosion",
+        "nutrient_availability",
+        "habitat_diversity",
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p05_intercropping_strip__p05",
+      "heading_path": [
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Table 19. Soil threats\nSoil threats\nSoil erosion\nNutrient imbalance\nand cycles\nSoil biodiversity loss\nSoil compaction\nSoil water\nmanagement\nCrop management strategy that reduces soil erosion (USDA-NRCS,\n1995).\nBenefits in nutrients cycling (Baumhardt and Blanco-Canqui, 2014).\nIncrease plant diversification in the same crop season (Exner et al.,\n1999).\nThe root diversity reduces soil compaction (Olson et al., 2017).\nIncrease water infiltration because strips act as a barrier (USDA-NRCS,\n1995).",
+      "page_start": 50,
+      "page_end": 50,
+      "topic": "Strip cropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "erosion",
+        "nutrient_availability",
+        "soil_biota",
+        "bulk_density",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "v3_p05_intercropping_strip__p06",
+      "heading_path": [
+        "4.3. Increases in production (e.g. food/fuel/feed/timber/fibre)"
+      ],
+      "text": "This practice could offer low to moderate levels of protection against crop-eating insects and plant diseases by the increase in plant diversification (Wojtkowski, 2008; NWRM, 2005). In addition, yield and plant residues inputs can be enhanced in comparison to individual crops owing to the increase in efficiency of water use (Maruthi, Reddy and Pankaj, 2017), and the use of soil nutrients (Hauggaard-Nielsen, Ambus and Jensen, 2001; Li et al., 2004).",
+      "page_start": 50,
+      "page_end": 50,
+      "topic": "Strip cropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "crop_yield",
+        "soil_moisture",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p05_intercropping_strip__p07",
+      "heading_path": [
+        "4.4. Mitigation of and adaptation to climate change"
+      ],
+      "text": "Literature suggests that strip cropping is a crop management strategy to increase the resilience of agroecosystems to excess rainfall, drought or warming (Maruthi et al., 2017). In addition, the capacity to improve C and N cycling in soil along with the reduction in N2O emissions due to the reduction of N fertilization makes it a greenhouse gas mitigation strategy (Chambers et al., 2016).",
+      "page_start": 51,
+      "page_end": 51,
+      "topic": "Strip cropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "temperature",
+        "rainfall",
+        "SOC",
+        "nitrogen",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p05_intercropping_strip__p08",
+      "heading_path": [
+        "4.5. Socio-economic benefits"
+      ],
+      "text": "Strip cropping is a conservation agricultural practice that helps to preserve soil fertility and enables land use with higher yields and economic returns where constraints to conventional cropping exist such as variable sloping and extreme weather events. As the yield was increased ( Hauggaard-Nielsen, Ambus and Jensen, 2001; Li et al., 2004), the farmers have an economic return with this practice, because the costs are similar with sole crops.",
+      "page_start": 51,
+      "page_end": 51,
+      "topic": "Strip cropping",
+      "practices": [
+        "intercropping",
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p05_intercropping_strip__p09",
+      "heading_path": [
+        "4.6. Other benefits of the practice"
+      ],
+      "text": "If this practice is implemented with other conservation practices and selecting plant species that offer the benefits to the wildlife, as food or flowers, can be enhanced by providing habitat for pollinators, wildlife, and desired organisms (Exner et al., 1999; USDA-NSCS, 2017). The weed control in grain crops using mechanical operation was more efficient for strip cropping than for monocropping (Głowacka, 2014).",
+      "page_start": 51,
+      "page_end": 51,
+      "topic": "Strip cropping",
+      "practices": [
+        "intercropping",
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "pollinators",
+        "habitat_diversity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p05_intercropping_strip__p10",
+      "heading_path": [
+        "5. Potential drawbacks to the practice",
+        "5.1 Increases in greenhouse gas emissions"
+      ],
+      "text": "The use of legume strips could increase N uptake by gramineous strips, reducing the available N to losses as nitrate (indirect N2O emissions) or directly as nitrous oxide (Hauggaard-Nielsen et al., 2001; Hauggaard-Nielsen, 2010)",
+      "page_start": 51,
+      "page_end": 51,
+      "topic": "Strip cropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "nitrogen",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p05_intercropping_strip__p11",
+      "heading_path": [
+        "5. Potential drawbacks to the practice",
+        "5.2 Decreases in production (e.g. food/fuel/feed/timber/fibre)"
+      ],
+      "text": "When strips are planted to non-commercial crops alternately with strips of commercial crops, the production on a hectare basis will be negatively impacted compared to the commercial crop and consequently the farm income will be also affected.",
+      "page_start": 51,
+      "page_end": 51,
+      "topic": "Strip cropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p05_intercropping_strip__p12",
+      "heading_path": [
+        "6. Recommendations before implementing the practice"
+      ],
+      "text": "The Natural Resources Conservation Service of US Department of Agriculture considers strip cropping as a conservation practice standard and provides recommendations about implementation (USDA-NRCS, 2017). Briefly, for mechanized farms, the cropping area must be suitable for setting the strips (allowing extended, unbroken strips). The farmer needs to know that strip cropping should be combined with other conservation practices to reach resource management objectives.",
+      "page_start": 52,
+      "page_end": 52,
+      "topic": "Strip cropping",
+      "practices": [
+        "intercropping",
+        "conservation_agriculture"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v3_p05_intercropping_strip__p13",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "Table 20. Potential barriers to adoption\nBarrier\nYES/NO\nBiophysical Yes\nSlopes over 50 percent and the cropping area are not strip suitable\n(USDA-NSCS, 2017).\nCultural\nYes\nCommunication strategies to help farmers to test strip cropping and\nsupporting them in choosing appropriate systems (NWRM, 2005).\nSocial\nYes\nIf implemented only on individual will and at field scale, the measure\nwill not be sufficient to impact on flood risk reduction (NWRM,\n2005).\nEconomic\nYes\nMachinery acquisition (NWRM, 2005).\nKnowledge\nYes\nStrips should be designed to facilitate operation of machinery, and\nneed know do the corrected soil contour to prevent effectiveness\nsoil loss (USDA-NSCS, 2017).",
+      "page_start": 52,
+      "page_end": 52,
+      "topic": "Strip cropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "table"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "v3_p05_intercropping_strip__c01",
+      "passage_id": "v3_p05_intercropping_strip__p01",
+      "subject": "strip cropping",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "sloping areas",
+      "time_horizon_years": null,
+      "evidence_span": "strips generally used in sloping areas as a measure of preventing soil erosion",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c02",
+      "passage_id": "v3_p05_intercropping_strip__p01",
+      "subject": "strip cropping",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "wind or rain",
+      "time_horizon_years": null,
+      "evidence_span": "minimize losses by wind or rain",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c03",
+      "passage_id": "v3_p05_intercropping_strip__p01",
+      "subject": "wind strip cropping",
+      "metric": "soil_moisture",
+      "direction": "no_change",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "wind strip cropping does not promote significant soil water gains or run-off control",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c04",
+      "passage_id": "v3_p05_intercropping_strip__p02",
+      "subject": "strip cropping",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "wind and water",
+      "time_horizon_years": null,
+      "evidence_span": "It is recommended to protect against erosion (wind and water)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c05",
+      "passage_id": "v3_p05_intercropping_strip__p03",
+      "subject": "strip cropping",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "strip cropping is strategic to reduce soil erosion",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c06",
+      "passage_id": "v3_p05_intercropping_strip__p03",
+      "subject": "strip cropping",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "sustain or improve soil quality",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c07",
+      "passage_id": "v3_p05_intercropping_strip__p03",
+      "subject": "strip cropping",
+      "metric": "habitat_diversity",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "supports the provision of ecosystem services such as biodiversity conservation",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c08",
+      "passage_id": "v3_p05_intercropping_strip__p04",
+      "subject": "strip cropping",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Increased water infiltration",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c09",
+      "passage_id": "v3_p05_intercropping_strip__p04",
+      "subject": "strip cropping",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "reduction of soil erosion",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c10",
+      "passage_id": "v3_p05_intercropping_strip__p04",
+      "subject": "strip cropping",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "wind erosion and its impacts on crops can be controlled by this practice",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c11",
+      "passage_id": "v3_p05_intercropping_strip__p04",
+      "subject": "strip cropping",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "favors the accumulation of soil organic carbon",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c12",
+      "passage_id": "v3_p05_intercropping_strip__p05",
+      "subject": "strip cropping",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Crop management strategy that reduces soil erosion",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c13",
+      "passage_id": "v3_p05_intercropping_strip__p05",
+      "subject": "strip cropping",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Benefits in nutrients cycling",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c14",
+      "passage_id": "v3_p05_intercropping_strip__p05",
+      "subject": "strip cropping",
+      "metric": "soil_biota",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Increase plant diversification in the same crop season",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c15",
+      "passage_id": "v3_p05_intercropping_strip__p05",
+      "subject": "strip cropping",
+      "metric": "bulk_density",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "The root diversity reduces soil compaction",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c16",
+      "passage_id": "v3_p05_intercropping_strip__p05",
+      "subject": "strip cropping",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Increase water infiltration because strips act as a barrier",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c17",
+      "passage_id": "v3_p05_intercropping_strip__p06",
+      "subject": "strip cropping",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "yield and plant residues inputs can be enhanced",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c18",
+      "passage_id": "v3_p05_intercropping_strip__p06",
+      "subject": "strip cropping",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "increase in efficiency of water use",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c19",
+      "passage_id": "v3_p05_intercropping_strip__p06",
+      "subject": "strip cropping",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "use of soil nutrients",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c20",
+      "passage_id": "v3_p05_intercropping_strip__p07",
+      "subject": "strip cropping",
+      "metric": "temperature",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "excess rainfall, drought or warming",
+      "time_horizon_years": null,
+      "evidence_span": "increase the resilience of agroecosystems to excess rainfall, drought or warming",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c21",
+      "passage_id": "v3_p05_intercropping_strip__p07",
+      "subject": "strip cropping",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "improve C and N cycling in soil",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c22",
+      "passage_id": "v3_p05_intercropping_strip__p07",
+      "subject": "strip cropping",
+      "metric": "nitrogen",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "improve C and N cycling in soil",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c23",
+      "passage_id": "v3_p05_intercropping_strip__p07",
+      "subject": "strip cropping",
+      "metric": "pollution_load",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "reduction of N fertilization",
+      "time_horizon_years": null,
+      "evidence_span": "reduction in N2O emissions due to the reduction of N fertilization",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c24",
+      "passage_id": "v3_p05_intercropping_strip__p08",
+      "subject": "strip cropping",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "variable sloping and extreme weather events",
+      "time_horizon_years": null,
+      "evidence_span": "enables land use with higher yields",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c25",
+      "passage_id": "v3_p05_intercropping_strip__p08",
+      "subject": "strip cropping",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "As the yield was increased",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c26",
+      "passage_id": "v3_p05_intercropping_strip__p09",
+      "subject": "strip cropping",
+      "metric": "pollinators",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "can be enhanced by providing habitat for pollinators",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c27",
+      "passage_id": "v3_p05_intercropping_strip__p09",
+      "subject": "strip cropping",
+      "metric": "habitat_diversity",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "can be enhanced by providing habitat for pollinators, wildlife, and desired organisms",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c28",
+      "passage_id": "v3_p05_intercropping_strip__p10",
+      "subject": "legume strips in strip cropping",
+      "metric": "nitrogen",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "The use of legume strips could increase N uptake by gramineous strips",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c29",
+      "passage_id": "v3_p05_intercropping_strip__p10",
+      "subject": "strip cropping",
+      "metric": "pollution_load",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "losses as nitrate (indirect N2O emissions) or directly as nitrous oxide",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c30",
+      "passage_id": "v3_p05_intercropping_strip__p11",
+      "subject": "strip cropping",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "strips planted to non-commercial crops alternately with strips of commercial crops",
+      "time_horizon_years": null,
+      "evidence_span": "the production on a hectare basis will be negatively impacted compared to the commercial crop",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p05_intercropping_strip__c31",
+      "passage_id": "v3_p05_intercropping_strip__p13",
+      "subject": "strip cropping",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "prevent effectiveness soil loss",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "intercropping",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": "sloping areas",
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": "wind or rain",
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "wind strip cropping",
+      "to_node": "soil_moisture",
+      "effect": "no_change",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": "wind and water",
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p03",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "habitat_diversity",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "soil_biota",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "bulk_density",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "temperature",
+      "effect": "increase",
+      "condition": "excess rainfall, drought or warming",
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "C and N cycling",
+      "passage_id": "v3_p05_intercropping_strip__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "nitrogen",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "C and N cycling",
+      "passage_id": "v3_p05_intercropping_strip__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "pollution_load",
+      "effect": "decrease",
+      "condition": "reduction of N fertilization",
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": "variable sloping and extreme weather events",
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p08",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p08",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "pollinators",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "habitat_diversity",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "nitrogen",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p10",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "pollution_load",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p10",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "strips planted to non-commercial crops alternately with strips of commercial crops",
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p11",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p05_intercropping_strip__p13",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Strip cropping",
+    "system_type": "intercropping",
+    "tree_species": [],
+    "crop_species": [],
+    "region_of_adoption": [],
+    "rainfall_mm_low": null,
+    "rainfall_mm_high": null,
+    "soil_requirements": null,
+    "establishment_notes": null,
+    "stated_benefits": [
+      "preventing soil erosion",
+      "minimize losses by wind or rain",
+      "sustain or improve soil quality",
+      "biodiversity conservation",
+      "Increased water infiltration",
+      "reduction of soil erosion and nutrient loss",
+      "wind erosion and its impacts on crops can be controlled",
+      "biodiversity of the agroecosystem is enhanced",
+      "favors the accumulation of soil organic carbon",
+      "reduces soil compaction",
+      "increase in plant diversification",
+      "increase in efficiency of water use",
+      "increase the resilience of agroecosystems to excess rainfall, drought or warming",
+      "improve C and N cycling in soil",
+      "greenhouse gas mitigation",
+      "preserve soil fertility",
+      "enables land use with higher yields and economic returns",
+      "providing habitat for pollinators, wildlife, and desired organisms",
+      "weed control in grain crops using mechanical operation was more efficient"
+    ],
+    "stated_constraints": [
+      "wind strip cropping does not promote significant soil water gains or run-off control",
+      "except for non-mechanizable steep hillsides",
+      "slopes over 50 percent and the cropping area are not strip suitable",
+      "If implemented only on individual will and at field scale, the measure will not be sufficient to impact on flood risk reduction",
+      "Machinery acquisition",
+      "Strips should be designed to facilitate operation of machinery, and need know do the corrected soil contour to prevent effectiveness soil loss",
+      "The use of legume strips could increase N uptake by gramineous strips, reducing the available N to losses as nitrate (indirect N2O emissions) or directly as nitrous oxide",
+      "production on a hectare basis will be negatively impacted compared to the commercial crop and consequently the farm income will be also affected"
+    ]
+  },
+  "_meta": {
+    "unit_id": "v3_p05_intercropping_strip",
+    "doc_id": "fao2021_recarb_v3",
+    "model": "gemini-2.5-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 66,
+    "pdf_end": 73,
+    "manifest_practices": [
+      "intercropping"
+    ],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:27:00Z",
+    "pdf_sha256": "191b0d94f9a2b578"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Desertification",
+  "content_type": "other",
+  "summary": "This document is a bibliography of references related to desertification, land degradation, and sustainable land management, covering topics such as climate change impacts, pastoralism, soil erosion, and water management.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch3_desertification__w06__p01",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "Koutroulis, A.G., 2019: Dryland changes under different levels of global warming. Sci. Total Environ., 655, 482–511, doi:10.1016/J.SCITOTENV.2018.11.215.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Dryland climate change",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w06__p02",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "Lal, R., 2004: Carbon Sequestration in Dryland Ecosystems. Environ. Manage., 33 (4), 528–544, doi:10.1007/s00267-003-9110-9.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Soil carbon sequestration",
+      "practices": [],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w06__p03",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "Lal, R., 2009: Sequestering carbon in soils of arid ecosystems. L. Degrad. Dev., 20, 441–454, doi:10.1002/ldr.934.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Soil carbon sequestration",
+      "practices": [],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w06__p04",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "Lal, R., 2018: Managing agricultural soils of Pakistan for food and climate. Soil Environ., 37, 1–10.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Soil management",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w06__p05",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "López-Bermúdez, F., 1990: Soil erosion by water on the desertification of a semi-arid Mediterranean fluvial basin: The Segura Basin, Spain. Agric. Ecosyst. Environ., 33, 129–145, doi:10.1016/0167-8809(90)90238-9.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "Soil erosion",
+      "practices": [],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [],
+  "links": [],
+  "_meta": {
+    "unit_id": "srccl_ch3_desertification__w06",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 325,
+    "pdf_end": 336,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:49:56Z",
+    "pdf_sha256": "d922bc601cf4ea5e"
+  }
+}

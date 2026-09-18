@@ -1,0 +1,335 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Land degradation",
+  "content_type": "assessment",
+  "summary": "This unit examines the complex, three-way relationships between land degradation, climate change, and poverty, highlighting how these factors act as threat multipliers for livelihoods. It discusses sustainable land management (SLM) and sustainable forest management (SFM) as key strategies for adaptation and mitigation, while noting barriers to implementation and the importance of resilience and indigenous knowledge.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch4_land_degradation__w03__p01",
+      "heading_path": [
+        "Chapter 4",
+        "Land degradation"
+      ],
+      "text": "Climate change is considered to exacerbate land degradation and potentially accelerate it due to heat stress, drought, changes to evapotranspiration rates and biodiversity, as well as a result of changes to environmental conditions that allow new pests and diseases to thrive. In general terms, the climate (and climate change) can increase human and ecological communities’ sensitivity to land degradation. Land degradation then leaves livelihoods more sensitive to the impacts of climate change and extreme climatic events (high agreement, robust evidence).",
+      "page_start": 378,
+      "page_end": 378,
+      "topic": "Climate change and land degradation",
+      "practices": [],
+      "metrics": [
+        "temperature",
+        "rainfall",
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w03__p02",
+      "heading_path": [
+        "Chapter 4",
+        "Land degradation",
+        "4.7.1 Relationships between land degradation, climate change and poverty"
+      ],
+      "text": "Recent work by Barbier and Hochard (2018) points to biophysical constraints such as poor soils and limited rainfall, which interact to limit land productivity, suggesting that those farming in climatically less-favourable agricultural areas are challenged by poverty.",
+      "page_start": 378,
+      "page_end": 378,
+      "topic": "Land degradation and poverty",
+      "practices": [],
+      "metrics": [
+        "nutrient_availability",
+        "rainfall",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w03__p03",
+      "heading_path": [
+        "Chapter 4",
+        "Land degradation",
+        "4.7.1 Relationships between land degradation, climate change and poverty"
+      ],
+      "text": "When certain livelihood activities and strategies are no longer tenable as a result of land degradation (and may push people into poverty), land degradation can have further effects on issues such as migration, as people adapt by moving; and may result in conflict, as different groups within society compete for scarce resources, sometimes through non-peaceful actions. Both migration and conflict can lead to land-use changes elsewhere that further fuel climate change through increased emissions.",
+      "page_start": 378,
+      "page_end": 378,
+      "topic": "Land degradation, migration, and conflict",
+      "practices": [],
+      "metrics": [
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w03__p04",
+      "heading_path": [
+        "Chapter 4",
+        "Land degradation",
+        "4.7.2 Impacts of climate-related land degradation on food security"
+      ],
+      "text": "Along with socio-economic drivers, climate change accelerates land degradation due to its influence on land-use systems, potentially leading to a decline in agri-food system productivity, particularly on the supply side. Increases in temperature and changes in precipitation patterns are expected to have impacts on soil quality, including nutrient availability and assimilation.",
+      "page_start": 379,
+      "page_end": 379,
+      "topic": "Climate change and food security",
+      "practices": [],
+      "metrics": [
+        "crop_yield",
+        "temperature",
+        "rainfall",
+        "soil_organic_matter",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w03__p05",
+      "heading_path": [
+        "Chapter 4",
+        "Land degradation",
+        "4.8 Addressing land degradation in the context of climate change"
+      ],
+      "text": "Pairwise analysis of 880 fields with and without implementation of SLM practices showed that the SLM fields systematically fared better than the fields without SLM in terms of more topsoil remaining, higher field moisture, more vegetation, less erosion and lower economic losses after the cyclone. Furthermore, the difference between fields with and without SLM increased with increasing levels of storm intensity, slope gradient, and age of SLM.",
+      "page_start": 381,
+      "page_end": 381,
+      "topic": "SLM effectiveness",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "biomass",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w03__p06",
+      "heading_path": [
+        "Chapter 4",
+        "Land degradation",
+        "4.8.1.1 Agronomic and soil management measures"
+      ],
+      "text": "The two most important reasons why agricultural soils have lost 20–60% of the soil carbon they contained under natural ecosystem conditions are the frequent disturbance through tillage and harvesting, and the change from deep-rooted perennial plants to shallow-rooted annual plants.",
+      "page_start": 382,
+      "page_end": 382,
+      "topic": "Soil carbon loss",
+      "practices": [
+        "no_till",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w03__p07",
+      "heading_path": [
+        "Chapter 4",
+        "Land degradation",
+        "4.8.1.2 Mechanical soil and water conservation"
+      ],
+      "text": "In terms of climate change, terraces are a form of adaptation that helps in cases where rainfall is increasing or intensifying (by reducing slope gradient and the hydrological connectivity), and where rainfall is decreasing (by increasing infiltration and reducing runoff) (robust evidence, high agreement).",
+      "page_start": 383,
+      "page_end": 383,
+      "topic": "Terracing and climate adaptation",
+      "practices": [
+        "terracing"
+      ],
+      "metrics": [
+        "rainfall"
+      ],
+      "climate_zones": [
+        "arid",
+        "tropical"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w03__p08",
+      "heading_path": [
+        "Chapter 4",
+        "Land degradation",
+        "4.8.6 Resilience and thresholds"
+      ],
+      "text": "A threshold is a non-linearity between a controlling variable and system function, such that a small change in the variable causes the system to shift to an alternative state. For example, 50% ground cover (living and dead plant material and biological crusts) is a recognised threshold for dryland grazing systems; below this threshold, the infiltration rate declines, risk of erosion causing loss of topsoil increases, a switch from perennial to annual grass species occurs and there is a consequential sharp decline in productivity.",
+      "page_start": 389,
+      "page_end": 389,
+      "topic": "Resilience and thresholds",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "species_richness",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "rangeland"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch4_land_degradation__w03__c01",
+      "passage_id": "srccl_ch4_land_degradation__w03__p01",
+      "subject": "Climate change",
+      "metric": "erosion",
+      "direction": "increase",
+      "evidence_span": "Climate change is considered to exacerbate land degradation and potentially accelerate it due to heat stress, drought, changes to evapotranspiration rates and biodiversity",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w03__c02",
+      "passage_id": "srccl_ch4_land_degradation__w03__p05",
+      "subject": "SLM practices",
+      "metric": "erosion",
+      "direction": "decrease",
+      "evidence_span": "Pairwise analysis of 880 fields with and without implementation of SLM practices showed that the SLM fields systematically fared better than the fields without SLM in terms of more topsoil remaining, higher field moisture, more vegetation, less erosion and lower economic losses after the cyclone.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w03__c03",
+      "passage_id": "srccl_ch4_land_degradation__w03__p06",
+      "subject": "Tillage and harvesting",
+      "metric": "SOC",
+      "direction": "decrease",
+      "value": 20,
+      "value_high": 60,
+      "unit": "percent",
+      "evidence_span": "The two most important reasons why agricultural soils have lost 20–60% of the soil carbon they contained under natural ecosystem conditions are the frequent disturbance through tillage and harvesting, and the change from deep-rooted perennial plants to shallow-rooted annual plants",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w03__c04",
+      "passage_id": "srccl_ch4_land_degradation__w03__p08",
+      "subject": "Ground cover below 50%",
+      "metric": "erosion",
+      "direction": "increase",
+      "evidence_span": "below this threshold, the infiltration rate declines, risk of erosion causing loss of topsoil increases, a switch from perennial to annual grass species occurs and there is a consequential sharp decline in productivity.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "Climate change",
+      "to_node": "Land degradation",
+      "effect": "increase",
+      "mechanism": "heat stress, drought, changes to evapotranspiration",
+      "passage_id": "srccl_ch4_land_degradation__w03__p01",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "Land degradation",
+      "to_node": "Livelihood sensitivity",
+      "effect": "increase",
+      "passage_id": "srccl_ch4_land_degradation__w03__p01",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "Land degradation",
+      "to_node": "Migration",
+      "effect": "increase",
+      "passage_id": "srccl_ch4_land_degradation__w03__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "Land degradation",
+      "to_node": "Conflict",
+      "effect": "increase",
+      "passage_id": "srccl_ch4_land_degradation__w03__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "Climate change",
+      "to_node": "Land degradation",
+      "effect": "increase",
+      "mechanism": "influence on land-use systems",
+      "passage_id": "srccl_ch4_land_degradation__w03__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "SLM practices",
+      "to_node": "Erosion",
+      "effect": "decrease",
+      "passage_id": "srccl_ch4_land_degradation__w03__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "Tillage and harvesting",
+      "to_node": "SOC",
+      "effect": "decrease",
+      "passage_id": "srccl_ch4_land_degradation__w03__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "Terracing",
+      "to_node": "Erosion",
+      "effect": "decrease",
+      "condition": "rainfall increasing or decreasing",
+      "passage_id": "srccl_ch4_land_degradation__w03__p07",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "Ground cover < 50%",
+      "to_node": "Erosion",
+      "effect": "increase",
+      "passage_id": "srccl_ch4_land_degradation__w03__p08",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch4_land_degradation__w03",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 388,
+    "pdf_end": 399,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:09:03Z",
+    "pdf_sha256": "0818df610daffe91"
+  }
+}

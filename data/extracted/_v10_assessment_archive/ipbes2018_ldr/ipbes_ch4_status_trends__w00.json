@@ -1,0 +1,86 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4.1.2 The degradation process",
+  "content_type": "other",
+  "summary": "This section describes the conceptual framework of land degradation using response curves to illustrate how human-induced stresses affect ecosystem services, including the concept of thresholds and permanent degradation.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch4_status_trends__w00__p01",
+      "heading_path": [
+        "4.1 INTRODUCTION",
+        "4.1.2 The degradation process"
+      ],
+      "text": "The analogy of a cusp threshold (Figure 4.1) illustrates some of the different types of degradation. The effects of stress caused by human activities to which organisms are susceptible, and therefore the ecosystem service they provide (e.g., depleted soil nitrogen and crop production), can be envisaged as a “response curve”. This is shown by the blue curve from 1 to 2 to 3 in Figure 1. The ecosystem service responds rapidly, almost linearly to the particular stress involved (from point 2 to 3), until the stress declines (e.g., nitrogen is added in the crop example). As the stress declines from right to left in Figure 1, further increases in the service (e.g., crop yield) decrease (from 1 to 0), often reaching a plateau when additional reductions of the specific stress have no further effect (at 0). Fluctuations in the stress cause the ecosystem service to move up and down the curve in its range of resilience (2 to 3).",
+      "page_start": 7,
+      "page_end": 8,
+      "topic": "degradation process",
+      "practices": [],
+      "metrics": [
+        "nitrogen",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w00__p02",
+      "heading_path": [
+        "4.1 INTRODUCTION",
+        "4.1.2 The degradation process"
+      ],
+      "text": "On the other hand, there are conditions in which stress drives down the provision of the service, as illustrated by curve 5 to 6, until it reaches a threshold (point 5) (Turnbull et al., 2008) at which the ecosystem service drops dramatically. This is an example of a non-linear ecological process. Most importantly the ecosystem service cannot be recovered no matter how much the stress is relieved. In this level of degradation, shown as the lower part of the red curve, the ecosystem reaches its completely degraded condition (point 3): this is the permanently degraded condition described in Vogt et al. (2011).",
+      "page_start": 8,
+      "page_end": 8,
+      "topic": "degradation process",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch4_status_trends__w00__c01",
+      "passage_id": "ipbes_ch4_status_trends__w00__p01",
+      "subject": "ecosystem service",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "evidence_span": "As the stress declines from right to left in Figure 1, further increases in the service (e.g., crop yield) decrease (from 1 to 0), often reaching a plateau when additional reductions of the specific stress have no further effect (at 0).",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "stress",
+      "to_node": "ecosystem service",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "non-linear ecological process",
+      "passage_id": "ipbes_ch4_status_trends__w00__p02",
+      "strength_stated": "strong"
+    }
+  ],
+  "_meta": {
+    "unit_id": "ipbes_ch4_status_trends__w00",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 279,
+    "pdf_end": 290,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:54:37Z",
+    "pdf_sha256": "08bd077db10b242b"
+  }
+}

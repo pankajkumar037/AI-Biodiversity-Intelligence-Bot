@@ -1,0 +1,223 @@
+{
+  "extraction_status": "ok",
+  "section_title": "3.1 Agroforestry Model: Melia dubia based Agri-sylvicultural System",
+  "content_type": "model",
+  "summary": "This document describes the Melia dubia based agri-sylvicultural system in the Deccan Plateau (AER 3), detailing its propagation, spacing, and management practices for bund, boundary, and block planting, along with its economic and environmental impacts.",
+  "passages": [
+    {
+      "passage_id": "handa_3_1_melia_dubia__p01",
+      "heading_path": [
+        "3.1 Agroforestry Model: Melia dubia based Agri-sylvicultural System"
+      ],
+      "text": "Melia dubia is planted at a spacing of 2.5 to 3.0 m apart on the bunds which are spaced at 30 m apart in arable lands, where finger millet, soybean, dolichos, red gram and other field crops are cultivated under rainfed conditions. Under irrigated conditions, vegetable crops, flower crops and plantation crops are also cultivated.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Bund planting technology",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "handa_3_1_melia_dubia__p02",
+      "heading_path": [
+        "3.1 Agroforestry Model: Melia dubia based Agri-sylvicultural System",
+        "Melia dubia based Agroforestry Systems – Bund planting"
+      ],
+      "text": "As Melia is spaced wide apart and planted on bunds, not much reduction in yield of the crops is noticed both in rainfed and irrigated conditions.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Crop yield",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "handa_3_1_melia_dubia__p03",
+      "heading_path": [
+        "3.1 Agroforestry Model: Melia dubia based Agri-sylvicultural System",
+        "Melia dubia based agroforestry systems – Block planting"
+      ],
+      "text": "Up to three to four years of tree growth any field crops are recommended. However, after four years a drastic yield reduction in field crops can occur. Hence, adopting perennial forage crops for rearing of animal components as an integrated system is recommended.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Block planting constraints",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "handa_3_1_melia_dubia__p04",
+      "heading_path": [
+        "3.1 Agroforestry Model: Melia dubia based Agri-sylvicultural System"
+      ],
+      "text": "Environmental benefit: Melia dubia leaf litter may alter soil chemistry, with increased pH and mineralizable nitrogen over time.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Environmental benefits",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "pH",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "handa_3_1_melia_dubia__c01",
+      "passage_id": "handa_3_1_melia_dubia__p02",
+      "subject": "Melia dubia bund planting",
+      "metric": "crop_yield",
+      "direction": "no_change",
+      "evidence_span": "As Melia is spaced wide apart and planted on bunds, not much reduction in yield of the crops is noticed both in rainfed and irrigated conditions.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "handa_3_1_melia_dubia__c02",
+      "passage_id": "handa_3_1_melia_dubia__p03",
+      "subject": "Melia dubia block planting",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "evidence_span": "However, after four years a drastic yield reduction in field crops can occur.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "handa_3_1_melia_dubia__c03",
+      "passage_id": "handa_3_1_melia_dubia__p04",
+      "subject": "Melia dubia leaf litter",
+      "metric": "pH",
+      "direction": "increase",
+      "evidence_span": "Melia dubia leaf litter may alter soil chemistry, with increased pH and mineralizable nitrogen over time.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "handa_3_1_melia_dubia__c04",
+      "passage_id": "handa_3_1_melia_dubia__p04",
+      "subject": "Melia dubia leaf litter",
+      "metric": "nitrogen",
+      "direction": "increase",
+      "evidence_span": "Melia dubia leaf litter may alter soil chemistry, with increased pH and mineralizable nitrogen over time.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "crop_yield",
+      "effect": "no_change",
+      "condition": "bund planting",
+      "passage_id": "handa_3_1_melia_dubia__p02",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "block planting after 4 years",
+      "passage_id": "handa_3_1_melia_dubia__p03",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "pH",
+      "effect": "increase",
+      "mechanism": "leaf litter",
+      "passage_id": "handa_3_1_melia_dubia__p04",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "nitrogen",
+      "effect": "increase",
+      "mechanism": "leaf litter",
+      "passage_id": "handa_3_1_melia_dubia__p04",
+      "strength_stated": "moderate"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Melia dubia based Agri-sylvicultural System",
+    "tree_species": [
+      "Melia dubia"
+    ],
+    "crop_species": [
+      "finger millet",
+      "soybean",
+      "dolichos",
+      "red gram",
+      "vegetable crops",
+      "flower crops",
+      "plantation crops",
+      "cowpea"
+    ],
+    "region_of_adoption": [
+      "Karnataka",
+      "Andhra Pradesh",
+      "Tamil Nadu"
+    ],
+    "rainfall_mm_low": 400,
+    "rainfall_mm_high": 500,
+    "stated_benefits": [
+      "Increased annual income",
+      "better standard of living of farmers",
+      "fodder for sheep, goat and dairy animals",
+      "increased soil pH",
+      "increased mineralizable nitrogen"
+    ],
+    "stated_constraints": [
+      "drastic yield reduction in field crops after four years in block planting"
+    ]
+  },
+  "_meta": {
+    "unit_id": "handa_3_1_melia_dubia",
+    "doc_id": "handa2019_agroforestry_models",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 28,
+    "pdf_end": 33,
+    "manifest_practices": [],
+    "manifest_climate_zones": [
+      "arid"
+    ],
+    "extracted_at": "2026-09-18T08:58:54Z",
+    "pdf_sha256": "e7d3e4495df48926"
+  }
+}

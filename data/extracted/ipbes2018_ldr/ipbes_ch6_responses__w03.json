@@ -1,0 +1,335 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Responses to halt land degradation and to restore degraded land",
+  "content_type": "assessment",
+  "summary": "This assessment reviews various management strategies, policy instruments, and economic mechanisms for halting land degradation and restoring degraded land, including soil management, water quality improvement, and the role of indigenous knowledge and policy-induced price changes.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch6_responses__w03__p01",
+      "heading_path": [
+        "Salinization"
+      ],
+      "text": "Growing salt-tolerant crops often have an added soil health and/or quality benefit, because they generally support the formation of stable soil aggregates that improve infiltration and resistance to wind erosion, while also decreasing surface crusting.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Salinization",
+      "practices": [],
+      "metrics": [
+        "soil_organic_matter",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w03__p02",
+      "heading_path": [
+        "Soil management strategies to enhance soil health and/or quality and mitigate degradation"
+      ],
+      "text": "Tillage frequency and intensity, crop rotation, animal and/or green manure application, cover cropping, grazing intensity and agroforestry can improve soil health and/or quality and avoid, reduce or reverse land degradation by increasing biomass content and biodiversity.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Soil management",
+      "practices": [
+        "crop_rotation",
+        "manure",
+        "cover_crops",
+        "rotational_grazing",
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "species_richness",
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w03__p03",
+      "heading_path": [
+        "Soil management strategies to enhance soil health and/or quality and mitigate degradation"
+      ],
+      "text": "Tillage is especially important, because it affects surface cover and the size, composition and activity of the biological community below ground. Tillage also affects soil structure and stability, aeration, water balance and nutrient cycling - although response time when converting from high to low impact activities can take a decade.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Soil management",
+      "practices": [
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "soil_biota",
+        "nutrient_availability",
+        "water_holding_capacity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w03__p04",
+      "heading_path": [
+        "Box 6 6 Use of farmers’ knowledge to enhance soil health in India."
+      ],
+      "text": "In rainfed areas, farmers use traditional practices to grow various annual crops (including millet) that exploit different growth habits and rooting patterns. Those differences enable the crops to use nutrients and soil water from different soil layers, thus increasing resource-use efficiencies. In turn, this results in more rapid canopy closure which reduces weed growth and competition with the annual crops, as well as the erosive impact of intensive (monsoon) rainfall when it does occur.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Indigenous knowledge",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "soil_moisture",
+        "erosion"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w03__p05",
+      "heading_path": [
+        "Box 6 6 Use of farmers’ knowledge to enhance soil health in India."
+      ],
+      "text": "The combination of residual root biomass, crop residue, animal excreta and farmyard manure helps sustain the soil organic matter content, which in turn improves soil health, crop nutritional status and economic returns to the farmers.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Indigenous knowledge",
+      "practices": [
+        "manure"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w03__p06",
+      "heading_path": [
+        "6.3.2.4 Responses to water quality changes"
+      ],
+      "text": "Integrated land and water management is an effective response to ensure catchment-scale hydrological balance and to minimize the occurrence of extreme hydrological events (floods and drought) and their impacts on people.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Water management",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "rainfall"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w03__p07",
+      "heading_path": [
+        "6.4.1 Responses to indirect drivers: globalization, demographic change and migration"
+      ],
+      "text": "Forest ecosystem recovery through natural regeneration following rural-urban migration is well documented for many parts of Latin America and for non-forested ecosystems. In Misiones, Argentina, rural emigration “reduced” deforestation by 24% compared to a “no-migration” scenario. If future emigration rates increase, deforestation will be reduced by 26% in 2030 compared to the current trend.",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "Migration",
+      "practices": [],
+      "metrics": [
+        "tree_cover",
+        "erosion"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w03__p08",
+      "heading_path": [
+        "6.4.2.3 Economic and financial instruments",
+        "Policy-induced price change"
+      ],
+      "text": "In the Philippines, lower corn prices - after removing import tariffs - had the effect of conserving soil and reducing soil erosion in areas marginally suited to corn production. Similarly, European farm subsidies to meet good agricultural and environmental standards have been effective for erosion control, ground water management and increasing soil organic matter.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "Economic instruments",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "soil_moisture",
+        "soil_organic_matter"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch6_responses__w03__c01",
+      "passage_id": "ipbes_ch6_responses__w03__p01",
+      "subject": "salt-tolerant crops",
+      "metric": "erosion",
+      "direction": "decrease",
+      "evidence_span": "Growing salt-tolerant crops often have an added soil health and/or quality benefit, because they generally support the formation of stable soil aggregates that improve infiltration and resistance to wind erosion, while also decreasing surface crusting.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w03__c02",
+      "passage_id": "ipbes_ch6_responses__w03__p02",
+      "subject": "tillage, crop rotation, manure, cover cropping, grazing intensity, agroforestry",
+      "metric": "soil_organic_matter",
+      "direction": "increase",
+      "evidence_span": "Tillage frequency and intensity, crop rotation, animal and/or green manure application, cover cropping, grazing intensity and agroforestry can improve soil health and/or quality and avoid, reduce or reverse land degradation by increasing biomass content and biodiversity.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w03__c03",
+      "passage_id": "ipbes_ch6_responses__w03__p04",
+      "subject": "mixed and diversified cropping systems",
+      "metric": "erosion",
+      "direction": "decrease",
+      "evidence_span": "Those differences enable the crops to use nutrients and soil water from different soil layers, thus increasing resource-use efficiencies. In turn, this results in more rapid canopy closure which reduces weed growth and competition with the annual crops, as well as the erosive impact of intensive (monsoon) rainfall when it does occur.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w03__c04",
+      "passage_id": "ipbes_ch6_responses__w03__p05",
+      "subject": "residual root biomass, crop residue, animal excreta and farmyard manure",
+      "metric": "soil_organic_matter",
+      "direction": "increase",
+      "evidence_span": "The combination of residual root biomass, crop residue, animal excreta and farmyard manure helps sustain the soil organic matter content, which in turn improves soil health, crop nutritional status and economic returns to the farmers.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w03__c05",
+      "passage_id": "ipbes_ch6_responses__w03__p07",
+      "subject": "rural emigration",
+      "metric": "tree_cover",
+      "direction": "increase",
+      "value": 24,
+      "unit": "percent_change",
+      "evidence_span": "In Misiones, Argentina, rural emigration “reduced” deforestation by 24% compared to a “no-migration” scenario.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w03__c06",
+      "passage_id": "ipbes_ch6_responses__w03__p08",
+      "subject": "lower corn prices",
+      "metric": "erosion",
+      "direction": "decrease",
+      "evidence_span": "In the Philippines, lower corn prices - after removing import tariffs - had the effect of conserving soil and reducing soil erosion in areas marginally suited to corn production.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w03__c07",
+      "passage_id": "ipbes_ch6_responses__w03__p08",
+      "subject": "European farm subsidies",
+      "metric": "soil_organic_matter",
+      "direction": "increase",
+      "evidence_span": "Similarly, European farm subsidies to meet good agricultural and environmental standards have been effective for erosion control, ground water management and increasing soil organic matter.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "salt-tolerant crops",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch6_responses__w03__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "tillage, crop rotation, manure, cover cropping, grazing intensity, agroforestry",
+      "to_node": "soil_organic_matter",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w03__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mixed and diversified cropping systems",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch6_responses__w03__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "residual root biomass, crop residue, animal excreta and farmyard manure",
+      "to_node": "soil_organic_matter",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w03__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "rural emigration",
+      "to_node": "tree_cover",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w03__p07",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "lower corn prices",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch6_responses__w03__p08",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "European farm subsidies",
+      "to_node": "soil_organic_matter",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w03__p08",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch6_responses__w03",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 526,
+    "pdf_end": 537,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:16:54Z",
+    "pdf_sha256": "7ce2177791598a0f"
+  }
+}

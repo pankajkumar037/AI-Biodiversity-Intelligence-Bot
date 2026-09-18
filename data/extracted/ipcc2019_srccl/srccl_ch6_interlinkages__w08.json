@@ -1,0 +1,283 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+  "content_type": "assessment",
+  "summary": "This chapter explores the interlinkages between desertification, land degradation, food security, and greenhouse gas fluxes, emphasizing the role of stakeholder engagement, community-based approaches, and the implications of delayed climate action. It also details Shared Socio-economic Pathways (SSPs) and their impacts on land use, mitigation, and food security.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch6_interlinkages__w08__p01",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Stakeholder engagement is an important approach for successful environmental and climate policy and planning. Tools such as stakeholder mapping, in which affected and interested parties are identified and described in terms of their interrelationships and current or future objectives and aspirations, and scenario-based stakeholder engagement, which combines stakeholder analysis with climate scenarios, are increasingly being applied to facilitate better planning outcomes.",
+      "page_start": 639,
+      "page_end": 639,
+      "topic": "Stakeholder engagement",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w08__p02",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+        "Challenges of coordination"
+      ],
+      "text": "Agricultural diversification and use of local seeds by smallholders can be particularly useful poverty eradication and biodiversity conservation measures, but are only successful when higher scales, such as national and international markets and supply chains, also value these goods in trade regimes, and consumers see the benefits of purchasing these goods.",
+      "page_start": 640,
+      "page_end": 640,
+      "topic": "Agricultural diversification",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w08__p03",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+        "Challenges of coordination"
+      ],
+      "text": "High levels of social trust and capital can increase willingness of farmers to engage in response options, such as improved soil management or carbon forestry, and social capital helps with connectivity across levels of SESs.",
+      "page_start": 640,
+      "page_end": 640,
+      "topic": "Social capital and response options",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "forest"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w08__p04",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+        "Cross-Chapter Box 9 | Climate and land pathways"
+      ],
+      "text": "Land-based mitigation options have implications for GHG fluxes, desertification, land degradation, food insecurity, ecosystem services and other aspects of sustainable development.",
+      "page_start": 641,
+      "page_end": 641,
+      "topic": "Land-based mitigation",
+      "practices": [],
+      "metrics": [
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w08__p05",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+        "Cross-Chapter Box 9 (continued)",
+        "Implications for mitigation and other land challenges"
+      ],
+      "text": "Accounting for mitigation and socio-economics alone, food prices (an indicator of food insecurity) are higher in SSP3 than in SSP1 and higher in the 1.9 W m–2 target than in the 4.5 W m–2 target. Forest cover is higher in SSP1 than SSP3 and higher in the 1.9 W m–2 target than in the 4.5 W m–2 target.",
+      "page_start": 642,
+      "page_end": 642,
+      "topic": "SSP impacts on food and forest",
+      "practices": [],
+      "metrics": [
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w08__p06",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+        "6.4.5 Potential consequences of delayed action"
+      ],
+      "text": "Delayed action increases response costs and reduces economic growth: Early action on reducing emissions through mitigation is estimated to result in smaller temperature increases as well as lower mitigation costs than delayed action. The cost of inaction to address mitigation, adaptation, and sustainable land use exceeds the cost of immediate action in most countries, depending on how damage functions and the social cost of carbon are calculated.",
+      "page_start": 644,
+      "page_end": 644,
+      "topic": "Delayed action consequences",
+      "practices": [],
+      "metrics": [
+        "temperature"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w08__p07",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+        "6.4.5 Potential consequences of delayed action"
+      ],
+      "text": "Delaying action can also result in problems of irreversibility of biophysical impacts and tipping points: Early action provides a potential way to avoid irreversibility – such as degradation of ecosystems that cannot be restored to their original baseline – and tipping points, whereby ecological or climate systems abruptly shift to a new state. Ecosystems, such as peatlands, are particularly vulnerable to irreversibility because of the difficulties of rewetting to original states, and dryland grazing systems are vulnerable to tipping points when ground cover falls below 50%, after which productivity falls, infiltration declines, and erosion increases.",
+      "page_start": 645,
+      "page_end": 645,
+      "topic": "Irreversibility and tipping points",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "biomass"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "rangeland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w08__p08",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+        "Frequently Asked Questions",
+        "FAQ 6.2 | Which land-based mitigation measures could affect desertification, land degradation or food security?"
+      ],
+      "text": "Some options for mitigating climate change are based on increasing carbon stores, both above-ground and below-ground, so mitigation is usually related to increases in soil organic matter content and increased land cover by perennial vegetation. There is a direct relationship, with very few or no adverse side effects for prevention or reversal of desertification and land degradation and the achievement of food security. This is because desertification and land degradation are closely associated with soil organic matter losses and the presence of bare ground surfaces.",
+      "page_start": 646,
+      "page_end": 646,
+      "topic": "Mitigation and land degradation",
+      "practices": [],
+      "metrics": [
+        "soil_organic_matter",
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch6_interlinkages__w08__c01",
+      "passage_id": "srccl_ch6_interlinkages__w08__p03",
+      "subject": "social trust and capital",
+      "metric": "soil_organic_matter",
+      "direction": "increase",
+      "evidence_span": "High levels of social trust and capital can increase willingness of farmers to engage in response options, such as improved soil management or carbon forestry",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w08__c02",
+      "passage_id": "srccl_ch6_interlinkages__w08__p05",
+      "subject": "SSP3 vs SSP1",
+      "metric": "tree_cover",
+      "direction": "decrease",
+      "evidence_span": "Forest cover is higher in SSP1 than SSP3",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w08__c03",
+      "passage_id": "srccl_ch6_interlinkages__w08__p07",
+      "subject": "ground cover below 50%",
+      "metric": "erosion",
+      "direction": "increase",
+      "evidence_span": "dryland grazing systems are vulnerable to tipping points when ground cover falls below 50%, after which productivity falls, infiltration declines, and erosion increases",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w08__c04",
+      "passage_id": "srccl_ch6_interlinkages__w08__p07",
+      "subject": "ground cover below 50%",
+      "metric": "biomass",
+      "direction": "decrease",
+      "evidence_span": "dryland grazing systems are vulnerable to tipping points when ground cover falls below 50%, after which productivity falls",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w08__c05",
+      "passage_id": "srccl_ch6_interlinkages__w08__p08",
+      "subject": "mitigation (increasing carbon stores)",
+      "metric": "soil_organic_matter",
+      "direction": "increase",
+      "evidence_span": "Some options for mitigating climate change are based on increasing carbon stores, both above-ground and below-ground, so mitigation is usually related to increases in soil organic matter content",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "social trust and capital",
+      "to_node": "soil_organic_matter",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w08__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "ground cover below 50%",
+      "to_node": "erosion",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w08__p07",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "ground cover below 50%",
+      "to_node": "biomass",
+      "effect": "decrease",
+      "passage_id": "srccl_ch6_interlinkages__w08__p07",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "mitigation (increasing carbon stores)",
+      "to_node": "soil_organic_matter",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w08__p08",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w08",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 649,
+    "pdf_end": 660,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:12:30Z",
+    "pdf_sha256": "28ffc818ef85171a"
+  }
+}

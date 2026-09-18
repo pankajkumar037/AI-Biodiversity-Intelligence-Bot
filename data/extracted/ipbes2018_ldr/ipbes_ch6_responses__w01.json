@@ -1,0 +1,282 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Responses to halt land degradation and to restore degraded land",
+  "content_type": "assessment",
+  "summary": "This assessment reviews various strategies for halting land degradation and restoring degraded land, including conservation agriculture, integrated crop-livestock-forestry systems, agroecology, agroforestry, watershed management, and urban land restoration. It highlights the importance of landscape-level planning, indigenous knowledge, and the integration of social and ecological objectives.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch6_responses__w01__p01",
+      "heading_path": [
+        "Conservation agriculture"
+      ],
+      "text": "Conservation agriculture, as defined by the FAO, is characterized by three specific actions including: (i) continuous minimum mechanical soil disturbance; (ii) permanent organic soil cover; and (iii) diversification of crop species grown in sequences and/or associations.",
+      "page_start": 446,
+      "page_end": 446,
+      "topic": "Conservation agriculture definition",
+      "practices": [
+        "no_till",
+        "reduced_tillage"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w01__p02",
+      "heading_path": [
+        "Integrated crop, livestock and forestry systems"
+      ],
+      "text": "Integrated crop and livestock and integrated crop, livestock and forestry systems. These systems not only increased food and feed production at farm and regional levels, but also improved many ecosystem services.",
+      "page_start": 446,
+      "page_end": 446,
+      "topic": "Integrated systems benefits",
+      "practices": [
+        "crop_livestock_integration",
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w01__p03",
+      "heading_path": [
+        "Agroecology"
+      ],
+      "text": "Agroecological practices encompass a broad array of agricultural technologies that take advantage of natural processes and beneficial on-farm interactions in order to reduce off-farm input use and to improve the productivity and efficiency of farming systems, enhance food security by diversifying crop production and managing environmental and economic risks, and avoid agricultural land degradation. They typically involve management practices such as cover crops, green manures, intercropping, agroforestry and crop-livestock mixtures that promote organic matter accumulation and nutrient cycling, soil biological activity, natural control mechanisms (disease suppression, biocontrol of insects, weed interference), resource conservation and regeneration (soil, water, germplasm), and general enhancements of agrobiodiversity and synergisms between components.",
+      "page_start": 447,
+      "page_end": 447,
+      "topic": "Agroecology mechanisms",
+      "practices": [
+        "cover_crops",
+        "intercropping",
+        "agroforestry_agrisilvicultural",
+        "crop_livestock_integration"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "nutrient_availability",
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w01__p04",
+      "heading_path": [
+        "Agroforestry"
+      ],
+      "text": "Agroforestry can reduce or reverse land degradation by: (i) maintaining soil fertility through increased carbon inputs, nitrogen fixation and nutrient cycling; (ii) reducing erosion; and (iii) conserving water (quantity and quality) through increased infiltration and reduced surface runoff.",
+      "page_start": 448,
+      "page_end": 448,
+      "topic": "Agroforestry benefits",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "nitrogen",
+        "erosion",
+        "water_holding_capacity"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w01__p05",
+      "heading_path": [
+        "Agroforestry"
+      ],
+      "text": "It also has considerable potential for carbon sequestration, because the above- and below-ground carbon density of typical tropical agroforestry systems is estimated at 12 to 228 Mg ha-1, with a median value of 95 Mg ha-1. For smallholders, potential carbon sequestration rates generally range from 1.5 to 3.5 Mg C ha-1 yr-1.",
+      "page_start": 448,
+      "page_end": 448,
+      "topic": "Agroforestry carbon sequestration",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w01__p06",
+      "heading_path": [
+        "Use of Enhanced Plant Genetics"
+      ],
+      "text": "Therefore, combining improved plant genetics with decreased tillage and efficient use of fertilizer and irrigation water can not only increase soil organic carbon, but contribute to climate change mitigation.",
+      "page_start": 449,
+      "page_end": 449,
+      "topic": "Plant genetics and soil carbon",
+      "practices": [
+        "reduced_tillage",
+        "integrated_nutrient_mgmt",
+        "irrigation"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w01__p07",
+      "heading_path": [
+        "Integrated Watershed Management"
+      ],
+      "text": "Decreasing tillage frequency and intensity coupled with restoring or increasing soil organic carbon are two mitigation/restoration strategies that have been successfully demonstrated at the watershed scale.",
+      "page_start": 449,
+      "page_end": 449,
+      "topic": "Watershed management",
+      "practices": [
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w01__p08",
+      "heading_path": [
+        "6.3.1.3 Responses to rangeland degradation"
+      ],
+      "text": "Developing and implementing grazing management plans is an efficient response to avoid and reduce rangeland degradation in particularly sensitive parts of the landscape (e.g., slopes, water points, riparian strips) and for soil and water conservation.",
+      "page_start": 454,
+      "page_end": 454,
+      "topic": "Rangeland management",
+      "practices": [
+        "rotational_grazing"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "rangeland"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch6_responses__w01__c01",
+      "passage_id": "ipbes_ch6_responses__w01__p02",
+      "subject": "Integrated crop, livestock and forestry systems",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "evidence_span": "These systems not only increased food and feed production at farm and regional levels, but also improved many ecosystem services",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w01__c02",
+      "passage_id": "ipbes_ch6_responses__w01__p04",
+      "subject": "Agroforestry",
+      "metric": "erosion",
+      "direction": "decrease",
+      "evidence_span": "Agroforestry can reduce or reverse land degradation by: (i) maintaining soil fertility through increased carbon inputs, nitrogen fixation and nutrient cycling; (ii) reducing erosion; and (iii) conserving water (quantity and quality) through increased infiltration and reduced surface runoff.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w01__c03",
+      "passage_id": "ipbes_ch6_responses__w01__p05",
+      "subject": "Agroforestry",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": 1.5,
+      "value_low": 1.5,
+      "value_high": 3.5,
+      "unit": "Mg_ha_yr",
+      "evidence_span": "For smallholders, potential carbon sequestration rates generally range from 1.5 to 3.5 Mg C ha-1 yr-1.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w01__c04",
+      "passage_id": "ipbes_ch6_responses__w01__p06",
+      "subject": "Improved plant genetics, decreased tillage, efficient fertilizer and irrigation",
+      "metric": "SOC",
+      "direction": "increase",
+      "evidence_span": "Therefore, combining improved plant genetics with decreased tillage and efficient use of fertilizer and irrigation water can not only increase soil organic carbon, but contribute to climate change mitigation.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "agroforestry",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch6_responses__w01__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "mechanism": "increased infiltration and reduced surface runoff",
+      "passage_id": "ipbes_ch6_responses__w01__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "improved plant genetics, decreased tillage, efficient fertilizer and irrigation",
+      "to_node": "SOC",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w01__p06",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch6_responses__w01",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 504,
+    "pdf_end": 515,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:16:24Z",
+    "pdf_sha256": "5ce147ff940a9761"
+  }
+}

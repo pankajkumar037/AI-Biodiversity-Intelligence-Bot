@@ -1,0 +1,245 @@
+{
+  "extraction_status": "ok",
+  "section_title": "5.5 Diversification in production systems",
+  "content_type": "assessment",
+  "summary": "This document unit reviews agroforestry and aquaculture diversification practices, highlighting their roles in biodiversity conservation, food security, and ecosystem service provision, while noting challenges in scaling and policy support.",
+  "passages": [
+    {
+      "passage_id": "sowbfa_diversification__w01__p01",
+      "heading_path": [
+        "STATE OF MANAGEMENT",
+        "Part C"
+      ],
+      "text": "Traditional “parkland” systems, i.e. mixed crop–tree–shrub–livestock assemblages derived from savannah ecosystems, are the main sources of food, income and environmental services across the Sahelian zone of West Africa. Their species richness ranges from monospecificity to more than 100 species of trees and shrubs, although species-rich systems may be dominated by a few species. Farmers actively manage and protect trees, including by protecting naturally regenerating trees from livestock and during tillage operations. Tree density is kept low so that canopy cover is not continuous. These practices contribute to agricultural productivity and help to conserve plant and animal biodiversity by offering diverse above-ground and below-ground habitat niches.",
+      "page_start": 234,
+      "page_end": 234,
+      "topic": "Agroforestry",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "species_richness",
+        "habitat_diversity",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "sowbfa_diversification__w01__p02",
+      "heading_path": [
+        "STATE OF MANAGEMENT",
+        "Part C"
+      ],
+      "text": "Integrated systems have been advocated as a means of increasing land- and water-use efficiency and nutrient recycling. However, studies have shown that integrated systems are complex to manage, as maximizing benefits to farmers while minimizing negative environmental impacts not only requires good management of the pond subsystem itself, but also effective integration of the subsystem with other farming activities.",
+      "page_start": 242,
+      "page_end": 242,
+      "topic": "Integrated aquaculture",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_diversification__w01__p03",
+      "heading_path": [
+        "STATE OF MANAGEMENT",
+        "Part C",
+        "Aquaponics"
+      ],
+      "text": "Aquaponics is the symbiotic integration of aquaculture (fish farming) and hydroponics (the cultivation of plants in water without soil) within a closed recirculating system. Aquaponics is regarded as a potential way of obtaining higher yields with less labour, less land, less fertilizer, less pesticide and much less water usage, and of overcoming some of the challenges confronting traditional agriculture in the face of freshwater shortages, climate change, soil degradation and the need to reduce the nutrient pollution of waterbodies.",
+      "page_start": 243,
+      "page_end": 243,
+      "topic": "Aquaponics",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "crop_yield",
+        "water_holding_capacity",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "sowbfa_diversification__w01__p04",
+      "heading_path": [
+        "STATE OF MANAGEMENT",
+        "Part C",
+        "Polyculture in the context of aquaculture"
+      ],
+      "text": "The motivating principle behind this approach is that raising a combination of species with complementary feeding habits and niches in the same system means that food and water resources can be utilized more efficiently and production per unit area maximized. However, although the feeding niches of some of the species used in polyculture are reasonably well known, predicting synergies and antagonisms between species remains difficult. The balance between complementarity and competition among the cultured species is therefore a key issue in polyculture.",
+      "page_start": 244,
+      "page_end": 244,
+      "topic": "Polyculture",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_diversification__w01__p05",
+      "heading_path": [
+        "STATE OF MANAGEMENT",
+        "Part C",
+        "Fish-pond polyculture"
+      ],
+      "text": "Fish-pond polyculture practices provide numerous benefits. The presence of multiple species with different feeding habits promotes effective use of food resources. For example, partially digested excreta from the macrovegetation-feeding grass carp can be eaten by the bottom-dwelling coprofagous European carp. Multiple predator species can reduce the prevalence of trophic deadlocks. Polyculture can also enhance the availability of natural foods within the system. For example, the feeding actions of fish such as the common carp and the bottom-dwelling mrigal resuspend nutrients in the water and aerate sediments, thus promoting nutrient cycling.",
+      "page_start": 245,
+      "page_end": 245,
+      "topic": "Polyculture",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_diversification__w01__p06",
+      "heading_path": [
+        "STATE OF MANAGEMENT",
+        "Part C",
+        "Fish-pond polyculture"
+      ],
+      "text": "Polyculture can also contribute to improving water quality and the control of undesirable organisms. For example, stocking phytoplanktophagous silver and variegated carp helps to keep harmful algal blooms (a very common phenomenon in most tropical manure-fed ponds) under control. Various predators of tilapia fry are used to control pond overpopulation in semi-intensive polyculture systems.",
+      "page_start": 245,
+      "page_end": 245,
+      "topic": "Polyculture",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "sowbfa_diversification__w01__c01",
+      "passage_id": "sowbfa_diversification__w01__p01",
+      "subject": "parkland agroforestry systems",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "evidence_span": "These practices contribute to agricultural productivity and help to conserve plant and animal biodiversity by offering diverse above-ground and below-ground habitat niches.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_diversification__w01__c02",
+      "passage_id": "sowbfa_diversification__w01__p03",
+      "subject": "aquaponics",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "evidence_span": "Aquaponics is regarded as a potential way of obtaining higher yields with less labour, less land, less fertilizer, less pesticide and much less water usage",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_diversification__w01__c03",
+      "passage_id": "sowbfa_diversification__w01__p05",
+      "subject": "polyculture",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "evidence_span": "For example, the feeding actions of fish such as the common carp and the bottom-dwelling mrigal resuspend nutrients in the water and aerate sediments, thus promoting nutrient cycling.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_diversification__w01__c04",
+      "passage_id": "sowbfa_diversification__w01__p06",
+      "subject": "polyculture",
+      "metric": "pollution_load",
+      "direction": "decrease",
+      "evidence_span": "Polyculture can also contribute to improving water quality and the control of undesirable organisms. For example, stocking phytoplanktophagous silver and variegated carp helps to keep harmful algal blooms (a very common phenomenon in most tropical manure-fed ponds) under control.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "parkland agroforestry",
+      "to_node": "agricultural productivity",
+      "effect": "increase",
+      "passage_id": "sowbfa_diversification__w01__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "aquaponics",
+      "to_node": "crop yield",
+      "effect": "increase",
+      "passage_id": "sowbfa_diversification__w01__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "polyculture",
+      "to_node": "nutrient cycling",
+      "effect": "increase",
+      "mechanism": "feeding actions of fish resuspend nutrients and aerate sediments",
+      "passage_id": "sowbfa_diversification__w01__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "polyculture",
+      "to_node": "harmful algal blooms",
+      "effect": "decrease",
+      "mechanism": "stocking phytoplanktophagous fish",
+      "passage_id": "sowbfa_diversification__w01__p06",
+      "strength_stated": "unstated"
+    }
+  ],
+  "_meta": {
+    "unit_id": "sowbfa_diversification__w01",
+    "doc_id": "fao2019_sowbfa",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 278,
+    "pdf_end": 289,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T10:56:51Z",
+    "pdf_sha256": "42a3ec8d997cff3e",
+    "prompt_type": "assessment"
+  }
+}

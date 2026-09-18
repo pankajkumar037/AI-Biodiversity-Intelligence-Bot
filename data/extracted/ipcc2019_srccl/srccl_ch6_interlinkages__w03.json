@@ -1,0 +1,328 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+  "content_type": "assessment",
+  "summary": "This assessment synthesizes the mitigation and adaptation potentials of various land management response options across agriculture, forestry, and soil management, highlighting their roles in addressing desertification, land degradation, and climate change.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch6_interlinkages__w03__p01",
+      "heading_path": [
+        "Chapter 6",
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Conant et al. (2005) caution that increases in soil carbon stocks could be offset by increases in N2O fluxes.",
+      "page_start": 584,
+      "page_end": 584,
+      "topic": "soil carbon",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w03__p02",
+      "heading_path": [
+        "Chapter 6",
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Jat et al. (2015) found that improved tillage practices and residue incorporation increased water-use efficiency by 30%, rice–wheat yields by 5–37%, income by 28–40% and reduced GHG emission by 16–25%.",
+      "page_start": 584,
+      "page_end": 584,
+      "topic": "cropland management",
+      "practices": [
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "water_holding_capacity",
+        "crop_yield",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w03__p03",
+      "heading_path": [
+        "Chapter 6",
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "When grasslands are converted to croplands, they lose about 36% of their soil organic carbon stocks after 20 years (Poeplau et al. 2011). Assuming an average starting soil organic carbon stock of grasslands of 115 tC ha–1 (Poeplau et al. 2011), this is equivalent to a loss of 41.5 tC ha–1 on conversion to cropland.",
+      "page_start": 584,
+      "page_end": 584,
+      "topic": "land conversion",
+      "practices": [],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland",
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w03__p04",
+      "heading_path": [
+        "Chapter 6",
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Soil compaction prevention could reduce N2O emissions by minimising anoxic conditions favourable for denitrification (Mbow et al. 2010), but its carbon sequestration potential depends on crop management, and the global mitigation potential, though globally unquantified, is likely to be small (Chamen et al. 2015; Epron et al. 2016; Tullberg et al. 2018).",
+      "page_start": 585,
+      "page_end": 585,
+      "topic": "soil compaction",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "nitrogen",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w03__p05",
+      "heading_path": [
+        "Chapter 6",
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Bala et al. (2013) reported that a recent coupled modelling study showed nitrogen deposition and elevated CO2 could have a synergistic effect, which could explain 47% of terrestrial carbon uptake in the 1990s.",
+      "page_start": 586,
+      "page_end": 586,
+      "topic": "carbon uptake",
+      "practices": [],
+      "metrics": [
+        "nitrogen",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w03__p06",
+      "heading_path": [
+        "Chapter 6",
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "For example, moose browsing in boreal forests can decrease the carbon uptake of ecosystems by up to 75% (Schmitz et al. 2018), and reducing moose density through active population management in Canada is estimated to be a carbon sink equivalent to about 0.37 GtCO2e yr–1 (Schmitz et al. 2014).",
+      "page_start": 586,
+      "page_end": 586,
+      "topic": "wildlife management",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w03__p07",
+      "heading_path": [
+        "Chapter 6",
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Reducing urban sprawl is likely to provide adaptation co-benefits via improved human health (Frumkin 2002; Anderson 2017), as sprawl contributes to reduced physical activity, worse air pollution, and exacerbation of urban heat island effects and extreme heat waves (Stone et al. 2010).",
+      "page_start": 594,
+      "page_end": 594,
+      "topic": "urban sprawl",
+      "practices": [],
+      "metrics": [
+        "temperature",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w03__p08",
+      "heading_path": [
+        "Chapter 6",
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "In Thailand, it was found that the desertification risk is reduced when the land use is changed from bare lands to agricultural lands and forests.",
+      "page_start": 595,
+      "page_end": 595,
+      "topic": "desertification",
+      "practices": [],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "degraded_land",
+        "cropland",
+        "forest"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch6_interlinkages__w03__c01",
+      "passage_id": "srccl_ch6_interlinkages__w03__p02",
+      "subject": "improved tillage and residue incorporation",
+      "metric": "water_holding_capacity",
+      "direction": "increase",
+      "value": 30,
+      "unit": "percent",
+      "evidence_span": "Jat et al. (2015) found that improved tillage practices and residue incorporation increased water-use efficiency by 30%",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w03__c02",
+      "passage_id": "srccl_ch6_interlinkages__w03__p02",
+      "subject": "improved tillage and residue incorporation",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value_low": 5,
+      "value_high": 37,
+      "unit": "percent",
+      "evidence_span": "rice–wheat yields by 5–37%",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w03__c03",
+      "passage_id": "srccl_ch6_interlinkages__w03__p02",
+      "subject": "improved tillage and residue incorporation",
+      "metric": "pollution_load",
+      "direction": "decrease",
+      "value_low": 16,
+      "value_high": 25,
+      "unit": "percent",
+      "evidence_span": "reduced GHG emission by 16–25%.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w03__c04",
+      "passage_id": "srccl_ch6_interlinkages__w03__p03",
+      "subject": "conversion of grassland to cropland",
+      "metric": "SOC",
+      "direction": "decrease",
+      "value": 36,
+      "unit": "percent",
+      "conditions": "20-year timescale",
+      "evidence_span": "When grasslands are converted to croplands, they lose about 36% of their soil organic carbon stocks after 20 years (Poeplau et al. 2011).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w03__c05",
+      "passage_id": "srccl_ch6_interlinkages__w03__p04",
+      "subject": "soil compaction prevention",
+      "metric": "nitrogen",
+      "direction": "decrease",
+      "evidence_span": "Soil compaction prevention could reduce N2O emissions by minimising anoxic conditions favourable for denitrification (Mbow et al. 2010)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w03__c06",
+      "passage_id": "srccl_ch6_interlinkages__w03__p06",
+      "subject": "moose browsing",
+      "metric": "carbon_sequestration_rate",
+      "direction": "decrease",
+      "value": 75,
+      "unit": "percent",
+      "evidence_span": "moose browsing in boreal forests can decrease the carbon uptake of ecosystems by up to 75% (Schmitz et al. 2018)",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "improved tillage and residue incorporation",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w03__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "improved tillage and residue incorporation",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w03__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "improved tillage and residue incorporation",
+      "to_node": "pollution_load",
+      "effect": "decrease",
+      "passage_id": "srccl_ch6_interlinkages__w03__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "conversion of grassland to cropland",
+      "to_node": "SOC",
+      "effect": "decrease",
+      "condition": "20-year timescale",
+      "passage_id": "srccl_ch6_interlinkages__w03__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "soil compaction prevention",
+      "to_node": "nitrogen",
+      "effect": "decrease",
+      "mechanism": "minimising anoxic conditions favourable for denitrification",
+      "passage_id": "srccl_ch6_interlinkages__w03__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "moose browsing",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "decrease",
+      "passage_id": "srccl_ch6_interlinkages__w03__p06",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w03",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 594,
+    "pdf_end": 605,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:11:17Z",
+    "pdf_sha256": "2adaf65f7a49a398"
+  }
+}

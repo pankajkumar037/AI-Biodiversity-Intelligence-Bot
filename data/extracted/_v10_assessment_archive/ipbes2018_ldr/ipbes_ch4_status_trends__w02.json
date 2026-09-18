@@ -1,0 +1,171 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4.2.4.1 Atmospheric pollution",
+  "content_type": "assessment",
+  "summary": "This assessment discusses the impacts of atmospheric nitrogen, sulphur, and mercury deposition on ecosystems, including soil acidification, eutrophication, and reduced crop yields. It also highlights the role of agricultural activities in nitrogen emissions and the potential for management practices to mitigate these impacts.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch4_status_trends__w02__p01",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.4 Pollution",
+        "4.2.4.1 Atmospheric pollution"
+      ],
+      "text": "Sulphur and nitrogen emissions deteriorate ambient air quality due to formation of ozone and fine particulate matter, contributing to cardiovascular and respiratory conditions and premature deaths. Increased near-surface ozone concentrations, largely as a consequence of nitrogen oxides, methane and non-methane volatile compounds in the presence of sunlight and exacerbated under climate change, decrease crop yields (Capps et al., 2016). Ozone decreased soybean and maize production in the USA by 5% and 10%, respectively, between 1980 and 2011 (McGrath et al., 2015) and was responsible for 5-11% loss in winter wheat and 3-6% in rice from 2002 to 2007 in India (Debaje, 2014).",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "Atmospheric pollution impacts on crop yields",
+      "practices": [],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w02__p02",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.4 Pollution",
+        "4.2.4.1 Atmospheric pollution"
+      ],
+      "text": "Elevated atmospheric nitrogen deposition contributes to the eutrophication of soils causing changes in plant species composition and diversity in unmanaged terrestrial ecosystems; increases in emissions of nitrous and nitric oxides; and elevated runoff of nitrate resulting in eutrophication of fresh and coastal waters (Galloway et al., 2003, 2004). Atmospheric nitrogen deposition exceeding a threshold of 10 kg N ha-1 y-1 is an order of magnitude greater than natural rates and may result in adverse effects (Bouwman et al., 2002; Pardo et al., 2011).",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "Atmospheric nitrogen deposition impacts",
+      "practices": [],
+      "metrics": [
+        "nitrogen",
+        "species_richness",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w02__p03",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.4 Pollution",
+        "4.2.4.2 Soil pollution",
+        "Agriculture"
+      ],
+      "text": "Fertilizer usage can be reduced by 30-50% without affecting yields, but greatly decrease air and water pollution (Beatty & Good, 2011; Hoben et al., 2011; Ju et al., 2009; McSwiney & Robertson, 2005). Growing crops to the economic optimum yield rate, rather than optimising total yield is both an economic and environmentally preferable option (Kim & Dale, 2008; Scharf et al., 2005). Changing management practices such as tilling methods, type of fertilizer used or timing of applications can reduce pollution (Beatty & Good, 2011).",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Agricultural management and pollution reduction",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "crop_yield",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch4_status_trends__w02__c01",
+      "passage_id": "ipbes_ch4_status_trends__w02__p01",
+      "subject": "near-surface ozone",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": 5,
+      "unit": "percent",
+      "basis": "soybean production in the USA between 1980 and 2011",
+      "conditions": null,
+      "time_horizon_years": 31,
+      "evidence_span": "Ozone decreased soybean and maize production in the USA by 5% and 10%, respectively, between 1980 and 2011",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w02__c02",
+      "passage_id": "ipbes_ch4_status_trends__w02__p01",
+      "subject": "near-surface ozone",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": 10,
+      "unit": "percent",
+      "basis": "maize production in the USA between 1980 and 2011",
+      "conditions": null,
+      "time_horizon_years": 31,
+      "evidence_span": "Ozone decreased soybean and maize production in the USA by 5% and 10%, respectively, between 1980 and 2011",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w02__c03",
+      "passage_id": "ipbes_ch4_status_trends__w02__p03",
+      "subject": "fertilizer usage reduction",
+      "metric": "pollution_load",
+      "direction": "decrease",
+      "value_low": 30,
+      "value_high": 50,
+      "unit": "percent",
+      "basis": "air and water pollution",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Fertilizer usage can be reduced by 30-50% without affecting yields, but greatly decrease air and water pollution",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "near-surface ozone",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "deteriorate ambient air quality",
+      "passage_id": "ipbes_ch4_status_trends__w02__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "atmospheric nitrogen deposition",
+      "to_node": "species_richness",
+      "effect": "decrease",
+      "condition": "exceeding a threshold of 10 kg N ha-1 y-1",
+      "mechanism": "eutrophication of soils",
+      "passage_id": "ipbes_ch4_status_trends__w02__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "integrated_nutrient_mgmt",
+      "to_node": "pollution_load",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "reduced fertilizer usage",
+      "passage_id": "ipbes_ch4_status_trends__w02__p03",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch4_status_trends__w02",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 301,
+    "pdf_end": 312,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:55:02Z",
+    "pdf_sha256": "518c32cad491f508"
+  }
+}

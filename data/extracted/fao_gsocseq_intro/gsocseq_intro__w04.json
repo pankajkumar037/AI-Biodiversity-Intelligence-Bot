@@ -1,0 +1,141 @@
+{
+  "extraction_status": "ok",
+  "section_title": "GSOCseq introduction and methodology",
+  "content_type": "assessment",
+  "summary": "This document provides an overview of the GSOCseq (Global Soil Organic Carbon Sequestration Potential) map, its methodology, data requirements, and capacity development results.",
+  "passages": [
+    {
+      "passage_id": "gsocseq_intro__w04__p01",
+      "heading_path": [
+        "Uncertainties"
+      ],
+      "text": "Parameter | Uncertainty in the input | Minimum value | Maximum value\nTemperature | ± 2 % | Monthly Temp * 0.98 | Monthly Temp * 1.02\nPrecipitation | ± 5 % | Monthly PP * 0.95 | Monthly PP * 1.05\nClay content | ± 10 % | Clay * 0.90 | Clay * 1.10\nFAO SOC | ± 20 % | SOC FAO * 0.8 | SOC FAO * 1.2\nC input increase in SSM scenario | ± 15 % | C eq * (SSM1 % increase - 15%) | C eq * (SSM % increase + 15%)",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Global",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "temperature",
+        "rainfall"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "gsocseq_intro__w04__p02",
+      "heading_path": [
+        "GSOCseq in numbers"
+      ],
+      "text": "GSOCseq v1.1 launched in 2021\n10 Online Regional Trainings\nover 430 national experts reached\n119 Countries reached\nCurrently provides data for 90 % of the agricultural land area",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Global",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w04__p03",
+      "heading_path": [
+        "GSOCseq v1.1"
+      ],
+      "text": "SOC sequestration ( tC/ha/yr) SSM 1-3\nAgricultural lands (croplands + grazing lands)\n20-year period\nDepth: 0-30 cm\n1 x 1 km resolution",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Global",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w04__p04",
+      "heading_path": [
+        "First results - Annual SOC sequestration*"
+      ],
+      "text": "Source | Seq.rate Pg C.year-1\nPaustian et al (2004) | 0.44 - 0.88\nSmith et al (2008) | 0.44 - 1.15\nSommer and Bossio (2014) (croplands+grasslands) | 0.37 - 0.74\nBatjes et al (2019) | 0.32 - 1.01\nLal et al (2018) (croplands+grasslands/shrublands) | 0.48 – 1.93\nFuss et al (2018) | 0.54 – 1.36",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "Global",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "gsocseq_intro__w04__p05",
+      "heading_path": [
+        "Summary. Inputs for the 3 Phases"
+      ],
+      "text": "Data | Variables | Time series | Units | Type\nClimatic data | Monthly air temperature | 1980-2000; 2001-2020 (or until last year available) | °C | Raster\nClimatic data | Monthly evapotranspiration (Penman-Monteith) | 1980-2000; 2001-2020 (or until last year available) | mm | Raster\nClimatic data | Monthly precipitation + irrigation | 1980-2000; 2001-2020 (or until last year available) | mm | Raster\nSoil data | Topsoil clay content (0-30 cm) | - | % | Raster\nSoil data | Current Soil organic carbon stocks (0-30 cm) | Latest version of national FAO-GSOC map | tC ha-1 | Raster\nLand use/cover | Predominant land use/cover, re-classified into: Minimum: 4 default classes required by model: agricultural crops, grassland/shrubland/savannas ; forests; others Optimum: 11 classes defined in the FAO Global Land Cover - SHARE (GLC-SHARE) | Minimum: representative 2000-2020 (or last year available) Optimum: annual land use 2000 to 2020 | 1-11 | Raster\nLand use/cover | Monthly vegetation cover. Obtained from national statistics/local expert knowledge; or derived from NDVI or spectral indexes (see section 3.3.4) | Minimum: average 2015- 2020 (or last year available period) Optimum: monthly soil cover 2000 to 2020 | 0-1 | Raster",
+      "page_start": 10,
+      "page_end": 10,
+      "topic": "Global",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "SOC",
+        "temperature",
+        "rainfall"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland",
+        "forest",
+        "unstated"
+      ],
+      "content_role": "table"
+    }
+  ],
+  "claims": [],
+  "links": [],
+  "_meta": {
+    "unit_id": "gsocseq_intro__w04",
+    "doc_id": "fao_gsocseq_intro",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 45,
+    "pdf_end": 56,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T11:03:19Z",
+    "pdf_sha256": "f0696b7c8ab77f68",
+    "prompt_type": "inventory"
+  }
+}

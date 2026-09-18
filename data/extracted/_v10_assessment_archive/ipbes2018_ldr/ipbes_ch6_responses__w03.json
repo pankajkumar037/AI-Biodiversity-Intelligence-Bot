@@ -1,0 +1,108 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Soil management strategies to enhance soil health and/or quality and mitigate degradation",
+  "content_type": "practice",
+  "summary": "This section outlines various soil management strategies, including tillage, crop rotation, manure application, cover cropping, and agroforestry, which can improve soil health and mitigate land degradation by increasing biomass and biodiversity. It also highlights the importance of time for these changes to be detectable and the role of monitoring.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch6_responses__w03__p01",
+      "heading_path": [
+        "Soil management strategies to enhance soil health and/or quality and mitigate degradation"
+      ],
+      "text": "Tillage frequency and intensity, crop rotation, animal and/or green manure application, cover cropping, grazing intensity and agroforestry can improve soil health and/or quality (Wingeyer et al. 2015; Veum et al. 2015) and avoid, reduce or reverse land degradation by increasing biomass content and biodiversity.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Soil management strategies",
+      "practices": [
+        "reduced_tillage",
+        "crop_rotation",
+        "manure",
+        "cover_crops",
+        "rotational_grazing",
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "biomass",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w03__p02",
+      "heading_path": [
+        "Soil management strategies to enhance soil health and/or quality and mitigate degradation"
+      ],
+      "text": "Tillage is especially important (Hammac et al., 2016), because it affects surface cover and the size, composition and activity of the biological community below ground (Lehman et al., 2015). Tillage also affects soil structure and stability, aeration, water balance and nutrient cycling - although response time when converting from high to low impact activities can take a decade.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Tillage impacts",
+      "practices": [
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "soil_biota",
+        "water_holding_capacity",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch6_responses__w03__c01",
+      "passage_id": "ipbes_ch6_responses__w03__p01",
+      "subject": "Tillage frequency and intensity, crop rotation, animal and/or green manure application, cover cropping, grazing intensity and agroforestry",
+      "metric": "soil_organic_matter",
+      "direction": "increase",
+      "evidence_span": "Tillage frequency and intensity, crop rotation, animal and/or green manure application, cover cropping, grazing intensity and agroforestry can improve soil health and/or quality (Wingeyer et al. 2015; Veum et al. 2015) and avoid, reduce or reverse land degradation by increasing biomass content and biodiversity.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "tillage",
+      "to_node": "soil_biota",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "affects surface cover and the size, composition and activity of the biological community below ground",
+      "passage_id": "ipbes_ch6_responses__w03__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "tillage",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "affects soil structure and stability, aeration, water balance and nutrient cycling",
+      "passage_id": "ipbes_ch6_responses__w03__p02",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch6_responses__w03",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 526,
+    "pdf_end": 537,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:57:30Z",
+    "pdf_sha256": "7ce2177791598a0f"
+  }
+}

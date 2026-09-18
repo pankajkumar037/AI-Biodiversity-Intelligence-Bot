@@ -1,0 +1,66 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+  "content_type": "other",
+  "summary": "This document is a bibliography of scientific literature related to land degradation, restoration, biodiversity, and ecosystem functions, covering topics such as soil erosion, carbon sequestration, forest management, and the impacts of climate change and land-use practices.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch4_status_trends__w08__p01",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS"
+      ],
+      "text": "Lunt, I. D., Jansen, A., Binns, D. L., & Kenny, S. A. (2007). Long-term effects of exclusion of grazing stock on degraded herbaceous plant communities in a riparian Eucalyptus camaldulensis forest in south-eastern Australia. Austral Ecology, 32(8), 937-949. https://doi.org/10.1111/j.1442-9993.2007.01782.x",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "grazing exclusion",
+      "practices": [
+        "rotational_grazing"
+      ],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch4_status_trends__w08__c01",
+      "passage_id": "ipbes_ch4_status_trends__w08__p01",
+      "subject": "exclusion of grazing stock",
+      "metric": "species_richness",
+      "direction": "increase",
+      "conditions": "degraded herbaceous plant communities in a riparian Eucalyptus camaldulensis forest",
+      "evidence_span": "Long-term effects of exclusion of grazing stock on degraded herbaceous plant communities in a riparian Eucalyptus camaldulensis forest in south-eastern Australia.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "rotational_grazing",
+      "to_node": "species_richness",
+      "effect": "increase",
+      "condition": "degraded herbaceous plant communities in a riparian Eucalyptus camaldulensis forest",
+      "passage_id": "ipbes_ch4_status_trends__w08__p01",
+      "strength_stated": "unstated"
+    }
+  ],
+  "_meta": {
+    "unit_id": "ipbes_ch4_status_trends__w08",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 367,
+    "pdf_end": 378,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:56:17Z",
+    "pdf_sha256": "257a578ae90c38f1"
+  }
+}

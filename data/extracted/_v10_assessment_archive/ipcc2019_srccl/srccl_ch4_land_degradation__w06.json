@@ -1,0 +1,105 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Land degradation",
+  "content_type": "other",
+  "summary": "This document is a reference list for Chapter 4 of the IPCC Special Report on Climate Change and Land (SRCCL), covering various scientific studies on land degradation, soil management, and climate change impacts.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch4_land_degradation__w06__p01",
+      "heading_path": [
+        "Land degradation"
+      ],
+      "text": "Mbow, C., P. Smith, D. Skole, L. Duguma, and M. Bustamante, 2014: Achieving mitigation and adaptation to climate change through sustainable agroforestry practices in Africa. Curr. Opin. Environ. Sustain., 6, 8–14, doi:10.1016/j.cosust.2013.09.002.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "agroforestry",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w06__p02",
+      "heading_path": [
+        "Land degradation"
+      ],
+      "text": "Haider, G., D. Steffens, G. Moser, C. Müller, and C.I. Kammann, 2017: Biochar reduced nitrate leaching and improved soil moisture content without yield improvements in a four-year field study. Agric. Ecosyst. Environ., 237, 80–94, doi:10.1016/j.agee.2016.12.019.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "biochar",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch4_land_degradation__w06__c01",
+      "passage_id": "srccl_ch4_land_degradation__w06__p02",
+      "subject": "biochar",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "evidence_span": "Biochar reduced nitrate leaching and improved soil moisture content",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w06__c02",
+      "passage_id": "srccl_ch4_land_degradation__w06__p02",
+      "subject": "biochar",
+      "metric": "crop_yield",
+      "direction": "no_change",
+      "evidence_span": "without yield improvements in a four-year field study",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "biochar",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": "four-year field study",
+      "passage_id": "srccl_ch4_land_degradation__w06__p02",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "biochar",
+      "to_node": "crop_yield",
+      "effect": "no_change",
+      "condition": "four-year field study",
+      "passage_id": "srccl_ch4_land_degradation__w06__p02",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch4_land_degradation__w06",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 421,
+    "pdf_end": 432,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:51:46Z",
+    "pdf_sha256": "aca92e76e4a2d965"
+  }
+}

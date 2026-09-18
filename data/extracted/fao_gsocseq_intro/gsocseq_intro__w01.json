@@ -1,0 +1,256 @@
+{
+  "extraction_status": "ok",
+  "section_title": "GSOCseq introduction and methodology",
+  "content_type": "methods",
+  "summary": "This document outlines the GSOCseq approach, a country-driven methodology for mapping global soil organic carbon sequestration potential using the RothC process-based model. It details the data requirements, model parameters, and the mathematical framework for calculating SOC sequestration rates over a 20-year period.",
+  "passages": [
+    {
+      "passage_id": "gsocseq_intro__w01__p01",
+      "heading_path": [
+        "The GSOCseq approach"
+      ],
+      "text": "1) Technical Specifications and Country guidelines http://www.fao.org/documents/card/es/c/cb0353en/ 2) Technical Manual Global Soil Organic Carbon Sequestration Potential Map GSOCseq https://www.fao.org/documents/card/en/c/cb2642en/",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "GSOCseq methodology documentation",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w01__p02",
+      "heading_path": [
+        "The Global Soil Organic Carbon Sequestration Potential Map"
+      ],
+      "text": "Methodology: Based on the process-based model RothC; 3 SSM scenarios and 1 business as usual; Uncertainty based on the uncertainties of the input data. Extent: Agriculturally managed lands where SSM can be implemented; 20 years into the furute (t0=2020, t=2020); 1 km resolution. Process: Country-driven (global map based on national submissions); Launched in 2021, continously updated following a Versoning system.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "GSOCseq methodology overview",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w01__p03",
+      "heading_path": [
+        "Absolute and relative SOC sequestration"
+      ],
+      "text": "SOC sequestration (Difference) = Δ SOC in 20 years. Annual Sequestration rate = Δ SOC / 20 years. Absolute sequestration rate = (Final SOC SSM 2040– Initial SOC 2020)/ 20 years. Relative Sequestration rate= (Final SOC SSM 2040– Final SOC BAU 2040)/ 20 years.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "SOC sequestration calculation formulas",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w01__p04",
+      "heading_path": [
+        "RothC spatial Platform"
+      ],
+      "text": "SSM1 Scenario: + 5%; SSM2 Scenario: +10%; SSM3 Scenario: + 20%. Absolute and relative Sequestration rates: 7 products (29 intermediate products).",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "GSOCseq scenario parameters",
+      "practices": [],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "gsocseq_intro__w01__p05",
+      "heading_path": [
+        "Why RothC as standard model?"
+      ],
+      "text": "Standard method among countries (DayCent, Century, ICBM, YASSO,DAISY,AMG, CLM5, etc); Fewer data requirements; data relatively easy to obtain; It has been applied across several ecosystems, climate conditions, soils and land use classes; Successfully applied at national, regional and global scales; It (or its modified/derived version) has been used to estimate carbon dioxide emissions and removals in different national GHG inventories as a Tier 3 approach.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "RothC model justification",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w01__p06",
+      "heading_path": [
+        "RothC Data requirements"
+      ],
+      "text": "Climate Data: 1. Monthly rainfall(mm), 2. Average monthly mean air temperature (ºC), 3. Monthly open pan evaporation (mm)/evapotranspiration (mm) Penman-Monteith. Soil Data: 1. Total initial 0-30cm SOC stocks (t C ha-1), 2. Initial C stocks of the different pools (t C ha-1): DPM, RPM, BIO, HUM, IOM, 3. Clay content (%) at simulation depth. Land Use- Management Data: 1. Land cover/use, 2. Vegetation cover (binary: bare vs. vegetated), 3. DPM/RPM ratio, an estimate of the decomposability of the incoming plant material, 4. Irrigation (to be added to rainfall amounts)*, 5. Monthly Carbon inputs from plant residues (aboveground + belowground), (t C ha-1)*, 6. Monthly Carbon inputs from organic fertilizers and grazing animals’ excretion (t C ha-1)*.",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "RothC data requirements",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "SOC",
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "gsocseq_intro__w01__p08",
+      "heading_path": [
+        "SOC dynamics in RothC"
+      ],
+      "text": "The amount of SOC of each pool (Y) decomposes following an exponential decay function: Y . e -kt. k = annual decomposition constant; t = time, months 1/12 (0,083).",
+      "page_start": 8,
+      "page_end": 8,
+      "topic": "SOC decomposition dynamics",
+      "practices": [],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "gsocseq_intro__w01__p09",
+      "heading_path": [
+        "Decomposition rates"
+      ],
+      "text": "Constants (k), in years-1, different for each pool: DPM (decomposable plant mat): 10.0 .... 0.1 years (turnover time); RPM (resistant plant material): 0.3 ......3.3 years; BIO (microbial biomass): 0.66 .............. 1.5 years; HUM (Humified organic C) : 0.02 ............... 50 years; IOM (Inert) .....0.000000 ......................... α.",
+      "page_start": 9,
+      "page_end": 9,
+      "topic": "RothC decomposition constants",
+      "practices": [],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "gsocseq_intro__w01__p10",
+      "heading_path": [
+        "SOC dynamics in RothC"
+      ],
+      "text": "These k are affected by different factors: Y . e -kt -> Y . e –k. a.b.c. t. a= temperature factor; b= soil moisture factor; c= soil cover factor.",
+      "page_start": 10,
+      "page_end": 10,
+      "topic": "RothC decomposition factors",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "temperature",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "gsocseq_intro__w01__p11",
+      "heading_path": [
+        "Temperature factor (a)"
+      ],
+      "text": "> Temperature, > decomposition rate.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Temperature factor in RothC",
+      "practices": [],
+      "metrics": [
+        "temperature"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "gsocseq_intro__w01__p12",
+      "heading_path": [
+        "Soil moisture factor (b)"
+      ],
+      "text": "Dryer conditions (> deficit)… Lower b, Lower decomposition rate. water holding capacity (mm) / TSMD (Total Soil moisture deficit) From Clay %. if Et –PP exceeds 0.44 of TMSD , b decreases 0.2.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "Soil moisture factor in RothC",
+      "practices": [],
+      "metrics": [
+        "soil_moisture",
+        "water_holding_capacity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [],
+  "links": [],
+  "_meta": {
+    "unit_id": "gsocseq_intro__w01",
+    "doc_id": "fao_gsocseq_intro",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 12,
+    "pdf_end": 23,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T11:02:39Z",
+    "pdf_sha256": "bca72d177229c4ee",
+    "prompt_type": "inventory"
+  }
+}

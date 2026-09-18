@@ -1,0 +1,310 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+  "content_type": "assessment",
+  "summary": "This unit examines the status and trends of land degradation, focusing on fire regimes, landscape-scale fragmentation, climate change impacts on ecosystems, and the resulting effects on biodiversity and disease transmission.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch4_status_trends__w04__p01",
+      "heading_path": [
+        "4.2.6.3 Fire and associated degradation"
+      ],
+      "text": "The major effect of fire is the reduction in vegetation cover, able to remove 80% of above-ground net primary production. During this process fire plays a major role in the cycling of nutrients.",
+      "page_start": 267,
+      "page_end": 267,
+      "topic": "fire impacts",
+      "practices": [],
+      "metrics": [
+        "biomass",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w04__p02",
+      "heading_path": [
+        "4.2.6.3 Fire and associated degradation"
+      ],
+      "text": "Fires can reduce water infiltration depending on the temperature of the fire, the type of vegetation, soil organic matter and soil type, leading to enhanced overland flow and erosion.",
+      "page_start": 267,
+      "page_end": 267,
+      "topic": "fire impacts on soil",
+      "practices": [],
+      "metrics": [
+        "water_holding_capacity",
+        "erosion",
+        "soil_organic_matter"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w04__p03",
+      "heading_path": [
+        "4.2.6.5 Landscape-scale degradation"
+      ],
+      "text": "Degradation usually changes the landscape composition, often involving a reduction in native land-cover patches and an increase in human-dominated land uses. Where cover types are dependent on one another for their fundamental processes, the loss or degradation of one can have cascading effects on others.",
+      "page_start": 269,
+      "page_end": 269,
+      "topic": "landscape degradation",
+      "practices": [],
+      "metrics": [
+        "habitat_diversity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w04__p04",
+      "heading_path": [
+        "4.2.6.5 Landscape-scale degradation"
+      ],
+      "text": "The degree of fragmentation has important effects on biodiversity and some aspects of the physical environment. Many species have minimum territory sizes and, while the total area of their habitat may be adequate, if it is fragmented the intact habitat types may be inadequate, unless the species can cross the intervening land-cover types.",
+      "page_start": 269,
+      "page_end": 269,
+      "topic": "fragmentation",
+      "practices": [],
+      "metrics": [
+        "species_richness",
+        "fragmentation"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w04__p05",
+      "heading_path": [
+        "4.2.6.5 Landscape-scale degradation"
+      ],
+      "text": "Based on a review of seven large-scale fragmentation experiments, running in five continents through the last 35 years, Haddad et al. (2015) estimated that habitat fragmentation reduces biodiversity by 13% to 75%. The ecosystem services that depend on native species, such as pollination, pest control or diseases regulation decline in their turn. As a consequence, agricultural productivity can be significantly reduced.",
+      "page_start": 270,
+      "page_end": 270,
+      "topic": "fragmentation impacts",
+      "practices": [],
+      "metrics": [
+        "species_richness",
+        "pollinators",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w04__p06",
+      "heading_path": [
+        "4.2.8 Climate Change impacts",
+        "The physical environment"
+      ],
+      "text": "Directional declines in rainfall amounts over time, as has been observed over large parts of Amazonia, can reduce greenness, terrestrial water storage, ecosystem productivity and carbon uptake, and alter fire risk, with cascading implications for global carbon cycling and climate.",
+      "page_start": 274,
+      "page_end": 274,
+      "topic": "climate change impacts",
+      "practices": [],
+      "metrics": [
+        "rainfall",
+        "biomass",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w04__p07",
+      "heading_path": [
+        "4.2.8 Climate Change impacts",
+        "Plant growth and crop yields"
+      ],
+      "text": "Negative effects of climate change on agricultural productivity are expected through unfavourable temperatures, reduced rainfall in some areas, less reliable rainfall and pests. For example, from 1980 to 2008, the global maize and wheat yields have been estimated to have declined by 3.8% and 5.5% respectively, related to the climate trends.",
+      "page_start": 274,
+      "page_end": 274,
+      "topic": "climate change impacts on agriculture",
+      "practices": [],
+      "metrics": [
+        "crop_yield",
+        "temperature",
+        "rainfall"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w04__p08",
+      "heading_path": [
+        "4.2.8 Climate Change impacts",
+        "Plant growth and crop yields"
+      ],
+      "text": "In cold and wet areas, warming increases the decomposition rate of soil organic matter and availability of soil nutrients.",
+      "page_start": 274,
+      "page_end": 274,
+      "topic": "climate change impacts on soil",
+      "practices": [],
+      "metrics": [
+        "soil_organic_matter",
+        "nutrient_availability",
+        "temperature"
+      ],
+      "climate_zones": [
+        "humid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch4_status_trends__w04__c01",
+      "passage_id": "ipbes_ch4_status_trends__w04__p01",
+      "subject": "fire",
+      "metric": "biomass",
+      "direction": "decrease",
+      "value": 80,
+      "unit": "percent",
+      "evidence_span": "The major effect of fire is the reduction in vegetation cover, able to remove 80% of above-ground net primary production.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w04__c02",
+      "passage_id": "ipbes_ch4_status_trends__w04__p05",
+      "subject": "habitat fragmentation",
+      "metric": "species_richness",
+      "direction": "decrease",
+      "value_low": 13,
+      "value_high": 75,
+      "unit": "percent",
+      "evidence_span": "Haddad et al. (2015) estimated that habitat fragmentation reduces biodiversity by 13% to 75%.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w04__c03",
+      "passage_id": "ipbes_ch4_status_trends__w04__p07",
+      "subject": "climate trends",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": 3.8,
+      "unit": "percent_change",
+      "conditions": "global maize 1980-2008",
+      "evidence_span": "For example, from 1980 to 2008, the global maize and wheat yields have been estimated to have declined by 3.8% and 5.5% respectively, related to the climate trends.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w04__c04",
+      "passage_id": "ipbes_ch4_status_trends__w04__p07",
+      "subject": "climate trends",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": 5.5,
+      "unit": "percent_change",
+      "conditions": "global wheat 1980-2008",
+      "evidence_span": "For example, from 1980 to 2008, the global maize and wheat yields have been estimated to have declined by 3.8% and 5.5% respectively, related to the climate trends.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "fire",
+      "to_node": "biomass",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch4_status_trends__w04__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "fire",
+      "to_node": "water_holding_capacity",
+      "effect": "decrease",
+      "condition": "fire temperature, vegetation type, soil type",
+      "passage_id": "ipbes_ch4_status_trends__w04__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "water_holding_capacity",
+      "to_node": "erosion",
+      "effect": "increase",
+      "passage_id": "ipbes_ch4_status_trends__w04__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "fragmentation",
+      "to_node": "species_richness",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch4_status_trends__w04__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "species_richness",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "mechanism": "decline in ecosystem services such as pollination and pest control",
+      "passage_id": "ipbes_ch4_status_trends__w04__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "rainfall",
+      "to_node": "biomass",
+      "effect": "decrease",
+      "condition": "Amazonia",
+      "passage_id": "ipbes_ch4_status_trends__w04__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "temperature",
+      "to_node": "soil_organic_matter",
+      "effect": "decrease",
+      "condition": "cold and wet areas",
+      "mechanism": "increased decomposition rate",
+      "passage_id": "ipbes_ch4_status_trends__w04__p08",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch4_status_trends__w04",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 323,
+    "pdf_end": 334,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:14:35Z",
+    "pdf_sha256": "6e9e6fd20e9b83ba"
+  }
+}

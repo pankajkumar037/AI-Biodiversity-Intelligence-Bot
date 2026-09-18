@@ -1,0 +1,149 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Rajasthan",
+  "content_type": "assessment",
+  "summary": "This document provides land use, forest cover, forest type, forest fire, and tree inventory statistics for the state of Rajasthan, India, based on the 2023 assessment.",
+  "passages": [
+    {
+      "passage_id": "isfr2_rajasthan__p01",
+      "heading_path": [
+        "RAJASTHAN",
+        "Table 10.22.1 Land Use Pattern"
+      ],
+      "text": "Table 10.22.1 Land Use Pattern | Land Use Types | Area (in ‘000 ha) | Percentage | Geographical Area | 34,224 | - | Reporting area for land utilization | 34,292.67 | 100.00 | Forests | 2,777.56 | 8.10 | Not available for land cultivation | 4,396.61 | 12.82 | Permanent pastures and other grazing lands | 1,655.31 | 4.83 | Land under misc. tree crops and groves | 28.81 | 0.08 | Culturable wasteland | 3,680.16 | 10.73 | Fallow land other than current fallows | 2,039.70 | 5.95 | Current fallows | 1,584.92 | 4.62 | Net area sown | 18,129.60 | 52.87 | Source: Land Use Statistics, Ministry of Agriculture and Farmer’s Welfare, GOI, (2021-22).",
+      "page_start": 244,
+      "page_end": 244,
+      "topic": "Rajasthan",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest",
+        "grassland",
+        "cropland",
+        "degraded_land"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr2_rajasthan__p02",
+      "heading_path": [
+        "Rajasthan",
+        "Table 10.22.2 Forest Cover of Rajasthan"
+      ],
+      "text": "Table 10.22.2 Forest Cover of Rajasthan (km2) | Class | Area | % of Calculated Area by SoI | VDF | 223.20 | 0.07 | MDF | 4,237.41 | 1.24 | OF | 12,087.60 | 3.53 | Total | 16,548.21 | 4.84 | Scrub | 5,476.75 | 1.60",
+      "page_start": 245,
+      "page_end": 245,
+      "topic": "Rajasthan",
+      "practices": [],
+      "metrics": [
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr2_rajasthan__p03",
+      "heading_path": [
+        "Rajasthan",
+        "Table 10.22.10 Area Statistics of the Forest types Found in Rajasthan"
+      ],
+      "text": "Table 10.22.10 Area Statistics of the Forest types Found in Rajasthan (km2) | Sl. No. | Forest Type | Area | % of the total mapped area* | 1 | 5A/C1a Very dry teak forest | 1,073.57 | 4.87 | 2 | 5A/C1b Dry teak forest | 44.96 | 0.20 | 3 | 5B/C2 Northern dry mixed deciduous forest | 8,400.21 | 38.15 | 4 | 5/DS1 Dry deciduous scrub | 2,513.87 | 11.41 | 5 | 5/DS2 Dry savannah forest | 2.96 | 0.01 | 6 | 5/E1 Anogeissus pendula forest | 3,242.81 | 14.72 | 7 | 5/E1/DS1 Anogeissus pendula scrub | 508.04 | 2.31 | 8 | 5/E2 Boswellia forest | 151.77 | 0.69 | 9 | 5/E5 Butea forest | 52.40 | 0.24 | 10 | 5/E6 Aegle forest | 1.78 | 0.01 | 11 | 5/E8a Phoenix savannah | 1.97 | 0.01 | 12 | 5/1S1 Dry tropical riverain forest | 48.42 | 0.22 | 13 | 5/1S2 Khair-sissu forest | 302.60 | 1.37 | 14 | 6B/C1 Desert thorn forest | 828.99 | 3.76 | 15 | 6B/C2 Ravine thorn forest | 327.13 | 1.49",
+      "page_start": 250,
+      "page_end": 250,
+      "topic": "Rajasthan",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr2_rajasthan__p04",
+      "heading_path": [
+        "Rajasthan",
+        "Table 10.22.10 Area Statistics of the Forest types Found in Rajasthan"
+      ],
+      "text": "Table 10.22.10 Area Statistics of the Forest types Found in Rajasthan (km2) | Sl. No. | Forest Type | Area | % of the total mapped area* | 16 | 6B/DS1 Ziziphus scrub | 180.62 | 0.82 | 17 | 6B/DS2 Tropical Euphorbia scrub | 1.92 | 0.01 | 18 | 6/E1 Euphorbia scrub | 129.40 | 0.59 | 19 | 6/E2 Acacia senegal forest | 43.96 | 0.20 | 20 | 6/1S1 Desert dune scrub | 1,011.42 | 4.59 | Sub Total | 18,868.80 | 85.67 | 21 | TOF/ Plantation | 3,156.16 | 14.33 | Total (Forest Cover & Scrub) | 22,024.96 | 100.00 | *Forest Types have been assigned to the natural forest formations under forest cover and scrub categories shown in the forest cover mapping (ISFR, 2023). The total mapped area, therefore, is sum of forest cover and scrub.",
+      "page_start": 251,
+      "page_end": 251,
+      "topic": "Rajasthan",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr2_rajasthan__p05",
+      "heading_path": [
+        "Rajasthan",
+        "Table 10.22.12 Forest Fire Prone Classes"
+      ],
+      "text": "Table 10.22.12 Forest Fire Prone Classes (km2) | Sl. No. | Forest Fire Prone Classes | Forest Cover* | % of Total Forest Cover | 1 | Extremely fire prone | 92.64 | 0.42 | 2 | Very highly fire prone | 622.77 | 2.83 | 3 | Highly fire prone | 964.79 | 4.38 | 4 | Moderately fire prone | 1,299.19 | 5.90 | 5 | Less fire prone | 19,045.57 | 86.47 | Total | 22,024.96 | 100.00 | *Forest Cover including Scrub.",
+      "page_start": 252,
+      "page_end": 252,
+      "topic": "Rajasthan",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr2_rajasthan__p06",
+      "heading_path": [
+        "Rajasthan",
+        "Table 10.22.17 Major Invasive Species In the State Inside the RFA in Rajasthan"
+      ],
+      "text": "Table 10.22.17 Major Invasive Species In the State Inside the RFA in Rajasthan | Sl. No. | Species | Estimated Extent (km2) | 1 | Cassia tora/ Senna tora | 973.57 | 2 | Lantana camara | 870.22 | 3 | Prosopis juliflora/ Neltuma juliflora | 642.73 | 4 | Senna occidentalis | 250.73 | 5 | Triumfetta rhomboidea | 159.00",
+      "page_start": 254,
+      "page_end": 254,
+      "topic": "Rajasthan",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    }
+  ],
+  "claims": [],
+  "links": [],
+  "_meta": {
+    "unit_id": "isfr2_rajasthan",
+    "doc_id": "fsi2023_isfr_v2",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 280,
+    "pdf_end": 293,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T11:02:12Z",
+    "pdf_sha256": "74dda68769d81819",
+    "prompt_type": "inventory"
+  }
+}

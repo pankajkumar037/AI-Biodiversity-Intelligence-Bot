@@ -1,0 +1,307 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+  "content_type": "assessment",
+  "summary": "This document unit contains a comprehensive list of scientific references regarding the interlinkages between desertification, land degradation, food security, and greenhouse gas fluxes, covering topics such as agroforestry, soil carbon management, climate adaptation, and sustainable land management.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch6_interlinkages__w10__p01",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Yang, L., L. Chen, W. Wei, Y. Yu, and H. Zhang, 2014: Comparison of deep soil moisture in two re-vegetation watersheds in semi-arid regions.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "soil moisture",
+      "practices": [],
+      "metrics": [
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w10__p02",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Zhou, G. et al., 2017: Grazing intensity significantly affects belowground carbon and nitrogen cycling in grassland ecosystems: A meta-analysis.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "grazing intensity",
+      "practices": [
+        "rotational_grazing"
+      ],
+      "metrics": [
+        "SOC",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w10__p03",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Zhang, X., R. Obringer, C. Wei, N. Chen, and D. Niyogi, 2017: Droughts in India from 1981 to 2013 and implications to wheat production.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "drought",
+      "practices": [],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w10__p04",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Zomer, R. et al., 2016: Global tree cover and biomass carbon on agricultural land: The contribution of agroforestry to global and national carbon budgets.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "agroforestry",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "tree_cover",
+        "biomass",
+        "SOC"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w10__p05",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Sapkota, T. et al., 2017: Reducing global warming potential through sustainable intensification of basmati rice-wheat systems in India.",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "sustainable intensification",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w10__p06",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Narain, P., R.K. Singh, N.S. Sindhwal, and P. Joshie, 1997: Agroforestry for soil and water conservation in the western Himalayan Valley Region of India 2. Crop and tree production.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "agroforestry",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "erosion",
+        "water_holding_capacity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w10__p07",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Mekuria, W., and E. Aynekulu, 2013: Exclosure land management for restoration of the soils in degraded communal grazing lands in northern Ethiopia.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "land restoration",
+      "practices": [
+        "grassland_restoration"
+      ],
+      "metrics": [
+        "SOC",
+        "soil_organic_matter"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w10__p08",
+      "heading_path": [
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Poeplau, C., and A. Don, 2015: Carbon sequestration in agricultural soils via cultivation of cover crops – A meta-analysis.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "cover crops",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch6_interlinkages__w10__c01",
+      "passage_id": "srccl_ch6_interlinkages__w10__p02",
+      "subject": "grazing intensity",
+      "metric": "SOC",
+      "direction": "mixed",
+      "evidence_span": "Grazing intensity significantly affects belowground carbon and nitrogen cycling in grassland ecosystems",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w10__c02",
+      "passage_id": "srccl_ch6_interlinkages__w10__p03",
+      "subject": "drought",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "evidence_span": "Droughts in India from 1981 to 2013 and implications to wheat production.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w10__c03",
+      "passage_id": "srccl_ch6_interlinkages__w10__p05",
+      "subject": "sustainable intensification",
+      "metric": "pollution_load",
+      "direction": "decrease",
+      "evidence_span": "Reducing global warming potential through sustainable intensification of basmati rice-wheat systems in India.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w10__c04",
+      "passage_id": "srccl_ch6_interlinkages__w10__p06",
+      "subject": "agroforestry",
+      "metric": "erosion",
+      "direction": "decrease",
+      "evidence_span": "Agroforestry for soil and water conservation in the western Himalayan Valley Region of India",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w10__c05",
+      "passage_id": "srccl_ch6_interlinkages__w10__p07",
+      "subject": "exclosure land management",
+      "metric": "SOC",
+      "direction": "increase",
+      "evidence_span": "Exclosure land management for restoration of the soils in degraded communal grazing lands in northern Ethiopia.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w10__c06",
+      "passage_id": "srccl_ch6_interlinkages__w10__p08",
+      "subject": "cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "evidence_span": "Carbon sequestration in agricultural soils via cultivation of cover crops",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "grazing intensity",
+      "to_node": "SOC",
+      "effect": "mixed",
+      "passage_id": "srccl_ch6_interlinkages__w10__p02",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "drought",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "passage_id": "srccl_ch6_interlinkages__w10__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "sustainable intensification",
+      "to_node": "pollution_load",
+      "effect": "decrease",
+      "passage_id": "srccl_ch6_interlinkages__w10__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "passage_id": "srccl_ch6_interlinkages__w10__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "exclosure land management",
+      "to_node": "SOC",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w10__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w10__p08",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w10",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 671,
+    "pdf_end": 682,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:12:58Z",
+    "pdf_sha256": "4cc18dca5556ff43"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "extraction_status": "ok",
+  "section_title": "6.4.4.3 Resolving challenges in response option implementation",
+  "content_type": "assessment",
+  "summary": "This assessment discusses the barriers to implementing land management response options, emphasizing that structural and institutional factors are as critical as individual assets and motivations. It highlights the role of governance, stakeholder engagement, and the inclusion of local and indigenous knowledge in successful policy implementation.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch6_interlinkages__w07__p01",
+      "heading_path": [
+        "6.4.4.3 Resolving challenges in response option implementation"
+      ],
+      "text": "The 40 response options assessed in this chapter face a variety of barriers to implementation that require action across multiple actors to overcome (Section 6.4.1). Studies have noted that, while adoption of response options by individuals may depend on individual assets and motivation, larger structural and institutional factors are almost always equally important if not more so (Adimassu et al. 2016; Djenontin et al. 2018), though harder to capture in research variables (Schwilch et al. 2014). These institutional and governance factors can create an enabling environment for sustainable land management (SLM) practices, or challenges to their adoption (Adimassu et al. 2013).",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "barriers to implementation",
+      "practices": [
+        "other"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w07__p02",
+      "heading_path": [
+        "6.4.4.3 Resolving challenges in response option implementation"
+      ],
+      "text": "Analysis of government effectiveness (GE) – defined as quality of public services, policy formulation and implementation, civil service and the degree of its independence from political pressures, as well as credibility of the government’s commitment to its policies (Kaufmann et al. 2010) – has been shown to play a key role in land management. GE mediates land-user actions on land management and investment, and government policies and laws can help land users adopt sustainable land management practices (Nkonya et al. 2016) (Figure 6.9).",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "government effectiveness",
+      "practices": [
+        "other"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w07__p03",
+      "heading_path": [
+        "6.4.4.3 Resolving challenges in response option implementation",
+        "Involvement of stakeholders"
+      ],
+      "text": "Lack of connection between science knowledge and on-the-ground practice has hampered adoption of many response options in the past; simply presenting ‘scientifically’ derived response options is not enough (Marques et al. 2016). For example, the importance of recognising and incorporating local knowledge and indigenous knowledge is increasingly emphasised in successful policy implementation (see Cross-Chapter Box 13 in Chapter 7), as local practices of water management, soil fertility management, improved grazing, restoration and sustainable management of forests are often well-aligned with response options assessed by scientists (Marques et al. 2016).",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "stakeholder involvement",
+      "practices": [
+        "irrigation",
+        "integrated_nutrient_mgmt",
+        "rotational_grazing",
+        "grassland_restoration",
+        "other"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [],
+  "links": [
+    {
+      "from_node": "government effectiveness",
+      "to_node": "sustainable land management practices",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "GE mediates land-user actions on land management and investment, and government policies and laws can help land users adopt sustainable land management practices",
+      "passage_id": "srccl_ch6_interlinkages__w07__p02",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "local and indigenous knowledge",
+      "to_node": "policy implementation",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "local practices of water management, soil fertility management, improved grazing, restoration and sustainable management of forests are often well-aligned with response options assessed by scientists",
+      "passage_id": "srccl_ch6_interlinkages__w07__p03",
+      "strength_stated": "strong"
+    }
+  ],
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w07",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 638,
+    "pdf_end": 649,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:53:48Z",
+    "pdf_sha256": "5ce43c67e8f65097"
+  }
+}

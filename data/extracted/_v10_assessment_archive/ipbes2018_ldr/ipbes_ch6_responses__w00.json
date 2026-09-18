@@ -1,0 +1,142 @@
+{
+  "extraction_status": "ok",
+  "section_title": "6.3.1.1 Responses to cropland degradation",
+  "content_type": "practice",
+  "summary": "This section discusses responses to cropland degradation, specifically focusing on conservation agriculture and integrated crop, livestock, and forestry systems as effective strategies for restoration and sustainable management.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch6_responses__w00__p01",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "6.3 DIRECT BIOPHYSICAL AND TECHNICAL RESPONSES TO LAND DEGRADATION AND RESTORATION",
+        "6.3.1 Assessment of land-use specific responses",
+        "6.3.1.1 Responses to cropland degradation"
+      ],
+      "text": "Cropland soil degradation is very site specific and can occur physically, chemically and/or biologically. Potential responses to degradation include using: (i) a landscape approach; (ii) conservation agriculture; (iii) integrated crop, livestock and forestry systems; (iv) agroforestry; (v) enhanced plant genetics; and (vi) integrated watershed management.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "cropland degradation responses",
+      "practices": [
+        "other",
+        "conservation_agriculture",
+        "crop_livestock_integration",
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w00__p02",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "6.3 DIRECT BIOPHYSICAL AND TECHNICAL RESPONSES TO LAND DEGRADATION AND RESTORATION",
+        "6.3.1 Assessment of land-use specific responses",
+        "6.3.1.1 Responses to cropland degradation",
+        "Conservation agriculture"
+      ],
+      "text": "Conservation agriculture, as defined by the FAO, is characterized by three specific actions including: (i) continuous minimum mechanical soil disturbance; (ii) permanent organic soil cover; and (iii) diversification of crop species grown in sequences and/or associations. In general, conservation agriculture principles are universally applicable to all agricultural landscapes and land uses, because they emphasize the use of locally-adapted practices (based on ILKP), biodiversity and natural biological processes above and below ground (Forest People Program & Program, 2010). Interventions such as mechanical soil disturbance, and agrochemical or plant nutrient applications, are optimized so they do not interfere with or disrupt biological soil processes.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "conservation agriculture definition",
+      "practices": [
+        "conservation_agriculture"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w00__p03",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "6.3 DIRECT BIOPHYSICAL AND TECHNICAL RESPONSES TO LAND DEGRADATION AND RESTORATION",
+        "6.3.1 Assessment of land-use specific responses",
+        "6.3.1.1 Responses to cropland degradation",
+        "Integrated crop, livestock and forestry systems"
+      ],
+      "text": "Another strategy for restoring degraded cropland (sometimes referred to as sustainable intensification) is to incorporate perennials and cattle into traditional row-crop production systems. In Brazil, sustainable intensification began slowly during the 1970s, as cattle production on native grass and bush lands within tropical savannahs became more extensive. Adaptation of new cattle breeds (mostly Nellore) and grasses such as brachiaria led to the development of integrated crop and livestock and integrated crop, livestock and forestry systems. These systems not only increased food and feed production at farm and regional levels, but also improved many ecosystem services (Carvalho et al., 2017; Salton et al., 2014; Sato & Lindenmayer, 2017).",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "integrated crop, livestock and forestry systems",
+      "practices": [
+        "crop_livestock_integration"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch6_responses__w00__c01",
+      "passage_id": "ipbes_ch6_responses__w00__p03",
+      "subject": "integrated crop, livestock and forestry systems",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "evidence_span": "These systems not only increased food and feed production at farm and regional levels, but also improved many ecosystem services",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "crop_livestock_integration",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "sustainable intensification",
+      "passage_id": "ipbes_ch6_responses__w00__p03",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Integrated crop, livestock and forestry systems",
+    "system_type": "integrated_system",
+    "tree_species": [],
+    "crop_species": [
+      "perennials"
+    ],
+    "region_of_adoption": [
+      "Brazil",
+      "North America",
+      "Western Europe",
+      "Uruguay",
+      "Argentina"
+    ],
+    "stated_benefits": [
+      "increased food and feed production",
+      "improved ecosystem services"
+    ],
+    "stated_constraints": []
+  },
+  "_meta": {
+    "unit_id": "ipbes_ch6_responses__w00",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 493,
+    "pdf_end": 504,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:56:49Z",
+    "pdf_sha256": "242083f345c4b750"
+  }
+}

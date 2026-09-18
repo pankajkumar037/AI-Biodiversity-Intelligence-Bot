@@ -1,0 +1,22 @@
+{
+  "extraction_status": "no_content",
+  "section_title": "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+  "content_type": "other",
+  "summary": "The provided pages consist entirely of a reference list for Chapter 6 of the IPCC Special Report on Climate Change and Land (SRCCL). No scientific content, claims, or management practices are described in the text.",
+  "passages": [],
+  "claims": [],
+  "links": [],
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w10",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 671,
+    "pdf_end": 682,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:54:19Z",
+    "pdf_sha256": "4cc18dca5556ff43"
+  }
+}

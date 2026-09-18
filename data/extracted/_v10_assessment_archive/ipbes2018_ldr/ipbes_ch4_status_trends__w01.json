@@ -1,0 +1,126 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4.2.1 Soil erosion",
+  "content_type": "practice",
+  "summary": "This section discusses the drivers and impacts of soil erosion, noting that while it is a natural process, it is significantly accelerated by agricultural practices and mismanagement. It highlights the potential for conservation agriculture techniques to mitigate these effects.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch4_status_trends__w01__p01",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2 INDIVIDUAL DEGRADATION PROCESSES",
+        "4.2.1 Soil erosion"
+      ],
+      "text": "Erosion is a natural process, but is strongly accelerated by agriculture (Montgomery, 2007b) and mismanagement (Diamond, 2011). Nowadays the combined effects of, for example, the development of industrial cropping and urban sealed areas (see Section 4.3.10) and with an increasing population to feed, have resulted in cultivation of marginal lands, leading to significant soil erosion (Tato, 1992).",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "soil erosion drivers",
+      "practices": [],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w01__p02",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2 INDIVIDUAL DEGRADATION PROCESSES",
+        "4.2.1 Soil erosion"
+      ],
+      "text": "“Conservation” agriculture, contour line ploughing, no tillage or sowing directly into a cover crop and mulching bare surfaces can decrease soil erosion by over 80% (Montgomery, 2007). With these techniques, soil erosion on cropland in the USA declined nearly 40% between 1982 and 1997, from 3.1 to 1.9 Pg yr-1 even while the area of cropland remained roughly constant (FAO & ITPS, 2015; Wiebe, 2003).",
+      "page_start": 9,
+      "page_end": 9,
+      "topic": "soil erosion mitigation",
+      "practices": [
+        "conservation_agriculture",
+        "no_till",
+        "cover_crops",
+        "mulching"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch4_status_trends__w01__c01",
+      "passage_id": "ipbes_ch4_status_trends__w01__p02",
+      "subject": "Conservation agriculture, contour line ploughing, no tillage or sowing directly into a cover crop and mulching bare surfaces",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": 80,
+      "unit": "percent",
+      "evidence_span": "“Conservation” agriculture, contour line ploughing, no tillage or sowing directly into a cover crop and mulching bare surfaces can decrease soil erosion by over 80% (Montgomery, 2007).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w01__c02",
+      "passage_id": "ipbes_ch4_status_trends__w01__p02",
+      "subject": "Conservation techniques",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": 40,
+      "unit": "percent_change",
+      "conditions": "cropland in the USA between 1982 and 1997",
+      "time_horizon_years": 15,
+      "evidence_span": "With these techniques, soil erosion on cropland in the USA declined nearly 40% between 1982 and 1997, from 3.1 to 1.9 Pg yr-1 even while the area of cropland remained roughly constant",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "conservation_agriculture",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch4_status_trends__w01__p02",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agriculture",
+      "to_node": "erosion",
+      "effect": "increase",
+      "passage_id": "ipbes_ch4_status_trends__w01__p01",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Conservation agriculture",
+    "tree_species": [],
+    "crop_species": [],
+    "region_of_adoption": [
+      "USA"
+    ],
+    "stated_benefits": [
+      "decrease soil erosion by over 80%"
+    ],
+    "stated_constraints": []
+  },
+  "_meta": {
+    "unit_id": "ipbes_ch4_status_trends__w01",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 290,
+    "pdf_end": 301,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:54:49Z",
+    "pdf_sha256": "3531b8637a33e4f9"
+  }
+}

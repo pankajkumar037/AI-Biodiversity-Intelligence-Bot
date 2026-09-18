@@ -1,0 +1,274 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Land degradation",
+  "content_type": "assessment",
+  "summary": "This assessment examines the complex interactions between land degradation, climate change, and human activities. It highlights the difficulty in defining and mapping land degradation, the role of land management in determining erosion rates, and the impacts of climate change on forest productivity, coastal erosion, and agricultural systems. It also discusses the potential for land-based carbon dioxide removal (CDR) technologies and the links between land degradation, poverty, and livelihoods.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch4_land_degradation__w02__p01",
+      "heading_path": [
+        "Land degradation",
+        "4.3.2 Forest degradation"
+      ],
+      "text": "Based on empirical data provided by 46 countries, the drivers for deforestation (due to commercial agriculture) and forest degradation (due to timber extraction and logging) are similar in Africa, Asia and Latin America. More recently, global forest disturbance over the period 2001–2015 was attributed to commodity-driven deforestation (27 ± 5%), forestry (26 ± 4%), shifting agriculture (24 ± 3%) and wildfire (23 ± 4%). The remaining 0.6 ± 0.3% was attributed to the expansion of urban centres.",
+      "page_start": 367,
+      "page_end": 367,
+      "topic": "Forest degradation drivers",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w02__p02",
+      "heading_path": [
+        "Land degradation",
+        "4.4 Projections of land degradation in a changing climate"
+      ],
+      "text": "Changes in rainfall patterns, such as distribution in time and space, and intensification of rainfall events will increase the risk of land degradation, both in terms of likelihood and consequences (high agreement, medium evidence). Climate-induced vegetation changes will increase the risk of land degradation in some areas (where vegetation cover will decline) (medium confidence).",
+      "page_start": 369,
+      "page_end": 370,
+      "topic": "Climate change impacts on land degradation",
+      "practices": [],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w02__p03",
+      "heading_path": [
+        "Land degradation",
+        "4.4.1.1 Changes in water erosion risk due to precipitation changes"
+      ],
+      "text": "There is a large body of literature based on modelling future land degradation due to soil erosion concluding that, in spite of the increasing trend of erosive power of rainfall, (medium evidence, high agreement) land degradation is primarily determined by land management (very high confidence).",
+      "page_start": 371,
+      "page_end": 371,
+      "topic": "Soil erosion and land management",
+      "practices": [],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w02__p04",
+      "heading_path": [
+        "Land degradation",
+        "4.4.1.2 Climate-induced vegetation changes, implications for land degradation"
+      ],
+      "text": "Generally, removal of trees through harvesting or forest death will reduce transpiration and hence increase the runoff during the growing season. Management-induced soil disturbance (such as skid trails and roads) will affect water flow routing to rivers and streams.",
+      "page_start": 371,
+      "page_end": 371,
+      "topic": "Forest management and hydrological impacts",
+      "practices": [],
+      "metrics": [
+        "water_holding_capacity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w02__p05",
+      "heading_path": [
+        "Land degradation",
+        "4.5.2 Risks of land degradation from expansion of bioenergy and land-based CDR"
+      ],
+      "text": "The large-scale implementation of high-intensity dedicated energy crops, and harvest of crop and forest residues for bioenergy, could contribute to increases in the area of degraded lands: intensive land management can result in nutrient depletion, over-fertilisation and soil acidification, salinisation (from irrigation without adequate drainage), wet ecosystems drying (from increased evapotranspiration), as well as novel erosion and compaction processes (from high-impact biomass harvesting disturbances) and other land degradation processes.",
+      "page_start": 373,
+      "page_end": 373,
+      "topic": "Risks of bioenergy and CDR",
+      "practices": [],
+      "metrics": [
+        "nutrient_availability",
+        "salinity",
+        "erosion",
+        "bulk_density"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "risk"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w02__p06",
+      "heading_path": [
+        "Land degradation",
+        "4.5.3 Potential contributions of land-based CDR to reducing and reversing land degradation"
+      ],
+      "text": "Afforestation/reforestation on degraded lands can increase carbon stocks in vegetation and soil, increase carbon sinks, and deliver co-benefits for biodiversity and ecosystem services, particularly if a diversity of local species are used. Afforestation and reforestation on native grasslands can reduce soil carbon stocks, although the loss is typically more than compensated by increases in biomass and dead organic matter carbon stocks, and may impact on biodiversity.",
+      "page_start": 374,
+      "page_end": 374,
+      "topic": "CDR and land restoration",
+      "practices": [
+        "grassland_restoration"
+      ],
+      "metrics": [
+        "SOC",
+        "biomass",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land",
+        "grassland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w02__p07",
+      "heading_path": [
+        "Land degradation",
+        "4.5.4 Traditional biomass provision and land degradation"
+      ],
+      "text": "Traditional biomass is land-intensive due to reliance on open fires, inefficient stoves and overharvesting of woodfuel, contributing to land degradation, losses in biodiversity and reduced ecosystem services. Traditional woodfuels account for 1.9–2.3% of global GHG emissions, particularly in ‘hotspots’ of land degradation and fuelwood depletion in eastern Africa and South Asia, such that one-third of traditional woodfuels globally are harvested unsustainably.",
+      "page_start": 375,
+      "page_end": 375,
+      "topic": "Traditional biomass and land degradation",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w02__p08",
+      "heading_path": [
+        "Land degradation",
+        "4.6.1 Impact on greenhouse gases (GHGs)"
+      ],
+      "text": "Agricultural land and wetlands represent the dominant source of non-CO2 greenhouse gases (GHGs). In agricultural land, the expansion of rice cultivation (increasing CH4 sources), ruminant stocks and manure disposal (increasing CH4, N2O and NH3 fluxes) and nitrogen over-fertilisation combined with soil acidification (increasing N2O fluxes) are introducing the major impacts (medium agreement, medium evidence) and their associated emissions appear to be exacerbated by global warming (medium agreement, medium evidence).",
+      "page_start": 376,
+      "page_end": 376,
+      "topic": "Agricultural GHG emissions",
+      "practices": [],
+      "metrics": [
+        "nitrogen",
+        "pH"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch4_land_degradation__w02__c01",
+      "passage_id": "srccl_ch4_land_degradation__w02__p02",
+      "subject": "rainfall patterns",
+      "metric": "erosion",
+      "direction": "increase",
+      "evidence_span": "Changes in rainfall patterns, such as distribution in time and space, and intensification of rainfall events will increase the risk of land degradation, both in terms of likelihood and consequences (high agreement, medium evidence).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w02__c02",
+      "passage_id": "srccl_ch4_land_degradation__w02__p04",
+      "subject": "removal of trees",
+      "metric": "water_holding_capacity",
+      "direction": "increase",
+      "evidence_span": "Generally, removal of trees through harvesting or forest death (Anderegg et al. 2012) will reduce transpiration and hence increase the runoff during the growing season.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w02__c03",
+      "passage_id": "srccl_ch4_land_degradation__w02__p06",
+      "subject": "afforestation/reforestation on degraded lands",
+      "metric": "SOC",
+      "direction": "increase",
+      "evidence_span": "Afforestation/reforestation on degraded lands can increase carbon stocks in vegetation and soil, increase carbon sinks (Amichev et al. 2012), and deliver co-benefits for biodiversity and ecosystem services, particularly if a diversity of local species are used.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w02__c04",
+      "passage_id": "srccl_ch4_land_degradation__w02__p06",
+      "subject": "afforestation and reforestation on native grasslands",
+      "metric": "SOC",
+      "direction": "decrease",
+      "evidence_span": "Afforestation and reforestation on native grasslands can reduce soil carbon stocks, although the loss is typically more than compensated by increases in biomass and dead organic matter carbon stocks (Bárcena et al. 2014; Li et al. 2012; Ovalle-Rivera et al. 2015; Shi et al. 2013), and may impact on biodiversity (Li et al. 2012).",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "rainfall intensification",
+      "to_node": "land degradation",
+      "effect": "increase",
+      "passage_id": "srccl_ch4_land_degradation__w02__p02",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "removal of trees",
+      "to_node": "runoff",
+      "effect": "increase",
+      "mechanism": "reduced transpiration",
+      "passage_id": "srccl_ch4_land_degradation__w02__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "afforestation/reforestation on degraded lands",
+      "to_node": "SOC",
+      "effect": "increase",
+      "passage_id": "srccl_ch4_land_degradation__w02__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "afforestation/reforestation on native grasslands",
+      "to_node": "SOC",
+      "effect": "decrease",
+      "passage_id": "srccl_ch4_land_degradation__w02__p06",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch4_land_degradation__w02",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 377,
+    "pdf_end": 388,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:08:48Z",
+    "pdf_sha256": "f776f35641be323a"
+  }
+}

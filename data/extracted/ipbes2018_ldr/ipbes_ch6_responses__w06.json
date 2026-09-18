@@ -1,0 +1,311 @@
+{
+  "extraction_status": "ok",
+  "section_title": "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+  "content_type": "assessment",
+  "summary": "This document provides a comprehensive list of scientific references regarding land degradation, restoration, and management responses, including soil conservation, agroforestry, and ecosystem services.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch6_responses__w06__p01",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Long-term organic farming fosters below and aboveground biota: Implications for soil quality, biological control and productivity.",
+      "page_start": 501,
+      "page_end": 501,
+      "topic": "organic farming",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "soil_biota",
+        "soil_organic_matter",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w06__p02",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Dryland cropping strategies for efficient water-use to control saline seeps in the northern great plains, u.s.a.",
+      "page_start": 501,
+      "page_end": 501,
+      "topic": "dryland cropping",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "water_holding_capacity",
+        "salinity"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w06__p03",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "The potential of earthworms to restore ecosystem services after opencast mining.",
+      "page_start": 501,
+      "page_end": 501,
+      "topic": "restoration",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w06__p04",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Biodiversity persistence in highly human-modified tropical landscapes depends on ecological restoration.",
+      "page_start": 501,
+      "page_end": 501,
+      "topic": "restoration",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w06__p05",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Greenhouse gas mitigation by agricultural intensification.",
+      "page_start": 502,
+      "page_end": 502,
+      "topic": "agricultural intensification",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w06__p06",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Carbon sequestration potential of second-growth forest regeneration in the Latin American tropics.",
+      "page_start": 503,
+      "page_end": 503,
+      "topic": "forest regeneration",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate",
+        "biomass"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w06__p07",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Soil chemical properties affect the reaction of forest soil bacteria to drought and rewetting stress.",
+      "page_start": 503,
+      "page_end": 503,
+      "topic": "soil chemistry",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "soil_biota",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w06__p08",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Enhanced top soil carbon stocks under organic farming.",
+      "page_start": 507,
+      "page_end": 507,
+      "topic": "organic farming",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w06__p09",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Tailoring conservation agriculture technologies to West Africa semi-arid zones: Building on traditional local practices for soil restoration.",
+      "page_start": 512,
+      "page_end": 512,
+      "topic": "conservation agriculture",
+      "practices": [
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "soil_organic_matter"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w06__p10",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Carbon sequestration in drylands.",
+      "page_start": 512,
+      "page_end": 512,
+      "topic": "carbon sequestration",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "rangeland",
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch6_responses__w06__c01",
+      "passage_id": "ipbes_ch6_responses__w06__p01",
+      "subject": "organic farming",
+      "metric": "soil_biota",
+      "direction": "increase",
+      "evidence_span": "Long-term organic farming fosters below and aboveground biota",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w06__c02",
+      "passage_id": "ipbes_ch6_responses__w06__p05",
+      "subject": "agricultural intensification",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "evidence_span": "Greenhouse gas mitigation by agricultural intensification.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w06__c03",
+      "passage_id": "ipbes_ch6_responses__w06__p08",
+      "subject": "organic farming",
+      "metric": "SOC",
+      "direction": "increase",
+      "evidence_span": "Enhanced top soil carbon stocks under organic farming.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "organic farming",
+      "to_node": "soil_biota",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w06__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agricultural intensification",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w06__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "organic farming",
+      "to_node": "SOC",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w06__p08",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch6_responses__w06",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 559,
+    "pdf_end": 570,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:17:39Z",
+    "pdf_sha256": "9166d4d0c6a4f414"
+  }
+}

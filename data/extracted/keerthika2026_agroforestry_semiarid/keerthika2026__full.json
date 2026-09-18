@@ -1,0 +1,303 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Performance of multitier fruit-based agroforestry under deficit irrigation in semi-arid Rajasthan, India",
+  "content_type": "assessment",
+  "summary": "This study evaluates a multitier agroforestry (MTA) system in semi-arid Rajasthan, India, comprising Ber, Dragon fruit, Moringa, and Papaya under three drip irrigation levels using saline water. Results indicate that Dragon fruit performed best, while Moringa and Papaya struggled due to soil salinity. Deficit irrigation (0.6 CPE) was found to be sufficient for Ber canopy development and yield, while Dragon fruit responded positively to higher irrigation levels (1 CPE).",
+  "passages": [
+    {
+      "passage_id": "keerthika2026__full__p01",
+      "heading_path": [
+        "Results and discussion"
+      ],
+      "text": "Dragon fruit growth and yield responded positively to irrigation, with maximum dragon fruit weight (301 g fruit-1) under 1 CPE, representing a 43.33% increase over 0.6 CPE. However, higher mean ber yield was observed under 0.6 CPE (22.68 kg plant-1), representing an 8.15% increase over 0.8 CPE (20.97 kg plant-1).",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "irrigation effects on fruit yield",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "keerthika2026__full__p02",
+      "heading_path": [
+        "Introduction"
+      ],
+      "text": "The integration of trees–fruits–crops–livestock delivers a broad range of ecosystem services, including reduced susceptibility to crop failure, sustained supply of food, fuelwood, fodder, and timber, reduced erosion, increased soil fertility, biodiversity conservation, and improved water quality.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "agroforestry ecosystem services",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "erosion",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "keerthika2026__full__p03",
+      "heading_path": [
+        "Results",
+        "Spatial allocation of land and survival percentage"
+      ],
+      "text": "Despite gap filling, Moringa oleifera and Papaya carica showed less survival percentage, indicating establishment challenges which may be attributed to the residual effects of prior flood irrigation that led to the build-up in soil electrical conductivity under the prevailing agro-climatic conditions, thereby affecting seedling establishment.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "seedling survival and soil salinity",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "salinity",
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "keerthika2026__full__p04",
+      "heading_path": [
+        "Results",
+        "Sunburn percentage"
+      ],
+      "text": "In contrast, during the second and third years, the reduced sunburn incidence suggests the effective role of Napier grass in lowering the air temperature and protecting the dragon fruit plants from yellowing.",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "microclimate regulation by intercropping",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "temperature",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "keerthika2026__full__p05",
+      "heading_path": [
+        "Growth attributes of dragon fruit"
+      ],
+      "text": "The irrigation level of 1 CPE in dragon fruit exhibited a significant increase of +41% in plant height and +19.09% in cladode length when compared to the 0.6 CPE irrigation level, reflecting better moisture availability and nutrient absorption and reduced moisture stress.",
+      "page_start": 9,
+      "page_end": 9,
+      "topic": "irrigation effects on dragon fruit growth",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "biomass",
+        "nutrient_availability",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "keerthika2026__full__p06",
+      "heading_path": [
+        "Soil attributes"
+      ],
+      "text": "The present study revealed a decline in soil nitrogen by 28.75%, relative stability of phosphorus, and an increase in potassium by 8.76% across different irrigation levels when compared to the initial soil values. The reduction in available nitrogen compared to the initial soil N content indicates nutrient depletion, likely driven by plant uptake as well as losses through leaching and volatilization.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "soil nutrient dynamics",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "nitrogen",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "keerthika2026__full__p07",
+      "heading_path": [
+        "Soil attributes"
+      ],
+      "text": "In contrast, the increase in available potassium could result from the enhanced cycling of K through litterfall, root turnover, and mineral weathering, processes that are typically promoted in tree-based agroecosystems.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "soil potassium cycling",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "keerthika2026__full__c01",
+      "passage_id": "keerthika2026__full__p01",
+      "subject": "Dragon fruit weight",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 43.33,
+      "unit": "percent_change",
+      "basis": "unstated",
+      "conditions": "1 CPE vs 0.6 CPE",
+      "evidence_span": "maximum dragon fruit weight (301 g fruit-1) under 1 CPE, representing a 43.33% increase over 0.6 CPE.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "keerthika2026__full__c02",
+      "passage_id": "keerthika2026__full__p01",
+      "subject": "Ber yield",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 8.15,
+      "unit": "percent_change",
+      "basis": "unstated",
+      "conditions": "0.6 CPE vs 0.8 CPE",
+      "evidence_span": "higher mean ber yield was observed under 0.6 CPE (22.68 kg plant-1), representing an 8.15% increase over 0.8 CPE (20.97 kg plant-1).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "keerthika2026__full__c03",
+      "passage_id": "keerthika2026__full__p05",
+      "subject": "Dragon fruit plant height",
+      "metric": "biomass",
+      "direction": "increase",
+      "value": 41,
+      "unit": "percent_change",
+      "basis": "unstated",
+      "conditions": "1 CPE vs 0.6 CPE",
+      "evidence_span": "The irrigation level of 1 CPE in dragon fruit exhibited a significant increase of +41% in plant height and +19.09% in cladode length when compared to the 0.6 CPE irrigation level",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "keerthika2026__full__c04",
+      "passage_id": "keerthika2026__full__p06",
+      "subject": "Soil nitrogen",
+      "metric": "nitrogen",
+      "direction": "decrease",
+      "value": 28.75,
+      "unit": "percent_change",
+      "basis": "unstated",
+      "conditions": "compared to initial soil values",
+      "evidence_span": "The present study revealed a decline in soil nitrogen by 28.75%, relative stability of phosphorus, and an increase in potassium by 8.76% across different irrigation levels when compared to the initial soil values",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "keerthika2026__full__c05",
+      "passage_id": "keerthika2026__full__p06",
+      "subject": "Soil potassium",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": 8.76,
+      "unit": "percent_change",
+      "basis": "unstated",
+      "conditions": "compared to initial soil values",
+      "evidence_span": "an increase in potassium by 8.76% across different irrigation levels when compared to the initial soil values",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "irrigation",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": "dragon fruit",
+      "mechanism": "better moisture availability and nutrient absorption",
+      "passage_id": "keerthika2026__full__p05",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "Napier grass",
+      "to_node": "temperature",
+      "effect": "decrease",
+      "condition": "semi-arid",
+      "mechanism": "lowering air temperature",
+      "passage_id": "keerthika2026__full__p04",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "tree-based agroecosystems",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": "potassium",
+      "mechanism": "enhanced cycling of K through litterfall, root turnover, and mineral weathering",
+      "passage_id": "keerthika2026__full__p07",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "flood irrigation",
+      "to_node": "salinity",
+      "effect": "increase",
+      "condition": "semi-arid",
+      "mechanism": "build-up in soil electrical conductivity",
+      "passage_id": "keerthika2026__full__p03",
+      "strength_stated": "moderate"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "keerthika2026__full",
+    "doc_id": "keerthika2026_agroforestry_semiarid",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 1,
+    "pdf_end": 14,
+    "manifest_practices": [
+      "agroforestry_agrisilvicultural",
+      "irrigation"
+    ],
+    "manifest_climate_zones": [
+      "semi-arid"
+    ],
+    "extracted_at": "2026-09-18T11:06:03Z",
+    "pdf_sha256": "ec7732041a85de7c",
+    "prompt_type": "assessment"
+  }
+}

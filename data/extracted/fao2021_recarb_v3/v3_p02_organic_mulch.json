@@ -1,0 +1,1314 @@
+{
+  "extraction_status": "ok",
+  "section_title": "2. Organic mulch",
+  "content_type": "practice",
+  "summary": "Organic mulches, materials applied to the soil surface like straw or leaves, are used to reduce water loss, soil erosion, and weed growth, while modifying soil temperature and improving crop productivity. They can also provide nutrients and allelopathic substances that combat biotic stresses. While applicable in various pedoclimatic contexts, low productivity areas may have limited crop residue availability for mulching. The practice contributes to soil organic carbon (SOC) sequestration, though the magnitude varies with local conditions, duration, and methodology. Mulching also improves soil physical properties by reducing raindrop impact, enhancing aggregate stability, and easing water infiltration. It supports soil fauna and can improve soil chemical properties in infertile soils. Organic mulches help minimize soil erosion, nutrient imbalances, salinization, acidification, biodiversity loss, and compaction. They are key for water storage in drylands, increasing crop production, and can inhibit weeds. However, excessive mulch can lead to waterlogging, allelopathy, and frost damage. Competition for crop residues for other uses like fodder or fuel, and the need for specialized machinery, can be economic barriers. Lack of technical knowledge is also a barrier to adoption.",
+  "passages": [
+    {
+      "passage_id": "v3_p02_organic_mulch__p01",
+      "heading_path": [
+        "1. Description of the practice"
+      ],
+      "text": "A mulch can be defined as a material which is applied to the soil surface in order to reduce water loss and soil\nerosion, suppress weeds, reduce fruit splashing, modify soil temperatures and generally improve crop\nproductivity (FAO, 2004). Organic mulches would entail any material such as straw, leaves, loose soil, etc. that\nis spread or formed upon the surface of the soil to protect the soil and/or plant roots from the effects of\nraindrops, soil crusting, freezing, evaporation, etc. (SSSA, 2020). Farming with the presence of a mulch on the\nsoil surface has been used for centuries by smallholders. For instance, the “tapado” or slash-and-mulch system\nof Central America is based on placing crop seeds on the soil below a dense stand of vegetation after first rains\nand cutting the vegetation allowing it to dry out (Kearney et al., 2019). The maintenance of a soil cover or mulch\nbased on crop residues as well as a range of other materials is common in many types of agricultural productions\n(field crops, tree crops, horticultural crops, etc.). When organic mulches decompose they provide nutrients for\nthe crops and, depending on the material, can release allelopathic substances (i.e. secondary metabolites) which\ncombat biotic stresses such as weed infestations, insect pests and disease pathogens (Farooq et al., 2011); in\nsome conditions, such as cool wet climates, these allelochemicals can be detrimental to crop growth (Jabran et\nal., 2015).",
+      "page_start": 14,
+      "page_end": 14,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "erosion",
+        "temperature",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p02",
+      "heading_path": [
+        "2. Range of applicability"
+      ],
+      "text": "The use of mulches based on crop residues is applicable to any type of pedoclimatic context. Agroecosystems\nwith greater net primary productivity pose fewer limitations to the availability of enough crop residues to keep\nthe soil completely covered with crop residues. In contrast, low productivity areas face limitations in terms of\nsoil coverage by mulches (Plaza-Bonilla et al., 2015). For instance, semiarid and arid regions of West and\nSoutheastern Africa as well as of the Mediterranean basin present low levels of biomass production. Besides this,\nin these and other regions the competition for crop residues for other purposes such as fodder, fuel and/or\nconstruction material further limits the potential to cover soils (German Agency for Technical Cooperation,\n1998; Lahmar et al., 2012).",
+      "page_start": 14,
+      "page_end": 14,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "arid",
+        "semi-arid",
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p03",
+      "heading_path": [
+        "3. Impact on soil organic carbon stocks"
+      ],
+      "text": "The maintenance of crop residues as dead mulches implies a C input to the soil. Depending on the local\nconditions, this C will be either converted to SOC or released from the soil, mainly, as carbon dioxide (CO2).\nTherefore, these mulches might have a direct effect on the SOC stocks. Some research has been done in order\nto estimate the crop residues' potential on SOC changes, with great differences depending on pedoclimatic\nconditions and cropping systems. For instance, Page et al. (2020) found that crop residue mulch mitigated SOC\nlosses up to 0.1tC/ha/yr of SOC under no-tillage (Table 6). Native areas tend to have higher SOC stocks than\ncultivated soils (Post and Kwon, 2000). Furthermore, warm-temperate areas of Australia have medium to low\nyields, which implies low carbon inputs and hence, low sequestration potentials. In contrast, Tenelli et al.\n(2019), when working in a highly productive and intensively tilled system, found that maintaining crop residues\non soil surface was a key strategy to either start sequestering C or reducing Closses 10-fold (Table 6). It is worth\nto consider that in many situations SOC losses are observed under an agricultural management in different\npedoclimatic conditions (Table 6). For instance, Page et al. (2020) point out that a net decline in SOC over time\nis often observed in semiarid environments as a result of low net primary productivity and use of fallow periods\nto store soil water. Furthermore, the last authors stress the importance carrying out a diachronic approach,\nwhere the effects of treatments are quantified throughout time instead than using a business as usual treatment\n(e.g. ploughing, residue removal, etc.) as baseline in the same sense to what was previously elegantly\nrecommended by Olson (2013) and Dimassi et al. (2014).",
+      "page_start": 15,
+      "page_end": 15,
+      "topic": "mulching",
+      "practices": [
+        "mulching",
+        "no_till"
+      ],
+      "metrics": [
+        "SOC",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "semi-arid",
+        "temperate",
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p04",
+      "heading_path": [
+        "3. Impact on soil organic carbon stocks"
+      ],
+      "text": "According to the literature (e.g. Page et al., 2019), crop residue mulches contribute to SOC sequestration, or\nat least might mitigate the losses. However, the magnitude of SOC sequestration depends highly on the local\nconditions, the previous land use, the practice's duration, and the sampling moment and methodology (Table\n6). It is worth stressing that accurate and robust studies are needed to estimate crop residue's mulches\nsequestration potential accurately.",
+      "page_start": 15,
+      "page_end": 15,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p05",
+      "heading_path": [
+        "4. Other benefits of the practice"
+      ],
+      "text": "The use of a mulch based on the maintenance of crop residues spread on the soil surface entails a range of direct\nand indirect benefits due to the concomitant input of C to the soil, the provision of a source of energy to the soil\nfauna, and the changes in energy balance between the soil surface and the atmosphere.",
+      "page_start": 17,
+      "page_end": 17,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p06",
+      "heading_path": [
+        "4.1. Improvement of soil properties"
+      ],
+      "text": "Mulched systems present improved soil physical properties because of greater soil surface structural stability\n(Plaza-Bonilla et al., 2013). The presence of a mulch reduces raindrop impacts and/or irrigation, which\nmitigates the dispersion of the finest soil particles and the creation of soil crusts (Pareja-Sánchez et al, 2017).\nThis crusting process is common in silty soils and soils with presence of surface salts. The input of C that\nrepresents the use of crop residues as a mulch enhances the stability of soil aggregates, with a greater proportion\nof macroaggregates enriched with C. Consequently, the pores between aggregates become more continuous\nand stable which eases the infiltration of water into the soil and allows a greater diffusion of gases, providing\naeration to the roots and soil biology (Ball, 2013). In this regard, Mulumba and Lal (2008) measured an\nincrease (18-35 percent) in available water capacity, total soil porosity (35-46 percent) and soil moisture\nretention (29-70 percent) using samples from an Alfisol from central Ohio to which different mulch rates were\nimposed (2, 4, 8 and 16 t/ha/yr) compared to the control without mulch.",
+      "page_start": 17,
+      "page_end": 17,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "water_holding_capacity",
+        "bulk_density"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p07",
+      "heading_path": [
+        "4.1. Improvement of soil properties"
+      ],
+      "text": "The use of organic mulches provides substrates for soil macro- and microfauna. For instance, the addition of\ncomposted cotton gin trash to a soil cropped with organic tomato led to an increase in soil microbial biomass C\nand activity ranging between 103 and 151 percent and between 88 and 170 percent, respectively, compared to\na control based on synthetic fertilizer (Tu, Ristaino and Hu, 2006). Furthermore, potential mineralizable N (i.e.\nthe amount of this nutrient that could be provided by the soil under non-limiting conditions) was increased by a\n182 to 285 percent compared to the control (Tu, Ristaino and Hu, 2006). Mulches have also been reported to\nincrease the activity of different types of enzymes such as arylsulfatases (Deng and Tabatabai, 1997). These are\ninvolved in sulphur cycling, an essential nutrient for all plants, which is especially important for crucifers.\nMulches can also affect soil chemical properties. For instance, working in a sandy Ultisol in Nigeria, Hulugalle,\nLal and Gichuru (1990) found higher levels of exchangeable calcium, magnesium and potassium and lower acid\nsaturation when using a 12 t/ha mulch of Chromolaena odorata L. compared to the non-mulched treatment.\nHowever, it must be taken into account that the impact of mulches on soil chemical properties are not ubiquitous\nand are more common in infertile soils such as the one reported by Hulugalle, Lal and Gichuru (1990).",
+      "page_start": 17,
+      "page_end": 17,
+      "topic": "mulching",
+      "practices": [
+        "mulching",
+        "compost"
+      ],
+      "metrics": [
+        "microbial_biomass",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p08",
+      "heading_path": [
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "The use of a mulch cover has been long known to be one of the\nbest low-cost strategies to reduce soil erosion (Smets, Poesen\nand Knapen, 2008).",
+      "page_start": 18,
+      "page_end": 18,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p09",
+      "heading_path": [
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Organic mulches are a source of nutrients. When maintained on\nthe soil surface their release is slower, avoiding high losses (Al-\nKaisi and Guzman, 2013).",
+      "page_start": 18,
+      "page_end": 18,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p10",
+      "heading_path": [
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Evaporation and soil temperature are reduced when using\nmulches which marginally could reduce the risks of salinization.",
+      "page_start": 18,
+      "page_end": 18,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "temperature"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p11",
+      "heading_path": [
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Mulching with organic sources helps sustain soil micro-organisms\nand earthworms (Turbé et al., 2010).",
+      "page_start": 18,
+      "page_end": 18,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p12",
+      "heading_path": [
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Mulches reduce soil surface compaction from the impact of water\ndrops (Pareja-Sánchez et al., 2017).",
+      "page_start": 18,
+      "page_end": 18,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "bulk_density"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p13",
+      "heading_path": [
+        "4.3. Increases in production (e.g. food/fuel/feed/timber/fibre)"
+      ],
+      "text": "The maintenance of a cover on soil surface is key to store water, especially in dryland areas (Montenegro et al.,\n2013). Where there is no availability of irrigation, soil water storage is key to maintain and increase crop\nproduction (e.g. Lampurlanés et al, 2016). Soil water storage also buffers precipitation shortages during key\ncrop stages such as flowering. For instance, Page et al. (2019) found grain yield increases when wheat stubble\nwas retained on the soil surface instead of being burned (2.51 vs 2.41 t/ha, respectively).",
+      "page_start": 18,
+      "page_end": 18,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "arid",
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p14",
+      "heading_path": [
+        "4.3. Increases in production (e.g. food/fuel/feed/timber/fibre)"
+      ],
+      "text": "Furthermore, the presence of a mulch on the soil surface inhibits the presence of weeds acting as a physical\nbarrier for seedling emergence, lower light transmittance and soil surface temperature (Mohler and Teasdale,\n1993). The release of allelopathic substances when some mulches (e.g. rye) decompose is another key\nmechanism of biotic stresses control (Farooq et al., 2011), as well as the different temperatures between a\nmulched soil and a bare soil. In this regard, Ranaivoson et al. (2019) studied the impact of conservation\nagriculture practices on rice production in Madagascar following smallholder-based cropping practices. The\nauthors observed a significant decrease in weed pressure when using conservation agriculture with mulch which\nled to a 40 percent increase in rice yield.",
+      "page_start": 18,
+      "page_end": 18,
+      "topic": "mulching",
+      "practices": [
+        "mulching",
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "crop_yield",
+        "temperature"
+      ],
+      "climate_zones": [
+        "tropical",
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p15",
+      "heading_path": [
+        "4.4. Mitigation of and adaptation to climate change"
+      ],
+      "text": "Mulches can play a major role in climate change mitigation. For instance, in rice cultivation under flooded\nconditions, the maintenance of mulches on the soil surface reduces CH4 emissions compared to their\nincorporation into the soil with tillage (Fangueiro et al., 2017), which accelerates their anaerobic\ndecomposition and, consequently, leading to a release of CH4 by methanogenic bacteria (Also see factsheet\nNo.17, Volume 5 on “Straw residue management in rice paddies\"). Maintenance of crop residues on soil\nsurface can also increase the amount of solar radiation reflected back into space compared to bare ground,\nthrough albedo modification, in areas with dark soils (Carrer et al., 2018). Adaptation to climate change is also\na positive consequence of the use of mulches through reduced moisture loss, increased water infiltration and\nlower erosion risk.",
+      "page_start": 19,
+      "page_end": 19,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "temperature",
+        "soil_moisture",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p16",
+      "heading_path": [
+        "4.5. Other benefits of the practice"
+      ],
+      "text": "In horticulture, the presence of mulches in the soil surface keeps the fruits clean (Tyagi et al., 2018).",
+      "page_start": 19,
+      "page_end": 19,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p17",
+      "heading_path": [
+        "5. Potential drawbacks to the practice",
+        "5.1. Increases in greenhouse gas emissions"
+      ],
+      "text": "The emission of nitrous oxide (N2O), a potent greenhouse gas with a global warming potential almost 300\nhigher than carbon dioxide (CO2), is affected by the use of organic mulches. Mulches with low C:N ratio, such\nas the ones of legumes, decompose faster than cereals and provide mineral N to the soil which can act as a\nsubstrate for N2O emission. For instance, when comparing different rates of vetch and wheat mulches in a\nsubtropical soil (Schmatz et al., 2020) a 50 percent higher emission of N2O was found under vetch compared\nto wheat mulches. However, the emission factor (i.e. calculated as N2O emissions of the amended crop residue\nplots subtracting control plots divided by the quantity of residue total N added) was higher for wheat than for\nvetch.",
+      "page_start": 19,
+      "page_end": 19,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "tropical",
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p18",
+      "heading_path": [
+        "5. Potential drawbacks to the practice",
+        "5.2. Conflict with other practice(s)"
+      ],
+      "text": "The use of mulches is commonly linked to the implementation of no-tillage practices. Under that context, weed\ncontrol is restricted to other practices different than tillage, which sometime can create dependence on synthetic\nproducts.",
+      "page_start": 19,
+      "page_end": 19,
+      "topic": "mulching",
+      "practices": [
+        "mulching",
+        "no_till"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p19",
+      "heading_path": [
+        "5.3. Decreases in production (e.g. food/fuel/feed/timber/fibre)"
+      ],
+      "text": "An excessive amount of crop residues in specific pedoclimatic conditions can be counterproductive for grain\nyield. A relationship has been found between rainfed maize grain yield and annual rainfall in a meta-analysis\nperformed by Rusinamhodzi et al. (2011). The last authors reported lower yield of maize when using mulch\ncover in high annual rainfall areas (>1 000 mm), due to waterlogging. Mulches can lead to allelopathy that\nreduces crop growth, lower soil temperatures that impede fast establishment of crops (e.g. Venterea, Maharjan\nand Dolan, 2011), as well as exacerbation of frost damage (Snyder and de Melo-Abreu, 2005).",
+      "page_start": 20,
+      "page_end": 20,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "crop_yield",
+        "temperature"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "risk"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p20",
+      "heading_path": [
+        "5.4. Other conflicts"
+      ],
+      "text": "Mulching with crop residues competes with other uses in smallholder farming. For instance, as pointed out by\nGiller et al. (2009) crop residues provide valuable fodder for livestock in sub-Saharan Africa. Livestock is key\nin smallholder farms, as a source of food, manure, traction, etc. (Giller et al., 2009). In other socioeconomic\ncontexts, stubble is sometimes removed and sold for bioenergetic purposes, bedding, etc., which also\ncompromises the maintenance of an adequate soil cover.",
+      "page_start": 20,
+      "page_end": 20,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p21",
+      "heading_path": [
+        "6. Recommendations before implementing the practice"
+      ],
+      "text": "In field crop production the presence of an excessive amount of mulch can pose difficulties to poorly adapted\nsowing and planting machines. When using sowing machines with disk openers care must be taken to avoid\nhumid mulches, which instead of being cut are easily pressed into the slot compromising the viability of seeds.\nWhen tine openers are used excessive mulches can create straw clumping, which leads to problems in seed\nplacement and seedling emergence.",
+      "page_start": 20,
+      "page_end": 20,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p02_organic_mulch__p22",
+      "heading_path": [
+        "7. Potential barriers to adoption"
+      ],
+      "text": "Table 8. Potential barriers to adoption\nBarrier\nYES/NO\nMindset.\nSocial\nYes\nEconomic\nYes\nKnowledge\nYes\nCompetition for other purposes (e.g. fodder, fuel, construction\nmaterial, cellulosic-based fuels, etc.) (Lahmar et al., 2012; Miner\net al., 2013). Purchase of adequate drilling machines entail higher\ncosts than conventional ones (Epplin, 2008).\nLack of enough technical knowledge to establish the following\ncrop in the presence of crop residues (Bechini et al., 2015).",
+      "page_start": 21,
+      "page_end": 21,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "v3_p02_organic_mulch__c01",
+      "passage_id": "v3_p02_organic_mulch__p01",
+      "subject": "mulch",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "generally improve crop productivity (FAO, 2004)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c02",
+      "passage_id": "v3_p02_organic_mulch__p01",
+      "subject": "organic mulches",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "When organic mulches decompose they provide nutrients for the crops",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c03",
+      "passage_id": "v3_p02_organic_mulch__p01",
+      "subject": "organic mulches",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "cool wet climates",
+      "time_horizon_years": null,
+      "evidence_span": "in some conditions, such as cool wet climates, these allelochemicals can be detrimental to crop growth (Jabran et al., 2015)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c04",
+      "passage_id": "v3_p02_organic_mulch__p03",
+      "subject": "crop residue mulch",
+      "metric": "SOC",
+      "direction": "decrease",
+      "value": 0.1,
+      "value_low": null,
+      "value_high": null,
+      "unit": "t_ha",
+      "basis": "SOC losses",
+      "conditions": "no-tillage",
+      "time_horizon_years": null,
+      "evidence_span": "crop residue mulch mitigated SOC losses up to 0.1tC/ha/yr of SOC under no-tillage (Table 6)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c05",
+      "passage_id": "v3_p02_organic_mulch__p03",
+      "subject": "maintaining crop residues",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "sequestering C",
+      "conditions": "highly productive and intensively tilled system",
+      "time_horizon_years": null,
+      "evidence_span": "found that maintaining crop residues on soil surface was a key strategy to either start sequestering C or reducing Closses 10-fold (Table 6)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c06",
+      "passage_id": "v3_p02_organic_mulch__p03",
+      "subject": "crop residue mulches",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "SOC sequestration",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "crop residue mulches contribute to SOC sequestration, or at least might mitigate the losses",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c07",
+      "passage_id": "v3_p02_organic_mulch__p06",
+      "subject": "mulch",
+      "metric": "water_holding_capacity",
+      "direction": "increase",
+      "value": 35,
+      "value_low": 18,
+      "value_high": null,
+      "unit": "percent",
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "measured an increase (18-35 percent) in available water capacity",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c08",
+      "passage_id": "v3_p02_organic_mulch__p06",
+      "subject": "mulch",
+      "metric": "bulk_density",
+      "direction": "increase",
+      "value": 46,
+      "value_low": 35,
+      "value_high": null,
+      "unit": "percent",
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "total soil porosity (35-46 percent)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c09",
+      "passage_id": "v3_p02_organic_mulch__p06",
+      "subject": "mulch",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": 70,
+      "value_low": 29,
+      "value_high": null,
+      "unit": "percent",
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "and soil moisture retention (29-70 percent)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c10",
+      "passage_id": "v3_p02_organic_mulch__p07",
+      "subject": "composted cotton gin trash",
+      "metric": "microbial_biomass",
+      "direction": "increase",
+      "value": 151,
+      "value_low": 103,
+      "value_high": null,
+      "unit": "percent",
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "increase in soil microbial biomass C and activity ranging between 103 and 151 percent",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c11",
+      "passage_id": "v3_p02_organic_mulch__p07",
+      "subject": "composted cotton gin trash",
+      "metric": "microbial_biomass",
+      "direction": "increase",
+      "value": 170,
+      "value_low": 88,
+      "value_high": null,
+      "unit": "percent",
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "and between 88 and 170 percent, respectively",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c12",
+      "passage_id": "v3_p02_organic_mulch__p07",
+      "subject": "mulches",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": 285,
+      "value_low": 182,
+      "value_high": null,
+      "unit": "percent",
+      "basis": "potential mineralizable N",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "was increased by a 182 to 285 percent compared to the control",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c13",
+      "passage_id": "v3_p02_organic_mulch__p08",
+      "subject": "mulch cover",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "The use of a mulch cover has been long known to be one of the best low-cost strategies to reduce soil erosion",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c14",
+      "passage_id": "v3_p02_organic_mulch__p09",
+      "subject": "organic mulches",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "source of nutrients",
+      "conditions": "maintained on the soil surface",
+      "time_horizon_years": null,
+      "evidence_span": "Organic mulches are a source of nutrients. When maintained on the soil surface their release is slower, avoiding high losses",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c15",
+      "passage_id": "v3_p02_organic_mulch__p10",
+      "subject": "mulches",
+      "metric": "temperature",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Evaporation and soil temperature are reduced when using mulches",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c16",
+      "passage_id": "v3_p02_organic_mulch__p11",
+      "subject": "mulching with organic sources",
+      "metric": "soil_biota",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Mulching with organic sources helps sustain soil micro-organisms and earthworms",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c17",
+      "passage_id": "v3_p02_organic_mulch__p12",
+      "subject": "mulches",
+      "metric": "bulk_density",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Mulches reduce soil surface compaction from the impact of water drops",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c18",
+      "passage_id": "v3_p02_organic_mulch__p13",
+      "subject": "cover on soil surface",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "store water",
+      "conditions": "dryland areas",
+      "time_horizon_years": null,
+      "evidence_span": "The maintenance of a cover on soil surface is key to store water, especially in dryland areas",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c19",
+      "passage_id": "v3_p02_organic_mulch__p13",
+      "subject": "soil water storage",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "no availability of irrigation",
+      "time_horizon_years": null,
+      "evidence_span": "Where there is no availability of irrigation, soil water storage is key to maintain and increase crop production",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c20",
+      "passage_id": "v3_p02_organic_mulch__p13",
+      "subject": "wheat stubble retained on soil surface",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 2.51,
+      "value_low": null,
+      "value_high": null,
+      "unit": "t_ha",
+      "basis": "grain yield",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "found grain yield increases when wheat stubble was retained on the soil surface instead of being burned (2.51 vs 2.41 t/ha, respectively)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c21",
+      "passage_id": "v3_p02_organic_mulch__p14",
+      "subject": "conservation agriculture with mulch",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 40,
+      "value_low": null,
+      "value_high": null,
+      "unit": "percent",
+      "basis": "rice yield",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "led to a 40 percent increase in rice yield",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c22",
+      "passage_id": "v3_p02_organic_mulch__p15",
+      "subject": "maintenance of mulches on the soil surface",
+      "metric": "pollution_load",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "CH4 emissions",
+      "conditions": "rice cultivation under flooded conditions",
+      "time_horizon_years": null,
+      "evidence_span": "reduces CH4 emissions compared to their incorporation into the soil with tillage",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c23",
+      "passage_id": "v3_p02_organic_mulch__p15",
+      "subject": "maintenance of crop residues on soil surface",
+      "metric": "temperature",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "solar radiation reflected back into space",
+      "conditions": "dark soils",
+      "time_horizon_years": null,
+      "evidence_span": "increase the amount of solar radiation reflected back into space compared to bare ground, through albedo modification",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c24",
+      "passage_id": "v3_p02_organic_mulch__p15",
+      "subject": "use of mulches",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "reduced moisture loss",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "through reduced moisture loss, increased water infiltration and lower erosion risk",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c25",
+      "passage_id": "v3_p02_organic_mulch__p17",
+      "subject": "vetch mulches",
+      "metric": "pollution_load",
+      "direction": "increase",
+      "value": 50,
+      "value_low": null,
+      "value_high": null,
+      "unit": "percent",
+      "basis": "N2O emission",
+      "conditions": "subtropical soil",
+      "time_horizon_years": null,
+      "evidence_span": "a 50 percent higher emission of N2O was found under vetch compared to wheat mulches",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c26",
+      "passage_id": "v3_p02_organic_mulch__p19",
+      "subject": "mulch cover",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "lower yield of maize",
+      "conditions": "high annual rainfall areas (>1 000 mm)",
+      "time_horizon_years": null,
+      "evidence_span": "reported lower yield of maize when using mulch cover in high annual rainfall areas (>1 000 mm), due to waterlogging",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p02_organic_mulch__c27",
+      "passage_id": "v3_p02_organic_mulch__p19",
+      "subject": "mulches",
+      "metric": "temperature",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "lower soil temperatures",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "lower soil temperatures that impede fast establishment of crops",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "mulching",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "reduce water loss",
+      "passage_id": "v3_p02_organic_mulch__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mulching",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p02_organic_mulch__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mulching",
+      "to_node": "temperature",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p02_organic_mulch__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mulching",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p02_organic_mulch__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "organic mulches",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "decomposition",
+      "passage_id": "v3_p02_organic_mulch__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "organic mulches",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "cool wet climates",
+      "mechanism": "allelopathic substances",
+      "passage_id": "v3_p02_organic_mulch__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "crop residue mulch",
+      "to_node": "SOC",
+      "effect": "decrease",
+      "condition": "no-tillage",
+      "mechanism": null,
+      "passage_id": "v3_p02_organic_mulch__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "maintaining crop residues",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "highly productive and intensively tilled system",
+      "mechanism": null,
+      "passage_id": "v3_p02_organic_mulch__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "crop residue mulches",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p02_organic_mulch__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mulch",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p02_organic_mulch__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mulch",
+      "to_node": "bulk_density",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p02_organic_mulch__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mulch",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p02_organic_mulch__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "composted cotton gin trash",
+      "to_node": "microbial_biomass",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p02_organic_mulch__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mulches",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p02_organic_mulch__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mulch cover",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p02_organic_mulch__p08",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "organic mulches",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": "maintained on the soil surface",
+      "mechanism": "slow release",
+      "passage_id": "v3_p02_organic_mulch__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mulches",
+      "to_node": "temperature",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p02_organic_mulch__p10",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mulching with organic sources",
+      "to_node": "soil_biota",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p02_organic_mulch__p11",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mulches",
+      "to_node": "bulk_density",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "reduce impact of water drops",
+      "passage_id": "v3_p02_organic_mulch__p12",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover on soil surface",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": "dryland areas",
+      "mechanism": "store water",
+      "passage_id": "v3_p02_organic_mulch__p13",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "soil water storage",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": "no availability of irrigation",
+      "mechanism": null,
+      "passage_id": "v3_p02_organic_mulch__p13",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "wheat stubble retained on soil surface",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p02_organic_mulch__p13",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "conservation agriculture with mulch",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "decrease weed pressure",
+      "passage_id": "v3_p02_organic_mulch__p14",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "maintenance of mulches on the soil surface",
+      "to_node": "pollution_load",
+      "effect": "decrease",
+      "condition": "rice cultivation under flooded conditions",
+      "mechanism": "accelerates anaerobic decomposition",
+      "passage_id": "v3_p02_organic_mulch__p15",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "maintenance of crop residues on soil surface",
+      "to_node": "temperature",
+      "effect": "increase",
+      "condition": "dark soils",
+      "mechanism": "albedo modification",
+      "passage_id": "v3_p02_organic_mulch__p15",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "use of mulches",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "reduced moisture loss",
+      "passage_id": "v3_p02_organic_mulch__p15",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "vetch mulches",
+      "to_node": "pollution_load",
+      "effect": "increase",
+      "condition": "subtropical soil",
+      "mechanism": null,
+      "passage_id": "v3_p02_organic_mulch__p17",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mulch cover",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "high annual rainfall areas (>1 000 mm)",
+      "mechanism": "waterlogging",
+      "passage_id": "v3_p02_organic_mulch__p19",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mulches",
+      "to_node": "temperature",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "impede fast establishment of crops",
+      "passage_id": "v3_p02_organic_mulch__p19",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Organic mulch",
+    "system_type": null,
+    "tree_species": [],
+    "crop_species": [],
+    "region_of_adoption": [],
+    "rainfall_mm_low": null,
+    "rainfall_mm_high": null,
+    "soil_requirements": null,
+    "establishment_notes": null,
+    "stated_benefits": [
+      "reduce water loss",
+      "reduce soil erosion",
+      "suppress weeds",
+      "modify soil temperatures",
+      "improve crop productivity",
+      "provide nutrients",
+      "release allelopathic substances to combat biotic stresses",
+      "improve soil physical properties",
+      "reduce raindrop impacts",
+      "mitigate dispersion of finest soil particles",
+      "reduce creation of soil crusts",
+      "enhance stability of soil aggregates",
+      "ease infiltration of water",
+      "provide aeration to roots and soil biology",
+      "increase available water capacity",
+      "increase total soil porosity",
+      "increase soil moisture retention",
+      "provide substrates for soil macro- and microfauna",
+      "increase soil microbial biomass C and activity",
+      "increase potential mineralizable N",
+      "increase activity of enzymes",
+      "higher levels of exchangeable calcium, magnesium and potassium",
+      "lower acid saturation",
+      "reduce soil erosion",
+      "avoid high nutrient losses",
+      "reduce risks of salinization",
+      "sustain soil micro-organisms and earthworms",
+      "reduce soil surface compaction",
+      "store water",
+      "maintain and increase crop production",
+      "buffer precipitation shortages",
+      "inhibit presence of weeds",
+      "lower light transmittance",
+      "lower soil surface temperature",
+      "control biotic stresses",
+      "reduce CH4 emissions",
+      "increase amount of solar radiation reflected back into space",
+      "reduced moisture loss",
+      "increased water infiltration",
+      "lower erosion risk",
+      "keeps fruits clean"
+    ],
+    "stated_constraints": [
+      "low productivity areas face limitations in terms of soil coverage by mulches",
+      "competition for crop residues for other purposes such as fodder, fuel and/or construction material",
+      "allelochemicals can be detrimental to crop growth in cool wet climates",
+      "net decline in SOC over time is often observed in semiarid environments",
+      "low net primary productivity",
+      "use of fallow periods to store soil water",
+      "low C:N ratio mulches decompose faster",
+      "dependence on synthetic products for weed control",
+      "excessive amount of crop residues can be counterproductive for grain yield",
+      "waterlogging in high annual rainfall areas",
+      "lead to allelopathy that reduces crop growth",
+      "lower soil temperatures that impede fast establishment of crops",
+      "exacerbation of frost damage",
+      "competes with other uses in smallholder farming",
+      "stubble is sometimes removed and sold for bioenergetic purposes, bedding, etc.",
+      "difficulties to poorly adapted sowing and planting machines",
+      "humid mulches can be easily pressed into the slot compromising the viability of seeds",
+      "excessive mulches can create straw clumping, leading to problems in seed placement and seedling emergence",
+      "mindset",
+      "purchase of adequate drilling machines entail higher costs",
+      "lack of enough technical knowledge"
+    ]
+  },
+  "_meta": {
+    "unit_id": "v3_p02_organic_mulch",
+    "doc_id": "fao2021_recarb_v3",
+    "model": "gemini-2.5-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 32,
+    "pdf_end": 44,
+    "manifest_practices": [
+      "mulching"
+    ],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:25:22Z",
+    "pdf_sha256": "4ba2ef8febe8ee85"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4.2.6.3 Fire and associated degradation",
+  "content_type": "assessment",
+  "summary": "This assessment discusses the role of fire in ecosystems, distinguishing between natural fire regimes that maintain biodiversity and fire as a form of degradation. It highlights how fire intensity, frequency, and seasonality impact vegetation, soil properties, and ecosystem services, and notes the influence of climate change on future fire regimes.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch4_status_trends__w04__p01",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.6.3 Fire and associated degradation"
+      ],
+      "text": "The major effect of fire is the reduction in vegetation cover, able to remove 80% of above-ground net primary production (Bond & van Wilgen, 1996; Bond & Keane, 2001). During this process fire plays a major role in the cycling of nutrients (Zavala et al., 2014). Fire is both natural and critical to many ecosystems (Whelan, 1995). For example, infrequent, intense fires can trigger the release of seeds from the fruits of some fire-adapted species (e.g., serotinous pine, Hakea and Protea cones), thereby timing regeneration to a period of reduced competition by established vegetation and placing them in an ash bed that favours successful establishment (Bradstock et al., 1994; Johnson & Gutsell, 1993; van Wilgen & Viviers, 1985). In contrast, frequent, smaller events can kill saplings.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Fire effects on vegetation",
+      "practices": [],
+      "metrics": [
+        "biomass",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w04__p02",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.6.3 Fire and associated degradation"
+      ],
+      "text": "Fires can induce change in physical, chemical and biological properties of soils, which can last from days to decades. The severity of the impact on soils is a function of many variables including fire intensity (energy release rate), moisture content, humus layer and duration. Typically only a small proportion of thermal energy enters the ground, and seldom effects more than the top few centimetres (Certini, 2005; Zavala et al., 2014), though this can have substantive impacts on aspects such as permeability and the release of nutrients. Fires can reduce water infiltration (DeBano, 2000) depending on the temperature of the fire, the type of vegetation, soil organic matter and soil type (Fox et al., 2007; Zavala et al., 2010), leading to enhanced overland flow and erosion (Shakesby, 2011).",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Fire effects on soil",
+      "practices": [],
+      "metrics": [
+        "water_holding_capacity",
+        "nutrient_availability",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch4_status_trends__w04__c01",
+      "passage_id": "ipbes_ch4_status_trends__w04__p01",
+      "subject": "fire",
+      "metric": "biomass",
+      "direction": "decrease",
+      "value": 80,
+      "unit": "percent",
+      "evidence_span": "The major effect of fire is the reduction in vegetation cover, able to remove 80% of above-ground net primary production",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w04__c02",
+      "passage_id": "ipbes_ch4_status_trends__w04__p02",
+      "subject": "fire",
+      "metric": "water_holding_capacity",
+      "direction": "decrease",
+      "evidence_span": "Fires can reduce water infiltration (DeBano, 2000) depending on the temperature of the fire, the type of vegetation, soil organic matter and soil type (Fox et al., 2007; Zavala et al., 2010), leading to enhanced overland flow and erosion (Shakesby, 2011).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w04__c03",
+      "passage_id": "ipbes_ch4_status_trends__w04__p02",
+      "subject": "fire",
+      "metric": "erosion",
+      "direction": "increase",
+      "evidence_span": "Fires can reduce water infiltration (DeBano, 2000) depending on the temperature of the fire, the type of vegetation, soil organic matter and soil type (Fox et al., 2007; Zavala et al., 2010), leading to enhanced overland flow and erosion (Shakesby, 2011).",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "fire",
+      "to_node": "biomass",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch4_status_trends__w04__p01",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "fire",
+      "to_node": "water_holding_capacity",
+      "effect": "decrease",
+      "condition": "depending on the temperature of the fire, the type of vegetation, soil organic matter and soil type",
+      "passage_id": "ipbes_ch4_status_trends__w04__p02",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "fire",
+      "to_node": "erosion",
+      "effect": "increase",
+      "condition": "depending on the temperature of the fire, the type of vegetation, soil organic matter and soil type",
+      "passage_id": "ipbes_ch4_status_trends__w04__p02",
+      "strength_stated": "moderate"
+    }
+  ],
+  "_meta": {
+    "unit_id": "ipbes_ch4_status_trends__w04",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 323,
+    "pdf_end": 334,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:55:29Z",
+    "pdf_sha256": "6e9e6fd20e9b83ba"
+  }
+}

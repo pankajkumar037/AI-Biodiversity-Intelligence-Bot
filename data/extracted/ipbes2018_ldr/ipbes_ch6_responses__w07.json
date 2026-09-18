@@ -1,0 +1,243 @@
+{
+  "extraction_status": "ok",
+  "section_title": "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+  "content_type": "assessment",
+  "summary": "This document unit provides a comprehensive list of scientific references regarding responses to land degradation and restoration, covering topics such as conservation agriculture, agroforestry, wetland restoration, invasive species management, and economic instruments for ecosystem services.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch6_responses__w07__p01",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Tailoring conservation agriculture technologies to West Africa semi-arid zones: Building on traditional local practices for soil restoration.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "conservation agriculture",
+      "practices": [
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "soil_organic_matter"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w07__p02",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Agroforestry systems: helping smallholders adapt to climate risks while mitigating climate change.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "agroforestry",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w07__p03",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Restoration Enhances Wetland Biodiversity and Ecosystem Service Supply, but Results Are Context-Dependent: A Meta-Analysis.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "wetland restoration",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w07__p04",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Carbon sequestration: An underexploited environmental benefit of agroforestry systems.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "agroforestry",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w07__p05",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "The effectiveness, costs and coastal protection benefits of natural and nature-based defences.",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "coastal restoration",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w07__p06",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Diversification practices reduce organic to conventional yield gap.",
+      "page_start": 8,
+      "page_end": 8,
+      "topic": "diversification practices",
+      "practices": [
+        "crop_rotation",
+        "intercropping"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w07__p07",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Economics of salt-induced land degradation and restoration.",
+      "page_start": 9,
+      "page_end": 9,
+      "topic": "salt-induced land degradation",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "salinity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w07__p08",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Integrated crop-livestock system in tropical Brazil: Toward a sustainable production system.",
+      "page_start": 10,
+      "page_end": 10,
+      "topic": "integrated crop-livestock systems",
+      "practices": [
+        "crop_livestock_integration"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch6_responses__w07__c01",
+      "passage_id": "ipbes_ch6_responses__w07__p03",
+      "subject": "wetland restoration",
+      "metric": "species_richness",
+      "direction": "increase",
+      "evidence_span": "Restoration Enhances Wetland Biodiversity and Ecosystem Service Supply, but Results Are Context-Dependent: A Meta-Analysis.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w07__c02",
+      "passage_id": "ipbes_ch6_responses__w07__p06",
+      "subject": "diversification practices",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "evidence_span": "Diversification practices reduce organic to conventional yield gap.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "wetland restoration",
+      "to_node": "species_richness",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w07__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "diversification practices",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w07__p06",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch6_responses__w07",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 570,
+    "pdf_end": 581,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:17:52Z",
+    "pdf_sha256": "a625a91d986635b9"
+  }
+}

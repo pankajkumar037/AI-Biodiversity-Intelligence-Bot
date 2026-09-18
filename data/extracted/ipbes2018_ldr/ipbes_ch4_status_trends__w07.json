@@ -1,0 +1,206 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4.4 THE WAY FORWARD",
+  "content_type": "assessment",
+  "summary": "This section discusses the current status of biophysical knowledge regarding land degradation, highlighting the complexity of ecosystem processes, the challenges in monitoring and data availability, and the need for improved indicators and integrated modeling to support restoration efforts.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch4_status_trends__w07__p01",
+      "heading_path": [
+        "4.4 THE WAY FORWARD",
+        "4.4.1 Status of biophysical knowledge of land degradation"
+      ],
+      "text": "Measurement and monitoring of some processes, however, is difficult with current capabilities. This is particularly a problem at scales beyond a single farm or small forest at provincial, national, regional and global scales. As a result, the spatial extent, severity and trends in degradation are largely unknown.",
+      "page_start": 298,
+      "page_end": 298,
+      "topic": "monitoring challenges",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w07__p02",
+      "heading_path": [
+        "4.4 THE WAY FORWARD",
+        "4.4.1 Status of biophysical knowledge of land degradation"
+      ],
+      "text": "Unfortunately there is a pervasive and alarming trend toward even sparser coverage and even losses of complete environmental and ecological monitoring networks, for example, more than half the global hydrological stations reporting in 1970 were not operating in 2000. A lack of stable, long-term commitment to observations, and lack of a clear transition plan from research to operations, are two frequent limitations in the development of adequate responses to land degradation.",
+      "page_start": 298,
+      "page_end": 298,
+      "topic": "monitoring network decline",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w07__p03",
+      "heading_path": [
+        "4.4 THE WAY FORWARD",
+        "4.4.2 Gaps in understanding of processes of degradation",
+        "4.4.2.1 Types of degradation"
+      ],
+      "text": "In fact, there is not a single condition, rather there are multiple forms of degradation that reduce ecosystem services: sheet erosion in agricultural fields, water pollution, landscape fragmentation, extinction of species, to name a few, have little in common in their causes by or effects on humans.",
+      "page_start": 298,
+      "page_end": 298,
+      "topic": "types of degradation",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "pollution_load",
+        "fragmentation",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w07__p04",
+      "heading_path": [
+        "4.4 THE WAY FORWARD",
+        "4.4.2 Gaps in understanding of processes of degradation",
+        "4.4.2.2 Deficient ecological knowledge",
+        "Combined use of observations and modelling"
+      ],
+      "text": "Current land surface models mostly do not include degraded conditions, and can have both a spatial and temporal resolution that are too coarse for application to small-scale degradation. Advances in Integrated Assessment Modelling that include anthropogenic degradation would be of great value.",
+      "page_start": 299,
+      "page_end": 299,
+      "topic": "modeling limitations",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w07__p05",
+      "heading_path": [
+        "4.4 THE WAY FORWARD",
+        "4.4.3 Measurement, monitoring and trend detection",
+        "4.4.3.1 Routine monitoring"
+      ],
+      "text": "An apparently simple question such as “what is the biodiversity of an ecosystem?” often can only be answered for limited types of species and few locations. Furthermore, much of the existing information is suspect, mostly based on dated and hard to verify data.",
+      "page_start": 299,
+      "page_end": 299,
+      "topic": "biodiversity data gaps",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w07__p06",
+      "heading_path": [
+        "4.4 THE WAY FORWARD",
+        "4.4.3 Measurement, monitoring and trend detection",
+        "4.4.3.4 Degradation indicators"
+      ],
+      "text": "In some cases, this is accomplished by selecting key properties that are themselves affected by contributory factors, including: net primary production which is a result of soil, weather, grazing and other factors; sediment yield which is a consequence of several finer scale erosion factors; a decline in the number of species which reflects aspects of ecosystem degradation; and many others, some for specific purposes.",
+      "page_start": 300,
+      "page_end": 300,
+      "topic": "degradation indicators",
+      "practices": [],
+      "metrics": [
+        "biomass",
+        "erosion",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch4_status_trends__w07__c01",
+      "passage_id": "ipbes_ch4_status_trends__w07__p02",
+      "subject": "global hydrological stations",
+      "metric": "rainfall",
+      "direction": "decrease",
+      "value": 50,
+      "unit": "percent",
+      "basis": "high confidence",
+      "conditions": "global, 1970-2000",
+      "time_horizon_years": 30,
+      "evidence_span": "more than half the global hydrological stations reporting in 1970 were not operating in 2000",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w07__c02",
+      "passage_id": "ipbes_ch4_status_trends__w07__p06",
+      "subject": "net primary production",
+      "metric": "biomass",
+      "direction": "mixed",
+      "basis": null,
+      "conditions": "affected by soil, weather, grazing",
+      "evidence_span": "net primary production which is a result of soil, weather, grazing and other factors",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "soil, weather, grazing",
+      "to_node": "net primary production",
+      "effect": "mixed",
+      "condition": null,
+      "mechanism": "contributory factors",
+      "passage_id": "ipbes_ch4_status_trends__w07__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "erosion factors",
+      "to_node": "sediment yield",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "consequence of finer scale erosion factors",
+      "passage_id": "ipbes_ch4_status_trends__w07__p06",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch4_status_trends__w07",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 356,
+    "pdf_end": 367,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:15:19Z",
+    "pdf_sha256": "0186024aabf95185"
+  }
+}

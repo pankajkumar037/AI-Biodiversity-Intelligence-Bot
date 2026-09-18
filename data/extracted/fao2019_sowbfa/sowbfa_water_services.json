@@ -1,0 +1,303 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Associated biodiversity for water-related ecosystem services",
+  "content_type": "assessment",
+  "summary": "This assessment describes the role of biodiversity in water-related ecosystem services, including water regulation, purification, and nutrient cycling. It highlights the importance of vegetation and soil biota in water infiltration and retention, and notes that while aquatic species contribute to water purification, these services are threatened by land-use changes, pollution, and climate change.",
+  "passages": [
+    {
+      "passage_id": "sowbfa_water_services__p01",
+      "heading_path": [
+        "4.3.7 Associated biodiversity for water-related ecosystem services",
+        "Introduction"
+      ],
+      "text": "Vegetation promotes the infiltration of water into the soil, thus helping to recharge underground aquifers and lowering flood risk. Soil biota – plants, micro-organisms and invertebrate and vertebrate animals – modifies the structure of the soil and affects the pathways and rates of water infiltration, influencing the capacity of the soil to hold water.",
+      "page_start": 148,
+      "page_end": 148,
+      "topic": "water regulation",
+      "practices": [],
+      "metrics": [
+        "water_holding_capacity",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_water_services__p02",
+      "heading_path": [
+        "4.3.7 Associated biodiversity for water-related ecosystem services",
+        "Introduction"
+      ],
+      "text": "As well as influencing the quantity of water available, biodiversity also influences water quality, including by cycling nutrients within waterbodies and between them and other ecosystems. Nutrient-cycling services are essential to the health of aquatic ecosystems. On the one hand, aquatic organisms clearly need to be able to access sufficient quantities of nutrients to allow them to grow and reproduce. On the other, however, waterbodies can become overloaded with nutrients, for example in agricultural areas where there is a heavy use of fertilizers, and this can have negative impacts on biodiversity and the supply of ecosystem services.",
+      "page_start": 148,
+      "page_end": 148,
+      "topic": "water quality",
+      "practices": [],
+      "metrics": [
+        "nutrient_availability",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_water_services__p03",
+      "heading_path": [
+        "Box 4.7 Páramos – a vital provider of water-regulating services under threat"
+      ],
+      "text": "Páramos play a key role in regulating water flows: rainfall is high and may be supplemented by fog condensation; water consumption is low as the leaves of the tussock grasses are protected against radiation and dry air by accumulated dead leaves and because the herbaceous vegetation consists of xerophytic species; the tussock grasses and dwarf shrubs protect the soil and reduce evaporation. The soils themselves have extraordinary water-retention capacity.",
+      "page_start": 149,
+      "page_end": 149,
+      "topic": "water regulation",
+      "practices": [],
+      "metrics": [
+        "water_holding_capacity",
+        "rainfall"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "sowbfa_water_services__p04",
+      "heading_path": [
+        "Box 4.7 Páramos – a vital provider of water-regulating services under threat"
+      ],
+      "text": "The report from Peru states that the country’s páramos are undergoing a process of transformation, desertification and erosion, mainly as a result of overgrazing, extractive activities, intensive agriculture and pollution. It notes that this is directly affecting the ecosystem’s capacity to moderate extreme events, prevent erosion, maintain soil fertility and maintain genetic diversity.",
+      "page_start": 149,
+      "page_end": 149,
+      "topic": "ecosystem degradation",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "nutrient_availability",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "risk"
+    },
+    {
+      "passage_id": "sowbfa_water_services__p05",
+      "heading_path": [
+        "4.3.7 Associated biodiversity for water-related ecosystem services"
+      ],
+      "text": "Virtually all the species in an aquatic ecosystem are involved in water-purification and nutrient-cycling processes, either directly (e.g. by trapping, transforming, accumulating and/or translocating pollutants via their behavioural activities and physiological processes) or indirectly (e.g. by releasing oxygen into the water, mixing the water column, influencing the physical and chemical properties of the water by contributing organic matter, or influencing the behaviour of other organisms such a prey species).",
+      "page_start": 150,
+      "page_end": 150,
+      "topic": "water purification",
+      "practices": [],
+      "metrics": [
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_water_services__p06",
+      "heading_path": [
+        "4.3.7 Associated biodiversity for water-related ecosystem services"
+      ],
+      "text": "The capacity of these ecosystems to purify water is greatly affected by the state of the vegetation and the soils within them – and in turn on a wide range of components of biodiversity that contribute to soil health or help maintain plant communities.",
+      "page_start": 150,
+      "page_end": 150,
+      "topic": "water purification",
+      "practices": [],
+      "metrics": [
+        "soil_organic_matter",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_water_services__p07",
+      "heading_path": [
+        "4.3.7 Associated biodiversity for water-related ecosystem services"
+      ],
+      "text": "Finland mentions that recent milder winters may have disrupted the water-purification function of vegetation on land surrounding waterbodies, an effect reported to have arisen because soils are increasingly unfrozen during the non-vegetative period when plants are less able to intercept eroded matter.",
+      "page_start": 152,
+      "page_end": 152,
+      "topic": "water purification",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "temperature"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "risk"
+    },
+    {
+      "passage_id": "sowbfa_water_services__p08",
+      "heading_path": [
+        "4.3.8 Associated biodiversity for natural-hazard regulation",
+        "Introduction"
+      ],
+      "text": "Soil biodiversity plays a particularly significant role in resilience to droughts and floods, via its influence on the soil’s capacity to absorb and hold water.",
+      "page_start": 153,
+      "page_end": 153,
+      "topic": "natural-hazard regulation",
+      "practices": [],
+      "metrics": [
+        "water_holding_capacity",
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "sowbfa_water_services__c01",
+      "passage_id": "sowbfa_water_services__p01",
+      "subject": "vegetation",
+      "metric": "water_holding_capacity",
+      "direction": "increase",
+      "evidence_span": "Vegetation promotes the infiltration of water into the soil, thus helping to recharge underground aquifers and lowering flood risk.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_water_services__c02",
+      "passage_id": "sowbfa_water_services__p01",
+      "subject": "soil biota",
+      "metric": "water_holding_capacity",
+      "direction": "increase",
+      "evidence_span": "Soil biota – plants, micro-organisms and invertebrate and vertebrate animals – modifies the structure of the soil and affects the pathways and rates of water infiltration, influencing the capacity of the soil to hold water.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_water_services__c03",
+      "passage_id": "sowbfa_water_services__p02",
+      "subject": "fertilizer use",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "evidence_span": "waterbodies can become overloaded with nutrients, for example in agricultural areas where there is a heavy use of fertilizers, and this can have negative impacts on biodiversity and the supply of ecosystem services.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_water_services__c04",
+      "passage_id": "sowbfa_water_services__p04",
+      "subject": "overgrazing, extractive activities, intensive agriculture and pollution",
+      "metric": "erosion",
+      "direction": "increase",
+      "evidence_span": "The report from Peru states that the country’s páramos are undergoing a process of transformation, desertification and erosion, mainly as a result of overgrazing, extractive activities, intensive agriculture and pollution.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_water_services__c05",
+      "passage_id": "sowbfa_water_services__p07",
+      "subject": "milder winters",
+      "metric": "pollution_load",
+      "direction": "increase",
+      "evidence_span": "Finland mentions that recent milder winters may have disrupted the water-purification function of vegetation on land surrounding waterbodies, an effect reported to have arisen because soils are increasingly unfrozen during the non-vegetative period when plants are less able to intercept eroded matter.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_water_services__c06",
+      "passage_id": "sowbfa_water_services__p08",
+      "subject": "soil biodiversity",
+      "metric": "water_holding_capacity",
+      "direction": "increase",
+      "evidence_span": "Soil biodiversity plays a particularly significant role in resilience to droughts and floods, via its influence on the soil’s capacity to absorb and hold water.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "vegetation",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "passage_id": "sowbfa_water_services__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "soil biota",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "passage_id": "sowbfa_water_services__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "fertilizer use",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "passage_id": "sowbfa_water_services__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "overgrazing, extractive activities, intensive agriculture and pollution",
+      "to_node": "erosion",
+      "effect": "increase",
+      "passage_id": "sowbfa_water_services__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "milder winters",
+      "to_node": "pollution_load",
+      "effect": "increase",
+      "mechanism": "soils are increasingly unfrozen during the non-vegetative period when plants are less able to intercept eroded matter",
+      "passage_id": "sowbfa_water_services__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "soil biodiversity",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "passage_id": "sowbfa_water_services__p08",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "sowbfa_water_services",
+    "doc_id": "fao2019_sowbfa",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 192,
+    "pdf_end": 198,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T10:56:07Z",
+    "pdf_sha256": "675739bca49084e0",
+    "prompt_type": "assessment"
+  }
+}

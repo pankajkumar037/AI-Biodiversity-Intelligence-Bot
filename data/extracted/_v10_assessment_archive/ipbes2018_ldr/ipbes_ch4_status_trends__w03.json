@@ -1,0 +1,188 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+  "content_type": "assessment",
+  "summary": "This assessment reviews the status and trends of land degradation, focusing on pesticide and trace element pollution, freshwater degradation, wetland loss, land-cover conversion, and dryland desertification processes including woody densification and grazing impacts.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch4_status_trends__w03__p01",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS"
+      ],
+      "text": "Pesticides affect a range of soil processes, including decomposition of organic matter and infiltration of rainwater (Pelosi et al., 2014). Herbicides generally are less deleterious to soil organisms than insecticides and fungicides (Bünemann et al., 2006), but significantly reduce plant biodiversity (Geiger et al., 2010). Insecticides and fungicides have greater effects on soil organisms than herbicides, especially copper-containing fungicides.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Pesticide impacts on soil and biodiversity",
+      "practices": [],
+      "metrics": [
+        "soil_biota",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w03__p02",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.5 Changes in hydrological regime",
+        "4.2.5.1 Freshwater degradation",
+        "Overview"
+      ],
+      "text": "Several types of land degradation can cause green water depletion. Reductions in soil organic matter (see Section 4.2.3.1) and soil depth due to soil erosion (see Section 4.2.1) directly reduce the soil water holding capacity. Degradation and reduction in vegetation cover (e.g., by agriculture, overgrazing, deforestation, or fire), exposes soil surfaces to raindrop impact, or creates physical surface crust layers that reduce infiltration rates by orders of magnitude.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Hydrological impacts of land degradation",
+      "practices": [],
+      "metrics": [
+        "soil_organic_matter",
+        "water_holding_capacity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland",
+        "forest"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w03__p03",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.5 Changes in hydrological regime",
+        "4.2.5.2 Wetland loss",
+        "Status and trends in degradation"
+      ],
+      "text": "A meta-analysis comparing restored and undisturbed wetlands found that wetland hydrological dynamics recovered to reference levels right after restoration happened (Moreno-Mateos et al., 2012). However, species richness and abundance, recovered to only 77% (on average) of reference values, even 100 years after restoration. After 50 to 100 years, restored wetlands recovered to an average of 74% of their biogeochemical functioning relative to reference wetlands. Nitrogen cycling was below reference levels for 30 years and carbon cycling was only 50% of the reference after 50 years.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Wetland restoration recovery metrics",
+      "practices": [],
+      "metrics": [
+        "species_richness",
+        "nitrogen",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w03__p04",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.6.2 Drylands",
+        "Bush encroachment (woody densification)"
+      ],
+      "text": "In the southwestern USA, in semi-arid and subhumid regions of >336 mm rainfall, encroachment has been shown to increase above-ground carbon sequestration by 0.7 g C m-2 yr-1 mm-1 rainfall and soil organic carbon gains averaged 385 g C m-2 yr-1. In arid regions (<336 mm), there were decreases in both above and below ground of 6,200 g C m-2 (Barger et al., 2011). Jackson et al. (2002) reported the opposite with moist sites losing soil organic carbon but this being offset by the above ground carbon gains.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Carbon impacts of woody densification",
+      "practices": [],
+      "metrics": [
+        "carbon_sequestration_rate",
+        "SOC"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid",
+        "dry_sub_humid"
+      ],
+      "land_use": [
+        "rangeland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch4_status_trends__w03__c01",
+      "passage_id": "ipbes_ch4_status_trends__w03__p01",
+      "subject": "Herbicides",
+      "metric": "species_richness",
+      "direction": "decrease",
+      "evidence_span": "Herbicides generally are less deleterious to soil organisms than insecticides and fungicides (Bünemann et al., 2006), but significantly reduce plant biodiversity (Geiger et al., 2010).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w03__c02",
+      "passage_id": "ipbes_ch4_status_trends__w03__p03",
+      "subject": "Restored wetlands",
+      "metric": "species_richness",
+      "direction": "increase",
+      "value": 77,
+      "unit": "percent",
+      "basis": "reference values",
+      "time_horizon_years": 100,
+      "evidence_span": "species richness and abundance, recovered to only 77% (on average) of reference values, even 100 years after restoration.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w03__c03",
+      "passage_id": "ipbes_ch4_status_trends__w03__p04",
+      "subject": "Woody encroachment",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": 0.7,
+      "unit": "Mg_ha",
+      "conditions": "semi-arid and subhumid regions of >336 mm rainfall",
+      "evidence_span": "In the southwestern USA, in semi-arid and subhumid regions of >336 mm rainfall, encroachment has been shown to increase above-ground carbon sequestration by 0.7 g C m-2 yr-1 mm-1 rainfall",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w03__c04",
+      "passage_id": "ipbes_ch4_status_trends__w03__p04",
+      "subject": "Woody encroachment",
+      "metric": "SOC",
+      "direction": "decrease",
+      "value": 6200,
+      "unit": "Mg_ha",
+      "conditions": "arid regions (<336 mm)",
+      "evidence_span": "In arid regions (<336 mm), there were decreases in both above and below ground of 6,200 g C m-2 (Barger et al., 2011).",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "land degradation",
+      "to_node": "water_holding_capacity",
+      "effect": "decrease",
+      "condition": "reduction in vegetation cover",
+      "passage_id": "ipbes_ch4_status_trends__w03__p02",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "woody encroachment",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "condition": "semi-arid and subhumid regions of >336 mm rainfall",
+      "passage_id": "ipbes_ch4_status_trends__w03__p04",
+      "strength_stated": "strong"
+    }
+  ],
+  "_meta": {
+    "unit_id": "ipbes_ch4_status_trends__w03",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 312,
+    "pdf_end": 323,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:55:16Z",
+    "pdf_sha256": "9c765d3d5497a5ff"
+  }
+}

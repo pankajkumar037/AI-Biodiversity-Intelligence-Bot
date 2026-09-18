@@ -1,0 +1,141 @@
+{
+  "extraction_status": "ok",
+  "section_title": "3.6.1.2 Grazing and fire management in drylands",
+  "content_type": "practice",
+  "summary": "This section discusses rangeland management systems, specifically sustainable grazing and fire management, as practices to increase rangeland productivity and manage ecosystem services in drylands.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch3_desertification__w02__p01",
+      "heading_path": [
+        "3.6 Responses to desertification under climate change",
+        "3.6.1 SLM technologies and practices: On-the-ground actions",
+        "3.6.1.2 Grazing and fire management in drylands"
+      ],
+      "text": "Rangeland management systems such as sustainable grazing approaches and re-vegetation increase rangeland productivity (high confidence) (Table 6.5). Open grassland, savannah and woodland are home to the majority of world’s livestock production (Safriel et al. 2005). Within these drylands areas, prevailing grazing and fire regimes play an important role in shaping the relative abundance of trees versus grasses (Scholes and Archer 1997; Staver et al. 2011; Stevens et al. 2017), as well as the health of the grass layer in terms of primary production, species richness and basal cover (the propotion of the plant that is in the soil) (Plaza-Bonilla et al. 2015; Short et al. 2003). This in turn influences levels of soil erosion, soil nutrients, secondary production and additional ecosystem services (Divinsky et al. 2017; Pellegrini et al. 2017).",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Rangeland management",
+      "practices": [
+        "rotational_grazing"
+      ],
+      "metrics": [
+        "biomass",
+        "species_richness",
+        "erosion",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "dry_sub_humid"
+      ],
+      "land_use": [
+        "grassland",
+        "rangeland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w02__p02",
+      "heading_path": [
+        "3.6 Responses to desertification under climate change",
+        "3.6.1 SLM technologies and practices: On-the-ground actions",
+        "3.6.1.2 Grazing and fire management in drylands"
+      ],
+      "text": "The utilisation of the grass sward through light to moderate grazing stimulates the growth of biomass and basal cover, and allows water services to be sustained over time (Papanastasis et al. 2017; Scholes 2009). Even moderate to heavy grazing in periods of higher rainfall may be sustainable, but constant heavy grazing during dry periods, and especially droughts, can lead to a reduction in basal cover, SOC, biological soil crusts, ecosystem services and an accelerated erosion (high agreement, robust evidence) (Archer et al. 2017; Conant and Paustian 2003; D’Odorico et al. 2013; Geist and Lambin 2004; Havstad et al. 2006; Huang et al. 2007; Manzano and Návar 2000; Pointing and Belnap 2012; Weber et al. 2016).",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "Grazing intensity impacts",
+      "practices": [
+        "rotational_grazing"
+      ],
+      "metrics": [
+        "biomass",
+        "SOC",
+        "erosion",
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "dry_sub_humid"
+      ],
+      "land_use": [
+        "rangeland"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch3_desertification__w02__c01",
+      "passage_id": "srccl_ch3_desertification__w02__p01",
+      "subject": "sustainable grazing approaches and re-vegetation",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "evidence_span": "Rangeland management systems such as sustainable grazing approaches and re-vegetation increase rangeland productivity (high confidence)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w02__c02",
+      "passage_id": "srccl_ch3_desertification__w02__p02",
+      "subject": "constant heavy grazing during dry periods",
+      "metric": "erosion",
+      "direction": "increase",
+      "evidence_span": "constant heavy grazing during dry periods, and especially droughts, can lead to a reduction in basal cover, SOC, biological soil crusts, ecosystem services and an accelerated erosion",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w02__c03",
+      "passage_id": "srccl_ch3_desertification__w02__p02",
+      "subject": "constant heavy grazing during dry periods",
+      "metric": "SOC",
+      "direction": "decrease",
+      "evidence_span": "constant heavy grazing during dry periods, and especially droughts, can lead to a reduction in basal cover, SOC, biological soil crusts, ecosystem services and an accelerated erosion",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "sustainable grazing",
+      "to_node": "rangeland productivity",
+      "effect": "increase",
+      "passage_id": "srccl_ch3_desertification__w02__p01",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "heavy grazing during droughts",
+      "to_node": "erosion",
+      "effect": "increase",
+      "passage_id": "srccl_ch3_desertification__w02__p02",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Rangeland management",
+    "tree_species": [],
+    "crop_species": [],
+    "region_of_adoption": [
+      "global drylands"
+    ],
+    "stated_benefits": [
+      "increase rangeland productivity",
+      "stimulate growth of biomass and basal cover",
+      "sustain water services"
+    ],
+    "stated_constraints": [
+      "constant heavy grazing during dry periods leads to reduction in basal cover, SOC, and biological soil crusts",
+      "accelerated erosion",
+      "trade-offs between soil carbon sequestration and livestock production"
+    ]
+  },
+  "_meta": {
+    "unit_id": "srccl_ch3_desertification__w02",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 281,
+    "pdf_end": 292,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:49:06Z",
+    "pdf_sha256": "bea6c109aa2cf194"
+  }
+}

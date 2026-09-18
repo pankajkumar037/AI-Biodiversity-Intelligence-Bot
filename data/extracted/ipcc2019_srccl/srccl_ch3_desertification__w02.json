@@ -1,0 +1,370 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Desertification",
+  "content_type": "assessment",
+  "summary": "This unit examines the impacts of desertification on ecosystem services, biodiversity, and socio-economic systems, including human health, energy infrastructure, and migration. It also evaluates management practices such as integrated crop-soil-water management, grazing and fire management, and bush encroachment clearance.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch3_desertification__w02__p01",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "Land-use changes often lead to reductions in SOC and organic matter inputs into soil, increasing soil salinity and soil erosion. In addition to the loss of soil, erosion reduces soil nutrients and organic matter, thereby impacting land’s productive capacity.",
+      "page_start": 271,
+      "page_end": 271,
+      "topic": "soil degradation",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "soil_organic_matter",
+        "salinity",
+        "erosion",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w02__p02",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "Precipitation, by affecting soil moisture content, is considered to be the principal determinant of the capacity of drylands to sequester carbon. Low soil water availability promotes soil microbial respiration, yet there is insufficient moisture to stimulate plant productivity, resulting in net carbon emissions at an ecosystem level.",
+      "page_start": 271,
+      "page_end": 271,
+      "topic": "carbon sequestration",
+      "practices": [],
+      "metrics": [
+        "soil_moisture",
+        "carbon_sequestration_rate",
+        "microbial_biomass",
+        "biomass"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w02__p03",
+      "heading_path": [
+        "Desertification"
+      ],
+      "text": "Soil erosion by wind results in a loss of fine soil particles (silt and clay), reducing the ability of soil to sequester carbon. Moreover, dust storms reduce crop yields by loss of plant tissue caused by sandblasting, exposing crop roots, crop seed burial under sand deposits, and leading to losses of nutrients and fertiliser from topsoil.",
+      "page_start": 271,
+      "page_end": 271,
+      "topic": "dust storms",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "carbon_sequestration_rate",
+        "crop_yield",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w02__p04",
+      "heading_path": [
+        "Desertification",
+        "3.4.1.2 Impacts on biodiversity: Plant and wildlife"
+      ],
+      "text": "Increasing aridity exacerbates the risk of extinction of some plant species, especially those that are already threatened due to small populations or restricted habitats.",
+      "page_start": 271,
+      "page_end": 271,
+      "topic": "biodiversity",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "risk"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w02__p05",
+      "heading_path": [
+        "Desertification",
+        "3.4.2.1 Impacts on poverty"
+      ],
+      "text": "At the local level, on the other hand, there is limited evidence and high agreement that desertification increased multidimensional poverty. For example, Diao and Sarpong (2011) estimated that land degradation lowered agricultural incomes in Ghana by 4.2 billion USD between 2006 and 2015, increasing the national poverty rate by 5.4% in 2015.",
+      "page_start": 272,
+      "page_end": 272,
+      "topic": "poverty",
+      "practices": [],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w02__p06",
+      "heading_path": [
+        "Desertification",
+        "3.4.2.2 Impacts on food and nutritional insecurity"
+      ],
+      "text": "The major mechanism through which climate change and desertification affect food security is through their impacts on agricultural productivity. There is robust evidence pointing to negative impacts of climate change on crop yields in dryland areas (high agreement).",
+      "page_start": 273,
+      "page_end": 273,
+      "topic": "food security",
+      "practices": [],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w02__p07",
+      "heading_path": [
+        "Desertification",
+        "3.4.2.5 Impacts on water scarcity and use"
+      ],
+      "text": "Reduced water retention capacity of degraded soils amplifies floods, reinforces degradation processes through soil erosion, and reduces annual intake of water to aquifers, exacerbating existing water scarcities.",
+      "page_start": 274,
+      "page_end": 274,
+      "topic": "water scarcity",
+      "practices": [],
+      "metrics": [
+        "water_holding_capacity",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w02__p08",
+      "heading_path": [
+        "Desertification",
+        "3.6.1.1 Integrated crop–soil–water management"
+      ],
+      "text": "Compared to conventional (flood or furrow) irrigation, drip irrigation methods are more efficient in supplying water to the plant root zone, resulting in lower water requirements and enhanced water use efficiency (robust evidence, high agreement).",
+      "page_start": 280,
+      "page_end": 280,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "water_holding_capacity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w02__p09",
+      "heading_path": [
+        "Desertification",
+        "3.6.1.1 Integrated crop–soil–water management"
+      ],
+      "text": "The adoption of intercropping (inter – and intra-row planting of companion crops) and relay cropping (temporally differentiated planting of companion crops) maintains soil cover over a larger fraction of the year, leading to an increase in production, soil nitrogen, species diversity and a decrease in pest abundance (robust evidence, medium agreement).",
+      "page_start": 280,
+      "page_end": 280,
+      "topic": "cropping methods",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "nitrogen",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w02__p10",
+      "heading_path": [
+        "Desertification",
+        "3.6.1.2 Grazing and fire management in drylands"
+      ],
+      "text": "Rangeland management systems such as sustainable grazing approaches and re-vegetation increase rangeland productivity (high confidence).",
+      "page_start": 281,
+      "page_end": 281,
+      "topic": "rangeland management",
+      "practices": [
+        "rotational_grazing",
+        "grassland_restoration"
+      ],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "rangeland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch3_desertification__w02__c01",
+      "passage_id": "srccl_ch3_desertification__w02__p01",
+      "subject": "land-use change",
+      "metric": "SOC",
+      "direction": "decrease",
+      "evidence_span": "Land-use changes often lead to reductions in SOC and organic matter inputs into soil",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w02__c02",
+      "passage_id": "srccl_ch3_desertification__w02__p05",
+      "subject": "land degradation",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "evidence_span": "land degradation lowered agricultural incomes in Ghana by 4.2 billion USD between 2006 and 2015",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w02__c03",
+      "passage_id": "srccl_ch3_desertification__w02__p08",
+      "subject": "drip irrigation",
+      "metric": "water_holding_capacity",
+      "direction": "increase",
+      "evidence_span": "drip irrigation methods are more efficient in supplying water to the plant root zone, resulting in lower water requirements and enhanced water use efficiency",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w02__c04",
+      "passage_id": "srccl_ch3_desertification__w02__p09",
+      "subject": "intercropping",
+      "metric": "nitrogen",
+      "direction": "increase",
+      "evidence_span": "The adoption of intercropping (inter – and intra-row planting of companion crops) and relay cropping (temporally differentiated planting of companion crops) maintains soil cover over a larger fraction of the year, leading to an increase in production, soil nitrogen, species diversity and a decrease in pest abundance",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w02__c05",
+      "passage_id": "srccl_ch3_desertification__w02__p10",
+      "subject": "sustainable grazing",
+      "metric": "biomass",
+      "direction": "increase",
+      "evidence_span": "Rangeland management systems such as sustainable grazing approaches and re-vegetation increase rangeland productivity",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "land-use change",
+      "to_node": "SOC",
+      "effect": "decrease",
+      "passage_id": "srccl_ch3_desertification__w02__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "soil erosion",
+      "to_node": "nutrient_availability",
+      "effect": "decrease",
+      "passage_id": "srccl_ch3_desertification__w02__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "low soil water availability",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "decrease",
+      "passage_id": "srccl_ch3_desertification__w02__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "wind erosion",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "decrease",
+      "passage_id": "srccl_ch3_desertification__w02__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "dust storms",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "passage_id": "srccl_ch3_desertification__w02__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "aridity",
+      "to_node": "species_richness",
+      "effect": "decrease",
+      "passage_id": "srccl_ch3_desertification__w02__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "drip irrigation",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "passage_id": "srccl_ch3_desertification__w02__p08",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "nitrogen",
+      "effect": "increase",
+      "passage_id": "srccl_ch3_desertification__w02__p09",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "sustainable grazing",
+      "to_node": "biomass",
+      "effect": "increase",
+      "passage_id": "srccl_ch3_desertification__w02__p10",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch3_desertification__w02",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 281,
+    "pdf_end": 292,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:06:36Z",
+    "pdf_sha256": "bea6c109aa2cf194"
+  }
+}

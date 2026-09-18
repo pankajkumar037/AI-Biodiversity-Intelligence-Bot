@@ -1,0 +1,154 @@
+{
+  "extraction_status": "ok",
+  "section_title": "GSOCseq introduction and methodology",
+  "content_type": "methods",
+  "summary": "This document outlines the protocols for monitoring soil organic carbon (SOC) and greenhouse gas (GHG) emissions, including laboratory analysis methods, simulation modeling, and data management for national inventory reporting.",
+  "passages": [
+    {
+      "passage_id": "gsocseq_intro__w07__p01",
+      "heading_path": [
+        "Carbon Path - GSOC MRV Protocol",
+        "Monitoring: Laboratory analysis"
+      ],
+      "text": "GLOSOLAN SOPs (Standard operating Procedures) (FAO, 2019) Recommended option: • Dry combustion (Dumas) Alternative options : • Wet oxidation (Walkley and Black, 1934) • Spectroscopy (Evidence shall be attached) • POC Particulate Organic Carbon (Cambardella and Elliot, 1993): 2 mm and 53 µm sieves. • Autoanalyzer for C. • Analytical balance, ±0.0001 g, to weigh samples and reference materials. • Milling system that meets the requirements of the autoanalyzer manufacturer.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Laboratory analysis methods for SOC",
+      "practices": [],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w07__p02",
+      "heading_path": [
+        "Carbon Path - GSOC MRV Protocol",
+        "Monitoring: SOC projections using SOC simulation models"
+      ],
+      "text": "20-year projection for BAU and Project. Models – No specific model recommended… but Guide using RothC Model is provided.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "SOC simulation models",
+      "practices": [],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w07__p03",
+      "heading_path": [
+        "Carbon Path - GSOC MRV Protocol",
+        "Monitoring: GHG projections using simulation models"
+      ],
+      "text": "Ej. GHG emissions (IPCC 2019): CO2; CH4; N2O, (using EXACT or peer reviewed tool).",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "GHG emissions monitoring",
+      "practices": [],
+      "metrics": [
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w07__p04",
+      "heading_path": [
+        "In both Protocols",
+        "Collecting and Managing Field Activity Data"
+      ],
+      "text": "Collecting and Managing Field Activity Data (e.g. crops, yields, fertilzier dose, livestock heads, etc ). Key to characterize business as usual and Intervention/Project scenarios. Key to model SOC changes and GHG emissions. Key for monitoring process (to verify projected activities and deviations). Database for all RECSOIL Projects ...under construction",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Field activity data management",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w07__p05",
+      "heading_path": [
+        "In both cases",
+        "Field Activity Data and SOC ground data generated in Projects"
+      ],
+      "text": "E.g. Data from Georreferenced sampling sites – Benchmark sites: Change in SOC stocks could be used to: ground-truth SOC changes estimated by the Tier 1, Tier 2 or Tier 3 model projections over time. Calibrate and evaluate models in different regions; derive tier 2 local EF. Current SOC stocks could be used to update and improve SOC maps (key input for Tier 2-3 estimates of emissions from SOC changes). Ground-truthing activity data.",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "SOC ground data and model validation",
+      "practices": [],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w07__p06",
+      "heading_path": [
+        "RECSOIL Protocols"
+      ],
+      "text": "Developed through an extensive research, consultation and inclusive process, involving scientists, policy makers, FAO Members, and international and intergovernmental panels. Scientifically robust yet flexible protocols. General Framework – Possibility to adapt specificities to local conditions. Will generate results which can contribute to National GHG inventories. Way forward: Currently working on Pilots and Implementation Manuals. Update - Improvement of the Protocols … “Living documents” : improved as there are more users worldwide, and more and better data is generated.",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "RECSOIL protocol development",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [],
+  "links": [],
+  "_meta": {
+    "unit_id": "gsocseq_intro__w07",
+    "doc_id": "fao_gsocseq_intro",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 78,
+    "pdf_end": 85,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T11:03:59Z",
+    "pdf_sha256": "73e868ce35fe135e",
+    "prompt_type": "inventory"
+  }
+}

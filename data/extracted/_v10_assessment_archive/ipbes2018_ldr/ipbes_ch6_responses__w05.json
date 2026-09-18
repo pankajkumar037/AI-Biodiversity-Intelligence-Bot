@@ -1,0 +1,99 @@
+{
+  "extraction_status": "ok",
+  "section_title": "6.4.2.6 Climate change adaptation planning",
+  "content_type": "practice",
+  "summary": "This section discusses climate change adaptation planning as a strategy to avoid land degradation, emphasizing the need for adaptive management, stakeholder engagement, and the integration of indigenous knowledge.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch6_responses__w05__p01",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "6.4.2.6 Climate change adaptation planning"
+      ],
+      "text": "The uncertain and varying nature of climate change impacts in different places and land-use systems necessitates adaptive management, which has often been referred to as a critical adaptation strategy for resource management (Lawler, 2009). A broader spatial approach (e.g., landscape or regional approach) and temporal perspective (e.g., scenario-based planning) has been argued for climate change adaption planning to manage land and ecosystems (Lawler, 2009; Peterson et al., 2003). For example, scenario planning allows managers and planners to evaluate multiple potential scenarios of change, for a given system, in order to develop alternative management goals and strategies (Peterson et al., 2003) – which in turn enhance the effectiveness of an adaptive management approach (Lawler, 2009).",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "adaptive management",
+      "practices": [
+        "other"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w05__p02",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "6.4.2.6 Climate change adaptation planning"
+      ],
+      "text": "Addressing land degradation through climate change adaptation planning requires a broad-base integrated and adaptive approach involving all affected stakeholders. The failure to mainstream cultural and economic considerations – relevant to land degradation into environmental or other sector policies – has led to policy failures in many countries, including several in Africa (Kiage et al., 2007; Koning & Smaling, 2005). As countries are affected differently by climate change-induced land degradation, adaptation plans and their effectiveness will vary depending on the socio-economic context of the place or system in question. For example, in a survey of 127 agro-pastoralist households in Kenya, Speranza et al. (2010) found that poverty limited any responses related to markets, while lack of skills limited adaptation capacity to droughts and climate change. They conclude that building adaptive capacity through extension services, maintaining infrastructure and embedding indigenous knowledge in adaptation plans would be effective adaptation measures for agro-pastoral communities (Speranza et al., 2010).",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "adaptation planning",
+      "practices": [
+        "other"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "rangeland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch6_responses__w05__c01",
+      "passage_id": "ipbes_ch6_responses__w05__p02",
+      "subject": "building adaptive capacity through extension services, maintaining infrastructure and embedding indigenous knowledge",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "conditions": "agro-pastoral communities",
+      "evidence_span": "They conclude that building adaptive capacity through extension services, maintaining infrastructure and embedding indigenous knowledge in adaptation plans would be effective adaptation measures for agro-pastoral communities (Speranza et al., 2010).",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "adaptive management",
+      "to_node": "land degradation",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "scenario-based planning",
+      "passage_id": "ipbes_ch6_responses__w05__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "embedding indigenous knowledge",
+      "to_node": "adaptation capacity",
+      "effect": "increase",
+      "condition": "agro-pastoral communities",
+      "mechanism": null,
+      "passage_id": "ipbes_ch6_responses__w05__p02",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch6_responses__w05",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 548,
+    "pdf_end": 559,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:57:54Z",
+    "pdf_sha256": "b3c28253b2ec57f5"
+  }
+}

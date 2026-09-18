@@ -1,0 +1,129 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Ch4 Land degradation",
+  "content_type": "other",
+  "summary": "This document is a reference list for Chapter 4 of the IPCC Special Report on Climate Change and Land (SRCCL), covering various topics related to land degradation, sustainable land management, and climate change impacts.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch4_land_degradation__w07__p01",
+      "heading_path": [
+        "Chapter 4",
+        "Land degradation"
+      ],
+      "text": "Poulton, P., J. Johnston, A. Macdonald, R. White, and D. Powlson, 2018: Major limitations to achieving “4 per 1000” increases in soil organic carbon stock in temperate regions: Evidence from long-term experiments at Rothamsted Research, United Kingdom. Glob. Chang. Biol., 24, 2563–2584, doi:10.1111/gcb.14066.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Soil organic carbon",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w07__p02",
+      "heading_path": [
+        "Chapter 4",
+        "Land degradation"
+      ],
+      "text": "Powlson, D.S. et al. 2014: Limited potential of no-till agriculture for climate change mitigation. Nat. Clim. Chang., 4, 678–683, doi:10.1038/nclimate2292.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "No-till agriculture",
+      "practices": [
+        "no_till"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w07__p03",
+      "heading_path": [
+        "Chapter 4",
+        "Land degradation"
+      ],
+      "text": "Poeplau, C., and A. Don, 2015: Carbon sequestration in agricultural soils via cultivation of cover crops – A meta-analysis. Agric. Ecosyst. Environ., 200, 33–41, doi:10.1016/J.AGEE.2014.10.024.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Cover crops",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch4_land_degradation__w07__c01",
+      "passage_id": "srccl_ch4_land_degradation__w07__p02",
+      "subject": "no-till agriculture",
+      "metric": "carbon_sequestration_rate",
+      "direction": "decrease",
+      "evidence_span": "Powlson, D.S. et al. 2014: Limited potential of no-till agriculture for climate change mitigation.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w07__c02",
+      "passage_id": "srccl_ch4_land_degradation__w07__p03",
+      "subject": "cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "evidence_span": "Poeplau, C., and A. Don, 2015: Carbon sequestration in agricultural soils via cultivation of cover crops – A meta-analysis.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "no_till",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "decrease",
+      "passage_id": "srccl_ch4_land_degradation__w07__p02",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "passage_id": "srccl_ch4_land_degradation__w07__p03",
+      "strength_stated": "moderate"
+    }
+  ],
+  "_meta": {
+    "unit_id": "srccl_ch4_land_degradation__w07",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 432,
+    "pdf_end": 443,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:51:56Z",
+    "pdf_sha256": "887ae2c0a8843aec"
+  }
+}

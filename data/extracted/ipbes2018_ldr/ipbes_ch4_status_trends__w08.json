@@ -1,0 +1,253 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+  "content_type": "assessment",
+  "summary": "This document unit provides a list of scientific references concerning land degradation, restoration, biodiversity, and ecosystem functions, covering topics such as soil erosion, carbon sequestration, forest management, and the impacts of climate change and land-use practices.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch4_status_trends__w08__p01",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS"
+      ],
+      "text": "Microbial diversity drives multifunctionality in terrestrial ecosystems.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Microbial diversity and ecosystem function",
+      "practices": [],
+      "metrics": [
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w08__p02",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS"
+      ],
+      "text": "Crop yield losses to soil erosion at regional and global scales: evidence from plot-level and GIS data.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Soil erosion and crop yield",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w08__p03",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS"
+      ],
+      "text": "Higher levels of multiple ecosystem services are found in forests with more tree species.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Biodiversity and ecosystem services",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w08__p04",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS"
+      ],
+      "text": "Soil organic matter and biological soil quality indicators after 21 years of organic and conventional farming.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Soil quality and farming practices",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w08__p05",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS"
+      ],
+      "text": "Long-term effects of exclusion of grazing stock on degraded herbaceous plant communities in a riparian Eucalyptus camaldulensis forest in south-eastern Australia.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "Grazing exclusion and restoration",
+      "practices": [
+        "grassland_restoration"
+      ],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "degraded_land",
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w08__p06",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS"
+      ],
+      "text": "Habitat fragmentation and its lasting impact on Earth’s ecosystems.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Habitat fragmentation",
+      "practices": [],
+      "metrics": [
+        "fragmentation",
+        "habitat_diversity"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "risk"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w08__p07",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS"
+      ],
+      "text": "Losses of carbon and nitrogen with prolonged arable cropping from sandy soils of the South African Highveld.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Soil carbon and nitrogen loss",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w08__p08",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS"
+      ],
+      "text": "Significant acidification in major Chinese croplands.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Soil acidification",
+      "practices": [],
+      "metrics": [
+        "pH"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch4_status_trends__w08__c01",
+      "passage_id": "ipbes_ch4_status_trends__w08__p03",
+      "subject": "tree species richness",
+      "metric": "species_richness",
+      "direction": "increase",
+      "evidence_span": "Higher levels of multiple ecosystem services are found in forests with more tree species.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w08__c02",
+      "passage_id": "ipbes_ch4_status_trends__w08__p07",
+      "subject": "prolonged arable cropping",
+      "metric": "SOC",
+      "direction": "decrease",
+      "evidence_span": "Losses of carbon and nitrogen with prolonged arable cropping from sandy soils of the South African Highveld.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w08__c03",
+      "passage_id": "ipbes_ch4_status_trends__w08__p08",
+      "subject": "cropland management",
+      "metric": "pH",
+      "direction": "decrease",
+      "evidence_span": "Significant acidification in major Chinese croplands.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "tree species richness",
+      "to_node": "ecosystem services",
+      "effect": "increase",
+      "passage_id": "ipbes_ch4_status_trends__w08__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "prolonged arable cropping",
+      "to_node": "SOC",
+      "effect": "decrease",
+      "condition": "sandy soils",
+      "passage_id": "ipbes_ch4_status_trends__w08__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "prolonged arable cropping",
+      "to_node": "nitrogen",
+      "effect": "decrease",
+      "condition": "sandy soils",
+      "passage_id": "ipbes_ch4_status_trends__w08__p07",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch4_status_trends__w08",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 367,
+    "pdf_end": 378,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:15:32Z",
+    "pdf_sha256": "257a578ae90c38f1"
+  }
+}

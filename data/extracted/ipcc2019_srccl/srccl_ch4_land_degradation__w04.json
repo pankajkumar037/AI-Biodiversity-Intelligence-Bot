@@ -1,0 +1,375 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Land degradation",
+  "content_type": "assessment",
+  "summary": "This unit explores the role of resilience in managing land degradation, the barriers to implementing sustainable land management (SLM), and specific case studies including urban green infrastructure, perennial grains, reforestation in South Korea and China, peatland management, biochar, and the impacts of tropical cyclones on coastal wetlands.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch4_land_degradation__w04__p01",
+      "heading_path": [
+        "Land degradation",
+        "4.8.7 Barriers to implementation of sustainable land management (SLM)"
+      ],
+      "text": "Many SLM practices, including technologies and approaches, are available that can increase yields and contribute to closing the yield gap between actual and potential crop or pasture yield, while also enhancing resilience to climate change.",
+      "page_start": 389,
+      "page_end": 389,
+      "topic": "SLM practices",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w04__p02",
+      "heading_path": [
+        "Land degradation",
+        "4.9 Case studies",
+        "4.9.1 Urban green infrastructure"
+      ],
+      "text": "Urban landscapes comprising 50–90% impervious surfaces can therefore result in 40–83% of rainfall becoming surface water runoff. With rainfall intensity predicted to increase in many parts of the world under climate change, increased water runoff is going to get worse.",
+      "page_start": 391,
+      "page_end": 391,
+      "topic": "Urban green infrastructure",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "rainfall",
+        "erosion"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w04__p03",
+      "heading_path": [
+        "Land degradation",
+        "4.9.2 Perennial grains and soil organic carbon (SOC)"
+      ],
+      "text": "When perennial vegetation is replaced by annual crops, inputs of root-associated carbon (roots, exudates, mycorrhizae) decline substantially. For example, perennial grassland species allocate around 67% of productivity to roots, whereas annual crops allocate between 13–30%.",
+      "page_start": 393,
+      "page_end": 393,
+      "topic": "Perennial grains and SOC",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "SOC",
+        "soil_organic_matter"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w04__p04",
+      "heading_path": [
+        "Land degradation",
+        "4.9.2 Perennial grains and soil organic carbon (SOC)"
+      ],
+      "text": "When erosion is reduced or halted, and crop allocation to roots increases by 100–200%, and when soil aggregates are not disturbed thus reducing microbial respiration, SOC levels are expected to increase.",
+      "page_start": 394,
+      "page_end": 394,
+      "topic": "Perennial grains and SOC",
+      "practices": [
+        "no_till"
+      ],
+      "metrics": [
+        "SOC",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w04__p05",
+      "heading_path": [
+        "Land degradation",
+        "4.9.3 Reversing land degradation through reforestation",
+        "4.9.3.1 South Korea case study on reforestation success"
+      ],
+      "text": "As a consequence of reforestation, forest volume increased from 11.3 m3 ha–1 in 1973 to 125.6 m3 ha–1 in 2010 and 150.2 m3 ha–1 in 2016. Increases in forest volume had significant co-benefits such as increasing water yield by 43% and reducing soil losses by 87% from 1971 to 2010.",
+      "page_start": 395,
+      "page_end": 395,
+      "topic": "Reforestation",
+      "practices": [
+        "grassland_restoration"
+      ],
+      "metrics": [
+        "biomass",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w04__p06",
+      "heading_path": [
+        "Land degradation",
+        "4.9.3 Reversing land degradation through reforestation",
+        "4.9.3.2 China case study on reforestation success"
+      ],
+      "text": "In Wuqi County of Shaanxi Province, the Chaigou Watershed had 48% and 55% higher soil moisture and moisture-holding capacity in GFGP plots than in non-GFGP plots, respectively.",
+      "page_start": 396,
+      "page_end": 396,
+      "topic": "Reforestation",
+      "practices": [
+        "grassland_restoration"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "water_holding_capacity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w04__p07",
+      "heading_path": [
+        "Land degradation",
+        "4.9.4 Degradation and management of peat soils"
+      ],
+      "text": "Drained and managed peatlands are GHG-emission hotspots. In most cases, lowering of the water table leads to direct and indirect CO2 and N2O emissions to the atmosphere, with rates dependent on a range of factors, including the groundwater level and the water content of surface peat layers, nutrient content, temperature, and vegetation communities.",
+      "page_start": 397,
+      "page_end": 397,
+      "topic": "Peatland degradation",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "nitrogen",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w04__p08",
+      "heading_path": [
+        "Land degradation",
+        "4.9.5 Biochar",
+        "4.9.5.1 Role of biochar in climate change mitigation"
+      ],
+      "text": "Biochar can enhance soil carbon stocks through ‘negative priming’, in which rhizodeposits are stabilised through sorption of labile carbon on biochar, and formation of biochar-organo-mineral complexes.",
+      "page_start": 398,
+      "page_end": 398,
+      "topic": "Biochar",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w04__p09",
+      "heading_path": [
+        "Land degradation",
+        "4.9.5 Biochar",
+        "4.9.5.2 Role of biochar in management of land degradation"
+      ],
+      "text": "Biochar can contribute to avoiding, reducing and reversing land degradation through the following documented benefits: Improved nutrient use efficiency due to reduced leaching of nitrate and ammonium and increased availability of phosphorus in soils with high phosphorus fixation capacity, potentially reducing nitrogen and phosphorus fertiliser requirements.",
+      "page_start": 399,
+      "page_end": 399,
+      "topic": "Biochar",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch4_land_degradation__w04__c01",
+      "passage_id": "srccl_ch4_land_degradation__w04__p02",
+      "subject": "impervious surfaces",
+      "metric": "erosion",
+      "direction": "increase",
+      "value": 40,
+      "value_low": 40,
+      "value_high": 83,
+      "unit": "percent",
+      "basis": "unstated",
+      "conditions": "urban landscapes comprising 50-90% impervious surfaces",
+      "evidence_span": "Urban landscapes comprising 50–90% impervious surfaces can therefore result in 40–83% of rainfall becoming surface water runoff.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w04__c02",
+      "passage_id": "srccl_ch4_land_degradation__w04__p03",
+      "subject": "annual crops",
+      "metric": "SOC",
+      "direction": "decrease",
+      "value": null,
+      "unit": "none",
+      "basis": "unstated",
+      "conditions": "replacement of perennial vegetation",
+      "evidence_span": "When perennial vegetation is replaced by annual crops, inputs of root-associated carbon (roots, exudates, mycorrhizae) decline substantially.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w04__c03",
+      "passage_id": "srccl_ch4_land_degradation__w04__p05",
+      "subject": "reforestation",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": 87,
+      "unit": "percent_change",
+      "basis": "unstated",
+      "conditions": "South Korea, 1971-2010",
+      "evidence_span": "Increases in forest volume had significant co-benefits such as increasing water yield by 43% and reducing soil losses by 87% from 1971 to 2010.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w04__c04",
+      "passage_id": "srccl_ch4_land_degradation__w04__p06",
+      "subject": "GFGP plots",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": 48,
+      "unit": "percent",
+      "basis": "unstated",
+      "conditions": "Wuqi County, Shaanxi Province",
+      "evidence_span": "In Wuqi County of Shaanxi Province, the Chaigou Watershed had 48% and 55% higher soil moisture and moisture-holding capacity in GFGP plots than in non-GFGP plots, respectively.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w04__c05",
+      "passage_id": "srccl_ch4_land_degradation__w04__p08",
+      "subject": "biochar",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "unit": "none",
+      "basis": "unstated",
+      "conditions": "negative priming",
+      "evidence_span": "Biochar can enhance soil carbon stocks through ‘negative priming’, in which rhizodeposits are stabilised through sorption of labile carbon on biochar, and formation of biochar-organo-mineral complexes.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "impervious surfaces",
+      "to_node": "surface water runoff",
+      "effect": "increase",
+      "condition": "urban landscapes",
+      "mechanism": "impervious surfaces",
+      "passage_id": "srccl_ch4_land_degradation__w04__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "perennial vegetation replacement",
+      "to_node": "root-associated carbon inputs",
+      "effect": "decrease",
+      "condition": "conversion to annual crops",
+      "mechanism": "conversion to annual crops",
+      "passage_id": "srccl_ch4_land_degradation__w04__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "reforestation",
+      "to_node": "soil losses",
+      "effect": "decrease",
+      "condition": "South Korea",
+      "mechanism": "increased forest volume",
+      "passage_id": "srccl_ch4_land_degradation__w04__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "GFGP plots",
+      "to_node": "soil moisture",
+      "effect": "increase",
+      "condition": "Wuqi County",
+      "mechanism": "GFGP implementation",
+      "passage_id": "srccl_ch4_land_degradation__w04__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "lowering water table",
+      "to_node": "CO2 and N2O emissions",
+      "effect": "increase",
+      "condition": "drained peatlands",
+      "mechanism": "lowering water table",
+      "passage_id": "srccl_ch4_land_degradation__w04__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "biochar",
+      "to_node": "soil carbon stocks",
+      "effect": "increase",
+      "condition": "negative priming",
+      "mechanism": "sorption of labile carbon",
+      "passage_id": "srccl_ch4_land_degradation__w04__p08",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch4_land_degradation__w04",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 399,
+    "pdf_end": 410,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:09:20Z",
+    "pdf_sha256": "0209f31e4e6a8eaf"
+  }
+}

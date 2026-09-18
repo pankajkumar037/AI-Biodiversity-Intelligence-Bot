@@ -1,0 +1,243 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Land degradation",
+  "content_type": "assessment",
+  "summary": "This document provides a comprehensive list of scientific references related to land degradation, climate change, soil management, and ecosystem services, serving as a bibliography for the IPCC Special Report on Climate Change and Land (SRCCL).",
+  "passages": [
+    {
+      "passage_id": "srccl_ch4_land_degradation__w06__p01",
+      "heading_path": [
+        "Land degradation"
+      ],
+      "text": "Desalegn, T., Alemu, G., Adella, A., & Debele, T. (2017). Effect of lime and phosphorus fertilizer on acid soils and barley (Hordeum vulgare L.) performance in the central highlands of Ethiopia.",
+      "page_start": 411,
+      "page_end": 411,
+      "topic": "soil management",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w06__p02",
+      "heading_path": [
+        "Land degradation"
+      ],
+      "text": "Ding, F. et al. 2018: A meta-analysis and critical evaluation of influencing factors on soil carbon priming following biochar amendment.",
+      "page_start": 411,
+      "page_end": 411,
+      "topic": "soil carbon",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w06__p03",
+      "heading_path": [
+        "Land degradation"
+      ],
+      "text": "Drescher, J. et al. 2016: Ecological and socio-economic functions across tropical land use systems after rainforest conversion.",
+      "page_start": 411,
+      "page_end": 411,
+      "topic": "land use change",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w06__p04",
+      "heading_path": [
+        "Land degradation"
+      ],
+      "text": "Edmondson, J.L., Z.G. Davies, S.A. McCormack, K.J. Gaston, and J.R. Leake, 2014: Land-cover effects on soil organic carbon stocks in a European city.",
+      "page_start": 412,
+      "page_end": 412,
+      "topic": "soil carbon",
+      "practices": [],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w06__p05",
+      "heading_path": [
+        "Land degradation"
+      ],
+      "text": "Fang, Y., B.P. Singh, P. Matta, A.L. Cowie, and L. Van Zwieten, 2017: Temperature sensitivity and priming of organic matter with different stabilities in a Vertisol with aged biochar.",
+      "page_start": 412,
+      "page_end": 412,
+      "topic": "soil carbon",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "SOC",
+        "temperature"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w06__p06",
+      "heading_path": [
+        "Land degradation"
+      ],
+      "text": "Flores-Rentería, D., A. Rincón, F. Valladares, and J. Curiel Yuste, 2016: Agricultural matrix affects differently the alpha and beta structural and functional diversity of soil microbial communities in a fragmented Mediterranean holm oak forest.",
+      "page_start": 413,
+      "page_end": 413,
+      "topic": "soil biodiversity",
+      "practices": [],
+      "metrics": [
+        "soil_biota",
+        "fragmentation"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w06__p07",
+      "heading_path": [
+        "Land degradation"
+      ],
+      "text": "Haider, G., D. Steffens, G. Moser, C. Müller, and C.I. Kammann, 2017: Biochar reduced nitrate leaching and improved soil moisture content without yield improvements in a four-year field study.",
+      "page_start": 415,
+      "page_end": 415,
+      "topic": "soil management",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "crop_yield",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w06__p08",
+      "heading_path": [
+        "Land degradation"
+      ],
+      "text": "Kiruki, H.M., E.H. van der Zanden, Ž. Malek, and P.H. Verburg, 2017: Land cover change and woodland degradation in a charcoal producing semi-arid area in Kenya.",
+      "page_start": 418,
+      "page_end": 418,
+      "topic": "land degradation",
+      "practices": [],
+      "metrics": [
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch4_land_degradation__w06__c01",
+      "passage_id": "srccl_ch4_land_degradation__w06__p07",
+      "subject": "biochar",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "evidence_span": "Biochar reduced nitrate leaching and improved soil moisture content without yield improvements in a four-year field study.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w06__c02",
+      "passage_id": "srccl_ch4_land_degradation__w06__p07",
+      "subject": "biochar",
+      "metric": "nutrient_availability",
+      "direction": "decrease",
+      "evidence_span": "Biochar reduced nitrate leaching",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "biochar",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": "cropland",
+      "mechanism": "soil amendment",
+      "passage_id": "srccl_ch4_land_degradation__w06__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "biochar",
+      "to_node": "nutrient_availability",
+      "effect": "decrease",
+      "condition": "cropland",
+      "mechanism": "reduced nitrate leaching",
+      "passage_id": "srccl_ch4_land_degradation__w06__p07",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch4_land_degradation__w06",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 421,
+    "pdf_end": 432,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:09:48Z",
+    "pdf_sha256": "aca92e76e4a2d965"
+  }
+}

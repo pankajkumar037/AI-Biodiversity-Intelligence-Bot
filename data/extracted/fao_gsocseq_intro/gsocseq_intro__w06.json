@@ -1,0 +1,212 @@
+{
+  "extraction_status": "ok",
+  "section_title": "GSOCseq introduction and methodology",
+  "content_type": "methods",
+  "summary": "This document outlines the RECSOIL Green Path and GSOC MRV protocols for monitoring soil health and soil organic carbon (SOC) stocks. It details assessment units, key indicators, soil sampling methodologies, and laboratory analysis procedures.",
+  "passages": [
+    {
+      "passage_id": "gsocseq_intro__w06__p01",
+      "heading_path": [
+        "RECSOIL Green Path -SSM Protocol - Key Steps",
+        "Definition of Project Areas, Intervention Areas, Strata – Assessment Units"
+      ],
+      "text": "An AU or stratum represents a land area being relatively homogenous in terms of biophysical features, including: climate, soil type, topography (e.g. slope position), hydrology, historic land use and management, among other factors",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Assessment Units",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w06__p02",
+      "heading_path": [
+        "RECSOIL Green Path -SSM Protocol - Monitoring Phase"
+      ],
+      "text": "SSM Protocol - Based on the assessment of : 4 key indicators (common to all RECSOIL projects) Visual Soil Health Assessment (VSA) and a set of additional indicators to assess soil health (physical, chemical and biological indicators)",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "SSM Protocol",
+      "practices": [],
+      "metrics": [
+        "biomass",
+        "bulk_density",
+        "water_holding_capacity",
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w06__p03",
+      "heading_path": [
+        "RECSOIL Green Path -SSM Protocol - Monitoring",
+        "Additional Indicators"
+      ],
+      "text": "Additional Indicators – (depending on the main threats to soil health) Soil Nutrients ( P, N, K, etc) Erosion (USLE, erosion pins, Gerlacht boxes, etc) Soil salinity (EC- Electrical conductivity) Acidity – Alkalinity Soil pH Diversity (e.g. pitfall traps, etc) Available water capacity (FC-PWP) Water infiltration Soil penetration resistance Soil pollution (concentration, trace elements, pesticides, etc) Biological activity (Enzimatic activity, microbial biomass, etc.)",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Additional Indicators",
+      "practices": [],
+      "metrics": [
+        "nutrient_availability",
+        "nitrogen",
+        "erosion",
+        "salinity",
+        "pH",
+        "species_richness",
+        "water_holding_capacity",
+        "soil_moisture",
+        "bulk_density",
+        "pollution_load",
+        "microbial_biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w06__p04",
+      "heading_path": [
+        "RECSOIL Green Path -SSM Protocol - Monitoring",
+        "Costa Rica RECSOIL Pilot"
+      ],
+      "text": "Example. Grassland CR pilot: - Vegetation cover % - % Living Fences - % Area Improved Pastures , - Applied compost (0=none; 1=5 t/ha; 2=5-10 t ha; 3=>10 t/ha) - And other specific indicators!",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "Costa Rica RECSOIL Pilot",
+      "practices": [
+        "hedges_buffer_strips",
+        "compost"
+      ],
+      "metrics": [
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "gsocseq_intro__w06__p05",
+      "heading_path": [
+        "2. GSOC MRV Protocol -Carbon Path"
+      ],
+      "text": "General methodology: Soil Measurements : SOC, BD, Particulate Organic Carbon POC (optional) baseline, and every 4 years + SOC Modeling (bi-annual) + GHG estimates (IPCC, 2019 GL) (bi-annual) periodic auditable reports.",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "GSOC MRV Protocol",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "bulk_density"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w06__p06",
+      "heading_path": [
+        "Applicability conditions: Eligible Lands GSOC MRV"
+      ],
+      "text": "In order to avoid potential damage to biodiversity-rich lands, this protocol is only applicable if practices are not implemented on these conditions: a) wetlands and peatlands, or lands that have been subject to the drainage of a wetland/peatland during a baseline period (past 10 years) or other baseline periods determined by obligations under national and international legislation; b) organic soils, Histosols, or soils having a histic or folic horizon (FAO, 2015); c) current native forest lands, or lands that have been native forest lands and were converted to grasslands or croplands, at any point during a baseline period (at least past 10 years), or other baseline periods determined by obligations under national and international legislation;",
+      "page_start": 8,
+      "page_end": 8,
+      "topic": "GSOC MRV Protocol Applicability",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest",
+        "grassland",
+        "cropland",
+        "degraded_land"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "gsocseq_intro__w06__p07",
+      "heading_path": [
+        "Carbon Path - GSOC MRV Protocol",
+        "Monitoring: Soil sampling"
+      ],
+      "text": "Sampling Depth? Minimum: 0-30 cm optimal: up to 100 cm Recommended: 0-10 cm + 10-30 cm Or Adaptations (e.g. to provide samples for additional indicators) E.g. 0-20 cm + 20-40 cm (+40-60 cm) Frequency? Baseline (time= 0) Mandatory 2 years (optional; POC) 4 years (mandatory)",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Soil sampling",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w06__p08",
+      "heading_path": [
+        "Carbon Path - GSOC MRV Protocol",
+        "Monitoring: Laboratory analysis"
+      ],
+      "text": "Recommended option: Dry combustion (Dumas) Alternative options : Wet oxidation (Walkley and Black, 1934) Spectroscopy (Evidence shall be attached) POC Particulate Organic Carbon (Cambardella and Elliot, 1993): 2 mm and 53 µm sieves.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "Laboratory analysis",
+      "practices": [],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [],
+  "links": [],
+  "_meta": {
+    "unit_id": "gsocseq_intro__w06",
+    "doc_id": "fao_gsocseq_intro",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 67,
+    "pdf_end": 78,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T11:03:44Z",
+    "pdf_sha256": "56f72cc97d5b30cb",
+    "prompt_type": "inventory"
+  }
+}

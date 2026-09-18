@@ -1,0 +1,161 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Terms that are central to understanding the summary for policymakers",
+  "content_type": "assessment",
+  "summary": "This document defines the conceptual framework used by the IPBES assessment on pollinators, pollination, and food production, including key terms such as nature, nature's benefits to people, anthropogenic assets, drivers of change, and good quality of life.",
+  "passages": [
+    {
+      "passage_id": "ipbes_pollinators__w03__p01",
+      "heading_path": [
+        "APPENDIX 1",
+        "Terms that are central to understanding the summary for policymakers"
+      ],
+      "text": "The conceptual framework of the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services is a highly simplified model of the complex interactions within and between the natural world and human societies. The framework includes six interlinked elements constituting a system that operates at various scales in time and space: nature; nature’s benefits to people; anthropogenic assets; institutions and governance systems and other indirect drivers of change; direct drivers of change; and good quality of life.",
+      "page_start": 34,
+      "page_end": 34,
+      "topic": "Conceptual framework",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w03__p02",
+      "heading_path": [
+        "APPENDIX 1",
+        "Terms that are central to understanding the summary for policymakers"
+      ],
+      "text": "Anthropogenic assets have been highlighted to emphasize that a good quality of life is achieved by a co-production of benefits between nature and societies.",
+      "page_start": 34,
+      "page_end": 34,
+      "topic": "Anthropogenic assets",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w03__p03",
+      "heading_path": [
+        "APPENDIX 1",
+        "Terms that are central to understanding the summary for policymakers"
+      ],
+      "text": "The notion of nature’s benefits to people includes the detrimental as well as the beneficial effects of nature on the achievement of a good quality of life by different people and in different contexts. Trade-offs between the beneficial and detrimental effects of organisms and ecosystems are not unusual and they need to be understood within the context of the bundles of multiple effects provided by a given ecosystem within specific contexts.",
+      "page_start": 34,
+      "page_end": 34,
+      "topic": "Nature's benefits to people",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w03__p04",
+      "heading_path": [
+        "APPENDIX 1",
+        "Terms that are central to understanding the summary for policymakers"
+      ],
+      "text": "Institutions and governance systems and other indirect drivers are the ways in which societies organize themselves (and their interaction with nature), and the resulting influences on other components. They are underlying causes of change that do not make direct contact with the portion of nature in question; rather, they impact it – positively or negatively – through direct anthropogenic drivers.",
+      "page_start": 34,
+      "page_end": 34,
+      "topic": "Drivers of change",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w03__p05",
+      "heading_path": [
+        "APPENDIX 1",
+        "Terms that are central to understanding the summary for policymakers"
+      ],
+      "text": "Anthropogenic direct drivers are those that are the result of human decisions and actions, namely, of institutions and governance systems and other indirect drivers. (e.g., land degradation and restoration, freshwater pollution, ocean acidification, climate change produced by anthropogenic carbon emissions, species introductions). Some of these drivers, such as pollution, can have negative impacts on nature; others, as in the case of habitat restoration, can have positive effects.",
+      "page_start": 35,
+      "page_end": 35,
+      "topic": "Direct drivers",
+      "practices": [],
+      "metrics": [
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_pollinators__w03__c01",
+      "passage_id": "ipbes_pollinators__w03__p05",
+      "subject": "pollution",
+      "metric": "pollution_load",
+      "direction": "decrease",
+      "evidence_span": "Some of these drivers, such as pollution, can have negative impacts on nature",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_pollinators__w03__c02",
+      "passage_id": "ipbes_pollinators__w03__p05",
+      "subject": "habitat restoration",
+      "metric": "habitat_diversity",
+      "direction": "increase",
+      "evidence_span": "others, as in the case of habitat restoration, can have positive effects.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "pollution",
+      "to_node": "nature",
+      "effect": "decrease",
+      "passage_id": "ipbes_pollinators__w03__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "habitat restoration",
+      "to_node": "nature",
+      "effect": "increase",
+      "passage_id": "ipbes_pollinators__w03__p05",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_pollinators__w03",
+    "doc_id": "ipbes2016_pollinators",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 34,
+    "pdf_end": 40,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T10:55:23Z",
+    "pdf_sha256": "faba8a7307edfcb0",
+    "prompt_type": "assessment"
+  }
+}

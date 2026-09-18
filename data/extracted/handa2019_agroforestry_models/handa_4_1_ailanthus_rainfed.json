@@ -1,0 +1,220 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4.1 Agroforestry Model: Ailanthus based Agri-silvicultural System under Rainfed Conditions",
+  "content_type": "model",
+  "summary": "This agroforestry model describes the cultivation of Ailanthus excelsa (Ardusa) in an agri-silvicultural system under rainfed conditions, primarily in arid and semi-arid regions of India. The system involves intercropping with pulses like green gram, cowpea, and cluster bean, which provides annual income and improves soil properties compared to sole cropping.",
+  "passages": [
+    {
+      "passage_id": "handa_4_1_ailanthus_rainfed__p01",
+      "heading_path": [
+        "4.1 Agroforestry Model: Ailanthus based Agri-silvicultural System under Rainfed Conditions"
+      ],
+      "text": "Ailanthus excelsa grows well in semi-arid and semi-moist regions and has been found suitable for planting in dry areas with annual rainfall of about 400 mm. It is commonly found in mixed deciduous forests and some sal forests, but it is difficult to cultivate in moist areas with high monsoons. Plant associations include Acacia catechu, Acacia leucophloea and Azadirachta indica. It is a relatively salt-tolerant species.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Habit and Habitat",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "rainfall"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "handa_4_1_ailanthus_rainfed__p02",
+      "heading_path": [
+        "4.1 Agroforestry Model: Ailanthus based Agri-silvicultural System under Rainfed Conditions",
+        "Cultural Operations"
+      ],
+      "text": "Spacing: 5 x 5 m under rainfed conditions and as a block and boundary plantation the spacing should be 3 x 3 m. Pit size: Optimum size of pit is 30 x 30 x 30 cm, planting should be done during rainy season.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Cultural Operations",
+      "practices": [
+        "other"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "handa_4_1_ailanthus_rainfed__p03",
+      "heading_path": [
+        "4.1 Agroforestry Model: Ailanthus based Agri-silvicultural System under Rainfed Conditions",
+        "Manuring and fertilization"
+      ],
+      "text": "The Ardu tree is fast growing and normally does not require organic or inorganic fertilizers in plantations but in the arid regions of the country and in sandy soils, nitrogenous fertilizer application has given good response. Application of 100 g urea or 5 kg FYM or 1 kg vermicompost is required in the first year of growth and in subsequent years the increment of urea, i.e. 100 g per plant each year and the highest up to 500 gm and the increment of FYM @ 1 kg per plant per year and the highest amount up to 10 kg per plant. The optimum time for fertilization is onset of the monsoon.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Manuring and fertilization",
+      "practices": [
+        "manure",
+        "compost",
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "handa_4_1_ailanthus_rainfed__p04",
+      "heading_path": [
+        "4.1 Agroforestry Model: Ailanthus based Agri-silvicultural System under Rainfed Conditions",
+        "Lopping and pollarding of branches"
+      ],
+      "text": "Trees are pollarded after the third year of establishment, which increases the light intensity to the intercrops and also the growth of Ardusa will be better.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Lopping and pollarding",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "crop_yield",
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "handa_4_1_ailanthus_rainfed__p05",
+      "heading_path": [
+        "4.1 Agroforestry Model: Ailanthus based Agri-silvicultural System under Rainfed Conditions"
+      ],
+      "text": "The physical and chemical properties of soil improved significantly under agri-silvi system of agroforestry as compared to sole crops. Significant improvement in organic carbon, N, P2O5, K2O, porosity and water-holding capacity of soil while significant decrease in bulk density of soil was obtained under agrisilvi system over sole crops.",
+      "page_start": 10,
+      "page_end": 10,
+      "topic": "Soil Improvement",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "SOC",
+        "nitrogen",
+        "nutrient_availability",
+        "bulk_density",
+        "water_holding_capacity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "handa_4_1_ailanthus_rainfed__c01",
+      "passage_id": "handa_4_1_ailanthus_rainfed__p04",
+      "subject": "pollarding",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "evidence_span": "Trees are pollarded after the third year of establishment, which increases the light intensity to the intercrops",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "handa_4_1_ailanthus_rainfed__c02",
+      "passage_id": "handa_4_1_ailanthus_rainfed__p05",
+      "subject": "agri-silvi system",
+      "metric": "bulk_density",
+      "direction": "decrease",
+      "evidence_span": "significant decrease in bulk density of soil was obtained under agrisilvi system over sole crops.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "pollarding",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "increases the light intensity to the intercrops",
+      "passage_id": "handa_4_1_ailanthus_rainfed__p04",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agri-silvi system",
+      "to_node": "bulk_density",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "handa_4_1_ailanthus_rainfed__p05",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Ailanthus based Agri-silvicultural System",
+    "tree_species": [
+      "Ailanthus excelsa"
+    ],
+    "crop_species": [
+      "green gram",
+      "cluster bean",
+      "cowpea"
+    ],
+    "region_of_adoption": [
+      "Gujarat",
+      "Rajasthan",
+      "Bihar",
+      "Orissa",
+      "Uttar Pradesh",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Karnataka",
+      "Tamil Nadu"
+    ],
+    "stated_benefits": [
+      "provides annual income",
+      "improves soil physical and chemical properties",
+      "resistant to drought",
+      "suitable for degraded and denuded areas"
+    ],
+    "stated_constraints": [
+      "difficult to cultivate in moist areas with high monsoons",
+      "seedlings susceptible to damping off disease",
+      "timber is perishable",
+      "fuelwood is of poor quality"
+    ]
+  },
+  "_meta": {
+    "unit_id": "handa_4_1_ailanthus_rainfed",
+    "doc_id": "handa2019_agroforestry_models",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 33,
+    "pdf_end": 44,
+    "manifest_practices": [],
+    "manifest_climate_zones": [
+      "semi-arid"
+    ],
+    "extracted_at": "2026-09-18T08:59:07Z",
+    "pdf_sha256": "37a34f4297806e5b"
+  }
+}

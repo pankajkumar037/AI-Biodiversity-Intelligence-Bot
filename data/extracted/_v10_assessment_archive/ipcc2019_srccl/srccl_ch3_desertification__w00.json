@@ -1,0 +1,186 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Desertification",
+  "content_type": "assessment",
+  "summary": "This assessment examines the socio-ecological drivers, feedbacks, impacts, and responses related to desertification in drylands, highlighting the vulnerability of dryland populations and the potential for sustainable land management (SLM) to mitigate these effects.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch3_desertification__w00__p01",
+      "heading_path": [
+        "Desertification",
+        "Executive summary"
+      ],
+      "text": "Desertification is land degradation in arid, semi-arid, and dry sub-humid areas, collectively known as drylands, resulting from many factors, including human activities and climatic variations. The range and intensity of desertification have increased in some dryland areas over the past several decades (high confidence). Drylands currently cover about 46.2% (±0.8%) of the global land area and are home to 3 billion people.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Definition and extent of desertification",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "arid",
+        "semi-arid",
+        "dry_sub_humid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w00__p02",
+      "heading_path": [
+        "Desertification",
+        "Executive summary"
+      ],
+      "text": "Desertification and climate change, both individually and in combination, will reduce the provision of dryland ecosystem services and lower ecosystem health, including losses in biodiversity (high confidence). Desertification and changing climate are projected to cause reductions in crop and livestock productivity (high confidence), modify the composition of plant species and reduce biological diversity across drylands (medium confidence).",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Impacts of desertification and climate change",
+      "practices": [],
+      "metrics": [
+        "crop_yield",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid",
+        "dry_sub_humid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w00__p03",
+      "heading_path": [
+        "Desertification",
+        "Executive summary"
+      ],
+      "text": "Site and regionally-specific technological solutions, based both on new scientific innovations and indigenous and local knowledge (ILK), are available to avoid, reduce and reverse desertification, simultaneously contributing to climate change mitigation and adaptation (high confidence). SLM practices in drylands increase agricultural productivity and contribute to climate change adaptation with mitigation co-benefits (high confidence).",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "SLM practices and benefits",
+      "practices": [
+        "integrated_nutrient_mgmt",
+        "other"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid",
+        "dry_sub_humid"
+      ],
+      "land_use": [
+        "cropland",
+        "rangeland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w00__p04",
+      "heading_path": [
+        "Desertification",
+        "Executive summary"
+      ],
+      "text": "Conservation agriculture increases the capacity of agricultural households to adapt to climate change (high confidence) and can lead to increases in soil organic carbon over time, with quantitative estimates of the rates of carbon sequestration in drylands following changes in agricultural practices ranging between 0.04 and 0.4 t ha–1 (medium confidence).",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Conservation agriculture impacts",
+      "practices": [
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid",
+        "dry_sub_humid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w00__p05",
+      "heading_path": [
+        "Desertification",
+        "Executive summary"
+      ],
+      "text": "Investments into SLM, land restoration and rehabilitation in dryland areas have positive economic returns (high confidence). Each USD invested into land restoration can have social returns of about 3–6 USD over a 30-year period. Most SLM practices can become financially profitable within 3 to 10 years (medium evidence, high agreement).",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Economic returns of SLM",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "arid",
+        "semi-arid",
+        "dry_sub_humid"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch3_desertification__w00__c01",
+      "passage_id": "srccl_ch3_desertification__w00__p03",
+      "subject": "SLM practices",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "evidence_span": "SLM practices in drylands increase agricultural productivity",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w00__c02",
+      "passage_id": "srccl_ch3_desertification__w00__p04",
+      "subject": "Conservation agriculture",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value_low": 0.04,
+      "value_high": 0.4,
+      "unit": "t_ha",
+      "evidence_span": "Conservation agriculture increases the capacity of agricultural households to adapt to climate change (high confidence) and can lead to increases in soil organic carbon over time, with quantitative estimates of the rates of carbon sequestration in drylands following changes in agricultural practices ranging between 0.04 and 0.4 t ha–1 (medium confidence).",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "SLM practices",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "passage_id": "srccl_ch3_desertification__w00__p03",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "conservation agriculture",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "passage_id": "srccl_ch3_desertification__w00__p04",
+      "strength_stated": "moderate"
+    }
+  ],
+  "_meta": {
+    "unit_id": "srccl_ch3_desertification__w00",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 259,
+    "pdf_end": 270,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:48:40Z",
+    "pdf_sha256": "d9caeafbffed3bfa"
+  }
+}

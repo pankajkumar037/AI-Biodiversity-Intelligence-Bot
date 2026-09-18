@@ -1,0 +1,1120 @@
+{
+  "extraction_status": "ok",
+  "section_title": "5. Conservation agriculture in South Africa",
+  "content_type": "case_study",
+  "summary": "This document describes a case study on conservation agriculture (CA) practices at the Zeekoegat trial in South Africa, initiated in November 2007 and continuing for six cropping seasons. The trial involved split-plot randomized complete block design with two tillage systems (conventional tillage - CT and reduced tillage - RT) and twelve treatments (six cropping systems x two fertilizer levels). The study investigated the effects of these practices on soil properties, crop yield, and other benefits. Key findings include that reduced tillage generally led to higher soil water content and cooler soil temperatures, while conventional tillage showed higher CO2 emissions. Cropping systems, particularly maize/vetch intercropping, positively influenced soil nutrient status and aggregate stability. The study also noted potential drawbacks such as soil compaction under reduced tillage and challenges in weed management. Economic analysis indicated that maize monoculture and maize/vetch intercropping were the most beneficial systems, though long-term sustainability was a challenge.",
+  "passages": [
+    {
+      "passage_id": "v4_c05_ca_south_africa__p01",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa"
+      ],
+      "text": "Corrie Swanepoel¹, Mariette Marais², Antoinette Swart², Johan Habig2,\nSusan Koch², Winnie Sekgota2, Reedah Mampana¹, Gerrie Trytsman³,\nDanie Beukes¹, Hendrik Smith\n'ARC-Institute for Soil, Climate and Water, Pretoria, South Africa\n2ARC-Plant Protection Research Institute, Pretoria, South Africa\n3ARC-Animal Production Institute, Irene, South Africa\n4GrainSA, Pretoria, South Africa",
+      "page_start": 48,
+      "page_end": 48,
+      "topic": "authorship",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p02",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "1. Related practices"
+      ],
+      "text": "Conservation agriculture, Reduced tillage, Intercropping, Crop rotations, Mineral fertilization",
+      "page_start": 48,
+      "page_end": 48,
+      "topic": "related_practices",
+      "practices": [
+        "conservation_agriculture",
+        "reduced_tillage",
+        "intercropping",
+        "crop_rotation",
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p03",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "2. Description of the case study"
+      ],
+      "text": "The Zeekoegat trial was initiated in November 2007 and continued for six cropping seasons. A split plot\nrandomized complete block design was used, with three replicates. Each replicate was split into two tillage\nsystems, conventional tillage (CT) and reduced tillage (RT) and then further subdivided into twelve treatments\n(six cropping systems × two fertilizer levels), resulting in a total of 72 experimental plots. Plot dimensions were\n7.2 m x 8.0 m. The cropping systems tested included: maize monoculture, maize/cowpea rotation,\nmaize/soybean rotation (MSR), maize/cowpea intercropping, maize/oats intercropping and maize/vetch\nintercropping (Table 17). Details of activities are summarized in Table 18.",
+      "page_start": 48,
+      "page_end": 48,
+      "topic": "case_study_description",
+      "practices": [
+        "conservation_agriculture",
+        "reduced_tillage",
+        "intercropping",
+        "crop_rotation"
+      ],
+      "metrics": [],
+      "climate_zones": [],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p04",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "3. Context of the case study"
+      ],
+      "text": "Zeekoegat (25°36′55″S, 28°18′56″ E, altitude: 1168 m) was an on-station trial at Zeekoegat experimental\nfarm situated in Gauteng province, South Africa. The experimental trial was site-specific and has a footprint of\n70 m x 20 m. This is located in the warm temperate, winter dry, hot summer region (Cwa). The site received an\nannual rainfall of 871 mm/yr (average of 6 trial years) with average maximum annual temperature of 27°C and\nminimum temperature of 10.7 °C. The soil at Zeekoegat is a Rhodic Nitisol (IUSS, 2014) with clayey (44.5%\nclay) texture, red, moderately fine to medium blocky structure on underlying gabbro. The soil is deep (>120\ncm) and well drained with manganese concretions at deeper levels of 7% and 23% in the A and B horizons,\nrespectively (Mampana et al., 2015). The soil was slightly acidic and had relative low topsoil P content. Table\n19 summarizes selected soil physical and chemical properties of the two sites at the start of the trials.",
+      "page_start": 52,
+      "page_end": 52,
+      "topic": "case_study_context",
+      "practices": [
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "rainfall",
+        "pH"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p05",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "5. Impact on soil organic carbon stocks"
+      ],
+      "text": "Carbon content has been measured for six consecutive years to monitor the change in SOC under different\ntreatments. In this trial, SOC was build up in the soil under selected CA practices, such as RT and vetch\nintercropping systems, especially in the topsoil (",
+      "page_start": 52,
+      "page_end": 52,
+      "topic": "soc_impact",
+      "practices": [
+        "conservation_agriculture",
+        "reduced_tillage",
+        "intercropping"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p06",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "6.1. Improvement of soil properties",
+        "Tillage systems"
+      ],
+      "text": "Soil water: Soil water content was consistently higher under RT compared to CT. This trend has\nbeen established since the first season (Mampana, 2014; Swanepoel et al. 2013).\nSoil temperature: The soil was cooler under RT, possibly due to a combination of higher water\ncontent and surface cover (Mampana, 2014).",
+      "page_start": 57,
+      "page_end": 57,
+      "topic": "soil_properties_tillage",
+      "practices": [
+        "reduced_tillage",
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "temperature"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p07",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "6.1. Improvement of soil properties",
+        "Tillage systems"
+      ],
+      "text": "Microbial activity: RT had a favourable effect on microbial activity. Clear trends over time were\nobserved in specie richness under RT treatments (Habig and Swanepoel, 2015).",
+      "page_start": 57,
+      "page_end": 57,
+      "topic": "soil_properties_tillage",
+      "practices": [
+        "reduced_tillage",
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "microbial_biomass",
+        "species_richness"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p08",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "6.1. Improvement of soil properties",
+        "Cropping systems"
+      ],
+      "text": "Soil nutrient dynamics: Cropping systems had a clearly measurable effect on soil nutrients and\naffected Ca, K, Mg, NH4, NO3, total C and total N. The maize/vetch cropping system was mostly\nresponsible for increased nutrient status in the soil, while maize monoculture or maize/oats\nintercropping were associated with low nutrient status (Swanepoel et al., 2013).",
+      "page_start": 57,
+      "page_end": 57,
+      "topic": "soil_properties_cropping_systems",
+      "practices": [
+        "intercropping",
+        "crop_rotation"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "SOC"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p09",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "6.1. Improvement of soil properties",
+        "Cropping systems"
+      ],
+      "text": "Aggregate stability: Significant correlations were found between cropping systems and organic C,\nwhich in turn significantly influenced aggregate stability and volume (Beukes and Swanepoel,\n2016).",
+      "page_start": 57,
+      "page_end": 57,
+      "topic": "soil_properties_cropping_systems",
+      "practices": [
+        "crop_rotation",
+        "intercropping"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p10",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "6.2 Minimization of threats to soil functions"
+      ],
+      "text": "Soil threats\nNutrient\nimbalance and\ncycle\nSignificant differences were observed in most years for N, K, Ca, Mg and Na, but\nthese changes were not consistent over time, and each year resulted from\ndifferent factors (tillage, cropping systems, fertilizer application, or a combination\nthereof). Cropping systems was mostly responsible for changes in nutrient\ndynamics, possibly because different crops utilize nutrients differently\n(Swanepoel et al., 2013).",
+      "page_start": 58,
+      "page_end": 58,
+      "topic": "soil_threats",
+      "practices": [
+        "conservation_agriculture",
+        "reduced_tillage",
+        "intercropping",
+        "crop_rotation"
+      ],
+      "metrics": [
+        "nutrient_availability"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p11",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "6.2 Minimization of threats to soil functions"
+      ],
+      "text": "Soil biodiversity\nloss\nMicrobial diversity and activity were higher under no-till than conventional tillage.\nFertilizer levels seemed to play a minor role in determining microbial diversity and\nactivity, whereas the cropping systems played a more important role in\ndetermining the activity of soil microbial communities. Conservation agriculture\nyielded the highest soil microbial diversity and activity in diversified cropping\nsystems under no-till (Habig and Swanepoel, 2015).",
+      "page_start": 58,
+      "page_end": 58,
+      "topic": "soil_threats",
+      "practices": [
+        "conservation_agriculture",
+        "no_till",
+        "intercropping",
+        "crop_rotation"
+      ],
+      "metrics": [
+        "microbial_biomass",
+        "soil_biota"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p12",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "6.2 Minimization of threats to soil functions"
+      ],
+      "text": "Soil water\nmanagement\nIncreased soil water content was measured under CA treatments, especially\nreduced tillage treatments (Swanepoel et al., 2013; Mampana, 2014).",
+      "page_start": 58,
+      "page_end": 58,
+      "topic": "soil_threats",
+      "practices": [
+        "conservation_agriculture",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "soil_moisture"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p13",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "6.3 Increases in production (e.g. food/fuel/feed/timber)"
+      ],
+      "text": "Maize yield and biomass production was better under CA during some seasons, while the production was lower\nduring other seasons. This complex dynamic was influenced by factors such as rainfall, compaction, and\nsequence of cropping systems (Swanepoel et al., 2018). The Zeekoegat CA trial was a dryland, on-station trial.\nLow and erratic rainfall negatively affected the yields in the last three years of the trial. Periodic drought in\ncritical development periods resulted in overall low yields and biomass. However, we were still able to compare\nthe response of the various treatments under these conditions.",
+      "page_start": 59,
+      "page_end": 59,
+      "topic": "production_increase",
+      "practices": [
+        "conservation_agriculture",
+        "crop_rotation"
+      ],
+      "metrics": [
+        "biomass",
+        "crop_yield",
+        "rainfall"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p14",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "6.3 Increases in production (e.g. food/fuel/feed/timber)"
+      ],
+      "text": "Initially maize grain yield was higher under reduced tillage (2008, 2009 and 2010), but in the last 3 years it\nwas higher under conventional tillage (2011, 2012 and 2013). The overall low yield is contributed to low\nrainfall and poor rainfall distribution during the growing season. The difference in yield between CT and RT is\nattributed to topsoil compaction in the RT treatments, due to the absence of tillage. The 6-year average yields\nbetween the tillage systems were similar with 2.9 ton/ha for RT and 3.1 ton/ha for CT. Similar to grain yield,\nthe biomass initially performed better under RT, but in the last 3 years CT supported the highest biomass\nproduction. As with grain yield, the topsoil compaction under RT reduced root development and disadvantaged\nthe entire crop.",
+      "page_start": 59,
+      "page_end": 59,
+      "topic": "production_increase",
+      "practices": [
+        "reduced_tillage",
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "crop_yield",
+        "biomass",
+        "rainfall"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p15",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "6.3 Increases in production (e.g. food/fuel/feed/timber)"
+      ],
+      "text": "Cropping systems had a significant effect on yield. The CA systems, specifically maize/vetch and maize/cowpea\nintercropping systems, outperformed conventional practices (monoculture). The trend is that cropping systems\nhad some effect on biomass, although not always significant. Maize monoculture and maize/vetch produced the\nhighest biomass. Maize monoculture produced high biomass because maize was planted in a full stand, and this\nis compared to maize planted in tramlines. Maize/vetch intercropping produced the most effective soil cover.\nFertilizer had little or no effect on maize grain yield.",
+      "page_start": 59,
+      "page_end": 59,
+      "topic": "production_increase",
+      "practices": [
+        "conservation_agriculture",
+        "intercropping",
+        "crop_rotation"
+      ],
+      "metrics": [
+        "crop_yield",
+        "biomass"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p16",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "6.4 Mitigation of and adaptation to climate change"
+      ],
+      "text": "Carbon sequestration under RT systems was a positive result for mitigation. GHG emissions (CH4, N2O) were\nnot measured in this study.",
+      "page_start": 59,
+      "page_end": 59,
+      "topic": "climate_change_mitigation",
+      "practices": [
+        "reduced_tillage",
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p17",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "6.5 Socio-economic benefits"
+      ],
+      "text": "Economic effect was measured and expressed as profitability (Rand/hectare) (Figure 7). Profitability was driven\nby maize yield and rainfall (Swanepoel et al., 2018). Economic comparison between the CA and conventional\nfarming systems indicated that maize monoculture and maize/vetch intercropping were the most beneficial.\nHowever, the economic analysis failed to take into account sustainable and long-term use of resources.",
+      "page_start": 59,
+      "page_end": 59,
+      "topic": "socio_economic_benefits",
+      "practices": [
+        "conservation_agriculture",
+        "crop_rotation",
+        "intercropping"
+      ],
+      "metrics": [
+        "crop_yield",
+        "rainfall"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p18",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "7.1 Tradeoffs with other threats to soil functions"
+      ],
+      "text": "Soil penetrometer resistance (PR) was measured in the sixth season. Higher PR\nvalues were found under RT systems, especially in the topsoil. This was a\nnegative tradeoff of CA, which reduced the yield potential (Swanepoel et al.,\n2013; Swanepoel et al., 2018).",
+      "page_start": 62,
+      "page_end": 62,
+      "topic": "soil_threats_tradeoffs",
+      "practices": [
+        "reduced_tillage",
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "bulk_density"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p19",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "7.2 Increases in greenhouse gas emissions"
+      ],
+      "text": "CO2 emissions tended to be higher under CT tillage systems compared to RT systems (Figure 9). However,\nlimited measurements were collected.",
+      "page_start": 62,
+      "page_end": 62,
+      "topic": "greenhouse_gas_emissions",
+      "practices": [
+        "conservation_agriculture",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "temperature"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p20",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "7.3 Decreases in production (food/fuel/feed/timber/fibre)",
+        "Compaction"
+      ],
+      "text": "We recorded a negative yield under reduced tillage as time went on. Initially yield and biomass production was\nhigher under RT, but a yield decreased over time was observed. An overall yield decrease in the trial can partly\nbe ascribed to lower rainfall and prolonged dry periods during critical periods in maize development in the last\n3 years. However, contrary to what we expected, the RT treatments performed worse than CT under these dry\nperiods. Since soil compaction is one of the potential drawbacks experienced with CA ( Swanepoel, Smith and\nSwanepoel, 2018), we tested the penetrometer resistance (PR), as an indicator of compaction during the last\nseason, to see if PR resistance could explain the difference in the yield. We used a Geotron penetrometer, taking\nreadings every 10 mm up to a depth of 800 mm where possible. The penetrometer was set at a maximum\npressure of 4000 kPa. An average of six measurement per plot was taken in 24 plots (12 with RT and 12 with\nCT), and results were statistically analyzed.",
+      "page_start": 63,
+      "page_end": 63,
+      "topic": "production_decreases_compaction",
+      "practices": [
+        "conservation_agriculture",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "crop_yield",
+        "biomass",
+        "rainfall"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p21",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "7.3 Decreases in production (food/fuel/feed/timber/fibre)",
+        "Compaction"
+      ],
+      "text": "We found significant increased soil penetration resistance in the topsoil of the RT treatments (Swanepoel et al.,\n2014). We suggest that a compaction layer developed in the absence of ploughing due to the use of implements\nsuch as tractors. This increased soil resistance could have had a carry-over effect, reducing root development,\nwhich in turn compromised crop growth and grain yield. Poorer crop growth resulted in less biomass which\ncompromised the entire CA system. Values for reduced and conventionally tilled soil were similar up to 50 mm,\nwhen a clear increase in resistance was measured under reduced tilled soils. Significant differences were\nmeasured between 110-170 mm and again at 310-350 mm (Figure 10) (Swanepoel et al., 2014).",
+      "page_start": 63,
+      "page_end": 63,
+      "topic": "production_decreases_compaction",
+      "practices": [
+        "conservation_agriculture",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "bulk_density",
+        "crop_yield",
+        "biomass"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p22",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "8. Recommendations before implementing the practice"
+      ],
+      "text": "Soil compaction under reduced tillage is a limitation in some soils. Methods to elevate compaction,\nsuch as occasional deep tillage, or rip-on-the-row practices should be implemented in these cases",
+      "page_start": 64,
+      "page_end": 64,
+      "topic": "recommendations",
+      "practices": [
+        "reduced_tillage",
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "bulk_density"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p23",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "9. Potential barriers for adoption"
+      ],
+      "text": "Soil type and climate highly influence the type of farming and the\nchoice of cropping system (Swanepoel et al., 2018). Resources such as\nsoil type and climate are often one of the most determining factors in\nsuccessful farming. Higher rainfall regions better support multi-cropping\nsystems that can lead to biomass production that drives the CA system,\nwhile arid and semi-arid regions might not have enough available water\nto produce effective biomass to increase organic matter in the system\n(Swanepoel et al., 2018a).",
+      "page_start": 64,
+      "page_end": 64,
+      "topic": "barriers_to_adoption",
+      "practices": [
+        "conservation_agriculture",
+        "intercropping"
+      ],
+      "metrics": [
+        "biomass",
+        "SOC"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c05_ca_south_africa__p24",
+      "heading_path": [
+        "5. Conservation agriculture in South Africa",
+        "9. Potential barriers for adoption"
+      ],
+      "text": "Maize production and seasonal climate more determine profitability in\nsemi-arid regions, such as RSA, and as a result practicing CA is not\nalways profitable (Swanepoel et al., 2018).\nEven though CA poses numerous advantages, profitability analysis did\nnot show any significant benefits as a result of CA practices or SOC\nbuild-up in the short- or medium-term. The challenge remains to\ncapture the long-term sustainability of CA.",
+      "page_start": 65,
+      "page_end": 65,
+      "topic": "barriers_to_adoption",
+      "practices": [
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [],
+      "content_role": "constraint"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "v4_c05_ca_south_africa__c01",
+      "passage_id": "v4_c05_ca_south_africa__p05",
+      "subject": "SOC",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "under selected CA practices, such as RT and vetch intercropping systems",
+      "time_horizon_years": 6,
+      "evidence_span": "SOC was build up in the soil under selected CA practices, such as RT and vetch intercropping systems, especially in the topsoil",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c02",
+      "passage_id": "v4_c05_ca_south_africa__p06",
+      "subject": "soil water content",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "under RT compared to CT",
+      "time_horizon_years": null,
+      "evidence_span": "Soil water content was consistently higher under RT compared to CT.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c03",
+      "passage_id": "v4_c05_ca_south_africa__p06",
+      "subject": "soil temperature",
+      "metric": "temperature",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "under RT",
+      "time_horizon_years": null,
+      "evidence_span": "The soil was cooler under RT, possibly due to a combination of higher water content and surface cover",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c04",
+      "passage_id": "v4_c05_ca_south_africa__p07",
+      "subject": "microbial activity",
+      "metric": "microbial_biomass",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "under RT",
+      "time_horizon_years": null,
+      "evidence_span": "RT had a favourable effect on microbial activity.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c05",
+      "passage_id": "v4_c05_ca_south_africa__p08",
+      "subject": "nutrient status",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "maize/vetch cropping system",
+      "time_horizon_years": null,
+      "evidence_span": "The maize/vetch cropping system was mostly responsible for increased nutrient status in the soil",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c06",
+      "passage_id": "v4_c05_ca_south_africa__p08",
+      "subject": "nutrient status",
+      "metric": "nutrient_availability",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "maize monoculture or maize/oats intercropping",
+      "time_horizon_years": null,
+      "evidence_span": "while maize monoculture or maize/oats intercropping were associated with low nutrient status",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c07",
+      "passage_id": "v4_c05_ca_south_africa__p09",
+      "subject": "aggregate stability",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "between cropping systems and organic C",
+      "time_horizon_years": null,
+      "evidence_span": "Significant correlations were found between cropping systems and organic C, which in turn significantly influenced aggregate stability and volume",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c08",
+      "passage_id": "v4_c05_ca_south_africa__p11",
+      "subject": "microbial diversity and activity",
+      "metric": "microbial_biomass",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "under no-till than conventional tillage",
+      "time_horizon_years": null,
+      "evidence_span": "Microbial diversity and activity were higher under no-till than conventional tillage.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c09",
+      "passage_id": "v4_c05_ca_south_africa__p11",
+      "subject": "soil microbial diversity and activity",
+      "metric": "soil_biota",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "in diversified cropping systems under no-till",
+      "time_horizon_years": null,
+      "evidence_span": "Conservation agriculture yielded the highest soil microbial diversity and activity in diversified cropping systems under no-till",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c10",
+      "passage_id": "v4_c05_ca_south_africa__p12",
+      "subject": "soil water content",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "under CA treatments, especially reduced tillage treatments",
+      "time_horizon_years": null,
+      "evidence_span": "Increased soil water content was measured under CA treatments, especially reduced tillage treatments",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c11",
+      "passage_id": "v4_c05_ca_south_africa__p14",
+      "subject": "maize grain yield",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 3.1,
+      "value_low": null,
+      "value_high": null,
+      "unit": "t_ha",
+      "basis": "6-year average",
+      "conditions": "conventional tillage (CT)",
+      "time_horizon_years": 6,
+      "evidence_span": "The 6-year average yields between the tillage systems were similar with 2.9 ton/ha for RT and 3.1 ton/ha for CT.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c12",
+      "passage_id": "v4_c05_ca_south_africa__p14",
+      "subject": "maize grain yield",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "reduced tillage (RT) in the last 3 years",
+      "time_horizon_years": 3,
+      "evidence_span": "but in the last 3 years it was higher under conventional tillage",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c13",
+      "passage_id": "v4_c05_ca_south_africa__p14",
+      "subject": "biomass",
+      "metric": "biomass",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "conventional tillage (CT) in the last 3 years",
+      "time_horizon_years": 3,
+      "evidence_span": "but in the last 3 years CT supported the highest biomass production.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c14",
+      "passage_id": "v4_c05_ca_south_africa__p15",
+      "subject": "yield",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "maize/vetch and maize/cowpea intercropping systems",
+      "time_horizon_years": null,
+      "evidence_span": "The CA systems, specifically maize/vetch and maize/cowpea intercropping systems, outperformed conventional practices (monoculture).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c15",
+      "passage_id": "v4_c05_ca_south_africa__p15",
+      "subject": "biomass",
+      "metric": "biomass",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "Maize monoculture and maize/vetch",
+      "time_horizon_years": null,
+      "evidence_span": "Maize monoculture and maize/vetch produced the highest biomass.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c16",
+      "passage_id": "v4_c05_ca_south_africa__p16",
+      "subject": "Carbon sequestration",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "under RT systems",
+      "time_horizon_years": null,
+      "evidence_span": "Carbon sequestration under RT systems was a positive result for mitigation.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c17",
+      "passage_id": "v4_c05_ca_south_africa__p18",
+      "subject": "Soil penetrometer resistance",
+      "metric": "bulk_density",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "under RT systems, especially in the topsoil",
+      "time_horizon_years": null,
+      "evidence_span": "Higher PR values were found under RT systems, especially in the topsoil.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c18",
+      "passage_id": "v4_c05_ca_south_africa__p18",
+      "subject": "yield potential",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "CA",
+      "time_horizon_years": null,
+      "evidence_span": "This was a negative tradeoff of CA, which reduced the yield potential",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c19",
+      "passage_id": "v4_c05_ca_south_africa__p19",
+      "subject": "CO2 emissions",
+      "metric": "temperature",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "under CT tillage systems compared to RT systems",
+      "time_horizon_years": null,
+      "evidence_span": "CO2 emissions tended to be higher under CT tillage systems compared to RT systems",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c20",
+      "passage_id": "v4_c05_ca_south_africa__p21",
+      "subject": "soil penetration resistance",
+      "metric": "bulk_density",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "in the topsoil of the RT treatments",
+      "time_horizon_years": null,
+      "evidence_span": "We found significant increased soil penetration resistance in the topsoil of the RT treatments",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c21",
+      "passage_id": "v4_c05_ca_south_africa__p21",
+      "subject": "crop growth and grain yield",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "due to increased soil resistance",
+      "time_horizon_years": null,
+      "evidence_span": "This increased soil resistance could have had a carry-over effect, reducing root development, which in turn compromised crop growth and grain yield.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c22",
+      "passage_id": "v4_c05_ca_south_africa__p22",
+      "subject": "Soil compaction",
+      "metric": "bulk_density",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "under reduced tillage",
+      "time_horizon_years": null,
+      "evidence_span": "Soil compaction under reduced tillage is a limitation in some soils.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c23",
+      "passage_id": "v4_c05_ca_south_africa__p23",
+      "subject": "organic matter",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "arid and semi-arid regions",
+      "time_horizon_years": null,
+      "evidence_span": "while arid and semi-arid regions might not have enough available water to produce effective biomass to increase organic matter in the system",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c24",
+      "passage_id": "v4_c05_ca_south_africa__p24",
+      "subject": "profitability",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "semi-arid regions",
+      "time_horizon_years": null,
+      "evidence_span": "Maize production and seasonal climate more determine profitability in semi-arid regions, such as RSA, and as a result practicing CA is not always profitable",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c05_ca_south_africa__c25",
+      "passage_id": "v4_c05_ca_south_africa__p24",
+      "subject": "benefits",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "short- or medium-term",
+      "time_horizon_years": null,
+      "evidence_span": "profitability analysis did not show any significant benefits as a result of CA practices or SOC build-up in the short- or medium-term.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c05_ca_south_africa__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "temperature",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c05_ca_south_africa__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "microbial_biomass",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c05_ca_south_africa__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": "maize/vetch cropping system",
+      "mechanism": null,
+      "passage_id": "v4_c05_ca_south_africa__p08",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "cropping systems and organic C",
+      "mechanism": null,
+      "passage_id": "v4_c05_ca_south_africa__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "conservation_agriculture",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": "especially reduced tillage treatments",
+      "mechanism": null,
+      "passage_id": "v4_c05_ca_south_africa__p12",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "in the last 3 years",
+      "mechanism": "topsoil compaction",
+      "passage_id": "v4_c05_ca_south_africa__p14",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "conservation_agriculture",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c05_ca_south_africa__p16",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "bulk_density",
+      "effect": "increase",
+      "condition": "especially in the topsoil",
+      "mechanism": null,
+      "passage_id": "v4_c05_ca_south_africa__p18",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "conservation_agriculture",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "soil compaction",
+      "passage_id": "v4_c05_ca_south_africa__p18",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "conservation_agriculture",
+      "to_node": "temperature",
+      "effect": "increase",
+      "condition": "CT tillage systems compared to RT systems",
+      "mechanism": null,
+      "passage_id": "v4_c05_ca_south_africa__p19",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "bulk_density",
+      "effect": "increase",
+      "condition": "in the topsoil",
+      "mechanism": "absence of ploughing",
+      "passage_id": "v4_c05_ca_south_africa__p21",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "due to increased soil resistance",
+      "mechanism": "reduced root development",
+      "passage_id": "v4_c05_ca_south_africa__p21",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "reduced_tillage",
+      "to_node": "bulk_density",
+      "effect": "increase",
+      "condition": "in some soils",
+      "mechanism": null,
+      "passage_id": "v4_c05_ca_south_africa__p22",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "conservation_agriculture",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "arid and semi-arid regions",
+      "mechanism": "biomass production",
+      "passage_id": "v4_c05_ca_south_africa__p23",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "conservation_agriculture",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "semi-arid regions",
+      "mechanism": null,
+      "passage_id": "v4_c05_ca_south_africa__p24",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "conservation_agriculture",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "short- or medium-term",
+      "mechanism": null,
+      "passage_id": "v4_c05_ca_south_africa__p24",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "v4_c05_ca_south_africa",
+    "doc_id": "fao2021_recarb_v4",
+    "model": "gemini-2.5-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 72,
+    "pdf_end": 92,
+    "manifest_practices": [
+      "conservation_agriculture"
+    ],
+    "manifest_climate_zones": [
+      "semi-arid"
+    ],
+    "extracted_at": "2026-09-18T08:30:53Z",
+    "pdf_sha256": "d1402106106cd92f"
+  }
+}

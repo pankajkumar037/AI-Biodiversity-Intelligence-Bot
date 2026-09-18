@@ -1,0 +1,22 @@
+{
+  "extraction_status": "no_content",
+  "section_title": "References",
+  "content_type": "other",
+  "summary": "The provided pages contain a list of references for Chapter 6 and the front matter (title page, table of contents) for Chapter 7 of the IPCC Special Report on Climate Change and Land. No scientific content, data, or claims are present in these pages.",
+  "passages": [],
+  "claims": [],
+  "links": [],
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w11",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 682,
+    "pdf_end": 684,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:54:26Z",
+    "pdf_sha256": "93ac9cbed74a529f"
+  }
+}

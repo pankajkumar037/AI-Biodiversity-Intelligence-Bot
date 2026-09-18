@@ -1,0 +1,1615 @@
+{
+  "extraction_status": "ok",
+  "section_title": "38. Agroforestry 1: Agrisilvicultural systems",
+  "content_type": "practice",
+  "summary": "Agrisilviculture is an agroforestry practice that integrates trees with crops on the same land, either simultaneously or sequentially. It offers benefits such as improved soil fertility, erosion control, and increased yield stability. These systems enhance soil organic carbon (SOC) through increased organic matter input and improved soil aggregation. Agrisilviculture is applicable in various cropping systems and climatic zones, particularly in small-scale, low-input farming systems. It has a positive effect on SOC stocks, with sequestration rates varying by climate zone and site conditions. Other benefits include improved soil properties, reduced soil threats like erosion and contamination, increased productivity, and contributions to climate change mitigation and adaptation. However, potential drawbacks include decreased crop yield in mature plantations due to competition, and conflicts with other practices. Barriers to adoption include biophysical, cultural, social, economic, institutional, legal, and knowledge-related factors.",
+  "passages": [
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p01",
+      "heading_path": [
+        "1. Description of the practice"
+      ],
+      "text": "Agrisilviculture is an agroforestry practice in which trees are associated with crops on the same piece of land, either simultaneously (each component occupying a separate space but both existing at the same time) or sequentially (one component replacing another one in rotation) (Nair, 1985). An example of simultaneous practice is hedgerow intercropping/alley cropping (e.g. maize between rows of nitrogen-fixing trees such as Sesbania sp. or Gliricidia sp) while a sequential practice could be improved fallows (for instance, legume trees such as Calliandra sp in rotation with maize). Some of the benefits targeted by farmers include improved soil fertility, shade for understory crops by trees, trees acting as stakes for climbing plants, soil erosion control, improved microclimate and increased yield stability.",
+      "page_start": 473,
+      "page_end": 473,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "SOC",
+        "soil_moisture",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p02",
+      "heading_path": [
+        "1. Description of the practice"
+      ],
+      "text": "Agrisilvicultural practices affect soil organic carbon (SOC) primarily through litterfall, root turnover and exudates, and by increasing overall net primary productivity of the system (Cardinael et al., 2018a). The key processes leading to additional SOC carbon sequestration in agrisilvicultural systems compared to treeless systems include the increased input of organic matter both in the top- and subsoil and increased physical stabilization of organic matter due to improved soil aggregation.",
+      "page_start": 473,
+      "page_end": 473,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p03",
+      "heading_path": [
+        "2. Range of applicability"
+      ],
+      "text": "Agrisilviculture is practiced in various cropping systems and in a variety of climatic zones and is of particular importance in small-scale and low input farming systems, especially in systems with limited access to mineral fertilizers. This is the case for many farmers in developing countries in sub Saharan Africa, South East Asia and Latin America, where agroforestry plays an important role of supplementing limited fertilizer inputs with nitrogen-fixing trees and controlling soil erosion in mountainous areas (Zomer et al., 2014). Trees are also frequently integrated in large-scaled farming systems in form of windbreaks, particularly in areas prone to wind erosion such as Eastern Europe and North America.",
+      "page_start": 474,
+      "page_end": 474,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid",
+        "dry_sub_humid",
+        "humid",
+        "temperate",
+        "tropical",
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "integrated_system",
+        "unstated"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p04",
+      "heading_path": [
+        "3. Potential for C sequestration"
+      ],
+      "text": "Several recent studies have shown that the conversion of croplands to agrisilvicultural systems has a positive effect on SOC stocks (Cardinael et al., 2018b; de Stefano and Jacobson, 2018; Feliciano et al., 2018; Shi et al., 2018). Some examples of carbon sequestration rates by agrisilvicultural systems are shown in Table 166. The rate of carbon sequestration varies widely depending on the climate zone, site conditions, tree species and management practices. Generally, under humid climate conditions higher annual rates of SOC accumulation are observed compared to arid/semi-arid environments. This may be due to the higher net primary productivity.",
+      "page_start": 474,
+      "page_end": 474,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid",
+        "humid",
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p05",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.1. Improvement of soil properties"
+      ],
+      "text": "Agrisilviculture is associated with a large set of benefits for soil properties, including physical, chemical and biological improvements (Bayala et al., 2015: Cardinael et al., 2020). Increased amount of SOC is associated with enhanced water storage capacity and availability of nutrients for crops. Tree roots increase water infiltration and air movement, which improve crop performance. Integration of leguminous trees into agricultural systems increases the nitrogen supply through biological nitrogen fixation. Estimates of nitrogen fixation of Laucaena leucocephala ranged from 13 kg N/ha/yr to 500 kg N/ha/yr (Sanginga, Vanlauwe and Danso, 1995). Deep-rooted trees can also retrieve nitrogen from the layer below to the crop rooting zone, and reduced nitrogen loss through leaching (Bergeron et al., 2011).",
+      "page_start": 476,
+      "page_end": 476,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural",
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "SOC",
+        "soil_moisture",
+        "nutrient_availability",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p06",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimizing soil threats"
+      ],
+      "text": "The litter layer produced by trees has an effect in reducing both runoff and soil erosion. Reduction of wind and water erosion due to trees planted on contour bands and in form of windbreaks (Zhu et al., 2019).",
+      "page_start": 476,
+      "page_end": 476,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural",
+        "shelterbelts"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p07",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimizing soil threats"
+      ],
+      "text": "Deep tree roots can capture leached nutrients below the crop rooting zone, a process described as the “root safety net\" (Rowe et al., 1998). Deep tree roots are able to absorb nutrients in the subsoil and transfer it to the surface (Vanlauwe et al., 2005), making them available for crops.",
+      "page_start": 476,
+      "page_end": 476,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p08",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimizing soil threats"
+      ],
+      "text": "Trees are often the first vegetation that is able to grow on salinized lands, as some tree species, like eucalyptus, can withstand fairly high salt concentration.",
+      "page_start": 476,
+      "page_end": 476,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "salinity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p09",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimizing soil threats"
+      ],
+      "text": "Reduction of pesticides' transfer from soil to water by tree roots (Pavlidis et al., 2018; Zhu et al., 2020).",
+      "page_start": 476,
+      "page_end": 476,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p10",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimizing soil threats"
+      ],
+      "text": "A study in West Africa showed Senna siamea trees could reduce soil acidification (Vanlauwe et al., 2005). The observed increase in topsoil pH was caused by the decomposition of calcium-rich residuesthat trees had absorbed in the subsoil.",
+      "page_start": 476,
+      "page_end": 476,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "pH"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p11",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimizing soil threats"
+      ],
+      "text": "Earthworm abundance, biomass and diversity are enhanced in agrisilvicultural systems (Cardinael et al., 2019). In general, these systems have a positive effect on soil fauna (Marsden et al., 2020).",
+      "page_start": 477,
+      "page_end": 477,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "soil_biota",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p12",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimizing soil threats"
+      ],
+      "text": "Tree roots open bio-pores for their growth, and through exudates and association with mycorrhizal fungi improve particle aggregation, resulting in improved soil structure (Coder, 2000).",
+      "page_start": 477,
+      "page_end": 477,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "bulk_density",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p13",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimizing soil threats"
+      ],
+      "text": "Increased infiltration and reduced runoff and erosion as roots proliferate into the soil (Zhu et al., 2019).",
+      "page_start": 477,
+      "page_end": 477,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "erosion",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p14",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.3 Increased productivity (e.g. food/fuel/feed/timber)"
+      ],
+      "text": "Hydraulic lift is defined as the passive movement of water through the roots of trees, from deeper and wetter soil layers to shallower and drier horizons, along a gradient of soil water potential (Bayala and Prieto, 2020). This process of water redistribution, together with increased soil fertility and better microclimate can increase crop yields, especially under arid conditions (Félix et al., 2018). A meta-analysis has shown that soil inorganic nitrogen (NH4+ and NO3¯) under agroforestry was 46 percent higher than in crop monocultures (Muchane et al., 2020). In temperate regions, yield of annual crops per unit area in the agroforestry system is usually reduced (Van Vooren et al., 2017; Cardinael et al., 2018a; Pardon et al., 2018), mainly due to competition for light. However, the total productivity (trees + crops) of the system is often increased compared to a system with crops and trees grown separately (Graves et al., 2010).",
+      "page_start": 477,
+      "page_end": 477,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "nutrient_availability",
+        "nitrogen",
+        "crop_yield",
+        "biomass"
+      ],
+      "climate_zones": [
+        "arid",
+        "temperate",
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p15",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.4 Climate change mitigation and adaptation"
+      ],
+      "text": "Agrisilvicultural practices contribute to yield stability due to improved water retention and redistribution, as well as improved microclimate reducing heat stresses of crops (Takács et al., 2016). Income diversification through the diversification of agricultural productions (honey, timber, fruits, etc.) is also an adaptation measure because it provides alternatives when one crop fails as a result of unfavorable weather events, such as erratic rainfall or drought.",
+      "page_start": 477,
+      "page_end": 477,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "crop_yield",
+        "temperature",
+        "rainfall"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p16",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.4 Climate change mitigation and adaptation"
+      ],
+      "text": "In addition to increased SOC stocks, agrisilvicultural systems have the potential to reduce direct N2O and CH4 emissions by up to 2.0 times (Kwak et al., 2019), and by the fixation of a part of nitrogen with legume tree species instead of the use of mineral nitrogen by up to 30 percent (Rosenstock et al., 2014), or by a reduction of cropped area (tree rows) and therefore associated reduction in mineral fertilizer use (Kim, Kirschbaum and Beedy, 2016). Indirect N2O emissions are also reduced due to a reduction in nitrogen leaching and runoff.",
+      "page_start": 477,
+      "page_end": 477,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural",
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "SOC",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p17",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.5. Socio-economic benefits"
+      ],
+      "text": "Diversification of the income by tree-crop integration reduces food insecurity. Some trees such as Prunus africana, Wabugia ugandensis and Carisa edulis are medicinal and provide supplemental healthcare for resource-constrained farmer households (Galabuzi et al., 2010).",
+      "page_start": 478,
+      "page_end": 478,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p18",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.6. Other benefits of the practice"
+      ],
+      "text": "Increased habitat and species diversity, and improved aesthetics of agricultural landscapes (Jose, 2012).",
+      "page_start": 478,
+      "page_end": 478,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "habitat_diversity",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p19",
+      "heading_path": [
+        "5. Conflict with other practice(s), Drawbacks",
+        "5.1. Tradeoffs with other threats to soil functions"
+      ],
+      "text": "Agroforestry systems have an optimal tree density for water recharge. Beyond this threshold, water recharge is reduced (Ilstedt et al., 2016).",
+      "page_start": 478,
+      "page_end": 478,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p20",
+      "heading_path": [
+        "5. Conflict with other practice(s), Drawbacks",
+        "5.2. Increases in greenhouse gas emissions"
+      ],
+      "text": "Little evidence exists concerning the role of biological nitrogen fixation on emission of nitrous oxide but some studies suggested potential increased emissions when nitrogen-fixing trees are grown (Rosenstock et al., 2014).",
+      "page_start": 478,
+      "page_end": 478,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "risk"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p21",
+      "heading_path": [
+        "5. Conflict with other practice(s), Drawbacks",
+        "5.3. Conflict with other practice(s)"
+      ],
+      "text": "Some crops such as cereals are strictly light demander and integration of trees significantly affects yield (Artru et al., 2017).",
+      "page_start": 478,
+      "page_end": 478,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p22",
+      "heading_path": [
+        "5. Conflict with other practice(s), Drawbacks",
+        "5.4. Decreases in production (e.g. food/fuel/feed/timber/fibre)"
+      ],
+      "text": "After several years, a decrease in crop yield can be observed in mature and highly dense plantations, especially close to the trees, due to competition between crops and trees for light, water, and nutrients. Practicing agrisilviculture reduces land area available to annual crops. In some cases, trees can harbor pests of crops or provide nesting habitats to birds and rodents that damage crops. Some agroforestry species have negative allelopathic effects on food and fodder crops (Rizvi et al., 1999).",
+      "page_start": 479,
+      "page_end": 479,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p23",
+      "heading_path": [
+        "5. Conflict with other practice(s), Drawbacks",
+        "5.5. Other conflicts"
+      ],
+      "text": "Some trees harbor pests for crops. For example, Sesbania sesban has been blamed for supporting nematode growth in banana plantations in Uganda and hence reducing their productivity (Van der Veken et al., 2008).",
+      "page_start": 479,
+      "page_end": 479,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "risk"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p24",
+      "heading_path": [
+        "6. Practical recommendations"
+      ],
+      "text": "During land preparation, avoid clearing all vegetation completely (e.g. burning, forest conversion) or intensive land preparation that causes net loss of biomass or soil carbon",
+      "page_start": 479,
+      "page_end": 479,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural",
+        "no_till",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p25",
+      "heading_path": [
+        "6. Practical recommendations"
+      ],
+      "text": "Select tree species with deep rooting systems to reduce competition with crops but also to recycle nutrients leached below that crop roots (Sendzimir, Reij and Magnuszewski, 2011). Nitrogen-fixing species are preferable in poor soils and in low input systems. But a mix of species is recommended to reduce risks of failure (for example, from pests and storms) and generate income both on the short and long-term.",
+      "page_start": 479,
+      "page_end": 479,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural",
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p26",
+      "heading_path": [
+        "6. Practical recommendations"
+      ],
+      "text": "Optimize the spacing and structure of the agroforestry system to optimize the use of nutrients, water and sunlight in order to ensure high productivity, but also to allow mechanization when available.",
+      "page_start": 479,
+      "page_end": 479,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p27",
+      "heading_path": [
+        "6. Practical recommendations"
+      ],
+      "text": "Establish stabilizing structures before planting seedlings for soil erosion control in hilly landscapes.",
+      "page_start": 479,
+      "page_end": 479,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural",
+        "terracing"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p28",
+      "heading_path": [
+        "6. Practical recommendations"
+      ],
+      "text": "Retain prunings and other residues as well as organic fertilizers to the soil to increase soil nutrient stocks.",
+      "page_start": 479,
+      "page_end": 479,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural",
+        "compost",
+        "manure"
+      ],
+      "metrics": [
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p29",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "Higher altitudes, and lower temperature and sunlight intensity can be limiting factors in the adoption of agroforestry as a source of shade for crops (Sood and Mitchell, 2009).",
+      "page_start": 479,
+      "page_end": 479,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "temperature"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p30",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "Farmers' negative perception of the impact of trees can discourage them from planting certain species (Etshekapea, Atangana and Khasa, 2018).",
+      "page_start": 480,
+      "page_end": 480,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p31",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "Social learning through a network of peers, and lack of access to appropriate extension services. Agroforestry systems are sometimes considered subsistence practices. This negative connotation may prevent wider adoption.",
+      "page_start": 480,
+      "page_end": 480,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p32",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "Lack of capital to purchase required planting materials (seeds/seedlings). Limited access to market of inputs and products of tree-based resources, and limited access to infrastructure such as radio signals, saving and credit facilities, central storage facilities for grain crops. The cost of maintaining trees together with crops is higher compared to maintaining the components separately because of the initial investment required, such as tree seedlings or fencing. This can translate into negative cash flows in the first years. Limited access to capital and deficits in farm management capacity can be major barriers for adoption (Janssen at al., 2004).",
+      "page_start": 480,
+      "page_end": 480,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p33",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "Agrisilvicultural systems take a long time to show results due to slow establishment rate of most trees compared with herbaceous components. This demotivates farmers from adopting such systems. Maintaining an income stream is a challenge when initially introducing or maintaining trees in a system.",
+      "page_start": 480,
+      "page_end": 480,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p34",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "Absence of specific regulations on tree planting and and institutions or inadequate enforcement reduces adoption rates.",
+      "page_start": 480,
+      "page_end": 480,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p35",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "Farmers are more likely to adopt the technology if there is security of land tenure. For example, communal land is considered less secure than freehold land",
+      "page_start": 480,
+      "page_end": 480,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p36",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "Inadequate knowledge of the agronomic and economic benefits of tree-crop interactions leads to the perception that trees occupy space that would have been used for crop growth resulting in economic loss. Inadequate technical skills to manage the tree-crop interactions, both from extension services and farmers.",
+      "page_start": 480,
+      "page_end": 480,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p37",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "The knowledge required to manage trees is much different from that needed to manage crops. Hence farmers may not easily manage both effectively. A balance among the various components while extracting multiple products (plant and animal) requires far greater understanding, skills, and experience to maintain.",
+      "page_start": 480,
+      "page_end": 480,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p38_agrisilvicultural__p38",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "In open-grazed systems, livestock graze freely in the system, potentially destroying crops and creating conflicts with farmers.",
+      "page_start": 480,
+      "page_end": 480,
+      "topic": "agrisilviculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c01",
+      "passage_id": "v3_p38_agrisilvicultural__p02",
+      "subject": "agrisilvicultural systems",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "The key processes leading to additional SOC carbon sequestration in agrisilvicultural systems compared to treeless systems include the increased input of organic matter both in the top- and subsoil and increased physical stabilization of organic matter due to improved soil aggregation.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c02",
+      "passage_id": "v3_p38_agrisilvicultural__p04",
+      "subject": "conversion of croplands to agrisilvicultural systems",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Several recent studies have shown that the conversion of croplands to agrisilvicultural systems has a positive effect on SOC stocks",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c03",
+      "passage_id": "v3_p38_agrisilvicultural__p04",
+      "subject": "SOC accumulation",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "humid climate conditions",
+      "time_horizon_years": null,
+      "evidence_span": "Generally, under humid climate conditions higher annual rates of SOC accumulation are observed compared to arid/semi-arid environments.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c04",
+      "passage_id": "v3_p38_agrisilvicultural__p05",
+      "subject": "Agrisilviculture",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Increased amount of SOC is associated with enhanced water storage capacity and availability of nutrients for crops.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c05",
+      "passage_id": "v3_p38_agrisilvicultural__p05",
+      "subject": "Tree roots",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Tree roots increase water infiltration and air movement, which improve crop performance.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c06",
+      "passage_id": "v3_p38_agrisilvicultural__p05",
+      "subject": "Integration of leguminous trees",
+      "metric": "nitrogen",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Integration of leguminous trees into agricultural systems increases the nitrogen supply through biological nitrogen fixation.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c07",
+      "passage_id": "v3_p38_agrisilvicultural__p05",
+      "subject": "Deep-rooted trees",
+      "metric": "nitrogen",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "and reduced nitrogen loss through leaching",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c08",
+      "passage_id": "v3_p38_agrisilvicultural__p06",
+      "subject": "Litter layer produced by trees",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "The litter layer produced by trees has an effect in reducing both runoff and soil erosion.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c09",
+      "passage_id": "v3_p38_agrisilvicultural__p07",
+      "subject": "Deep tree roots",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Deep tree roots are able to absorb nutrients in the subsoil and transfer it to the surface",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c10",
+      "passage_id": "v3_p38_agrisilvicultural__p09",
+      "subject": "tree roots",
+      "metric": "pollution_load",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Reduction of pesticides' transfer from soil to water by tree roots",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c11",
+      "passage_id": "v3_p38_agrisilvicultural__p10",
+      "subject": "Senna siamea trees",
+      "metric": "pH",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "A study in West Africa showed Senna siamea trees could reduce soil acidification",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c12",
+      "passage_id": "v3_p38_agrisilvicultural__p11",
+      "subject": "agrisilvicultural systems",
+      "metric": "soil_biota",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Earthworm abundance, biomass and diversity are enhanced in agrisilvicultural systems",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c13",
+      "passage_id": "v3_p38_agrisilvicultural__p12",
+      "subject": "Tree roots",
+      "metric": "bulk_density",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "improve particle aggregation, resulting in improved soil structure",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c14",
+      "passage_id": "v3_p38_agrisilvicultural__p13",
+      "subject": "roots",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Increased infiltration and reduced runoff and erosion as roots proliferate into the soil",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c15",
+      "passage_id": "v3_p38_agrisilvicultural__p14",
+      "subject": "Hydraulic lift",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "arid conditions",
+      "time_horizon_years": null,
+      "evidence_span": "This process of water redistribution, together with increased soil fertility and better microclimate can increase crop yields, especially under arid conditions",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c16",
+      "passage_id": "v3_p38_agrisilvicultural__p14",
+      "subject": "soil inorganic nitrogen",
+      "metric": "nitrogen",
+      "direction": "increase",
+      "value": 46.0,
+      "value_low": null,
+      "value_high": null,
+      "unit": "percent",
+      "basis": "meta-analysis",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "A meta-analysis has shown that soil inorganic nitrogen (NH4+ and NO3¯) under agroforestry was 46 percent higher than in crop monocultures",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c17",
+      "passage_id": "v3_p38_agrisilvicultural__p14",
+      "subject": "yield of annual crops per unit area",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "temperate regions",
+      "time_horizon_years": null,
+      "evidence_span": "In temperate regions, yield of annual crops per unit area in the agroforestry system is usually reduced",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c18",
+      "passage_id": "v3_p38_agrisilvicultural__p14",
+      "subject": "total productivity (trees + crops)",
+      "metric": "biomass",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "However, the total productivity (trees + crops) of the system is often increased compared to a system with crops and trees grown separately",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c19",
+      "passage_id": "v3_p38_agrisilvicultural__p16",
+      "subject": "agrisilvicultural systems",
+      "metric": "nitrogen",
+      "direction": "increase",
+      "value": 30.0,
+      "value_low": null,
+      "value_high": null,
+      "unit": "percent",
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "and by the fixation of a part of nitrogen with legume tree species instead of the use of mineral nitrogen by up to 30 percent",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c20",
+      "passage_id": "v3_p38_agrisilvicultural__p19",
+      "subject": "Agroforestry systems",
+      "metric": "soil_moisture",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "Beyond optimal tree density threshold",
+      "time_horizon_years": null,
+      "evidence_span": "Beyond this threshold, water recharge is reduced",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c21",
+      "passage_id": "v3_p38_agrisilvicultural__p20",
+      "subject": "nitrogen-fixing trees",
+      "metric": "nitrogen",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "potential increased emissions when nitrogen-fixing trees are grown",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c22",
+      "passage_id": "v3_p38_agrisilvicultural__p21",
+      "subject": "integration of trees",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "cereals",
+      "time_horizon_years": null,
+      "evidence_span": "integration of trees significantly affects yield",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c23",
+      "passage_id": "v3_p38_agrisilvicultural__p22",
+      "subject": "crop yield",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "mature and highly dense plantations",
+      "time_horizon_years": null,
+      "evidence_span": "a decrease in crop yield can be observed in mature and highly dense plantations",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p38_agrisilvicultural__c24",
+      "passage_id": "v3_p38_agrisilvicultural__p22",
+      "subject": "Sesbania sesban",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "banana plantations",
+      "time_horizon_years": null,
+      "evidence_span": "Sesbania sesban has been blamed for supporting nematode growth in banana plantations in Uganda and hence reducing their productivity",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "increased input of organic matter and increased physical stabilization of organic matter due to improved soil aggregation",
+      "passage_id": "v3_p38_agrisilvicultural__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p38_agrisilvicultural__p04",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "Tree roots increase water infiltration and air movement",
+      "passage_id": "v3_p38_agrisilvicultural__p05",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "nitrogen",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "biological nitrogen fixation",
+      "passage_id": "v3_p38_agrisilvicultural__p05",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "nitrogen",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "Deep-rooted trees retrieve nitrogen from the layer below to the crop rooting zone",
+      "passage_id": "v3_p38_agrisilvicultural__p05",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "litter layer produced by trees",
+      "passage_id": "v3_p38_agrisilvicultural__p06",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "Deep tree roots absorb nutrients in the subsoil and transfer it to the surface",
+      "passage_id": "v3_p38_agrisilvicultural__p07",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "pollution_load",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "tree roots",
+      "passage_id": "v3_p38_agrisilvicultural__p09",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "pH",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "decomposition of calcium-rich residues",
+      "passage_id": "v3_p38_agrisilvicultural__p10",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "soil_biota",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p38_agrisilvicultural__p11",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "bulk_density",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "Tree roots open bio-pores, exudates and association with mycorrhizal fungi improve particle aggregation",
+      "passage_id": "v3_p38_agrisilvicultural__p12",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "roots proliferate into the soil",
+      "passage_id": "v3_p38_agrisilvicultural__p13",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": "arid conditions",
+      "mechanism": "Hydraulic lift, increased soil fertility and better microclimate",
+      "passage_id": "v3_p38_agrisilvicultural__p14",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "nitrogen",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p38_agrisilvicultural__p14",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "temperate regions",
+      "mechanism": "competition for light",
+      "passage_id": "v3_p38_agrisilvicultural__p14",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "biomass",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p38_agrisilvicultural__p14",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "improved water retention and redistribution, improved microclimate",
+      "passage_id": "v3_p38_agrisilvicultural__p15",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p38_agrisilvicultural__p16",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "nitrogen",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "fixation of nitrogen with legume tree species",
+      "passage_id": "v3_p38_agrisilvicultural__p16",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "soil_moisture",
+      "effect": "decrease",
+      "condition": "Beyond optimal tree density threshold",
+      "mechanism": null,
+      "passage_id": "v3_p38_agrisilvicultural__p19",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "nitrogen",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "biological nitrogen fixation",
+      "passage_id": "v3_p38_agrisilvicultural__p20",
+      "strength_stated": "weak"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "cereals",
+      "mechanism": "competition for light",
+      "passage_id": "v3_p38_agrisilvicultural__p21",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "mature and highly dense plantations",
+      "mechanism": "competition between crops and trees for light, water, and nutrients",
+      "passage_id": "v3_p38_agrisilvicultural__p22",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "banana plantations",
+      "mechanism": "supporting nematode growth",
+      "passage_id": "v3_p38_agrisilvicultural__p23",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Agrisilviculture",
+    "system_type": "Agroforestry",
+    "tree_species": [],
+    "crop_species": [],
+    "region_of_adoption": [
+      "sub Saharan Africa",
+      "South East Asia",
+      "Latin America",
+      "Eastern Europe",
+      "North America"
+    ],
+    "rainfall_mm_low": null,
+    "rainfall_mm_high": null,
+    "soil_requirements": null,
+    "establishment_notes": null,
+    "stated_benefits": [
+      "improved soil fertility",
+      "shade for understory crops by trees",
+      "trees acting as stakes for climbing plants",
+      "soil erosion control",
+      "improved microclimate",
+      "increased yield stability",
+      "enhanced water storage capacity",
+      "availability of nutrients for crops",
+      "increased nitrogen supply through biological nitrogen fixation",
+      "reduced nitrogen loss through leaching",
+      "reduced runoff",
+      "reduced soil erosion",
+      "increased soil fauna (earthworm abundance, biomass and diversity)",
+      "improved soil structure",
+      "increased productivity",
+      "yield stability",
+      "income diversification",
+      "increased habitat and species diversity",
+      "improved aesthetics of agricultural landscapes"
+    ],
+    "stated_constraints": [
+      "decrease in crop yield in mature and highly dense plantations due to competition for light, water, and nutrients",
+      "reduces land area available to annual crops",
+      "trees can harbor pests of crops",
+      "trees can provide nesting habitats to birds and rodents that damage crops",
+      "negative allelopathic effects on food and fodder crops",
+      "potential increased emissions when nitrogen-fixing trees are grown",
+      "conflict with other practice(s)",
+      "cereals are strictly light demander and integration of trees significantly affects yield",
+      "optimal tree density for water recharge; beyond this threshold, water recharge is reduced",
+      "higher altitudes, and lower temperature and sunlight intensity can be limiting factors",
+      "farmers' negative perception of the impact of trees",
+      "lack of access to appropriate extension services",
+      "sometimes considered subsistence practices",
+      "lack of capital to purchase required planting materials",
+      "limited access to market of inputs and products of tree-based resources",
+      "limited access to infrastructure",
+      "cost of maintaining trees together with crops is higher",
+      "negative cash flows in the first years",
+      "limited access to capital",
+      "deficits in farm management capacity",
+      "take a long time to show results due to slow establishment rate of most trees",
+      "maintaining an income stream is a challenge",
+      "Absence of specific regulations on tree planting",
+      "institutions or inadequate enforcement reduces adoption rates",
+      "security of land tenure is important",
+      "inadequate knowledge of the agronomic and economic benefits",
+      "perception that trees occupy space that would have been used for crop growth resulting in economic loss",
+      "inadequate technical skills to manage the tree-crop interactions",
+      "knowledge required to manage trees is much different from that needed to manage crops",
+      "livestock graze freely in open-grazed systems, potentially destroying crops and creating conflicts with farmers"
+    ]
+  },
+  "_meta": {
+    "unit_id": "v3_p38_agrisilvicultural",
+    "doc_id": "fao2021_recarb_v3",
+    "model": "gemini-2.5-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 491,
+    "pdf_end": 504,
+    "manifest_practices": [
+      "agroforestry_agrisilvicultural"
+    ],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:28:20Z",
+    "pdf_sha256": "a55887d9f08eeafa"
+  }
+}

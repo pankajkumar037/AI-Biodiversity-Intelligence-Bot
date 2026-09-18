@@ -1,0 +1,240 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+  "content_type": "assessment",
+  "summary": "This document unit is a reference list for Chapter 6 of the IPCC Special Report on Climate Change and Land (SRCCL), covering interlinkages between desertification, land degradation, food security, and greenhouse gas fluxes.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch6_interlinkages__w09__p01",
+      "heading_path": [
+        "Chapter 6",
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Mekuria, W., and E. Aynekulu, 2013: Exclosure land management for restoration of the soils in degraded communal grazing lands in northern Ethiopia.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "land restoration",
+      "practices": [
+        "grassland_restoration"
+      ],
+      "metrics": [
+        "soil_organic_matter"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "degraded_land",
+        "rangeland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w09__p02",
+      "heading_path": [
+        "Chapter 6",
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Mello, F.F.C. et al., 2014: Payback time for soil carbon and sugar-cane ethanol.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "bioenergy and soil carbon",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w09__p03",
+      "heading_path": [
+        "Chapter 6",
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Miao, L. et al., 2015: Footprint of research in desertification management in China.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "desertification management",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w09__p04",
+      "heading_path": [
+        "Chapter 6",
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Machado, R., and R. Serralheiro, 2017: Soil salinity: Effect on vegetable crop growth. Management practices to prevent and mitigate soil salinization.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "salinity management",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "salinity",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w09__p05",
+      "heading_path": [
+        "Chapter 6",
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Maaroufi, N.I. et al., 2015: Anthropogenic nitrogen deposition enhances carbon sequestration in boreal soils.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "nitrogen deposition and carbon",
+      "practices": [],
+      "metrics": [
+        "nitrogen",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w09__p06",
+      "heading_path": [
+        "Chapter 6",
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Lwasa, S., F. et al., 2015: A meta-analysis of urban and peri-urban agriculture and forestry in mediating climate change.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "urban agriculture",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "temperature"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w09__p07",
+      "heading_path": [
+        "Chapter 6",
+        "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes"
+      ],
+      "text": "Lugato, E., K. Paustian, P. Panagos, A. Jones, and P. Borrelli, 2016: Quantifying the erosion effect on current carbon budget of European agricultural soils at high spatial resolution.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "soil erosion and carbon",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "SOC"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch6_interlinkages__w09__c01",
+      "passage_id": "srccl_ch6_interlinkages__w09__p04",
+      "subject": "soil salinity",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "evidence_span": "Soil salinity: Effect on vegetable crop growth.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w09__c02",
+      "passage_id": "srccl_ch6_interlinkages__w09__p05",
+      "subject": "anthropogenic nitrogen deposition",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "evidence_span": "Anthropogenic nitrogen deposition enhances carbon sequestration in boreal soils.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w09__c03",
+      "passage_id": "srccl_ch6_interlinkages__w09__p07",
+      "subject": "soil erosion",
+      "metric": "SOC",
+      "direction": "decrease",
+      "evidence_span": "Quantifying the erosion effect on current carbon budget of European agricultural soils",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "salinity",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "passage_id": "srccl_ch6_interlinkages__w09__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "nitrogen",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w09__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "erosion",
+      "to_node": "SOC",
+      "effect": "decrease",
+      "passage_id": "srccl_ch6_interlinkages__w09__p07",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w09",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 660,
+    "pdf_end": 671,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:12:43Z",
+    "pdf_sha256": "9fd75bbbb0714fbb"
+  }
+}

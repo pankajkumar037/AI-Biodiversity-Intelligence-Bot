@@ -1,0 +1,127 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Agroforestry",
+  "content_type": "practice",
+  "summary": "Agroforestry, also known as alley cropping or intercropping with trees, involves the simultaneous cultivation of woody plants and herbaceous crops. It is used for income, conservation, and soil health benefits, including erosion reduction, nutrient capture, and carbon sequestration.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch4_status_trends__w05__p01",
+      "heading_path": [
+        "Box 4 3 Agroforestry."
+      ],
+      "text": "Agroforestry, sometimes known as alley cropping or intercropping with trees, is the simultaneous cultivation of woody plants (trees or shrubs) and herbaceous crops, replacing treeless monocultures. The understory may consist of annual (e.g., maize, cassava) or perennial (e.g., coffee or cacao) crops. Trees are planted on farms for many reasons: often for supplementary income (e.g., fruit or timber), but also for conservation-related purposes such as wind breaks, runoff reduction (in one case by 28-56% according to Lamichhane (2013)) and sediment trapping to minimize erosion. Trees can also capture nutrients that might otherwise be lost to leaching (by 20-40%) (Babbar & Zak, 1995; Mekonnen et al., 1997; Udawatta et al., 2002) and so reduce nitrogen loading in streams (Lamichhane, 2013; Udawatta et al., 2002, 2011). Agroforestry practices can sequester carbon and enhance microbial biomass and enhance water-holding capacity compared to monoculture (Tully & Ryals, 2017). Nitrogen-fixing leguminous trees, such as Erythrina poeppigiana, can be used to provide organic material with a high nitrogen content (Harmand et al., 2007; Tully et al., 2013). The orientation and management of the trees plays a major role in their functioning.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "Agroforestry benefits",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "erosion",
+        "nutrient_availability",
+        "nitrogen",
+        "microbial_biomass",
+        "water_holding_capacity",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch4_status_trends__w05__c01",
+      "passage_id": "ipbes_ch4_status_trends__w05__p01",
+      "subject": "Agroforestry",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value_low": 28,
+      "value_high": 56,
+      "unit": "percent_change",
+      "basis": "runoff reduction",
+      "conditions": null,
+      "evidence_span": "runoff reduction (in one case by 28-56% according to Lamichhane (2013))",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w05__c02",
+      "passage_id": "ipbes_ch4_status_trends__w05__p01",
+      "subject": "Agroforestry",
+      "metric": "nutrient_availability",
+      "direction": "decrease",
+      "value_low": 20,
+      "value_high": 40,
+      "unit": "percent_change",
+      "basis": "nutrient loss to leaching",
+      "conditions": null,
+      "evidence_span": "Trees can also capture nutrients that might otherwise be lost to leaching (by 20-40%)",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "runoff reduction",
+      "passage_id": "ipbes_ch4_status_trends__w05__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "nutrient_availability",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "capture nutrients that might otherwise be lost to leaching",
+      "passage_id": "ipbes_ch4_status_trends__w05__p01",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Agroforestry",
+    "tree_species": [
+      "Erythrina poeppigiana"
+    ],
+    "crop_species": [
+      "maize",
+      "cassava",
+      "coffee",
+      "cacao"
+    ],
+    "region_of_adoption": [
+      "global"
+    ],
+    "stated_benefits": [
+      "supplementary income",
+      "wind breaks",
+      "runoff reduction",
+      "sediment trapping",
+      "minimize erosion",
+      "capture nutrients",
+      "reduce nitrogen loading in streams",
+      "sequester carbon",
+      "enhance microbial biomass",
+      "enhance water-holding capacity"
+    ],
+    "stated_constraints": []
+  },
+  "_meta": {
+    "unit_id": "ipbes_ch4_status_trends__w05",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 334,
+    "pdf_end": 345,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:55:40Z",
+    "pdf_sha256": "c8f930a9ddcd69eb"
+  }
+}

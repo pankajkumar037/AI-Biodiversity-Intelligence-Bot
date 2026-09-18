@@ -1,0 +1,107 @@
+{
+  "extraction_status": "ok",
+  "section_title": "GSOCseq introduction and methodology",
+  "content_type": "methods",
+  "summary": "This document outlines the GSOCseq methodology for monitoring, reporting, and verifying soil organic carbon (SOC) in agricultural lands, including the identification of project areas, intervention areas, and assessment units for stratified sampling.",
+  "passages": [
+    {
+      "passage_id": "gsocseq_intro__w05__p01",
+      "heading_path": [
+        "Why an MRV ?"
+      ],
+      "text": "SOC stocks and other soil properties usually show a high spatial variability. Changes in SOC stocks and other soil health indicators cannot be easily measured. Absence of harmonized measurement / monitoring, reporting and verification (MRV) platforms ...a key barrier to implementing programs to increase SOC at large scale. Urgent need! Without such platforms, investments could be considered risky.",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "MRV methodology",
+      "practices": [],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w05__p02",
+      "heading_path": [
+        "RECSOIL Green Path –SSM Protocol - Key Steps",
+        "Identification of Priority areas and Definition of Project Areas"
+      ],
+      "text": "Identification of “HOTSPOTS” with greater convergence of issues + Greater Sequestration Potential",
+      "page_start": 10,
+      "page_end": 10,
+      "topic": "Project area identification",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w05__p03",
+      "heading_path": [
+        "… Once the Total Area of the Project has been identified …Identification of Intervention Areas (IAs)"
+      ],
+      "text": "Identification of Intervention Areas (IAs) Represent the specific areas where similar sustainable soil management (SSM) practices will be implemented; where SOC changes and GHG emissions will be estimated same agro-ecological zone, with similar land use and farming system. One IA = multiple Fields / Ranches / Farms / Paddocks with similar systems, within the same agro-ecological region. Non-contiguous IAs",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Intervention Area definition",
+      "practices": [],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w05__p04",
+      "heading_path": [
+        "RECSOIL Green Path –SSM Protocol - Key Steps",
+        "Definition of Project Areas, Intervention Areas, Strata – Assessment Units"
+      ],
+      "text": "IAs are then Divided into Strata – Assessment Units (AUs) An AU or stratum represents a land area being relatively homogenous in terms of biophysical features, including: climate, soil type, topography (e.g. slope position), hydrology, historic land use and management, among other factors",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "Assessment Unit definition",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [],
+  "links": [],
+  "_meta": {
+    "unit_id": "gsocseq_intro__w05",
+    "doc_id": "fao_gsocseq_intro",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 56,
+    "pdf_end": 67,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T11:03:31Z",
+    "pdf_sha256": "a200eaec8ecd14d9",
+    "prompt_type": "inventory"
+  }
+}

@@ -1,0 +1,1109 @@
+{
+  "extraction_status": "ok",
+  "section_title": "40. Agroforestry 3: Agrosilvopastoral systems",
+  "content_type": "practice",
+  "summary": "Agrosilvopastoralism integrates crops, pastures, livestock, and woody perennials into a single farming system. Trees offer shade, forage, and protection to animals and crops, while their litterfall enriches soil organic matter. Livestock contribute manure, enhancing soil fertility and crop growth. This system is found globally, particularly in highlands of Eastern Africa, Asia, South East Asia, and Latin America, often in areas with high rainfall and population density. It has potential for carbon sequestration, with humid tropical systems sequestering more SOC than dry climate systems. Benefits include improved soil properties, reduced soil threats like erosion and compaction, and climate change mitigation. However, potential drawbacks include increased labor costs, challenges with mechanization, and potential conflicts with other practices.",
+  "passages": [
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p01",
+      "heading_path": [
+        "1. Description of the practice"
+      ],
+      "text": "Agrosilvopastoralism is the integration of crops, pastures, livestock and woody perennials into the same farming\nsystem (Nair, 1989). The integration of these components can take various forms, depending on the objectives\nof the farmer, and is also determined by ecological conditions. There are several forms of agrosilvopastoralism:\n(i) A mixture of pure cultivated and grazing areas near or distant from homesteads where animals may be herded\nor tethered, (ii) Animals allowed to graze in previously cultivated land to eat crop stubble or fallen grain, and (iii)\nPermanently cultivated land with zero-grazing through cut-and-carry for dairy cattle, sheep or goats. Typical\nexamples of agrosilvopastoral systems include home gardens and woody hedges for livestock browsing, green\nmanuring, mulching and soil conservation.\nIn agrosilvopastoral systems, trees provide shade, forage and protection to animals. Trees also provide shade for\ncrops and pastures. Litter fall enriches soil in organic matter with beneficial effects to the crops in terms of\nnutrient furniture. Livestock also add manure to the soil through deposition of dung and urine. The\nimprovement in soil fertility resulting from animal manure enhances crop growth, some of crops being fed on\nby livestock. Famous examples of agrosilvopastoral systems are “integrated crop-livestock-forestry systems\n(ICLF)\" or \"Mixed Tree Crop-Livestock System” in Brazil (Oliveira et al., 2018).",
+      "page_start": 499,
+      "page_end": 499,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [
+        "SOC",
+        "nutrient_availability",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "integrated_system"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p02",
+      "heading_path": [
+        "2. Range of applicability"
+      ],
+      "text": "Globally, agrosilvopastoral systems are found predominantly in the highlands of Eastern Africa, in Asia and\nSouth East Asia, and in Latin America. Although not widely spread in Europe, these systems are observed in the\nSpanish region of Catalonia and in Austria. These systems are widely distributed mostly in areas with high\nrainfall and where population density is generally high (Nair, 2014). These mixed systems are a valuable option\nfor circular food systems as they recycle more nutrients through the integration of livestock, pastures and crops.",
+      "page_start": 500,
+      "page_end": 500,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "humid",
+        "temperate",
+        "tropical"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p03",
+      "heading_path": [
+        "3. Potential for C sequestration"
+      ],
+      "text": "Evidence of the carbon sequestration potential of agroforestry systems has been documented in previous studies\n(Cardinael et al., 2018; Feliciano et al., 2018; Shi et al., 2018). Most of the studies usually focus either on the\neffect of trees, of livestock or pastures on soil organic carbon (SOC) stocks, Agrosilvopastoral systems in humid\nclimates sequester more SOC compared to systems in dry climates. Tree density is also generally higher under\nmore humid environments. The combined effect of litterfall from trees, integration of pastures, and dung from\nlivestock increases SOC stocks probably faster than other agroforestry systems (Table 176).",
+      "page_start": 500,
+      "page_end": 500,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "humid",
+        "arid",
+        "semi-arid",
+        "dry_sub_humid"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p04",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.1. Improvement of soil properties"
+      ],
+      "text": "Litterfall from trees and dung from livestock all supply organic matter that improves the soil quality for pasture\ngrowth. Roots of trees support an assemblage of soil microbes that promote nutrient cycling. Tree components\nin agrosilvopastoral systems contribute to litter fall, which increases decomposition and subsequent supply of\nsoil nutrients and organic matter and reduces bulk density (Issac and Borden, 2019), therefore contributing to\nbetter water infiltration. Increased amount of SOC is associated with enhanced water storage capacity and\navailability of nutrients for crops. Tree roots increase water infiltration and air movement, which improve crop\nperformance. Integration of leguminous trees into agricultural systems increases the nitrogen supply through\nbiological nitrogen fixation.",
+      "page_start": 502,
+      "page_end": 502,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral",
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "nutrient_availability",
+        "bulk_density",
+        "water_holding_capacity",
+        "nitrogen",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p05",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimizing soil threats"
+      ],
+      "text": "Grazing of understory vegetation reduces fire risks because it reduces the amount of grass which is the fuel for\nbush fires.",
+      "page_start": 502,
+      "page_end": 502,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p06",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.3 Productivity (e.g. Food/Fuel/Feed/Timber)"
+      ],
+      "text": "Crop yields are sustained with manure application from livestock. Shade-tolerant species of perennial are likely\nto have higher yields due to an improved microclimate created by trees (Schroth et al., 2001; Brandt et al.,\n2015). A large-scale deployment of agroforestry over seven countries in West Africa can sequester up to 135\nMt CO2/year over two decades, corresponding to about 166% of the carbon emissions from fossil fuels and\ndeforestation in the region (Tschora and Cherubini, 2020).",
+      "page_start": 503,
+      "page_end": 503,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [
+        "crop_yield",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "tropical",
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p07",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.4 Climate change mitigation and adaptation"
+      ],
+      "text": "Agroforestry practices also offer climate change adaptation by buffering temperature, ameliorating\nmicroclimate (Magalhães et al., 2020), maintaining long-term soil health (Arevalo et al., 2015), and minimizing\nthe incidence of insect and pests. Trees sequester significant amount of carbon in the above- and belowground\nparts. In the tropics, trees have been estimated to accumulate large amounts of carbon (C) from 12 to 228 t ha¯¹\nwith an average of 95 t ha¯¹ (Swamy and Tewari, 2017).",
+      "page_start": 503,
+      "page_end": 503,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [
+        "temperature",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "tropical",
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p08",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.5. Socio-economic benefits"
+      ],
+      "text": "Smallholder farmers may use the trees to produce fodder for livestock without reducing areas dedicated to crops.\nIn addition to direct advantages, farmers may also obtain economic benefits from fuelwood, timber, poles, and\nforage, which are used eventually on the farm for cattle management. Leguminous shrubs also provide protein\nsupplement when their edible parts are utilized as forage. Trees provide diversification of products and services\nwithin the farm, which reduce risk of economic disasters and improved resilience and adaptation to climate\nchange (Palsaniya and Ghosh, 2016).",
+      "page_start": 503,
+      "page_end": 503,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p09",
+      "heading_path": [
+        "5. Conflict with other practice(s), Drawbacks",
+        "5.1. Tradeoffs with other threats to soil functions"
+      ],
+      "text": "Livestock can provide manure to croplands, but they can also cause soil\ncompaction, potentially restricting water infiltration, and causing runoff and\nsoil erosion. Therefore, stocking rate should be managed to avoid this effect.\nLivestock can compact the soil, reduce infiltration and increase the risk of soil\nerosion.\nTrees contribute to higher infiltration (Dollinger et al., 2019). These cause\nmore leaching of soil nitrogen from the root zone of annual crop (Cuttle and\nGill, 1991).",
+      "page_start": 504,
+      "page_end": 504,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "erosion",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "integrated_system"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p10",
+      "heading_path": [
+        "5. Conflict with other practice(s), Drawbacks",
+        "5.2. Increases in greenhouse gas emissions"
+      ],
+      "text": "Tree-based systems can mitigate climate change by offsetting greenhouse gas (GHG) emission from livestock\n(CH4 from enteric fermentation and N2O emission from dung and urine) through carbon sequestration in tree\nbiomass, with an average estimated carbon sequestration and mitigation potential of the 0.26 tC/ha/yr and\n0.95 t CO2eq/ha/yr in India (Chavan et al., 2020).",
+      "page_start": 504,
+      "page_end": 504,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p11",
+      "heading_path": [
+        "5. Conflict with other practice(s), Drawbacks",
+        "5.3. Conflict with other practice(s)"
+      ],
+      "text": "Trees in croplands also reduce land area available to crops, especially for crops that cannot tolerate shade such\nas rice and maize.",
+      "page_start": 504,
+      "page_end": 504,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "integrated_system"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p12",
+      "heading_path": [
+        "5. Conflict with other practice(s), Drawbacks",
+        "5.4. Decreases in production (e.g. food/fuel/feed/timber/fibre)"
+      ],
+      "text": "Integrating livestock with crops increases the risk of crop damage by livestock. Allowing livestock to graze in\ncroplands after harvesting may result in soil compaction (Cherubin, Chavarro-Bermeo and Silva-Olaya, 2019).\nThorny trees such as Acacias in pasture lands hurt and ruin the hides of animals. Some trees harbour pests for\ncrops. After several years, a decrease in crop yield can be observed in mature and highly dense plantations,\nespecially close to the trees, due to competition between crops and trees for light, water, and nutrients (Dilla et\nal., 2019).",
+      "page_start": 504,
+      "page_end": 504,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [
+        "crop_yield",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "integrated_system"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p13",
+      "heading_path": [
+        "5. Conflict with other practice(s), Drawbacks",
+        "5.5. Other conflicts"
+      ],
+      "text": "It is more expensive to manage all the three components on the same farming unit due to labor requirements to\ncarry manure into croplands, transfer of fodder from parks to livestock among other activities. Trees on farm\nalso make mechanization more difficult and may increase the cost of labor for land preparation.",
+      "page_start": 505,
+      "page_end": 505,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "integrated_system"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p14",
+      "heading_path": [
+        "6. Recommendations"
+      ],
+      "text": "Avoid land clearing (e.g. burning, forest conversion) or land preparation (e.g. tillage) that causes net\nloss of biomass or soil carbon.\nSelect species with high leaf litter or root biomass production to increase SOC inputs to the soil and\nwhich may have other additional benefits such as timber, medicine and fruits for humans and livestock.\nSelect species with deep rooting systems to reduce competition with crops.\nSelect N2-fixing trees to improve soil fertility.\nOptimize the spacing and structure of the system to make best use of nutrients, water and sunlight to\nensure high productivity of the system.\nA proper design is necessary to allow for mechanization, but also to reduce transport of manure and\nfodder within the system.\nOn sloppy land, plant trees perpendicularly to the slope to reduce erosion.\nRetain pruning and other residues and manure on site.\nAvoid tree species that are poisonous to livestock.",
+      "page_start": 505,
+      "page_end": 505,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral",
+        "integrated_nutrient_mgmt",
+        "no_till",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "SOC",
+        "erosion",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p15",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "Smallholder farmers in rural areas usually have limited access to appropriate plant material due to high cost and\navailability. Using farmer-managed natural regeneration may be a suitable option for farmers.",
+      "page_start": 505,
+      "page_end": 505,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p16",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "Higher altitudes, and lower temperature and sunlight intensity can be limiting\nfactors in the adoption of agroforestry as a source of shade for crops, cattle or\nto pastures (Sood and Mitchell, 2009).",
+      "page_start": 505,
+      "page_end": 505,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [
+        "temperature"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p17",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "Farmers' negative perception of the impact of trees can discourage them from\nplanting certain species (Meijer et al., 2018).",
+      "page_start": 505,
+      "page_end": 505,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p18",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "Social learning through a network of peers, and lack of access to appropriate\nextension services.\nAgroforestry systems are sometimes considered subsistence practices. This\nnegative connotation may prevent wider adoption.",
+      "page_start": 506,
+      "page_end": 506,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p19",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "Lack of capital to purchase required planting materials (seeds/seedlings).\nLimited access to market of inputs and products of tree-based resources, and\nlimited access to infrastructure such as radio signals, saving and credit facilities,\ncentral storage facilities for grain crops.\nThe cost of maintaining trees together with livestock is higher compared to\nmaintaining the components separately because of the initial investment\nrequired, such as tree seedlings or fencing. This can translate into negative cash\nflows in the first years. Limited access to capital and deficits in farm\nmanagement capacity can be major barriers for adoption (Chará et al., 2004).\nSilvopastoral systems take long to show results due to slow establishment rate\nof most trees compared with herbaceous components. This demotivates\nfarmers from adopting such systems. Maintaining an income stream is a\nchallenge when initially introducing or maintaining trees in a system.",
+      "page_start": 506,
+      "page_end": 506,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p20",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "Absence of laws and institutions or inadequate enforcement reduces adoption\nrates.\nFarmers are more likely to adopt the technology if there is security of land\ntenure. For example, communal land is considered less secure than freehold\nland",
+      "page_start": 506,
+      "page_end": 506,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p21",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "Inadequate knowledge of the agronomic and economic benefits of tree-crop\ninteractions leads to the perception that trees occupy space that would have\nbeen used for crop growth resulting in economic loss. Inadequate technical\nskills to manage the tree-crop interactions, both from extension services and\nfarmers.\nThe knowledge required to manage trees is much different from that needed to\nmanage livestock. Hence farmers may not easily manage both effectively. A\nbalance among the various components while extracting multiple products\n(plant and animal) requires far greater understanding, skills, and experience to\nmaintain.",
+      "page_start": 506,
+      "page_end": 506,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p40_agrosilvopastoral__p22",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "In open-grazed systems, livestock graze freely in the system, potentially\ndestroying crops and creating conflicts with farmers.",
+      "page_start": 506,
+      "page_end": 506,
+      "topic": "Agrosilvopastoral systems",
+      "practices": [
+        "agroforestry_agrosilvopastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "constraint"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "v3_p40_agrosilvopastoral__c01",
+      "passage_id": "v3_p40_agrosilvopastoral__p01",
+      "subject": "Agrosilvopastoral systems",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "litter fall",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Litter fall enriches soil in organic matter with beneficial effects to the crops in terms of nutrient furniture.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p40_agrosilvopastoral__c02",
+      "passage_id": "v3_p40_agrosilvopastoral__p01",
+      "subject": "Agrosilvopastoral systems",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "animal manure",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Livestock also add manure to the soil through deposition of dung and urine. The improvement in soil fertility resulting from animal manure enhances crop growth",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p40_agrosilvopastoral__c03",
+      "passage_id": "v3_p40_agrosilvopastoral__p03",
+      "subject": "Agrosilvopastoral systems",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "combined effect of litterfall, pastures, and dung",
+      "conditions": "humid climates",
+      "time_horizon_years": null,
+      "evidence_span": "Agrosilvopastoral systems in humid climates sequester more SOC compared to systems in dry climates.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p40_agrosilvopastoral__c04",
+      "passage_id": "v3_p40_agrosilvopastoral__p03",
+      "subject": "Agrosilvopastoral systems",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "combined effect of litterfall, pastures, and dung",
+      "conditions": "dry climates",
+      "time_horizon_years": null,
+      "evidence_span": "Agrosilvopastoral systems in humid climates sequester more SOC compared to systems in dry climates.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p40_agrosilvopastoral__c05",
+      "passage_id": "v3_p40_agrosilvopastoral__p03",
+      "subject": "Agrosilvopastoral systems",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "combined effect of litterfall from trees, integration of pastures, and dung from livestock",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "The combined effect of litterfall from trees, integration of pastures, and dung from livestock increases SOC stocks probably faster than other agroforestry systems (Table 176).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p40_agrosilvopastoral__c06",
+      "passage_id": "v3_p40_agrosilvopastoral__p04",
+      "subject": "Agrosilvopastoral systems",
+      "metric": "soil_organic_matter",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "litterfall and dung",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Litterfall from trees and dung from livestock all supply organic matter that improves the soil quality for pasture growth.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p40_agrosilvopastoral__c07",
+      "passage_id": "v3_p40_agrosilvopastoral__p04",
+      "subject": "Agrosilvopastoral systems",
+      "metric": "bulk_density",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "litter fall",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Tree components in agrosilvopastoral systems contribute to litter fall, which increases decomposition and subsequent supply of soil nutrients and organic matter and reduces bulk density (Issac and Borden, 2019), therefore contributing to better water infiltration.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p40_agrosilvopastoral__c08",
+      "passage_id": "v3_p40_agrosilvopastoral__p04",
+      "subject": "Agrosilvopastoral systems",
+      "metric": "water_holding_capacity",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "increased SOC",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Increased amount of SOC is associated with enhanced water storage capacity and availability of nutrients for crops.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p40_agrosilvopastoral__c09",
+      "passage_id": "v3_p40_agrosilvopastoral__p04",
+      "subject": "Agrosilvopastoral systems",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "increased SOC",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Increased amount of SOC is associated with enhanced water storage capacity and availability of nutrients for crops.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p40_agrosilvopastoral__c10",
+      "passage_id": "v3_p40_agrosilvopastoral__p04",
+      "subject": "Agrosilvopastoral systems",
+      "metric": "nitrogen",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "biological nitrogen fixation",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Integration of leguminous trees into agricultural systems increases the nitrogen supply through biological nitrogen fixation.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p40_agrosilvopastoral__c11",
+      "passage_id": "v3_p40_agrosilvopastoral__p06",
+      "subject": "Crop yields",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "improved microclimate created by trees",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Shade-tolerant species of perennial are likely to have higher yields due to an improved microclimate created by trees (Schroth et al., 2001; Brandt et al., 2015).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p40_agrosilvopastoral__c12",
+      "passage_id": "v3_p40_agrosilvopastoral__p07",
+      "subject": "Agrosilvopastoral systems",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": 95.0,
+      "value_low": null,
+      "value_high": null,
+      "unit": "t_ha",
+      "basis": "trees",
+      "conditions": "tropics",
+      "time_horizon_years": null,
+      "evidence_span": "In the tropics, trees have been estimated to accumulate large amounts of carbon (C) from 12 to 228 t ha¯¹ with an average of 95 t ha¯¹ (Swamy and Tewari, 2017).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p40_agrosilvopastoral__c13",
+      "passage_id": "v3_p40_agrosilvopastoral__p07",
+      "subject": "Agrosilvopastoral systems",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": 12.0,
+      "value_low": null,
+      "value_high": 228.0,
+      "unit": "t_ha",
+      "basis": "trees",
+      "conditions": "tropics",
+      "time_horizon_years": null,
+      "evidence_span": "In the tropics, trees have been estimated to accumulate large amounts of carbon (C) from 12 to 228 t ha¯¹ with an average of 95 t ha¯¹ (Swamy and Tewari, 2017).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p40_agrosilvopastoral__c14",
+      "passage_id": "v3_p40_agrosilvopastoral__p09",
+      "subject": "Agrosilvopastoral systems",
+      "metric": "erosion",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "livestock",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Livestock can compact the soil, reduce infiltration and increase the risk of soil erosion.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p40_agrosilvopastoral__c15",
+      "passage_id": "v3_p40_agrosilvopastoral__p09",
+      "subject": "Agrosilvopastoral systems",
+      "metric": "soil_moisture",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "livestock",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Livestock can compact the soil, reduce infiltration and increase the risk of soil erosion.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p40_agrosilvopastoral__c16",
+      "passage_id": "v3_p40_agrosilvopastoral__p09",
+      "subject": "Agrosilvopastoral systems",
+      "metric": "nitrogen",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "leaching",
+      "conditions": "annual crop",
+      "time_horizon_years": null,
+      "evidence_span": "These cause more leaching of soil nitrogen from the root zone of annual crop (Cuttle and Gill, 1991).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p40_agrosilvopastoral__c17",
+      "passage_id": "v3_p40_agrosilvopastoral__p10",
+      "subject": "Agrosilvopastoral systems",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": 0.26,
+      "value_low": null,
+      "value_high": null,
+      "unit": "t_ha",
+      "basis": "carbon sequestration in tree biomass",
+      "conditions": "India",
+      "time_horizon_years": null,
+      "evidence_span": "Tree-based systems can mitigate climate change by offsetting greenhouse gas (GHG) emission from livestock (CH4 from enteric fermentation and N2O emission from dung and urine) through carbon sequestration in tree biomass, with an average estimated carbon sequestration and mitigation potential of the 0.26 tC/ha/yr and 0.95 t CO2eq/ha/yr in India (Chavan et al., 2020).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p40_agrosilvopastoral__c18",
+      "passage_id": "v3_p40_agrosilvopastoral__p10",
+      "subject": "Agrosilvopastoral systems",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": 0.95,
+      "value_low": null,
+      "value_high": null,
+      "unit": "t_ha",
+      "basis": "mitigation potential",
+      "conditions": "India",
+      "time_horizon_years": null,
+      "evidence_span": "Tree-based systems can mitigate climate change by offsetting greenhouse gas (GHG) emission from livestock (CH4 from enteric fermentation and N2O emission from dung and urine) through carbon sequestration in tree biomass, with an average estimated carbon sequestration and mitigation potential of the 0.26 tC/ha/yr and 0.95 t CO2eq/ha/yr in India (Chavan et al., 2020).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p40_agrosilvopastoral__c19",
+      "passage_id": "v3_p40_agrosilvopastoral__p12",
+      "subject": "Crop yield",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "competition between crops and trees",
+      "conditions": "mature and highly dense plantations",
+      "time_horizon_years": null,
+      "evidence_span": "After several years, a decrease in crop yield can be observed in mature and highly dense plantations, especially close to the trees, due to competition between crops and trees for light, water, and nutrients (Dilla et al., 2019).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p40_agrosilvopastoral__c20",
+      "passage_id": "v3_p40_agrosilvopastoral__p12",
+      "subject": "Agrosilvopastoral systems",
+      "metric": "soil_moisture",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "livestock grazing",
+      "conditions": "after harvesting",
+      "time_horizon_years": null,
+      "evidence_span": "Allowing livestock to graze in croplands after harvesting may result in soil compaction (Cherubin, Chavarro-Bermeo and Silva-Olaya, 2019).",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "agroforestry_agrosilvopastoral",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "litterfall",
+      "passage_id": "v3_p40_agrosilvopastoral__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrosilvopastoral",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "animal manure",
+      "passage_id": "v3_p40_agrosilvopastoral__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrosilvopastoral",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "humid climates",
+      "mechanism": null,
+      "passage_id": "v3_p40_agrosilvopastoral__p03",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrosilvopastoral",
+      "to_node": "SOC",
+      "effect": "decrease",
+      "condition": "dry climates",
+      "mechanism": null,
+      "passage_id": "v3_p40_agrosilvopastoral__p03",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrosilvopastoral",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "litterfall, pastures, dung",
+      "passage_id": "v3_p40_agrosilvopastoral__p03",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrosilvopastoral",
+      "to_node": "soil_organic_matter",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "litterfall and dung",
+      "passage_id": "v3_p40_agrosilvopastoral__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrosilvopastoral",
+      "to_node": "bulk_density",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "litter fall",
+      "passage_id": "v3_p40_agrosilvopastoral__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrosilvopastoral",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "increased SOC",
+      "passage_id": "v3_p40_agrosilvopastoral__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrosilvopastoral",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "increased SOC",
+      "passage_id": "v3_p40_agrosilvopastoral__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrosilvopastoral",
+      "to_node": "nitrogen",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "biological nitrogen fixation",
+      "passage_id": "v3_p40_agrosilvopastoral__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrosilvopastoral",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "improved microclimate",
+      "passage_id": "v3_p40_agrosilvopastoral__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrosilvopastoral",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "condition": "tropics",
+      "mechanism": "trees",
+      "passage_id": "v3_p40_agrosilvopastoral__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrosilvopastoral",
+      "to_node": "erosion",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "livestock",
+      "passage_id": "v3_p40_agrosilvopastoral__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrosilvopastoral",
+      "to_node": "soil_moisture",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "livestock",
+      "passage_id": "v3_p40_agrosilvopastoral__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrosilvopastoral",
+      "to_node": "nitrogen",
+      "effect": "decrease",
+      "condition": "annual crop",
+      "mechanism": "leaching",
+      "passage_id": "v3_p40_agrosilvopastoral__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrosilvopastoral",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "condition": "India",
+      "mechanism": "carbon sequestration in tree biomass",
+      "passage_id": "v3_p40_agrosilvopastoral__p10",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrosilvopastoral",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "mature and highly dense plantations",
+      "mechanism": "competition between crops and trees",
+      "passage_id": "v3_p40_agrosilvopastoral__p12",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrosilvopastoral",
+      "to_node": "soil_moisture",
+      "effect": "decrease",
+      "condition": "after harvesting",
+      "mechanism": "livestock grazing",
+      "passage_id": "v3_p40_agrosilvopastoral__p12",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Agrosilvopastoral systems",
+    "system_type": "agroforestry_agrosilvopastoral",
+    "tree_species": [],
+    "crop_species": [],
+    "region_of_adoption": [
+      "Eastern Africa",
+      "Asia",
+      "South East Asia",
+      "Latin America",
+      "Europe (Catalonia, Austria)"
+    ],
+    "rainfall_mm_low": null,
+    "rainfall_mm_high": null,
+    "soil_requirements": null,
+    "establishment_notes": null,
+    "stated_benefits": [
+      "shade for animals and crops",
+      "forage for animals",
+      "protection for animals",
+      "enrichment of soil organic matter",
+      "improved soil fertility",
+      "enhanced crop growth",
+      "carbon sequestration",
+      "improved soil properties",
+      "reduced bulk density",
+      "better water infiltration",
+      "enhanced water storage capacity",
+      "increased nutrient availability for crops",
+      "increased nitrogen supply",
+      "higher crop yields",
+      "climate change adaptation",
+      "buffering temperature",
+      "ameliorating microclimate",
+      "maintaining long-term soil health",
+      "minimizing incidence of insect and pests",
+      "diversification of products and services",
+      "reduced risk of economic disasters",
+      "improved resilience",
+      "reduced fire risks"
+    ],
+    "stated_constraints": [
+      "reduced land area for crops",
+      "increased risk of crop damage by livestock",
+      "soil compaction",
+      "restricted water infiltration",
+      "runoff",
+      "soil erosion",
+      "leaching of soil nitrogen",
+      "thorny trees can hurt animal hides",
+      "some trees harbour pests for crops",
+      "decrease in crop yield in mature and dense plantations",
+      "competition for light, water, and nutrients",
+      "higher labor requirements",
+      "difficult mechanization",
+      "increased cost of labor for land preparation",
+      "higher cost of maintaining trees and livestock",
+      "negative cash flows in the first years",
+      "limited access to capital",
+      "deficits in farm management capacity",
+      "slow establishment rate of trees",
+      "farmers' negative perception of trees",
+      "considered subsistence practices",
+      "inadequate extension services",
+      "inadequate laws and institutions",
+      "inadequate enforcement",
+      "lack of security of land tenure",
+      "inadequate knowledge of benefits",
+      "inadequate technical skills",
+      "difficulty managing multiple components",
+      "potential for conflict with farmers"
+    ]
+  },
+  "_meta": {
+    "unit_id": "v3_p40_agrosilvopastoral",
+    "doc_id": "fao2021_recarb_v3",
+    "model": "gemini-2.5-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 517,
+    "pdf_end": 529,
+    "manifest_practices": [
+      "agroforestry_agrosilvopastoral"
+    ],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:29:38Z",
+    "pdf_sha256": "4cd7d2e01b71e7e0"
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Key Messages",
+  "content_type": "assessment",
+  "summary": "This assessment provides a comprehensive overview of the status, trends, and threats to pollinators and pollination services, highlighting their critical role in global food production and human well-being, and outlining management strategies to mitigate risks from human activities such as land-use change and pesticide use.",
+  "passages": [
+    {
+      "passage_id": "ipbes_pollinators__w00__p01",
+      "heading_path": [
+        "Key Messages",
+        "A. Values of pollinators and pollination"
+      ],
+      "text": "Animal pollination plays a vital role as a regulating ecosystem service in nature. Globally, nearly 90 per cent of wild flowering plant species depend, at least in part, on the transfer of pollen by animals. These plants are critical for the continued functioning of ecosystems as they provide food, form habitats and provide other resources for a wide range of other species.",
+      "page_start": 10,
+      "page_end": 10,
+      "topic": "pollination ecosystem service",
+      "practices": [],
+      "metrics": [
+        "species_richness",
+        "habitat_diversity"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w00__p02",
+      "heading_path": [
+        "Key Messages",
+        "A. Values of pollinators and pollination"
+      ],
+      "text": "More than three quarters of the leading types of global food crops rely to some extent on animal pollination for yield and/or quality. Pollinator-dependent crops contribute to 35 per cent of global crop production volume.",
+      "page_start": 10,
+      "page_end": 10,
+      "topic": "pollination and food production",
+      "practices": [],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w00__p03",
+      "heading_path": [
+        "Key Messages",
+        "A. Values of pollinators and pollination"
+      ],
+      "text": "Crop yield and/or quality depend on both the abundance and diversity of pollinators. A diverse community of pollinators generally provides more effective and stable crop pollination than any single species. Pollinator diversity contributes to crop pollination even when managed species (e.g., honey bees) are present in high abundance.",
+      "page_start": 10,
+      "page_end": 10,
+      "topic": "pollinator diversity and crop yield",
+      "practices": [],
+      "metrics": [
+        "crop_yield",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w00__p04",
+      "heading_path": [
+        "Key Messages",
+        "B. Status and trends in pollinators and pollination"
+      ],
+      "text": "Wild pollinators have declined in occurrence and diversity (and abundance for certain species) at local and regional scales in North West Europe and North America.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "pollinator decline",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w00__p05",
+      "heading_path": [
+        "Key Messages",
+        "B. Status and trends in pollinators and pollination"
+      ],
+      "text": "The volume of production of pollinator-dependent crops has increased by 300 per cent over the last five decades, making livelihoods increasingly dependent on the provision of pollination. However, overall these crops have experienced lower growth and lower stability of yield than pollinator-independent crops. Yield per hectare of pollinator-dependent crops has increased less, and varies more year to year, than yield per hectare of pollinator-independent crops.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "pollinator-dependent crop production",
+      "practices": [],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w00__p06",
+      "heading_path": [
+        "Key Messages",
+        "C. Drivers of change, risks and opportunities, and policy and management options"
+      ],
+      "text": "The abundance, diversity and health of pollinators and the provision of pollination are threatened by direct drivers that generate risks to societies and ecosystems. Threats include land-use change, intensive agricultural management and pesticide use, environmental pollution, invasive alien species, pathogens and climate change.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "drivers of pollinator decline",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "risk"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w00__p07",
+      "heading_path": [
+        "Key Messages",
+        "C. Drivers of change, risks and opportunities, and policy and management options"
+      ],
+      "text": "Three complementary approaches to maintaining healthy pollinator communities and productive agriculture are: (a) ecological intensification (i.e., managing nature’s ecological functions to improve agricultural production and livelihoods while minimizing environmental damage); (b) strengthening existing diversified farming systems (including forest gardens, home gardens, agroforestry and mixed cropping and livestock systems) to foster pollinators and pollination through practices validated by science or indigenous and local knowledge (e.g., crop rotation); and (c) investing in ecological infrastructure by protecting, restoring and connecting patches of natural and semi-natural habitats throughout productive agricultural landscapes.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "management strategies for pollinators",
+      "practices": [
+        "crop_rotation",
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "species_richness",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w00__p08",
+      "heading_path": [
+        "Key Messages",
+        "C. Drivers of change, risks and opportunities, and policy and management options"
+      ],
+      "text": "There is evidence from a recent study that shows impacts of neonicotinoids on wild pollinator survival and reproduction at actual field exposure. Evidence, from this and other studies, of effects on managed honey bee colonies is conflicting.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "pesticide impacts on pollinators",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_pollinators__w00__c01",
+      "passage_id": "ipbes_pollinators__w00__p02",
+      "subject": "pollinator-dependent crops",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 35,
+      "unit": "percent",
+      "basis": "unstated",
+      "conditions": "global crop production volume",
+      "evidence_span": "Pollinator-dependent crops contribute to 35 per cent of global crop production volume.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_pollinators__w00__c02",
+      "passage_id": "ipbes_pollinators__w00__p04",
+      "subject": "wild pollinators",
+      "metric": "species_richness",
+      "direction": "decrease",
+      "value": null,
+      "unit": null,
+      "basis": "unstated",
+      "conditions": "local and regional scales in North West Europe and North America",
+      "evidence_span": "Wild pollinators have declined in occurrence and diversity (and abundance for certain species) at local and regional scales in North West Europe and North America.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_pollinators__w00__c03",
+      "passage_id": "ipbes_pollinators__w00__p05",
+      "subject": "pollinator-dependent crops",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 300,
+      "unit": "percent_change",
+      "basis": "unstated",
+      "conditions": "last five decades",
+      "evidence_span": "The volume of production of pollinator-dependent crops has increased by 300 per cent over the last five decades",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_pollinators__w00__c04",
+      "passage_id": "ipbes_pollinators__w00__p08",
+      "subject": "neonicotinoids",
+      "metric": "species_richness",
+      "direction": "decrease",
+      "value": null,
+      "unit": null,
+      "basis": "unstated",
+      "conditions": "wild pollinator survival and reproduction at actual field exposure",
+      "evidence_span": "There is evidence from a recent study that shows impacts of neonicotinoids on wild pollinator survival and reproduction at actual field exposure.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "pollinator diversity",
+      "to_node": "crop pollination",
+      "effect": "increase",
+      "condition": "managed species present in high abundance",
+      "mechanism": "diverse community provides more effective and stable pollination",
+      "passage_id": "ipbes_pollinators__w00__p03",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "pollinator decline",
+      "to_node": "crop production",
+      "effect": "decrease",
+      "condition": "local scales",
+      "mechanism": "unstated",
+      "passage_id": "ipbes_pollinators__w00__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "land-use change",
+      "to_node": "pollinators",
+      "effect": "decrease",
+      "condition": "unstated",
+      "mechanism": "direct driver",
+      "passage_id": "ipbes_pollinators__w00__p06",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "pesticide use",
+      "to_node": "pollinators",
+      "effect": "decrease",
+      "condition": "unstated",
+      "mechanism": "direct driver",
+      "passage_id": "ipbes_pollinators__w00__p06",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "neonicotinoids",
+      "to_node": "wild pollinator survival",
+      "effect": "decrease",
+      "condition": "actual field exposure",
+      "mechanism": "lethal and sublethal effects",
+      "passage_id": "ipbes_pollinators__w00__p08",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_pollinators__w00",
+    "doc_id": "ipbes2016_pollinators",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 1,
+    "pdf_end": 12,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T10:54:39Z",
+    "pdf_sha256": "53d0d585a18ff927",
+    "prompt_type": "assessment"
+  }
+}

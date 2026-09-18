@@ -1,0 +1,83 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+  "content_type": "other",
+  "summary": "This document provides a comprehensive list of references for Chapter 4 of the IPBES assessment report on land degradation and restoration, covering topics such as biodiversity, ecosystem services, soil degradation, and land management.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch4_status_trends__w10__p01",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS"
+      ],
+      "text": "Tully, K. L., Lawrence, D., & Wood, S. A. (2013). Organically managed coffee agroforests have larger soil phosphorus but smaller soil nitrogen pools than conventionally managed agroforests. Biogeochemistry, 115(1-3), 385-397.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Nutrient cycling in agroforestry",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch4_status_trends__w10__c01",
+      "passage_id": "ipbes_ch4_status_trends__w10__p01",
+      "subject": "Organically managed coffee agroforests",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "evidence_span": "Organically managed coffee agroforests have larger soil phosphorus",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w10__c02",
+      "passage_id": "ipbes_ch4_status_trends__w10__p01",
+      "subject": "Organically managed coffee agroforests",
+      "metric": "nitrogen",
+      "direction": "decrease",
+      "evidence_span": "but smaller soil nitrogen pools than conventionally managed agroforests.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": "organically managed",
+      "passage_id": "ipbes_ch4_status_trends__w10__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "nitrogen",
+      "effect": "decrease",
+      "condition": "organically managed",
+      "passage_id": "ipbes_ch4_status_trends__w10__p01",
+      "strength_stated": "unstated"
+    }
+  ],
+  "_meta": {
+    "unit_id": "ipbes_ch4_status_trends__w10",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 389,
+    "pdf_end": 400,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:56:36Z",
+    "pdf_sha256": "00bc47fb11c10fc6"
+  }
+}

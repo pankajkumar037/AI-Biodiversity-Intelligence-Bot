@@ -1,0 +1,171 @@
+{
+  "extraction_status": "ok",
+  "section_title": "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+  "content_type": "assessment",
+  "summary": "This document provides a comprehensive list of references related to land degradation, restoration, and sustainable land management practices, including agroforestry, conservation agriculture, and ecosystem services.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch6_responses__w07__p01",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Lasco, R. D., Delfino, R. J. P., & Espaldon, M. L. O. (2014). Agroforestry systems: helping smallholders adapt to climate risks while mitigating climate change. Wiley Interdisciplinary Reviews: Climate Change, 5(6), 825-833. https://doi.org/10.1002/wcc.301",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Agroforestry",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w07__p02",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Mbow, C., Smith, P., Skole, D., Duguma, L., & Bustamante, M. (2014). Achieving mitigation and adaptation to climate change through sustainable agroforestry practices in Africa. Current Opinion in Environmental Sustainability, 6, 8-14. https://doi.org/10.1016/j.cosust.2013.09.002",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Agroforestry",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w07__p03",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Montagnini, F., & Nair, P. K. R. (2004). Carbon sequestration: An underexploited environmental benefit of agroforestry systems. In Agroforestry Systems, 61, 281. https://doi.org/10.1023/B:AGFO.0000029005.92691.79",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Agroforestry",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w07__p04",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Nair, P. K. R., Kumar, B. M., & Nair, V. D. (2009). Agroforestry as a strategy for carbon sequestration. Journal of Plant Nutrition and Soil Science, 172(1), 10-23. https://doi.org/10.1002/jpln.200800030",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Agroforestry",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w07__p05",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Nair, P. K. R., Nair, V. D., Mohan Kumar, B., & Showalter, J. M. (2010). Chapter Five - Carbon Sequestration in Agroforestry Systems. In Advances in Agronomy, 108, 237-307. https://doi.org/10.1016/S0065-2113(10)08005-3",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "Agroforestry",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch6_responses__w07__c01",
+      "passage_id": "ipbes_ch6_responses__w07__p03",
+      "subject": "agroforestry systems",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "evidence_span": "Carbon sequestration: An underexploited environmental benefit of agroforestry systems.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w07__c02",
+      "passage_id": "ipbes_ch6_responses__w07__p04",
+      "subject": "agroforestry",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "evidence_span": "Agroforestry as a strategy for carbon sequestration.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w07__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w07__p04",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch6_responses__w07",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 570,
+    "pdf_end": 581,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:58:17Z",
+    "pdf_sha256": "a625a91d986635b9"
+  }
+}

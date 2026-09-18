@@ -1,0 +1,1234 @@
+{
+  "extraction_status": "ok",
+  "section_title": "28. Adequate irrigation practices",
+  "content_type": "practice",
+  "summary": "This section describes irrigation practices, their range of applicability, impact on soil organic carbon (SOC) stocks, and potential drawbacks. Irrigation, particularly surface or flood irrigation, plays a role in SOC sequestration, with new techniques like drip and subsurface irrigation being introduced due to water scarcity. The impact of irrigation on SOC is variable and depends on factors like irrigation type, amount, climate, and soil type. While irrigation can increase biomass production and thus SOC input, higher soil moisture can also increase mineralization rates. The section also details potential threats to soil functions from irrigation, including soil erosion, nutrient imbalance, salinization, contamination, acidification, sealing, and compaction. Furthermore, it discusses the impact of irrigation on greenhouse gas emissions and other negative environmental impacts, as well as recommendations for implementation and potential barriers to adoption.",
+  "passages": [
+    {
+      "passage_id": "v3_p28_irrigation__p01",
+      "heading_path": [
+        "1. Description of the practice"
+      ],
+      "text": "The soil-water interactions brought about by hydrological events and management practices can affect soil\norganic carbon (SOC) loss and/or gain. Crop irrigation using different techniques is practiced on 20 percent\nof the global cultivated lands and hence plays an important role in SOC sequestration. Surface or flood irrigation\n(where water is applied at one end of a field and is allowed to spread and infiltrate across the entire field under\nthe action of gravity) has been the most widely used irrigation practice for thousands of years i Due to increasing\ncompetition for water, new irrigation techniques have been introduced to cope with the shortage of water and\nto increase water productivity such as drip, sprinkle deficit and subsurface irrigation. The type of irrigation in\nthe presence of external factors like climate and the condition of soil is known to have variable effects on the\nSOC emission and sequestration (Guo et al., 2017). Although there is limited literature on the impacts of\nirrigation and drainage on the SOC sequestration, as a rule of thumb the irrigation water increases the capacity\nof the land to produce biomass (Wang et al., 2019), and therefore the accumulation of plant residues (mainly\nroots) are mainly responsible for the increase of SOC input. Other important changes usually occur in the SIC\npool (e.g. see (Hannam et al., 2016)), but they fall out of the scope of this manual. On the other side, the higher\nsoil moisture contents increase SOC mineralization rates, and therefore the total balance of the resulting SOC\nstocks can be negative or positive depending on the environment (Aguilera et al., 2018). If not well managed,\nsurface drainage water or soil erosion takes away the stored SOC from the soil and releases it to the atmosphere\nthrough mineralization. In summary, the amount and mode of irrigation has varying impacts on the SOC\nsequestration potential and on the physical and biological properties of the soil in the top layer.",
+      "page_start": 345,
+      "page_end": 345,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "SOC",
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p02",
+      "heading_path": [
+        "2. Range of applicability"
+      ],
+      "text": "Irrigated agriculture is being practiced worldwide on an area of about 275 million hectares (UNESCO WWAP,\n2017) which has a large potential of SOC sequestration. Different modes of irrigation, climatic conditions, soil\ntypes, soil moisture content and soil temperature affect the degree of SOC sequestration.",
+      "page_start": 345,
+      "page_end": 345,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p03",
+      "heading_path": [
+        "3. Impact on soil organic carbon stocks"
+      ],
+      "text": "Given the wide variety of irrigation types and environments, only some examples of the SOC sequestration\npotential of irrigated croplands (i.e. irrigation in combination with other conservation practices) is shown in\nTable 123. In all the reported cases the C sequestration potential is evaluated for different crop lands under\nvarying irrigation amounts. Each irrigation type and the applied amount of water could perform differently in a\ndifferent environmental condition. For a new environmental setting or condition it either should be initiated on\na pilot scale or simulated using a mathematical model to precisely quantify the potential of irrigation type.",
+      "page_start": 346,
+      "page_end": 346,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation",
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p04",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.1. Improvement of soil properties"
+      ],
+      "text": "Irrigation has a negligible impact on the soil bulk density and particle size distribution. However, an increase in\nthe amount of irrigation depth at selected sites have shown a significant increase in the number of water-stable\naggregate (WSA= 4.75 to 8 mm) at a depth of 5-10 cm soil layer (Blanco-Canqui et al., 2010). It is also\nimportant to note that irrigation with good quality water does not affect the infiltration properties of the soil\nunless the water has high sodium contents (Wienhold and Trooien, 1998).",
+      "page_start": 347,
+      "page_end": 347,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "bulk_density",
+        "water_holding_capacity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p05",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Table 124. Soil threats",
+      "page_start": 347,
+      "page_end": 347,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p06",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Soil erosion\nIrrigation promotes vegetation growth which acts as a barrier to soil erosion.\nWater erosion due to irrigation can be controlled by properly designed field slope\nand overland flow velocity.",
+      "page_start": 347,
+      "page_end": 347,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p07",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Nutrient imbalance\nand cycles\nIrrigation water increases the availability of plant nutrients. Excess irrigation\n(overflow or deep drainage) may leach plant nutrients from the soil.",
+      "page_start": 347,
+      "page_end": 347,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p08",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Soil salinity can be minimized by addition of water to the leaching requirements\nin order to maintain Soil Electrical Conductivity below threshold values. The excess\nwater dissolves accumulated salts and leaches it down the root zone. In this case,\nthe groundwater table should not be shallow, or a functioning subsurface drainage\nsystem must be in place to dispose of the saline drainage water. Soil alkalinization\nrisk must be assessed in advance by knowing the quality of the irrigation water (i.e.\nSodium Adsorption Ratio) and knowing the ionic content of the soil solution.\nGypsum amendments may be applied to lower the soil alkalinization risk.",
+      "page_start": 347,
+      "page_end": 347,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "salinity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p09",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "The use of contaminated irrigation water could chemically or biologically\ncontaminate soils. For example, if the irrigation water source is contaminated such\nas a saline groundwater aquifer or reuse of municipal wastewater for irrigation. The\nuse of saline groundwater for irrigation should be managed by considering\nappropriate leaching requirements to avoid soil contamination/salinization.",
+      "page_start": 347,
+      "page_end": 347,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "salinity",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p10",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Irrigation promotes crop/plant growth in the fields which adds organic matter to\nthe soil and hence reduces acidification.",
+      "page_start": 347,
+      "page_end": 347,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "pH"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p11",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "More organic matter is produced in irrigated lands (i.e. plants, stubble, roots,\nleaves). This organic matter increases soil biodiversity through decomposition\nwhen it comes into contact with soil and water.",
+      "page_start": 348,
+      "page_end": 348,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p12",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Some types of sprinkler irrigation, when drop size or velocity is too high, may\ndestroy surface aggregates and create seals and crusts. This effect is higher when\nusing water with an excess of sodium ion.",
+      "page_start": 348,
+      "page_end": 348,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p13",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Nearly all soil water management practices depends on irrigation water, because\nthis is the primary source to add moisture to the soil.",
+      "page_start": 348,
+      "page_end": 348,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p14",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.3. Impacts Increases in production (e.g. food/fuel/feed/timber/fibre)\nand socio-economic benefits"
+      ],
+      "text": "The impact of irrigation on increase in crop production is broadly known and is well documented in the\nliterature (Bennett and Harms, 2011; Qureshi, Ahmad and Ahmad, 2013). Periodic irrigation of food and fiber\ncrops reduces the crop water stress during the critical growth stages and boosts their production potential. The\nhigh production capacity of irrigated agriculture system fosters many socio-economic benefits such food\nsecurity, generation of enough raw material for the local industries, revival of agriculture-based industries, an\nelevated social status due to high monetary returns from the production, economic security (labor force\nengagement), attraction of migrants from the less privileged areas, expansion of irrigated lands, and increased\neconomic activities in rural areas.",
+      "page_start": 348,
+      "page_end": 348,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p15",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.4. Mitigation of and adaptation to climate change"
+      ],
+      "text": "Climate change projections show large variations in temperature and precipitation patterns all over the world.\nThese variations could pose a significant threat to the production capacity of the agricultural systems, mainly\nbecause the water supply will be at risk. Irrigation systems as always could play a vital role in reducing the\nnegative impacts of variable water availability for agriculture under climate change. Appropriate modifications\nto the existing irrigation systems such as the conversion of flood to high efficiency irrigation system,\nconstruction of dykes for water harvesting and proper management of existing reservoirs could play a vital role\nin climate change mitigation and adaptations (Bhatti et al., 2019).",
+      "page_start": 348,
+      "page_end": 348,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "temperature",
+        "rainfall"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p16",
+      "heading_path": [
+        "5. Potential drawbacks to the practice",
+        "5.1. Tradeoffs with other threats to soil functions"
+      ],
+      "text": "Table 125. Soil threats",
+      "page_start": 349,
+      "page_end": 349,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p17",
+      "heading_path": [
+        "5. Potential drawbacks to the practice",
+        "5.1. Tradeoffs with other threats to soil functions"
+      ],
+      "text": "NA with a proper irrigation design.",
+      "page_start": 349,
+      "page_end": 349,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p18",
+      "heading_path": [
+        "5. Potential drawbacks to the practice",
+        "5.1. Tradeoffs with other threats to soil functions"
+      ],
+      "text": "NA with a proper irrigation design.",
+      "page_start": 349,
+      "page_end": 349,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p19",
+      "heading_path": [
+        "5. Potential drawbacks to the practice",
+        "5.1. Tradeoffs with other threats to soil functions"
+      ],
+      "text": "Excessive irrigation in poorly drained soils may cause water logging and\nsalinity. Water quality has to be checked for alkalinization and\nsalinization risk. Salt contained in deep layers in the soil profile, or in\nother parts of the landscape may be mobilised and appear at the surface\nthrough capillary rise.",
+      "page_start": 349,
+      "page_end": 349,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "salinity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p20",
+      "heading_path": [
+        "5. Potential drawbacks to the practice",
+        "5.1. Tradeoffs with other threats to soil functions"
+      ],
+      "text": "Soil contamination could increase if the irrigation water is contaminated\nas in case of grey water",
+      "page_start": 349,
+      "page_end": 349,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p21",
+      "heading_path": [
+        "5. Potential drawbacks to the practice",
+        "5.1. Tradeoffs with other threats to soil functions"
+      ],
+      "text": "Excessive leaching of nitrates could cause soil acidification",
+      "page_start": 349,
+      "page_end": 349,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "pH"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p22",
+      "heading_path": [
+        "5. Potential drawbacks to the practice",
+        "5.1. Tradeoffs with other threats to soil functions"
+      ],
+      "text": "Soil sealing may be enhanced by the interaction of irrigation water with\nsoils that are rich in sodium ion. This problem is site specific and the areas\nwith loose soil texture are less affected by soil sealing. Some types of\nsprinkler irrigation may cause sealing and crusting by breaking down the\nsurface aggregates.",
+      "page_start": 349,
+      "page_end": 349,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p23",
+      "heading_path": [
+        "5. Potential drawbacks to the practice",
+        "5.1. Tradeoffs with other threats to soil functions"
+      ],
+      "text": "Full irrigation cause a stronger compaction of surface soil even after deep\ntillage (Liu et al., 2016).",
+      "page_start": 349,
+      "page_end": 349,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "bulk_density"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p24",
+      "heading_path": [
+        "5.2. Increases in greenhouse gas emissions"
+      ],
+      "text": "The amount and type of irrigation has a great impact on the contribution of soil to GHG emissions. Some field\nlevel experiments with different irrigation practices have shown the emission of GHGs from soil with varying\nemission rates as shown in Table 126. In all selected cases, flood irrigation caused a reduction in the CO2\nemission from the soil while increased emission of CH4 and N2O was observed under the flood or high frequency\nirrigation. It shows that the suitability of an irrigation practice from the GHG emission point of view should be\nevaluated based on the total global warming potential under that particular irrigation practice rather than a single\nGHG emission rate.",
+      "page_start": 350,
+      "page_end": 350,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p25",
+      "heading_path": [
+        "5.2. Increases in greenhouse gas emissions"
+      ],
+      "text": "Table 126. Greenhouse gas emission from soil under different irrigation practices",
+      "page_start": 350,
+      "page_end": 350,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p26",
+      "heading_path": [
+        "5.3 Other negative impacts of irrigation"
+      ],
+      "text": "A different issue that has to be considered is the large CO2 emissions involved in the development of irrigation\nschemes, energy spent on water conveyance or water pumping, construction of the canals and manufacturing of\npipes themselves, all of which should be taken into account by making a life cycle analysis of the irrigation\nprojects.",
+      "page_start": 351,
+      "page_end": 351,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p27",
+      "heading_path": [
+        "5.3 Other negative impacts of irrigation"
+      ],
+      "text": "Irrigated agriculture could have negative impacts on the environment if not managed adequately. It is important\nto sustain the ecosystem services while developing irrigation schemes. The following are the major negative\nimpacts of irrigation on the environment:\n◆ Reduced flow in the downstream reaches of streams and rivers\n◆ Waterborne diseases and malaria\n◆ Saltwater intrusion near the river's mouth\nReduced dilution of downstream effluents\nHuman resettlement due to the development of large-scale irrigation schemes\nDestruction of valuable ecosystems (e.g. natural saline lakes)",
+      "page_start": 351,
+      "page_end": 351,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p28",
+      "heading_path": [
+        "6. Recommendations before implementing the practice"
+      ],
+      "text": "The impacts of irrigation on SOC sequestration is highly variable and depends upon several internal and external\nfactors like irrigation type, irrigation amount, climate, soil type and a large number of soil management\npractices, which are different from place to place. Before implementing irrigation as a tool to promote SOC\nsequestration in a place other than the reported cases, it is recommended to evaluate its impacts under the\nprevailing climatic conditions and different combinations of field management practices on pilot scale field\nexperiments. Before embarking on a large-scale adaptation, it is also useful to employ simulation studies using\nagricultural production simulation models such as APSIM (Wang et al., 2014) to analyze different scenarios of\nirrigation in combination with field management practices to optimize agriculture production and SOC\nsequestration at the same time.",
+      "page_start": 351,
+      "page_end": 351,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p29",
+      "heading_path": [
+        "7. Potential barriers to adoption"
+      ],
+      "text": "Table 127. Potential barriers to adoption",
+      "page_start": 352,
+      "page_end": 352,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p30",
+      "heading_path": [
+        "7. Potential barriers to adoption"
+      ],
+      "text": "In some cases, there could be physical limitations on further\ndevelopment of irrigated agriculture. This is particularly true in arid\nregions where the water resources are already stressed.",
+      "page_start": 352,
+      "page_end": 352,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p31",
+      "heading_path": [
+        "7. Potential barriers to adoption"
+      ],
+      "text": "There might be difficulties in some regions to change the traditional\ndryland crops to irrigated crops.",
+      "page_start": 352,
+      "page_end": 352,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p32",
+      "heading_path": [
+        "7. Potential barriers to adoption"
+      ],
+      "text": "Some farmers may not adhere to irrigation if they have to pay for\nthe costs of conveying water to their fields and/or implementing an\nirrigation system.",
+      "page_start": 352,
+      "page_end": 352,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p33",
+      "heading_path": [
+        "7. Potential barriers to adoption"
+      ],
+      "text": "In many parts of the world irrigation water is distributed\nproportionally among the farmers based on the size of their land\nholding. In this case, if there is an increased demand of water to\npromote SOC sequestration then there could be institutional\nlimitations to accommodate this request.",
+      "page_start": 352,
+      "page_end": 352,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p34",
+      "heading_path": [
+        "7. Potential barriers to adoption"
+      ],
+      "text": "In some places the farmers have no rights to water.",
+      "page_start": 352,
+      "page_end": 352,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p28_irrigation__p35",
+      "heading_path": [
+        "7. Potential barriers to adoption"
+      ],
+      "text": "Good soil, plant and water knowledge is necessary to determine\nirrigation timing and amount, as well as to avoid salinization,\nalkalinization or erosion.",
+      "page_start": 352,
+      "page_end": 352,
+      "topic": "irrigation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "salinity",
+        "pH",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "v3_p28_irrigation__c01",
+      "passage_id": "v3_p28_irrigation__p01",
+      "subject": "irrigation",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Crop irrigation using different techniques is practiced on 20 percent\nof the global cultivated lands and hence plays an important role in SOC sequestration.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p28_irrigation__c02",
+      "passage_id": "v3_p28_irrigation__p01",
+      "subject": "irrigation water",
+      "metric": "biomass",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "as a rule of thumb the irrigation water increases the capacity\nof the land to produce biomass (Wang et al., 2019), and therefore the accumulation of plant residues (mainly\nroots) are mainly responsible for the increase of SOC input.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p28_irrigation__c03",
+      "passage_id": "v3_p28_irrigation__p01",
+      "subject": "higher soil moisture contents",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "the higher\nsoil moisture contents increase SOC mineralization rates, and therefore the total balance of the resulting SOC\nstocks can be negative or positive depending on the environment (Aguilera et al., 2018).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p28_irrigation__c04",
+      "passage_id": "v3_p28_irrigation__p02",
+      "subject": "Irrigated agriculture",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "Different modes of irrigation, climatic conditions, soil\ntypes, soil moisture content and soil temperature",
+      "time_horizon_years": null,
+      "evidence_span": "which has a large potential of SOC sequestration.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p28_irrigation__c05",
+      "passage_id": "v3_p28_irrigation__p04",
+      "subject": "increase in the amount of irrigation depth",
+      "metric": "water_holding_capacity",
+      "direction": "increase",
+      "value": null,
+      "value_low": 4.75,
+      "value_high": 8.0,
+      "unit": "mm",
+      "basis": "number of water-stable\naggregate",
+      "conditions": "at a depth of 5-10 cm soil layer",
+      "time_horizon_years": null,
+      "evidence_span": "an increase in the number of water-stable\naggregate (WSA= 4.75 to 8 mm) at a depth of 5-10 cm soil layer (Blanco-Canqui et al., 2010).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p28_irrigation__c06",
+      "passage_id": "v3_p28_irrigation__p06",
+      "subject": "Irrigation",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Irrigation promotes vegetation growth which acts as a barrier to soil erosion.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p28_irrigation__c07",
+      "passage_id": "v3_p28_irrigation__p07",
+      "subject": "Irrigation water",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Irrigation water increases the availability of plant nutrients.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p28_irrigation__c08",
+      "passage_id": "v3_p28_irrigation__p07",
+      "subject": "Excess irrigation",
+      "metric": "nutrient_availability",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "(overflow or deep drainage)",
+      "time_horizon_years": null,
+      "evidence_span": "Excess irrigation\n(overflow or deep drainage) may leach plant nutrients from the soil.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p28_irrigation__c09",
+      "passage_id": "v3_p28_irrigation__p08",
+      "subject": "Soil salinity",
+      "metric": "salinity",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "by addition of water to the leaching requirements",
+      "time_horizon_years": null,
+      "evidence_span": "Soil salinity can be minimized by addition of water to the leaching requirements\nin order to maintain Soil Electrical Conductivity below threshold values.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p28_irrigation__c10",
+      "passage_id": "v3_p28_irrigation__p09",
+      "subject": "irrigation water",
+      "metric": "pollution_load",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "if the irrigation water is contaminated",
+      "time_horizon_years": null,
+      "evidence_span": "Soil contamination could increase if the irrigation water is contaminated\nas in case of grey water",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p28_irrigation__c11",
+      "passage_id": "v3_p28_irrigation__p10",
+      "subject": "Irrigation",
+      "metric": "pH",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Irrigation promotes crop/plant growth in the fields which adds organic matter to\nthe soil and hence reduces acidification.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p28_irrigation__c12",
+      "passage_id": "v3_p28_irrigation__p11",
+      "subject": "More organic matter",
+      "metric": "soil_biota",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "This organic matter increases soil biodiversity through decomposition\nwhen it comes into contact with soil and water.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p28_irrigation__c13",
+      "passage_id": "v3_p28_irrigation__p12",
+      "subject": "Some types of sprinkler irrigation",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "when drop size or velocity is too high",
+      "time_horizon_years": null,
+      "evidence_span": "Some types of sprinkler irrigation, when drop size or velocity is too high, may\ndestroy surface aggregates and create seals and crusts.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p28_irrigation__c14",
+      "passage_id": "v3_p28_irrigation__p14",
+      "subject": "Periodic irrigation",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "during the critical growth stages",
+      "time_horizon_years": null,
+      "evidence_span": "Periodic irrigation of food and fiber\ncrops reduces the crop water stress during the critical growth stages and boosts their production potential.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p28_irrigation__c15",
+      "passage_id": "v3_p28_irrigation__p23",
+      "subject": "Full irrigation",
+      "metric": "bulk_density",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "even after deep\ntillage",
+      "time_horizon_years": null,
+      "evidence_span": "Full irrigation cause a stronger compaction of surface soil even after deep\ntillage (Liu et al., 2016).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p28_irrigation__c16",
+      "passage_id": "v3_p28_irrigation__p30",
+      "subject": "irrigated agriculture",
+      "metric": "water_holding_capacity",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "in arid\nregions where the water resources are already stressed",
+      "time_horizon_years": null,
+      "evidence_span": "This is particularly true in arid\nregions where the water resources are already stressed.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p28_irrigation__c17",
+      "passage_id": "v3_p28_irrigation__p33",
+      "subject": "increased demand of water to\npromote SOC sequestration",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "In many parts of the world irrigation water is distributed\nproportionally among the farmers based on the size of their land\nholding.",
+      "time_horizon_years": null,
+      "evidence_span": "if there is an increased demand of water to\npromote SOC sequestration then there could be institutional\nlimitations to accommodate this request.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "irrigation",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "accumulation of plant residues",
+      "passage_id": "v3_p28_irrigation__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "irrigation",
+      "to_node": "SOC",
+      "effect": "mixed",
+      "condition": null,
+      "mechanism": "increased SOC mineralization rates",
+      "passage_id": "v3_p28_irrigation__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "irrigation",
+      "to_node": "biomass",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p28_irrigation__p01",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "irrigation",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "vegetation growth acting as a barrier",
+      "passage_id": "v3_p28_irrigation__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "irrigation",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p28_irrigation__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "excess irrigation",
+      "to_node": "nutrient_availability",
+      "effect": "decrease",
+      "condition": "overflow or deep drainage",
+      "mechanism": "leaching of plant nutrients",
+      "passage_id": "v3_p28_irrigation__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "irrigation",
+      "to_node": "salinity",
+      "effect": "decrease",
+      "condition": "addition of water to the leaching requirements",
+      "mechanism": "dissolving and leaching salts",
+      "passage_id": "v3_p28_irrigation__p08",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "irrigation water",
+      "to_node": "pollution_load",
+      "effect": "increase",
+      "condition": "if the irrigation water is contaminated",
+      "mechanism": null,
+      "passage_id": "v3_p28_irrigation__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "irrigation",
+      "to_node": "pH",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "addition of organic matter",
+      "passage_id": "v3_p28_irrigation__p10",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "organic matter",
+      "to_node": "soil_biota",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "decomposition",
+      "passage_id": "v3_p28_irrigation__p11",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "sprinkler irrigation",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": "high drop size or velocity",
+      "mechanism": "destroying surface aggregates",
+      "passage_id": "v3_p28_irrigation__p12",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "periodic irrigation",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": "during critical growth stages",
+      "mechanism": null,
+      "passage_id": "v3_p28_irrigation__p14",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "full irrigation",
+      "to_node": "bulk_density",
+      "effect": "increase",
+      "condition": "even after deep tillage",
+      "mechanism": null,
+      "passage_id": "v3_p28_irrigation__p23",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "irrigated agriculture",
+      "to_node": "water_holding_capacity",
+      "effect": "decrease",
+      "condition": "arid regions with stressed water resources",
+      "mechanism": null,
+      "passage_id": "v3_p28_irrigation__p30",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "increased demand of water to promote SOC sequestration",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "in many parts of the world irrigation water is distributed proportionally among the farmers based on the size of their land holding",
+      "mechanism": null,
+      "passage_id": "v3_p28_irrigation__p33",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "v3_p28_irrigation",
+    "doc_id": "fao2021_recarb_v3",
+    "model": "gemini-2.5-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 363,
+    "pdf_end": 375,
+    "manifest_practices": [
+      "irrigation"
+    ],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:27:36Z",
+    "pdf_sha256": "fb3818f69b0c208f"
+  }
+}

@@ -1,0 +1,761 @@
+{
+  "extraction_status": "ok",
+  "section_title": "1. Short-time effects of no-tillage in olive orchards in Lebanon",
+  "content_type": "case_study",
+  "summary": "This case study evaluates the impact of no-tillage on soil organic carbon (SOC) in olive orchards in sub-humid Mediterranean conditions in Lebanon. The study compared no-till with cover crops or spontaneous vegetation/herbicide application against conventional tillage and undisturbed woodlands. While no-till showed a slight increase in SOC, particularly in the humified fraction, and vertical stratification, it did not reach the levels of undisturbed woodlands within the study's short timeframe (approximately 5 years). The practice is considered potentially beneficial for soil moisture retention, nutrient cycling, and soil biodiversity, but faces barriers to adoption related to farmer perception, knowledge, and equipment.",
+  "passages": [
+    {
+      "passage_id": "v4_c01_notill_olive_lebanon__p01",
+      "heading_path": [
+        "1. Short-time effects of no-tillage in olive orchards in Lebanon"
+      ],
+      "text": "The effect of no tillage on the build-up of the soil organic carbon (SOC) was evaluated in olive orchards in sub-humid Mediterranean conditions. The studied fields covered nine series: four from North-Lebanon, three from Mount-Lebanon and two from South-Lebanon. Each series consisted of three olive orchards treated by conventional tillage (Photo 1), no-till with cover crops: vetch (Vicia sativa) (Photo 2) or spontaneous vegetation (Photo 3) or herbicide application. Woodlands covered by native oak/pine trees, selected from the proximity of the orchards, were considered as a control. From each orchard, composite soil samples were collected from two depths (0-10 cm and 10-30 cm). The comparison of soil organic carbon by pairs showed no difference between the no-till treatment and the undisturbed woodland, on one hand, and between olive orchards managed by tillage, no-till and herbicide application, on the other. No-till plots could be considered in an intermediate position between the tilled plots and the woodlands. This practice may not have been used for long enough (≈5 years) to allow a substantial build-up of SOC. In addition, the SOC in the humified fraction, associated with the fine mineral particles (<50 µm), was determined. This protected fraction could be the main cause for the enrichment of SOC in no-till systems. The humified SOC, plotted against the SOC in bulk soil, showed a slight increase in the no-till plots (57.2% of SOC) as compared to the conventional treatment (42.9% of SOC). The absence of disturbances caused a vertical stratification in the upper soil. In soils occupied by native vegetation 43 percent of the C stocks were in the top 10 cm, against 37 percent of the stocks in orchards. Further, stocks of organic carbon (0-30 cm) increased by 0.83 tC/ha/yr in the no-till orchards. Despite this short-term build-up, the stocks in these conservation plots were 20 percent smaller than in the woodlands.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "soil organic carbon",
+      "practices": [
+        "no_till",
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "humid"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c01_notill_olive_lebanon__p02",
+      "heading_path": [
+        "3. Context of the case study"
+      ],
+      "text": "Olive (Olea europea L.) holds a major place in Lebanese agriculture. The cultivated area of olives is estimated to be 563 km², which represents 8 percent of the total agricultural land (IDAL, 2014). Mostly rainfed, olive orchards are present in all governates from north to south with a recent expansion as irrigated in northern Bekaa valley (Verner et al., 2018). Orchards located at altitude may be subject to erosion, and thus to a deterioration of the soil quality and structure. In addition, the use of agricultural machinery is rather difficult in haphazard relief and narrow terraces. In these conditions, and hence the practice of no-till might be convenient and beneficial. The trial started on 4 ha in 2007/08, on area under no-till and its size increased to 562 ha the following season. This approach was tried in combination with leguminous cover crops in olive orchards in the Syrian Arab Republic and Lebanon (Jouni et al., 2012).",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "olive orchards",
+      "practices": [
+        "no_till",
+        "cover_crops"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "humid"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v4_c01_notill_olive_lebanon__p03",
+      "heading_path": [
+        "3. Context of the case study"
+      ],
+      "text": "This case study was conducted in warm temperate dry climatic conditions (sub-humid east Mediterranean) characterized by 800 mm of annual rainfall and an annual temperature close to 18 °C. Soils types were Luvisol, Regosol and Cambisol. Orchards treated by no-till were compared to those managed conventionally (tilled twice or three times a year). The comparison was undertaken by pairs from the same location (similar soil type and environmental conditions). In seven pairs out of nine, carbon stocks increased under no-till, as compared to tilled orchards. Following a short-term practice of no-till, associated with overwinter cover crops, this study aimed at studying changes in soil organic carbon. SOC were evaluated in olive orchards managed by no-till with cover crops, no-till with herbicides application, and conventional tillage. Soils from undisturbed woodlands served as a reference (Figure 1).",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "soil organic carbon",
+      "practices": [
+        "no_till",
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "dry_sub_humid"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v4_c01_notill_olive_lebanon__p04",
+      "heading_path": [
+        "5. Impact on soil organic carbon stocks"
+      ],
+      "text": "The baseline C stock was 58.7 t/ha in the upper 30 cm of tilled orchards, while the stock reached 62.5 t/ha in those managed by no-till (Table 1). This increase of 0.76 t/ha/yr was obtained over a short-term (circa 5 years) management. When separating the soil depths into 0-10 cm and 10-30 cm, the amounts of SOC0-10 cm were 21.2 to 23.2 t/ha in orchards and 34.1 t/ha in woodlands. In the deeper level, values of SOC10-30 cm ranged between 36-39 t/ha against 45 t/ha in the soils occupied by native vegetation. This indicates a potential to increase C storage, equal to some 12 t/ha in the top 10 cm, and to 9 t/ha in the 10-30 cm depths.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "soil organic carbon",
+      "practices": [
+        "no_till"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "dry_sub_humid"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c01_notill_olive_lebanon__p05",
+      "heading_path": [
+        "5. Impact on soil organic carbon stocks",
+        "Table 1. Carbon stocks obtained in olive orchards"
+      ],
+      "text": "Soil type\nTillage\nDuration\n(Years)\nNo-tillage with\ncover crops\nHerbicide\napplication\nAdditional\nC storage\n(tC/ha/yr)\nDepth\n(cm)\nC stock in\nundisturbed\nwoodland\n(tC/ha)\nLuvisol\nRegosol\n58.7\n62.5\n57.6\n5\n0.76\n0-30\n79.3\nCambisol\nOlive orchards managed by conventional tillage (baseline) no-tillage or by herbicide application, and in undisturbed\nwoodland, under warm temperate dry climatic conditions in Lebanon",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "soil organic carbon",
+      "practices": [
+        "no_till",
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "dry_sub_humid"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "v4_c01_notill_olive_lebanon__p06",
+      "heading_path": [
+        "6. Other benefits of the practice",
+        "6.1 Improvement of soil properties"
+      ],
+      "text": "Reduced soil disturbances may hasten the building-up of SOC in olive orchards. This could be an important step in promoting carbon sequestration and offsetting the effects of greenhouse gases, generated by Lebanese population in sectors such as power generation, transportation (MoE/UNDP/GEF, 2015). Other beneficial aspects may be an improved soil moisture retention (Jouni et al., 2012), and a reduction of the impact of rain drops on soil surfaces (Gómez et al., 2018) through greater infiltration.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "soil organic carbon",
+      "practices": [
+        "no_till"
+      ],
+      "metrics": [
+        "SOC",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c01_notill_olive_lebanon__p07",
+      "heading_path": [
+        "6. Other benefits of the practice",
+        "6.1 Improvement of soil properties"
+      ],
+      "text": "Some effects on soil nutritional status may be observed. Nutrients are absorbed by the cover crop and recycled minimizing the losses, and hence reducing the nutrients inputs to the olive trees. In addition, the reduced disruption of soil aggregates may promote soft-bodied soil microarthropods. Considered as biological indicators of soil quality, soil microarthropods increased in the absence of tillage in these olive orchards (Jdid, 2014).",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "soil properties",
+      "practices": [
+        "no_till",
+        "cover_crops"
+      ],
+      "metrics": [
+        "soil_biota",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c01_notill_olive_lebanon__p08",
+      "heading_path": [
+        "6. Other benefits of the practice",
+        "6.2 Minimization of threats to soil functions"
+      ],
+      "text": "This aspect was not evaluated in this case study, but cover crops reduced soil loss in Spanish olive orchards as compared to those under bare soil and managed by conventional tillage (Gómez et al., 2018).",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "soil erosion",
+      "practices": [
+        "cover_crops",
+        "no_till"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c01_notill_olive_lebanon__p09",
+      "heading_path": [
+        "6. Other benefits of the practice",
+        "6.2 Minimization of threats to soil functions"
+      ],
+      "text": "Improved nutrient cycling through the uptake by cover crops of available N, P and K in soils overwinter. This is especially applicable to non-legume cover crops (Rouphael et al., 2019). Fields under no-till presented an increase in soil organic matter, phosphorus and potassium contents. The benefits were cumulative in relation to years of implementation (Jouni et al., 2012).",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "nutrient cycling",
+      "practices": [
+        "no_till",
+        "cover_crops"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "soil_organic_matter"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c01_notill_olive_lebanon__p10",
+      "heading_path": [
+        "6. Other benefits of the practice",
+        "6.2 Minimization of threats to soil functions"
+      ],
+      "text": "In a previous work on overwinter cover crops, nitrate leaching was reduced if a non-legume or a mixture of two species (one legume plus one cereal) is present (Rouphael et al., 2019). Elsewhere in Sicily, cover crops grown as buffer strips provided a useful means of managing soil nitrate (Novara et al., 2013).",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "soil pollution",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c01_notill_olive_lebanon__p11",
+      "heading_path": [
+        "6. Other benefits of the practice",
+        "6.2 Minimization of threats to soil functions"
+      ],
+      "text": "In parallel to the study of soil organic carbon, an enumeration of soil microarthropods was conducted. The reduction in soil disturbances increased soil microarthropods especially the soft-bodied ones (Jdid, 2014).",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "soil biodiversity",
+      "practices": [
+        "no_till"
+      ],
+      "metrics": [
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c01_notill_olive_lebanon__p12",
+      "heading_path": [
+        "6. Other benefits of the practice",
+        "6.2 Minimization of threats to soil functions"
+      ],
+      "text": "An earlier work under no-till with a cover crop (vetch essentially) showed an increase in soil moisture (Jouni et al., 2012), an important soil property in rainfed orchards.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "soil water management",
+      "practices": [
+        "no_till",
+        "cover_crops"
+      ],
+      "metrics": [
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c01_notill_olive_lebanon__p13",
+      "heading_path": [
+        "6.5 Socio-economic benefits"
+      ],
+      "text": "Reduced addition of fertilizers due to better nutrients cycling\nImproved water management and its effect on rainfed olive production\nReduced expenses related to tillage, weed control\nGain related to potential grazing of small ruminants.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "socio-economic benefits",
+      "practices": [
+        "no_till",
+        "cover_crops"
+      ],
+      "metrics": [
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c01_notill_olive_lebanon__p14",
+      "heading_path": [
+        "7. Potential drawbacks to the practice",
+        "7.1 Tradeoffs with other threats to soil functions"
+      ],
+      "text": "No evidence of competition between the main crop and the cover crops was found. The reason for this is the fact that olive is rainfed and the cover crop is terminated relatively early. As such, the cover crop may retain higher moisture in soils.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "soil water management",
+      "practices": [
+        "cover_crops",
+        "no_till"
+      ],
+      "metrics": [
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c01_notill_olive_lebanon__p15",
+      "heading_path": [
+        "7.3 Conflict with other practices"
+      ],
+      "text": "The conflict is more in the willingness of growers to reduce tillage. Olive orchards may be tilled twice or three times per year. The objectives are the promotion of good soil aeration and the control of weeds. The occurrence of 'weeds' is not considered compatible with good managerial practices. For this, the application of herbicides was adopted relatively easily, especially in larger orchards. Also, severe weeds infestation was witnessed as part of conservation agriculture (Chalak et al., 2017).",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "conflict with other practices",
+      "practices": [
+        "no_till",
+        "conservation_agriculture"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c01_notill_olive_lebanon__p16",
+      "heading_path": [
+        "7.5 Other conflicts"
+      ],
+      "text": "One constraint mentioned by a landowner (Bassil D., personal communication) who was trying it, is the drying out of the cover vegetation in late spring/summer/early fall. This makes the field more liable to fire, a serious danger encountered in Mediterranean countries in late summer.",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "other conflicts",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "humid"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c01_notill_olive_lebanon__p17",
+      "heading_path": [
+        "9. Potential barriers for adoption",
+        "Table 4. Potential barriers to adoption"
+      ],
+      "text": "Barrier\nYES/NO\nCultural\nYes\nKnow-how needed about the sowing of cover crops and its\ntermination. Machinery or devices used for this could be shredders\nwith a very shallow incorporation of the plant material.\nSocial\nYes\nThere is a lack of willingness (Chalak et al., 2017) due to a number of\nissues, especially the perception of no-tillage by farmers.\nEconomic\nInstitutional\nYes\nLack of support and promotion by extension services\nLegal\nNo\nOlive growers are in general owners of their fields, so the legal right is\nnot applicable.\nKnowledge\nYes\nSee section 7.6.",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "barriers to adoption",
+      "practices": [
+        "no_till",
+        "cover_crops"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "table"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "v4_c01_notill_olive_lebanon__c01",
+      "passage_id": "v4_c01_notill_olive_lebanon__p01",
+      "subject": "SOC",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 57.2,
+      "unit": "percent",
+      "basis": "humified SOC",
+      "conditions": "no-till plots",
+      "time_horizon_years": null,
+      "evidence_span": "The humified SOC, plotted against the SOC in bulk soil, showed a slight increase in the no-till plots (57.2% of SOC) as compared to the conventional treatment (42.9% of SOC).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c01_notill_olive_lebanon__c02",
+      "passage_id": "v4_c01_notill_olive_lebanon__p01",
+      "subject": "organic carbon stocks",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": 0.83,
+      "unit": "t_ha",
+      "basis": "organic carbon (0-30 cm)",
+      "conditions": "no-till orchards",
+      "time_horizon_years": 1,
+      "evidence_span": "Further, stocks of organic carbon (0-30 cm) increased by 0.83 tC/ha/yr in the no-till orchards.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c01_notill_olive_lebanon__c03",
+      "passage_id": "v4_c01_notill_olive_lebanon__p01",
+      "subject": "organic carbon stocks",
+      "metric": "SOC",
+      "direction": "decrease",
+      "value": 20,
+      "unit": "percent",
+      "basis": "stocks in conservation plots",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Despite this short-term build-up, the stocks in these conservation plots were 20 percent smaller than in the woodlands.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c01_notill_olive_lebanon__c04",
+      "passage_id": "v4_c01_notill_olive_lebanon__p03",
+      "subject": "carbon stocks",
+      "metric": "SOC",
+      "direction": "increase",
+      "conditions": "under no-till, as compared to tilled orchards",
+      "evidence_span": "In seven pairs out of nine, carbon stocks increased under no-till, as compared to tilled orchards.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c01_notill_olive_lebanon__c05",
+      "passage_id": "v4_c01_notill_olive_lebanon__p04",
+      "subject": "C stock",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 3.8,
+      "unit": "t_ha",
+      "basis": "upper 30 cm",
+      "conditions": "no-till",
+      "time_horizon_years": 5,
+      "evidence_span": "The baseline C stock was 58.7 t/ha in the upper 30 cm of tilled orchards, while the stock reached 62.5 t/ha in those managed by no-till (Table 1).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c01_notill_olive_lebanon__c06",
+      "passage_id": "v4_c01_notill_olive_lebanon__p04",
+      "subject": "SOC",
+      "metric": "SOC",
+      "direction": "increase",
+      "value_low": 12,
+      "value_high": null,
+      "unit": "t_ha",
+      "basis": "top 10 cm",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "This indicates a potential to increase C storage, equal to some 12 t/ha in the top 10 cm, and to 9 t/ha in the 10-30 cm depths.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c01_notill_olive_lebanon__c07",
+      "passage_id": "v4_c01_notill_olive_lebanon__p04",
+      "subject": "SOC",
+      "metric": "SOC",
+      "direction": "increase",
+      "value_low": 9,
+      "value_high": null,
+      "unit": "t_ha",
+      "basis": "10-30 cm depths",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "This indicates a potential to increase C storage, equal to some 12 t/ha in the top 10 cm, and to 9 t/ha in the 10-30 cm depths.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c01_notill_olive_lebanon__c08",
+      "passage_id": "v4_c01_notill_olive_lebanon__p06",
+      "subject": "soil moisture retention",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "conditions": "improved",
+      "evidence_span": "Other beneficial aspects may be an improved soil moisture retention (Jouni et al., 2012), and a reduction of the impact of rain drops on soil surfaces (Gómez et al., 2018) through greater infiltration.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c01_notill_olive_lebanon__c09",
+      "passage_id": "v4_c01_notill_olive_lebanon__p07",
+      "subject": "soil microarthropods",
+      "metric": "soil_biota",
+      "direction": "increase",
+      "conditions": "absence of tillage",
+      "evidence_span": "Considered as biological indicators of soil quality, soil microarthropods increased in the absence of tillage in these olive orchards (Jdid, 2014).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c01_notill_olive_lebanon__c10",
+      "passage_id": "v4_c01_notill_olive_lebanon__p08",
+      "subject": "soil erosion",
+      "metric": "erosion",
+      "direction": "decrease",
+      "conditions": "cover crops",
+      "evidence_span": "cover crops reduced soil loss in Spanish olive orchards as compared to those under bare soil and managed by conventional tillage (Gómez et al., 2018).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c01_notill_olive_lebanon__c11",
+      "passage_id": "v4_c01_notill_olive_lebanon__p09",
+      "subject": "soil organic matter, phosphorus and potassium contents",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "conditions": "fields under no-till",
+      "evidence_span": "Fields under no-till presented an increase in soil organic matter, phosphorus and potassium contents.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c01_notill_olive_lebanon__c12",
+      "passage_id": "v4_c01_notill_olive_lebanon__p09",
+      "subject": "nutrient cycling",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "conditions": "uptake by cover crops of available N, P and K in soils overwinter",
+      "evidence_span": "Improved nutrient cycling through the uptake by cover crops of available N, P and K in soils overwinter.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c01_notill_olive_lebanon__c13",
+      "passage_id": "v4_c01_notill_olive_lebanon__p10",
+      "subject": "nitrate leaching",
+      "metric": "nitrogen",
+      "direction": "decrease",
+      "conditions": "overwinter cover crops, non-legume or a mixture of two species (one legume plus one cereal)",
+      "evidence_span": "In a previous work on overwinter cover crops, nitrate leaching was reduced if a non-legume or a mixture of two species (one legume plus one cereal) is present (Rouphael et al., 2019).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c01_notill_olive_lebanon__c14",
+      "passage_id": "v4_c01_notill_olive_lebanon__p11",
+      "subject": "soil microarthropods",
+      "metric": "soil_biota",
+      "direction": "increase",
+      "conditions": "reduction in soil disturbances",
+      "evidence_span": "The reduction in soil disturbances increased soil microarthropods especially the soft-bodied ones (Jdid, 2014).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c01_notill_olive_lebanon__c15",
+      "passage_id": "v4_c01_notill_olive_lebanon__p12",
+      "subject": "soil moisture",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "conditions": "no-till with a cover crop (vetch essentially)",
+      "evidence_span": "An earlier work under no-till with a cover crop (vetch essentially) showed an increase in soil moisture (Jouni et al., 2012), an important soil property in rainfed orchards.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c01_notill_olive_lebanon__c16",
+      "passage_id": "v4_c01_notill_olive_lebanon__p14",
+      "subject": "soil moisture",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "conditions": "cover crop may retain higher moisture in soils",
+      "evidence_span": "As such, the cover crop may retain higher moisture in soils.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "no_till",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "enrichment of SOC in the humified fraction",
+      "passage_id": "v4_c01_notill_olive_lebanon__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "no_till",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "condition": "no-till orchards",
+      "mechanism": null,
+      "passage_id": "v4_c01_notill_olive_lebanon__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "no_till",
+      "to_node": "SOC",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c01_notill_olive_lebanon__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "no_till",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "as compared to tilled orchards",
+      "mechanism": null,
+      "passage_id": "v4_c01_notill_olive_lebanon__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "no_till",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "no-till",
+      "mechanism": null,
+      "passage_id": "v4_c01_notill_olive_lebanon__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "no_till",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c01_notill_olive_lebanon__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "no_till",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": "improved",
+      "mechanism": null,
+      "passage_id": "v4_c01_notill_olive_lebanon__p06",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "no_till",
+      "to_node": "soil_biota",
+      "effect": "increase",
+      "condition": "absence of tillage",
+      "mechanism": null,
+      "passage_id": "v4_c01_notill_olive_lebanon__p07",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c01_notill_olive_lebanon__p08",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "no_till",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": "fields under no-till",
+      "mechanism": null,
+      "passage_id": "v4_c01_notill_olive_lebanon__p09",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": "uptake by cover crops of available N, P and K in soils overwinter",
+      "mechanism": null,
+      "passage_id": "v4_c01_notill_olive_lebanon__p09",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "nitrogen",
+      "effect": "decrease",
+      "condition": "overwinter cover crops, non-legume or a mixture of two species (one legume plus one cereal)",
+      "mechanism": null,
+      "passage_id": "v4_c01_notill_olive_lebanon__p10",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "no_till",
+      "to_node": "soil_biota",
+      "effect": "increase",
+      "condition": "reduction in soil disturbances",
+      "mechanism": null,
+      "passage_id": "v4_c01_notill_olive_lebanon__p11",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "no_till",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": "no-till with a cover crop (vetch essentially)",
+      "mechanism": null,
+      "passage_id": "v4_c01_notill_olive_lebanon__p12",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": "cover crop may retain higher moisture in soils",
+      "mechanism": null,
+      "passage_id": "v4_c01_notill_olive_lebanon__p14",
+      "strength_stated": "moderate"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "v4_c01_notill_olive_lebanon",
+    "doc_id": "fao2021_recarb_v4",
+    "model": "gemini-2.5-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 27,
+    "pdf_end": 36,
+    "manifest_practices": [
+      "no_till"
+    ],
+    "manifest_climate_zones": [
+      "semi-arid"
+    ],
+    "extracted_at": "2026-09-18T08:30:12Z",
+    "pdf_sha256": "81b5781bd10309b1"
+  }
+}

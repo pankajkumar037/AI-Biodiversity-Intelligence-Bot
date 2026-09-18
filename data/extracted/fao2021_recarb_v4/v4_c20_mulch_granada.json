@@ -1,0 +1,967 @@
+{
+  "extraction_status": "ok",
+  "section_title": "20. Application of mulching in subtropical orchards in Granada, Spain",
+  "content_type": "case_study",
+  "summary": "This case study investigates the application of pruning residues as mulch in three different subtropical orchards (avocado, cherimoya, and mango) in Granada, Spain, over a five-year period. The study assessed the impact of mulching on soil organic carbon stocks and other physicochemical properties in a warm temperate dry climate. The findings suggest that mulching with pruning residues can improve soil quality, increase carbon storage, and potentially reduce soil erosion and improve water management. The study also touches upon the possibility of scaling up these practices to other agroecosystems and discusses potential barriers to adoption.",
+  "passages": [
+    {
+      "passage_id": "v4_c20_mulch_granada__p01",
+      "heading_path": [
+        "1. Related practices and hot-spot"
+      ],
+      "text": "No-till, terracing, organic mulch, cover cropping; Drylands",
+      "page_start": 213,
+      "page_end": 213,
+      "topic": "mulching",
+      "practices": [
+        "mulching",
+        "cover_crops",
+        "terracing",
+        "no_till"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p02",
+      "heading_path": [
+        "2. Description of the case study"
+      ],
+      "text": "The geographical extension of subtropical crops has been increasing in the Mediterranean area in the recent\nyears. These crops are characterized by their disposition in terraces due to the geographical location and\nproximity to coastal zones, apart from producing large amounts of pruning waste, which can favour the emission\nof CO2 including their burning. Being chipped and applied on soil surface, these prunings can improve soil\nquality and have a great impact on carbon storage (Jiménez et al, 2016). This is especially valuable in a hot and\ndry climate which is per se favoring mineralization, impeding humification, limiting crop growth and\ncomplicating land recovery after degradation (Pardo et al., 2017).",
+      "page_start": 213,
+      "page_end": 213,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "humid",
+        "dry_sub_humid"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p03",
+      "heading_path": [
+        "2. Description of the case study"
+      ],
+      "text": "For five years we conducted an experiment trial in which we tested the application of pruning residues as mulch\nin three different subtropical orchards. The experimental design consisted in the application of prunings from\navocado (Persea americana), cherimoya (Annona cherimola) and mango (Mangifera indica) trees, placed on\nthe surface soil underneath their correspondent trees, as well as garden cuttings from the green areas\nsurrounding the municipality. Mulching effect was assessed with a focus on chemical fractionation of soil\norganic carbon, attending to the diverse stabilization mechanisms that may later differ into different carbon\npools. Furthermore, other physicochemical properties (bulk density, soil humidity, cation exchange capacity)\nwere evaluated.",
+      "page_start": 213,
+      "page_end": 213,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "SOC",
+        "bulk_density",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p04",
+      "heading_path": [
+        "3. Context of the case study"
+      ],
+      "text": "The study was conducted in the Experimental Farm “El Zahorí” (36°45′54.2″N, 3°39′55.0″W), located in\nthe municipality of Almuñécar (Granada, Southern Spain) at the elevation of 180 m a.s.l. This research has been\nfinancially supported by the Spanish Ministry of Economy and Competitiveness (Project CGL-2013-46665-R)\nand the European Regional Development Fund (ERDF).",
+      "page_start": 214,
+      "page_end": 214,
+      "topic": "mulching",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p05",
+      "heading_path": [
+        "3. Context of the case study"
+      ],
+      "text": "The predominant climate of the study area is Warm Temperate Dry (IPCC, 2019) with an average annual\ntemperature of 18.3°C and average rainfall of 334 mm. Soil in this area developed on weathered schists and is\nclassified as Eutric Escalic Anthrosol (IUSS Working Group WRB, 2015). In 2013 soil samplings revealed a\nsandy loam soil texture, with gravels being frequent in depth and a neutral to slightly alkaline pH (7 – 8.3).\nSelected crops to carry out the trial were: mango (Mangifera indica L.), avocado (Persea americana Mill.) and\ncherimoya (Annona cherimola Mill.). Orchards were established in monospecific patches on terraces, facing the\nsea in different orientations. All crops require individual management, concerning pruning intensity, irrigation\nand fertilization (via fertigation). Furthermore, the general management includes continuous ground cover\nvegetation and two annual mowing events. Treatments were applied on tree-pairs, separated by one untreated\ntree. The experiment started in 2013 with the first mulch application, following a complete randomized block\ndesign where prunings were applied annually.",
+      "page_start": 214,
+      "page_end": 214,
+      "topic": "mulching",
+      "practices": [
+        "mulching",
+        "cover_crops",
+        "irrigation"
+      ],
+      "metrics": [
+        "pH",
+        "rainfall"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p06",
+      "heading_path": [
+        "4. Possibility of scaling up"
+      ],
+      "text": "The results from this project are intended to be extensively applied in other agroecosystems such as olive groves.\nThese research outcomes aim to be successfully applied in other crops not necessarily disposed in terraces.\nApart from the parameters evaluated and presented along this document, we encourage further research focused\non microbial population, including enzymatic activities related with the C and N cycles at different times of the\nyear, as well as basal and field respiration.",
+      "page_start": 214,
+      "page_end": 214,
+      "topic": "mulching",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p07",
+      "heading_path": [
+        "5. Impact on soil organic carbon stocks"
+      ],
+      "text": "Table 80 summarizes the evolution of SOC stocks in the 5-year study. The baseline SOC was calculated 25, 15\nand 10 years after orchard establishment in avocado, cherimoya and mango respectively.",
+      "page_start": 215,
+      "page_end": 215,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p08",
+      "heading_path": [
+        "5. Impact on soil organic carbon stocks"
+      ],
+      "text": "It summarizes the evolution of SOC stocks in the 5-year study. The baseline SOC was calculated 25, 15 and 10 years after\norchard establishment in avocado, cherimoya and mango respectively. Climate is warm temperate fry according to the\nIPCC (2019). Soils are Eutric Escalic Anthrosol (IUSS Working Group WRB, 2015). Measurements were made on 0-4 cm\ndepth",
+      "page_start": 215,
+      "page_end": 215,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p09",
+      "heading_path": [
+        "6. Other benefits of the practice",
+        "6.1. Improvement of soil properties"
+      ],
+      "text": "Bulk density was reduced significantly after four years of mulching with pruning residues inside the avocado\norchard. In 2013 the average bulk density of fine earth was 1.23 g/cm³, while it was 1.14 g/cm³ in 2017 as a\nresult of an elevated SOC stock. All crops mulched with garden cuttings show significant differences in bulk\ndensity of fine earth after four years. Average bulk density decreased from 1.35 to 1.09 g/cm³, from 1.55 to\n1.38 g/cm³ and from 1.52 to 1.41 g/cm³ for avocado, cherimoya and mango orchard plots, respectively. These\nbulk densities were used to determinate calculate equivalent mass SOC stocks.",
+      "page_start": 216,
+      "page_end": 216,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "bulk_density",
+        "SOC"
+      ],
+      "climate_zones": [],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p10",
+      "heading_path": [
+        "6. Other benefits of the practice",
+        "6.1. Improvement of soil properties"
+      ],
+      "text": "Increased soil nutrients content (nitrogen and potassium) under pruning (Reyes-Martín et al., 2020).",
+      "page_start": 216,
+      "page_end": 216,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "nitrogen"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p11",
+      "heading_path": [
+        "6. Other benefits of the practice",
+        "6.1. Improvement of soil properties",
+        "Biological properties"
+      ],
+      "text": "It was showed in 2017 that the oribatid mite community under all prunings was numerically higher and more\ncomplex in terms of diversity index than those in their respective controls (Márquez-San-Emeterio et al.,\n2017b).",
+      "page_start": 216,
+      "page_end": 216,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "soil_biota",
+        "species_richness"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p12",
+      "heading_path": [
+        "6. Other benefits of the practice",
+        "6.2 Minimization of threats to soil functions"
+      ],
+      "text": "The application of mulching and other organic coverages has proved to\nstrongly improve soil aggregation and moisture storage. It also serves as\nphysical barrier against evapotranspiration losses from soil, increasing\ninfiltration and lowering runoff.",
+      "page_start": 216,
+      "page_end": 216,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "erosion"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p13",
+      "heading_path": [
+        "6. Other benefits of the practice",
+        "6.2 Minimization of threats to soil functions"
+      ],
+      "text": "Preliminary results about the biochemical characterization of applied\nmulch showed that its application significantly increased the nutrient\ncontent in soils under pruning (Reyes-Martín et al., 2020).",
+      "page_start": 216,
+      "page_end": 216,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "nutrient_availability"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p14",
+      "heading_path": [
+        "6. Other benefits of the practice",
+        "6.2 Minimization of threats to soil functions"
+      ],
+      "text": "Previous studies within this project evaluated the mesofauna community\nof Oribatida individuals. These results showed that the oribatid mite\ncommunity under all prunings was numerically higher and more\ncomplex in terms of diversity index than those in their respective\ncontrols (Márquez-San-Emeterio et al., 2017b).",
+      "page_start": 216,
+      "page_end": 216,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "soil_biota",
+        "species_richness"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p15",
+      "heading_path": [
+        "6. Other benefits of the practice",
+        "Soil threats"
+      ],
+      "text": "Use of mulching and other plant covers in terrace crops has optimized\nthe use of irrigation water by increasing contact surface within the soil-\nwater phase, as well as minimized excessive water runoff and, therefore,\nreduced socio-economic impact (Durán-Zuazo et al., 2013; recent data\nnot published).",
+      "page_start": 217,
+      "page_end": 217,
+      "topic": "mulching",
+      "practices": [
+        "mulching",
+        "cover_crops"
+      ],
+      "metrics": [
+        "soil_moisture"
+      ],
+      "climate_zones": [],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p16",
+      "heading_path": [
+        "6. Other benefits of the practice",
+        "6.4 Mitigation of and adaptation to climate change"
+      ],
+      "text": "Adopting pruning application avoids 0.13 t CO2eq/ha/yr which would be set free by conventional burning of\nwood residues (based on formulas in Akagi et al., 2011). However, additional fuel usage for wood shredding\nleads to emissions of 0.11 t CO2eq/ha/yr (Dones et al., 2007).",
+      "page_start": 217,
+      "page_end": 217,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p17",
+      "heading_path": [
+        "6. Other benefits of the practice",
+        "6.4 Mitigation of and adaptation to climate change"
+      ],
+      "text": "Additionally, the practice allows for reduction of mineral fertilizers due to additional plant material input.\nPresent fertilization scheme leads to 9.95, 6.95 and 6.3 t CO2eq/ha/yr in avocado, cherimoya and mango,\nrespectively (Bouwman, Boumans and Batjes, 2002; Ecoinvent Centre, 2007).",
+      "page_start": 217,
+      "page_end": 217,
+      "topic": "mulching",
+      "practices": [
+        "mulching",
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p18",
+      "heading_path": [
+        "6. Other benefits of the practice",
+        "6.5 Socio-economic benefits"
+      ],
+      "text": "Cost-effective discharge of garden cuttings for municipalities or other responsible bodies. Major return\n(pruning residues) and input (garden cuttings) of organic matter leads to an appropriate use and reduction of\nindustrial fertilizers (Ye et al., 2020).",
+      "page_start": 217,
+      "page_end": 217,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p19",
+      "heading_path": [
+        "7. Potential drawbacks to the practice",
+        "7.1 Tradeoffs with other threats to soil functions"
+      ],
+      "text": "The application of external prunings (those from gardens) could result in\na significant nutrient imbalance that may alter soil physicochemical\nproperties such pH and cation-exchange capacity (CEC). Benito et al.\n(2006) reported some of these changes due to the application of\ncomposted pruning material.",
+      "page_start": 218,
+      "page_end": 218,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "pH"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p20",
+      "heading_path": [
+        "7. Potential drawbacks to the practice",
+        "7.1 Tradeoffs with other threats to soil functions"
+      ],
+      "text": "An external source of mulch material, in this case garden pruning, can\ncause soil contamination issues due to the appearance of pathogens\nand chemical traceability of fertilizers, if not treated prior to its\napplication.",
+      "page_start": 218,
+      "page_end": 218,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "pollution_load"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p21",
+      "heading_path": [
+        "7. Potential drawbacks to the practice",
+        "7.2 Decreases in production (food/fuel/feed/timber/fibre)"
+      ],
+      "text": "Despite the positive effects of mulch on soil, which consequently improves crop conditions, no significant\nchange of the nutrient concentration of fruits (cherimoya) could be observed over the study period. For more\ninformation, we recently published an article in which mulch application and potential nutritional changes in\ncherimoya fruit are discussed (García-Carmona et al., 2020).",
+      "page_start": 218,
+      "page_end": 218,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "nutrient_availability"
+      ],
+      "climate_zones": [],
+      "land_use": [
+        "orchard"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p22",
+      "heading_path": [
+        "8. Recommendations before implementing the\npractice"
+      ],
+      "text": "We highly recommend pre-treating of only those cuttings coming from garden areas, due to their complexity\nand diverse origin. This plant material may be contaminated by herbicides and/or pesticides. This pre-treatment\ncould be made by a conventional composting process, which application has been effectively tested in other case\nstudies to remove any pathogen or pollution from chemical treatments (Benito et al., 2006).",
+      "page_start": 218,
+      "page_end": 218,
+      "topic": "mulching",
+      "practices": [
+        "mulching",
+        "compost"
+      ],
+      "metrics": [
+        "pollution_load"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p23",
+      "heading_path": [
+        "9. Potential barriers for adoption"
+      ],
+      "text": "Non applicable in heavily inclined terrain without terraces due to the physical\ninstability of prunings applied on the soil surface.",
+      "page_start": 219,
+      "page_end": 219,
+      "topic": "mulching",
+      "practices": [
+        "mulching",
+        "terracing"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p24",
+      "heading_path": [
+        "9. Potential barriers for adoption"
+      ],
+      "text": "In collaboration with institutions (i.e. city hall) and other research centers\n(Andalusian Institute of Agricultural and Fisheries Research and Training, IFAPA;\nSpanish Council for Research, CSIC), the organization of short courses, workshops\nand other events could be possible, covering all types of audience (farmers,\nstakeholders and decision-makers, internship students, etc.).",
+      "page_start": 219,
+      "page_end": 219,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p25",
+      "heading_path": [
+        "9. Potential barriers for adoption"
+      ],
+      "text": "It may entail initial investment for purchasing shredding machines, in addition to an\nadditional effort for shredding and distribution of wood chips.",
+      "page_start": 219,
+      "page_end": 219,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c20_mulch_granada__p26",
+      "heading_path": [
+        "9. Potential barriers for adoption"
+      ],
+      "text": "Lack of experience on the practice of this technique in these areas.",
+      "page_start": 219,
+      "page_end": 219,
+      "topic": "mulching",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [],
+      "climate_zones": [],
+      "land_use": [],
+      "content_role": "constraint"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "v4_c20_mulch_granada__c01",
+      "passage_id": "v4_c20_mulch_granada__p02",
+      "subject": "pruning residues applied on soil surface",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "hot and dry climate",
+      "time_horizon_years": null,
+      "evidence_span": "Being chipped and applied on soil surface, these prunings can improve soil\nquality and have a great impact on carbon storage (Jiménez et al, 2016).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c20_mulch_granada__c02",
+      "passage_id": "v4_c20_mulch_granada__p09",
+      "subject": "mulching with pruning residues",
+      "metric": "bulk_density",
+      "direction": "decrease",
+      "value": 1.14,
+      "value_low": null,
+      "value_high": null,
+      "unit": "g_kg",
+      "basis": "fine earth",
+      "conditions": "after four years",
+      "time_horizon_years": 4,
+      "evidence_span": "In 2013 the average bulk density of fine earth was 1.23 g/cm³, while it was 1.14 g/cm³ in 2017 as a\nresult of an elevated SOC stock.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c20_mulch_granada__c03",
+      "passage_id": "v4_c20_mulch_granada__p09",
+      "subject": "mulching with garden cuttings",
+      "metric": "bulk_density",
+      "direction": "decrease",
+      "value": null,
+      "value_low": 1.09,
+      "value_high": 1.35,
+      "unit": "g_kg",
+      "basis": "fine earth",
+      "conditions": "after four years",
+      "time_horizon_years": 4,
+      "evidence_span": "Average bulk density decreased from 1.35 to 1.09 g/cm³, from 1.55 to\n1.38 g/cm³ and from 1.52 to 1.41 g/cm³ for avocado, cherimoya and mango orchard plots, respectively.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c20_mulch_granada__c04",
+      "passage_id": "v4_c20_mulch_granada__p10",
+      "subject": "pruning",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Increased soil nutrients content (nitrogen and potassium) under pruning (Reyes-Martín et al., 2020).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c20_mulch_granada__c05",
+      "passage_id": "v4_c20_mulch_granada__p11",
+      "subject": "prunings",
+      "metric": "soil_biota",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": "count",
+      "basis": "oribatid mite community",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "It was showed in 2017 that the oribatid mite community under all prunings was numerically higher and more\ncomplex in terms of diversity index than those in their respective controls (Márquez-San-Emeterio et al.,\n2017b).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c20_mulch_granada__c06",
+      "passage_id": "v4_c20_mulch_granada__p12",
+      "subject": "mulching and other organic coverages",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "moisture storage",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "The application of mulching and other organic coverages has proved to\nstrongly improve soil aggregation and moisture storage.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c20_mulch_granada__c07",
+      "passage_id": "v4_c20_mulch_granada__p13",
+      "subject": "applied mulch",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Preliminary results about the biochemical characterization of applied\nmulch showed that its application significantly increased the nutrient\ncontent in soils under pruning (Reyes-Martín et al., 2020).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c20_mulch_granada__c08",
+      "passage_id": "v4_c20_mulch_granada__p14",
+      "subject": "prunings",
+      "metric": "soil_biota",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": "count",
+      "basis": "oribatid mite community",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "These results showed that the oribatid mite\ncommunity under all prunings was numerically higher and more\ncomplex in terms of diversity index than those in their respective\ncontrols (Márquez-San-Emeterio et al., 2017b).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c20_mulch_granada__c09",
+      "passage_id": "v4_c20_mulch_granada__p15",
+      "subject": "mulching and other plant covers in terrace crops",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "water use",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Use of mulching and other plant covers in terrace crops has optimized\nthe use of irrigation water by increasing contact surface within the soil-\nwater phase, as well as minimized excessive water runoff and, therefore,\nreduced socio-economic impact (Durán-Zuazo et al., 2013; recent data\nnot published).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c20_mulch_granada__c10",
+      "passage_id": "v4_c20_mulch_granada__p16",
+      "subject": "Adopting pruning application",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": 0.13,
+      "value_low": null,
+      "value_high": null,
+      "unit": "t_ha",
+      "basis": "CO2eq",
+      "conditions": null,
+      "time_horizon_years": 1,
+      "evidence_span": "Adopting pruning application avoids 0.13 t CO2eq/ha/yr which would be set free by conventional burning of\nwood residues (based on formulas in Akagi et al., 2011).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c20_mulch_granada__c11",
+      "passage_id": "v4_c20_mulch_granada__p17",
+      "subject": "mulching",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": "t_ha",
+      "basis": "CO2eq",
+      "conditions": null,
+      "time_horizon_years": 1,
+      "evidence_span": "Present fertilization scheme leads to 9.95, 6.95 and 6.3 t CO2eq/ha/yr in avocado, cherimoya and mango,\nrespectively (Bouwman, Boumans and Batjes, 2002; Ecoinvent Centre, 2007).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c20_mulch_granada__c12",
+      "passage_id": "v4_c20_mulch_granada__p19",
+      "subject": "external prunings (from gardens)",
+      "metric": "pH",
+      "direction": "mixed",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "The application of external prunings (those from gardens) could result in\na significant nutrient imbalance that may alter soil physicochemical\nproperties such pH and cation-exchange capacity (CEC).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c20_mulch_granada__c13",
+      "passage_id": "v4_c20_mulch_granada__p20",
+      "subject": "garden pruning mulch",
+      "metric": "pollution_load",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "if not treated prior to its application",
+      "time_horizon_years": null,
+      "evidence_span": "An external source of mulch material, in this case garden pruning, can\ncause soil contamination issues due to the appearance of pathogens\nand chemical traceability of fertilizers, if not treated prior to its\napplication.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c20_mulch_granada__c14",
+      "passage_id": "v4_c20_mulch_granada__p21",
+      "subject": "mulch application",
+      "metric": "nutrient_availability",
+      "direction": "no_change",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "fruit (cherimoya)",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Despite the positive effects of mulch on soil, which consequently improves crop conditions, no significant\nchange of the nutrient concentration of fruits (cherimoya) could be observed over the study period.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "mulching",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "hot and dry climate",
+      "mechanism": null,
+      "passage_id": "v4_c20_mulch_granada__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mulching",
+      "to_node": "bulk_density",
+      "effect": "decrease",
+      "condition": "after four years",
+      "mechanism": null,
+      "passage_id": "v4_c20_mulch_granada__p09",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "mulching",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c20_mulch_granada__p10",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mulching",
+      "to_node": "soil_biota",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c20_mulch_granada__p11",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "mulching",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "improves soil aggregation and moisture storage",
+      "passage_id": "v4_c20_mulch_granada__p12",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "mulching",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "physical barrier against evapotranspiration losses from soil, increasing infiltration and lowering runoff",
+      "passage_id": "v4_c20_mulch_granada__p12",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "mulching",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c20_mulch_granada__p13",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mulching",
+      "to_node": "soil_biota",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c20_mulch_granada__p14",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "mulching",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "increasing contact surface within the soil-water phase, minimized excessive water runoff",
+      "passage_id": "v4_c20_mulch_granada__p15",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "mulching",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c20_mulch_granada__p16",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mulching",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c20_mulch_granada__p17",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mulching",
+      "to_node": "pH",
+      "effect": "mixed",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c20_mulch_granada__p19",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mulching",
+      "to_node": "pollution_load",
+      "effect": "increase",
+      "condition": "if not treated prior to its application",
+      "mechanism": null,
+      "passage_id": "v4_c20_mulch_granada__p20",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "mulching",
+      "to_node": "nutrient_availability",
+      "effect": "no_change",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c20_mulch_granada__p21",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Mulching with pruning residues in subtropical orchards",
+    "system_type": "orchard",
+    "tree_species": [
+      "Persea americana",
+      "Annona cherimola",
+      "Mangifera indica"
+    ],
+    "crop_species": [],
+    "region_of_adoption": [
+      "Granada, Spain",
+      "Mediterranean area"
+    ],
+    "rainfall_mm_low": 334,
+    "rainfall_mm_high": 334,
+    "soil_requirements": "Eutric Escalic Anthrosol, sandy loam texture, neutral to slightly alkaline pH (7 – 8.3)",
+    "establishment_notes": "Experiment started in 2013 with the first mulch application, following a complete randomized block\ndesign where prunings were applied annually.",
+    "stated_benefits": [
+      "Improve soil quality",
+      "Impact on carbon storage",
+      "Favors mineralization",
+      "Impedes humification",
+      "Limits crop growth",
+      "Complicates land recovery after degradation",
+      "Improve soil aggregation",
+      "Improve moisture storage",
+      "Physical barrier against evapotranspiration losses from soil",
+      "Increases infiltration",
+      "Lowers runoff",
+      "Increased soil nutrients content (nitrogen and potassium)",
+      "Numerically higher and more complex oribatid mite community in terms of diversity index",
+      "Optimized the use of irrigation water",
+      "Minimized excessive water runoff",
+      "Reduced socio-economic impact",
+      "Avoids CO2 emissions from burning wood residues",
+      "Reduction of mineral fertilizers",
+      "Cost-effective discharge of garden cuttings",
+      "Appropriate use and reduction of industrial fertilizers"
+    ],
+    "stated_constraints": [
+      "Significant nutrient imbalance that may alter soil physicochemical properties such pH and cation-exchange capacity",
+      "Soil contamination issues due to the appearance of pathogens and chemical traceability of fertilizers, if not treated prior to its application",
+      "No significant change of the nutrient concentration of fruits (cherimoya) observed",
+      "Non applicable in heavily inclined terrain without terraces due to the physical instability of prunings applied on the soil surface",
+      "May entail initial investment for purchasing shredding machines",
+      "Additional effort for shredding and distribution of wood chips",
+      "Lack of experience on the practice of this technique in these areas"
+    ]
+  },
+  "_meta": {
+    "unit_id": "v4_c20_mulch_granada",
+    "doc_id": "fao2021_recarb_v4",
+    "model": "gemini-2.5-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 237,
+    "pdf_end": 247,
+    "manifest_practices": [
+      "mulching"
+    ],
+    "manifest_climate_zones": [
+      "semi-arid"
+    ],
+    "extracted_at": "2026-09-18T08:32:34Z",
+    "pdf_sha256": "be3ceac0cb926e13"
+  }
+}

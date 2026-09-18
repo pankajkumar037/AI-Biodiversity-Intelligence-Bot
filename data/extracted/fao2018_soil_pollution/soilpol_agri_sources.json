@@ -1,0 +1,249 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Agricultural and livestock activities",
+  "content_type": "assessment",
+  "summary": "This document identifies agricultural and livestock activities as major sources of soil pollution, including the use of agrochemicals, fertilizers, manure, and irrigation with poor-quality water. It highlights the accumulation of heavy metals, nitrogen, and phosphorus, and discusses the environmental and health risks associated with these pollutants, as well as the role of management practices like composting.",
+  "passages": [
+    {
+      "passage_id": "soilpol_agri_sources__p01",
+      "heading_path": [
+        "1.3.2.6 | AGRICULTURAL AND LIVESTOCK ACTIVITIES"
+      ],
+      "text": "The different agricultural sources of soil pollutants include agrochemical sources, such as fertilizers and animal manure, and pesticides. Trace metals from these agrochemicals, such as, Cu, Cd, Pb and Hg, are also considered soil pollutants as they can impair plant metabolism and decrease crop productivity.",
+      "page_start": 15,
+      "page_end": 15,
+      "topic": "Agricultural sources of soil pollution",
+      "practices": [],
+      "metrics": [
+        "nutrient_availability",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "soilpol_agri_sources__p02",
+      "heading_path": [
+        "1.3.2.6 | AGRICULTURAL AND LIVESTOCK ACTIVITIES"
+      ],
+      "text": "Water sources for irrigation can also cause soil pollution if they consist of waste water and urban sewage. Excess N and heavy metals are not only a source of soil pollution, but also a threat to food security, water quality and human health, when they enter the food chain.",
+      "page_start": 15,
+      "page_end": 15,
+      "topic": "Irrigation and pollution",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "nitrogen",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "soilpol_agri_sources__p03",
+      "heading_path": [
+        "SOIL POLLUTION: A HIDDEN REALITY"
+      ],
+      "text": "Excessive application of fertilizers and manure or inefficient use of the main nutrients (N and P) in fertilizers are the main contributors to environmental issues linked to agriculture. These two nutrients are a source of diffuse pollution. Excess N can also be lost to the atmosphere through greenhouse gas emissions, and excess P contributes to the eutrophication of neighbouring sources of water.",
+      "page_start": 16,
+      "page_end": 16,
+      "topic": "Fertilizer and manure management",
+      "practices": [
+        "manure"
+      ],
+      "metrics": [
+        "nitrogen",
+        "nutrient_availability",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "soilpol_agri_sources__p04",
+      "heading_path": [
+        "SOIL POLLUTION: A HIDDEN REALITY"
+      ],
+      "text": "Compost and animal residues are an important source of nutrients. They contribute to achieving a circular economy, reducing the environmental impacts of waste and increasing organic matter and nitrogen content in soils while reducing external inputs in agroecosystems. Xia et al. reported an overall increase in crop production of 4.4 percent when manure partially substituted synthetic fertilizers. The substitution enhanced crop uptakes of N and other nutrients, and significantly reduced N losses by volatilization, erosion and leaching, mainly due to its property of slow nutrient release and to the promotion of microbial immobilization of bioavailable N.",
+      "page_start": 16,
+      "page_end": 16,
+      "topic": "Compost and manure benefits",
+      "practices": [
+        "compost",
+        "manure"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "nitrogen",
+        "erosion",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "soilpol_agri_sources__p05",
+      "heading_path": [
+        "SOIL POLLUTION: A HIDDEN REALITY"
+      ],
+      "text": "Despite their potential benefit for agriculture, there is sufficient scientific evidence of the increase in heavy metals content, pathogens, and veterinary antibiotics residues, which may lead to antimicrobial-resistant bacteria proliferation in soils amended with livestock manure.",
+      "page_start": 16,
+      "page_end": 16,
+      "topic": "Risks of manure application",
+      "practices": [
+        "manure"
+      ],
+      "metrics": [
+        "pollution_load",
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "risk"
+    },
+    {
+      "passage_id": "soilpol_agri_sources__p06",
+      "heading_path": [
+        "1.4.1 | HEAVY METALS AND METALLOIDS"
+      ],
+      "text": "Many of them are essential micronutrients for plants, animals and humans, but at high concentrations may cause phytotoxicity and harm human health because of their non-biodegradable nature, which causes them to readily accumulate in tissues and living organisms.",
+      "page_start": 20,
+      "page_end": 20,
+      "topic": "Heavy metal toxicity",
+      "practices": [],
+      "metrics": [
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "soilpol_agri_sources__p07",
+      "heading_path": [
+        "1.4.1 | HEAVY METALS AND METALLOIDS"
+      ],
+      "text": "Cu is easily immobilized by soil organic matter (SOM) and Fe- and Mn-(hydro)oxides, remaining at high concentrations on upper layers of soils. However, fungicide-derived Cu has been found in large amounts in the potentially available fraction of the soil.",
+      "page_start": 20,
+      "page_end": 20,
+      "topic": "Copper mobility in soil",
+      "practices": [],
+      "metrics": [
+        "soil_organic_matter",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "soilpol_agri_sources__c01",
+      "passage_id": "soilpol_agri_sources__p01",
+      "subject": "Trace metals (Cu, Cd, Pb, Hg)",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "evidence_span": "Trace metals from these agrochemicals, such as, Cu, Cd, Pb and Hg, are also considered soil pollutants as they can impair plant metabolism and decrease crop productivity.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "soilpol_agri_sources__c02",
+      "passage_id": "soilpol_agri_sources__p04",
+      "subject": "Manure substitution for synthetic fertilizers",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 4.4,
+      "unit": "percent",
+      "evidence_span": "Xia et al. reported an overall increase in crop production of 4.4 percent when manure partially substituted synthetic fertilizers",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "soilpol_agri_sources__c03",
+      "passage_id": "soilpol_agri_sources__p04",
+      "subject": "Manure substitution for synthetic fertilizers",
+      "metric": "nitrogen",
+      "direction": "decrease",
+      "evidence_span": "significantly reduced N losses by volatilization, erosion and leaching",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "trace metals",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "passage_id": "soilpol_agri_sources__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "manure substitution",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "passage_id": "soilpol_agri_sources__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "manure substitution",
+      "to_node": "nitrogen loss",
+      "effect": "decrease",
+      "passage_id": "soilpol_agri_sources__p04",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "soil organic matter",
+      "to_node": "copper immobilization",
+      "effect": "increase",
+      "passage_id": "soilpol_agri_sources__p07",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "soilpol_agri_sources",
+    "doc_id": "fao2018_soil_pollution",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 27,
+    "pdf_end": 32,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T10:58:44Z",
+    "pdf_sha256": "7566f0dbe0b28f52",
+    "prompt_type": "assessment"
+  }
+}

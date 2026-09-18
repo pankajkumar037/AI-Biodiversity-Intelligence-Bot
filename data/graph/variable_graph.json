@@ -1,0 +1,8613 @@
+[
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 3,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "ipcc2019_srccl",
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full",
+      "srccl_ch6_interlinkages__w10",
+      "v3_p01_cover_cropping"
+    ],
+    "mechanisms": [
+      "increased C inputs via root exudates and stabilization of biomass"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "biomass > 3 mg ha\u207b\u00b9 per year",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "legume cover crops",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "multi-species cover crop mixtures",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "non-legumes",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "duration <5 years",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "duration 5-10 years",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "duration >10 years",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "0-15 cm depth",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "0-30 cm depth",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "fine-textured soils",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "medium-textured soils",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "coarse-textured soils",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "corn-corn rotation",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "corn-soybean rotation",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "conventional tillage",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "no-tillage",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "cold climate zones",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "temperate climate zones",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "tropical climate zones",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "legume cover crops",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [
+      "fixation of atmospheric N, improved soil properties, conserved soil moisture, suppressed weeds"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "low-c and coarse-textured soils",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "biomass production",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "joshi2023_agj"
+    ],
+    "units": [
+      "joshi2023_agj__full"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "soil_moisture",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 3,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p01_cover_cropping"
+    ],
+    "mechanisms": [
+      "residues reduce evaporation"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 5,
+    "scope": "core",
+    "docs": [
+      "fao2018_soil_pollution",
+      "fao2021_recarb_v3",
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "soilpol_agronomic_fix",
+      "v3_p01_cover_cropping",
+      "v4_c01_notill_olive_lebanon",
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [
+      "reduced soil erosion rates"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "nutrient_availability",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v3_p01_cover_cropping",
+      "v4_c06_intercropping_africa"
+    ],
+    "mechanisms": [
+      "rich in N with low C:N ratio, favoring rapid decomposition and subsequent release of N"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "soil_biota",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p01_cover_cropping"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "medium and long term",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p01_cover_cropping"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "soil_moisture",
+    "effect": "decrease",
+    "condition": "semiarid regions",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p01_cover_cropping"
+    ],
+    "mechanisms": [
+      "competition for water"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "bulk_density",
+    "effect": "decrease",
+    "condition": "long-term",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p01_cover_cropping"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "water_holding_capacity",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p01_cover_cropping"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "nitrogen",
+    "effect": "increase",
+    "condition": "n-fixing species",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p01_cover_cropping"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "nutrient_availability",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v3_p01_cover_cropping",
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [
+      "reduce N leaching and nutrient erosion",
+      "reduced mobilization of associated nutrients"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "bulk_density",
+    "effect": "decrease",
+    "condition": "short-term (3 years)",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p01_cover_cropping"
+    ],
+    "mechanisms": [
+      "penetrating compact layers"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "conventional tillage in semiarid regions",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p01_cover_cropping"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "high-n2-fixing (legumes)",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p01_cover_cropping"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "temperature",
+    "effect": "increase",
+    "condition": "vetch, semiarid environments",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p01_cover_cropping"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "temperature",
+    "effect": "increase",
+    "condition": "vetch, residues incorporated",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p01_cover_cropping"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "temperature",
+    "effect": "increase",
+    "condition": "legume ccs",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p01_cover_cropping"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "temperature",
+    "effect": "decrease",
+    "condition": "legume ccs, high n fertilization rates",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p01_cover_cropping"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": "conventional tillage",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p01_cover_cropping"
+    ],
+    "mechanisms": [
+      "accelerates SOC mineralization"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "combining with inorganic fertilization",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p01_cover_cropping"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "nitrogen",
+    "effect": "decrease",
+    "condition": "legumes alone",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p01_cover_cropping"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "soil_moisture",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 5,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v3_p02_organic_mulch",
+      "v4_c20_mulch_granada"
+    ],
+    "mechanisms": [
+      "reduce water loss",
+      "reduced moisture loss",
+      "improves soil aggregation and moisture storage"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 3,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v3_p02_organic_mulch",
+      "v4_c20_mulch_granada"
+    ],
+    "mechanisms": [
+      "physical barrier against evapotranspiration losses from soil, increasing infiltration and lowering runoff"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "temperature",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 3,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p02_organic_mulch"
+    ],
+    "mechanisms": [
+      "impede fast establishment of crops"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p02_organic_mulch"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "nutrient_availability",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 4,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v3_p02_organic_mulch",
+      "v4_c20_mulch_granada"
+    ],
+    "mechanisms": [
+      "decomposition"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "cool wet climates",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p02_organic_mulch"
+    ],
+    "mechanisms": [
+      "allelopathic substances"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": "no-tillage",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p02_organic_mulch"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "highly productive and intensively tilled system",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p02_organic_mulch"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w03",
+      "v3_p02_organic_mulch"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "water_holding_capacity",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p02_organic_mulch"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "bulk_density",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p02_organic_mulch"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "compost",
+    "to_node": "soil_biota",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p02_organic_mulch"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "nutrient_availability",
+    "effect": "increase",
+    "condition": "maintained on the soil surface",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p02_organic_mulch"
+    ],
+    "mechanisms": [
+      "slow release"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "soil_biota",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 3,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v3_p02_organic_mulch",
+      "v4_c20_mulch_granada"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "bulk_density",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p02_organic_mulch"
+    ],
+    "mechanisms": [
+      "reduce impact of water drops"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "ground_cover",
+    "to_node": "soil_moisture",
+    "effect": "increase",
+    "condition": "dryland areas",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p02_organic_mulch"
+    ],
+    "mechanisms": [
+      "store water"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "water_holding_capacity",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "no availability of irrigation",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p02_organic_mulch"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "conservation_agriculture",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p02_organic_mulch"
+    ],
+    "mechanisms": [
+      "decrease weed pressure"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "pollution_load",
+    "effect": "decrease",
+    "condition": "rice cultivation under flooded conditions",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p02_organic_mulch"
+    ],
+    "mechanisms": [
+      "accelerates anaerobic decomposition"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "temperature",
+    "effect": "increase",
+    "condition": "dark soils",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p02_organic_mulch"
+    ],
+    "mechanisms": [
+      "albedo modification"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "pollution_load",
+    "effect": "increase",
+    "condition": "subtropical soil",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p02_organic_mulch"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "high annual rainfall areas (>1 000 mm)",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p02_organic_mulch"
+    ],
+    "mechanisms": [
+      "waterlogging"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "crop_rotation",
+    "to_node": "SOC",
+    "effect": "mixed",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p03_crop_rotations"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "crop_rotation",
+    "to_node": "carbon_sequestration_rate",
+    "effect": "mixed",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p03_crop_rotations"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "crop_rotation",
+    "to_node": "nitrogen",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p03_crop_rotations"
+    ],
+    "mechanisms": [
+      "biological nitrogen fixation",
+      "reduction in root diseases"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "crop_rotation",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p03_crop_rotations"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "crop_rotation",
+    "to_node": "nitrogen",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p03_crop_rotations"
+    ],
+    "mechanisms": [
+      "biological nitrogen fixation",
+      "N fixation by legumes"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "crop_rotation",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "tropical conditions",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p03_crop_rotations"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "crop_rotation",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p03_crop_rotations"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "crop_rotation",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p03_crop_rotations"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "crop_rotation",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p03_crop_rotations"
+    ],
+    "mechanisms": [
+      "improved root system and soil structure stability"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "crop_rotation",
+    "to_node": "nutrient_availability",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p03_crop_rotations"
+    ],
+    "mechanisms": [
+      "root exudates and mycorrhizal activity"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "crop_rotation",
+    "to_node": "soil_biota",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p03_crop_rotations"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "crop_rotation",
+    "to_node": "water_holding_capacity",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p03_crop_rotations"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "crop_rotation",
+    "to_node": "carbon_sequestration_rate",
+    "effect": "decrease",
+    "condition": "cover crops not used",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p03_crop_rotations"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 3,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p04_intercropping_multi",
+      "v3_p05_intercropping_strip"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "long-term",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p04_intercropping_multi"
+    ],
+    "mechanisms": [
+      "enhanced belowground carbon inputs"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 8,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v3_p04_intercropping_multi",
+      "v3_p05_intercropping_strip",
+      "v4_c06_intercropping_africa"
+    ],
+    "mechanisms": [
+      "promoting root growth",
+      "C and N cycling",
+      "nitrogen fixation, mobilization of recalcitrant nutrients, addition of organic material"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": "prolonged growing period",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p04_intercropping_multi"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "nutrient_availability",
+    "effect": "increase",
+    "condition": "temporal and spatial niche differentiation",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p04_intercropping_multi"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "soil_biota",
+    "effect": "increase",
+    "condition": "continuously providing more diverse root exudates",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p04_intercropping_multi"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "soil_moisture",
+    "effect": "increase",
+    "condition": "temporal and spatial niche differentiation",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p04_intercropping_multi"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "temporal differentiation of crop growth",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p04_intercropping_multi"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "temperature",
+    "effect": "decrease",
+    "condition": "compared to monocropping",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p04_intercropping_multi"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "temperature",
+    "effect": "increase",
+    "condition": "compared with a single crop",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p04_intercropping_multi"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "when the competition between the two crops is strong",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p04_intercropping_multi"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": "sloping areas",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p05_intercropping_strip"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": "wind or rain",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p05_intercropping_strip"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "shelterbelts",
+    "to_node": "soil_moisture",
+    "effect": "no_change",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p05_intercropping_strip"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": "wind and water",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p05_intercropping_strip"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 6,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v3_p05_intercropping_strip",
+      "v4_c06_intercropping_africa"
+    ],
+    "mechanisms": [
+      "more cover intercepts kinetic energy of rainfall and protects soil aggregates",
+      "more cover intercepts kinetic energy of rainfall and protects soil aggregates"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "habitat_diversity",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p05_intercropping_strip"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "soil_moisture",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 4,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v3_p05_intercropping_strip",
+      "v4_c06_intercropping_africa"
+    ],
+    "mechanisms": [
+      "double vegetative layer improves proportion of soil water transpired"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "nutrient_availability",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p05_intercropping_strip"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "soil_biota",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v3_p05_intercropping_strip",
+      "v4_c06_intercropping_africa"
+    ],
+    "mechanisms": [
+      "plant diversity"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "bulk_density",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p05_intercropping_strip"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "temperature",
+    "effect": "increase",
+    "condition": "excess rainfall, drought or warming",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p05_intercropping_strip"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "nitrogen",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 3,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w02",
+      "v3_p05_intercropping_strip"
+    ],
+    "mechanisms": [
+      "C and N cycling"
+    ],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "pollution_load",
+    "effect": "decrease",
+    "condition": "reduction of n fertilization",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p05_intercropping_strip"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "variable sloping and extreme weather events",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p05_intercropping_strip"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "pollinators",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p05_intercropping_strip"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "pollution_load",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p05_intercropping_strip"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "strips planted to non-commercial crops alternately with strips of commercial crops",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p05_intercropping_strip"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "irrigation",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p28_irrigation"
+    ],
+    "mechanisms": [
+      "accumulation of plant residues"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "irrigation",
+    "to_node": "SOC",
+    "effect": "mixed",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p28_irrigation"
+    ],
+    "mechanisms": [
+      "increased SOC mineralization rates"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "irrigation",
+    "to_node": "biomass",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p28_irrigation"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "irrigation",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p28_irrigation"
+    ],
+    "mechanisms": [
+      "vegetation growth acting as a barrier"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "irrigation",
+    "to_node": "nutrient_availability",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p28_irrigation"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "irrigation",
+    "to_node": "nutrient_availability",
+    "effect": "decrease",
+    "condition": "overflow or deep drainage",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p28_irrigation"
+    ],
+    "mechanisms": [
+      "leaching of plant nutrients"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "irrigation",
+    "to_node": "salinity",
+    "effect": "decrease",
+    "condition": "addition of water to the leaching requirements",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p28_irrigation"
+    ],
+    "mechanisms": [
+      "dissolving and leaching salts"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "water_availability",
+    "to_node": "pollution_load",
+    "effect": "increase",
+    "condition": "if the irrigation water is contaminated",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p28_irrigation"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "irrigation",
+    "to_node": "pH",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p28_irrigation"
+    ],
+    "mechanisms": [
+      "addition of organic matter"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "SOC",
+    "to_node": "soil_biota",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p28_irrigation"
+    ],
+    "mechanisms": [
+      "decomposition"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "irrigation",
+    "to_node": "soil_moisture",
+    "effect": "increase",
+    "condition": "high drop size or velocity",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p28_irrigation"
+    ],
+    "mechanisms": [
+      "destroying surface aggregates"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "irrigation",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "during critical growth stages",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p28_irrigation"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "irrigation",
+    "to_node": "bulk_density",
+    "effect": "increase",
+    "condition": "even after deep tillage",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p28_irrigation"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "irrigation",
+    "to_node": "water_holding_capacity",
+    "effect": "decrease",
+    "condition": "arid regions with stressed water resources",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p28_irrigation"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "increased demand of water to promote SOC sequestration",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "in many parts of the world irrigation water is distributed proportionally among the farmers based on the size of their land holding",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p28_irrigation"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 13,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "fao2021_recarb_v4",
+      "ipbes2018_ldr",
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w03",
+      "srccl_ch6_interlinkages__w01",
+      "v3_p38_agrisilvicultural",
+      "v3_p39_silvopastoral",
+      "v3_p40_agrosilvopastoral",
+      "v4_c17_dehesa_iberia"
+    ],
+    "mechanisms": [
+      "increased input of organic matter and increased physical stabilization of organic matter due to improved soil aggregation",
+      "direct carbon inputs from branches, trunks, dung, and belowground biomass",
+      "carbon sequestration in soil and tree biomass offsetting manure emissions"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "soil_moisture",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 3,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v3_p38_agrisilvicultural",
+      "v3_p39_silvopastoral",
+      "v4_c17_dehesa_iberia"
+    ],
+    "mechanisms": [
+      "Tree roots increase water infiltration and air movement",
+      "tree litter decomposition and incorporation with soil fauna and tree roots biomass",
+      "OM build-up"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "nitrogen",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 7,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "handa2019_agroforestry_models"
+    ],
+    "units": [
+      "handa_3_1_melia_dubia",
+      "v3_p38_agrisilvicultural",
+      "v3_p39_silvopastoral",
+      "v3_p40_agrosilvopastoral"
+    ],
+    "mechanisms": [
+      "biological nitrogen fixation",
+      "fixation of nitrogen with legume tree species",
+      "biological nitrogen fixation"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "nitrogen",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p38_agrisilvicultural"
+    ],
+    "mechanisms": [
+      "Deep-rooted trees retrieve nitrogen from the layer below to the crop rooting zone"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 7,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "fao2021_recarb_v4",
+      "handa2019_agroforestry_models",
+      "ipbes2018_ldr",
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "handa_4_2_shisham",
+      "ipbes_ch4_status_trends__w06",
+      "ipbes_ch6_responses__w01",
+      "srccl_ch6_interlinkages__w10",
+      "v3_p38_agrisilvicultural",
+      "v4_c17_dehesa_iberia"
+    ],
+    "mechanisms": [
+      "litter layer produced by trees",
+      "roots proliferate into the soil",
+      "improves soil structure"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "nutrient_availability",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 6,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa",
+      "fao2021_recarb_v3",
+      "fao2021_recarb_v4",
+      "handa2019_agroforestry_models"
+    ],
+    "units": [
+      "handa_5_1_melia_azedarach",
+      "sowbfa_diversification__w00",
+      "v3_p38_agrisilvicultural",
+      "v3_p40_agrosilvopastoral",
+      "v4_c17_dehesa_iberia"
+    ],
+    "mechanisms": [
+      "Deep tree roots absorb nutrients in the subsoil and transfer it to the surface",
+      "animal manure",
+      "increased SOC"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "pollution_load",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 5,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v3_p38_agrisilvicultural",
+      "v3_p39_silvopastoral",
+      "v4_c17_dehesa_iberia"
+    ],
+    "mechanisms": [
+      "tree roots",
+      "nitrogen-fixing trees reducing need for mineral fertilizer",
+      "Brachiaria species inhibiting biological nitrification"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "pH",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "handa2019_agroforestry_models"
+    ],
+    "units": [
+      "handa_3_1_melia_dubia",
+      "v3_p38_agrisilvicultural"
+    ],
+    "mechanisms": [
+      "decomposition of calcium-rich residues",
+      "leaf litter"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "soil_biota",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 3,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v3_p38_agrisilvicultural",
+      "v4_c17_dehesa_iberia"
+    ],
+    "mechanisms": [
+      "favours soil biota",
+      "encourages diversity of edaphic microorganisms"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "bulk_density",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p38_agrisilvicultural"
+    ],
+    "mechanisms": [
+      "Tree roots open bio-pores, exudates and association with mycorrhizal fungi improve particle aggregation"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "arid conditions",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p38_agrisilvicultural"
+    ],
+    "mechanisms": [
+      "Hydraulic lift, increased soil fertility and better microclimate"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "temperate regions",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p38_agrisilvicultural"
+    ],
+    "mechanisms": [
+      "competition for light"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "biomass",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "handa2019_agroforestry_models"
+    ],
+    "units": [
+      "handa_2_1_bakain_agrisilvi",
+      "v3_p38_agrisilvicultural"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 4,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa",
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "sowbfa_diversification__w00",
+      "sowbfa_diversification__w01",
+      "v3_p38_agrisilvicultural",
+      "v3_p40_agrosilvopastoral"
+    ],
+    "mechanisms": [
+      "improved water retention and redistribution, improved microclimate",
+      "improved microclimate"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "soil_moisture",
+    "effect": "decrease",
+    "condition": "beyond optimal tree density threshold",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p38_agrisilvicultural"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "cereals",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p38_agrisilvicultural"
+    ],
+    "mechanisms": [
+      "competition for light"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "mature and highly dense plantations",
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p38_agrisilvicultural",
+      "v3_p40_agrosilvopastoral"
+    ],
+    "mechanisms": [
+      "competition between crops and trees for light, water, and nutrients",
+      "competition between crops and trees"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "banana plantations",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p38_agrisilvicultural"
+    ],
+    "mechanisms": [
+      "supporting nematode growth"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "soil_moisture",
+    "effect": "increase",
+    "condition": "dry season",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p39_silvopastoral"
+    ],
+    "mechanisms": [
+      "supplement animal feed"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "temperature",
+    "effect": "decrease",
+    "condition": "dry season",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p39_silvopastoral"
+    ],
+    "mechanisms": [
+      "provide shade"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "rotational_grazing",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w01",
+      "v3_p39_silvopastoral"
+    ],
+    "mechanisms": [
+      "stocking rate management"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "degraded grassland or unproductive pasture",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p39_silvopastoral"
+    ],
+    "mechanisms": [
+      "tree planting"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "SOC",
+    "effect": "mixed",
+    "condition": "temperate regions, productive pastures",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p39_silvopastoral"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "bulk_density",
+    "effect": "decrease",
+    "condition": "due to livestock compaction",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p39_silvopastoral"
+    ],
+    "mechanisms": [
+      "tree litter decomposition and incorporation with soil fauna and tree roots biomass"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "temperature",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p39_silvopastoral"
+    ],
+    "mechanisms": [
+      "integration of trees and shrubs"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "temperature",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p39_silvopastoral"
+    ],
+    "mechanisms": [
+      "integration of trees and shrubs"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "pollution_load",
+    "effect": "increase",
+    "condition": "concentrated manure under trees",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p39_silvopastoral"
+    ],
+    "mechanisms": [
+      "manure heaps"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "biomass",
+    "effect": "decrease",
+    "condition": "excessive shading",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p39_silvopastoral"
+    ],
+    "mechanisms": [
+      "tree presence"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "rotational_grazing",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p39_silvopastoral"
+    ],
+    "mechanisms": [
+      "paddocking"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "humid climates",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p40_agrosilvopastoral"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": "dry climates",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p40_agrosilvopastoral"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "bulk_density",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "handa2019_agroforestry_models"
+    ],
+    "units": [
+      "handa_4_1_ailanthus_rainfed",
+      "v3_p40_agrosilvopastoral"
+    ],
+    "mechanisms": [
+      "litter fall"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "water_holding_capacity",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3",
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w01",
+      "v3_p40_agrosilvopastoral"
+    ],
+    "mechanisms": [
+      "increased SOC",
+      "increased infiltration and reduced surface runoff"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "carbon_sequestration_rate",
+    "effect": "increase",
+    "condition": "tropics",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p40_agrosilvopastoral"
+    ],
+    "mechanisms": [
+      "trees"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "soil_erosion",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p40_agrosilvopastoral"
+    ],
+    "mechanisms": [
+      "livestock"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "soil_moisture",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p40_agrosilvopastoral"
+    ],
+    "mechanisms": [
+      "livestock"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "nitrogen",
+    "effect": "decrease",
+    "condition": "annual crop",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p40_agrosilvopastoral"
+    ],
+    "mechanisms": [
+      "leaching"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "carbon_sequestration_rate",
+    "effect": "increase",
+    "condition": "india",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p40_agrosilvopastoral"
+    ],
+    "mechanisms": [
+      "carbon sequestration in tree biomass"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "soil_moisture",
+    "effect": "decrease",
+    "condition": "after harvesting",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v3"
+    ],
+    "units": [
+      "v3_p40_agrosilvopastoral"
+    ],
+    "mechanisms": [
+      "livestock grazing"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "no_till",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 4,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4",
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w07",
+      "v4_c01_notill_olive_lebanon",
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [
+      "enrichment of SOC in the humified fraction",
+      "increase soil organic matter content"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "no_till",
+    "to_node": "carbon_sequestration_rate",
+    "effect": "increase",
+    "condition": "no-till orchards",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c01_notill_olive_lebanon"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "no_till",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c01_notill_olive_lebanon"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "no_till",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "as compared to tilled orchards",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c01_notill_olive_lebanon"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "no_till",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "no-till",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c01_notill_olive_lebanon"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "no_till",
+    "to_node": "soil_moisture",
+    "effect": "increase",
+    "condition": "improved",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c01_notill_olive_lebanon"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "no_till",
+    "to_node": "soil_biota",
+    "effect": "increase",
+    "condition": "absence of tillage",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c01_notill_olive_lebanon"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "no_till",
+    "to_node": "nutrient_availability",
+    "effect": "increase",
+    "condition": "fields under no-till",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c01_notill_olive_lebanon"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "nutrient_availability",
+    "effect": "increase",
+    "condition": "uptake by cover crops of available n, p and k in soils overwinter",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c01_notill_olive_lebanon"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "nitrogen",
+    "effect": "decrease",
+    "condition": "overwinter cover crops, non-legume or a mixture of two species (one legume plus one cereal)",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c01_notill_olive_lebanon"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "no_till",
+    "to_node": "soil_biota",
+    "effect": "increase",
+    "condition": "reduction in soil disturbances",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c01_notill_olive_lebanon"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "no_till",
+    "to_node": "soil_moisture",
+    "effect": "increase",
+    "condition": "no-till with a cover crop (vetch essentially)",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c01_notill_olive_lebanon"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "soil_moisture",
+    "effect": "increase",
+    "condition": "cover crop may retain higher moisture in soils",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c01_notill_olive_lebanon"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "soil_moisture",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 3,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c05_ca_south_africa",
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [
+      "buffered by plant covers"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "temperature",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c05_ca_south_africa"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "soil_biota",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c05_ca_south_africa"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "nutrient_availability",
+    "effect": "increase",
+    "condition": "maize/vetch cropping system",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c05_ca_south_africa"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "cropping systems and organic c",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c05_ca_south_africa"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "conservation_agriculture",
+    "to_node": "soil_moisture",
+    "effect": "increase",
+    "condition": "especially reduced tillage treatments",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c05_ca_south_africa"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "in the last 3 years",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c05_ca_south_africa"
+    ],
+    "mechanisms": [
+      "topsoil compaction"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "conservation_agriculture",
+    "to_node": "carbon_sequestration_rate",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c05_ca_south_africa"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "bulk_density",
+    "effect": "increase",
+    "condition": "especially in the topsoil",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c05_ca_south_africa"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "conservation_agriculture",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c05_ca_south_africa"
+    ],
+    "mechanisms": [
+      "soil compaction"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "conservation_agriculture",
+    "to_node": "temperature",
+    "effect": "increase",
+    "condition": "ct tillage systems compared to rt systems",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c05_ca_south_africa"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "bulk_density",
+    "effect": "increase",
+    "condition": "in the topsoil",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c05_ca_south_africa"
+    ],
+    "mechanisms": [
+      "absence of ploughing"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "due to increased soil resistance",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c05_ca_south_africa"
+    ],
+    "mechanisms": [
+      "reduced root development"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "bulk_density",
+    "effect": "increase",
+    "condition": "in some soils",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c05_ca_south_africa"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "conservation_agriculture",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "arid and semi-arid regions",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c05_ca_south_africa"
+    ],
+    "mechanisms": [
+      "biomass production"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "conservation_agriculture",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "semi-arid regions",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c05_ca_south_africa"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "conservation_agriculture",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "short- or medium-term",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c05_ca_south_africa"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "cereal plants did not receive n fertilizer",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c06_intercropping_africa"
+    ],
+    "mechanisms": [
+      "nitrogen fixation"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "receiving n fertilizer",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c06_intercropping_africa"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "sandy soils (clay content <15%)",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c06_intercropping_africa"
+    ],
+    "mechanisms": [
+      "incorporation of legume biomass"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "no fertilizer n was applied",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c06_intercropping_africa"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c06_intercropping_africa"
+    ],
+    "mechanisms": [
+      "easily decomposable legume residues stimulates mineralization"
+    ],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "pH",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c06_intercropping_africa"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "species_richness",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c06_intercropping_africa"
+    ],
+    "mechanisms": [
+      "plant diversity"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "additive density is used",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c06_intercropping_africa"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "areas where striga dominates",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c06_intercropping_africa"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "competition for resources (e.g. water, light)",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c06_intercropping_africa"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "intercropping",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": "inadequate plant biomass",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c06_intercropping_africa"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "carbon_sequestration_rate",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 5,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4",
+      "handa2019_agroforestry_models",
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "handa_2_1_bakain_agrisilvi",
+      "ipbes_ch4_status_trends__w05",
+      "v4_c17_dehesa_iberia"
+    ],
+    "mechanisms": [
+      "C sequestration",
+      "C sequestration",
+      "C sequestration"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "habitat_diversity",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c17_dehesa_iberia"
+    ],
+    "mechanisms": [
+      "host a diversity of bird species and lichens"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "initially poor in om",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c17_dehesa_iberia"
+    ],
+    "mechanisms": [
+      "soil saturation"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "soil_biota",
+    "effect": "decrease",
+    "condition": "livestock treated with antibiotics and dewormers",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c17_dehesa_iberia"
+    ],
+    "mechanisms": [],
+    "strength": "weak"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": "correct livestock stocking rates",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c17_dehesa_iberia"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "soil_compaction",
+    "effect": "decrease",
+    "condition": "correct livestock stocking rates",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c17_dehesa_iberia"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "hot and dry climate",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c20_mulch_granada"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "bulk_density",
+    "effect": "decrease",
+    "condition": "after four years",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c20_mulch_granada"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "carbon_sequestration_rate",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c20_mulch_granada"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "pH",
+    "effect": "mixed",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c20_mulch_granada"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "pollution_load",
+    "effect": "increase",
+    "condition": "if not treated prior to its application",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c20_mulch_granada"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "nutrient_availability",
+    "effect": "no_change",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c20_mulch_granada"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [
+      "increase soil organic matter content"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [
+      "reduced mobilization of associated carbon"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "green_manure",
+    "to_node": "nitrogen",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "nutrient_availability",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [
+      "reduction of nutrient losses by erosion"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "crop_yield",
+    "effect": "no_change",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "no_till",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "no_till",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "year after year",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [
+      "soil compaction"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "no_till",
+    "to_node": "nitrogen",
+    "effect": "decrease",
+    "condition": "year after year",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [
+      "soil compaction"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "temperature",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [
+      "buffered by plant covers"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": "during extreme erosive events",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "nutrient_availability",
+    "effect": "decrease",
+    "condition": "during extreme erosive events",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "carbon_sequestration_rate",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [
+      "lowered GHG emissions"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "in the long-term",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2018_soil_pollution",
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "soilpol_agronomic_fix",
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [
+      "preventing soil erosion"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "no_till",
+    "to_node": "carbon_sequestration_rate",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [
+      "lowest GHG emissions"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "cover_crops",
+    "to_node": "nutrient_availability",
+    "effect": "decrease",
+    "condition": "especially in dry years",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [
+      "competition for water"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2021_recarb_v4"
+    ],
+    "units": [
+      "v4_c21_covercrop_almond_spain"
+    ],
+    "mechanisms": [
+      "lag between improvements and yields"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "crop_yield",
+    "effect": "no_change",
+    "condition": "bund planting",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "handa2019_agroforestry_models"
+    ],
+    "units": [
+      "handa_3_1_melia_dubia"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "block planting after 4 years",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "handa2019_agroforestry_models"
+    ],
+    "units": [
+      "handa_3_1_melia_dubia"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "pollarding",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "handa2019_agroforestry_models"
+    ],
+    "units": [
+      "handa_4_1_ailanthus_rainfed"
+    ],
+    "mechanisms": [
+      "increases the light intensity to the intercrops"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "soil_fertility",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "handa2019_agroforestry_models"
+    ],
+    "units": [
+      "handa_4_2_shisham"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "aonla+ green gram/black gram",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "handa2019_agroforestry_models"
+    ],
+    "units": [
+      "handa_4_3_aonla_agrihorti"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "5 x 4 m spacing",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "handa2019_agroforestry_models"
+    ],
+    "units": [
+      "handa_5_1_melia_azedarach"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "desertification",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w00"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "desertification",
+    "to_node": "species_richness",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w00"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "atmospheric_CO2",
+    "to_node": "biomass",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w00"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "conservation_agriculture",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr",
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w00",
+      "srccl_ch3_desertification__w00"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "soil_crusts",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": "drylands",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w01"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "vegetation_cover",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": "drylands",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w01"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "surface albedo",
+    "to_node": "temperature",
+    "effect": "decrease",
+    "condition": "drylands",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w01"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "surface albedo",
+    "to_node": "rainfall",
+    "effect": "decrease",
+    "condition": "drylands",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w01"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "desertification",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": "drylands",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w01"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "desertification",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "drylands",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w01"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "rainfall",
+    "to_node": "carbon_sequestration_rate",
+    "effect": "increase",
+    "condition": "drylands",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w01"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "desertification",
+    "to_node": "species_richness",
+    "effect": "decrease",
+    "condition": "drylands",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w01"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "land_conversion",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w02",
+      "srccl_ch6_interlinkages__w01"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "soil_erosion",
+    "to_node": "nutrient_availability",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w02"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "water_availability",
+    "to_node": "carbon_sequestration_rate",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w02"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "soil_erosion",
+    "to_node": "carbon_sequestration_rate",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w02"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "soil_erosion",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w02"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "aridity",
+    "to_node": "species_richness",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w02"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "irrigation",
+    "to_node": "water_holding_capacity",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w02"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "rotational_grazing",
+    "to_node": "biomass",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w02"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "grazing_pressure",
+    "to_node": "soil_erosion",
+    "effect": "increase",
+    "condition": "dry periods, droughts",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w03"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "restoration",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w03"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "halophytes",
+    "to_node": "carbon_sequestration_rate",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "non-farm employment",
+    "to_node": "resilience",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w03"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "land tenure security",
+    "to_node": "conservation_agriculture",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w03"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "no_till",
+    "to_node": "soil_biota",
+    "effect": "increase",
+    "condition": "after seven years",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "no_till",
+    "to_node": "water_holding_capacity",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "no_till",
+    "to_node": "bulk_density",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "grazing_pressure",
+    "to_node": "soil_erosion",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr",
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w00",
+      "srccl_ch3_desertification__w04"
+    ],
+    "mechanisms": [
+      "removal of vegetation"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "green wall and green dam programmes",
+    "to_node": "temperature",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w04"
+    ],
+    "mechanisms": [
+      "decrease albedo and increase surface absorption of radiation"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "invasive_species",
+    "to_node": "species_richness",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w04"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "invasive_species",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w04"
+    ],
+    "mechanisms": [
+      "allelopathic properties"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "invasive_species",
+    "to_node": "soil_moisture",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w04"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "water_harvesting",
+    "to_node": "soil_moisture",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w04"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "water_harvesting",
+    "to_node": "biomass",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w04"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "water_harvesting",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w05"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "water_harvesting",
+    "to_node": "biomass",
+    "effect": "no_change",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w05"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "watershed projects",
+    "to_node": "water_availability",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w05"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "atmospheric_CO2",
+    "to_node": "tree_cover",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w06"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "vegetation_cover",
+    "to_node": "water_holding_capacity",
+    "effect": "mixed",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w06"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "Mongolian pine plantations",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "semi-arid degraded sandy land",
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w07"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "soil_moisture",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "arid and semi-arid ecosystems",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w07"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "grazing_exclusion",
+    "to_node": "biomass",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w07"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "biofuel cultivation",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": "degraded lands",
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w07"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "water_harvesting",
+    "to_node": "soil_moisture",
+    "effect": "increase",
+    "condition": "semi-arid",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w07"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "water_harvesting",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "semi-arid",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w07"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "conservation_agriculture",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "semi-arid",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w08"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "terracing",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": "semi-arid",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w08"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "desertification",
+    "to_node": "species_richness",
+    "effect": "decrease",
+    "condition": "desert steppe",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch3_desertification__w08"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agriculture",
+    "to_node": "land_degradation",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w00"
+    ],
+    "mechanisms": [
+      "unsustainable land management"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "climate_change",
+    "to_node": "land_degradation",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 3,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w00",
+      "srccl_ch4_land_degradation__w03"
+    ],
+    "mechanisms": [
+      "increased frequency, intensity and/or amount of heavy precipitation and increased heat stress",
+      "heat stress, drought, changes to evapotranspiration",
+      "influence on land-use systems"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "land_degradation",
+    "to_node": "climate_change",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w00"
+    ],
+    "mechanisms": [
+      "emission of greenhouse gases and reduced rates of carbon uptake"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "biomass",
+    "to_node": "land_degradation",
+    "effect": "increase",
+    "condition": "large-scale implementation",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w00"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "irrigation",
+    "to_node": "salinity",
+    "effect": "increase",
+    "condition": "without proper drainage",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w00"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "temperature",
+    "to_node": "waterlogging",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w00"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "temperature",
+    "to_node": "rainfall",
+    "effect": "increase",
+    "condition": "per degree of warming",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w01"
+    ],
+    "mechanisms": [
+      "intensification of hydrological cycle"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "rainfall",
+    "to_node": "soil_erosion",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w01"
+    ],
+    "mechanisms": [
+      "increased erosive power of rainfall (erosivity)"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "land_conversion",
+    "to_node": "atmospheric_CO2",
+    "effect": "increase",
+    "condition": "cultivation of natural ecosystems",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w01"
+    ],
+    "mechanisms": [
+      "loss of soil organic carbon"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intensive_agriculture",
+    "to_node": "land_degradation",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w02"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "deforestation",
+    "to_node": "runoff",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w02"
+    ],
+    "mechanisms": [
+      "reduced transpiration"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "afforestation",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w02"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "afforestation",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w02"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "land_degradation",
+    "to_node": "Livelihood sensitivity",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w03"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "land_degradation",
+    "to_node": "Migration",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "land_degradation",
+    "to_node": "Conflict",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "conservation_agriculture",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 4,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr",
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w00",
+      "ipbes_ch6_responses__w08",
+      "srccl_ch4_land_degradation__w03",
+      "srccl_ch6_interlinkages__w00"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "tillage",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr",
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w02",
+      "srccl_ch4_land_degradation__w03"
+    ],
+    "mechanisms": [
+      "stimulated heterotrophic respiration"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "terracing",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": "rainfall increasing or decreasing",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w03"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "ground_cover",
+    "to_node": "soil_erosion",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w03",
+      "srccl_ch6_interlinkages__w08"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "soil_sealing",
+    "to_node": "runoff",
+    "effect": "increase",
+    "condition": "urban landscapes",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w04"
+    ],
+    "mechanisms": [
+      "impervious surfaces"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "perennial vegetation replacement",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": "conversion to annual crops",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w04"
+    ],
+    "mechanisms": [
+      "conversion to annual crops"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "afforestation",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": "south korea",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w04"
+    ],
+    "mechanisms": [
+      "increased forest volume"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "GFGP plots",
+    "to_node": "soil moisture",
+    "effect": "increase",
+    "condition": "wuqi county",
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w04"
+    ],
+    "mechanisms": [
+      "GFGP implementation"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "waterlogging",
+    "to_node": "ghg_emissions",
+    "effect": "increase",
+    "condition": "drained peatlands",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w04"
+    ],
+    "mechanisms": [
+      "lowering water table"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "biochar",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "negative priming",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w04"
+    ],
+    "mechanisms": [
+      "sorption of labile carbon"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "biochar",
+    "to_node": "soil chemical, physical and biological attributes",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w05"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "tropical cyclone speed",
+    "to_node": "damage on local communities",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w05"
+    ],
+    "mechanisms": [
+      "increasing rainfall amounts and high wind speed"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "climate change and land degradation",
+    "to_node": "ecosystem_services",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w05"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "restoration",
+    "to_node": "ecosystem_services",
+    "effect": "increase",
+    "condition": "flow of water, re-flooding, disturbance regimes, control of invasive species",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w05"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "biochar",
+    "to_node": "soil_moisture",
+    "effect": "increase",
+    "condition": "cropland",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w06"
+    ],
+    "mechanisms": [
+      "soil amendment"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "biochar",
+    "to_node": "nutrient_availability",
+    "effect": "decrease",
+    "condition": "cropland",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w06"
+    ],
+    "mechanisms": [
+      "reduced nitrate leaching"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "deforestation",
+    "to_node": "biomass",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w07"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "biochar",
+    "to_node": "biomass",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w07"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "fire_frequency",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w07"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "biochar",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w08"
+    ],
+    "mechanisms": [
+      "stabilizing rhizodeposits"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "biochar",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w08"
+    ],
+    "mechanisms": [
+      "negative priming of native soil organic carbon"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "biochar",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch4_land_degradation__w08"
+    ],
+    "mechanisms": [
+      "enhanced biological N2 fixation"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "grazing_pressure",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w00"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "community forestry scheme",
+    "to_node": "tree_cover",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w00"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "improved cropland management",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w01"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "SOC",
+    "to_node": "water_holding_capacity",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 3,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr",
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w01",
+      "ipbes_ch4_status_trends__w03",
+      "srccl_ch6_interlinkages__w01"
+    ],
+    "mechanisms": [
+      "soil properties and processes"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "biochar",
+    "to_node": "water_holding_capacity",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w02"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "biochar",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "tropics",
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w02",
+      "srccl_ch6_interlinkages__w04"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "species_richness",
+    "to_node": "biomass",
+    "effect": "decrease",
+    "condition": "tropical forests",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w02"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "enhanced_mineral_weathering",
+    "to_node": "pH",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w02"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "pH",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "acidified soils",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w02"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "water_holding_capacity",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w02",
+      "srccl_ch6_interlinkages__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "rice-wheat",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w02"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "reduced_tillage",
+    "to_node": "pollution_load",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "land_conversion",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": "20-year timescale",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "soil_compaction",
+    "to_node": "nitrogen",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w03"
+    ],
+    "mechanisms": [
+      "minimising anoxic conditions favourable for denitrification"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "moose browsing",
+    "to_node": "carbon_sequestration_rate",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "Integrated water management",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w04"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "invasive_species",
+    "to_node": "soil_moisture",
+    "effect": "decrease",
+    "condition": "semi-arid regions",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w04"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "Wild animal management",
+    "to_node": "bulk_density",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w04"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "SOC",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w04"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "pollinators",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w05"
+    ],
+    "mechanisms": [
+      "pollination services"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "food waste reduction",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w05"
+    ],
+    "mechanisms": [
+      "halving food waste"
+    ],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "local seed use",
+    "to_node": "species_richness",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w05"
+    ],
+    "mechanisms": [
+      "food sovereignty networks"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "temperature",
+    "to_node": "grazing_pressure",
+    "effect": "decrease",
+    "condition": "tropical regions",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w06"
+    ],
+    "mechanisms": [
+      "stresses on animals from temperatures, water, and diseases"
+    ],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "irrigation",
+    "to_node": "salinity",
+    "effect": "increase",
+    "condition": "dryland areas",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w06"
+    ],
+    "mechanisms": [
+      "increased demand for irrigation"
+    ],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "bioenergy plantations",
+    "to_node": "water_availability",
+    "effect": "decrease",
+    "condition": "mono-cropped high-intensity plantations",
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w06"
+    ],
+    "mechanisms": [
+      "trade-offs between NCPs"
+    ],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "land challenges",
+    "to_node": "land management response options",
+    "effect": "decrease",
+    "condition": "higher number of land challenges",
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w07"
+    ],
+    "mechanisms": [
+      "negative correlation"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "Human Development Index",
+    "to_node": "land challenges",
+    "effect": "decrease",
+    "condition": "higher hdi",
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w07"
+    ],
+    "mechanisms": [
+      "negative correlation"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "bioenergy",
+    "to_node": "food prices",
+    "effect": "increase",
+    "condition": "increased bioenergy use",
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w07"
+    ],
+    "mechanisms": [
+      "competition for land"
+    ],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "land-sparing options",
+    "to_node": "food prices",
+    "effect": "decrease",
+    "condition": "inclusion with bioenergy",
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w07"
+    ],
+    "mechanisms": [
+      "reduced agricultural land expansion"
+    ],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "social trust and capital",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w08"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "ground_cover",
+    "to_node": "biomass",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w08"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "salinity",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr",
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w01",
+      "srccl_ch6_interlinkages__w09"
+    ],
+    "mechanisms": [
+      "limit ability of plant roots to absorb soil water"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "nitrogen",
+    "to_node": "carbon_sequestration_rate",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w09"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "soil_erosion",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w09"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "grazing_pressure",
+    "to_node": "SOC",
+    "effect": "mixed",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w10",
+      "srccl_ch6_interlinkages__w11"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "drought",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w10",
+      "srccl_ch6_interlinkages__w11"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intensive_agriculture",
+    "to_node": "pollution_load",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w10"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "grazing_exclusion",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w10"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "grazing_pressure",
+    "to_node": "nutrient_cycling",
+    "effect": "mixed",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipcc2019_srccl"
+    ],
+    "units": [
+      "srccl_ch6_interlinkages__w11"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "grazing_pressure",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w00"
+    ],
+    "mechanisms": [
+      "removal of vegetation"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "SOC",
+    "to_node": "soil_fertility",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w00"
+    ],
+    "mechanisms": [
+      "combined impacts of erosion and loss of soil organisms"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "SOC",
+    "to_node": "soil_biota",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w00"
+    ],
+    "mechanisms": [
+      "loss of soil organic carbon"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "SOC",
+    "to_node": "water_holding_capacity",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w00"
+    ],
+    "mechanisms": [
+      "loss of soil organic carbon"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "intensive_agriculture",
+    "to_node": "pollution_load",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w00"
+    ],
+    "mechanisms": [
+      "overuse of fertilizers"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "conservation_agriculture",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": "cropland",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w01"
+    ],
+    "mechanisms": [
+      "no tillage, contour ploughing, cover crops, mulching"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "fertilizer_use",
+    "to_node": "pH",
+    "effect": "decrease",
+    "condition": "southern china",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w01"
+    ],
+    "mechanisms": [
+      "acidification"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "waterlogging",
+    "to_node": "nitrogen",
+    "effect": "decrease",
+    "condition": "irrigated cropland",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w01"
+    ],
+    "mechanisms": [
+      "reduction of nitrogen fixation"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "land_degradation",
+    "to_node": "biomass",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w02"
+    ],
+    "mechanisms": [
+      "reduction in net primary production"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "atmospheric_CO2",
+    "to_node": "biomass",
+    "effect": "increase",
+    "condition": "arid and semi-arid ecosystems",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w02"
+    ],
+    "mechanisms": [
+      "increased plant water use efficiency"
+    ],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "net_primary_production",
+    "to_node": "species_richness",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w02"
+    ],
+    "mechanisms": [
+      "reduced availability of net primary production to non-domesticated organisms"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "near-surface ozone",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w02"
+    ],
+    "mechanisms": [
+      "exacerbated under climate change"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "atmospheric nitrogen deposition",
+    "to_node": "species_richness",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w02"
+    ],
+    "mechanisms": [
+      "eutrophication of soils"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "pesticide_use",
+    "to_node": "species_richness",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w02",
+      "ipbes_ch4_status_trends__w03"
+    ],
+    "mechanisms": [
+      "unstated"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "soil_erosion",
+    "to_node": "water_holding_capacity",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "vegetation_cover",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "vegetation_cover",
+    "to_node": "species_richness",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "vegetation_cover",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": "semi-arid and subhumid regions >336 mm rainfall",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "vegetation_cover",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": "arid regions <336 mm rainfall",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "fire",
+    "to_node": "biomass",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w04"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "fire",
+    "to_node": "water_holding_capacity",
+    "effect": "decrease",
+    "condition": "fire temperature, vegetation type, soil type",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w04"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "water_holding_capacity",
+    "to_node": "soil_erosion",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w04"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "fragmentation",
+    "to_node": "species_richness",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w04"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "species_richness",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w04",
+      "ipbes_ch4_status_trends__w05"
+    ],
+    "mechanisms": [
+      "decline in ecosystem services such as pollination and pest control"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "rainfall",
+    "to_node": "biomass",
+    "effect": "decrease",
+    "condition": "amazonia",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w04"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "temperature",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": "cold and wet areas",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w04"
+    ],
+    "mechanisms": [
+      "increased decomposition rate"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "land use and related pressures",
+    "to_node": "species_richness",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w05"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "tillage",
+    "to_node": "bulk_density",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w05"
+    ],
+    "mechanisms": [
+      "creating hard layers"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "fertilizer_use",
+    "to_node": "species_richness",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w05"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "irrigation",
+    "to_node": "salinity",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2018_soil_pollution",
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w05",
+      "soilpol_agronomic_fix"
+    ],
+    "mechanisms": [
+      "brings salts deeper in the soil profile"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "deforestation",
+    "to_node": "soil_erosion",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 3,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w05",
+      "ipbes_ch4_status_trends__w06"
+    ],
+    "mechanisms": [
+      "reduced evapotranspiration and infiltration"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "nitrogen",
+    "effect": "decrease",
+    "condition": "nitrogen loading in streams",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w06"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "tree thinning",
+    "to_node": "fire_frequency",
+    "effect": "increase",
+    "condition": "miombo regions of africa",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w06"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "habitat_diversity",
+    "to_node": "invasive_species",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w06"
+    ],
+    "mechanisms": [
+      "resistance"
+    ],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "urbanization",
+    "to_node": "biomass",
+    "effect": "decrease",
+    "condition": "south-eastern china",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w06"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "soil, weather, grazing",
+    "to_node": "net_primary_production",
+    "effect": "mixed",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w07"
+    ],
+    "mechanisms": [
+      "contributory factors"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "species_richness",
+    "to_node": "ecosystem_services",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w08"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "prolonged arable cropping",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": "sandy soils",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w08"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "prolonged arable cropping",
+    "to_node": "nitrogen",
+    "effect": "decrease",
+    "condition": "sandy soils",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w08"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "fertilizer_use",
+    "to_node": "N2O_emissions",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w09"
+    ],
+    "mechanisms": [
+      "nonlinear response"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "plant_diversity",
+    "to_node": "resilience",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w09"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "reduced tillage",
+    "to_node": "earthworm_diversity",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w09"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mining",
+    "to_node": "tree_cover",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w10"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "organic management",
+    "to_node": "nutrient_availability",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w10"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "organic management",
+    "to_node": "nitrogen",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w10"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "soil biodiversity",
+    "to_node": "ecosystem_multifunctionality",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w10"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "soil inoculation",
+    "to_node": "restoration",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch4_status_trends__w10"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "crop_livestock_integration",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w00"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "fertilizer_use",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w01"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "soil_sealing",
+    "to_node": "soil moisture",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w02"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "compost",
+    "to_node": "species_richness",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w02"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "green_manure",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w02"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "salt-tolerant crops",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w02",
+      "ipbes_ch6_responses__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "crop_diversification",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "rural emigration",
+    "to_node": "tree_cover",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w03"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "lower corn prices",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "European farm subsidies",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "Costa Rican programme",
+    "to_node": "tree_cover",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w04"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "REDD+",
+    "to_node": "biomass",
+    "effect": "decrease",
+    "condition": "forest degradation",
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w04"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "community forestry",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w04"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "community forestry",
+    "to_node": "tree_cover",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "peripheral",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w04",
+      "ipbes_ch6_responses__w05"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "FSC certification",
+    "to_node": "tree_cover",
+    "effect": "decrease",
+    "condition": "deforestation",
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w04"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "funding",
+    "to_node": "species_richness",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w05"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "grazing_pressure",
+    "to_node": "biomass",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w05"
+    ],
+    "mechanisms": [
+      "reducing stocking density"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "organic farming",
+    "to_node": "soil_biota",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w06"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intensive_agriculture",
+    "to_node": "carbon_sequestration_rate",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w06"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "organic farming",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w06"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "restoration",
+    "to_node": "species_richness",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w07"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "crop_diversification",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w07"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "soil_biota",
+    "to_node": "vegetation_cover",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w08"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "restoration",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w08"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "soil inoculation",
+    "to_node": "species_richness",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2018_ldr"
+    ],
+    "units": [
+      "ipbes_ch6_responses__w08"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "pollinators",
+    "to_node": "pollination_services",
+    "effect": "increase",
+    "condition": "managed species present in high abundance",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2016_pollinators"
+    ],
+    "units": [
+      "ipbes_pollinators__w00"
+    ],
+    "mechanisms": [
+      "diverse community provides more effective and stable pollination"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "pollinators",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "local scales",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2016_pollinators"
+    ],
+    "units": [
+      "ipbes_pollinators__w00"
+    ],
+    "mechanisms": [
+      "unstated"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "land_conversion",
+    "to_node": "pollinators",
+    "effect": "decrease",
+    "condition": "unstated",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2016_pollinators"
+    ],
+    "units": [
+      "ipbes_pollinators__w00"
+    ],
+    "mechanisms": [
+      "direct driver"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "pesticide_use",
+    "to_node": "pollinators",
+    "effect": "decrease",
+    "condition": "unstated",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2016_pollinators"
+    ],
+    "units": [
+      "ipbes_pollinators__w00"
+    ],
+    "mechanisms": [
+      "direct driver"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "pesticide_use",
+    "to_node": "pollinators",
+    "effect": "decrease",
+    "condition": "actual field exposure",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2016_pollinators"
+    ],
+    "units": [
+      "ipbes_pollinators__w00"
+    ],
+    "mechanisms": [
+      "lethal and sublethal effects"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "intensive_agriculture",
+    "to_node": "pollinators",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2016_pollinators"
+    ],
+    "units": [
+      "ipbes_pollinators__w01"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "pesticide_use",
+    "to_node": "pollinator_habitat",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2016_pollinators"
+    ],
+    "units": [
+      "ipbes_pollinators__w01"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "pollinator loss",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2016_pollinators"
+    ],
+    "units": [
+      "ipbes_pollinators__w01"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "pollinator loss",
+    "to_node": "nutrient_availability",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2016_pollinators"
+    ],
+    "units": [
+      "ipbes_pollinators__w01"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "crop_diversification",
+    "to_node": "species_richness",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2016_pollinators"
+    ],
+    "units": [
+      "ipbes_pollinators__w01"
+    ],
+    "mechanisms": [],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "pollinator community diversity",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2016_pollinators"
+    ],
+    "units": [
+      "ipbes_pollinators__w01"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "habitat_diversity",
+    "to_node": "pollinator_diversity",
+    "effect": "increase",
+    "condition": "landscape-scale",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2016_pollinators"
+    ],
+    "units": [
+      "ipbes_pollinators__w02"
+    ],
+    "mechanisms": [
+      "habitat connectivity"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "pesticide_use",
+    "to_node": "flowering_plants",
+    "effect": "decrease",
+    "condition": "weed control",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2016_pollinators"
+    ],
+    "units": [
+      "ipbes_pollinators__w02"
+    ],
+    "mechanisms": [
+      "reduction of abundance and diversity"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "flowering_plants",
+    "to_node": "pollinator_diversity",
+    "effect": "increase",
+    "condition": "urban green spaces",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2016_pollinators"
+    ],
+    "units": [
+      "ipbes_pollinators__w02"
+    ],
+    "mechanisms": [
+      "nectar and pollen provision"
+    ],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "invasive_species",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "high abundance",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2016_pollinators"
+    ],
+    "units": [
+      "ipbes_pollinators__w02"
+    ],
+    "mechanisms": [
+      "flower damage"
+    ],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "pollution_load",
+    "to_node": "nature",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2016_pollinators"
+    ],
+    "units": [
+      "ipbes_pollinators__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "restoration",
+    "to_node": "nature",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "ipbes2016_pollinators"
+    ],
+    "units": [
+      "ipbes_pollinators__w03"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "pollinator community diversity",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "local scale",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_pollination"
+    ],
+    "mechanisms": [
+      "pollination services"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "hedges_buffer_strips",
+    "to_node": "pollinators",
+    "effect": "increase",
+    "condition": "surrounding areas",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_pollination"
+    ],
+    "mechanisms": [
+      "habitat provision"
+    ],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "grazing_pressure",
+    "to_node": "pollinator_habitat",
+    "effect": "decrease",
+    "condition": "grassland systems",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_pollination"
+    ],
+    "mechanisms": [
+      "habitat degradation"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "BCA abundance and species richness",
+    "to_node": "pest_control_services",
+    "effect": "mixed",
+    "condition": "complex landscapes",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_pollination"
+    ],
+    "mechanisms": [
+      "antagonistic relationships (superpredation/hyperparasitoidism)"
+    ],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "soil_biota",
+    "to_node": "carbon_sequestration_rate",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_soil_services"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "loss of forest cover",
+    "to_node": "soil_erosion",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_soil_services"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "loss of forest cover",
+    "to_node": "soil_biota",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_soil_services"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "vegetation",
+    "to_node": "soil_moisture",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_soil_services"
+    ],
+    "mechanisms": [
+      "infiltration"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "soil biota",
+    "to_node": "water_holding_capacity",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_soil_services",
+      "sowbfa_water_services"
+    ],
+    "mechanisms": [
+      "modifying soil structure"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "intensive_agriculture",
+    "to_node": "soil_erosion",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 2,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_soil_services",
+      "sowbfa_water_services"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "vegetation",
+    "to_node": "water_holding_capacity",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_water_services"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "fertilizer_use",
+    "to_node": "nutrient_availability",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_water_services"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "milder winters",
+    "to_node": "pollution_load",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_water_services"
+    ],
+    "mechanisms": [
+      "soils are increasingly unfrozen during the non-vegetative period when plants are less able to intercept eroded matter"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "soil biodiversity",
+    "to_node": "water_holding_capacity",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_water_services"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "crop_rotation",
+    "to_node": "ghg_emissions",
+    "effect": "decrease",
+    "condition": "crop systems",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_habitat"
+    ],
+    "mechanisms": [
+      "reduce the use of fertilizers"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "pollinators",
+    "to_node": "plant communities",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_habitat"
+    ],
+    "mechanisms": [
+      "pollination activities"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "plant communities",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_habitat"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "mulching",
+    "to_node": "biomass",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_diversification__w00"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "manure",
+    "to_node": "soil_biota",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_diversification__w00"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "multipurpose trees",
+    "to_node": "nutrient_availability",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_diversification__w00"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "multipurpose trees",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_diversification__w00"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "species_richness",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_diversification__w00"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "aquaponics",
+    "to_node": "crop yield",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_diversification__w01"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "polyculture",
+    "to_node": "nutrient_cycling",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_diversification__w01"
+    ],
+    "mechanisms": [
+      "feeding actions of fish resuspend nutrients and aerate sediments"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "polyculture",
+    "to_node": "harmful algal blooms",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_diversification__w01"
+    ],
+    "mechanisms": [
+      "stocking phytoplanktophagous fish"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "reduced tillage",
+    "to_node": "fungi abundance",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_soil_biodiv_mgmt"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "fungi abundance",
+    "to_node": "nutrient_cycling",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_soil_biodiv_mgmt"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "compost",
+    "to_node": "crop yield",
+    "effect": "increase",
+    "condition": "grain crops",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2019_sowbfa"
+    ],
+    "units": [
+      "sowbfa_soil_biodiv_mgmt"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "pollution_load",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2018_soil_pollution"
+    ],
+    "units": [
+      "soilpol_agri_sources"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "manure substitution",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2018_soil_pollution"
+    ],
+    "units": [
+      "soilpol_agri_sources"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "manure substitution",
+    "to_node": "nitrogen_loss",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2018_soil_pollution"
+    ],
+    "units": [
+      "soilpol_agri_sources"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "SOC",
+    "to_node": "copper immobilization",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "fao2018_soil_pollution"
+    ],
+    "units": [
+      "soilpol_agri_sources"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "fertilizer_use",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "excess application",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2018_soil_pollution"
+    ],
+    "units": [
+      "soilpol_np_pesticides"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "pollution_load",
+    "to_node": "SOC",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2018_soil_pollution"
+    ],
+    "units": [
+      "soilpol_np_pesticides"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "copper-based fungicides",
+    "to_node": "soil_biota",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 2,
+    "scope": "peripheral",
+    "docs": [
+      "fao2018_soil_pollution"
+    ],
+    "units": [
+      "soilpol_np_pesticides"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "fertilizer_use",
+    "to_node": "pH",
+    "effect": "decrease",
+    "condition": "cropland",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2018_soil_pollution"
+    ],
+    "units": [
+      "soilpol_ecosystem"
+    ],
+    "mechanisms": [
+      "nitrification and other N-transformation processes"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "nutrient_availability",
+    "to_node": "soil_biota",
+    "effect": "increase",
+    "condition": "cropland",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2018_soil_pollution"
+    ],
+    "units": [
+      "soilpol_ecosystem"
+    ],
+    "mechanisms": [
+      "unstated"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "pesticide_use",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "cropland",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2018_soil_pollution"
+    ],
+    "units": [
+      "soilpol_ecosystem"
+    ],
+    "mechanisms": [
+      "suppression of symbiotic nitrogen fixation"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "manure",
+    "to_node": "nutrient_availability",
+    "effect": "decrease",
+    "condition": "cropland",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2018_soil_pollution"
+    ],
+    "units": [
+      "soilpol_ecosystem"
+    ],
+    "mechanisms": [
+      "heavy metal pollution and changes in microbial community"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "pollution_load",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "cropland",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2018_soil_pollution"
+    ],
+    "units": [
+      "soilpol_ecosystem"
+    ],
+    "mechanisms": [
+      "inhibition of plant growth"
+    ],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "beneficial_microbes",
+    "to_node": "nutrient_availability",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "fao2018_soil_pollution"
+    ],
+    "units": [
+      "soilpol_agronomic_fix"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "lime_addition",
+    "to_node": "pH",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "fao2018_soil_pollution"
+    ],
+    "units": [
+      "soilpol_agronomic_fix"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "zinc_addition",
+    "to_node": "nutrient_availability",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "fao2018_soil_pollution"
+    ],
+    "units": [
+      "soilpol_agronomic_fix"
+    ],
+    "mechanisms": [],
+    "strength": "unstated"
+  },
+  {
+    "from_node": "tree_cover",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "pearl millet",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "tewari_agroforestry_hot_arid"
+    ],
+    "units": [
+      "tewari_hot_arid__full"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "tree_cover",
+    "to_node": "crop_yield",
+    "effect": "decrease",
+    "condition": "legumes",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "tewari_agroforestry_hot_arid"
+    ],
+    "units": [
+      "tewari_hot_arid__full"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "shelterbelts",
+    "to_node": "soil_erosion",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "tewari_agroforestry_hot_arid"
+    ],
+    "units": [
+      "tewari_hot_arid__full"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "tree_cover",
+    "to_node": "SOC",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "tewari_agroforestry_hot_arid"
+    ],
+    "units": [
+      "tewari_hot_arid__full"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "tree_cover",
+    "to_node": "nutrient_availability",
+    "effect": "increase",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "tewari_agroforestry_hot_arid"
+    ],
+    "units": [
+      "tewari_hot_arid__full"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "tree_cover",
+    "to_node": "temperature",
+    "effect": "decrease",
+    "condition": null,
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "tewari_agroforestry_hot_arid"
+    ],
+    "units": [
+      "tewari_hot_arid__full"
+    ],
+    "mechanisms": [],
+    "strength": "strong"
+  },
+  {
+    "from_node": "irrigation",
+    "to_node": "crop_yield",
+    "effect": "increase",
+    "condition": "dragon fruit",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "keerthika2026_agroforestry_semiarid"
+    ],
+    "units": [
+      "keerthika2026__full"
+    ],
+    "mechanisms": [
+      "better moisture availability and nutrient absorption"
+    ],
+    "strength": "strong"
+  },
+  {
+    "from_node": "Napier grass",
+    "to_node": "temperature",
+    "effect": "decrease",
+    "condition": "semi-arid",
+    "support_count": 1,
+    "scope": "peripheral",
+    "docs": [
+      "keerthika2026_agroforestry_semiarid"
+    ],
+    "units": [
+      "keerthika2026__full"
+    ],
+    "mechanisms": [
+      "lowering air temperature"
+    ],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "agroforestry_agrisilvicultural",
+    "to_node": "nutrient_availability",
+    "effect": "increase",
+    "condition": "potassium",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "keerthika2026_agroforestry_semiarid"
+    ],
+    "units": [
+      "keerthika2026__full"
+    ],
+    "mechanisms": [
+      "enhanced cycling of K through litterfall, root turnover, and mineral weathering"
+    ],
+    "strength": "moderate"
+  },
+  {
+    "from_node": "irrigation",
+    "to_node": "salinity",
+    "effect": "increase",
+    "condition": "semi-arid",
+    "support_count": 1,
+    "scope": "core",
+    "docs": [
+      "keerthika2026_agroforestry_semiarid"
+    ],
+    "units": [
+      "keerthika2026__full"
+    ],
+    "mechanisms": [
+      "build-up in soil electrical conductivity"
+    ],
+    "strength": "moderate"
+  }
+]

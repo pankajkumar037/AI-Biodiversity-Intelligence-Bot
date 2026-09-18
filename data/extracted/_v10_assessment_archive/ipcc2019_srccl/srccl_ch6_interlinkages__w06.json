@@ -1,0 +1,82 @@
+{
+  "extraction_status": "ok",
+  "section_title": "6.4.3.1 Impacts of integrated response options on NCP",
+  "content_type": "assessment",
+  "summary": "This assessment evaluates the impacts of various land-based response options on Nature's Contributions to People (NCP), highlighting synergies and trade-offs. It notes that while some options like agroforestry and improved cropland management provide co-benefits across multiple NCPs, others like bioenergy and BECCS may involve significant negative trade-offs.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch6_interlinkages__w06__p01",
+      "heading_path": [
+        "6.4.3 Impacts of integrated response options on Nature’s Contributions to People (NCP) and the UN Sustainable Development Goals (SDGs)",
+        "6.4.3.1 Impacts of integrated response options on NCP"
+      ],
+      "text": "Overall, several response options stand out as having co-benefits across 10 or more NCP with no adverse impacts, including: improved cropland management, agroforestry, forest management and forest restoration, increased soil organic content, fire management, restoration and avoided conversion of coastal wetlands, and use of local seeds. Other response options may have strengths in some NCP but require trade-offs with others. For example, reforestation and afforestation bring many positive benefits for climate and water quality but may trade-off with food production (Table 6.70). Several response options, including increased food productivity, bioenergy and BECCS, and some risk-sharing instruments, like crop insurance, have significant negative consequences across multiple NCPs.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Impacts of integrated response options on NCP",
+      "practices": [
+        "agroforestry_agrisilvicultural",
+        "integrated_nutrient_mgmt",
+        "agroforestry_silvopastoral",
+        "agroforestry_agrosilvopastoral",
+        "agroforestry_horti_pastoral",
+        "other"
+      ],
+      "metrics": [
+        "crop_yield",
+        "water_holding_capacity",
+        "soil_organic_matter",
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "forest",
+        "integrated_system"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch6_interlinkages__w06__c01",
+      "passage_id": "srccl_ch6_interlinkages__w06__p01",
+      "subject": "reforestation and afforestation",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "evidence_span": "For example, reforestation and afforestation bring many positive benefits for climate and water quality but may trade-off with food production (Table 6.70).",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "reforestation and afforestation",
+      "to_node": "food production",
+      "effect": "decrease",
+      "passage_id": "srccl_ch6_interlinkages__w06__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "bioenergy and BECCS",
+      "to_node": "NCP",
+      "effect": "mixed",
+      "passage_id": "srccl_ch6_interlinkages__w06__p01",
+      "strength_stated": "unstated"
+    }
+  ],
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w06",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 627,
+    "pdf_end": 638,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:53:37Z",
+    "pdf_sha256": "675063467c02128a"
+  }
+}

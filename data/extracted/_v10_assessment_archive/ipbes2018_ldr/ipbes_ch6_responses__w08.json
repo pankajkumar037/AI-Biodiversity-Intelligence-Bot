@@ -1,0 +1,162 @@
+{
+  "extraction_status": "ok",
+  "section_title": "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+  "content_type": "assessment",
+  "summary": "This document provides a comprehensive list of references for Chapter 6 of the IPBES assessment report, which focuses on responses to halt land degradation and restore degraded land. The references cover a wide range of topics including sustainable land management, agroforestry, soil conservation, biodiversity restoration, and economic valuation of ecosystem services.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch6_responses__w08__p01",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Sidibé, Y., Myint, M., & Westerberg, V. (2014). An economic valuation of agroforestry and land restoration in the Kelka Forest, Mali. Assessing the socio-economic and environmental dimensions of land degradation. Nairobi: Economics of Land Degradation Initiative and International Union for the Conservation of Nature. Retrieved from www.eld-initiative.org",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "agroforestry and land restoration",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w08__p02",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Tacio, H. (1993). Sloping agricultural land technology (SALT): a sustainable agroforestry scheme for the uplands. Agroforestry Systems, 22(2), 145-152.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Sloping agricultural land technology",
+      "practices": [
+        "agroforestry_agrisilvicultural",
+        "terracing"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w08__p03",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Undersander, D., Albert, B., Cosgrove, D., Johnson, D., & Peterson, P. (2014). Pastures for profit: A guide to rotational grazing, A3529, 1-39. Retrieved from https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb1097378.pdf",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "rotational grazing",
+      "practices": [
+        "rotational_grazing"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w08__p04",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Valentin, C., Agus, F., Alamban, R., Boosaner, A., Bricquet, J. P., Chaplot, V., de Guzman, T., de Rouw, A., Janeau, J. L., Orange, D., Phachomphonh, K., Do Duy Phai, Podwojewski, P., Ribolzi, O., Silvera, N., Subagyono, K., Thiébaux, J. P., Tran Duc Toan, & Vadari, T. (2008). Runoff and sediment losses from 27 upland catchments in Southeast Asia: Impact of rapid land use changes and conservation practices. Agriculture, Ecosystems and Environment, 128(4), 225-238. https://doi.org/10.1016/j.agee.2008.06.004",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "runoff and sediment losses",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w08__p05",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Verchot, L. V., Van Noordwijk, M., Kandji, S., Tomich, T., Ong, C., Albrecht, A., Mackensen, J., Bantilan, C., Anupama, K. V., & Palm, C. (2007). Climate change: linking adaptation and mitigation through agroforestry. Mitigation and Adaptation Strategies for Global Change, 12(5), 901-918. https://doi.org/V10.1007/s11027-007-9105-6",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "agroforestry for climate change",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch6_responses__w08__c01",
+      "passage_id": "ipbes_ch6_responses__w08__p04",
+      "subject": "conservation practices",
+      "metric": "erosion",
+      "direction": "decrease",
+      "evidence_span": "Runoff and sediment losses from 27 upland catchments in Southeast Asia: Impact of rapid land use changes and conservation practices.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "conservation practices",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "ipbes_ch6_responses__w08__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "ipbes_ch6_responses__w08__p05",
+      "strength_stated": "unstated"
+    }
+  ],
+  "_meta": {
+    "unit_id": "ipbes_ch6_responses__w08",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 581,
+    "pdf_end": 590,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:58:29Z",
+    "pdf_sha256": "31379bc23566d8b0"
+  }
+}

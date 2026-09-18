@@ -1,0 +1,350 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Desertification",
+  "content_type": "assessment",
+  "summary": "This assessment unit covers desertification processes, impacts, and management strategies in Central Asia, China, Algeria, the Sahel, the Arabian Peninsula, Jordan, and India. It highlights the role of sustainable land and water management, including water harvesting, afforestation, and integrated watershed management, while noting the challenges of climate change, invasive species, and socio-economic trade-offs.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch3_desertification__w04__p01",
+      "heading_path": [
+        "Desertification",
+        "3.7.1.4 Soil erosion in Central Asia under changing climate"
+      ],
+      "text": "The major causes of soil erosion in Central Asia are related to human factors, primarily excessive water use in irrigated areas, deep ploughing and lack of maintenance of vegetative cover in rainfed areas, and overgrazing in rangelands. Lack of good maintenance of watering infrastructure for migratory livestock grazing, and fragmentation of livestock herds led to overgrazing near villages, increasing the soil erosion by wind.",
+      "page_start": 293,
+      "page_end": 293,
+      "topic": "soil erosion causes",
+      "practices": [],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland",
+        "rangeland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w04__p02",
+      "heading_path": [
+        "Desertification",
+        "3.7.2 Green walls and green dams"
+      ],
+      "text": "Afforestation and reforestation programmes can contribute to reducing sand storms and increasing carbon sinks in dryland regions (high confidence). On the other hand, green wall and green dam programmes also decrease the albedo and hence increase the surface absorption of radiation, increasing the surface temperature.",
+      "page_start": 294,
+      "page_end": 294,
+      "topic": "green wall impacts",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "temperature",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "dry_sub_humid"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w04__p03",
+      "heading_path": [
+        "Desertification",
+        "3.7.2.1 The experiences of combating desertification in China"
+      ],
+      "text": "Compared with 2009, the amount of wind erosion decreased by 33%, the average annual occurrence of sandstorms decreased by 20.3% in 2014; (iv) as of 2014, 203,700 km2 of degraded land were effectively managed, accounting for 38.4% of the 530,000 km2 of manageable desertified land.",
+      "page_start": 294,
+      "page_end": 294,
+      "topic": "desertification management outcomes",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w04__p04",
+      "heading_path": [
+        "Desertification",
+        "3.7.3.1 Introduction"
+      ],
+      "text": "Invasive plants are considered a major risk to native biodiversity and can disturb the nutrient dynamics and water balance in affected ecosystems. Compared to more humid regions, the number of species that succeed in invading dryland areas is low, yet they have a considerable impact on biodiversity and ecosystem services.",
+      "page_start": 297,
+      "page_end": 297,
+      "topic": "invasive species impacts",
+      "practices": [],
+      "metrics": [
+        "species_richness",
+        "nutrient_availability",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w04__p05",
+      "heading_path": [
+        "Desertification",
+        "3.7.3.2 Ethiopia"
+      ],
+      "text": "A study by Etana et al. (2011) indicated that Parthenium caused a 69% decline in the density of herbaceous species in Awash National Park within a few years of introduction. In the presence of Parthenium, the growth and development of crops is suppressed due to its allelopathic properties. McConnachie et al. (2011) estimated a 28% crop loss across the country, including a 40–90% reduction in sorghum yield in eastern Ethiopia alone.",
+      "page_start": 298,
+      "page_end": 298,
+      "topic": "invasive species impacts",
+      "practices": [],
+      "metrics": [
+        "species_richness",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w04__p06",
+      "heading_path": [
+        "Desertification",
+        "3.7.3.3 Mexico"
+      ],
+      "text": "Castellanos et al. (2016) reported that soil moisture was lower in the buffelgrass savannah cleared 35 years ago than in the native semi-arid shrubland, mainly during the summer. The ecohydrological changes induced by buffelgrass can therefore displace native plant species over the long term.",
+      "page_start": 299,
+      "page_end": 299,
+      "topic": "invasive species impacts",
+      "practices": [],
+      "metrics": [
+        "soil_moisture",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "rangeland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w04__p07",
+      "heading_path": [
+        "Desertification",
+        "3.7.5.1 Jordan"
+      ],
+      "text": "The practice of intensive and localised livestock herding, in combination with deep ploughing and unproductive barley agriculture, are the main drivers of severe land degradation and depletion of the rangeland natural resources. This affected both the quantity and the diversity of vegetation as native plants with a high nutrition value were replaced with invasive species with low palatability and nutritional content.",
+      "page_start": 302,
+      "page_end": 302,
+      "topic": "land degradation drivers",
+      "practices": [],
+      "metrics": [
+        "species_richness",
+        "biomass"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "rangeland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w04__p08",
+      "heading_path": [
+        "Desertification",
+        "3.7.5.1 Jordan"
+      ],
+      "text": "The micro catchments are planted with native shrub seedlings, such as saltbush (Atriplex halimus), with enhanced survival as a function of increased soil moisture and increased dry matter yields (>300 kg ha–1) that can serve as forage for livestock.",
+      "page_start": 303,
+      "page_end": 303,
+      "topic": "water harvesting outcomes",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "biomass"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "rangeland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch3_desertification__w04__c01",
+      "passage_id": "srccl_ch3_desertification__w04__p01",
+      "subject": "overgrazing",
+      "metric": "erosion",
+      "direction": "increase",
+      "evidence_span": "Lack of good maintenance of watering infrastructure for migratory livestock grazing, and fragmentation of livestock herds led to overgrazing near villages, increasing the soil erosion by wind.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w04__c02",
+      "passage_id": "srccl_ch3_desertification__w04__p02",
+      "subject": "green wall and green dam programmes",
+      "metric": "temperature",
+      "direction": "increase",
+      "evidence_span": "On the other hand, green wall and green dam programmes also decrease the albedo and hence increase the surface absorption of radiation, increasing the surface temperature.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w04__c03",
+      "passage_id": "srccl_ch3_desertification__w04__p03",
+      "subject": "desertification management",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": 33,
+      "unit": "percent_change",
+      "evidence_span": "compared with 2009, the amount of wind erosion decreased by 33%",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w04__c04",
+      "passage_id": "srccl_ch3_desertification__w04__p05",
+      "subject": "Parthenium",
+      "metric": "species_richness",
+      "direction": "decrease",
+      "value": 69,
+      "unit": "percent",
+      "evidence_span": "A study by Etana et al. (2011) indicated that Parthenium caused a 69% decline in the density of herbaceous species in Awash National Park within a few years of introduction.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w04__c05",
+      "passage_id": "srccl_ch3_desertification__w04__p05",
+      "subject": "Parthenium",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": 28,
+      "unit": "percent",
+      "evidence_span": "McConnachie et al. (2011) estimated a 28% crop loss across the country",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w04__c06",
+      "passage_id": "srccl_ch3_desertification__w04__p06",
+      "subject": "buffelgrass",
+      "metric": "soil_moisture",
+      "direction": "decrease",
+      "evidence_span": "Castellanos et al. (2016) reported that soil moisture was lower in the buffelgrass savannah cleared 35 years ago than in the native semi-arid shrubland",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w04__c07",
+      "passage_id": "srccl_ch3_desertification__w04__p08",
+      "subject": "water harvesting micro catchments",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "evidence_span": "The micro catchments are planted with native shrub seedlings, such as saltbush (Atriplex halimus), with enhanced survival as a function of increased soil moisture",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w04__c08",
+      "passage_id": "srccl_ch3_desertification__w04__p08",
+      "subject": "water harvesting micro catchments",
+      "metric": "biomass",
+      "direction": "increase",
+      "value": 300,
+      "unit": "kg_ha",
+      "evidence_span": "and increased dry matter yields (>300 kg ha–1) that can serve as forage for livestock",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "overgrazing",
+      "to_node": "erosion",
+      "effect": "increase",
+      "passage_id": "srccl_ch3_desertification__w04__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "green wall and green dam programmes",
+      "to_node": "temperature",
+      "effect": "increase",
+      "mechanism": "decrease albedo and increase surface absorption of radiation",
+      "passage_id": "srccl_ch3_desertification__w04__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "Parthenium",
+      "to_node": "species_richness",
+      "effect": "decrease",
+      "passage_id": "srccl_ch3_desertification__w04__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "Parthenium",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "mechanism": "allelopathic properties",
+      "passage_id": "srccl_ch3_desertification__w04__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "buffelgrass",
+      "to_node": "soil_moisture",
+      "effect": "decrease",
+      "passage_id": "srccl_ch3_desertification__w04__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "water harvesting micro catchments",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "passage_id": "srccl_ch3_desertification__w04__p08",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "water harvesting micro catchments",
+      "to_node": "biomass",
+      "effect": "increase",
+      "passage_id": "srccl_ch3_desertification__w04__p08",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch3_desertification__w04",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 303,
+    "pdf_end": 314,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:07:09Z",
+    "pdf_sha256": "946cfe71d823ddf6"
+  }
+}

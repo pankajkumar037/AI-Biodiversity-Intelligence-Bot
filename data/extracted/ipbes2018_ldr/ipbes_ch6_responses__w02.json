@@ -1,0 +1,272 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Responses to halt land degradation and to restore degraded land",
+  "content_type": "assessment",
+  "summary": "This assessment reviews various responses to land degradation across urban, wetland, and agricultural contexts, emphasizing the importance of integrated management, policy-level interventions, and site-specific restoration practices.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch6_responses__w02__p01",
+      "heading_path": [
+        "Restoration practices in urban and built environments"
+      ],
+      "text": "Soil contamination, a process by which the chemical properties of soils are changed, occurs mainly from industrial development in cities through factories releasing wastes that contain heavy metals, organic pollutants and other contaminants to surrounding areas. While soil contamination is rarely reversible, it is sometimes possible to use brownfields to produce non-alimentary crops for energy or textiles. In this way, the past industrial soils recover new functions and their imperviousness is reduced.",
+      "page_start": 457,
+      "page_end": 457,
+      "topic": "Soil contamination",
+      "practices": [],
+      "metrics": [
+        "soil_organic_matter"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w02__p02",
+      "heading_path": [
+        "Restoration practices in urban and built environments"
+      ],
+      "text": "Soil sealing is prevalent where materials such as asphalt, concrete and stone are used to construct buildings, roads, parking lots and other urban infrastructure. Sealing reduces or completely prevents natural soil functions and ecosystem services on the area concerned, including regulation of hydrology and temperature regimes in urban areas.",
+      "page_start": 458,
+      "page_end": 458,
+      "topic": "Soil sealing",
+      "practices": [],
+      "metrics": [
+        "soil_moisture",
+        "temperature"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w02__p03",
+      "heading_path": [
+        "6.3.1.5 Responses to wetland degradation"
+      ],
+      "text": "Successful restoration of wetlands results in self-sustaining and resilient ecosystems dominated by native species (in characteristic assemblages and functional groups) that are part of a wider landscape in which the drivers of wetland degradation have been reduced or eliminated.",
+      "page_start": 459,
+      "page_end": 459,
+      "topic": "Wetland restoration",
+      "practices": [
+        "grassland_restoration"
+      ],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w02__p04",
+      "heading_path": [
+        "6.3.1.5 Responses to wetland degradation"
+      ],
+      "text": "A recent meta-analysis of global wetland restoration involving over 600 restored wetlands found that those where either surface modification or flow re-establishment were used followed similar recovery trajectories, regardless of whether they were revegetated or not. It also found potential detrimental effects of revegetation measures on the recovery of the plant assemblage in cold climates and in wetlands restored in agricultural areas.",
+      "page_start": 459,
+      "page_end": 459,
+      "topic": "Wetland restoration",
+      "practices": [
+        "grassland_restoration"
+      ],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w02__p05",
+      "heading_path": [
+        "6.3.2.1 Responses to invasive species"
+      ],
+      "text": "Invasive species management using a holistic ecosystem approach and driven by local communities, in differing urban landscapes - including coastal, woodlands, wetlands, rivers and estuaries - has proven to be highly successful in restoring functioning ecosystems. Long-term outcomes include restored urban environments resilient to changing climates with focus on the removal of all invasive species and their replacement with indigenous species.",
+      "page_start": 462,
+      "page_end": 462,
+      "topic": "Invasive species management",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w02__p06",
+      "heading_path": [
+        "6.3.2.2 Responses to mineral extraction"
+      ],
+      "text": "When only sub-soils and overburden materials are available for reclamation and/or restoration after mineral extraction, the addition of topsoil and composts can greatly aid establishment of vegetation and fauna. Active intervention with fertilizers and soil amendments can enhance nutrient cycling and tree establishment, and inoculating soil with appropriate mycobionts (especially mycorrhizal fungi) can aid tree establishment and survival.",
+      "page_start": 466,
+      "page_end": 466,
+      "topic": "Mine site restoration",
+      "practices": [
+        "compost",
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w02__p07",
+      "heading_path": [
+        "6.3.2.3 Responses to soil quality changes"
+      ],
+      "text": "One of the most important soil health and quality changes, associated with any response strategy, is an increase soil organic carbon, because it directly influences a multitude of soil properties and processes. For example, applying animal or green manures can improve soil health and quality by increasing soil porosity, enhancing soil structure (i.e., binding of sand-, silt-, and clay-size particles), decreasing compaction, increasing aggregation and decreasing wind and water erosion.",
+      "page_start": 467,
+      "page_end": 467,
+      "topic": "Soil health",
+      "practices": [
+        "manure"
+      ],
+      "metrics": [
+        "SOC",
+        "soil_organic_matter",
+        "bulk_density",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w02__p08",
+      "heading_path": [
+        "Salinization"
+      ],
+      "text": "Growing salt-tolerant crops often have an added soil health and/or quality benefit, because they generally support the formation of stable soil aggregates that improve infiltration and resistance to wind erosion, while also decreasing surface crusting.",
+      "page_start": 468,
+      "page_end": 468,
+      "topic": "Salinization",
+      "practices": [],
+      "metrics": [
+        "soil_organic_matter",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch6_responses__w02__c01",
+      "passage_id": "ipbes_ch6_responses__w02__p02",
+      "subject": "Soil sealing",
+      "metric": "soil_moisture",
+      "direction": "decrease",
+      "evidence_span": "Sealing reduces or completely prevents natural soil functions and ecosystem services on the area concerned, including regulation of hydrology and temperature regimes in urban areas.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w02__c02",
+      "passage_id": "ipbes_ch6_responses__w02__p06",
+      "subject": "Addition of topsoil and composts",
+      "metric": "species_richness",
+      "direction": "increase",
+      "evidence_span": "When only sub-soils and overburden materials are available for reclamation and/or restoration after mineral extraction, the addition of topsoil and composts can greatly aid establishment of vegetation and fauna.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w02__c03",
+      "passage_id": "ipbes_ch6_responses__w02__p07",
+      "subject": "Animal or green manures",
+      "metric": "erosion",
+      "direction": "decrease",
+      "evidence_span": "For example, applying animal or green manures can improve soil health and quality by increasing soil porosity, enhancing soil structure (i.e., binding of sand-, silt-, and clay-size particles), decreasing compaction, increasing aggregation and decreasing wind and water erosion.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w02__c04",
+      "passage_id": "ipbes_ch6_responses__w02__p08",
+      "subject": "Salt-tolerant crops",
+      "metric": "erosion",
+      "direction": "decrease",
+      "evidence_span": "Growing salt-tolerant crops often have an added soil health and/or quality benefit, because they generally support the formation of stable soil aggregates that improve infiltration and resistance to wind erosion, while also decreasing surface crusting.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "soil sealing",
+      "to_node": "soil moisture",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch6_responses__w02__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "addition of topsoil and composts",
+      "to_node": "species_richness",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w02__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "animal or green manures",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch6_responses__w02__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "salt-tolerant crops",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch6_responses__w02__p08",
+      "strength_stated": "unstated"
+    }
+  ],
+  "_meta": {
+    "unit_id": "ipbes_ch6_responses__w02",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 515,
+    "pdf_end": 526,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:16:39Z",
+    "pdf_sha256": "e290b94bf41e847e"
+  }
+}

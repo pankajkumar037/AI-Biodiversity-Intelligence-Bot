@@ -1,0 +1,164 @@
+{
+  "extraction_status": "ok",
+  "section_title": "GSOCseq introduction and methodology",
+  "content_type": "methods",
+  "summary": "This document outlines the methodology for the GSOCseq tool, which uses the RothC model to estimate soil organic carbon sequestration. It details modifying factors for soil moisture, vegetation cover, and paddy rice, as well as default values for carbon input decomposability (DPM/RPM ratios) across different land uses. It also describes the process for adjusting carbon input scenarios based on local management practices.",
+  "passages": [
+    {
+      "passage_id": "gsocseq_intro__w02__p01",
+      "heading_path": [
+        "Soil moisture factor (b)"
+      ],
+      "text": "Soil moisture factor (b). Monthly balance ET-PP. Dryer conditions (> deficit)… Lower b, Lower decomposition rate. water holding capacity (mm) / TSMD (Total Soil moisture deficit) From Clay %. if Et –PP exceeds 0.44 of TMSD , b decreases 0.2. 0.44 Max TMSD. Max TMSD e.g. 44",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Soil moisture factor",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "gsocseq_intro__w02__p02",
+      "heading_path": [
+        "Soil/vegetation cover factor (c)"
+      ],
+      "text": "Soil/vegetation cover factor (c). If soil is vegetated c=0.6. If soil is bare c=1.0. If Vegetated, Lower “c” Lower decomposition rate. July No crops Bare; c=1.0. January Growing crops veg.; c=0.6",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Soil/vegetation cover factor",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "unstated"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "gsocseq_intro__w02__p03",
+      "heading_path": [
+        "Example RothC Japan – Paddy Rice - watterlogged soils"
+      ],
+      "text": "Example RothC Japan – Paddy Rice - watterlogged soils. Modifying factor for paddy rice: 0.6 x k months no flooded rice; 0.2 x k with flooded Rice. Paddy rice modifying factor GSOCseq= 0.4 x k. The model underestimated SOC, as expected (slower decomposition because of anaerobic condition). From:Yirato y Yagasaki. NIAES (Shirato & Yokozawa, 2005)",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Paddy rice modifying factor",
+      "practices": [],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "gsocseq_intro__w02__p04",
+      "heading_path": [
+        "Soil texture"
+      ],
+      "text": "Soil texture. Clay% … affects the proportion of C from each pool that is released as CO2 or to Soil organic carbon pools. From that… 46 % goes to BIO; 54% goes to HUM. > Clay ; > % to BIO+HUM, less as CO2",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Soil texture",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "gsocseq_intro__w02__p05",
+      "heading_path": [
+        "DPM/RPM… “Decomposability of C inputs”"
+      ],
+      "text": "DPM/RPM… “Decomposability of C inputs”. C inputs split between DPM and RPM. Depends on Land Use. Can be modified. Default values… Crops and improved pastures… DPM/RPM = 1.44 (59% is DPM, 41% is RPM). Grasslands, shrublands/savannas DPM/RPM = 0.67 (41% is DPM; 59% is RPM). Tree crops variable...DPM/RPM = 1.44; 0.67; 0.35 (Morais et al 2019;Farina et al 2017). Forests (deciduous, tropical)… DPM/RPM =0.25 (20% is DPM y 80% is RPM). Manure… DPM/RPM =1 (49% is DPM; 49% is RPM ; 2%HUM)",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "DPM/RPM ratios",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland",
+        "forest",
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w02__p08",
+      "heading_path": [
+        "How to harmonize and model thousands of different practices, often combined? …Specially with limited data"
+      ],
+      "text": "How to harmonize and model thousands of different practices, often combined? …Specially with limited data. Practices that increase C inputs. 3 scenarios: +5% increase Ci, +10% increase Ci, +20% increase Ci. Conservative ranges…may be high for other systems. based on Smith, 2004; Wiesmeier et al., 2016",
+      "page_start": 8,
+      "page_end": 8,
+      "topic": "Carbon input scenarios",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "gsocseq_intro__w02__p12",
+      "heading_path": [
+        "Local adjustment of scenarios and % increase in C inputs"
+      ],
+      "text": "Local adjustment of scenarios and % increase in C inputs. E.g. Croplands: SSM1 - Low +10%, SSM2 - Medium +25%, SSM3 - High +50%. Grazing lands: SSM1 - Low +5%, SSM2 - Medium +30%, SSM3 - High +70%.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "Local adjustment of scenarios",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland"
+      ],
+      "content_role": "table"
+    }
+  ],
+  "claims": [],
+  "links": [],
+  "_meta": {
+    "unit_id": "gsocseq_intro__w02",
+    "doc_id": "fao_gsocseq_intro",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 23,
+    "pdf_end": 34,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T11:02:52Z",
+    "pdf_sha256": "d51e6f68c0cbadca",
+    "prompt_type": "inventory"
+  }
+}

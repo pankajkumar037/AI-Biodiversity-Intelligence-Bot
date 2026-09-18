@@ -1,0 +1,158 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4.9.5 Biochar",
+  "content_type": "practice",
+  "summary": "Biochar is a carbonised organic matter used as a soil amendment to mitigate land degradation and climate change. It improves soil properties, enhances nutrient use efficiency, and can sequester carbon, though its effectiveness depends on feedstock, production conditions, and soil type.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch4_land_degradation__w04__p01",
+      "heading_path": [
+        "4.9 Case studies",
+        "4.9.5 Biochar"
+      ],
+      "text": "Biochar is organic matter that is carbonised by heating in an oxygen-limited environment, and used as a soil amendment. The properties of biochar vary widely, dependent on the feedstock and the conditions of production. Biochar could make a significant contribution to mitigating both land degradation and climate change, simultaneously.",
+      "page_start": 10,
+      "page_end": 10,
+      "topic": "Biochar definition and potential",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w04__p02",
+      "heading_path": [
+        "4.9 Case studies",
+        "4.9.5 Biochar",
+        "4.9.5.1 Role of biochar in climate change mitigation"
+      ],
+      "text": "Biochar is relatively resistant to decomposition compared with fresh organic matter or compost, so represents a long-term carbon store (very high confidence). Biochars produced at higher temperature (>450°C) and from woody material have greater stability than those produced at lower temperature (300–450°C), and from manures (very high confidence) (Singh et al. 2012; Wang et al. 2016b). Biochar stability is influenced by soil properties: biochar carbon can be further stabilised by interaction with clay minerals and native SOM (medium evidence) (Fang et al. 2015). Biochar stability is estimated to range from decades to thousands of years, for different biochars in different applications (Singh et al. 2015; Wang et al. 2016). Biochar stability decreases as ambient temperature increases (limited evidence) (Fang et al. 2017).",
+      "page_start": 10,
+      "page_end": 10,
+      "topic": "Biochar stability",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w04__p03",
+      "heading_path": [
+        "4.9 Case studies",
+        "4.9.5 Biochar",
+        "4.9.5.2 Role of biochar in management of land degradation"
+      ],
+      "text": "Biochars generally have high porosity, high surface area and surface-active properties that lead to high absorptive and adsorptive capacity, especially after interaction in soil (Joseph et al. 2010). As a result of these properties, biochar could contribute to avoiding, reducing and reversing land degradation through the following documented benefits: Improved nutrient use efficiency due to reduced leaching of nitrate and ammonium (e.g., Haider et al. 2017) and increased availability of phosphorus in soils with high phosphorus fixation capacity (Liu et al. 2018c), potentially reducing nitrogen and phosphorus fertiliser requirements. Management of heavy metals and organic pollutants: through reduced bioavailability of toxic elements (O’Connor et al. 2018; Peng et al. 2018), by reducing availability, through immobilisation due to increased pH and redox effects (Rizwan et al. 2016) and adsorption on biochar surfaces (Zhang et al. 2013) thus providing a means of remediating contaminated soils, and enabling their utilisation for food production. Stimulation of beneficial soil organisms, including earthworms and mycorrhizal fungi (Thies et al. 2015). Improved porosity and water-holding capacity (Quin et al. 2014), particularly in sandy soils (Omondi et al. 2016), enhancing microbial function during drought (Paetsch et al. 2018). Amelioration of soil acidification, through application of biochars with high pH and acid-neutralising capacity (Chan et al. 2008; Van Zwieten et al. 2010).",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Biochar benefits for land degradation",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "soil_biota",
+        "water_holding_capacity",
+        "pH"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch4_land_degradation__w04__c01",
+      "passage_id": "srccl_ch4_land_degradation__w04__p02",
+      "subject": "Biochar",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "evidence_span": "Biochar is relatively resistant to decomposition compared with fresh organic matter or compost, so represents a long-term carbon store (very high confidence).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w04__c02",
+      "passage_id": "srccl_ch4_land_degradation__w04__p03",
+      "subject": "Biochar",
+      "metric": "water_holding_capacity",
+      "direction": "increase",
+      "conditions": "sandy soils",
+      "evidence_span": "Improved porosity and water-holding capacity (Quin et al. 2014), particularly in sandy soils (Omondi et al. 2016), enhancing microbial function during drought (Paetsch et al. 2018).",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "biochar",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "passage_id": "srccl_ch4_land_degradation__w04__p02",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "biochar",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "condition": "sandy soils",
+      "passage_id": "srccl_ch4_land_degradation__w04__p03",
+      "strength_stated": "moderate"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Biochar application",
+    "tree_species": [],
+    "crop_species": [],
+    "region_of_adoption": [
+      "global"
+    ],
+    "stated_benefits": [
+      "Improved nutrient use efficiency",
+      "Management of heavy metals and organic pollutants",
+      "Stimulation of beneficial soil organisms",
+      "Improved porosity and water-holding capacity",
+      "Amelioration of soil acidification"
+    ],
+    "stated_constraints": [
+      "high cost",
+      "limited availability due to limited large-scale production",
+      "limited amount of unutilised biomass",
+      "competition for land for growing biomass",
+      "risk that biochar may enhance polycyclic aromatic hydrocarbon (PAH) in soil or sediments"
+    ]
+  },
+  "_meta": {
+    "unit_id": "srccl_ch4_land_degradation__w04",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 399,
+    "pdf_end": 410,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:51:23Z",
+    "pdf_sha256": "0209f31e4e6a8eaf"
+  }
+}

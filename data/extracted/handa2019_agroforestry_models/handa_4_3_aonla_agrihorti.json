@@ -1,0 +1,132 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4.3. Agroforestry Model: Aonla based Agri-horticultural System",
+  "content_type": "model",
+  "summary": "This document describes the Aonla (Phyllanthus emblica) based agri-horticultural system, an agroforestry model adopted in the Bundelkhand region of India. It details the tree's habitat, phenology, propagation, cultural operations, and economic benefits, noting its profitability in poor and marginal lands.",
+  "passages": [
+    {
+      "passage_id": "handa_4_3_aonla_agrihorti__p01",
+      "heading_path": [
+        "4.3. Agroforestry Model: Aonla based Agri-horticultural System"
+      ],
+      "text": "Aonla starts fruiting after 4 years of plantation and can give 400 to 500 kg/ha fruits and gradually the fruit yield increases with increasing age of trees. At the age of 10 years, it can yield up to 120 kg fruits per plant. After seven years of Aonla based agri-horticulture system (Aonla+ green gram/black gram), the B:C ratio of the system was 1.84. However, it increased to 3.28 at the age of 13 years of the system.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Yield and Economics",
+      "practices": [
+        "agroforestry_horti_pastoral"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "handa_4_3_aonla_agrihorti__p02",
+      "heading_path": [
+        "4.3. Agroforestry Model: Aonla based Agri-horticultural System",
+        "Benefits Accrued to Farmers/Public"
+      ],
+      "text": "The Aonla based agri-horticulture system has been proven to be one of the most profitable agroforestry systems in poor and marginal lands of drought-prone Bundelkhand region. It helps farmers to earn profits even in conditions of crop failure due to weather vagaries (Newaj et al. 2006).",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Benefits",
+      "practices": [
+        "agroforestry_horti_pastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "handa_4_3_aonla_agrihorti__c01",
+      "passage_id": "handa_4_3_aonla_agrihorti__p01",
+      "subject": "Aonla based agri-horticulture system",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 1.84,
+      "unit": "ratio",
+      "basis": "B:C ratio at 7 years",
+      "conditions": "Aonla+ green gram/black gram",
+      "time_horizon_years": 7,
+      "evidence_span": "After seven years of Aonla based agri-horticulture system (Aonla+ green gram/black gram), the B:C ratio of the system was 1.84.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "handa_4_3_aonla_agrihorti__c02",
+      "passage_id": "handa_4_3_aonla_agrihorti__p01",
+      "subject": "Aonla based agri-horticulture system",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 3.28,
+      "unit": "ratio",
+      "basis": "B:C ratio at 13 years",
+      "conditions": "Aonla+ green gram/black gram",
+      "time_horizon_years": 13,
+      "evidence_span": "However, it increased to 3.28 at the age of 13 years of the system.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "agroforestry_horti_pastoral",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": "Aonla+ green gram/black gram",
+      "passage_id": "handa_4_3_aonla_agrihorti__p01",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Aonla based Agri-horticultural System",
+    "tree_species": [
+      "Phyllanthus emblica"
+    ],
+    "crop_species": [
+      "green gram",
+      "black gram",
+      "sesame",
+      "mustard",
+      "chickpea"
+    ],
+    "region_of_adoption": [
+      "Bundelkhand region of Uttar Pradesh and Madhya Pradesh"
+    ],
+    "stated_benefits": [
+      "profitable in poor and marginal lands",
+      "profits even in conditions of crop failure due to weather vagaries"
+    ],
+    "stated_constraints": [
+      "Heavy frost during the winter season is not suitable for its cultivation",
+      "better availability of market and storage facility will further improve the livelihood of practitioners"
+    ]
+  },
+  "_meta": {
+    "unit_id": "handa_4_3_aonla_agrihorti",
+    "doc_id": "handa2019_agroforestry_models",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 49,
+    "pdf_end": 54,
+    "manifest_practices": [],
+    "manifest_climate_zones": [
+      "semi-arid"
+    ],
+    "extracted_at": "2026-09-18T08:59:30Z",
+    "pdf_sha256": "26250356c97c806b"
+  }
+}

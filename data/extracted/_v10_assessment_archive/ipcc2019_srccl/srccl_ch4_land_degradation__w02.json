@@ -1,0 +1,158 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4.4.1.1 Changes in water erosion risk due to precipitation changes",
+  "content_type": "assessment",
+  "summary": "This assessment reviews the impact of climate change, specifically precipitation changes and rainfall intensity, on soil erosion risk. It highlights that while climate change increases erosive power, actual erosion rates are primarily determined by local land management practices.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch4_land_degradation__w02__p01",
+      "heading_path": [
+        "4.4 Projections of land degradation in a changing climate",
+        "4.4.1.1 Changes in water erosion risk due to precipitation changes"
+      ],
+      "text": "The hydrological cycle is intensifying with increasing warming of the atmosphere. The intensification means that the number of heavy rainfall events is increasing, while the total number of rainfall events tends to decrease (Trenberth 2011; Li and Fang 2016; Kendon et al. 2014; Guerreiro et al. 2018; Burt et al. 2016a; Westra et al. 2014; Pendergrass and Knutti 2018) (robust evidence, high agreement). Modelling of the changes in land degradation that are a result of climate change alone is hard because of the importance of local contextual factors. As shown above, actual erosion rate is extremely dependent on local conditions, primarily vegetation cover and topography (García-Ruiz et al. 2015). Nevertheless, modelling of soil erosion risks has advanced substantially in recent decades, and such studies are indicative of future changes in the risk of soil erosion, while actual erosion rates will still primarily be determined by land management.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "soil erosion risk",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "erosion",
+        "rainfall"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w02__p02",
+      "heading_path": [
+        "4.4 Projections of land degradation in a changing climate",
+        "4.4.1.1 Changes in water erosion risk due to precipitation changes"
+      ],
+      "text": "In a review article, Li and Fang (2016) summarised 205 representative modelling studies around the world where erosion models were used in combination with downscaled climate models to assess future (between 2030 to 2100) erosion rates. The meta-study by Li and Fang, where possible, considered climate change in terms of temperature increase and changing rainfall regimes and their impacts on vegetation and soils. Almost all of the sites had current soil loss rates above 1 t ha–1 (assumed to be the upper limit for acceptable soil erosion in Europe) and 136 out of 205 studies predicted increased soil erosion rates. The percentage increase in erosion rates varied between 1.2% to as much as over 1600%, whereas 49 out of 205 studies projected more than 50% increase.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "soil erosion modelling",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w02__p03",
+      "heading_path": [
+        "4.4 Projections of land degradation in a changing climate",
+        "4.4.1.1 Changes in water erosion risk due to precipitation changes"
+      ],
+      "text": "When land management scenarios were added to the modelling, the erosion rates started to vary dramatically for all three time periods, ranging from a decrease of 100% for no-till land use, to an increase of 3621% for row crops under annual tillage and sub-days intensity changes (Mullan et al. 2012). Again, it shows how crucial land management is for addressing soil erosion, and the important role of rainfall intensity changes.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "soil erosion management",
+      "practices": [
+        "no_till",
+        "other"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch4_land_degradation__w02__c01",
+      "passage_id": "srccl_ch4_land_degradation__w02__p02",
+      "subject": "soil erosion rates",
+      "metric": "erosion",
+      "direction": "increase",
+      "value_low": 1.2,
+      "value_high": 1600,
+      "unit": "percent_change",
+      "basis": "205 representative modelling studies",
+      "conditions": "future (2030-2100)",
+      "time_horizon_years": 70,
+      "evidence_span": "The percentage increase in erosion rates varied between 1.2% to as much as over 1600%, whereas 49 out of 205 studies projected more than 50% increase.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w02__c02",
+      "passage_id": "srccl_ch4_land_degradation__w02__p03",
+      "subject": "no-till land use",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": 100,
+      "unit": "percent_change",
+      "basis": "modelling scenarios",
+      "conditions": "no-till land use",
+      "evidence_span": "ranging from a decrease of 100% for no-till land use",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w02__c03",
+      "passage_id": "srccl_ch4_land_degradation__w02__p03",
+      "subject": "row crops under annual tillage",
+      "metric": "erosion",
+      "direction": "increase",
+      "value": 3621,
+      "unit": "percent_change",
+      "basis": "modelling scenarios",
+      "conditions": "row crops under annual tillage and sub-days intensity changes",
+      "evidence_span": "to an increase of 3621% for row crops under annual tillage and sub-days intensity changes",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "no_till",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "srccl_ch4_land_degradation__w02__p03",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "annual_tillage",
+      "to_node": "erosion",
+      "effect": "increase",
+      "condition": "sub-days intensity changes",
+      "mechanism": null,
+      "passage_id": "srccl_ch4_land_degradation__w02__p03",
+      "strength_stated": "strong"
+    }
+  ],
+  "_meta": {
+    "unit_id": "srccl_ch4_land_degradation__w02",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 377,
+    "pdf_end": 388,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:50:57Z",
+    "pdf_sha256": "f776f35641be323a"
+  }
+}

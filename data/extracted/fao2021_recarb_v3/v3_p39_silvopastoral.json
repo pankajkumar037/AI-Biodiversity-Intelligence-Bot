@@ -1,0 +1,1092 @@
+{
+  "extraction_status": "ok",
+  "section_title": "39. Agroforestry 2: Sylvopastoral systems",
+  "content_type": "practice",
+  "summary": "Silvopastoralism integrates trees with pastures and livestock. Trees provide feed, shade, and cooler temperatures, especially during dry seasons. Systems vary from intensive fodder banks to extensive open grazing, and can involve cutting fodder trees for livestock. Management practices like stocking rate control, rotational grazing, livestock exclusion from grasslands, and pasture management influence soil organic carbon sequestration. Direct carbon inputs come from tree branches, trunks, livestock dung, and belowground woody biomass. Silvopastoral systems are applicable in temperate and dryland regions, with examples including high-value tree systems in Europe and North America, and scattered trees in Sahelian Africa. Trees on degraded land can increase soil organic carbon, but results are mixed on productive pastures due to SOC saturation. Soil carbon sequestration rates range from -0.72 to 2.2 tC/ha/yr depending on conditions. Benefits include improved soil properties, reduced soil threats like compaction and erosion, and climate change mitigation/adaptation. Drawbacks include potential conflicts with other practices, increased greenhouse gas emissions from concentrated manure, and possible decreases in production due to shading. Barriers to adoption include biophysical, cultural, social, economic, institutional, legal, and knowledge-related factors.",
+  "passages": [
+    {
+      "passage_id": "v3_p39_silvopastoral__p01",
+      "heading_path": [
+        "1. Description of the practice"
+      ],
+      "text": "Silvopastoralism is the practice of integrating trees with pastures and livestock husbandry. Trees may be planted or retained in a grazing system to supplement animal feed or to provide proteins during the dry season when grass is scarce and nutritive content is poor. In addition, these trees also provide shade and cooler temperature to animals and grasses. Silvopastoral systems include a diversity of systems, either intensive systems, for example fodder banks, intensive feed gardens, or extensively managed systems (open grazing) (Nair, 1985). Furthermore, silvopastoralism may involve cut-and-carry from systems in which fodder trees planted in one part of the farm are cut and transferred to feed livestock.",
+      "page_start": 486,
+      "page_end": 486,
+      "topic": "Silvopastoral systems",
+      "practices": [
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "temperature"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland",
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p02",
+      "heading_path": [
+        "1. Description of the practice"
+      ],
+      "text": "Several grazing management practices are known to have an impact on soil organic carbon sequestration: (i) stocking rate management (Mcsherry and Ritchie 2013; Zhou et al., 2017), (ii) rotational, planned or adaptive grazing (DeLonge and Basche, 2018), (iii) enclosure of livestock from grassland (Aynekulu et al., 2017; Wang et al., 2018), and (iv) pasture management (sowing, mixed leguminous/gramineous species, fertilization) (Fornara, Olave and Higgins, 2020).",
+      "page_start": 486,
+      "page_end": 486,
+      "topic": "Soil organic carbon sequestration",
+      "practices": [
+        "rotational_grazing",
+        "grassland_restoration",
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p03",
+      "heading_path": [
+        "1. Description of the practice"
+      ],
+      "text": "In silvopastures, direct carbon inputs to the soil can be increased by (a) branches and trunks returning to the ground and decomposing (b) dung of grazing livestock, (c) belowground biomass input by woody species in both topsoil and subsoil.",
+      "page_start": 486,
+      "page_end": 486,
+      "topic": "Carbon inputs to soil",
+      "practices": [
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p04",
+      "heading_path": [
+        "2. Range of applicability"
+      ],
+      "text": "Silvopastoral systems can be practiced where pastures and trees reveal suitable conditions. In temperate environments such as Europe and North America, integration of livestock (sheep and goats) within high value tree systems (e.g., apple orchards, olive groves, chestnut woodlands, and walnut plantations) is increasingly being practiced with the primary objective of maintaining the value of tree products like apples, olives, oranges, or nuts, or particularly high value timber (den Herder et al., 2017). In the dry lands of Sahel in West Africa and Eastern Africa (Kenya and Somalia, Uganda), silvopastoralism exists largely in the form of trees such as Acacia spp. and Faidherbia albida scattered on grazing lands (Bayala et al., 2014). Both large (cows, camels, donkeys) and small ruminant (goats, sheep) livestock are common. Trees are also being integrated in large-scale plantations in form of windbreaks in areas where strong winds cause dust storms and also damage livestock housing (Kort, 1988). In Eastern Africa, biomass transfer from fodder trees to livestock is a common practice using species such as Calliandra and Leucaena (Nair, 2014).",
+      "page_start": 487,
+      "page_end": 487,
+      "topic": "Silvopastoral systems applicability",
+      "practices": [
+        "agroforestry_silvopastoral",
+        "shelterbelts"
+      ],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "temperate",
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "grassland",
+        "orchard",
+        "forest"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p05",
+      "heading_path": [
+        "3. Potential for C sequestration"
+      ],
+      "text": "Trees planted on degraded grassland or unproductive pasture can lead to increased soil organic carbon (SOC) stocks. However, on productive pastures, especially in temperate regions, results are more contrasted, probably because SOC stocks are already very high (SOC saturation) in the treeless pastures (Upson, Burgess and Morison, 2016; Fornara, Olave and Burgess, 2018; Cardinael et al., 2018). A selection of evidence from different systems around the world shows that soil carbon sequestration or loss rates by silvopastoralism ranges from -0.72 to 2.2 tC/ha/yr depending on the climate and soil conditions (Table 171).",
+      "page_start": 487,
+      "page_end": 487,
+      "topic": "Soil carbon sequestration",
+      "practices": [
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "temperate",
+        "unstated"
+      ],
+      "land_use": [
+        "grassland",
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p06",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.1. Improvement of soil properties"
+      ],
+      "text": "Litterfall from trees and dung from livestock all supply organic matter that improve the soil quality for pasture growth. Roots of trees support an assemblage of soil microbes that promote nutrient cycling. Tree litter decomposition and incorporation with soil fauna together with tree roots biomass mitigate increased bulk density due to livestock compaction (Ford et al., 2019), therefore contributing to better water infiltration.",
+      "page_start": 489,
+      "page_end": 489,
+      "topic": "Soil properties improvement",
+      "practices": [
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [
+        "SOC",
+        "bulk_density",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p07",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimizing soil threats"
+      ],
+      "text": "Table 172. Soil threats",
+      "page_start": 489,
+      "page_end": 489,
+      "topic": "Soil threats",
+      "practices": [
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "soil_biota",
+        "bulk_density",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p08",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.3 Productivity (e.g. Food/Fuel/Feed/Timber)"
+      ],
+      "text": "Silvopastoral systems provide fodder for livestock, in addition to providing shade. This improves overall productivity of the farming system through tolerance to low soil fertility (by efficient nutrient acquisition and utilization); formation of symbiotic associations with mycorrhizae and rhizobia that enhance their access to immobile phosphorus and atmospheric N2, respectively (García-Tejero and Taboada, 2016); and contributing to efficient use of nutrients for biomass production (Suarez et al., 2018). Food products such as nuts or fruits harvested from the trees are additional of silvopastoral systems (Luedeling et al., 2011).",
+      "page_start": 489,
+      "page_end": 489,
+      "topic": "Productivity benefits",
+      "practices": [
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [
+        "biomass",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p09",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.4. Mitigation of and adaptation to climate change"
+      ],
+      "text": "Trees such as Faidherbia albida in pasture lands provide seeds and foliage that can be used as supplemental feed during the dry season. Shade provided by the trees minimize the impact of high temperature on livestock and helps maintaining milk production (Paterson, Kiruiro and Arimi, 1999; Magalhães et al., 2020). Use of nitrogen-fixing trees can improve soil nitrogen supply and reduce the need for mineral fertilizer for pasture production and hence contribute to avoided greenhouse gas emissions (Sierra and Nygren, 2005). Increased tree cover, improved pasture production and protecting livestock from hot weather are all indicative of climate mitigation and adaptation measures. The use of Brachiaria species in silvopastures could also inhibit biological nitrification and reduce N2O emissions (Byrnes et al., 2017). NH3 volatilization could also be reduced in silvopastoral systems compared to treeless pastures where fertilizers are usually broadcast on the surface without incorporation into the ground (Bretas et al., 2020).",
+      "page_start": 490,
+      "page_end": 490,
+      "topic": "Climate change mitigation and adaptation",
+      "practices": [
+        "agroforestry_silvopastoral",
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "temperature",
+        "nitrogen",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p10",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.5. Socio-economic benefits"
+      ],
+      "text": "Trees in pasture lands such as Vitellaria paradoxa and Balanites aegyptiaca provide products such as firewood, stakes, flowers for bee hives, and seeds.",
+      "page_start": 490,
+      "page_end": 490,
+      "topic": "Socio-economic benefits",
+      "practices": [
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p11",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.6. Other benefits of the practice"
+      ],
+      "text": "Trees in silvopastoral systems contribute to an increased connectivity between forest fragments to ensure conservation of forest fragments (Haggar et al., 2019). The integration of trees and shrubs in silvopastoral systems reduces air temperature and wind speed, increases relative humidity (Coble et al., 2020), thereby creating a pleasant environment for livestock (Magalhães et al., 2020).",
+      "page_start": 490,
+      "page_end": 490,
+      "topic": "Habitat connectivity and microclimate",
+      "practices": [
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [
+        "temperature"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest",
+        "grassland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p12",
+      "heading_path": [
+        "5. Conflict with other practice(s), Drawbacks",
+        "5.1. Tradeoffs with other threats to soil functions"
+      ],
+      "text": "Table 173. Soil threats",
+      "page_start": 490,
+      "page_end": 490,
+      "topic": "Soil threats",
+      "practices": [
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [
+        "erosion",
+        "pollution_load",
+        "SOC",
+        "soil_biota",
+        "bulk_density"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p13",
+      "heading_path": [
+        "5. Conflict with other practice(s), Drawbacks",
+        "5.2. Increases in greenhouse gas emissions"
+      ],
+      "text": "Livestock tends to concentrate under trees during hot weather, heaping the manure in one place. The heaps of manure under the trees can increase emissions of CH4 and N2O compared to areas where livestock is scattered uniformly in the pastureland or in an organized kraal. Total greenhouse gas emissions from the manure (composting, turning) were 2.7 times higher than those of the stockpiled manure (Bai et al., 2020). However, on a carbon equivalent basis, emissions from manure due to tree integration can be offset by the carbon sequestered in the soil and tree biomass (Lorenz and Lal, 2014).",
+      "page_start": 491,
+      "page_end": 491,
+      "topic": "Greenhouse gas emissions",
+      "practices": [
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [
+        "pollution_load",
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p14",
+      "heading_path": [
+        "5. Conflict with other practice(s), Drawbacks",
+        "5.3. Conflict with other practice(s)"
+      ],
+      "text": "Mechanized operations such as silage harvest are complicated by the presence of trees in the pasture.",
+      "page_start": 491,
+      "page_end": 491,
+      "topic": "Conflicts with other practices",
+      "practices": [
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p15",
+      "heading_path": [
+        "5. Conflict with other practice(s), Drawbacks",
+        "5.4. Decreases in production (e.g. food/fuel/feed/timber/fibre)"
+      ],
+      "text": "Trees in pastures, if not appropriately spaced, may significantly reduce the biomass production of pastures due to excessive shading (Qin, Wu and Zhang, 2010). In Brazil, an average of 50 Eucalyptus trees ha¯¹ are appropriate for silvopastoral systems (Lira Junior et al., 2020). Legumes such as those used in parkland agroforestry, contain high content of condensed tannins. These are reported to reduce forage digestibility in livestock and to induce low milk yield. Baldassini et al. (2018) found that tree presence reduced Gatton panic aboveground primary production by nearly 50%.",
+      "page_start": 491,
+      "page_end": 491,
+      "topic": "Production decreases",
+      "practices": [
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [
+        "biomass",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p16",
+      "heading_path": [
+        "5. Conflict with other practice(s), Drawbacks",
+        "5.5. Other conflicts"
+      ],
+      "text": "In dryland systems dominated by thorny Acacias, identification of alternative species is difficult because few species are adapted to arid environments.",
+      "page_start": 492,
+      "page_end": 492,
+      "topic": "Other conflicts",
+      "practices": [
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "rangeland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p17",
+      "heading_path": [
+        "6. Recommendations"
+      ],
+      "text": "When implementing silvopastoral practices the following should be considered in order to optimize SOC sequestration:\n◆ Select tree species which are not harmful to livestock (e.g. thorny, poisonous trees/shrubs) but are productive enough to provide both fodder and litter to the ground. Suitable examples of species may include short-rotation legumes Calliandra, and Gliricidia), Eucalyptus, Acacia spp., among others.\n◆ A spacing of about 10-15 meters between trees is recommended to allow free movement of livestock\n◆ Trees should be pruned to a height above 2 m for ease of movement of the livestock, and the prunings, possibly chipped, retained on the ground to decompose and add organic matter to the soil\n◆ Paddocking is highly recommended to enable rotational grazing, which allows time for forage to regrow and reduce overgrazing, which subsequently causes soil erosion.",
+      "page_start": 492,
+      "page_end": 492,
+      "topic": "Recommendations for SOC sequestration",
+      "practices": [
+        "agroforestry_silvopastoral",
+        "rotational_grazing"
+      ],
+      "metrics": [
+        "SOC",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p18",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "Table 174. Potential barriers to adoption",
+      "page_start": 492,
+      "page_end": 492,
+      "topic": "Barriers to adoption",
+      "practices": [
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p19",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "The cost of maintaining trees together with livestock is higher compared to maintaining the components separately because of the initial investment required, such as tree seedlings or fencing. This can translate into negative cash flows in the first years. Limited access to capital and deficits in farm management capacity can be major barriers for adoption (Janssen, Anderies and Walker, 2004).\nSilvopastoral systems take long to show results due to slow establishment rate of most trees compared with herbaceous components. This demotivates farmers from adopting such systems. Maintaining an income stream is a challenge when initially introducing or maintaining trees in a system.",
+      "page_start": 493,
+      "page_end": 493,
+      "topic": "Economic and time barriers",
+      "practices": [
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p20",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "Absence of laws and institutions or inadequate enforcement reduces adoption rates.",
+      "page_start": 493,
+      "page_end": 493,
+      "topic": "Institutional and legal barriers",
+      "practices": [
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p21",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "Farmers are more likely to adopt the technology if there is security of land tenure. For example, communal land is considered less secure than freehold land",
+      "page_start": 493,
+      "page_end": 493,
+      "topic": "Legal barriers",
+      "practices": [
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p22",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "Inadequate knowledge of the agronomic and economic benefits of tree-livestock interactions leads to the perception that trees occupy space that would have been used for crop growth resulting in economic loss. Inadequate technical skills to manage the tree-crop interactions, both from extension services and farmers.\nThe knowledge required to manage trees is much different from that needed to manage livestock. Hence farmers may not easily manage both effectively. A balance among the various components while extracting multiple products (plant and animal) requires far greater understanding, skills, and experience to maintain.",
+      "page_start": 493,
+      "page_end": 493,
+      "topic": "Knowledge barriers",
+      "practices": [
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p39_silvopastoral__p23",
+      "heading_path": [
+        "7. Potential barriers for adoption"
+      ],
+      "text": "In open-grazed systems, livestock graze freely in the system, potentially destroying crops and creating conflicts with farmers.",
+      "page_start": 493,
+      "page_end": 493,
+      "topic": "Other conflicts",
+      "practices": [
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland",
+        "cropland"
+      ],
+      "content_role": "constraint"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "v3_p39_silvopastoral__c01",
+      "passage_id": "v3_p39_silvopastoral__p01",
+      "subject": "Trees",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "dry season",
+      "time_horizon_years": null,
+      "evidence_span": "In addition, these trees also provide shade and cooler temperature to animals and grasses.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p39_silvopastoral__c02",
+      "passage_id": "v3_p39_silvopastoral__p01",
+      "subject": "Trees",
+      "metric": "temperature",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "dry season",
+      "time_horizon_years": null,
+      "evidence_span": "In addition, these trees also provide shade and cooler temperature to animals and grasses.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p39_silvopastoral__c03",
+      "passage_id": "v3_p39_silvopastoral__p03",
+      "subject": "Silvopastoral systems",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "direct carbon inputs",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "In silvopastures, direct carbon inputs to the soil can be increased by (a) branches and trunks returning to the ground and decomposing (b) dung of grazing livestock, (c) belowground biomass input by woody species in both topsoil and subsoil.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p39_silvopastoral__c04",
+      "passage_id": "v3_p39_silvopastoral__p05",
+      "subject": "Trees planted on degraded grassland or unproductive pasture",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Trees planted on degraded grassland or unproductive pasture can lead to increased soil organic carbon (SOC) stocks.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p39_silvopastoral__c05",
+      "passage_id": "v3_p39_silvopastoral__p05",
+      "subject": "Silvopastoralism",
+      "metric": "SOC",
+      "direction": "mixed",
+      "value": null,
+      "value_low": -0.72,
+      "value_high": 2.2,
+      "unit": "t_ha",
+      "basis": "carbon sequestration or loss rates",
+      "conditions": "depending on the climate and soil conditions",
+      "time_horizon_years": null,
+      "evidence_span": "A selection of evidence from different systems around the world shows that soil carbon sequestration or loss rates by silvopastoralism ranges from -0.72 to 2.2 tC/ha/yr depending on the climate and soil conditions (Table 171).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p39_silvopastoral__c06",
+      "passage_id": "v3_p39_silvopastoral__p06",
+      "subject": "Tree litter decomposition and incorporation with soil fauna and tree roots biomass",
+      "metric": "bulk_density",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "due to livestock compaction",
+      "time_horizon_years": null,
+      "evidence_span": "Tree litter decomposition and incorporation with soil fauna together with tree roots biomass mitigate increased bulk density due to livestock compaction (Ford et al., 2019), therefore contributing to better water infiltration.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p39_silvopastoral__c07",
+      "passage_id": "v3_p39_silvopastoral__p06",
+      "subject": "Tree litter decomposition and incorporation with soil fauna and tree roots biomass",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "therefore contributing to better water infiltration.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p39_silvopastoral__c08",
+      "passage_id": "v3_p39_silvopastoral__p09",
+      "subject": "Nitrogen-fixing trees",
+      "metric": "nitrogen",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "soil nitrogen supply",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Use of nitrogen-fixing trees can improve soil nitrogen supply and reduce the need for mineral fertilizer for pasture production and hence contribute to avoided greenhouse gas emissions (Sierra and Nygren, 2005).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p39_silvopastoral__c09",
+      "passage_id": "v3_p39_silvopastoral__p09",
+      "subject": "Nitrogen-fixing trees",
+      "metric": "pollution_load",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "avoided greenhouse gas emissions",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Use of nitrogen-fixing trees can improve soil nitrogen supply and reduce the need for mineral fertilizer for pasture production and hence contribute to avoided greenhouse gas emissions (Sierra and Nygren, 2005).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p39_silvopastoral__c10",
+      "passage_id": "v3_p39_silvopastoral__p09",
+      "subject": "Brachiaria species in silvopastures",
+      "metric": "pollution_load",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "biological nitrification inhibition",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "The use of Brachiaria species in silvopastures could also inhibit biological nitrification and reduce N2O emissions (Byrnes et al., 2017).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p39_silvopastoral__c11",
+      "passage_id": "v3_p39_silvopastoral__p09",
+      "subject": "Silvopastoral systems",
+      "metric": "pollution_load",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "NH3 volatilization reduction",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "NH3 volatilization could also be reduced in silvopastoral systems compared to treeless pastures where fertilizers are usually broadcast on the surface without incorporation into the ground (Bretas et al., 2020).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p39_silvopastoral__c12",
+      "passage_id": "v3_p39_silvopastoral__p11",
+      "subject": "Integration of trees and shrubs in silvopastoral systems",
+      "metric": "temperature",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "The integration of trees and shrubs in silvopastoral systems reduces air temperature and wind speed, increases relative humidity (Coble et al., 2020), thereby creating a pleasant environment for livestock (Magalhães et al., 2020).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p39_silvopastoral__c13",
+      "passage_id": "v3_p39_silvopastoral__p11",
+      "subject": "Integration of trees and shrubs in silvopastoral systems",
+      "metric": "temperature",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "The integration of trees and shrubs in silvopastoral systems reduces air temperature and wind speed, increases relative humidity (Coble et al., 2020), thereby creating a pleasant environment for livestock (Magalhães et al., 2020).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p39_silvopastoral__c14",
+      "passage_id": "v3_p39_silvopastoral__p13",
+      "subject": "Manure heaps under trees",
+      "metric": "pollution_load",
+      "direction": "increase",
+      "value": 2.7,
+      "value_low": null,
+      "value_high": null,
+      "unit": "none",
+      "basis": "total greenhouse gas emissions",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Total greenhouse gas emissions from the manure (composting, turning) were 2.7 times higher than those of the stockpiled manure (Bai et al., 2020).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p39_silvopastoral__c15",
+      "passage_id": "v3_p39_silvopastoral__p13",
+      "subject": "Emissions from manure due to tree integration",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "carbon sequestered",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "However, on a carbon equivalent basis, emissions from manure due to tree integration can be offset by the carbon sequestered in the soil and tree biomass (Lorenz and Lal, 2014).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p39_silvopastoral__c16",
+      "passage_id": "v3_p39_silvopastoral__p15",
+      "subject": "Trees in pastures (excessive shading)",
+      "metric": "biomass",
+      "direction": "decrease",
+      "value": 50,
+      "value_low": null,
+      "value_high": null,
+      "unit": "percent",
+      "basis": "aboveground primary production",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Baldassini et al. (2018) found that tree presence reduced Gatton panic aboveground primary production by nearly 50%.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p39_silvopastoral__c17",
+      "passage_id": "v3_p39_silvopastoral__p17",
+      "subject": "Paddocking (rotational grazing)",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Paddocking is highly recommended to enable rotational grazing, which allows time for forage to regrow and reduce overgrazing, which subsequently causes soil erosion.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "agroforestry_silvopastoral",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": "dry season",
+      "mechanism": "supplement animal feed",
+      "passage_id": "v3_p39_silvopastoral__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_silvopastoral",
+      "to_node": "temperature",
+      "effect": "decrease",
+      "condition": "dry season",
+      "mechanism": "provide shade",
+      "passage_id": "v3_p39_silvopastoral__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "rotational_grazing",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "stocking rate management",
+      "passage_id": "v3_p39_silvopastoral__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_silvopastoral",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "direct carbon inputs from branches, trunks, dung, and belowground biomass",
+      "passage_id": "v3_p39_silvopastoral__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_silvopastoral",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "degraded grassland or unproductive pasture",
+      "mechanism": "tree planting",
+      "passage_id": "v3_p39_silvopastoral__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_silvopastoral",
+      "to_node": "SOC",
+      "effect": "mixed",
+      "condition": "temperate regions, productive pastures",
+      "mechanism": null,
+      "passage_id": "v3_p39_silvopastoral__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_silvopastoral",
+      "to_node": "bulk_density",
+      "effect": "decrease",
+      "condition": "due to livestock compaction",
+      "mechanism": "tree litter decomposition and incorporation with soil fauna and tree roots biomass",
+      "passage_id": "v3_p39_silvopastoral__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_silvopastoral",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "tree litter decomposition and incorporation with soil fauna and tree roots biomass",
+      "passage_id": "v3_p39_silvopastoral__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_silvopastoral",
+      "to_node": "nitrogen",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "nitrogen-fixing trees",
+      "passage_id": "v3_p39_silvopastoral__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_silvopastoral",
+      "to_node": "pollution_load",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "nitrogen-fixing trees reducing need for mineral fertilizer",
+      "passage_id": "v3_p39_silvopastoral__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_silvopastoral",
+      "to_node": "pollution_load",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "Brachiaria species inhibiting biological nitrification",
+      "passage_id": "v3_p39_silvopastoral__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_silvopastoral",
+      "to_node": "pollution_load",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "reduction of NH3 volatilization",
+      "passage_id": "v3_p39_silvopastoral__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_silvopastoral",
+      "to_node": "temperature",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "integration of trees and shrubs",
+      "passage_id": "v3_p39_silvopastoral__p11",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_silvopastoral",
+      "to_node": "temperature",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "integration of trees and shrubs",
+      "passage_id": "v3_p39_silvopastoral__p11",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_silvopastoral",
+      "to_node": "pollution_load",
+      "effect": "increase",
+      "condition": "concentrated manure under trees",
+      "mechanism": "manure heaps",
+      "passage_id": "v3_p39_silvopastoral__p13",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_silvopastoral",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "carbon sequestration in soil and tree biomass offsetting manure emissions",
+      "passage_id": "v3_p39_silvopastoral__p13",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_silvopastoral",
+      "to_node": "biomass",
+      "effect": "decrease",
+      "condition": "excessive shading",
+      "mechanism": "tree presence",
+      "passage_id": "v3_p39_silvopastoral__p15",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "rotational_grazing",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "paddocking",
+      "passage_id": "v3_p39_silvopastoral__p17",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Silvopastoral systems",
+    "system_type": "agroforestry_silvopastoral",
+    "tree_species": [
+      "Acacia spp.",
+      "Faidherbia albida",
+      "Calliandra",
+      "Leucaena",
+      "Eucalyptus",
+      "Acacia spp.",
+      "Vitellaria paradoxa",
+      "Balanites aegyptiaca"
+    ],
+    "crop_species": [],
+    "region_of_adoption": [
+      "Europe",
+      "North America",
+      "Sahel in West Africa",
+      "Eastern Africa (Kenya and Somalia, Uganda)"
+    ],
+    "rainfall_mm_low": null,
+    "rainfall_mm_high": null,
+    "soil_requirements": null,
+    "establishment_notes": null,
+    "stated_benefits": [
+      "supplement animal feed",
+      "provide proteins during the dry season",
+      "provide shade",
+      "cooler temperature to animals and grasses",
+      "increased soil organic carbon (SOC) stocks",
+      "improve soil quality for pasture growth",
+      "support soil microbes for nutrient cycling",
+      "mitigate increased bulk density due to livestock compaction",
+      "better water infiltration",
+      "provide fodder for livestock",
+      "improve overall productivity of the farming system",
+      "tolerance to low soil fertility",
+      "efficient nutrient acquisition and utilization",
+      "enhance access to immobile phosphorus and atmospheric N2",
+      "efficient use of nutrients for biomass production",
+      "food products such as nuts or fruits",
+      "increased connectivity between forest fragments",
+      "conservation of forest fragments",
+      "reduces air temperature and wind speed",
+      "increases relative humidity",
+      "pleasant environment for livestock",
+      "climate mitigation and adaptation measures"
+    ],
+    "stated_constraints": [
+      "SOC stocks already very high in treeless pastures (temperate regions)",
+      "overgrazed parts in the vicinity of trees",
+      "reduce vegetation cover and structure",
+      "increase sediment deposition in water bodies",
+      "reduced soil C content due to intensive land use",
+      "changes in abundance, composition and activity of soil microbial communities",
+      "livestock grazing increases soil compaction through trampling",
+      "concentrated manure under trees can increase emissions of CH4 and N2O",
+      "mechanized operations such as silage harvest are complicated by the presence of trees",
+      "significantly reduce the biomass production of pastures due to excessive shading",
+      "reduce forage digestibility in livestock",
+      "induce low milk yield",
+      "identification of alternative species is difficult in dryland systems dominated by thorny Acacias",
+      "cost of maintaining trees together with livestock is higher",
+      "negative cash flows in the first years",
+      "limited access to capital",
+      "deficits in farm management capacity",
+      "slow establishment rate of most trees",
+      "demotivates farmers",
+      "maintaining an income stream is a challenge",
+      "absence of laws and institutions or inadequate enforcement",
+      "communal land is considered less secure than freehold land",
+      "inadequate knowledge of agronomic and economic benefits",
+      "perception that trees occupy space that would have been used for crop growth",
+      "inadequate technical skills to manage tree-crop interactions",
+      "farmers may not easily manage both trees and livestock effectively",
+      "livestock graze freely in open-grazed systems, potentially destroying crops",
+      "creating conflicts with farmers"
+    ]
+  },
+  "_meta": {
+    "unit_id": "v3_p39_silvopastoral",
+    "doc_id": "fao2021_recarb_v3",
+    "model": "gemini-2.5-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 504,
+    "pdf_end": 517,
+    "manifest_practices": [
+      "agroforestry_silvopastoral"
+    ],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:28:59Z",
+    "pdf_sha256": "e328519113327902"
+  }
+}

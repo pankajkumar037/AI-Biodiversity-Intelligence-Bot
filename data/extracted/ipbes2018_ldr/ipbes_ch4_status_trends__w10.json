@@ -1,0 +1,198 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+  "content_type": "assessment",
+  "summary": "This document unit provides a comprehensive bibliography of scientific literature concerning land degradation, restoration, biodiversity, and ecosystem functions, covering topics such as soil erosion, carbon sequestration, habitat fragmentation, and the impacts of land-use change on ecosystem services.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch4_status_trends__w10__p01",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS"
+      ],
+      "text": "Biodiversity at multiple trophic levels is needed for ecosystem multifunctionality.",
+      "page_start": 331,
+      "page_end": 331,
+      "topic": "biodiversity",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w10__p02",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS"
+      ],
+      "text": "Mining drives extensive deforestation in the Brazilian Amazon.",
+      "page_start": 331,
+      "page_end": 331,
+      "topic": "deforestation",
+      "practices": [],
+      "metrics": [
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w10__p03",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS"
+      ],
+      "text": "Organically managed coffee agroforests have larger soil phosphorus but smaller soil nitrogen pools than conventionally managed agroforests.",
+      "page_start": 333,
+      "page_end": 333,
+      "topic": "nutrient cycling",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w10__p04",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS"
+      ],
+      "text": "Soil biodiversity and soil community composition determine ecosystem multifunctionality.",
+      "page_start": 335,
+      "page_end": 335,
+      "topic": "soil biodiversity",
+      "practices": [],
+      "metrics": [
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w10__p05",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS"
+      ],
+      "text": "Soil inoculation steers restoration of terrestrial ecosystems.",
+      "page_start": 337,
+      "page_end": 337,
+      "topic": "restoration",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch4_status_trends__w10__c01",
+      "passage_id": "ipbes_ch4_status_trends__w10__p02",
+      "subject": "mining",
+      "metric": "tree_cover",
+      "direction": "decrease",
+      "evidence_span": "Mining drives extensive deforestation in the Brazilian Amazon.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w10__c02",
+      "passage_id": "ipbes_ch4_status_trends__w10__p03",
+      "subject": "organic management",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "evidence_span": "Organically managed coffee agroforests have larger soil phosphorus but smaller soil nitrogen pools than conventionally managed agroforests.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w10__c03",
+      "passage_id": "ipbes_ch4_status_trends__w10__p03",
+      "subject": "organic management",
+      "metric": "nitrogen",
+      "direction": "decrease",
+      "evidence_span": "Organically managed coffee agroforests have larger soil phosphorus but smaller soil nitrogen pools than conventionally managed agroforests.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "mining",
+      "to_node": "tree_cover",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch4_status_trends__w10__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "organic management",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "passage_id": "ipbes_ch4_status_trends__w10__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "organic management",
+      "to_node": "nitrogen",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch4_status_trends__w10__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "soil biodiversity",
+      "to_node": "ecosystem multifunctionality",
+      "effect": "increase",
+      "passage_id": "ipbes_ch4_status_trends__w10__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "soil inoculation",
+      "to_node": "restoration",
+      "effect": "increase",
+      "passage_id": "ipbes_ch4_status_trends__w10__p05",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch4_status_trends__w10",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 389,
+    "pdf_end": 400,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:15:58Z",
+    "pdf_sha256": "00bc47fb11c10fc6"
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+  "content_type": "assessment",
+  "summary": "This document provides an assessment of integrated response options for land management, including their impacts on climate mitigation, adaptation, food security, and land degradation. It covers practices such as soil management, bioenergy, biodiversity conservation, and value chain management.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch6_interlinkages__w02__p01",
+      "heading_path": [
+        "Integrated response options based on land management"
+      ],
+      "text": "Soil salinisation is a major process of land degradation that decreases soil fertility and affects agricultural production, aquaculture and forestry. It is a significant component of desertification processes in drylands. Practices to reduce soil salinisation include improvement of water management (e.g., water-use efficiency and irrigation/drainage technology in arid/semi-arid areas, surface and groundwater management), improvement of soil health (through increase in soil organic matter content) and improved cropland, grazing land and livestock management, agroforestry and conservation agriculture.",
+      "page_start": 573,
+      "page_end": 573,
+      "topic": "Soil salinisation",
+      "practices": [
+        "irrigation",
+        "agroforestry_agrisilvicultural",
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland",
+        "degraded_land"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w02__p02",
+      "heading_path": [
+        "Integrated response options based on land management"
+      ],
+      "text": "The use of biochar, a solid product of the pyrolysis process, as a soil amendment increases the water-holding capacity of soil. It may therefore provide better access to water and nutrients for crops and other vegetation types (so can form part of cropland, grazing land and forest management).",
+      "page_start": 573,
+      "page_end": 573,
+      "topic": "Biochar",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "water_holding_capacity",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland",
+        "forest"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w02__p03",
+      "heading_path": [
+        "Integrated response options based on land management"
+      ],
+      "text": "The use of biochar increases carbon stocks in the soil. It can enhance yields in the tropics (but less so in temperate regions), thereby benefitting both adaptation and food security. Since it can improve soil water-holding capacity and nutrient-use efficiency, and can ameliorate heavy metal pollution and other impacts, it can benefit desertification and land degradation.",
+      "page_start": 573,
+      "page_end": 573,
+      "topic": "Biochar",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "SOC",
+        "water_holding_capacity",
+        "nutrient_availability",
+        "crop_yield",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "tropical",
+        "temperate"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w02__p04",
+      "heading_path": [
+        "Integrated response options based on land management"
+      ],
+      "text": "Fire management can reduce GHG emissions and can reduce haze pollution, which has significant health and economic impacts. Fire management helps to prevent soil erosion and land degradation and is used in rangelands to conserve biodiversity and to enhance forage quality.",
+      "page_start": 573,
+      "page_end": 573,
+      "topic": "Fire management",
+      "practices": [
+        "shelterbelts"
+      ],
+      "metrics": [
+        "erosion",
+        "species_richness",
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "rangeland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w02__p05",
+      "heading_path": [
+        "Integrated response options based on land management"
+      ],
+      "text": "Management of landslides and natural hazards is important for adaptation and is a crucial intervention for managing land degradation, since landslides and natural hazards are among the most severe degradation processes. In countries where mountain slopes are planted with food crops, reduced landslides will help deliver benefits for food security.",
+      "page_start": 573,
+      "page_end": 573,
+      "topic": "Landslides",
+      "practices": [
+        "terracing"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w02__p06",
+      "heading_path": [
+        "Integrated response options based on land management"
+      ],
+      "text": "Peatland restoration involves restoring degraded/damaged peatlands, which both increases carbon sinks, but also avoids ongoing CO2 emissions from degraded peatlands. So, as well as protecting biodiversity, it both prevents future emissions and creates a sink.",
+      "page_start": 574,
+      "page_end": 574,
+      "topic": "Peatland restoration",
+      "practices": [
+        "grassland_restoration"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w02__p07",
+      "heading_path": [
+        "Integrated response options based on land management"
+      ],
+      "text": "Biodiversity conservation measures interact with the climate system through many complex processes, which can have either positive or negative impacts. For example, establishment of protected areas can increase carbon storage in vegetation and soil, and tree planting to promote species richness and natural habitats can enhance carbon uptake capacity of ecosystems.",
+      "page_start": 575,
+      "page_end": 575,
+      "topic": "Biodiversity conservation",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "SOC",
+        "species_richness",
+        "habitat_diversity",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w02__p08",
+      "heading_path": [
+        "Integrated response options based on land management"
+      ],
+      "text": "Conserving and restoring megafauna in northern regions also prevents thawing of permafrost and reduces woody encroachment, thus avoiding methane emissions and increases in albedo. Defaunation affects carbon storage in tropical forests and savannahs. In the tropics, the loss of mega-faunal frugivores is estimated be responsible for up to 10% reduction in carbon storage of global tropical forests.",
+      "page_start": 575,
+      "page_end": 575,
+      "topic": "Biodiversity conservation",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "biomass",
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w02__p09",
+      "heading_path": [
+        "Integrated response options based on land management"
+      ],
+      "text": "Enhanced mineral weathering can remove atmospheric carbon dioxide (CO2). Since ground minerals can increase pH, there could be some benefits for efforts to prevent or reverse land degradation where acidification is the driver of degradation. Since increasing soil pH in acidified soils can increase productivity, the same effect could provide some benefit for food security.",
+      "page_start": 575,
+      "page_end": 575,
+      "topic": "Enhanced weathering",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "pH",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w02__p10",
+      "heading_path": [
+        "Integrated response options based on land management"
+      ],
+      "text": "Planting bioenergy crops, like perennial grasses, on degraded land can increase soil carbon and ecosystem quality (including biodiversity), thereby helping to preserve soil quality, reverse land degradation, prevent desertification processes, and reduce food insecurity.",
+      "page_start": 576,
+      "page_end": 576,
+      "topic": "Bioenergy",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "SOC",
+        "soil_organic_matter",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w02__p11",
+      "heading_path": [
+        "Integrated response options based on land management"
+      ],
+      "text": "Jat et al. (2015) found that improved tillage practices and residue incorporation increased water-use efficiency by 30%, rice–wheat yields by 5–37%, income by 28–40% and reduced GHG emission by 16–25%.",
+      "page_start": 584,
+      "page_end": 584,
+      "topic": "Integrated water management",
+      "practices": [
+        "reduced_tillage",
+        "irrigation"
+      ],
+      "metrics": [
+        "water_holding_capacity",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch6_interlinkages__w02__c01",
+      "passage_id": "srccl_ch6_interlinkages__w02__p03",
+      "subject": "Biochar",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "basis": "unstated",
+      "conditions": "tropics",
+      "evidence_span": "It can enhance yields in the tropics (but less so in temperate regions), thereby benefitting both adaptation and food security.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w02__c02",
+      "passage_id": "srccl_ch6_interlinkages__w02__p08",
+      "subject": "Defaunation",
+      "metric": "biomass",
+      "direction": "decrease",
+      "value": 10,
+      "unit": "percent",
+      "basis": "unstated",
+      "conditions": "tropical forests",
+      "evidence_span": "In the tropics, the loss of mega-faunal frugivores is estimated be responsible for up to 10% reduction in carbon storage of global tropical forests.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w02__c03",
+      "passage_id": "srccl_ch6_interlinkages__w02__p11",
+      "subject": "Improved tillage practices and residue incorporation",
+      "metric": "water_holding_capacity",
+      "direction": "increase",
+      "value": 30,
+      "unit": "percent",
+      "basis": "unstated",
+      "conditions": "rice-wheat",
+      "evidence_span": "Jat et al. (2015) found that improved tillage practices and residue incorporation increased water-use efficiency by 30%, rice–wheat yields by 5–37%, income by 28–40% and reduced GHG emission by 16–25%.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w02__c04",
+      "passage_id": "srccl_ch6_interlinkages__w02__p11",
+      "subject": "Improved tillage practices and residue incorporation",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value_low": 5,
+      "value_high": 37,
+      "unit": "percent",
+      "basis": "unstated",
+      "conditions": "rice-wheat",
+      "evidence_span": "Jat et al. (2015) found that improved tillage practices and residue incorporation increased water-use efficiency by 30%, rice–wheat yields by 5–37%, income by 28–40% and reduced GHG emission by 16–25%.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "biochar",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w02__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "biochar",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": "tropics",
+      "passage_id": "srccl_ch6_interlinkages__w02__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "defaunation",
+      "to_node": "biomass",
+      "effect": "decrease",
+      "condition": "tropical forests",
+      "passage_id": "srccl_ch6_interlinkages__w02__p08",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "enhanced_mineral_weathering",
+      "to_node": "pH",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w02__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "pH",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": "acidified soils",
+      "passage_id": "srccl_ch6_interlinkages__w02__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "improved_tillage_and_residue",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w02__p11",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "improved_tillage_and_residue",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": "rice-wheat",
+      "passage_id": "srccl_ch6_interlinkages__w02__p11",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w02",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 583,
+    "pdf_end": 594,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:11:01Z",
+    "pdf_sha256": "3d4ee43d5c7afe38"
+  }
+}

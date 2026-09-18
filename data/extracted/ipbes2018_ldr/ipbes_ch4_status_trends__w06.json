@@ -1,0 +1,269 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4.3.4.2 Timber production",
+  "content_type": "assessment",
+  "summary": "This unit covers various drivers of land degradation including deforestation, forest degradation, non-timber forest use, fire regimes, invasive species, land abandonment, mining, and urbanization, and discusses the challenges in monitoring these processes.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch4_status_trends__w06__p01",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS"
+      ],
+      "text": "Reduced evapotranspiration, infiltration rates and water-holding capacities can cause increased runoff and a decrease in watershed protection, leading to an increase in flooding, erosion and reduced water supply for human use.",
+      "page_start": 287,
+      "page_end": 287,
+      "topic": "deforestation",
+      "practices": [],
+      "metrics": [
+        "water_holding_capacity",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w06__p02",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "Box 4 3 Agroforestry"
+      ],
+      "text": "Trees are planted on farms for many reasons: often for supplementary income, but also for conservation-related purposes such as wind breaks, runoff reduction and sediment trapping to minimize erosion. Trees can also capture nutrients that might otherwise be lost to leaching and so reduce nitrogen loading in streams. Agroforestry practices can sequester carbon and enhance microbial biomass and enhance water-holding capacity compared to monoculture.",
+      "page_start": 287,
+      "page_end": 287,
+      "topic": "agroforestry",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "erosion",
+        "nutrient_availability",
+        "nitrogen",
+        "microbial_biomass",
+        "water_holding_capacity",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w06__p03",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.3.5 Non-timber forest use: woodfuel, bushmeat, edible plants, and medicinal herbs",
+        "Woodfuels"
+      ],
+      "text": "Fuelwood harvesting, can result in overall structural changes of the vegetation, converting a forest or woodland area into shrubland or grassland, with impacts on productivity, soil erosion and biodiversity. It can have secondary impacts on fire regimes which may restrict woody plant re-generation.",
+      "page_start": 288,
+      "page_end": 288,
+      "topic": "woodfuel",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "species_richness",
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w06__p04",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.3.6 Changes in fire regimes"
+      ],
+      "text": "In the miombo regions of Africa, thinning of trees leads to increases in grass density, and hence more intense fires. This can then further damage the remaining late succession and fire intolerant trees, resulting in a grassland or open woodland, dominated by early succession, fire tolerant trees.",
+      "page_start": 289,
+      "page_end": 289,
+      "topic": "fire regimes",
+      "practices": [],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w06__p05",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.3.7 Invasive species"
+      ],
+      "text": "Higher ecosystem diversity is associated with resistance to invasive species, but not always.",
+      "page_start": 290,
+      "page_end": 290,
+      "topic": "invasive species",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w06__p06",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.3.10 Infrastructure, industry, urbanization"
+      ],
+      "text": "In the urban region in the Yangtze River Delta, net primary production decreased significantly due to urbanization processes from 1999 to 2010. Lu et al. (2010) and Wu et al. (2014) showed with a probability greater than 75% that infrastructure has a strong linear relationship with net primary production over the South-eastern China.",
+      "page_start": 297,
+      "page_end": 297,
+      "topic": "urbanization",
+      "practices": [],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch4_status_trends__w06__c01",
+      "passage_id": "ipbes_ch4_status_trends__w06__p01",
+      "subject": "deforestation",
+      "metric": "erosion",
+      "direction": "increase",
+      "evidence_span": "Reduced evapotranspiration, infiltration rates and water-holding capacities can cause increased runoff and a decrease in watershed protection, leading to an increase in flooding, erosion (Bruijnzeel, 2004b) and reduced water supply for human use",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w06__c02",
+      "passage_id": "ipbes_ch4_status_trends__w06__p02",
+      "subject": "agroforestry",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": 28,
+      "value_low": 28,
+      "value_high": 56,
+      "unit": "percent",
+      "basis": "high confidence",
+      "conditions": "runoff reduction",
+      "evidence_span": "Trees are planted on farms for many reasons: often for supplementary income (e.g., fruit or timber), but also for conservation-related purposes such as wind breaks, runoff reduction (in one case by 28-56% according to Lamichhane (2013)) and sediment trapping to minimize erosion.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w06__c03",
+      "passage_id": "ipbes_ch4_status_trends__w06__p02",
+      "subject": "agroforestry",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": 20,
+      "value_low": 20,
+      "value_high": 40,
+      "unit": "percent",
+      "basis": "high confidence",
+      "conditions": "nutrient leaching",
+      "evidence_span": "Trees can also capture nutrients that might otherwise be lost to leaching (by 20-40%) (Babbar & Zak, 1995; Mekonnen et al., 1997; Udawatta et al., 2002) and so reduce nitrogen loading in streams (Lamichhane, 2013; Udawatta et al., 2002, 2011).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w06__c04",
+      "passage_id": "ipbes_ch4_status_trends__w06__p06",
+      "subject": "urbanization",
+      "metric": "biomass",
+      "direction": "decrease",
+      "evidence_span": "Lu et al. (2010) and Wu et al. (2014) showed with a probability greater than 75% that infrastructure has a strong linear relationship with net primary production over the South-eastern China.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "deforestation",
+      "to_node": "erosion",
+      "effect": "increase",
+      "passage_id": "ipbes_ch4_status_trends__w06__p01",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch4_status_trends__w06__p02",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry",
+      "to_node": "nitrogen",
+      "effect": "decrease",
+      "condition": "nitrogen loading in streams",
+      "passage_id": "ipbes_ch4_status_trends__w06__p02",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "fuelwood harvesting",
+      "to_node": "erosion",
+      "effect": "increase",
+      "passage_id": "ipbes_ch4_status_trends__w06__p03",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "tree thinning",
+      "to_node": "fire intensity",
+      "effect": "increase",
+      "condition": "miombo regions of Africa",
+      "passage_id": "ipbes_ch4_status_trends__w06__p04",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "ecosystem diversity",
+      "to_node": "invasive species",
+      "effect": "decrease",
+      "mechanism": "resistance",
+      "passage_id": "ipbes_ch4_status_trends__w06__p05",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "urbanization",
+      "to_node": "biomass",
+      "effect": "decrease",
+      "condition": "South-eastern China",
+      "passage_id": "ipbes_ch4_status_trends__w06__p06",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch4_status_trends__w06",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 345,
+    "pdf_end": 356,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:15:07Z",
+    "pdf_sha256": "b0f1eeb4a8a8881f"
+  }
+}

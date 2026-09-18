@@ -1,0 +1,205 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Desertification",
+  "content_type": "practice",
+  "summary": "This document discusses the implementation and performance of Integrated Watershed Management (IWM) projects in India, highlighting both successes in drought mitigation and challenges related to inequity, water scarcity, and institutional issues. It also provides a case study of the Limpopo River Basin, emphasizing the need for robust governance and addressing inequalities in water management.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch3_desertification__w05__p01",
+      "heading_path": [
+        "3.7.5.2 India"
+      ],
+      "text": "The second great challenge after the Green Revolution in India was the low productivity in the rain-fed and semi-arid regions where land degredation and drought were serious concerns. In response to this challenge IWM projects were implemented over large areas in semi-arid biomes over the past few decades. IWM was meant to become a key factor in meeting a range of social development goals in many semi-arid rainfed agrarian landscapes in India (Bouma et al. 2007; Kerr et al. 2002). Over the years, watershed development has become the fulcrum of rural development, and has the potential to achieve the twin objectives of ecosystem restoration and livelihood assurance in the drylands of India (Joy et al. 2004).",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Integrated Watershed Management (IWM) in India",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w05__p02",
+      "heading_path": [
+        "3.7.5.2 India"
+      ],
+      "text": "Many reports indicate significant improvements in mitigation of drought impacts, raising crops and fodder, livestock productivity, expanding the availability of drinking water and increasing incomes as a result of IWM (Rao 2000), but in some cases overall the positive impact of the programme has been questioned and, except in a few cases, the performance has not lived up to expectations (Joy et al. 2004; JM Kerr et al. 2002). Comparisons of catchments with and without IWM projects using remotely sensed data have sometimes shown no significant enhancement of biomass, in part due to methodological challenges of space for time comparisons (Bhalla et al. 2013).",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Performance of IWM projects",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "biomass",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w05__p03",
+      "heading_path": [
+        "3.7.5.2 India"
+      ],
+      "text": "Social and economic trade-offs included bias of benefits to downstream crop producers at the expense of pastoralists, women and upstream communities. This biased distribution of IWM benefits could potentially be addressed by compensation for environmental services between communities (Kerr et al. 2002). The successes in some areas also led to increased demand for water, especially groundwater, since there has been no corresponding social regulation of water use after improvement in water regime (Samuel et al. 2007). Policies and management did not ensure water allocation to sectors with the highest social and economic benefits (Batchelor et al. 2003).",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Social and economic trade-offs of IWM",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w05__p04",
+      "heading_path": [
+        "3.7.5.3 Limpopo River Basin"
+      ],
+      "text": "Covering an area of 412,938 km2, the Limpopo River basin spans parts of Botswana, South Africa, Zimbabwe and Mozambique, eventually entering into the Mozambique Channel. It has been selected as a case study as it provides a clear illustration of the combined effect of desertification and climate change, and why IWM may be a crucial component of reducing exposure to climate change. It is predominantly a semi-arid area with an average annual rainfall of 400 mm (Mosase and Ahiablame 2018).",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Limpopo River Basin case study",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "rainfall"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w05__p05",
+      "heading_path": [
+        "3.7.5.3 Limpopo River Basin"
+      ],
+      "text": "The second is adequate representation of all parties in the process in order to address existing inequalities and ensure full integration of water management. For example, within Mozambique, significant strides have been made towards the decentralisation of river basin governance and IWM. Despite good progress, Alba et al. (2016) found that the newly implemented system may enforce existing inequalities as not all stakeholders, particularly smallholder farmers, are adequately represented in emerging water management structures and are often inhibited by financial and institutional constraints. Recognising economic and socio-political inequalities, and explicitly considering them to ensure the representation of all participants, can increase the chances of successful IWM implementation.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Governance and implementation of IWM",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch3_desertification__w05__c01",
+      "passage_id": "srccl_ch3_desertification__w05__p02",
+      "subject": "IWM projects",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "evidence_span": "Many reports indicate significant improvements in mitigation of drought impacts, raising crops and fodder, livestock productivity, expanding the availability of drinking water and increasing incomes as a result of IWM (Rao 2000)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w05__c02",
+      "passage_id": "srccl_ch3_desertification__w05__p02",
+      "subject": "IWM projects",
+      "metric": "biomass",
+      "direction": "no_change",
+      "evidence_span": "Comparisons of catchments with and without IWM projects using remotely sensed data have sometimes shown no significant enhancement of biomass",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "integrated_nutrient_mgmt",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "srccl_ch3_desertification__w05__p02",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "integrated_nutrient_mgmt",
+      "to_node": "biomass",
+      "effect": "no_change",
+      "condition": null,
+      "mechanism": "methodological challenges of space for time comparisons",
+      "passage_id": "srccl_ch3_desertification__w05__p02",
+      "strength_stated": "weak"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Integrated Watershed Management (IWM)",
+    "system_type": "integrated_system",
+    "tree_species": [],
+    "crop_species": [],
+    "region_of_adoption": [
+      "India",
+      "Limpopo River Basin"
+    ],
+    "rainfall_mm_low": 400,
+    "rainfall_mm_high": null,
+    "soil_requirements": null,
+    "establishment_notes": "Implementation involves large areas in semi-arid biomes, requiring effective stakeholder participation and robust institutional, legal, and technical environments.",
+    "stated_benefits": [
+      "mitigation of drought impacts",
+      "raising crops and fodder",
+      "livestock productivity",
+      "expanding availability of drinking water",
+      "increasing incomes",
+      "ecosystem restoration",
+      "livelihood assurance"
+    ],
+    "stated_constraints": [
+      "inequity in distribution of benefits",
+      "bias of benefits to downstream crop producers",
+      "increased demand for groundwater",
+      "lack of social regulation of water use",
+      "capacity and resource constraints",
+      "institutional and financial constraints",
+      "inadequate monitoring of rainfall variability"
+    ]
+  },
+  "_meta": {
+    "unit_id": "srccl_ch3_desertification__w05",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 314,
+    "pdf_end": 325,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:49:45Z",
+    "pdf_sha256": "b3de879d308b0cd1"
+  }
+}

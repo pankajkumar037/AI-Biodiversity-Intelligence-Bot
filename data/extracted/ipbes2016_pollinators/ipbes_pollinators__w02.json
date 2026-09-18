@@ -1,0 +1,307 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Background",
+  "content_type": "assessment",
+  "summary": "This assessment summarizes the status of global pollinators, the drivers of their decline, and potential management strategies to mitigate these risks, emphasizing the importance of habitat diversity, pesticide management, and integrated governance.",
+  "passages": [
+    {
+      "passage_id": "ipbes_pollinators__w02__p01",
+      "heading_path": [
+        "BACKGROUND"
+      ],
+      "text": "In agricultural systems, the local abundance and diversity of wild bees have been found to decline strongly with distance from field margins and remnants of natural and semi natural habitat at scales of a few hundred metres (well established).",
+      "page_start": 23,
+      "page_end": 23,
+      "topic": "pollinator abundance and habitat",
+      "practices": [],
+      "metrics": [
+        "species_richness",
+        "habitat_diversity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w02__p02",
+      "heading_path": [
+        "BACKGROUND"
+      ],
+      "text": "Habitat destruction, fragmentation and degradation, along with conventional intensive land management practices, often reduce or alter pollinators’ food (well established) and nesting resources (established but incomplete). These practices include high use of agrochemicals and intensively performed tillage, grazing or mowing. Such changes in pollinator resources are known to lower densities and diversity of foraging insects and alter the composition and structure of pollinator communities from local to regional scales (well established).",
+      "page_start": 24,
+      "page_end": 24,
+      "topic": "drivers of pollinator decline",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "species_richness",
+        "habitat_diversity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w02__p03",
+      "heading_path": [
+        "BACKGROUND"
+      ],
+      "text": "Responses known to reduce or mitigate negative agricultural impacts on pollinators include organic farming and planting flower strips, both of which increase local numbers of foraging pollinating insects (well established) and pollination (established but incomplete).",
+      "page_start": 24,
+      "page_end": 24,
+      "topic": "mitigation strategies",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "species_richness",
+        "pollinators"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w02__p04",
+      "heading_path": [
+        "BACKGROUND"
+      ],
+      "text": "Greater landscape-scale habitat diversity often results in more diverse pollinator communities (well established) and more effective crop and wild plant pollination (established but incomplete). Depending on land use (e.g., agriculture, forestry, grazing, etc.,), landscape habitat diversity can be enhanced to support pollinators through intercropping; crop rotation including flowering crops; agroforestry; and creating, restoring or maintaining wildflower habitat or native vegetation (well established).",
+      "page_start": 25,
+      "page_end": 25,
+      "topic": "landscape management",
+      "practices": [
+        "intercropping",
+        "crop_rotation",
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "species_richness",
+        "habitat_diversity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w02__p05",
+      "heading_path": [
+        "BACKGROUND"
+      ],
+      "text": "Managing urban and recreational green spaces to increase the local abundance of nectar providing and pollen-providing flowering plants increases pollinator diversity and abundance (established but incomplete).",
+      "page_start": 25,
+      "page_end": 25,
+      "topic": "urban management",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "species_richness",
+        "pollinators"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w02__p06",
+      "heading_path": [
+        "BACKGROUND"
+      ],
+      "text": "Use of herbicides to control weeds indirectly affects pollinators by reducing the abundance and diversity of flowering plants providing pollen and nectar (well established). Agricultural and urban land management systems that allow a variety of weedy species to flower support more diverse communities of pollinators, which can enhance pollination (established but incomplete).",
+      "page_start": 27,
+      "page_end": 27,
+      "topic": "herbicide impacts",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "species_richness",
+        "pollinators"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w02__p07",
+      "heading_path": [
+        "BACKGROUND"
+      ],
+      "text": "Most agricultural genetically modified organisms (GMOs) carry traits for herbicide tolerance (HT) or insect resistance (IR). Reduced weed populations are likely to accompany most herbicide-tolerant (HT) crops, diminishing food resources for pollinators (established but incomplete). Insect-resistant (IR) crops result in the reduction of insecticide use, which varies regionally according to the prevalence of pests, and the emergence of secondary outbreaks of non-target pests or primary pest resistance (well established).",
+      "page_start": 27,
+      "page_end": 27,
+      "topic": "GMO impacts",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "pollinators",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w02__p08",
+      "heading_path": [
+        "BACKGROUND"
+      ],
+      "text": "Introduced invasive pollinators when reaching high abundances can damage flowers, thereby reducing wild plant reproduction and crop yield (established but incomplete). Invasive alien predators can affect pollination by consuming pollinators (established but incomplete).",
+      "page_start": 28,
+      "page_end": 28,
+      "topic": "invasive species",
+      "practices": [],
+      "metrics": [
+        "pollinators",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "risk"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_pollinators__w02__c01",
+      "passage_id": "ipbes_pollinators__w02__p01",
+      "subject": "wild bees",
+      "metric": "species_richness",
+      "direction": "decrease",
+      "evidence_span": "the local abundance and diversity of wild bees have been found to decline strongly with distance from field margins and remnants of natural and semi natural habitat at scales of a few hundred metres",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_pollinators__w02__c02",
+      "passage_id": "ipbes_pollinators__w02__p03",
+      "subject": "foraging pollinating insects",
+      "metric": "pollinators",
+      "direction": "increase",
+      "evidence_span": "organic farming and planting flower strips, both of which increase local numbers of foraging pollinating insects",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_pollinators__w02__c03",
+      "passage_id": "ipbes_pollinators__w02__p05",
+      "subject": "pollinators",
+      "metric": "species_richness",
+      "direction": "increase",
+      "evidence_span": "Managing urban and recreational green spaces to increase the local abundance of nectar providing and pollen-providing flowering plants increases pollinator diversity and abundance",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_pollinators__w02__c04",
+      "passage_id": "ipbes_pollinators__w02__p06",
+      "subject": "flowering plants",
+      "metric": "pollinators",
+      "direction": "decrease",
+      "evidence_span": "Use of herbicides to control weeds indirectly affects pollinators by reducing the abundance and diversity of flowering plants providing pollen and nectar",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_pollinators__w02__c05",
+      "passage_id": "ipbes_pollinators__w02__p07",
+      "subject": "insecticide use",
+      "metric": "pollinators",
+      "direction": "decrease",
+      "evidence_span": "Insect-resistant (IR) crops result in the reduction of insecticide use",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_pollinators__w02__c06",
+      "passage_id": "ipbes_pollinators__w02__p08",
+      "subject": "invasive pollinators",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "evidence_span": "Introduced invasive pollinators when reaching high abundances can damage flowers, thereby reducing wild plant reproduction and crop yield",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "habitat_diversity",
+      "to_node": "pollinator_diversity",
+      "effect": "increase",
+      "condition": "landscape-scale",
+      "mechanism": "habitat connectivity",
+      "passage_id": "ipbes_pollinators__w02__p04",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "herbicides",
+      "to_node": "flowering_plants",
+      "effect": "decrease",
+      "condition": "weed control",
+      "mechanism": "reduction of abundance and diversity",
+      "passage_id": "ipbes_pollinators__w02__p06",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "flowering_plants",
+      "to_node": "pollinator_diversity",
+      "effect": "increase",
+      "condition": "urban green spaces",
+      "mechanism": "nectar and pollen provision",
+      "passage_id": "ipbes_pollinators__w02__p05",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "invasive_pollinators",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "high abundance",
+      "mechanism": "flower damage",
+      "passage_id": "ipbes_pollinators__w02__p08",
+      "strength_stated": "moderate"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_pollinators__w02",
+    "doc_id": "ipbes2016_pollinators",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 23,
+    "pdf_end": 34,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T10:55:11Z",
+    "pdf_sha256": "19b6a81180ef567f",
+    "prompt_type": "assessment"
+  }
+}

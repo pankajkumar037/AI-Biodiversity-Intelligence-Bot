@@ -1,0 +1,284 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Pollinators, pollination and food production",
+  "content_type": "assessment",
+  "summary": "This assessment synthesizes the role of pollinators in global food production, the drivers of pollinator decline, and the economic and cultural importance of pollination services. It highlights the reliance of global agriculture on animal pollination, the threats posed by intensive agricultural practices and pesticides, and the potential for diversified farming systems and indigenous knowledge to support pollinator health.",
+  "passages": [
+    {
+      "passage_id": "ipbes_pollinators__w01__p01",
+      "heading_path": [
+        "KEY MESSAGES",
+        "16"
+      ],
+      "text": "A number of features of current intensive agricultural practices threaten pollinators and pollination. Moving towards more sustainable agriculture and reversing the simplification of agricultural landscapes offer key strategic responses to risks associated with pollinator decline. Three complementary approaches to maintaining healthy pollinator communities and productive agriculture are: (a) ecological intensification (i.e., managing nature’s ecological functions to improve agricultural production and livelihoods while minimizing environmental damage); (b) strengthening existing diversified farming systems (including forest gardens, home gardens, agroforestry and mixed cropping and livestock systems) to foster pollinators and pollination through practices validated by science or indigenous and local knowledge (e.g., crop rotation); and (c) investing in ecological infrastructure by protecting, restoring and connecting patches of natural and semi-natural habitats throughout productive agricultural landscapes.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "agricultural practices and pollinator health",
+      "practices": [
+        "crop_rotation",
+        "agroforestry_agrisilvicultural",
+        "grassland_restoration"
+      ],
+      "metrics": [
+        "species_richness",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w01__p02",
+      "heading_path": [
+        "KEY MESSAGES",
+        "20"
+      ],
+      "text": "Most agricultural genetically modified organisms (GMOs) carry traits for herbicide tolerance (HT) or insect resistance (IR). Reduced weed populations are likely to accompany most herbicide-tolerant (HT) crops, diminishing food resources for pollinators. The actual consequences for the abundance and diversity of pollinators foraging in herbicide-tolerant (HT)-crop fields is unknown. Insect resistant (IR) crops can result in the reduction of insecticide use, which varies regionally according to the prevalence of pests, the emergence of secondary outbreaks of non-target pests or primary pest resistance. If sustained, the reduction in insecticide use could reduce pressure on non-target insects.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "GMOs and pollinator impacts",
+      "practices": [],
+      "metrics": [
+        "species_richness",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w01__p03",
+      "heading_path": [
+        "A. Values of pollinators and pollination"
+      ],
+      "text": "Animal pollination plays a vital role as a regulating ecosystem service in nature. An estimated 87.5 per cent (approximately 308,000 species) of the world’s flowering wild plants depend, at least in part, on animal pollination for sexual reproduction, and this ranges from 94 per cent in tropical communities to 78 per cent in temperate zone communities (established but incomplete). Pollinators play central roles in the stability and functioning of many terrestrial food webs, as wild plants provide a wide range of resources such as food and shelter for many other invertebrates, mammals, birds and other taxa.",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "pollination ecosystem services",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "tropical",
+        "temperate"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w01__p04",
+      "heading_path": [
+        "A. Values of pollinators and pollination"
+      ],
+      "text": "Production, yield and quality of more than three quarters of the leading global food crop types, occupying 33-35 per cent of all agricultural land, benefit from animal pollination (well established). Of the 107 leading global crop types, production from 91 (fruit, seed and nut) crops rely to varying degrees upon animal pollination. Total pollinator loss would decrease crop production by more than 90 per cent in 12 per cent of the leading global crops, would have no effects in 7 per cent of the crops and would have unknown effects in 8 per cent of the crops.",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "pollination and crop production",
+      "practices": [],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w01__p05",
+      "heading_path": [
+        "A. Values of pollinators and pollination"
+      ],
+      "text": "Animal pollination is directly responsible for between 5 and 8 per cent of current global agricultural production by volume (i.e., this amount of production would be lost if there were no pollinators), and includes foods that supply major proportions of micronutrients, such as vitamin A, iron and folate, in global human diets (established but incomplete). Loss of pollinators could lead to lower availability of crops and wild plants that provide essential micronutrients for human diets, impacting health and nutritional security and risking increased numbers of people suffering from vitamin A, iron and folate deficiency.",
+      "page_start": 8,
+      "page_end": 8,
+      "topic": "pollination and human nutrition",
+      "practices": [],
+      "metrics": [
+        "crop_yield",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w01__p06",
+      "heading_path": [
+        "BACKGROUND"
+      ],
+      "text": "Diversified farming systems, some linked to indigenous and local knowledge, represent an important pollinator-friendly addition to industrial agriculture and include swidden, home garden, commodity agroforestry and bee farming systems (established but incomplete). Diversified farming systems foster agro-biodiversity and pollination through crop rotation, the promotion of habitat at diverse stages of succession, diversity and abundance of floral resources; ongoing incorporation of wild resources and inclusion of tree canopy species; innovations, for example in apiaries, swarm capture and pest control; and adaptation to social-environmental change, for example through the incorporation of new invasive bee species and pollination resources into farming practices.",
+      "page_start": 10,
+      "page_end": 10,
+      "topic": "diversified farming systems",
+      "practices": [
+        "crop_rotation",
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "species_richness",
+        "habitat_diversity"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_pollinators__w01__p07",
+      "heading_path": [
+        "B. Status and trends in pollinators, pollination and pollinator-dependent crops and wild plants"
+      ],
+      "text": "While global agriculture is becoming increasingly pollinator-dependent, yield growth and stability of pollinator-dependent crops are lower than those of pollinator-independent crops (well established). Yield per hectare of pollinator-dependent crops has increased less, and varies more year to year, than yield per hectare of pollinator-independent crops. Furthermore, yields of many crops show local declines and lower stability when pollinator communities lack a variety of species (well established). A diverse pollinator community is more likely to provide stable, sufficient pollination than a less diverse community, as a result of pollinator species having different food preferences, foraging behaviour and activity patterns.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "pollinator diversity and crop stability",
+      "practices": [],
+      "metrics": [
+        "crop_yield",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_pollinators__w01__c01",
+      "passage_id": "ipbes_pollinators__w01__p01",
+      "subject": "intensive agricultural practices",
+      "metric": "species_richness",
+      "direction": "decrease",
+      "evidence_span": "A number of features of current intensive agricultural practices threaten pollinators and pollination.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_pollinators__w01__c02",
+      "passage_id": "ipbes_pollinators__w01__p02",
+      "subject": "herbicide-tolerant (HT) crops",
+      "metric": "species_richness",
+      "direction": "decrease",
+      "evidence_span": "Reduced weed populations are likely to accompany most herbicide-tolerant (HT) crops, diminishing food resources for pollinators.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_pollinators__w01__c03",
+      "passage_id": "ipbes_pollinators__w01__p04",
+      "subject": "total pollinator loss",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": 90,
+      "unit": "percent",
+      "basis": "well established",
+      "evidence_span": "Total pollinator loss would decrease crop production by more than 90 per cent in 12 per cent of the leading global crops",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_pollinators__w01__c04",
+      "passage_id": "ipbes_pollinators__w01__p05",
+      "subject": "pollinator loss",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value_low": 5,
+      "value_high": 8,
+      "unit": "percent",
+      "basis": "established but incomplete",
+      "evidence_span": "Animal pollination is directly responsible for between 5 and 8 per cent of current global agricultural production by volume (i.e., this amount of production would be lost if there were no pollinators)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_pollinators__w01__c05",
+      "passage_id": "ipbes_pollinators__w01__p07",
+      "subject": "pollinator community diversity",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "basis": "well established",
+      "evidence_span": "Furthermore, studies at local scales show that crop production is higher in fields with diverse and abundant pollinator communities than in fields with less diverse pollinator communities.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "intensive agricultural practices",
+      "to_node": "pollinator species richness",
+      "effect": "decrease",
+      "passage_id": "ipbes_pollinators__w01__p01",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "herbicide-tolerant crops",
+      "to_node": "pollinator food resources",
+      "effect": "decrease",
+      "passage_id": "ipbes_pollinators__w01__p02",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "pollinator loss",
+      "to_node": "crop production",
+      "effect": "decrease",
+      "passage_id": "ipbes_pollinators__w01__p04",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "pollinator loss",
+      "to_node": "micronutrient availability",
+      "effect": "decrease",
+      "passage_id": "ipbes_pollinators__w01__p05",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "diversified farming systems",
+      "to_node": "agro-biodiversity",
+      "effect": "increase",
+      "passage_id": "ipbes_pollinators__w01__p06",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "pollinator community diversity",
+      "to_node": "crop yield stability",
+      "effect": "increase",
+      "passage_id": "ipbes_pollinators__w01__p07",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_pollinators__w01",
+    "doc_id": "ipbes2016_pollinators",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 12,
+    "pdf_end": 23,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T10:54:56Z",
+    "pdf_sha256": "2db0cc176d88163d",
+    "prompt_type": "assessment"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Responses to soil quality changes",
+  "content_type": "practice",
+  "summary": "This section discusses various agronomic and soil management practices aimed at improving soil health and quality, including tillage, crop rotation, nutrient management, cover crops, and agroforestry, while noting the temporal nature of these improvements.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch6_responses__w02__p01",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "6.3.2.3 Responses to soil quality changes"
+      ],
+      "text": "Healthy soils are a prerequisite for meeting global food, feed, fibre and energy needs (FAO, 2015). To meet those needs, while sustaining or improving soil health or soil quality, several soil and crop management response strategies have been developed - including various combinations of tillage, crop rotation, nutrient management, cover crops and other practices collectively referred to as “agronomic practices”.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Soil management strategies",
+      "practices": [
+        "crop_rotation",
+        "manure",
+        "cover_crops",
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "soil_organic_matter"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w02__p02",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "6.3.2.3 Responses to soil quality changes"
+      ],
+      "text": "One of the most important soil health and quality changes, associated with any response strategy, is an increase soil organic carbon, because it directly influences a multitude of soil properties and processes. For example, applying animal or green manures can improve soil health and quality by increasing soil porosity, enhancing soil structure (i.e., binding of sand-, silt-, and clay-size particles), decreasing compaction, increasing aggregation and decreasing wind and water erosion.",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Soil organic carbon and soil structure",
+      "practices": [
+        "manure"
+      ],
+      "metrics": [
+        "SOC",
+        "bulk_density",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w02__p03",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "6.3.2.3 Responses to soil quality changes",
+        "Soil management strategies to enhance soil health and/or quality and mitigate degradation"
+      ],
+      "text": "Tillage frequency and intensity, crop rotation, animal and/or green manure application, cover cropping, grazing intensity and agroforestry can improve soil health and/or quality (Wingeyer et al. 2015; Veum et al. 2015) and avoid, reduce or reverse land degradation by increasing biomass content and biodiversity.",
+      "page_start": 12,
+      "page_end": 12,
+      "topic": "Soil management strategies",
+      "practices": [
+        "reduced_tillage",
+        "crop_rotation",
+        "manure",
+        "cover_crops",
+        "rotational_grazing",
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "biomass",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch6_responses__w02__c01",
+      "passage_id": "ipbes_ch6_responses__w02__p02",
+      "subject": "animal or green manures",
+      "metric": "erosion",
+      "direction": "decrease",
+      "evidence_span": "applying animal or green manures can improve soil health and quality by increasing soil porosity, enhancing soil structure (i.e., binding of sand-, silt-, and clay-size particles), decreasing compaction, increasing aggregation and decreasing wind and water erosion.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w02__c02",
+      "passage_id": "ipbes_ch6_responses__w02__p03",
+      "subject": "tillage frequency and intensity, crop rotation, animal and/or green manure application, cover cropping, grazing intensity and agroforestry",
+      "metric": "biomass",
+      "direction": "increase",
+      "evidence_span": "Tillage frequency and intensity, crop rotation, animal and/or green manure application, cover cropping, grazing intensity and agroforestry can improve soil health and/or quality (Wingeyer et al. 2015; Veum et al. 2015) and avoid, reduce or reverse land degradation by increasing biomass content and biodiversity.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "manure",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch6_responses__w02__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry",
+      "to_node": "biomass",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w02__p03",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Agronomic practices",
+    "tree_species": [],
+    "crop_species": [],
+    "region_of_adoption": [
+      "global"
+    ],
+    "stated_benefits": [
+      "improve soil health",
+      "improve soil quality",
+      "avoid land degradation",
+      "reduce land degradation",
+      "reverse land degradation",
+      "increase biomass content",
+      "increase biodiversity"
+    ],
+    "stated_constraints": [
+      "response time when converting from high to low impact activities can take a decade"
+    ]
+  },
+  "_meta": {
+    "unit_id": "ipbes_ch6_responses__w02",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 515,
+    "pdf_end": 526,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:57:17Z",
+    "pdf_sha256": "e290b94bf41e847e"
+  }
+}

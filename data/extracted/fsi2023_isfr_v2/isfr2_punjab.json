@@ -1,0 +1,292 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Punjab forest and tree resources",
+  "content_type": "assessment",
+  "summary": "This unit provides land use statistics, forest cover assessments, forest fire data, and tree species inventory for the state of Punjab, based on the India State of Forest Report 2023.",
+  "passages": [
+    {
+      "passage_id": "isfr2_punjab__p01",
+      "heading_path": [
+        "PUNJAB",
+        "Table 10.21.1 Land Use Pattern"
+      ],
+      "text": "Table 10.21.1 Land Use Pattern | Land Use Types | Area (in ‘000 ha) | Percentage | Geographical Area | 5,036 | - | Reporting area for land utilization | 5,032.73 | 100.00 | Forests | 244.57 | 4.86 | Not available for land cultivation | 558.37 | 11.10 | Permanent pastures and other grazing lands | 4.34 | 0.09 | Land under misc. tree crops and groves | 9.21 | 0.18 | Culturable wasteland | 8.27 | 0.16 | Fallow land other than current fallows | 5.16 | 0.10 | Current fallows | 90.24 | 1.79 | Net area sown | 4,112.57 | 81.72 | Source: Land Use Statistics, Ministry of Agriculture and Farmer’s Welfare, GOI, (2021-22).",
+      "page_start": 234,
+      "page_end": 234,
+      "topic": "Punjab",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest",
+        "grassland",
+        "cropland",
+        "degraded_land"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr2_punjab__p02",
+      "heading_path": [
+        "Punjab",
+        "10.21.1 Forest Cover",
+        "Table 10.21.2 Forest Cover of Punjab"
+      ],
+      "text": "Table 10.21.2 Forest Cover of Punjab (km2) | Class | Area | % of Calculated Area by SoI | VDF | 9.44 | 0.02 | MDF | 784.89 | 1.56 | OF | 1,051.76 | 2.09 | Total | 1,846.09 | 3.67 | Scrub | 41.61 | 0.08",
+      "page_start": 235,
+      "page_end": 235,
+      "topic": "Punjab",
+      "practices": [],
+      "metrics": [
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr2_punjab__p03",
+      "heading_path": [
+        "Punjab",
+        "10.21.1 Forest Cover",
+        "Table 10.21.3 District- wise Forest Cover in Punjab"
+      ],
+      "text": "Table 10.21.3 District- wise Forest Cover in Punjab (km2) | District | Calculated Area by SoI | 2023 Assessment (Very Dense Forest | Mod. Dense Forest | Open Forest | Total) | % of Calculated Area by SoI | Change w.r.t. 2021 Raster based* | Scrub | Amritsar | 2,683.00 | 0.70 | 10.35 | 18.14 | 29.19 | 1.09 | 1.67 | 0.64 | Barnala | 1,482.00 | 0.00 | 0.95 | 7.93 | 8.88 | 0.60 | 0.07 | 0.00 | Bathinda | 3,377.00 | 0.00 | 20.75 | 33.20 | 53.95 | 1.60 | 0.10 | 7.93 | Faridkot | 1,442.00 | 0.00 | 3.55 | 12.60 | 16.15 | 1.12 | 0.00 | 1.10 | Fatehgarh Sahib | 1,180.00 | 0.00 | 2.74 | 0.27 | 3.01 | 0.26 | 0.00 | 0.00 | Fazilka | 2,873.00 | 0.00 | 4.14 | 52.71 | 56.85 | 1.98 | 2.66 | 0.00 | Firozpur | 2,389.00 | 0.00 | 2.19 | 11.46 | 13.65 | 0.57 | 0.18 | 2.23 | Gurdaspur | 2,601.00 | 0.00 | 5.55 | 18.36 | 23.91 | 0.92 | 0.88 | 1.36 | Hoshiarpur | 3,386.00 | 0.00 | 368.14 | 329.17 | 697.31 | 20.59 | -3.31 | 11.34 | Jalandhar | 2,624.00 | 0.00 | 1.59 | 8.60 | 10.19 | 0.39 | 0.26 | 1.55 | Kapurthala | 1,633.00 | 0.00 | 3.36 | 9.15 | 12.51 | 0.77 | 0.33 | 0.99 | Ludhiana | 3,598.00 | 0.00 | 18.05 | 29.52 | 47.57 | 1.32 | 1.46 | 0.64 | Mansa | 2,174.00 | 0.00 | 1.35 | 9.26 | 10.61 | 0.49 | 0.00 | 0.69 | Moga | 2,258.00 | 0.00 | 0.45 | 8.42 | 8.87 | 0.39 | 0.00 | 0.00 | Muktsar | 2,636.00 | 0.00 | 5.18 | 13.38 | 18.56 | 0.70 | 0.12 | 0.00 | Pathankot | 950.00 | 0.00 | 96.46 | 96.00 | 192.46 | 20.26 | 0.20 | 0.62 | Patiala | 3,222.00 | 7.48 | 28.55 | 39.08 | 75.11 | 2.33 | -0.48 | 4.58 | Rupnagar | 1,356.00 | 0.00 | 105.49 | 170.41 | 275.90 | 20.35 | -0.43 | 1.54 | Sahibzada Ajit Singh Nagar | 1,197.00 | 0.27 | 70.52 | 64.07 | 134.86 | 11.27 | -0.30 | 1.25 | Sangrur | 3,625.00 | 0.00 | 6.86 | 16.54 | 23.40 | 0.65 | 0.00 | 0.00 | Shahid Bhagat Singh Nagar | 1,262.00 | 0.00 | 24.43 | 90.00 | 114.43 | 9.07 | -3.99 | 5.15 | Tarn Taran | 2,414.00 | 0.99 | 4.24 | 13.49 | 18.72 | 0.78 | 0.13 | 0.00 | Grand Total | 50,362.00 | 9.44 | 784.89 | 1,051.76 | 1,846.09 | 3.67 | -0.45 | 41.61",
+      "page_start": 235,
+      "page_end": 235,
+      "topic": "Punjab",
+      "practices": [],
+      "metrics": [
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr2_punjab__p04",
+      "heading_path": [
+        "PUNJAB",
+        "Table 10.21.5 Forest Cover Inside and Outside Recorded Forest Area (or Green Wash) in Punjab"
+      ],
+      "text": "Table 10.21.5 Forest Cover Inside and Outside Recorded Forest Area (or Green Wash) in Punjab (km2) | Forest Cover Inside the Recorded Forest Area (or Green Wash) | Forest Cover Outside the Recorded Forest Area (or Green Wash) | VDF | MDF | OF | Total | VDF | MDF | OF | Total | 8.72 | 450.21 | 316.83 | 775.76 | 0.72 | 334.68 | 734.93 | 1,070.33 | 1.12% | 58.04% | 40.84% | - | 0.07% | 31.27% | 68.66% | -",
+      "page_start": 236,
+      "page_end": 236,
+      "topic": "Punjab",
+      "practices": [],
+      "metrics": [
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr2_punjab__p05",
+      "heading_path": [
+        "Punjab",
+        "Table 10.21.8 Altitude-wise Forest Cover in Punjab"
+      ],
+      "text": "Table 10.21.8 Altitude-wise Forest Cover in Punjab (km2) | Altitude Zone (m) | Calculated Area by SoI | VDF | MDF | OF | Total | Scrub | 0-500 | 49,882.00 | 9.44 | 559.25 | 920.73 | 1,489.42 | 39.89 | 500-1000 | 480.00 | 0.00 | 225.64 | 131.03 | 356.67 | 1.72 | Total | 50,362.00 | 9.44 | 784.89 | 1,051.76 | 1,846.09 | 41.61",
+      "page_start": 238,
+      "page_end": 238,
+      "topic": "Punjab",
+      "practices": [],
+      "metrics": [
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr2_punjab__p06",
+      "heading_path": [
+        "Punjab",
+        "Table 10.21.9 Forest Cover in Different Slope Classes in Punjab"
+      ],
+      "text": "Table 10.21.9 Forest Cover in Different Slope Classes in Punjab (km2) | Slope (in degrees) | Calculated Area by SoI | VDF | MDF | OF | Total | Scrub | 0-5 | 48,329.00 | 8.78 | 369.18 | 681.02 | 1,058.98 | 36.75 | 5-10 | 1,582.00 | 0.61 | 225.98 | 214.50 | 441.09 | 3.58 | 10-15 | 316.00 | 0.04 | 123.78 | 105.50 | 229.32 | 1.00 | 15-20 | 99.00 | 0.01 | 47.57 | 37.56 | 85.14 | 0.27 | 20-25 | 26.00 | 0.00 | 13.59 | 9.37 | 22.96 | 0.01 | 25-30 | 7.00 | 0.00 | 3.72 | 2.66 | 6.38 | 0.00 | >30 | 3.00 | 0.00 | 1.07 | 1.15 | 2.22 | 0.00 | Total | 50,362.00 | 9.44 | 784.89 | 1,051.76 | 1,846.09 | 41.61",
+      "page_start": 238,
+      "page_end": 238,
+      "topic": "Punjab",
+      "practices": [],
+      "metrics": [
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr2_punjab__p07",
+      "heading_path": [
+        "PUNJAB",
+        "10.21.3 Forest Types",
+        "Table 10.21.10 Area Statistics of the Forest Types Found in Punjab"
+      ],
+      "text": "Table 10.21.10 Area Statistics of the Forest Types Found in Punjab (km2) | Sl. No. | Forest Type | Area | % of the total mapped area* | 1 | 5B/C2 Northern dry mixed deciduous | 1,225.22 | 64.91 | 2 | 5/DS1 Dry deciduous scrub | 9.05 | 0.48 | 3 | 5/E9 Dry bamboo brakes | 30.93 | 1.64 | 4 | 5/1S2 Khair-sissu forest | 0.56 | 0.03 | 5 | 6B/C2 Ravine thorn forest | 73.54 | 3.89 | 6 | 6/1S1 Desert dune scrub | 10.09 | 0.53 | 7 | 9/C1a Lower or Siwalik chir pine | 27.13 | 1.44 | Sub Total | - | 1,376.52 | 72.92 | 8 | TOF/ Plantation | 511.18 | 27.08 | Total (Forest Cover & Scrub) | - | 1,887.70 | 100.00",
+      "page_start": 240,
+      "page_end": 240,
+      "topic": "Punjab",
+      "practices": [],
+      "metrics": [
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr2_punjab__p08",
+      "heading_path": [
+        "PUNJAB",
+        "10.21.5 Fire Prone Forest Areas",
+        "Table 10.21.12 Forest Fire Prone Classes"
+      ],
+      "text": "Table 10.21.12 Forest Fire Prone Classes (km2) | Sl. No. | Forest Fire Prone Classes | Forest Cover* | % of Total Forest Cover | 1 | Extremely fire prone | 0.03 | 0.00 | 2 | Very highly fire prone | 20.66 | 1.09 | 3 | Highly fire prone | 224.95 | 11.92 | 4 | Moderately fire prone | 202.71 | 10.74 | 5 | Less fire prone | 1,439.35 | 76.25 | Total | - | 1,887.70 | 100.00",
+      "page_start": 241,
+      "page_end": 241,
+      "topic": "Punjab",
+      "practices": [],
+      "metrics": [
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr2_punjab__p09",
+      "heading_path": [
+        "PUNJAB",
+        "10.21.6 Results Derived from NFI for Punjab",
+        "Table 10.21.13 Number of Trees and their volume for Top 5 Species in RFA"
+      ],
+      "text": "Table 10.21.13 Number of Trees and their volume for Top 5 Species in RFA | Sl. No. | Species | No. of Trees (in ‘000) | Volume (M m3) | 1 | Prosopis juliflora/ Neltuma juliflora | 7,661 | 2.17 | 2 | Acacia catechu/ Senegalia catechu | 6,129 | 1.20 | 3 | Mallotus philippensis | 4,204 | 0.49 | 4 | Eucalyptus species | 2,787 | 1.91 | 5 | Leucaena leucocephala | 2,267 | 0.39",
+      "page_start": 241,
+      "page_end": 241,
+      "topic": "Punjab",
+      "practices": [],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr2_punjab__p10",
+      "heading_path": [
+        "PUNJAB",
+        "Table 10.21.14 Number of Trees and their volume for Top 5 Species in Rural Area"
+      ],
+      "text": "Table 10.21.14 Number of Trees and their volume for Top 5 Species in Rural Area | Sl. No. | Species | No. of Trees (in ‘000) | Volume (M m3) | 1 | Eucalyptus species | 22,686 | 4.828 | 2 | Melia azedarach | 20,266 | 2.670 | 3 | Citrus species | 9,003 | 0.215 | 4 | Dalbergia sissoo | 8,578 | 2.574 | 5 | Psidium guajava | 6,419 | 0.227",
+      "page_start": 242,
+      "page_end": 242,
+      "topic": "Punjab",
+      "practices": [],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr2_punjab__p11",
+      "heading_path": [
+        "PUNJAB",
+        "Table 10.21.15 Number of Trees and their volume for Top 5 Species in Urban Area"
+      ],
+      "text": "Table 10.21.15 Number of Trees and their volume for Top 5 Species in Urban Area | Sl. No. | Species | No. of Trees (in ‘000) | Volume (M m3) | 1 | Eucalyptus species | 2,246 | 0.396 | 2 | Melia azedarach | 1,898 | 0.242 | 3 | Morus species | 742 | 0.094 | 4 | Psidium guajava | 552 | 0.017 | 5 | Prosopis juliflora/ Neltuma juliflora | 444 | 0.027",
+      "page_start": 242,
+      "page_end": 242,
+      "topic": "Punjab",
+      "practices": [],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr2_punjab__p12",
+      "heading_path": [
+        "PUNJAB",
+        "Table 10.21.17 Major invasive Species in the State inside the RFA in Punjab"
+      ],
+      "text": "Table 10.21.17 Major invasive Species in the State inside the RFA in Punjab | Sl. No. | Species | Estimated Extent (km2) | 1 | Lantana camara | 615.13 | 2 | Prosopis juliflora/ Neltuma juliflora | 43.09 | 3 | Saccharum spontaneum | 40.34 | 4 | Ageratum houstonianum | 35.75 | 5 | Imperata cylindrica | 20.17",
+      "page_start": 242,
+      "page_end": 242,
+      "topic": "Punjab",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    }
+  ],
+  "claims": [],
+  "links": [],
+  "_meta": {
+    "unit_id": "isfr2_punjab",
+    "doc_id": "fsi2023_isfr_v2",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 270,
+    "pdf_end": 282,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T11:01:58Z",
+    "pdf_sha256": "e71a03817210bf5a",
+    "prompt_type": "inventory"
+  }
+}

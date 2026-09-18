@@ -1,0 +1,278 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+  "content_type": "assessment",
+  "summary": "This assessment examines the interlinkages between land management response options, nature's contributions to people (NCP), and UN Sustainable Development Goals (SDGs). It highlights that while many land-based options offer co-benefits, others involve trade-offs, particularly regarding food security and land health. The document also discusses the role of governance, stakeholder engagement, and gender in the implementation of these response options.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch6_interlinkages__w07__p01",
+      "heading_path": [
+        "6.4.3.2 Impacts of integrated response options on the UN SDGs"
+      ],
+      "text": "Overall, several response options have co-benefits across 10 or more SDGs with no adverse side effects on any SDG: increased food production, improved grazing land management, agroforestry, integrated water management, reduced post-harvest losses, sustainable sourcing, livelihood diversification and disaster risk management.",
+      "page_start": 630,
+      "page_end": 630,
+      "topic": "SDG co-benefits",
+      "practices": [
+        "integrated_nutrient_mgmt",
+        "irrigation",
+        "agroforestry_agrisilvicultural",
+        "grassland_restoration"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w07__p02",
+      "heading_path": [
+        "6.4.3.2 Impacts of integrated response options on the UN SDGs"
+      ],
+      "text": "Several response options, including avoidance of grassland conversion, reduced deforestation and forest degradation, reforestation and afforestation, biochar, restoration and avoided conversion of peatlands and coastlands, have trade-offs across multiple SDGs, primarily as they prioritise land health over food production and poverty eradication.",
+      "page_start": 630,
+      "page_end": 630,
+      "topic": "SDG trade-offs",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w07__p03",
+      "heading_path": [
+        "6.4.4 Opportunities for implementing integrated response options",
+        "6.4.4.1 Where can the response options be applied?"
+      ],
+      "text": "Fire management and increased soil organic carbon have a large potential since they could be deployed with mostly co-benefits and few adverse effects over 76% and 58% of the ice-free land area.",
+      "page_start": 633,
+      "page_end": 633,
+      "topic": "Potential deployment of land management",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w07__p04",
+      "heading_path": [
+        "6.4.4 Opportunities for implementing integrated response options",
+        "6.4.4.1 Where can the response options be applied?"
+      ],
+      "text": "Despite strong co-benefits for climate change mitigation, the deployment of bioenergy and BECCS would have co-benefits on only 9% of the ice-free land area, given adverse effects of this response option for food security, land degradation, climate change adaptation and desertification.",
+      "page_start": 633,
+      "page_end": 633,
+      "topic": "Bioenergy and BECCS constraints",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w07__p05",
+      "heading_path": [
+        "6.4.4 Opportunities for implementing integrated response options",
+        "6.4.4.1 Where can the response options be applied?"
+      ],
+      "text": "Across countries, the mean number of land management response options with mostly co-benefits declines (p<0.001, Spearman rank order correlation) with the mean number of land challenges. Hence, the higher the number of land challenges per country, the fewer the land management response options having only co-benefits for the challenges encountered.",
+      "page_start": 633,
+      "page_end": 633,
+      "topic": "Land management and land challenges",
+      "practices": [
+        "other"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w07__p06",
+      "heading_path": [
+        "6.4.4 Opportunities for implementing integrated response options",
+        "6.4.4.1 Where can the response options be applied?"
+      ],
+      "text": "Across countries, HDI is negatively correlated (p<0.001, Spearman rank order correlation) with the mean number of land challenges. Therefore, on a global average, the higher the number of local challenges faced, the fewer the land management responses having only co-benefits, and the lower the human development that could favour the implementation of these responses.",
+      "page_start": 633,
+      "page_end": 633,
+      "topic": "Human development and land challenges",
+      "practices": [
+        "other"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w07__p07",
+      "heading_path": [
+        "Interactions and interlinkages between response options"
+      ],
+      "text": "Increased use of bioenergy can result in increased mitigation and reduced climate change, but can also lead to increased energy cropland expansion, and increased competition for land, resulting in increased food prices.",
+      "page_start": 636,
+      "page_end": 636,
+      "topic": "Bioenergy trade-offs",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "crop_yield",
+        "temperature"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w07__p08",
+      "heading_path": [
+        "Interactions and interlinkages between response options"
+      ],
+      "text": "The inclusion of land-sparing options (e.g., dietary change, increased food productivity, reduced food waste, management of supply chains) in addition to bioenergy and BECCS results in reduced food prices, reduced agricultural land expansion, reduced deforestation, reduced mitigation costs, reduced water use, and reduced biodiversity loss.",
+      "page_start": 636,
+      "page_end": 636,
+      "topic": "Land-sparing synergies",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "crop_yield",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch6_interlinkages__w07__c01",
+      "passage_id": "srccl_ch6_interlinkages__w07__p03",
+      "subject": "Fire management",
+      "metric": "erosion",
+      "direction": "increase",
+      "evidence_span": "Fire management and increased soil organic carbon have a large potential since they could be deployed with mostly co-benefits and few adverse effects over 76% and 58% of the ice-free land area.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w07__c02",
+      "passage_id": "srccl_ch6_interlinkages__w07__p07",
+      "subject": "Bioenergy",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": null,
+      "unit": "none",
+      "evidence_span": "Increased use of bioenergy can result in increased mitigation and reduced climate change, but can also lead to increased energy cropland expansion, and increased competition for land, resulting in increased food prices.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w07__c03",
+      "passage_id": "srccl_ch6_interlinkages__w07__p08",
+      "subject": "Land-sparing options",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "evidence_span": "The inclusion of land-sparing options (e.g., dietary change, increased food productivity, reduced food waste, management of supply chains) in addition to bioenergy and BECCS results in reduced food prices, reduced agricultural land expansion, reduced deforestation, reduced mitigation costs, reduced water use, and reduced biodiversity loss.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "land challenges",
+      "to_node": "land management response options",
+      "effect": "decrease",
+      "condition": "higher number of land challenges",
+      "mechanism": "negative correlation",
+      "passage_id": "srccl_ch6_interlinkages__w07__p05",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "Human Development Index",
+      "to_node": "land challenges",
+      "effect": "decrease",
+      "condition": "higher HDI",
+      "mechanism": "negative correlation",
+      "passage_id": "srccl_ch6_interlinkages__w07__p06",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "bioenergy",
+      "to_node": "food prices",
+      "effect": "increase",
+      "condition": "increased bioenergy use",
+      "mechanism": "competition for land",
+      "passage_id": "srccl_ch6_interlinkages__w07__p07",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "land-sparing options",
+      "to_node": "food prices",
+      "effect": "decrease",
+      "condition": "inclusion with bioenergy",
+      "mechanism": "reduced agricultural land expansion",
+      "passage_id": "srccl_ch6_interlinkages__w07__p08",
+      "strength_stated": "moderate"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w07",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 638,
+    "pdf_end": 649,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:12:14Z",
+    "pdf_sha256": "5ce43c67e8f65097"
+  }
+}

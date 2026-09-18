@@ -1,0 +1,108 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Land degradation",
+  "content_type": "other",
+  "summary": "This document provides a comprehensive list of references for Chapter 4 on Land Degradation from the IPCC Special Report on Climate Change and Land.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch4_land_degradation__w08__p01",
+      "heading_path": [
+        "Land degradation",
+        "References"
+      ],
+      "text": "Waldron, A. et al. 2017: Agroforestry can enhance food security while meeting other sustainable development goals. Trop. Conserv. Sci., 10, 194008291772066, doi:10.1177/1940082917720667.",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Agroforestry",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w08__p02",
+      "heading_path": [
+        "Land degradation",
+        "References"
+      ],
+      "text": "Zomer, R.J. et al. 2016: Global tree cover and biomass carbon on agricultural land: The contribution of agroforestry to global and national carbon budgets. Sci. Rep., 6, 29987, doi:10.1038/srep29987.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Agroforestry",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "tree_cover",
+        "biomass",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch4_land_degradation__w08__c01",
+      "passage_id": "srccl_ch4_land_degradation__w08__p01",
+      "subject": "Agroforestry",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "evidence_span": "Agroforestry can enhance food security",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w08__c02",
+      "passage_id": "srccl_ch4_land_degradation__w08__p02",
+      "subject": "Agroforestry",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "evidence_span": "The contribution of agroforestry to global and national carbon budgets.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "passage_id": "srccl_ch4_land_degradation__w08__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "passage_id": "srccl_ch4_land_degradation__w08__p02",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch4_land_degradation__w08",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 443,
+    "pdf_end": 448,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:52:06Z",
+    "pdf_sha256": "612dcabd8b16a22e"
+  }
+}

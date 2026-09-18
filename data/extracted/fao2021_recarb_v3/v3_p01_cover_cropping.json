@@ -1,0 +1,1472 @@
+{
+  "extraction_status": "ok",
+  "section_title": "1. Cover cropping",
+  "content_type": "practice",
+  "summary": "Cover crops are close-growing crops that provide soil protection, seeding protection, and soil improvement between crop production periods. They can be grasses, legumes, brassicas, or mixtures, and are often incorporated into the soil as green manure. Cover crops improve soil health, suppress weeds, manage erosion, build fertility, control pests, and promote biodiversity. They have been used historically in various cultures. Their applicability varies with climate and soil type, with potential competition for water being a concern in semiarid regions. Cover cropping can increase soil organic carbon stocks, particularly in woody crops, with the highest sequestration rates occurring in the initial years. Benefits include decreased bulk density, increased porosity, and improved water retention. They also minimize threats like soil erosion, nutrient imbalance, soil biodiversity loss, and soil compaction. While generally not negatively impacting CO2 and CH4 emissions, N2O emissions can be affected by species and fertilization. Socio-economic benefits include reduced fertilization needs and increased crop yields, though farm margins may decrease short-term. Cover crops can also suppress weeds and soilborne diseases. Potential drawbacks include yield variance, lack of market value for some cover crops, and competition with cash crops. Adoption is limited by farmer expertise, technical assistance needs, and potential adverse effects in semiarid regions. Barriers include biophysical factors, cultural reluctance, social attitudes of older farmers, economic costs, institutional knowledge gaps, legal uncertainties regarding land tenure, and knowledge gaps.",
+  "passages": [
+    {
+      "passage_id": "v3_p01_cover_cropping__p01",
+      "heading_path": [
+        "1. Description of the practice"
+      ],
+      "text": "Cover crops are defined as a “close-growing crop that provides soil protection, seeding protection, and soil improvement between periods of normal crop production, or between trees in orchards and vines in vineyards. When plowed under and incorporated into the soil, cover crops may be referred to as green manure crops\" (SSSA, 2008). Cover crops are also found called “Living mulch” or “Green manure”. In some cases, cover crops can remain permanently on the soil, which constitutes a living soil cover (also see factsheets Nos. 4 and 5 on intercropping, this volume).",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "orchard",
+        "integrated_system",
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p02",
+      "heading_path": [
+        "1. Description of the practice"
+      ],
+      "text": "Typically, cover crops (CCs) are grasses (e.g. ryegrass), legumes (e.g. vetch), brassicas (e.g. rapeseed) or mixtures of two or more species (Jian et al., 2020). In arable cropping systems, cover crops are cultivated in moncultures or crop rotations to avoid long periods of bare soil and are ploughed into the soil (as green manure) before the next main crop is sowed (Photo 1). In woody crops are mostly intercropped as herbaceous crops in the inter-rows (Photo 2) to protect soil from erosion (perennial seeded species, spontaneous natural vegetation, or annual covers) and are removed and used as green manure, mulch or forage (Hartwig and Ammon, 2002; Vicente-Vicente et al., 2016). They are grown to improve soil health, which benefits crop yield in the medium and long term, are commonly used to suppress weeds, manage soil erosion, help build and improve soil fertility and quality, control diseases and pests, and promote biodiversity (Carlson and Stockweel, 2013). Cover crops have been used since antiquity in China (more than 3 000 years ago), Japan (9th century AD) and by the Greeks, Romans (e.g. Cato and Columella) and Aztecs (Ortiz Ceballos et al., 2012; Lal, 2015).",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops",
+        "intercropping",
+        "mulching"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "erosion",
+        "nutrient_availability",
+        "soil_biota",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "orchard",
+        "integrated_system"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p03",
+      "heading_path": [
+        "2. Range of applicability"
+      ],
+      "text": "Cover cropping (CC) can be applied worldwide, but there is not a cover crop that fits every farming situation and potential benefits vary with climate, soil type and plant species. In detail, CCs can better fit in humid and subhumid regions than in semiarid regions where precipitation is limited (Unger and Vigil, 1998). The possible competition of CCs for available soil water in semiarid regions can limit the adoption of the practice (Unger and Vigil, 1998; Nielsen et al, 2015). A different approach to agricultural management is required for arable and woody crops.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "humid",
+        "semi-arid",
+        "dry_sub_humid"
+      ],
+      "land_use": [
+        "cropland",
+        "orchard"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p04",
+      "heading_path": [
+        "3. Impact on soil organic carbon stocks"
+      ],
+      "text": "The C storage potential of CCs is quite variable at regional level and with land use, ranging from 0.27 to 1.03 tC/ha/yr in the examined meta-analyses (Table 1). A higher potential was found in woody crops in warm temperate dry climates (about 1.00 tC/ha/yr), and lower values in arable crops most for temperate and tropical climates (0.32-0.56 tC/ha/yr). C storage potential in arable systems was 0.71, 0.51 and 0.46 tC/ha/yr in tropical, temperate and arid climates respectively (Jian et al., 2020). Data from a literature review (Blanco-Canqui et al., 2015) reported that CCs increase soil organic C stocks by 0.1-1 t/ha/yr. Soil C sequestration rate is highest during the first years after CCs implementation and progressively decreases as C stocks approach equilibrium.",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "temperate",
+        "tropical",
+        "arid",
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "orchard"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p05",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.1. Improvement of soil properties"
+      ],
+      "text": "CCs decrease bulk density and compaction in the long-term (Blanco-Canqui et al., 2015), increase soil porosity and water retained at field capacity (Basche and DeLonge, 2017), residues left on the soil surface reduce soil evaporation and increase soil water content (Kaspar and Singer, 2011).",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "bulk_density",
+        "soil_moisture",
+        "water_holding_capacity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p06",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Minimize the impact of rainfall (Kaspar and Singer, 2011). Rapidly increase aggregate stability and macro-porosity because soil aggregates are larger and more stable compared to soils without CCs. Increase water infiltration and decrease water runoff (Blanco-Canqui et al., 2015).",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "erosion",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p07",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Increase N content in N-fixing species, reduce N leaching and nutrient erosion by runoff (Kaspar and Singer, 2011).",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "nitrogen",
+        "erosion",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p08",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Increase soil microbial parameters (Kim et al., 2020).",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "microbial_biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p09",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Limited change in soil penetration resistance in the short-term (3 years) (Aldridge et al., 2019). Cover crops with deep taproots such as brassicas can reduce soil compaction by penetrating compact layers (Blanco-Canqui et al., 2015).",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "bulk_density"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p10",
+      "heading_path": [
+        "4. Other benefits of the practice",
+        "4.2. Minimization of threats to soil functions"
+      ],
+      "text": "Increase water infiltration and decrease water runoff (Blanco-Canqui et al., 2015).",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p11",
+      "heading_path": [
+        "4.3. Increases in production (e.g. food/fuel/feed/timber/fibre)"
+      ],
+      "text": "In semiarid regions, CCs may reduce cash crops yields under conventional tillage but not under no-tillage management because evapotranspiration is lower and soil water storage is higher (Pittelkow et al., 2015). High-N2-fixing (i.e., legumes) CCs can have faster and higher effects on increasing crop yields than species with low or no N2-fixing capacity. Specifically, summer legumes are more effective than winter legumes due to the higher potential biomass and N inputs. CCs may provide forage for livestock and feedstock for cellulosic biofuel production (Blanco-Canqui et al., 2015).",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops",
+        "no_till"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "crop_yield",
+        "biomass"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p12",
+      "heading_path": [
+        "4.4. Mitigation of and adaptation to climate change"
+      ],
+      "text": "Generally, studies on CO2 and CH4 emissions found no negative effects of CCs (Liebig et al., 2010; Sanz-Cobena et al., 2014). N2O emissions are reduced during the CC cycle because soil N availability is lower (Davidson et al., 2000), however their residues can lose N through emissions of NH3, N2O, NO, or N2 (Kaspar and Singer, 2011).",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "temperature",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p13",
+      "heading_path": [
+        "4.5. Socio-economic benefits"
+      ],
+      "text": "CCs can decrease inorganic fertilization requirements, increase crop yields, reduce soil erosion by water and wind by physically protecting the soil surface, reduce soil evaporation during fallow periods and improve rainfall interception (Lal, 2015). The few data available about the reduction of fertilization requirements suggest that overall farm margins can decrease in the short term, and there is no clear evidence that the integration of CCs in the system has a positive effect on N fertility management and economics.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "crop_yield",
+        "erosion",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p14",
+      "heading_path": [
+        "4.6. Other benefits of the practice"
+      ],
+      "text": "CCs compete with weeds, can release allelochemicals to inhibit weed growth and interrupt the cycles of pests and, through the emission of phytotoxic chemicals, may be able to suppress soilborne diseases (Ortiz Ceballos et al., 2012; O'Connell et al., 2015).",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p15",
+      "heading_path": [
+        "5.2. Increases in greenhouse gas emissions"
+      ],
+      "text": "Field studies in semiarid environments (Sanz-Cobena et al., 2014), reported that N2O fluxes were close to zero during the CC period under barley (Hordeum vulgare L.) and rape (Brassica napus L.), while were significantly higher in vetch (Vicia villosa L.) compared to the fallow plot (0.16 vs. 0.04 kg N2O–N/ha, i.e. 48 vs. 12 kg/ha CO2eq). During the following maize (Zea mays L.) crop, the incorporation of barley and rape residues increased N2O emissions compared with the treatment where residues were removed from the field, due to the combined effect of N fertilization, but decreased with the incorporation of vetch residues. Total N2O emissions for the whole cropping period when CC residues where removed amounted to 98, 48 and 72 kg/ha CO2eq in vetch, barley and rape respectively and to 86, 80, and 86 kg/ha CO2eq when residues were incorporated. So, the three species of CCs were equivalent with residue incorporation, as confirmed by Basche et al. (2014).",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "temperature"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p16",
+      "heading_path": [
+        "5.2. Increases in greenhouse gas emissions"
+      ],
+      "text": "Results from a meta-analysis (Basche et al., 2014) indicated that legumes showed positive response ratios (RR, given by ratio between the N2O flux with a cover crop treatment to N2O flux without a cover crop), while the RRs for nonlegume species were close to zero. The same meta-analysis also reported that in legume CCs there was a pronounced increase in RRs with an increase of total precipitation. In addition, legume CCs had higher relative N2O emissions at low N fertilization rates and lower emissions at high N rates, whereas N2O emissions of nonlegume CCs increased as N fertilization rate increased.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "temperature",
+        "rainfall"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p17",
+      "heading_path": [
+        "5.3. Conflict with other practice(s)"
+      ],
+      "text": "Conventional tillage might decrease the benefits of CCs (Blanco-Canqui et al., 2015). In fact, tillage breaks down soil aggregate and accelerates SOC mineralization and can reduce the soil benefits of CCs compared to no-till or reduced tillage management (Sainju, Whitehead and Singh, 2003).",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops",
+        "no_till",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p18",
+      "heading_path": [
+        "5.4. Decreases in production (e.g. food/fuel/feed/timber/fibre)"
+      ],
+      "text": "Higher yield variance using legumes could increase the economic risk, because CCs alone may not supply sufficient N. So, combining CCs with inorganic fertilization can be an alternative to increase crop yields (Blanco-Canqui et al., 2015). Generally, CCs do not have market value, unless CCs with an economic function, like livestock fodder are selected, or CCs are used to graze livestock directly.",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "crop_yield",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p19",
+      "heading_path": [
+        "6. Recommendations before implementing the practice"
+      ],
+      "text": "The environmental benefits of CCs are widely recognized but adoption levels are still quite low. A major weakness is that few farmers are experts in CCs management, and thus technical assistance to farmers should be strengthened (e.g., plant species suited to the local pedoclimatic conditions and best management). For example, the potential adverse effects on plant-available water and cash crop yields often limit the adoption of CCs in semiarid regions (Unger and Vigil 1998; Nielsen et al, 2015).",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [
+        "soil_moisture",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p20",
+      "heading_path": [
+        "7. Potential barriers to adoption"
+      ],
+      "text": "Potential benefits vary with climate, soil type and plant species (Lal, 2015).",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p21",
+      "heading_path": [
+        "7. Potential barriers to adoption"
+      ],
+      "text": "Reluctance to change from traditional management practices to alternatives (O'Connell et al., 2015).",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p22",
+      "heading_path": [
+        "7. Potential barriers to adoption"
+      ],
+      "text": "Age of farmers is an index that determines attitudes, so older farmers are less prone to participate in pilot studies or demonstration projects, particularly in more developed countries (O'Connell et al., 2015).",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p23",
+      "heading_path": [
+        "7. Potential barriers to adoption"
+      ],
+      "text": "Equipment for incorporation of residues, or CC termination (O'Connell et al., 2015).",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p24",
+      "heading_path": [
+        "7. Potential barriers to adoption"
+      ],
+      "text": "Limited knowledge of the benefits of the measure among key decision makers/administrators or poor knowledge transfer to users/limited dissemination/limited promotion of the measure/limited training/education (Roesch-McNally et al., 2018).",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p25",
+      "heading_path": [
+        "7. Potential barriers to adoption"
+      ],
+      "text": "There is evidence that farmers are more likely to expect the long-term benefits associated with CCS in long-term rental arrangements, that is more uncertainties are associated with short-term rentals (Nadella et al., 2014).",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v3_p01_cover_cropping__p26",
+      "heading_path": [
+        "7. Potential barriers to adoption"
+      ],
+      "text": "Planting the right CC and incorporation of residues (O'Connell et al., 2015).",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "Cover cropping",
+      "practices": [
+        "cover_crops"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "v3_p01_cover_cropping__c01",
+      "passage_id": "v3_p01_cover_cropping__p02",
+      "subject": "cover crops",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "They are grown to improve soil health, which benefits crop yield in the medium and long term, are commonly used to suppress weeds, manage soil erosion, help build and improve soil fertility and quality, control diseases and pests, and promote biodiversity",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c02",
+      "passage_id": "v3_p01_cover_cropping__p02",
+      "subject": "cover crops",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "They are grown to improve soil health, which benefits crop yield in the medium and long term, are commonly used to suppress weeds, manage soil erosion, help build and improve soil fertility and quality, control diseases and pests, and promote biodiversity",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c03",
+      "passage_id": "v3_p01_cover_cropping__p02",
+      "subject": "cover crops",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "They are grown to improve soil health, which benefits crop yield in the medium and long term, are commonly used to suppress weeds, manage soil erosion, help build and improve soil fertility and quality, control diseases and pests, and promote biodiversity",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c04",
+      "passage_id": "v3_p01_cover_cropping__p02",
+      "subject": "cover crops",
+      "metric": "soil_biota",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "They are grown to improve soil health, which benefits crop yield in the medium and long term, are commonly used to suppress weeds, manage soil erosion, help build and improve soil fertility and quality, control diseases and pests, and promote biodiversity",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c05",
+      "passage_id": "v3_p01_cover_cropping__p02",
+      "subject": "cover crops",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "medium and long term",
+      "time_horizon_years": null,
+      "evidence_span": "They are grown to improve soil health, which benefits crop yield in the medium and long term",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c06",
+      "passage_id": "v3_p01_cover_cropping__p03",
+      "subject": "cover crops",
+      "metric": "soil_moisture",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "semiarid regions",
+      "time_horizon_years": null,
+      "evidence_span": "The possible competition of CCs for available soil water in semiarid regions can limit the adoption of the practice",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c07",
+      "passage_id": "v3_p01_cover_cropping__p04",
+      "subject": "cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 1.03,
+      "value_low": 0.27,
+      "value_high": null,
+      "unit": "t_ha",
+      "basis": "meta-analyses",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "The C storage potential of CCs is quite variable at regional level and with land use, ranging from 0.27 to 1.03 tC/ha/yr in the examined meta-analyses (Table 1)",
+      "confidence_in_extraction": "derived"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c08",
+      "passage_id": "v3_p01_cover_cropping__p04",
+      "subject": "cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 1.0,
+      "value_low": null,
+      "value_high": null,
+      "unit": "t_ha",
+      "basis": "meta-analyses",
+      "conditions": "woody crops in warm temperate dry climates",
+      "time_horizon_years": null,
+      "evidence_span": "A higher potential was found in woody crops in warm temperate dry climates (about 1.00 tC/ha/yr)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c09",
+      "passage_id": "v3_p01_cover_cropping__p04",
+      "subject": "cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 0.56,
+      "value_low": null,
+      "value_high": null,
+      "unit": "t_ha",
+      "basis": "meta-analysis",
+      "conditions": "global, arid, snow, temperate, tropical",
+      "time_horizon_years": 8.5,
+      "evidence_span": "C storage potential in arable systems was 0.71, 0.51 and 0.46 tC/ha/yr in tropical, temperate and arid climates respectively (Jian et al., 2020)",
+      "confidence_in_extraction": "derived"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c10",
+      "passage_id": "v3_p01_cover_cropping__p04",
+      "subject": "cover crops",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 1.0,
+      "value_low": 0.1,
+      "value_high": null,
+      "unit": "t_ha",
+      "basis": "literature review",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Data from a literature review (Blanco-Canqui et al., 2015) reported that CCs increase soil organic C stocks by 0.1-1 t/ha/yr.",
+      "confidence_in_extraction": "derived"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c11",
+      "passage_id": "v3_p01_cover_cropping__p05",
+      "subject": "cover crops",
+      "metric": "bulk_density",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "long-term",
+      "time_horizon_years": null,
+      "evidence_span": "CCs decrease bulk density and compaction in the long-term (Blanco-Canqui et al., 2015)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c12",
+      "passage_id": "v3_p01_cover_cropping__p05",
+      "subject": "cover crops",
+      "metric": "water_holding_capacity",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "increase soil porosity and water retained at field capacity (Basche and DeLonge, 2017)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c13",
+      "passage_id": "v3_p01_cover_cropping__p05",
+      "subject": "cover crops",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "residues left on the soil surface reduce soil evaporation and increase soil water content (Kaspar and Singer, 2011)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c14",
+      "passage_id": "v3_p01_cover_cropping__p06",
+      "subject": "cover crops",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Increase water infiltration and decrease water runoff (Blanco-Canqui et al., 2015)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c15",
+      "passage_id": "v3_p01_cover_cropping__p07",
+      "subject": "cover crops",
+      "metric": "nitrogen",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "N-fixing species",
+      "time_horizon_years": null,
+      "evidence_span": "Increase N content in N-fixing species",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c16",
+      "passage_id": "v3_p01_cover_cropping__p07",
+      "subject": "cover crops",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "reduce N leaching and nutrient erosion by runoff (Kaspar and Singer, 2011)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c17",
+      "passage_id": "v3_p01_cover_cropping__p08",
+      "subject": "cover crops",
+      "metric": "microbial_biomass",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Increase soil microbial parameters (Kim et al., 2020)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c18",
+      "passage_id": "v3_p01_cover_cropping__p09",
+      "subject": "cover crops",
+      "metric": "bulk_density",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "short-term (3 years)",
+      "time_horizon_years": 3,
+      "evidence_span": "Limited change in soil penetration resistance in the short-term (3 years) (Aldridge et al., 2019)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c19",
+      "passage_id": "v3_p01_cover_cropping__p09",
+      "subject": "cover crops",
+      "metric": "bulk_density",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "deep taproots such as brassicas",
+      "time_horizon_years": null,
+      "evidence_span": "Cover crops with deep taproots such as brassicas can reduce soil compaction by penetrating compact layers (Blanco-Canqui et al., 2015)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c20",
+      "passage_id": "v3_p01_cover_cropping__p10",
+      "subject": "cover crops",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Increase water infiltration and decrease water runoff (Blanco-Canqui et al., 2015)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c21",
+      "passage_id": "v3_p01_cover_cropping__p11",
+      "subject": "cover crops",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "conventional tillage in semiarid regions",
+      "time_horizon_years": null,
+      "evidence_span": "In semiarid regions, CCs may reduce cash crops yields under conventional tillage but not under no-tillage management",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c22",
+      "passage_id": "v3_p01_cover_cropping__p11",
+      "subject": "cover crops",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "high-N2-fixing (legumes)",
+      "time_horizon_years": null,
+      "evidence_span": "High-N2-fixing (i.e., legumes) CCs can have faster and higher effects on increasing crop yields than species with low or no N2-fixing capacity",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c23",
+      "passage_id": "v3_p01_cover_cropping__p13",
+      "subject": "cover crops",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "increase crop yields",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c24",
+      "passage_id": "v3_p01_cover_cropping__p13",
+      "subject": "cover crops",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "water and wind",
+      "time_horizon_years": null,
+      "evidence_span": "reduce soil erosion by water and wind by physically protecting the soil surface",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c25",
+      "passage_id": "v3_p01_cover_cropping__p13",
+      "subject": "cover crops",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "during fallow periods",
+      "time_horizon_years": null,
+      "evidence_span": "reduce soil evaporation during fallow periods and improve rainfall interception (Lal, 2015)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c26",
+      "passage_id": "v3_p01_cover_cropping__p15",
+      "subject": "cover crops",
+      "metric": "temperature",
+      "direction": "increase",
+      "value": 0.16,
+      "value_low": null,
+      "value_high": null,
+      "unit": "kg_ha",
+      "basis": "field studies",
+      "conditions": "vetch, semiarid environments",
+      "time_horizon_years": null,
+      "evidence_span": "while were significantly higher in vetch (Vicia villosa L.) compared to the fallow plot (0.16 vs. 0.04 kg N2O–N/ha, i.e. 48 vs. 12 kg/ha CO2eq)",
+      "confidence_in_extraction": "derived"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c27",
+      "passage_id": "v3_p01_cover_cropping__p15",
+      "subject": "cover crops",
+      "metric": "temperature",
+      "direction": "increase",
+      "value": 98,
+      "value_low": null,
+      "value_high": null,
+      "unit": "kg_ha",
+      "basis": "field studies",
+      "conditions": "vetch, residues removed",
+      "time_horizon_years": null,
+      "evidence_span": "Total N2O emissions for the whole cropping period when CC residues where removed amounted to 98, 48 and 72 kg/ha CO2eq in vetch, barley and rape respectively",
+      "confidence_in_extraction": "derived"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c28",
+      "passage_id": "v3_p01_cover_cropping__p15",
+      "subject": "cover crops",
+      "metric": "temperature",
+      "direction": "increase",
+      "value": 86,
+      "value_low": null,
+      "value_high": null,
+      "unit": "kg_ha",
+      "basis": "field studies",
+      "conditions": "vetch, residues incorporated",
+      "time_horizon_years": null,
+      "evidence_span": "and to 86, 80, and 86 kg/ha CO2eq when residues were incorporated",
+      "confidence_in_extraction": "derived"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c29",
+      "passage_id": "v3_p01_cover_cropping__p16",
+      "subject": "cover crops",
+      "metric": "temperature",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "meta-analysis",
+      "conditions": "legume CCs",
+      "time_horizon_years": null,
+      "evidence_span": "in legume CCs there was a pronounced increase in RRs with an increase of total precipitation",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c30",
+      "passage_id": "v3_p01_cover_cropping__p16",
+      "subject": "cover crops",
+      "metric": "temperature",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "meta-analysis",
+      "conditions": "legume CCs, high N fertilization rates",
+      "time_horizon_years": null,
+      "evidence_span": "legume CCs had higher relative N2O emissions at low N fertilization rates and lower emissions at high N rates",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c31",
+      "passage_id": "v3_p01_cover_cropping__p17",
+      "subject": "cover crops",
+      "metric": "SOC",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "conventional tillage",
+      "time_horizon_years": null,
+      "evidence_span": "tillage breaks down soil aggregate and accelerates SOC mineralization",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c32",
+      "passage_id": "v3_p01_cover_cropping__p18",
+      "subject": "cover crops",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "combining with inorganic fertilization",
+      "time_horizon_years": null,
+      "evidence_span": "combining CCs with inorganic fertilization can be an alternative to increase crop yields",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v3_p01_cover_cropping__c33",
+      "passage_id": "v3_p01_cover_cropping__p18",
+      "subject": "cover crops",
+      "metric": "nitrogen",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": "legumes alone",
+      "time_horizon_years": null,
+      "evidence_span": "because CCs alone may not supply sufficient N",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "cover_crops",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p01_cover_cropping__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p01_cover_cropping__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p01_cover_cropping__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "soil_biota",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p01_cover_cropping__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": "medium and long term",
+      "mechanism": null,
+      "passage_id": "v3_p01_cover_cropping__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "soil_moisture",
+      "effect": "decrease",
+      "condition": "semiarid regions",
+      "mechanism": "competition for water",
+      "passage_id": "v3_p01_cover_cropping__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p01_cover_cropping__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "bulk_density",
+      "effect": "decrease",
+      "condition": "long-term",
+      "mechanism": null,
+      "passage_id": "v3_p01_cover_cropping__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p01_cover_cropping__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "residues reduce evaporation",
+      "passage_id": "v3_p01_cover_cropping__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p01_cover_cropping__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "nitrogen",
+      "effect": "increase",
+      "condition": "N-fixing species",
+      "mechanism": null,
+      "passage_id": "v3_p01_cover_cropping__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "nutrient_availability",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "reduce N leaching and nutrient erosion",
+      "passage_id": "v3_p01_cover_cropping__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "microbial_biomass",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p01_cover_cropping__p08",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "bulk_density",
+      "effect": "decrease",
+      "condition": "short-term (3 years)",
+      "mechanism": "penetrating compact layers",
+      "passage_id": "v3_p01_cover_cropping__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v3_p01_cover_cropping__p10",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "conventional tillage in semiarid regions",
+      "mechanism": null,
+      "passage_id": "v3_p01_cover_cropping__p11",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": "high-N2-fixing (legumes)",
+      "mechanism": null,
+      "passage_id": "v3_p01_cover_cropping__p11",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "temperature",
+      "effect": "increase",
+      "condition": "vetch, semiarid environments",
+      "mechanism": null,
+      "passage_id": "v3_p01_cover_cropping__p15",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "temperature",
+      "effect": "increase",
+      "condition": "vetch, residues incorporated",
+      "mechanism": null,
+      "passage_id": "v3_p01_cover_cropping__p15",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "temperature",
+      "effect": "increase",
+      "condition": "legume CCs",
+      "mechanism": null,
+      "passage_id": "v3_p01_cover_cropping__p16",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "temperature",
+      "effect": "decrease",
+      "condition": "legume CCs, high N fertilization rates",
+      "mechanism": null,
+      "passage_id": "v3_p01_cover_cropping__p16",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "SOC",
+      "effect": "decrease",
+      "condition": "conventional tillage",
+      "mechanism": "accelerates SOC mineralization",
+      "passage_id": "v3_p01_cover_cropping__p17",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": "combining with inorganic fertilization",
+      "mechanism": null,
+      "passage_id": "v3_p01_cover_cropping__p18",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "cover_crops",
+      "to_node": "nitrogen",
+      "effect": "decrease",
+      "condition": "legumes alone",
+      "mechanism": null,
+      "passage_id": "v3_p01_cover_cropping__p18",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Cover cropping",
+    "system_type": "other",
+    "tree_species": [],
+    "crop_species": [
+      "ryegrass",
+      "vetch",
+      "rapeseed",
+      "barley",
+      "rape",
+      "velvet bean"
+    ],
+    "region_of_adoption": [
+      "China",
+      "Japan",
+      "Greece",
+      "Rome",
+      "Aztecs",
+      "Mediterranean basin",
+      "West and Southeastern Africa",
+      "North Carolina"
+    ],
+    "rainfall_mm_low": null,
+    "rainfall_mm_high": null,
+    "soil_requirements": null,
+    "establishment_notes": null,
+    "stated_benefits": [
+      "soil protection",
+      "seeding protection",
+      "soil improvement",
+      "improve soil health",
+      "suppress weeds",
+      "manage soil erosion",
+      "build and improve soil fertility and quality",
+      "control diseases and pests",
+      "promote biodiversity",
+      "decrease bulk density",
+      "increase soil porosity",
+      "increase water retained at field capacity",
+      "reduce soil evaporation",
+      "increase soil water content",
+      "minimize impact of rainfall",
+      "increase aggregate stability",
+      "increase macro-porosity",
+      "increase water infiltration",
+      "decrease water runoff",
+      "increase N content in N-fixing species",
+      "reduce N leaching",
+      "reduce nutrient erosion by runoff",
+      "increase soil microbial parameters",
+      "reduce soil compaction",
+      "decrease inorganic fertilization requirements",
+      "increase crop yields",
+      "reduce soil erosion by water and wind",
+      "reduce soil evaporation during fallow periods",
+      "improve rainfall interception",
+      "inhibit weed growth",
+      "interrupt cycles of pests",
+      "suppress soilborne diseases"
+    ],
+    "stated_constraints": [
+      "competition for available soil water in semiarid regions",
+      "different approach to agricultural management required for arable and woody crops",
+      "yield variance using legumes could increase economic risk",
+      "CCs alone may not supply sufficient N",
+      "CCs do not have market value unless selected for economic function",
+      "potential adverse effects on plant-available water and cash crop yields often limit adoption in semiarid regions",
+      "conventional tillage might decrease the benefits of CCs",
+      "tillage breaks down soil aggregate and accelerates SOC mineralization",
+      "tillage can reduce the soil benefits of CCs compared to no-till or reduced tillage management"
+    ]
+  },
+  "_meta": {
+    "unit_id": "v3_p01_cover_cropping",
+    "doc_id": "fao2021_recarb_v3",
+    "model": "gemini-2.5-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 20,
+    "pdf_end": 32,
+    "manifest_practices": [
+      "cover_crops"
+    ],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:24:38Z",
+    "pdf_sha256": "2613a9286a697188"
+  }
+}

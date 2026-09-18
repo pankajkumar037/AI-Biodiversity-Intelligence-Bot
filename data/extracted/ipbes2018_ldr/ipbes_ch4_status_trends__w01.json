@@ -1,0 +1,302 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+  "content_type": "assessment",
+  "summary": "This unit provides an overview of methods for assessing land degradation, including the use of baselines and models, and details specific degradation processes such as soil erosion, acidification, salinization, waterlogging, and changes in soil carbon stocks.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch4_status_trends__w01__p01",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.1.3.3 Data and models"
+      ],
+      "text": "Mechanistic models can simulate degradation and other relevant metrics using mathematical representations of biophysical processes. Model results can be very accurate when the biophysical processes are known and adequate data are available. However, the more realistic models are, the greater their complexity and their need for data. The demand for data and parameters can be prohibitive, and oftentimes default values have to be used with consequent reduction of accuracy.",
+      "page_start": 232,
+      "page_end": 232,
+      "topic": "degradation assessment models",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w01__p02",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.1.4 Baselines"
+      ],
+      "text": "A reference or baseline is essential to detect and assess the magnitude and direction of any trend in degradation compared with the current conditions.",
+      "page_start": 232,
+      "page_end": 232,
+      "topic": "baselines",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w01__p03",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.1.4.1 Target condition"
+      ],
+      "text": "It is also usually not possible to treat a single service alone since any gain in one can cause a loss of another, so trade-offs are normal, and the choices involved can also change.",
+      "page_start": 232,
+      "page_end": 232,
+      "topic": "ecosystem services",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w01__p04",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.1 Soil erosion"
+      ],
+      "text": "Erosion is a natural process, but is strongly accelerated by agriculture and mismanagement. Nowadays the combined effects of, for example, the development of industrial cropping and urban sealed areas and with an increasing population to feed, have resulted in cultivation of marginal lands, leading to significant soil erosion.",
+      "page_start": 237,
+      "page_end": 237,
+      "topic": "soil erosion",
+      "practices": [],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w01__p05",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.1 Soil erosion"
+      ],
+      "text": "“Conservation” agriculture, contour line ploughing, no tillage or sowing directly into a cover crop and mulching bare surfaces can decrease soil erosion by over 80%. With these techniques, soil erosion on cropland in the USA declined nearly 40% between 1982 and 1997, from 3.1 to 1.9 Pg yr-1 even while the area of cropland remained roughly constant.",
+      "page_start": 240,
+      "page_end": 240,
+      "topic": "soil erosion management",
+      "practices": [
+        "no_till",
+        "conservation_agriculture",
+        "mulching"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w01__p06",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.2.1 Soil acidification"
+      ],
+      "text": "Particularly severe effects have been reported in Southern China due to nitrogen fertilizer application (500-4,000 kg N ha-1 yr-1) resulting in acidification of 20-221 kmol (H+) ha-1 yr-1), and double cropping practices which can exacerbate cation removal (15-20 kmol H+).",
+      "page_start": 240,
+      "page_end": 240,
+      "topic": "soil acidification",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "pH",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w01__p07",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.2.2 Soil salinization and alkalinisation"
+      ],
+      "text": "High concentrations of soluble salts limit the ability of plant roots to absorb soil water, decreasing plant growth and crop yields.",
+      "page_start": 241,
+      "page_end": 241,
+      "topic": "soil salinization",
+      "practices": [],
+      "metrics": [
+        "salinity",
+        "soil_moisture",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w01__p08",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.2.3 Waterlogging"
+      ],
+      "text": "Degradation results from excessive input of water and/or inadequate drainage, so the water table rises towards the soil surface, leading to: depletion of soil oxygen and carbon dioxide accumulation; chemical conversion of non-toxic chemicals into their reduced form which can be toxic; denitrification and emission of nitrous oxide (N2O) – a major greenhouse gas; and reduction of nitrogen fixation by the nodules of legume crops and pastures, all leading to anoxic conditions.",
+      "page_start": 242,
+      "page_end": 242,
+      "topic": "waterlogging",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w01__p09",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.3.1 Loss and recovery of soil carbon"
+      ],
+      "text": "Soil organic carbon (SOC) makes up about 58% of soil organic matter and contains many other life-essential elements, some of which (nitrogen, phosphorus, and sulphur) cycle in close coupling with carbon. Because of the close relationship between soil organic carbon and soil organic matter, the terms are used interchangeably, with the former preferred for carbon balance calculations and the latter for understanding the effects of organic matter on soil properties and processes such as bulk density, water holding capacity, pH buffering capacity, biological activity, nutrient cycling and soil structure.",
+      "page_start": 243,
+      "page_end": 243,
+      "topic": "soil organic carbon",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "soil_organic_matter",
+        "bulk_density",
+        "water_holding_capacity",
+        "pH",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch4_status_trends__w01__c01",
+      "passage_id": "ipbes_ch4_status_trends__w01__p05",
+      "subject": "conservation agriculture",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": 80,
+      "unit": "percent",
+      "basis": "unstated",
+      "conditions": "cropland",
+      "evidence_span": "“Conservation” agriculture, contour line ploughing, no tillage or sowing directly into a cover crop and mulching bare surfaces can decrease soil erosion by over 80%.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w01__c02",
+      "passage_id": "ipbes_ch4_status_trends__w01__p07",
+      "subject": "high concentrations of soluble salts",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "evidence_span": "High concentrations of soluble salts limit the ability of plant roots to absorb soil water, decreasing plant growth and crop yields.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "conservation agriculture",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": "cropland",
+      "mechanism": "no tillage, contour ploughing, cover crops, mulching",
+      "passage_id": "ipbes_ch4_status_trends__w01__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "nitrogen fertilizer application",
+      "to_node": "pH",
+      "effect": "decrease",
+      "condition": "Southern China",
+      "mechanism": "acidification",
+      "passage_id": "ipbes_ch4_status_trends__w01__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "soluble salts",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "limit ability of plant roots to absorb soil water",
+      "passage_id": "ipbes_ch4_status_trends__w01__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "waterlogging",
+      "to_node": "nitrogen",
+      "effect": "decrease",
+      "condition": "irrigated cropland",
+      "mechanism": "reduction of nitrogen fixation",
+      "passage_id": "ipbes_ch4_status_trends__w01__p08",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "soil organic matter",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "soil properties and processes",
+      "passage_id": "ipbes_ch4_status_trends__w01__p09",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch4_status_trends__w01",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 290,
+    "pdf_end": 301,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:13:39Z",
+    "pdf_sha256": "3531b8637a33e4f9"
+  }
+}

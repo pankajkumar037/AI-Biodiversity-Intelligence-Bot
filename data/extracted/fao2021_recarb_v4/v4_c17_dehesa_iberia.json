@@ -1,0 +1,866 @@
+{
+  "extraction_status": "ok",
+  "section_title": "17. Mediterranean savanna-like agrosilvopastoral grassland system in Spain, Italy and Portugal",
+  "content_type": "case_study",
+  "summary": "This document describes the Mediterranean savanna-like agrosilvopastoral grassland system, also known as Dehesa in Spain, Montado in Portugal, and Pascolo arborato in Italy. This UNESCO protected system integrates agriculture, livestock, and forestry, dominated by scattered evergreen oak trees and pastures. It is adapted to the Mediterranean climate and characterized by shallow, nutrient-poor soils. The system plays a crucial role in biodiversity protection and can achieve carbon neutrality or even mitigate greenhouse gas emissions due to its carbon sequestration capacity. The document also discusses the system's context, potential for scaling up, impact on soil organic carbon stocks, other benefits like soil erosion control and water cycle balance, socio-economic advantages, potential drawbacks, and recommendations for its implementation and sustainability.",
+  "passages": [
+    {
+      "passage_id": "v4_c17_dehesa_iberia__p01",
+      "heading_path": [],
+      "text": "The typical Mediterranean savannah-like grassland system called Dehesa in Spain, Montado in Portugal and Pascolo arborato in Italy is a UNESCO protected (UNESCO, 2017) multifunctional agro-forestry system aggregating balanced and combined agricultural, livestock and forestry activities. This agrosilvopastoral system is mainly dominated by scattered evergreen oak trees (Quercus suber,Q. ilex, Q. rotundifolia, Q. faginea, and Q. pyrenaica) in association with pastures, and sometimes used for crops and/or fallows. In the Iberian Peninsula and the Mediterranean basin, this traditional system is adapted to the unpredictable Mediterranean climate (Moreno and Cubera, 2008) and the local edapho-climatic conditions, which are frequently dominated by shallow soils with low organic matter (Pinto-Correia, Ribeiro and Potes, 2013). Extensive livestock management (mostly beef cattle, sheep, goats and autochthone pig breeds, in mono or mixed systems) is responsible for the ecological features of this system. At a reduced stocking rate, a balance can be achieved between animal pressure and the territory conservation. Moreover, this ecosystem is critical for biodiversity protection because biodiversity-rich areas occur close to or even dependent on some agricultural activity (Pinho et al., 2018).",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Description of the case study",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "SOC",
+        "habitat_diversity"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c17_dehesa_iberia__p02",
+      "heading_path": [],
+      "text": "Although livestock sector represents ~14.5 percent of all human GHG emissions, it is important to distinguish among the existing livestock farming systems when assessing animal production's climate responsibility. Due to the great capability of agrosilvopastoral grasslands to sequester CO2, pastoral-based production closely represents a carbon (C) neutral system or can even mitigate GHGs (Llorente and Moreno, 2020).",
+      "page_start": 2,
+      "page_end": 2,
+      "topic": "Description of the case study",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c17_dehesa_iberia__p03",
+      "heading_path": [],
+      "text": "This system covers around 4 million hectares in central and south-western Iberian Peninsula and can also be found in other areas around the Mediterranean basin. The climate is typically Mediterranean, with drastic intra- and inter-annual climatic variability. Rainfall, ranging from 400 to 800 mm, concentrates in autumn and winter followed by a long hot and dries summer. The mean annual temperature ranges from 14 to 17°C. This ecosystem is usually found on shallow (< 50 cm) and acid soils originated from siliceous rocks, which are poor in nutrients (Pulido and Picardo, 2010). Adding to this, the Mediterranean climate determines a rapid organic matter (OM) mineralization leading to the loss of SOC (Cordovil, 2004).",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Context of the case study",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "temperature",
+        "rainfall"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v4_c17_dehesa_iberia__p04",
+      "heading_path": [],
+      "text": "In this ecosystem, livestock takes advantage of the forage resources by not only just comprising grassland but also trees, which are also used as a hydrological stress regulator for the underlying herbaceous stratum (Joffre et al., 1999). Trees are used as a feed complement resource for livestock (e.g. acorns and small branches) and host a diversity of bird species and lichens and supply ecosystem services such as C sequestration, soil quality improvement, erosion prevention, nutrient cycling, water and thermal regime regulations, as well as favour soil biota, mycological heritage and biodiversity. Besides, it also offers cultural, landscape and hunting benefits",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Possibility of scaling up",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "SOC",
+        "soil_biota",
+        "habitat_diversity",
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c17_dehesa_iberia__p05",
+      "heading_path": [],
+      "text": "There is still limited data on emissions from extensive livestock grazing systems in different types of grasslands. Thus, amount of compensation by the C sequestration capacity of the system by trees, plant biomass and soil organic matter is not available. Following the “soil saturation\" concept, pasture soils initially poor in OM tend to have higher C sequestration rates than those of soils initially richer in OM (Llorente et al., 2020; Table 68). Also, soil C storage capacity in this system is around 2.8 percent while the current average soil C content in the region is 1.7 percent or less, confirming the ability to capture and store more C in its soils.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Impact on soil organic carbon stocks",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c17_dehesa_iberia__p06",
+      "heading_path": [
+        "Table 68. Evolution of soil organic carbon stocks of the three presented systems"
+      ],
+      "text": "Table 68. Evolution of soil organic carbon stocks of the three presented systems\nLocation\nClimate\nzone\nSoil type\nFAO\n(2015)\nBaseline\nC stock\n(tC/ha)\nAdditional\nC storage\n(tC/ha/yr)\nDuration\n(Years)\nDepth\n(cm)\nMore information\nReference\nSpain\nCambisol,\nLuvisol\n72.0\n0.83\n22\nIn dehesa soils, C\nsequestration seems\nenhanced by the presence\nof cattle; F.\nLlorente et al.\n(2020)\nSardinia,\nItaly\nMedi-\nterranean\nCambisol 42.9\n0.65-1.24 37\n0-20\nValues depend on\nstocking density and\ngrassland management; F.\nFrancaviglia et\nal. (2017)\nPortugal\nSeveral\ntypes\n0.45-\n1.91\n%SOM\n0.71-1.91\n4\nIn montado soils, pasture\nimprovement increases C\nsequestration and drought\nresistance; F. M.\nTeixeira et al.\n(2011)\nCordovil et al.\n(2020)\nF: Field experiment, M: Modelling",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Impact on soil organic carbon stocks",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "temperate",
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "v4_c17_dehesa_iberia__p07",
+      "heading_path": [
+        "6. Other benefits of the practice",
+        "6.1. Improvement of soil properties"
+      ],
+      "text": "This system protects soil erosion, balances water cycle and increases OM input, among other benefits. The presence of trees, as well as extensive livestock management with a proper stocking rate enhances SOM incorporation into the soils, improves biological activity, and contributes to close nutrient's cycles in the system. These benefits are further increased with the use of diverse pastures, where legume species are incorporated.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Improvement of soil properties",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "SOC",
+        "soil_biota",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c17_dehesa_iberia__p08",
+      "heading_path": [
+        "6.2 Minimization of threats to soil functions"
+      ],
+      "text": "Table 69. Soil threats\nSoil threats\nSoil erosion\nTrees and grassland help increase SOM and thereby improve soil structure and\nreduce soil erosion\nNutrient imbalance and\ncycles\nNutrient cycles are closed within the system, e.g. N fixation and OM mineralization.\nSoil contamination /\npollution\nDiffuse manure spreading. SOM increased potential fosters soil buffer capacity.\nSoil acidification\nSoil biodiversity loss\nSoil compaction\nSoil water management\nA good pasture and grassland management will reduce inorganic fertilization need,\nthus potentially reducing the risk of soil acidification from its application.\nThe spread of manure and the activity of ruminants encourages the diversity of\nedaphic microorganisms. Diverse pasture and grassland maintain increased\nbiodiversity.\nLow stocking rate and low cropping/soil tillage. These ideal livestock stocking rate\ndepends on the animal, the climate and the type of soil.\nBetter water cycles balance and water regime. Improves soil structure, water\ninfiltration and water retention through OM build-up.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Minimization of threats to soil functions",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "SOC",
+        "erosion",
+        "nutrient_availability",
+        "soil_biota",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "v4_c17_dehesa_iberia__p09",
+      "heading_path": [
+        "6.4 Mitigation of and adaptation to climate change"
+      ],
+      "text": "In a climate change future scenario, agrosilvopastoral system represents an efficient mitigation and adaptation strategy, because they account for nearly zero balance between C sequestration and CO2 equivalent emission of its animal-derived products. It has been reported that grass-fed cattle tend to generate higher enteric methane emissions than feed-fed cattle (Knapp et al., 2019). These are not sufficiently captured through a single CO2e footprint, indicating a non-significant variation between them under global warming potential (GWP100) where non-grass fed systems generally appear more emissions efficient, and the 100-year global temperature potential (GTP100), grass-fed beef had lower footprints (Lynch, 2019). However, extensive farming represents a relevant decrease in external inputs to the farm. Also, when considering the C sequestration in the agroecosystem linked",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Mitigation of and adaptation to climate change",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c17_dehesa_iberia__p10",
+      "heading_path": [],
+      "text": "to the extensive livestock, carbon footprint of animal production could be close to C neutrality (Llorente et al., 2020).",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Mitigation of and adaptation to climate change",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c17_dehesa_iberia__p11",
+      "heading_path": [
+        "6.5 Socio-economic benefits"
+      ],
+      "text": "The system provides opportunities to engage populations in rural areas through many related activities including sustainable agriculture, forest products, food and feed production, leisure and tourism activities among others. In contrast, intensive farming in similar areas is ending with tourism activities and sustainable agriculture due to the great environmental impact of that kind of farms such as bad smells, flies, or water pollution.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Socio-economic benefits",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c17_dehesa_iberia__p12",
+      "heading_path": [
+        "7. Potential drawbacks to the practice",
+        "7.1 Trade-offs with other soil threats"
+      ],
+      "text": "Table 70. Soil threats\nSoil threats\nSoil erosion\nCorrect livestock stocking rates are important to avoid soil erosion.\nNutrient imbalance and\ncycles\nIncreased biodiversity and SOM promote nutrients cycling\nSoil contamination /\npollution\nIf the manure, or any other input, is contaminated this lead to increase soil\npollution.\nSoil biodiversity loss\nWhen livestock is treated with antibiotics and dewormers the manure could have a\nnegative effect in soil diversity. Stocking rates and grazing management may\naffect negatively.\nSoil compaction\nCorrect livestock stocking rates are important to avoid soil compaction.\nSoil water management\nBetter water infiltration and retention capacity occurs through increasing OM.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Trade-offs with other soil threats",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "SOC",
+        "erosion",
+        "soil_biota",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "v4_c17_dehesa_iberia__p13",
+      "heading_path": [
+        "7.2 Increases in greenhouse gas emissions"
+      ],
+      "text": "Eldesouky et al. (2018) estimated GHG emissions ranging from 1.0 to 1.8 t CO2eq/ha/year for Mediterranean\ngrazing livestock, depending on farm size, management, and intensification. Llorente et al. (2020) estimated\nthat dehesa ecosystem sequesters an average of 3.3 tCO2eq/ha/year taking into account soils, trees and\npasture. Therefore, livestock products derived from Mediterranean savannah-like agroecosystems should be\nconsidered as neutral or even negative.",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "Increases in greenhouse gas emissions",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c17_dehesa_iberia__p14",
+      "heading_path": [
+        "7.3 Conflict with other practice(s) and tools to overcome barriers"
+      ],
+      "text": "The associated extensive livestock production is threatened by low-cost products of intensive farming, thus reducing competitiveness when the market does not pay for quality. Development of labelling systems linking livestock products with its ecosystem services could be a key tool to guarantee the conservation of agrosilvopastoral systems.",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "Conflict with other practice(s) and tools to overcome barriers",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c17_dehesa_iberia__p15",
+      "heading_path": [
+        "7.4 Other conflicts"
+      ],
+      "text": "Abandonment of land, population aging, and depopulation of the Mediterranean basin rural areas have a negative impact on the maintenance of these systems. Young generations show little attraction due to the low level of potential income. Overexploitation of the pastures and the forest and the lack of renewal of the woodland and trees diseases management is accelerating the decline of such systems and compromise their survival and sustainable management.",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "Other conflicts",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c17_dehesa_iberia__p16",
+      "heading_path": [
+        "8. Recommendations before implementing the practice"
+      ],
+      "text": "Climate change impacts are linked to an increased vulnerability of trees to diseases. Oak decline has been occurring across Europe over the past decades due to malpractice, natural causes and uncontrolled diseases. The pseudo fungus oomycete Phytophthora cinnamomisería is thought to be the main cause of holm oak decline (Ruiz Gómez et al., 2019). Platypus cylindrus is an ambrosia beetle known to establish associations with six ambrosia pathogenic fungi, contributing to weaken the trees and leading to trees stand decline. The flathead oak borer Coroebus undatus F. (Coleoptera: Buprestidae) is another of the primary pests of cork oak in the Mediterranean region (Fürstenauet al., 2014). Therefore, an integrated management including the use of biocontrol agents like Trichoderma, and the selection of resistant trees, is important to guarantee the sustainability of this ecosystem.",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "Recommendations before implementing the practice",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c17_dehesa_iberia__p17",
+      "heading_path": [
+        "9. Potential barriers for adoption"
+      ],
+      "text": "Table 71. Potential barriers to adoption\nBarrier\nYES/NO\nCultural\nYes\nPopulation aging, urbanization. Low potential income of the systems\nSocial\nYes\nRural areas abandonment.\nEconomic\nYes\nLittle incentives to maintain the appropriate tree density. Intensive farming\nproducts price to the market. Lack of certification.\nInstitutional\nYes\nNot enough support.\nLegal (Right to\nsoil)\nNo\nHeavy legal constraints to forest management.\nKnowledge\nYes\nMore research is needed related to oaks' pests and diseases, and forest\nmanagement factors that are responsible for forest decline.\nNatural resource\nNo\nWater stress from reduced precipitation driven by climate change impacts,\nincreases trees vulnerability to pests and diseases.\nOther\nYes\nHistorical overexploitation of the systems. Livestock density control and pasture\nmanagement are key factors for the sustainability of this ecosystem.",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "Potential barriers for adoption",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "constraint"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "v4_c17_dehesa_iberia__c01",
+      "passage_id": "v4_c17_dehesa_iberia__p02",
+      "subject": "agrosilvopastoral grasslands",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Due to the great capability of agrosilvopastoral grasslands to sequester CO2, pastoral-based production closely represents a carbon (C) neutral system or can even mitigate GHGs",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c17_dehesa_iberia__c02",
+      "passage_id": "v4_c17_dehesa_iberia__p05",
+      "subject": "pasture soils",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": "soil saturation concept",
+      "conditions": "initially poor in OM",
+      "time_horizon_years": null,
+      "evidence_span": "Following the “soil saturation\" concept, pasture soils initially poor in OM tend to have higher C sequestration rates than those of soils initially richer in OM",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c17_dehesa_iberia__c03",
+      "passage_id": "v4_c17_dehesa_iberia__p05",
+      "subject": "soil C storage capacity",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 2.8,
+      "value_low": null,
+      "value_high": null,
+      "unit": "percent",
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Also, soil C storage capacity in this system is around 2.8 percent while the current average soil C content in the region is 1.7 percent or less, confirming the ability to capture and store more C in its soils.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c17_dehesa_iberia__c04",
+      "passage_id": "v4_c17_dehesa_iberia__p07",
+      "subject": "This system",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "This system protects soil erosion",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c17_dehesa_iberia__c05",
+      "passage_id": "v4_c17_dehesa_iberia__p07",
+      "subject": "This system",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "increases OM input",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c17_dehesa_iberia__c06",
+      "passage_id": "v4_c17_dehesa_iberia__p07",
+      "subject": "This system",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "contributes to close nutrient's cycles in the system",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c17_dehesa_iberia__c07",
+      "passage_id": "v4_c17_dehesa_iberia__p08",
+      "subject": "Trees and grassland",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Trees and grassland help increase SOM",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c17_dehesa_iberia__c08",
+      "passage_id": "v4_c17_dehesa_iberia__p08",
+      "subject": "Trees and grassland",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "and thereby improve soil structure and reduce soil erosion",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c17_dehesa_iberia__c09",
+      "passage_id": "v4_c17_dehesa_iberia__p08",
+      "subject": "Nutrient cycles",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Nutrient cycles are closed within the system, e.g. N fixation and OM mineralization.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c17_dehesa_iberia__c10",
+      "passage_id": "v4_c17_dehesa_iberia__p08",
+      "subject": "Diverse pasture and grassland",
+      "metric": "soil_biota",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Diverse pasture and grassland maintain increased biodiversity.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c17_dehesa_iberia__c11",
+      "passage_id": "v4_c17_dehesa_iberia__p10",
+      "subject": "extensive livestock",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "considering the C sequestration in the agroecosystem linked to the extensive livestock, carbon footprint of animal production could be close to C neutrality",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c17_dehesa_iberia__c12",
+      "passage_id": "v4_c17_dehesa_iberia__p13",
+      "subject": "dehesa ecosystem",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": 3.3,
+      "value_low": null,
+      "value_high": null,
+      "unit": "t_ha",
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "dehesa ecosystem sequesters an average of 3.3 tCO2eq/ha/year taking into account soils, trees and pasture.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c17_dehesa_iberia__c13",
+      "passage_id": "v4_c17_dehesa_iberia__p13",
+      "subject": "livestock products derived from Mediterranean savannah-like agroecosystems",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": null,
+      "value_low": null,
+      "value_high": null,
+      "unit": null,
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Therefore, livestock products derived from Mediterranean savannah-like agroecosystems should be considered as neutral or even negative.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "SOM incorporation",
+      "passage_id": "v4_c17_dehesa_iberia__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "improves soil structure",
+      "passage_id": "v4_c17_dehesa_iberia__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "close nutrient cycles",
+      "passage_id": "v4_c17_dehesa_iberia__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "C sequestration",
+      "passage_id": "v4_c17_dehesa_iberia__p02",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "habitat_diversity",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "host a diversity of bird species and lichens",
+      "passage_id": "v4_c17_dehesa_iberia__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "C sequestration",
+      "passage_id": "v4_c17_dehesa_iberia__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "soil_biota",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "favours soil biota",
+      "passage_id": "v4_c17_dehesa_iberia__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "initially poor in OM",
+      "mechanism": "soil saturation",
+      "passage_id": "v4_c17_dehesa_iberia__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "C sequestration",
+      "passage_id": "v4_c17_dehesa_iberia__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "soil_biota",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "encourages diversity of edaphic microorganisms",
+      "passage_id": "v4_c17_dehesa_iberia__p08",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "OM build-up",
+      "passage_id": "v4_c17_dehesa_iberia__p08",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "C sequestration",
+      "passage_id": "v4_c17_dehesa_iberia__p10",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "pollution_load",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c17_dehesa_iberia__p11",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "soil_biota",
+      "effect": "decrease",
+      "condition": "livestock treated with antibiotics and dewormers",
+      "mechanism": null,
+      "passage_id": "v4_c17_dehesa_iberia__p12",
+      "strength_stated": "weak"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": "correct livestock stocking rates",
+      "mechanism": null,
+      "passage_id": "v4_c17_dehesa_iberia__p12",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "soil_compaction",
+      "effect": "decrease",
+      "condition": "correct livestock stocking rates",
+      "mechanism": null,
+      "passage_id": "v4_c17_dehesa_iberia__p12",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry_agrisilvicultural",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "increasing OM",
+      "passage_id": "v4_c17_dehesa_iberia__p12",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Mediterranean savanna-like agrosilvopastoral grassland system",
+    "system_type": "agrosilvopastoral",
+    "tree_species": [
+      "Quercus suber",
+      "Q. ilex",
+      "Q. rotundifolia",
+      "Q. faginea",
+      "Q. pyrenaica"
+    ],
+    "crop_species": [],
+    "region_of_adoption": [
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "rainfall_mm_low": 400,
+    "rainfall_mm_high": 800,
+    "soil_requirements": "shallow (< 50 cm) and acid soils originated from siliceous rocks, which are poor in nutrients",
+    "establishment_notes": null,
+    "stated_benefits": [
+      "carbon neutrality",
+      "mitigate GHGs",
+      "biodiversity protection",
+      "soil quality improvement",
+      "erosion prevention",
+      "nutrient cycling",
+      "water and thermal regime regulations",
+      "favour soil biota",
+      "favour mycological heritage",
+      "favour biodiversity",
+      "cultural benefits",
+      "landscape benefits",
+      "hunting benefits",
+      "protects soil erosion",
+      "balances water cycle",
+      "increases OM input",
+      "improves biological activity",
+      "close nutrient's cycles",
+      "reduce soil erosion",
+      "close nutrient cycles",
+      "fosters soil buffer capacity",
+      "reduce inorganic fertilization need",
+      "maintain increased biodiversity",
+      "improves soil structure",
+      "water infiltration and water retention",
+      "opportunities to engage populations in rural areas",
+      "sustainable agriculture",
+      "forest products",
+      "food and feed production",
+      "leisure and tourism activities"
+    ],
+    "stated_constraints": [
+      "unpredictable Mediterranean climate",
+      "shallow soils with low organic matter",
+      "rapid organic matter (OM) mineralization leading to the loss of SOC",
+      "threatened by low-cost products of intensive farming",
+      "market does not pay for quality",
+      "abandonment of land",
+      "population aging",
+      "depopulation of the Mediterranean basin rural areas",
+      "low level of potential income",
+      "overexploitation of the pastures and the forest",
+      "lack of renewal of the woodland",
+      "trees diseases management",
+      "vulnerability of trees to diseases",
+      "oak decline",
+      "pseudo fungus oomycete Phytophthora cinnamomisería",
+      "ambrosia beetle",
+      "flathead oak borer",
+      "population aging",
+      "urbanization",
+      "rural areas abandonment",
+      "little incentives to maintain the appropriate tree density",
+      "intensive farming products price to the market",
+      "lack of certification",
+      "not enough support",
+      "heavy legal constraints to forest management",
+      "more research is needed related to oaks' pests and diseases, and forest management factors",
+      "water stress from reduced precipitation driven by climate change impacts",
+      "increases trees vulnerability to pests and diseases",
+      "historical overexploitation of the systems",
+      "livestock density control and pasture management are key factors for the sustainability",
+      "manure could have a negative effect in soil diversity",
+      "stocking rates and grazing management may affect negatively"
+    ]
+  },
+  "_meta": {
+    "unit_id": "v4_c17_dehesa_iberia",
+    "doc_id": "fao2021_recarb_v4",
+    "model": "gemini-2.5-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 210,
+    "pdf_end": 220,
+    "manifest_practices": [
+      "agroforestry_agrosilvopastoral"
+    ],
+    "manifest_climate_zones": [
+      "semi-arid"
+    ],
+    "extracted_at": "2026-09-18T08:31:57Z",
+    "pdf_sha256": "dae8be7bfebffd8f"
+  }
+}

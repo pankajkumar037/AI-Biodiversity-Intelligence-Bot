@@ -1,0 +1,140 @@
+{
+  "extraction_status": "ok",
+  "section_title": "6.3.5 Potential of the integrated response options for addressing food security",
+  "content_type": "assessment",
+  "summary": "This assessment reviews the potential impacts of various land management and value chain response options on global food security, highlighting both positive contributions (e.g., increased productivity, soil management) and potential negative trade-offs (e.g., afforestation, bioenergy production).",
+  "passages": [
+    {
+      "passage_id": "srccl_ch6_interlinkages__w04__p01",
+      "heading_path": [
+        "6.3.5 Potential of the integrated response options for addressing food security",
+        "6.3.5.1 Integrated response options based on land management",
+        "Integrated response options based on land management in agriculture"
+      ],
+      "text": "Increased food productivity has fed many millions of people who would otherwise not have been fed. Erisman et al. (2008) estimated that more than 3 billion people worldwide could not have been fed without increased food productivity arising from nitrogen fertilisation (Table 6.45).",
+      "page_start": 9,
+      "page_end": 9,
+      "topic": "food security",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w04__p02",
+      "heading_path": [
+        "6.3.5 Potential of the integrated response options for addressing food security",
+        "6.3.5.1 Integrated response options based on land management",
+        "Integrated response options based on land management in agriculture"
+      ],
+      "text": "Improved cropland management to achieve food security aims at closing yield gaps by increasing use efficiency of essential inputs such as water and nutrients. Large production increases (45–70% for most crops) are possible from closing yield gaps to 100% of attainable yield, by increasing fertiliser use and irrigation, but overuse of nutrients could cause adverse environmental impacts (Mueller et al. 2012). This improvement can impact on 1000 million people.",
+      "page_start": 9,
+      "page_end": 9,
+      "topic": "food security",
+      "practices": [
+        "integrated_nutrient_mgmt",
+        "irrigation"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w04__p03",
+      "heading_path": [
+        "6.3.5 Potential of the integrated response options for addressing food security",
+        "6.3.5.1 Integrated response options based on land management",
+        "Integrated response options based on land management in agriculture"
+      ],
+      "text": "Afforestation and reforestation negatively impact on food security (Boysen et al. 2017a; Frank et al. 2017; Kreidenweis et al. 2016). It is estimated that large-scale afforestation plans could cause increases in food prices of 80% by 2050 (Kreidenweis et al. 2016), and more general mitigation measures in the agriculture, forestry and other land-use (AFOLU) sector can translate into a rise in undernourishment of 80–300 million people (Frank et al. 2017) (Table 6.16).",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "food security",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "risk"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch6_interlinkages__w04__c01",
+      "passage_id": "srccl_ch6_interlinkages__w04__p01",
+      "subject": "increased food productivity",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 3000000000,
+      "unit": "count",
+      "basis": "people fed",
+      "evidence_span": "Erisman et al. (2008) estimated that more than 3 billion people worldwide could not have been fed without increased food productivity arising from nitrogen fertilisation",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w04__c02",
+      "passage_id": "srccl_ch6_interlinkages__w04__p03",
+      "subject": "large-scale afforestation",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 80,
+      "unit": "percent",
+      "basis": "food prices",
+      "conditions": "by 2050",
+      "evidence_span": "It is estimated that large-scale afforestation plans could cause increases in food prices of 80% by 2050",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "nitrogen fertilisation",
+      "to_node": "food security",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w04__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "afforestation",
+      "to_node": "food security",
+      "effect": "decrease",
+      "passage_id": "srccl_ch6_interlinkages__w04__p03",
+      "strength_stated": "unstated"
+    }
+  ],
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w04",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 605,
+    "pdf_end": 616,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:53:11Z",
+    "pdf_sha256": "b29c9b1504b67390"
+  }
+}

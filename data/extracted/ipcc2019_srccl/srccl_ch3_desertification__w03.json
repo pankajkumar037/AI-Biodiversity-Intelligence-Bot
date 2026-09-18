@@ -1,0 +1,366 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Desertification",
+  "content_type": "assessment",
+  "summary": "This assessment covers rangeland management, bush encroachment, sand dune stabilisation, halophyte use for saline land, and policy responses to desertification and drought, including socio-economic and technological interventions.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch3_desertification__w03__p01",
+      "heading_path": [
+        "Chapter 3",
+        "Desertification"
+      ],
+      "text": "The utilisation of the grass sward through light to moderate grazing stimulates the growth of biomass and basal cover, and allows water services to be sustained over time. Even moderate to heavy grazing in periods of higher rainfall may be sustainable, but constant heavy grazing during dry periods, and especially droughts, can lead to a reduction in basal cover, SOC, biological soil crusts, ecosystem services and an accelerated erosion.",
+      "page_start": 282,
+      "page_end": 282,
+      "topic": "Grazing management",
+      "practices": [],
+      "metrics": [
+        "biomass",
+        "soil_organic_matter",
+        "SOC",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w03__p02",
+      "heading_path": [
+        "Chapter 3",
+        "Desertification",
+        "3.6.1.3 Clearance of bush encroachment"
+      ],
+      "text": "The encroachment of open grassland and savannah ecosystems by woody species has occurred for at least the past 100 years. Dependent on the type and intensity of encroachment, it may lead to a net loss of ecosystem services and be viewed as a form of desertification. However, there are circumstances where bush encroachment may lead to a net increase in ecosystem services, especially at intermediate levels of encroachment, where the ability of the landscape to produce fodder for livestock is retained, while the production of wood and associated products increases.",
+      "page_start": 282,
+      "page_end": 282,
+      "topic": "Bush encroachment",
+      "practices": [],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w03__p03",
+      "heading_path": [
+        "Chapter 3",
+        "Desertification",
+        "3.6.1.4 Combating sand and dust storms through sand dune stabilisation"
+      ],
+      "text": "Application of sand dune stabilisation techniques contributes to reducing sand and dust storms (high confidence). Biological methods include the use of mulch to stabilise surfaces and establishing permanent plant cover using pasture species that improve grazing at the same time. When the dune is stabilised, woody perennials are introduced that are selected according to climatic and ecological conditions.",
+      "page_start": 283,
+      "page_end": 283,
+      "topic": "Sand dune stabilisation",
+      "practices": [
+        "mulching"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w03__p04",
+      "heading_path": [
+        "Chapter 3",
+        "Desertification",
+        "3.6.1.5 Use of halophytes for the re-vegetation of saline lands"
+      ],
+      "text": "Soil salinity and sodicity can severely limit the growth and productivity of crops and lead to a decrease in available arable land. An alternative, more economical option, is the growth of halophytes (plants that are adapted to grow under highly saline conditions) that allow saline land to be used in a productive manner. The biomass produced can be used as forage, food, feed, essential oils, biofuel, timber, or fuelwood. A further co-benefit is the opportunity to mitigate climate change through the enhancement of terrestrial carbon stocks as land is re-vegetated.",
+      "page_start": 283,
+      "page_end": 283,
+      "topic": "Halophytes",
+      "practices": [],
+      "metrics": [
+        "salinity",
+        "biomass",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w03__p05",
+      "heading_path": [
+        "Chapter 3",
+        "Desertification",
+        "3.6.2 Socio-economic responses"
+      ],
+      "text": "Combined use of indigenous and local knowledge and new SLM technologies can contribute to raising resilience to the challenges of climate change and desertification (high confidence).",
+      "page_start": 284,
+      "page_end": 284,
+      "topic": "Indigenous knowledge",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w03__p06",
+      "heading_path": [
+        "Chapter 3",
+        "Desertification",
+        "3.6.2.2 Socio-economic responses for economic diversification"
+      ],
+      "text": "Livelihood diversification through non-farm employment increases the resilience of rural households against desertification and extreme weather events by diversifying their income and consumption (high confidence). Moreover, it can provide the funds to invest into SLM.",
+      "page_start": 285,
+      "page_end": 285,
+      "topic": "Livelihood diversification",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w03__p07",
+      "heading_path": [
+        "Chapter 3",
+        "Desertification",
+        "3.6.3 Policy responses"
+      ],
+      "text": "Globally, it was shown that every USD invested into restoring degraded lands yields social returns, including both provisioning and non-provisioning ecosystem services, in the range of 3–6 USD over a 30-year period (medium confidence).",
+      "page_start": 285,
+      "page_end": 285,
+      "topic": "Economic returns of restoration",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w03__p08",
+      "heading_path": [
+        "Chapter 3",
+        "Desertification",
+        "3.6.3.1 Policy responses towards combating desertification under climate change"
+      ],
+      "text": "Strengthening land tenure security is a major factor contributing to the adoption of soil conservation measures in croplands (high confidence), thus contributing to climate change adaptation and mitigation. Moreover, land tenure security can lead to more investment in trees.",
+      "page_start": 286,
+      "page_end": 286,
+      "topic": "Land tenure",
+      "practices": [],
+      "metrics": [
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch3_desertification__w03__p09",
+      "heading_path": [
+        "Chapter 3",
+        "Desertification",
+        "3.7.1.2 No-till practices for reducing soil erosion in central Chile"
+      ],
+      "text": "No-till, in conjunction with the adoption of strategic cover crops, has positively impacted soil biology with increases in soil organic matter. Early evaluations by Crovetto (1998) showed that no-till application (after seven years) had doubled the biological activity indicators compared to traditional farming and even surpassed those found in pasture (grown for the previous 15 years). Besides erosion control, additional benefits are an increase of water-holding capacity and reduction in bulk density.",
+      "page_start": 292,
+      "page_end": 292,
+      "topic": "No-till practices",
+      "practices": [
+        "no_till",
+        "cover_crops"
+      ],
+      "metrics": [
+        "soil_biota",
+        "soil_organic_matter",
+        "erosion",
+        "water_holding_capacity",
+        "bulk_density"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch3_desertification__w03__c01",
+      "passage_id": "srccl_ch3_desertification__w03__p01",
+      "subject": "constant heavy grazing during dry periods",
+      "metric": "erosion",
+      "direction": "increase",
+      "basis": "high confidence, robust evidence",
+      "conditions": "dry periods, droughts",
+      "evidence_span": "constant heavy grazing during dry periods, and especially droughts, can lead to a reduction in basal cover, SOC, biological soil crusts, ecosystem services and an accelerated erosion (high agreement, robust evidence)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w03__c02",
+      "passage_id": "srccl_ch3_desertification__w03__p03",
+      "subject": "sand dune stabilisation techniques",
+      "metric": "erosion",
+      "direction": "decrease",
+      "basis": "high confidence",
+      "evidence_span": "Application of sand dune stabilisation techniques contributes to reducing sand and dust storms (high confidence).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w03__c03",
+      "passage_id": "srccl_ch3_desertification__w03__p07",
+      "subject": "investment in restoring degraded lands",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "value": 3.0,
+      "value_low": 3.0,
+      "value_high": 6.0,
+      "unit": "ratio",
+      "basis": "medium confidence",
+      "conditions": "30-year period",
+      "time_horizon_years": 30.0,
+      "evidence_span": "Globally, it was shown that every USD invested into restoring degraded lands yields social returns, including both provisioning and non-provisioning ecosystem services, in the range of 3–6 USD over a 30-year period (medium confidence).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w03__c04",
+      "passage_id": "srccl_ch3_desertification__w03__p09",
+      "subject": "no-till application",
+      "metric": "soil_biota",
+      "direction": "increase",
+      "value": 2.0,
+      "unit": "ratio",
+      "conditions": "after seven years",
+      "time_horizon_years": 7.0,
+      "evidence_span": "Early evaluations by Crovetto, (1998) showed that no-till application (after seven years) had doubled the biological activity indicators compared to traditional farming",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w03__c05",
+      "passage_id": "srccl_ch3_desertification__w03__p09",
+      "subject": "no-till application",
+      "metric": "water_holding_capacity",
+      "direction": "increase",
+      "evidence_span": "Besides erosion control, additional benefits are an increase of water-holding capacity and reduction in bulk density.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch3_desertification__w03__c06",
+      "passage_id": "srccl_ch3_desertification__w03__p09",
+      "subject": "no-till application",
+      "metric": "bulk_density",
+      "direction": "decrease",
+      "evidence_span": "Besides erosion control, additional benefits are an increase of water-holding capacity and reduction in bulk density.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "constant heavy grazing",
+      "to_node": "erosion",
+      "effect": "increase",
+      "condition": "dry periods, droughts",
+      "passage_id": "srccl_ch3_desertification__w03__p01",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "sand dune stabilisation",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "passage_id": "srccl_ch3_desertification__w03__p03",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "halophytes",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "passage_id": "srccl_ch3_desertification__w03__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "non-farm employment",
+      "to_node": "resilience",
+      "effect": "increase",
+      "passage_id": "srccl_ch3_desertification__w03__p06",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "land tenure security",
+      "to_node": "soil conservation measures",
+      "effect": "increase",
+      "passage_id": "srccl_ch3_desertification__w03__p08",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "no-till",
+      "to_node": "soil_biota",
+      "effect": "increase",
+      "condition": "after seven years",
+      "passage_id": "srccl_ch3_desertification__w03__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "no-till",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "passage_id": "srccl_ch3_desertification__w03__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "no-till",
+      "to_node": "bulk_density",
+      "effect": "decrease",
+      "passage_id": "srccl_ch3_desertification__w03__p09",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch3_desertification__w03",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 292,
+    "pdf_end": 303,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:06:53Z",
+    "pdf_sha256": "adeb36f3432db5f8"
+  }
+}

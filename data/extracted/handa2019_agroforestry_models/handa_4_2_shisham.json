@@ -1,0 +1,186 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4.2. Agroforestry Model: Shisham based Agri-silvicultural and Silvi-pastoral System",
+  "content_type": "model",
+  "summary": "This document describes the Shisham (Dalbergia sissoo) based agri-silvicultural and silvi-pastoral agroforestry model, including its propagation, management, and economic benefits in the Bundelkhand region and other arid/semi-arid areas of India.",
+  "passages": [
+    {
+      "passage_id": "handa_4_2_shisham__p01",
+      "heading_path": [
+        "4.2. Agroforestry Model: Shisham based Agri-silvicultural and Silvi-pastoral System"
+      ],
+      "text": "Area of adoption: Bundelkhand region of Uttar Pradesh and Madhya Pradesh and other arid and semi-arid region of the country",
+      "page_start": 1,
+      "page_end": 1,
+      "topic": "Area of adoption",
+      "practices": [
+        "agroforestry_agrisilvicultural",
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "cropland",
+        "integrated_system"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "handa_4_2_shisham__p02",
+      "heading_path": [
+        "4.2. Agroforestry Model: Shisham based Agri-silvicultural and Silvi-pastoral System",
+        "Yield/Annual Returns and Economics"
+      ],
+      "text": "The overall net income per year with Shisham+Paddy+Wheat based agri-silvicultural system rose from Rs 7500 to Rs11,000 after 7 years of plantation under irrigated conditions. The overall net income pee year with Shisham+Nappier based silvi-pastoral system rose from Rs 35,000 to Rs 50,000 after 11 years of plantation under irrigated conditions.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Economics",
+      "practices": [
+        "agroforestry_agrisilvicultural",
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "handa_4_2_shisham__p03",
+      "heading_path": [
+        "4.2. Agroforestry Model: Shisham based Agri-silvicultural and Silvi-pastoral System",
+        "Benefits Accrued to Farmers/Public"
+      ],
+      "text": "Shisham based plantation helps farmers to get higher and regular returns on their investment. Industries have fast access to raw materials. Shisham plantation improves soil sodicity as well as soil fertility. It also checks soil erosion. It also fulfills the fodder requirement for livestock in the region (Tewari et al. 2013). This system has a positive impact on conservation of soil and water, restoration of soil organic matter and livelihood support to the farmers in arid and semi-arid region of central India.",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "Benefits",
+      "practices": [
+        "agroforestry_agrisilvicultural",
+        "agroforestry_silvopastoral"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "erosion",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "description"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "handa_4_2_shisham__c01",
+      "passage_id": "handa_4_2_shisham__p02",
+      "subject": "Shisham+Paddy+Wheat based agri-silvicultural system",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 11000,
+      "unit": "none",
+      "basis": "net income per year",
+      "conditions": "irrigated conditions, 7 years of plantation",
+      "time_horizon_years": 7,
+      "evidence_span": "The overall net income per year with Shisham+Paddy+Wheat based agri-silvicultural system rose from Rs 7500 to Rs11,000 after 7 years of plantation under irrigated conditions.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "handa_4_2_shisham__c02",
+      "passage_id": "handa_4_2_shisham__p02",
+      "subject": "Shisham+Nappier based silvi-pastoral system",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 50000,
+      "unit": "none",
+      "basis": "net income per year",
+      "conditions": "irrigated conditions, 11 years of plantation",
+      "time_horizon_years": 11,
+      "evidence_span": "The overall net income pee year with Shisham+Nappier based silvi-pastoral system rose from Rs 35,000 to Rs 50,000 after 11 years of plantation under irrigated conditions.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "Shisham based plantation",
+      "to_node": "soil fertility",
+      "effect": "increase",
+      "condition": null,
+      "passage_id": "handa_4_2_shisham__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "Shisham based plantation",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "passage_id": "handa_4_2_shisham__p03",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": {
+    "system_name": "Shisham based Agri-silvicultural and Silvi-pastoral System",
+    "tree_species": [
+      "Dalbergia sissoo"
+    ],
+    "crop_species": [
+      "Wheat",
+      "mustard",
+      "barley",
+      "lentil",
+      "green gram",
+      "black gram",
+      "sesame",
+      "Napier hybrid grass"
+    ],
+    "region_of_adoption": [
+      "Bundelkhand region of Uttar Pradesh and Madhya Pradesh",
+      "arid and semi-arid region of India"
+    ],
+    "stated_benefits": [
+      "higher and regular returns on investment",
+      "fast access to raw materials for industries",
+      "improves soil sodicity",
+      "improves soil fertility",
+      "checks soil erosion",
+      "fulfills fodder requirement for livestock",
+      "conservation of soil and water",
+      "restoration of soil organic matter",
+      "livelihood support"
+    ],
+    "stated_constraints": [
+      "susceptible to collar/root rot",
+      "susceptible to leaf blight",
+      "susceptible to powdery mildew",
+      "susceptible to rust disease",
+      "attacked by insects such as leaf miners, defoliators and stem borers"
+    ]
+  },
+  "_meta": {
+    "unit_id": "handa_4_2_shisham",
+    "doc_id": "handa2019_agroforestry_models",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 44,
+    "pdf_end": 49,
+    "manifest_practices": [],
+    "manifest_climate_zones": [
+      "semi-arid"
+    ],
+    "extracted_at": "2026-09-18T08:59:20Z",
+    "pdf_sha256": "d368dede5e1e57ff"
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Associated biodiversity for pollination",
+  "content_type": "assessment",
+  "summary": "This assessment reviews the status and trends of associated biodiversity for pollination, highlighting the dependence of global crop production on animal pollinators, the decline of pollinator populations in various regions, and the complex relationships between landscape characteristics, management practices, and pollination services.",
+  "passages": [
+    {
+      "passage_id": "sowbfa_pollination__p01",
+      "heading_path": [
+        "4.3.4 Associated biodiversity for pollination",
+        "Introduction"
+      ],
+      "text": "Nearly 90 percent of all flowering-plant species, including the vast majority of those in tropical forests, savannah woodlands, mangroves and temperate deciduous forests, depend, to some degree, on animal pollination. Thirty-five percent of the world’s total crop production by volume comes from species that are, at least in part, pollinated by animals. Levels of pollinator dependence vary significantly among crops, with the highest levels found mainly in fruits, vegetables and nuts.",
+      "page_start": 129,
+      "page_end": 129,
+      "topic": "pollination dependence",
+      "practices": [],
+      "metrics": [
+        "species_richness",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "tropical",
+        "temperate"
+      ],
+      "land_use": [
+        "cropland",
+        "forest"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "sowbfa_pollination__p02",
+      "heading_path": [
+        "4.3.4 Associated biodiversity for pollination",
+        "Status and trends",
+        "Status and trends of pollinators"
+      ],
+      "text": "Data from FAO’s statistical database, FAOSTAT, show that the number of managed western honey-bee hives is increasing globally. In 1961, countries reported fewer than 50 million hives. In 2016, they reported more than 90.5 million hives, producing nearly 1.8 million tonnes of honey annually.",
+      "page_start": 132,
+      "page_end": 132,
+      "topic": "managed honey-bee trends",
+      "practices": [],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "sowbfa_pollination__p03",
+      "heading_path": [
+        "4.3.4 Associated biodiversity for pollination",
+        "Status and trends",
+        "Status and trends of pollinators"
+      ],
+      "text": "With regard to wild pollinators, IPBES (2016a) concludes that they “have declined in occurrence and diversity (and abundance for certain species) at local and regional scales in North West Europe and North America” and notes that while a lack of data precludes general statements about other regions, local declines have been recorded.",
+      "page_start": 132,
+      "page_end": 132,
+      "topic": "wild pollinator trends",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "sowbfa_pollination__p04",
+      "heading_path": [
+        "4.3.4 Associated biodiversity for pollination",
+        "Status and trends",
+        "Status and trends of pollinator-dependent crops"
+      ],
+      "text": "Many studies at local scales show that crop production is higher in fields with diverse and abundant pollinator communities than in fields with less-diverse pollinator communities. Pollinator density and diversity depend, in turn, on the characteristics of the local environment (e.g. the quality and quantity of food and nesting resources) and on management practices in agriculture.",
+      "page_start": 134,
+      "page_end": 134,
+      "topic": "pollinator diversity and crop production",
+      "practices": [],
+      "metrics": [
+        "species_richness",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_pollination__p05",
+      "heading_path": [
+        "4.3.4 Associated biodiversity for pollination",
+        "Status and trends",
+        "Status and trends of pollination"
+      ],
+      "text": "Many countries identify the use of pesticides, human-induced habitat loss and fragmentation and climate change as major causes of declines in pollinator abundance across production systems.",
+      "page_start": 134,
+      "page_end": 134,
+      "topic": "drivers of pollinator decline",
+      "practices": [],
+      "metrics": [
+        "species_richness",
+        "fragmentation"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_pollination__p06",
+      "heading_path": [
+        "4.3.4 Associated biodiversity for pollination",
+        "Status and trends",
+        "Status and trends of pollination"
+      ],
+      "text": "Several European countries mention that the establishment of flower strips in and around fields (incentivized through agri-environmental schemes) may have led to an increase in the number of pollinators in surrounding areas.",
+      "page_start": 134,
+      "page_end": 134,
+      "topic": "flower strips and pollinator abundance",
+      "practices": [
+        "hedges_buffer_strips"
+      ],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "sowbfa_pollination__p07",
+      "heading_path": [
+        "4.3.4 Associated biodiversity for pollination",
+        "Status and trends",
+        "Status and trends of pollination"
+      ],
+      "text": "Norway notes that the gradual abandonment of extensive grazing is leading to the disappearance of habitats that benefit pollinators. Conversely, Argentina reports that overgrazing in grassland systems is reducing pollinator habitat.",
+      "page_start": 134,
+      "page_end": 134,
+      "topic": "grazing management and pollinator habitat",
+      "practices": [
+        "rotational_grazing"
+      ],
+      "metrics": [
+        "habitat_diversity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_pollination__p08",
+      "heading_path": [
+        "4.3.5 Associated biodiversity for pest and disease regulation"
+      ],
+      "text": "Generally speaking, however, so-called functional redundancy is considered likely to increase the resilience of pest-control services by reducing the risk that all BCAs for a particular pest will be lost (e.g. because of climate change). An increase in the abundance and species richness of BCAs can sometimes lead to antagonistic relationships such as superpredation (predation of predators) and hyperparasitoidism (parasitoidism of parasitoids).",
+      "page_start": 135,
+      "page_end": 135,
+      "topic": "BCA functional redundancy and antagonistic relationships",
+      "practices": [],
+      "metrics": [
+        "species_richness",
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "sowbfa_pollination__c01",
+      "passage_id": "sowbfa_pollination__p04",
+      "subject": "diverse and abundant pollinator communities",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "evidence_span": "many studies at local scales show that crop production is higher in fields with diverse and abundant pollinator communities than in fields with less-diverse pollinator communities",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_pollination__c02",
+      "passage_id": "sowbfa_pollination__p06",
+      "subject": "establishment of flower strips",
+      "metric": "species_richness",
+      "direction": "increase",
+      "evidence_span": "establishment of flower strips in and around fields (incentivized through agri-environmental schemes) may have led to an increase in the number of pollinators in surrounding areas.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_pollination__c03",
+      "passage_id": "sowbfa_pollination__p07",
+      "subject": "overgrazing",
+      "metric": "habitat_diversity",
+      "direction": "decrease",
+      "evidence_span": "Argentina reports that overgrazing in grassland systems is reducing pollinator habitat.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "pollinator community diversity",
+      "to_node": "crop production",
+      "effect": "increase",
+      "condition": "local scale",
+      "mechanism": "pollination services",
+      "passage_id": "sowbfa_pollination__p04",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "flower strips",
+      "to_node": "pollinator abundance",
+      "effect": "increase",
+      "condition": "surrounding areas",
+      "mechanism": "habitat provision",
+      "passage_id": "sowbfa_pollination__p06",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "overgrazing",
+      "to_node": "pollinator habitat",
+      "effect": "decrease",
+      "condition": "grassland systems",
+      "mechanism": "habitat degradation",
+      "passage_id": "sowbfa_pollination__p07",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "BCA abundance and species richness",
+      "to_node": "pest-control services",
+      "effect": "mixed",
+      "condition": "complex landscapes",
+      "mechanism": "antagonistic relationships (superpredation/hyperparasitoidism)",
+      "passage_id": "sowbfa_pollination__p08",
+      "strength_stated": "moderate"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "sowbfa_pollination",
+    "doc_id": "fao2019_sowbfa",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 173,
+    "pdf_end": 179,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T10:55:36Z",
+    "pdf_sha256": "82887b7c8695ac80",
+    "prompt_type": "assessment"
+  }
+}

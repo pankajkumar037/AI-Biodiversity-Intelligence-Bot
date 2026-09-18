@@ -1,0 +1,336 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes",
+  "content_type": "assessment",
+  "summary": "This unit provides an assessment of integrated response options for land management, including agriculture, forestry, soil, and other ecosystems, and their interlinkages with climate change, food security, and land degradation. It also includes future scenario projections for these challenges.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch6_interlinkages__w01__p01",
+      "heading_path": [
+        "6.1.4 Challenges represented in future scenarios",
+        "Desertification"
+      ],
+      "text": "The combination of climate and land-use changes can lead to decreases in soil cover in drylands. Population living in drylands is expected to increase by 43% in the SSP2-Baseline, due to both population increases and an expansion of dryland area.",
+      "page_start": 564,
+      "page_end": 564,
+      "topic": "desertification",
+      "practices": [],
+      "metrics": [
+        "rainfall"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w01__p02",
+      "heading_path": [
+        "6.1.4 Challenges represented in future scenarios",
+        "Land degradation"
+      ],
+      "text": "Future changes in land use and climate have implications for land degradation, including impacts on soil erosion, vegetation, fire, and coastal erosion. For example, soil organic carbon is expected to decline by 99 GtCO2e in 2050 in an SSP2-Baseline scenario, due to both land management and expansion in agricultural area.",
+      "page_start": 564,
+      "page_end": 564,
+      "topic": "land degradation",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "erosion",
+        "biomass"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w01__p03",
+      "heading_path": [
+        "6.2 Response options, co-benefits and adverse side effects across the land challenges"
+      ],
+      "text": "Improved cropland management can reduce GHG emissions and create soil carbon sinks, though if poorly implemented, it could increase nitrous oxide and methane emissions from nitrogen fertilisers, crop residues and organic amendments. It can improve resilience of food crop production systems to climate change, and can be used to tackle desertification and land degradation by improving sustainable land management. It can also contribute to food security by closing crop yield gaps to increase food productivity.",
+      "page_start": 569,
+      "page_end": 569,
+      "topic": "improved cropland management",
+      "practices": [
+        "integrated_nutrient_mgmt",
+        "no_till",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "SOC",
+        "crop_yield",
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w01__p04",
+      "heading_path": [
+        "6.2 Response options, co-benefits and adverse side effects across the land challenges"
+      ],
+      "text": "Improved grazing land management can increase soil carbon sinks, reduce GHG emissions, improve the resilience of grazing lands to future climate change, help reduce desertification and land degradation by optimising stocking density and reducing overgrazing, and can enhance food security through improved productivity.",
+      "page_start": 570,
+      "page_end": 570,
+      "topic": "improved grazing land management",
+      "practices": [
+        "rotational_grazing"
+      ],
+      "metrics": [
+        "SOC",
+        "biomass",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland",
+        "rangeland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w01__p05",
+      "heading_path": [
+        "6.2 Response options, co-benefits and adverse side effects across the land challenges"
+      ],
+      "text": "Agroforestry sequesters carbon in vegetation and soils. The use of leguminous trees can enhance biological nitrogen fixation and resilience to climate change. Soil improvement and the provision of perennial vegetation can help to address desertification and land degradation. Agroforestry can increase agricultural productivity, with benefits for food security.",
+      "page_start": 570,
+      "page_end": 570,
+      "topic": "agroforestry",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "SOC",
+        "nitrogen",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "integrated_system"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w01__p06",
+      "heading_path": [
+        "6.2 Response options, co-benefits and adverse side effects across the land challenges"
+      ],
+      "text": "Grasslands can be converted to croplands by ploughing of grassland and seeding with crops. Since croplands have a lower soil carbon content than grasslands and are also more prone to erosion than grasslands, reducing conversion of grassland to croplands will prevent soil carbon losses by oxidation and soil loss through erosion.",
+      "page_start": 570,
+      "page_end": 570,
+      "topic": "reduced grassland conversion to cropland",
+      "practices": [
+        "grassland_restoration"
+      ],
+      "metrics": [
+        "SOC",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "grassland",
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w01__p07",
+      "heading_path": [
+        "6.2 Response options, co-benefits and adverse side effects across the land challenges"
+      ],
+      "text": "Increasing soil carbon stocks removes CO2 from the atmosphere and increases the water-holding capacity of the soil, thereby conferring resilience to climate change and enhancing adaptation capacity. It is a key strategy for addressing both desertification and land degradation.",
+      "page_start": 572,
+      "page_end": 572,
+      "topic": "increased soil organic carbon content",
+      "practices": [
+        "integrated_nutrient_mgmt",
+        "no_till",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "SOC",
+        "water_holding_capacity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland",
+        "forest"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w01__p08",
+      "heading_path": [
+        "6.2 Response options, co-benefits and adverse side effects across the land challenges"
+      ],
+      "text": "Reduced soil erosion has benefits for adaptation as it reduces vulnerability of soils to loss under climate extremes, increasing resilience to climate change. Some management practices implemented to control erosion, such as increasing ground cover, can reduce the vulnerability of soils to degradation/landslides, and prevention of soil erosion is a key measure used to tackle desertification.",
+      "page_start": 572,
+      "page_end": 572,
+      "topic": "reduced soil erosion",
+      "practices": [
+        "no_till",
+        "reduced_tillage",
+        "terracing"
+      ],
+      "metrics": [
+        "erosion",
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch6_interlinkages__w01__c01",
+      "passage_id": "srccl_ch6_interlinkages__w01__p01",
+      "subject": "population in drylands",
+      "metric": "rainfall",
+      "direction": "increase",
+      "value": 43,
+      "unit": "percent",
+      "conditions": "SSP2-Baseline",
+      "evidence_span": "Population living in drylands is expected to increase by 43% in the SSP2-Baseline, due to both population increases and an expansion of dryland area.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w01__c02",
+      "passage_id": "srccl_ch6_interlinkages__w01__p02",
+      "subject": "soil organic carbon",
+      "metric": "SOC",
+      "direction": "decrease",
+      "value": 99,
+      "unit": "t_ha",
+      "conditions": "SSP2-Baseline, 2050",
+      "evidence_span": "soil organic carbon is expected to decline by 99 GtCO2e in 2050 in an SSP2-Baseline scenario",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w01__c03",
+      "passage_id": "srccl_ch6_interlinkages__w01__p03",
+      "subject": "improved cropland management",
+      "metric": "SOC",
+      "direction": "increase",
+      "evidence_span": "Improved cropland management can reduce GHG emissions and create soil carbon sinks",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w01__c04",
+      "passage_id": "srccl_ch6_interlinkages__w01__p04",
+      "subject": "improved grazing land management",
+      "metric": "SOC",
+      "direction": "increase",
+      "evidence_span": "Improved grazing land management can increase soil carbon sinks",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w01__c05",
+      "passage_id": "srccl_ch6_interlinkages__w01__p05",
+      "subject": "agroforestry",
+      "metric": "SOC",
+      "direction": "increase",
+      "evidence_span": "Agroforestry sequesters carbon in vegetation and soils.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w01__c06",
+      "passage_id": "srccl_ch6_interlinkages__w01__p06",
+      "subject": "grassland conversion to cropland",
+      "metric": "SOC",
+      "direction": "decrease",
+      "evidence_span": "Since croplands have a lower soil carbon content than grasslands and are also more prone to erosion than grasslands, reducing conversion of grassland to croplands will prevent soil carbon losses by oxidation and soil loss through erosion.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w01__c07",
+      "passage_id": "srccl_ch6_interlinkages__w01__p07",
+      "subject": "soil organic carbon",
+      "metric": "water_holding_capacity",
+      "direction": "increase",
+      "evidence_span": "Increasing soil carbon stocks removes CO2 from the atmosphere and increases the water-holding capacity of the soil",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "improved cropland management",
+      "to_node": "SOC",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w01__p03",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "improved grazing land management",
+      "to_node": "SOC",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w01__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "agroforestry",
+      "to_node": "SOC",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w01__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "grassland conversion to cropland",
+      "to_node": "SOC",
+      "effect": "decrease",
+      "passage_id": "srccl_ch6_interlinkages__w01__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "SOC",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w01__p07",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w01",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 572,
+    "pdf_end": 583,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:10:44Z",
+    "pdf_sha256": "4e31151945b99892"
+  }
+}

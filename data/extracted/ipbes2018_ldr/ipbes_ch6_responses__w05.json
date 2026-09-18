@@ -1,0 +1,230 @@
+{
+  "extraction_status": "ok",
+  "section_title": "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+  "content_type": "assessment",
+  "summary": "This unit reviews various responses to land degradation, including protected areas, climate change adaptation planning, integrated landscape approaches, and institutional reforms. It highlights the importance of adaptive management, stakeholder engagement, and the integration of indigenous and local knowledge in land management strategies.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch6_responses__w05__p01",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Protected area effectiveness correlates with basic management activities such as enforcement, boundary demarcation and direct compensation for local communities – suggesting that even modest increases in funding would directly increase the ability of designated parks to protect tropical biodiversity.",
+      "page_start": 490,
+      "page_end": 490,
+      "topic": "protected areas",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w05__p02",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "In Dana Reserve, Jordan, degradation has been partially reversed by agreeing with local farmers and herders to reduce stocking density of goats by 50% and providing alternative livelihood options through ecotourism and craft development.",
+      "page_start": 490,
+      "page_end": 490,
+      "topic": "land degradation reversal",
+      "practices": [
+        "rotational_grazing"
+      ],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "rangeland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w05__p03",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "6.4.2.6 Climate change adaptation planning"
+      ],
+      "text": "In a survey of 127 agro-pastoralist households in Kenya, Speranza et al. (2010) found that poverty limited any responses related to markets, while lack of skills limited adaptation capacity to droughts and climate change. They conclude that building adaptive capacity through extension services, maintaining infrastructure and embedding indigenous knowledge in adaptation plans would be effective adaptation measures for agro-pastoral communities.",
+      "page_start": 491,
+      "page_end": 491,
+      "topic": "climate change adaptation",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "integrated_system"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w05__p04",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "6.4.3 Integrated landscape approach as a response"
+      ],
+      "text": "Many jurisdictions have found that biodiversity conservation, sustainable resource management and the restoration of degraded habitats are best accomplished using a landscape-based approach. Pressures on the landscape and natural resources continue to grow due to increased population levels, urbanization and intensification of agriculture.",
+      "page_start": 492,
+      "page_end": 492,
+      "topic": "integrated landscape approach",
+      "practices": [],
+      "metrics": [
+        "habitat_diversity"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w05__p05",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Box 6 11 Restoration of Xingu watershed in the Amazon."
+      ],
+      "text": "For forest restoration, direct seeding was deemed the appropriate method for tree establishment, and involved a mixture of green manure and seeds of forest species of different successional classes, applied and/or sown with the same tractors and implements used for crop and pasture cultivation. This method of restoration was attractive to farmers, due to its low cost and familiarity of farmers and employees with the planting techniques and equipment.",
+      "page_start": 493,
+      "page_end": 493,
+      "topic": "forest restoration",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w05__p06",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "6.4.5 Responses based on institutional reforms"
+      ],
+      "text": "Conversely, in the Sloping Land Conversion Program in China, the institutional reform that secured long-term property rights over the restored land was found most effective compared to other incentives offered to engage locals in restoration.",
+      "page_start": 496,
+      "page_end": 496,
+      "topic": "institutional reform",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w05__p07",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+        "Box 6 13 Community Forest User Group: Reformed institution to manage forests in the hills of Nepal."
+      ],
+      "text": "With the inception of a new institution, and reformed forest policy in 1978, degraded hills were extensively planted with the mobilization of local users. Due to its success in the hills, community forestry became a nationwide programme since 1993. As shown in Figure 6.16, community forestry programmes have transformed many degraded hills into productive forests and have either halted or at least reduced deforestation, and associated land degradation.",
+      "page_start": 497,
+      "page_end": 497,
+      "topic": "institutional reform",
+      "practices": [],
+      "metrics": [
+        "tree_cover",
+        "erosion"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch6_responses__w05__c01",
+      "passage_id": "ipbes_ch6_responses__w05__p01",
+      "subject": "funding for protected areas",
+      "metric": "species_richness",
+      "direction": "increase",
+      "evidence_span": "suggesting that even modest increases in funding would directly increase the ability of designated parks to protect tropical biodiversity",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w05__c02",
+      "passage_id": "ipbes_ch6_responses__w05__p02",
+      "subject": "reducing goat stocking density",
+      "metric": "biomass",
+      "direction": "increase",
+      "value": 50,
+      "unit": "percent_change",
+      "evidence_span": "degradation has been partially reversed by agreeing with local farmers and herders to reduce stocking density of goats by 50%",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w05__c03",
+      "passage_id": "ipbes_ch6_responses__w05__p07",
+      "subject": "community forestry programmes",
+      "metric": "tree_cover",
+      "direction": "increase",
+      "evidence_span": "community forestry programmes have transformed many degraded hills into productive forests and have either halted or at least reduced deforestation, and associated land degradation.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "funding",
+      "to_node": "species_richness",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w05__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "goat stocking density",
+      "to_node": "biomass",
+      "effect": "increase",
+      "mechanism": "reducing stocking density",
+      "passage_id": "ipbes_ch6_responses__w05__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "community forestry",
+      "to_node": "tree_cover",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w05__p07",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch6_responses__w05",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 548,
+    "pdf_end": 559,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:17:24Z",
+    "pdf_sha256": "b3c28253b2ec57f5"
+  }
+}

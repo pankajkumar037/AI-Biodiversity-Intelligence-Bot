@@ -1,0 +1,163 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Trees in Agroforestry Systems in India",
+  "content_type": "assessment",
+  "summary": "This chapter provides a decadal assessment of tree green cover and growing stock under agroforestry systems in India, based on National Forest Inventory (NFI) data. It includes definitions, methodology for assessment, and state-wise statistics on tree green cover, growing stock, and species composition.",
+  "passages": [
+    {
+      "passage_id": "isfr1_agroforestry__w00__p01",
+      "heading_path": [
+        "Trees in Agroforestry Systems in India",
+        "7.4 Results & Discussions",
+        "7.4.1 State/UTs wise Tree Green Cover, Growing Stock under Agroforestry Systems"
+      ],
+      "text": "Table 7.1 Change in Tree Green Cover (TGC) with respect to last assessment at National level (in km2) | 2023 | 2013* | Actual Change (A – B) | Change % | TGC of Trees ≥ 10 cm DBH (A) | TGC of Trees 5 cm ≤ DBH < 10 cm and Bamboo Cover | Total | % of Geographical Area | TGC of Trees ≥ 10 cm DBH (B) | % of Geographical Area | 1,18,241 | 9,349 | 1,27,590 | 3.88 | 1,06,303 | 3.23 | 11,938 | 11.23",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "National level",
+      "practices": [],
+      "metrics": [
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr1_agroforestry__w00__p02",
+      "heading_path": [
+        "Trees in Agroforestry Systems in India",
+        "7.4 Results & Discussions",
+        "7.4.1 State/UTs wise Tree Green Cover, Growing Stock under Agroforestry Systems"
+      ],
+      "text": "Table 7.2 Change in Growing Stock (GS) with respect to last assessment at National level (in M m3) | 2023 | 2013* | Actual Change (A – B) | Change % | GS of Trees ≥ 10 cm DBH (A) | GS of Trees 5 cm ≤ DBH < 10 cm | Total | GS of Trees ≥ 10 cm DBH (B) | 1,260.77 | 30.91 | 1,291.68 | 1,004.74 | 256.03 | 25.48",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "National level",
+      "practices": [],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr1_agroforestry__w00__p03",
+      "heading_path": [
+        "Trees in Agroforestry Systems in India",
+        "7.4 Results & Discussions",
+        "7.4.1 State/UTs wise Tree Green Cover, Growing Stock under Agroforestry Systems"
+      ],
+      "text": "Table 7.3 State/UTs wise Decadal Change in Tree Green Cover (km2) and Growing Stock (M m3) under Agroforestry Systems | State/UTs | 2023 | 2013*** | Decadal Change | Decadal Change % | Tree Green Cover (km2) | Growing Stock (M m3) | Tree Green Cover (km2) | Growing Stock (M m3) | Tree Green Cove (km2) | Growing Stock (M m3) | Tree Green Cover (km2) | Growing Stock (M m3) | Andhra Pradesh | 6,006.15 | 69.36 | 4,976 | 57.47 | 1,030.15 | 11.89 | 20.70 | 20.69 | Arunachal Pradesh | 3,080.94 | 20.6 | 2,610 | 16.66 | 470.94 | 3.94 | 18.04 | 23.65 | Assam | 4,262.68 | 30.68 | 3,922 | 31.81 | 340.68 | -1.13 | 8.69 | -3.55 | Bihar | 4,756.85 | 41.46 | 4,570 | 37.48 | 186.85 | 3.98 | 4.09 | 10.62 | Chhattisgarh | 5,646.12 | 82.49 | 4,535 | 64.75 | 1,111.12 | 17.74 | 24.5 | 27.4 | Delhi | 15.3 | 0.13 | 23 | 0.2 | -7.7 | -0.07 | -33.48 | -35 | Goa | 339.77 | 2.43 | 280 | 1.88 | 59.77 | 0.55 | 21.35 | 29.26 | Gujarat | 7,485.49 | 78.87 | 6,340 | 63.94 | 1,145.49 | 14.93 | 18.07 | 23.35 | Haryana | 1,400.94 | 12.66 | 1,333 | 11.33 | 67.94 | 1.33 | 5.1 | 11.74 | Himachal Pradesh | 2,687.6 | 19.55 | 2,303 | 15.81 | 384.6 | 3.74 | 16.7 | 23.66 | Jharkhand | 4,227.47 | 65.63 | 3,358 | 47.94 | 869.47 | 17.69 | 25.89 | 36.9 | Karnataka | 7,875.45 | 98.31 | 6,090 | 69.82 | 1,785.45 | 28.49 | 29.32 | 40.8 | Kerala | 5,213.98 | 38.41 | 3,803 | 28.1 | 1,410.98 | 10.31 | 37.1 | 36.69 | Madhya Pradesh | 7,658.1 | 81.81 | 6,745 | 60.17 | 913.1 | 21.64 | 13.54 | 35.96 | Maharashtra | 14,494.99 | 136.45 | 11,806 | 98.95 | 2,688.99 | 37.5 | 22.78 | 37.9 | Manipur | 612.2 | 4.5 | 606 | 5.05 | 6.2 | -0.55 | 1.02 | -10.89 | Meghalaya | 2,361.14 | 18.6 | 1,876 | 15.66 | 485.14 | 2.94 | 25.86 | 18.77 | Mizoram | 712.44 | 6.21 | 464 | 3.83 | 248.44 | 2.38 | 53.54 | 62.14 | Nagaland | 1,353.28 | 12 | 1,037 | 8.66 | 316.28 | 3.34 | 30.5 | 38.57 | Odisha | 5,591.5 | 88.53 | 5,136 | 65.19 | 455.5 | 23.34 | 8.87 | 35.8 | Punjab | 1,725.24 | 16.77 | 1,635 | 13.73 | 90.24 | 3.04 | 5.52 | 22.14 | Rajasthan | 10,581.39 | 86.26 | 8,373 | 64.77 | 2,208.39 | 21.49 | 26.38 | 33.18 | Sikkim | 147.74 | 1.04 | 128 | 0.8 | 19.74 | 0.24 | 15.42 | 30 | Tamil Nadu | 5,370.9 | 61.18 | 4,590 | 47.39 | 780.9 | 13.79 | 17.01 | 29.1 | Telangana | 3,923.1 | 42.02 | 3,248.48 | 34.82 | 674.62 | 7.2 | 20.77 | 20.68 | Tripura | 659.36 | 5.8 | 576 | 4.8 | 83.36 | 1 | 14.47 | 20.83 | Uttar Pradesh | 8,975.4 | 80.22 | 7,082 | 60.56 | 1,893.4 | 19.66 | 26.74 | 32.46 | Uttarakhand | 2,130.63 | 16.9 | 1,966 | 14.28 | 164.63 | 2.62 | 8.37 | 18.35 | West Bengal | 4,763.13 | 41.41 | 4,018 | 33.51 | 745.13 | 7.9 | 18.54 | 23.58 | Andaman & Nicobar Islands | 73.4 | 0.9 | 49 | 0.5 | 24.4 | 0.4 | 49.8 | 80 | Chandigarh | 0.18 | 0.01 | - | - | 0.18 | 0.01 | - | - | Dadra &Nagar Haveli and Daman & Diu | 41.47 | 0.53 | 65 | 0.58 | -23.53 | -0.05 | -36.2 | -8.62 | Jammu & Kashmir | 3,377.51 | 29.59 | 2,728 | 24.09 | 649.51 | 5.5 | 23.81 | 22.83 | Ladakh | 14.09 | 0.12 | - | - | 14.09 | 0.12 | - | - | Lakshadweep | 5.35 | 0.04 | 16 | 0.04 | -10.65 | 0 | -66.56 | 0 | Puducherry | 18.77 | 0.21 | 16 | 0.17 | 2.77 | 0.04 | 17.31 | 23.53 | Total | 1,27,590.05 | 1,291.68 | 1,06,303 | 1,004.74 | 21,286.57 | 286.94 | 20.02 | 28.56",
+      "page_start": 8,
+      "page_end": 8,
+      "topic": "State/UTs level",
+      "practices": [],
+      "metrics": [
+        "tree_cover",
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr1_agroforestry__w00__p04",
+      "heading_path": [
+        "Trees in Agroforestry Systems in India",
+        "7.4 Results & Discussions",
+        "7.4.2 State/UTs wise Trees and their Growing Stock (Volume) under Agroforestry Systems"
+      ],
+      "text": "Table 7.4 State/UTs wise Number of Stems (‘000) and Volume (M m3) of Trees under Agroforestry Systems in India | State/UTs | Notified Geographical Area (km2) | Total No. of Trees (‘000) | Total Volume (M m3) | Top 3 Species as per number of stems | Andhra Pradesh | 1,62,923 | 4,17,389 | 69.36 | Mangifera indica, Prosopis juliflora, Azadirachta indica | Arunachal Pradesh | 83,743 | 1,77,323 | 20.60 | Castanopsis species, Macaranga species, Citrus species | Assam | 78,438 | 1,74,831 | 30.68 | Areca catechu, Tectona grandis, Gmelina arborea | Bihar | 94,163 | 1,47,775 | 41.46 | Mangifera indica, Dalbergia sissoo, Borassus flabelliformis | Chhattisgarh | 1,35,192 | 2,66,369 | 82.49 | Shorea robusta, Butea monosperma, Mangifera indica | Delhi | 1,483 | 811 | 0.13 | Prosopis juliflora, Azadirachta indica, Ficus species | Goa | 3,702 | 29,509 | 2.43 | Areca triandra, Anacardium occidentale, Cocos nucifera | Gujarat | 1,96,244 | 4,17,116 | 78.87 | Azadirachta indica, Prosopis juliflora, Mangifera indica | Haryana | 44,212 | 68,217 | 12.66 | Eucalyptus species, Dalbergia sissoo, Prosopis cineraria | Himachal Pradesh | 55,673 | 1,97,099 | 19.55 | Grewia oppositifolia, Pyrus species, Pinus roxburghii | Jharkhand | 79,716 | 1,96,328 | 65.63 | Butea monosperma, Acacia auriculiformis, Shorea robusta | Karnataka | 1,91,791 | 9,01,361 | 98.31 | Areca catechu, Cocos nucifera, Azadirachta indica | Kerala | 38,852 | 4,85,988 | 38.41 | Hevea brasiliensis, Areca catechu, Cocos nucifera | Madhya Pradesh | 3,08,252 | 3,81,949 | 81.81 | Butea monosperma, Acacia arabica, Ziziphus mauritiana | Maharashtra | 3,07,713 | 11,65,388 | 136.45 | Azadirachta indica, Mangifera indica, Ziziphus mauritiana | Manipur | 22,327 | 36,295 | 4.50 | Quercus species, Castanopsis species, Schima wallichii | Meghalaya | 22,429 | 1,94,263 | 18.60 | Pinus kesiya, Schima wallichii, Pinus roxburghii | Mizoram | 21,081 | 54,277 | 6.21 | Schima wallichii, Macaranga species, Areca catechu | Nagaland | 16,579 | 1,09,925 | 11.99 | Alnus nepalensis, Macaranga species, Schima wallichii | Odisha | 1,55,707 | 2,64,981 | 88.53 | Mangifera indica, Anacardium occidentale, Butea monosperma | Punjab | 50,362 | 93,167 | 16.77 | Eucalyptus species, Melia azedarach, Citrus species | Rajasthan | 3,42,239 | 5,42,127 | 86.26 | Prosopis juliflora, Prosopis cineraria, Ziziphus mauritiana | Sikkim | 7,096 | 8,967 | 1.04 | Schima wallichii, Ficus species, Alnus species | Tamil Nadu | 1,30,060 | 5,25,034 | 61.19 | Cocos nucifera, Prosopis juliflora, Azadirachta indica | Telangana | 1,12,122 | 2,96,544 | 42.01 | Mangifera indica, Azadirachta indica, Prosopis juliflora | Tripura | 10,486 | 43,163 | 5.81 | Hevea brasiliensis, Tectona grandis, Areca catechu | Uttar Pradesh | 2,40,928 | 5,47,300 | 80.22 | Eucalyptus species, Mangifera indica, Populus species | Uttarakhand | 53,483 | 1,86,017 | 16.90 | Grewia oppositifolia, Quercus leucotrichophora, Mangifera indica | West Bengal | 88,752 | 2,32,239 | 41.41 | Acacia auriculiformis, Mangifera indica, Areca catechu | Andaman & Nicobar Islands | 8,249 | 11,411 | 0.90 | Areca catechu, Cocos nucifera, Mangifera indica",
+      "page_start": 9,
+      "page_end": 9,
+      "topic": "State/UTs level",
+      "practices": [],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr1_agroforestry__w00__p05",
+      "heading_path": [
+        "Trees in Agroforestry Systems in India",
+        "7.4 Results & Discussions",
+        "7.4.2 State/UTs wise Trees and their Growing Stock (Volume) under Agroforestry Systems"
+      ],
+      "text": "Table 7.4 State/UTs wise Number of Stems (‘000) and Volume (M m3) of Trees under Agroforestry Systems in India | State/UTs | Notified Geographical Area (km2) | Total No. of Trees (‘000) | Total Volume (M m3) | Top 3 Species as per number of stems | Chandigarh | 114 | 20 | 0.01 | Mangifera indica, Morus species, Syzygium cumini | Dadra & Nagar Haveli, and Daman & Diu | 602 | 2,359 | 0.53 | Mangifera indica, Phoenix sylvestris, Manihot utilissima | Jammu & Kashmir | 2,22,236 | 1,10,146 | 29.59 | Pyrus species, Quercus leucotrichophora, Grewia oppositifolia | Ladakh | 1,202 | 1,202 | 0.12 | Salix species, Prunus species, Populus ciliata | Lakshadweep | 30 | 247 | 0.04 | Cocos nucifera, Thespesia populnea, Muntingia Calabura | Puducherry | 490 | 1,735 | 0.21 | Prosopis juliflora, Casuarina equisetifolia, Cocos nucifera | Total | 32,87,469 | 82,88,872 | 1,291.68",
+      "page_start": 10,
+      "page_end": 10,
+      "topic": "State/UTs level",
+      "practices": [],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr1_agroforestry__w00__p06",
+      "heading_path": [
+        "Trees in Agroforestry Systems in India",
+        "7.4 Results & Discussions",
+        "7.4.3 Decadal Change in Agroforestry from 2013-2023"
+      ],
+      "text": "Table 7.5 Decadal Change in Top 30 Species (as per 2023) by Number of Stems (‘000) and their respective Volume (M m3) under Agroforestry Systems in India | Rank 2023 | Species | Respective Rank in 2013 | ISFR 2023 | ISFR 2013 | Decadal Change from 2013 to 2023 | No. of Trees | Vol. | % of Vol. of 2023 | No. of Trees | Vol. | % of Vol. of 2013 | No. of Trees | Vol. | Change % No. of Trees* | Vol. | 1 | Mangifera indica | 1 | 6,86,775 | 196.84 | 15.24 | 3,45,055 | 149.35 | 13.29 | 3,41,720 | 47.49 | 99.03 | 31.80 | 2 | Azadirachta indica | 4 | 5,91,880 | 101.86 | 7.89 | 2,08,467 | 75.98 | 6.76 | 3,83,413 | 25.88 | 183.92 | 34.06 | 3 | Prosopis juliflora | - | 4,87,625 | 9.89 | 0.77 | Not reported in top 40 species in 2013 | 4 | Areca catechu | 2 | 3,91,717 | 8.21 | 0.64 | 2,71,003 | 7.32 | 0.65 | 1,20,714 | 0.89 | 44.54 | 12.13 | 5 | Eucalyptus species | 7 | 2,74,432 | 17.84 | 1.38 | 1,18,918 | 21.50 | 1.91 | 1,55,514 | -3.66 | 130.77 | -17.01 | 6 | Tectona grandis | 10 | 2,54,348 | 23.33 | 1.81 | 75,194 | 11.27 | 1.00 | 1,79,154 | 12.06 | 238.26 | 107.08 | 7 | Cocos nucifera | 3 | 2,53,926 | 53.00 | 4.10 | 2,11,762 | 60.08 | 5.34 | 42,164 | -7.08 | 19.91 | -11.78 | 8 | Butea monosperma | 6 | 2,41,369 | 36.94 | 2.86 | 1,31,976 | 28.49 | 2.53 | 1,09,393 | 8.45 | 82.89 | 29.65 | 9 | Acacia arabica/ Acacia nilotica | 5 | 2,32,987 | 34.77 | 2.69 | 1,52,668 | 29.03 | 2.58 | 80,319 | 5.74 | 52.61 | 19.79 | 10 | Ziziphus mauritiana/ Ziziphus jujuba | 21 | 2,18,818 | 16.29 | 1.26 | 45,191 | 8.44 | 0.75 | 1,73,627 | 7.85 | 384.21 | 93.10",
+      "page_start": 10,
+      "page_end": 10,
+      "topic": "National level",
+      "practices": [],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    }
+  ],
+  "claims": [],
+  "links": [],
+  "_meta": {
+    "unit_id": "isfr1_agroforestry__w00",
+    "doc_id": "fsi2023_isfr_v1",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 237,
+    "pdf_end": 246,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T10:59:49Z",
+    "pdf_sha256": "7c8c2a6c9d2636b1",
+    "prompt_type": "inventory"
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "extraction_status": "ok",
+  "section_title": "8.4.2.6 Lopping Incidence",
+  "content_type": "assessment",
+  "summary": "This section provides definitions and statistical distributions of lopping incidence across India's Recorded Forest Area (RFA), based on ocular estimation in 60m radius plots.",
+  "passages": [
+    {
+      "passage_id": "isfr1_soil_disturb__w02__p01",
+      "heading_path": [
+        "8.4.2.6 Lopping Incidence"
+      ],
+      "text": "Lopping is the trimming of trees, cutting its branches, trunk and leaves for use while the trees are alive. This is primarily done for collection of fodder or other relevant uses. It is practiced for forage for livestock, additional source of income or sustenance for livestock farming. In forestry practices, lopping practices are planned with due careful consideration of the specific ecological and social context, and to balance the benefits of forage provision with the potential environmental impacts. Lopping of trees is judged by ocular estimation in a plot of 60 m radius. The classification of lopping instances is given in Table 8.20.",
+      "page_start": 232,
+      "page_end": 232,
+      "topic": "India",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "isfr1_soil_disturb__w02__p02",
+      "heading_path": [
+        "8.4.2.6 Lopping Incidence",
+        "Table 8.20 Classification of Extent of Lopping Instances"
+      ],
+      "text": "Table 8.20 Classification of Extent of Lopping Instances | Extent of lopping | Classification | No lopping seen | No lopping | Less than 5% area affected | Occasional | 5-25% area affected | Moderate | More than 25% area/crop affected | Heavy",
+      "page_start": 232,
+      "page_end": 232,
+      "topic": "India",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr1_soil_disturb__w02__p03",
+      "heading_path": [
+        "8.4.2.6 Lopping Incidence"
+      ],
+      "text": "Results are given in Table 8.21. It is revealed only 3.69 % of forest area is heavily affected by lopping incidence, and 29.61 % area has no lopping incidence. It is also revealed that 54.99 % of forests have Moderate to occasional lopping. This data is not available for 2013.",
+      "page_start": 232,
+      "page_end": 232,
+      "topic": "India",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "isfr1_soil_disturb__w02__p04",
+      "heading_path": [
+        "Important Characteristics of India's Forests",
+        "Table 8.21 Distribution of RFA (in %) by Lopping Incidence"
+      ],
+      "text": "Table 8.21 Distribution of RFA (in %) by Lopping Incidence | State/UTs | RFA (km2) | Heavy | Moderate | Occasional | No lopping | NA | Andhra Pradesh | 37,258 | 4.22 | 22.4 | 31.37 | 32.71 | 9.30 | Arunachal Pradesh | 51,540 | 1.03 | 12.27 | 24.29 | 55.24 | 7.17 | Assam | 26,836 | 0.76 | 8.01 | 33.82 | 41.05 | 16.36 | Bihar | 7,442 | 6.41 | 29.46 | 31.82 | 21.36 | 10.95 | Chhattisgarh | 59,816 | 7.01 | 25.90 | 44.58 | 12.11 | 10.40 | Delhi | 104 | 0.00 | 2.35 | 16.46 | 49.38 | 31.81 | Goa | 1,271 | 0.00 | 6.34 | 32.35 | 55.18 | 6.13 | Gujarat | 21,870 | 6.15 | 27.54 | 40.64 | 16.85 | 8.82 | Haryana | 1,559 | 0.67 | 23.65 | 34.46 | 33.78 | 7.44 | Himachal Pradesh | 37,948 | 0.86 | 23.35 | 47.46 | 23.11 | 5.22 | Jharkhand | 25,118 | 1.90 | 22.40 | 47.75 | 12.82 | 15.13 | Karnataka | 38,284 | 4.02 | 21.34 | 32.87 | 33.96 | 7.81 | Kerala | 11,522 | 0.75 | 6.55 | 15.17 | 70.02 | 7.51 | Madhya Pradesh | 94,689 | 8.46 | 21.92 | 38.74 | 18.62 | 12.26 | Maharashtra | 61,952 | 4.93 | 17.5 | 36.40 | 25.89 | 15.28 | Manipur | 17,418 | 0.00 | 6.36 | 40.31 | 47.74 | 5.59 | Meghalaya | 9,508 | 1.50 | 14.74 | 38.06 | 30.83 | 14.87 | Mizoram | 7,479 | 0.84 | 1.67 | 18.28 | 68.19 | 11.02 | Nagaland | 8,632 | 0.00 | 9.81 | 26.58 | 52.69 | 10.92 | Odisha | 61,204 | 1.16 | 14.53 | 43.95 | 32.09 | 8.27 | Punjab | 3,084 | 0.00 | 16.53 | 46.3 | 34.18 | 2.99 | Rajasthan | 32,869 | 1.16 | 23.83 | 32.02 | 11.04 | 31.95 | Sikkim | 5,841 | 0.00 | 13.29 | 46.17 | 36.68 | 3.86 | Tamil Nadu | 23,188 | 1.39 | 18.04 | 34.83 | 34.9 | 10.84 | Telangana | 27,688 | 11.95 | 27.80 | 32.35 | 14.98 | 12.92 | Tripura | 6,295 | 0.00 | 3.62 | 38.11 | 55.44 | 2.83 | Uttar Pradesh | 17,435 | 4.29 | 24.98 | 37.53 | 21.9 | 11.3 | Uttarakhand | 38,000 | 0.69 | 11.65 | 35.41 | 33.21 | 19.04 | West Bengal | 11,885 | 1.58 | 20.43 | 43.53 | 29.23 | 5.23 | Andaman & Nicobar Islands | 7,171 | 0.00 | 0.66 | 11.31 | 83.13 | 4.90 | Jammu & Kashmir | 20,199 | 3.22 | 17.07 | 29.72 | 44.22 | 5.77 | Other UTs | 272 | 16.56 | 30.65 | 21.71 | 21.66 | 9.42 | Total | 7,75,377 | 3.69 | 18.57 | 36.42 | 29.61 | 11.71",
+      "page_start": 233,
+      "page_end": 233,
+      "topic": "India",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr1_soil_disturb__w02__p05",
+      "heading_path": [
+        "8.4.2.7 Biotic Influence"
+      ],
+      "text": "Biotic influence can be characterized as over population of herbivores, invasive species, pathogens, grazing, fire, pollarding, illicit felling, lopping, etc., in a nutshell. Excessive influence can sometimes adversely affect health and biodiversity within forests, changes in composition and structure of forest, outcompeting the native vegetation, diminish forest’s capacity to sequester carbon, cause runoff and sedimentation in streams and rivers, affecting water quality. These effects can disrupt the natural balance of the forest and may lead to ecological imbalances and long-term consequences. The biotic influence is observed on land surface of 60 m radius area around the plot centre. The classification of instances of biotic influence is given in Table 8.22.",
+      "page_start": 234,
+      "page_end": 234,
+      "topic": "India",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "isfr1_soil_disturb__w02__p06",
+      "heading_path": [
+        "8.4.2.7 Biotic Influence",
+        "Table 8.22 Classification of Instances of Biotic Influence"
+      ],
+      "text": "Table 8.22 Classification of Instances of Biotic Influence | Extent of biotic influence | Classification | No biotic influence seen | Not degraded | Less than 10% area affected | Mildly degraded | 10-50% area affected | Moderately degraded | More than 50% area/crop affected | Heavily degraded",
+      "page_start": 234,
+      "page_end": 234,
+      "topic": "India",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr1_soil_disturb__w02__p07",
+      "heading_path": [
+        "8.4.2.7 Biotic Influence"
+      ],
+      "text": "Results are given in Table 8.23. It is revealed that 5.93 % of Forest area is highly degraded and 12.26 % area in forests is not degraded. It also shows that 53.40 % of area is mildly degraded and 20.73 % of area is moderately degraded.",
+      "page_start": 234,
+      "page_end": 234,
+      "topic": "India",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "isfr1_soil_disturb__w02__p08",
+      "heading_path": [
+        "Important Characteristics of India's Forests",
+        "Table 8.23 Distribution of RFA (in %) by Biotic Influence"
+      ],
+      "text": "Table 8.23 Distribution of RFA (in %) by Biotic Influence | State/UTs | RFA (km2) | Heavily degraded | Moderately degraded | Mildly degraded | Not degraded | NA | Andhra Pradesh | 37,258 | 5.40 | 31.69 | 44.38 | 12.43 | 6.10 | Arunachal Pradesh | 51,540 | 4.92 | 16.92 | 50.51 | 19.49 | 8.16 | Assam | 26,836 | 3.03 | 15.93 | 56.00 | 12.44 | 12.60 | Bihar | 7,442 | 8.14 | 32.11 | 47.73 | 5.13 | 6.89 | Chhattisgarh | 59,816 | 9.68 | 27.31 | 54.15 | 5.75 | 3.11 | Delhi | 104 | 1.25 | 2.50 | 43.78 | 26.27 | 26.2 | Goa | 1,271 | 1.91 | 6.38 | 55.55 | 31.28 | 4.88 | Gujarat | 21,870 | 8.54 | 13.27 | 59.51 | 7.19 | 11.49 | Haryana | 1,559 | 2.00 | 12.7 | 60.82 | 16.04 | 8.44 | Himachal Pradesh | 37,948 | 1.94 | 19.34 | 60.79 | 12.69 | 5.24 | Jharkhand | 25,118 | 3.74 | 26.75 | 58.39 | 5.10 | 6.02 | Karnataka | 38,284 | 5.82 | 27.83 | 52.01 | 10.37 | 3.97 | Kerala | 11,522 | 2.55 | 13.86 | 35.92 | 41.39 | 6.28 | Madhya Pradesh | 94,689 | 14.63 | 21.69 | 51.37 | 6.08 | 6.23 | Maharashtra | 61,952 | 8.21 | 23.09 | 51.84 | 10.23 | 6.63 | Manipur | 17,418 | 0.00 | 17.81 | 64.98 | 13.63 | 3.58 | Meghalaya | 9,508 | 4.87 | 21.79 | 55.62 | 7.32 | 10.4 | Mizoram | 7,479 | 0.60 | 7.42 | 58.45 | 22.43 | 11.10 | Nagaland | 8,632 | 2.16 | 19.82 | 46.52 | 18.09 | 13.41 | Odisha | 61,204 | 1.46 | 19.67 | 59.16 | 16.92 | 2.79 | Punjab | 3,084 | 1.10 | 9.87 | 62.52 | 21.94 | 4.57 | Rajasthan | 32,869 | 1.95 | 10.34 | 52.53 | 10.41 | 24.77 | Sikkim | 5,841 | 0.58 | 9.25 | 69.91 | 14.44 | 5.82 | Tamil Nadu | 23,188 | 2.00 | 24.98 | 55.04 | 13.22 | 4.76 | Telangana | 27,688 | 15.76 | 32.85 | 43.06 | 5.06 | 3.27 | Tripura | 6,295 | 2.16 | 13.26 | 67.72 | 14.18 | 2.68 | Uttar Pradesh | 17,435 | 3.47 | 25.64 | 50.28 | 13.55 | 7.06 | Uttarakhand | 38,000 | 0.88 | 6.91 | 59.24 | 11.41 | 21.56 | West Bengal | 11,885 | 1.61 | 21.53 | 47.01 | 20.37 | 9.48 | Andaman & Nicobar Islands | 7,171 | 0.00 | 3.32 | 33.92 | 57.86 | 4.90 | Jammu & Kashmir | 20,199 | 3.31 | 17.46 | 51.75 | 18.61 | 8.87 | Other UTs | 272 | 41.09 | 7.68 | 38.19 | 10.54 | 2.49 | Total ( as per ISFR 2023) | 7,75,377 | 5.93 | 20.73 | 53.40 | 12.26 | 7.68 | Total (as per ISFR 2013) | 7,71,821 | 11.05 | 20.23 | 43.30 | 13.28 | 12.14",
+      "page_start": 235,
+      "page_end": 235,
+      "topic": "India",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr1_soil_disturb__w02__p09",
+      "heading_path": [
+        "8.4.3 Status of Forest Vegetation",
+        "8.4.3.1 Source of origin of Forest Stand"
+      ],
+      "text": "Forest Stand is an aggregation of community of tree species possessing sufficient uniformity in composition, constitution, age, arrangement/structure and to be distinguished from adjacent crops forming a silvicultural unit. The origin of stand may be ‘natural’ from seeds, or of coppice origin, or it may be raised artificially either by sowing or planting. This information indicates whether, the forest is natural or manmade and is important from the point of view of biodiversity conservation. The source of origin of forest stand is observed on land surface of 60 m radius area around the plot centre and is classified and recorded as ‘natural forest of seed/coppice origin’, or ‘manmade forest’. The information has been given in Table 8.24.",
+      "page_start": 236,
+      "page_end": 236,
+      "topic": "India",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "isfr1_soil_disturb__w02__p10",
+      "heading_path": [
+        "Important Characteristics of India's Forests",
+        "Table 8.24 Distribution of RFA (in %) by source of origin of Stand"
+      ],
+      "text": "Table 8.24 Distribution of RFA (in %) by source of origin of Stand | State/UTs | RFA (km2) | Natural forest of seed / coppice origin | Man-made forest | NA | Andhra Pradesh | 37,258 | 68.75 | 6.00 | 25.25 | Arunachal Pradesh | 51,540 | 77.02 | 9.83 | 13.15 | Assam | 26,836 | 71.92 | 15.43 | 12.65 | Bihar | 7,442 | 66.65 | 10.48 | 22.87 | Chhattisgarh | 59,816 | 80.06 | 1.96 | 17.98 | Delhi | 104 | 55.85 | 11.40 | 32.75 | Goa | 1,271 | 78.58 | 12.98 | 8.44 | Gujarat | 21,870 | 83.08 | 4.11 | 12.81 | Haryana | 1,559 | 69.35 | 16.54 | 14.11 | Himachal Pradesh | 37,948 | 88.7 | 1.16 | 10.14 | Jharkhand | 25,118 | 67.69 | 4.12 | 28.19 | Karnataka | 38,284 | 68.32 | 15.34 | 16.34 | Kerala | 11,522 | 70.19 | 12.45 | 17.36 | Madhya Pradesh | 94,689 | 73.23 | 1.19 | 25.58 | Maharashtra | 61,952 | 62.28 | 2.68 | 35.04 | Manipur | 17,418 | 87.34 | 0.93 | 11.73 | Meghalaya | 9,508 | 53.59 | 21.28 | 25.13 | Mizoram | 7,479 | 60 | 2.65 | 37.35 | Nagaland | 8,632 | 67.29 | 12.67 | 20.04 | Odisha | 61,204 | 80.12 | 6.06 | 13.82 | Punjab | 3,084 | 81.33 | 13.01 | 5.66 | Rajasthan | 32,869 | 32.08 | 0.83 | 67.09 | Sikkim | 5,841 | 89.55 | 4.08 | 6.37 | Tamil Nadu | 23,188 | 69.96 | 13.01 | 17.03 | Telangana | 27,688 | 64.36 | 5.86 | 29.78 | Tripura | 6,295 | 56.09 | 34.01 | 9.90 | Uttar Pradesh | 17,435 | 66.07 | 6.64 | 27.29 | Uttarakhand | 38,000 | 74.66 | 1.92 | 23.42 | West Bengal | 11,885 | 53.17 | 18.63 | 28.20 | Andaman & Nicobar Islands | 7,171 | 88.01 | 2.52 | 9.47 | Jammu & Kashmir | 20,199 | 60.42 | 1.50 | 38.08 | Other UTs | 272 | 71.76 | 9.65 | 18.59 | Total ( as per ISFR 2023) | 7,75,377 | 71.06 | 5.91 | 23.03 | Total (as per ISFR 2013) | 7,71,821 | 75.99 | 6.26 | 17.75",
+      "page_start": 237,
+      "page_end": 237,
+      "topic": "India",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    },
+    {
+      "passage_id": "isfr1_soil_disturb__w02__p11",
+      "heading_path": [
+        "8.4.3.2 Status of Regeneration"
+      ],
+      "text": "Intensity of regeneration refers to the extent the regeneration is established in an area for a given species or a group of species. The process of replacing old crop with younger generation either naturally or artificially is called regeneration or reproduction. Forest regeneration processes also include interventions like assisted natural regeneration, seed origin, enrichment planting, controls to reduce grazing and lopping activities, etc. This activity influences carbon storage through changes in the growth of above-ground and below-ground tree biomass. The regeneration depends on many factors such as presence of weeds, climatic conditions, soil and moisture regimes, grazing intensity, diseases and insect attacks, fire incidences and topographic factors like slope and aspect. For recording status of regeneration, data from 1.7 m radius circular plots was recorded from within all four sub plots at a distance of 5 m from its centre towards east. For calculating established (tree) plant units, established, un-established and recruits are given weightage as 1, 1/2, and 1/4 respectively. The sample plots which have 9 or more established (tree) plant units (in 36 m2) are termed as having ‘adequate’ regeneration. If the established plant units are less than 9 but are equal or more than 0.5 then the sample point is termed as having ‘inadequate’ regeneration. If it is less than 0.5 then regeneration is considered ‘absent’. Regeneration status for each State/UTs has been given in Table 8.25. According to this table, adequate regeneration is maximum in Goa (73.39%) followed by Chhattisgarh (71%) and Odisha (70.51%). Inadequate regeneration is maximum in Haryana (55.31%), followed by Arunachal Pradesh (52.32%) and Sikkim (51.92%). It may be noted that the regeneration status of the forests in the country has been adversely affected during this last decade.",
+      "page_start": 238,
+      "page_end": 238,
+      "topic": "India",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "isfr1_soil_disturb__w02__p12",
+      "heading_path": [
+        "Important Characteristics of India's Forests",
+        "Table 8.25 Distribution of RFA (in %) by status of Regeneration"
+      ],
+      "text": "Table 8.25 Distribution of RFA (in %) by status of Regeneration | State/UTs | RFA (km2) | Adequate | Inadequate | Absent | NA | Andhra Pradesh | 37,258 | 49.67 | 21.88 | 4.72 | 23.73 | Arunachal Pradesh | 51,540 | 19.21 | 52.32 | 15.66 | 12.81 | Assam | 26,836 | 17.12 | 32.64 | 14.43 | 35.81 | Bihar | 7,442 | 39.81 | 27.49 | 13.84 | 18.86 | Chhattisgarh | 59,816 | 71.00 | 8.03 | 3.40 | 17.57 | Delhi | 104 | 21.24 | 34.22 | 11.8 | 32.74 | Goa | 1,271 | 73.39 | 16.18 | 2.48 | 7.95 | Gujarat | 21,870 | 27.93 | 36.35 | 19.84 | 15.88 | Haryana | 1,559 | 16.97 | 55.31 | 16.97 | 10.75 | Himachal Pradesh | 37,948 | 26.37 | 45.27 | 17.91 | 10.45 | Jharkhand | 25,118 | 52.48 | 14.99 | 5.52 | 27.01 | Karnataka | 38,284 | 52.68 | 26.21 | 5.97 | 15.14 | Kerala | 11,522 | 48.84 | 31.38 | 3.49 | 16.29 | Madhya Pradesh | 94,689 | 40.98 | 24.70 | 9.97 | 24.35 | Maharashtra | 61,952 | 33.95 | 20.03 | 11.98 | 34.04 | Manipur | 17,418 | 37.91 | 40.84 | 8.74 | 12.51 | Meghalaya | 9,508 | 26.3 | 41.33 | 7.95 | 24.42 | Mizoram | 7,479 | 22.49 | 33.64 | 6.82 | 37.05 | Nagaland | 8,632 | 26.36 | 46.01 | 6.71 | 20.92 | Odisha | 61,204 | 70.51 | 12.57 | 3.84 | 13.08 | Punjab | 3,084 | 42.55 | 39.09 | 13.79 | 4.57 | Rajasthan | 32,869 | 12.02 | 18.59 | 6.05 | 63.34 | Sikkim | 5,841 | 22.05 | 51.92 | 17.77 | 8.26 | Tamil Nadu | 23,188 | 33.08 | 40.92 | 9.50 | 16.50 | Telangana | 27,688 | 47.74 | 18.40 | 6.93 | 26.93 | Tripura | 6,295 | 27.78 | 50.64 | 12.66 | 8.92 | Uttar Pradesh | 17,435 | 40.97 | 23.59 | 10.72 | 24.72 | Uttarakhand | 38,000 | 32.98 | 32.28 | 11 | 23.74 | West Bengal | 11,885 | 62.28 | 24.24 | 5.78 | 7.70 | Andaman & Nicobar Islands | 7,171 | 68.54 | 18.10 | 3.89 | 9.47 | Jammu & Kashmir | 20,199 | 14.45 | 34.71 | 43.75 | 7.09 | Other UTs | 272 | 25.79 | 42.26 | 14.37 | 17.56 | Total ( as per ISFR 2023) | 7,75,377 | 40.62 | 27.24 | 10.20 | 21.94 | Total (as per ISFR 2013) | 7,71,821 | 48.06 | 24.30 | 9.72 | 17.92",
+      "page_start": 239,
+      "page_end": 239,
+      "topic": "India",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "table"
+    }
+  ],
+  "claims": [],
+  "links": [],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "isfr1_soil_disturb__w02",
+    "doc_id": "fsi2023_isfr_v1",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 276,
+    "pdf_end": 283,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T11:01:37Z",
+    "pdf_sha256": "22fd7a55228439bf",
+    "prompt_type": "inventory"
+  }
+}

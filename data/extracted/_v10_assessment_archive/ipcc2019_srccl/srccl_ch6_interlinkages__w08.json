@@ -1,0 +1,158 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Cross-Chapter Box 9 | Climate and land pathways",
+  "content_type": "model",
+  "summary": "This section outlines the Shared Socio-economic Pathways (SSPs) and their implications for land use, climate mitigation, and food security. It highlights how different socio-economic and policy scenarios influence land-based mitigation options like bioenergy, afforestation, and reforestation, and discusses the risks associated with delayed action.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch6_interlinkages__w08__p01",
+      "heading_path": [
+        "Cross-Chapter Box 9 | Climate and land pathways",
+        "Shared Socio-economic Pathways"
+      ],
+      "text": "SSP1 is a scenario with a broad focus on sustainability, including human development, technological development, nature conservation, globalised economy, economic convergence and early international cooperation (including moderate levels of trade). The scenario includes a peak and decline in population, relatively high agricultural yields and a move towards food produced in low-GHG emission systems (Van Vuuren et al. 2017b). Dietary change and reductions in food waste reduce agricultural demands, and effective land-use regulation enables reforestation and/or afforestation.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "SSP1 scenario description",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "crop_yield",
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland",
+        "forest"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w08__p02",
+      "heading_path": [
+        "Cross-Chapter Box 9 | Climate and land pathways",
+        "Shared Socio-economic Pathways"
+      ],
+      "text": "SSP3 is a scenario with slow rates of technological change and limited land-use regulation. Agricultural demands are high due to material-intensive consumption and production, and barriers to trade lead to reduced flows for agricultural goods. In SSP3, forest mitigation activities and abatement of agricultural GHG emissions are limited due to major implementation barriers such as low institutional capacities in developing countries and delays as a consequence of low international cooperation (Fujimori et al. 2017). Emissions reductions are achieved primarily through the energy sector, including the use of bioenergy and BECCS.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "SSP3 scenario description",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland",
+        "forest"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w08__p03",
+      "heading_path": [
+        "Cross-Chapter Box 9 (continued)",
+        "Land-use and land-cover change"
+      ],
+      "text": "In SSP1, sustainability in land management, agricultural intensification, production and consumption patterns result in reduced need for agricultural land, despite increases in per capita food consumption. This land can instead be used for reforestation, afforestation and bioenergy. In contrast, SSP3 has high population and strongly declining rates of crop yield growth over time, resulting in increased agricultural land area.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Land use changes in SSP1 and SSP3",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "crop_yield",
+        "tree_cover"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland",
+        "forest"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "srccl_ch6_interlinkages__w08__p04",
+      "heading_path": [
+        "Cross-Chapter Box 9 (continued)",
+        "Implications for mitigation and other land challenges"
+      ],
+      "text": "Accounting for mitigation and socio-economics alone, food prices (an indicator of food insecurity) are higher in SSP3 than in SSP1 and higher in the 1.9 W m–2 target than in the 4.5 W m–2 target (Table 1 in Cross-Chapter Box 9). Forest cover is higher in SSP1 than SSP3 and higher in the 1.9 W m–2 target than in the 4.5 W m–2 target.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Comparison of food prices and forest cover across scenarios",
+      "practices": [],
+      "metrics": [
+        "tree_cover",
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch6_interlinkages__w08__c01",
+      "passage_id": "srccl_ch6_interlinkages__w08__p04",
+      "subject": "food prices",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "evidence_span": "food prices (an indicator of food insecurity) are higher in SSP3 than in SSP1",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch6_interlinkages__w08__c02",
+      "passage_id": "srccl_ch6_interlinkages__w08__p04",
+      "subject": "forest cover",
+      "metric": "tree_cover",
+      "direction": "increase",
+      "evidence_span": "Forest cover is higher in SSP1 than SSP3",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "SSP3",
+      "to_node": "food prices",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w08__p04",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "SSP1",
+      "to_node": "forest cover",
+      "effect": "increase",
+      "passage_id": "srccl_ch6_interlinkages__w08__p04",
+      "strength_stated": "strong"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "srccl_ch6_interlinkages__w08",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 649,
+    "pdf_end": 660,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:54:01Z",
+    "pdf_sha256": "28ffc818ef85171a"
+  }
+}

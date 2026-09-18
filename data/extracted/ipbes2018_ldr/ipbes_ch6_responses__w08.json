@@ -1,0 +1,209 @@
+{
+  "extraction_status": "ok",
+  "section_title": "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND",
+  "content_type": "assessment",
+  "summary": "This document unit provides a comprehensive bibliography of scientific literature related to land degradation, restoration, and sustainable land management, covering topics such as soil conservation, agroforestry, invasive species management, and ecosystem services.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch6_responses__w08__p01",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Valentin, C., Agus, F., Alamban, R., Boosaner, A., Bricquet, J. P., Chaplot, V., de Guzman, T., de Rouw, A., Janeau, J. L., Orange, D., Phachomphonh, K., Do Duy Phai, Podwojewski, P., Ribolzi, O., Silvera, N., Subagyono, K., Thiébaux, J. P., Tran Duc Toan, & Vadari, T. (2008). Runoff and sediment losses from 27 upland catchments in Southeast Asia: Impact of rapid land use changes and conservation practices.",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Runoff and sediment loss in upland catchments",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "tropical"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w08__p02",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "van der Bij, A. U., Pawlett, M., Harris, J. A., Ritz, K., & van Diggelen, R. (2017). Soil microbial community assembly precedes vegetation development after drastic techniques to mitigate effects of nitrogen deposition.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Soil microbial community and vegetation restoration",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "soil_biota",
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w08__p03",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Veum, K. S., Kremer, R. J., Sudduth, K. A., Kitchen, N. R., Lerch, R. N., Baffaut, C., Stott, D. E., Karlen, D. L., & Sadler, E. J. (2015). Conservation effects on soil quality indicators in the Missouri Salt River Basin.",
+      "page_start": 4,
+      "page_end": 4,
+      "topic": "Conservation effects on soil quality",
+      "practices": [
+        "conservation_agriculture"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w08__p04",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Wang, K., Deng, L., Ren, Z., Shi, W., & Chen, Y. (2016). Dynamics of ecosystem carbon stocks during vegetation restoration on the Loess Plateau of China.",
+      "page_start": 5,
+      "page_end": 5,
+      "topic": "Carbon stocks during vegetation restoration",
+      "practices": [
+        "grassland_restoration"
+      ],
+      "metrics": [
+        "SOC",
+        "biomass"
+      ],
+      "climate_zones": [
+        "semi-arid"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch6_responses__w08__p05",
+      "heading_path": [
+        "6. RESPONSES TO HALT LAND DEGRADATION AND TO RESTORE DEGRADED LAND"
+      ],
+      "text": "Wubs, E. R. J., van der Putten, W. H., Bosch, M., & Bezemer, T. M. (2016). Soil inoculation steers restoration of terrestrial ecosystems.",
+      "page_start": 6,
+      "page_end": 6,
+      "topic": "Soil inoculation for ecosystem restoration",
+      "practices": [
+        "other"
+      ],
+      "metrics": [
+        "soil_biota",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch6_responses__w08__c01",
+      "passage_id": "ipbes_ch6_responses__w08__p01",
+      "subject": "conservation practices",
+      "metric": "erosion",
+      "direction": "decrease",
+      "evidence_span": "Runoff and sediment losses from 27 upland catchments in Southeast Asia: Impact of rapid land use changes and conservation practices.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w08__c02",
+      "passage_id": "ipbes_ch6_responses__w08__p02",
+      "subject": "soil microbial community assembly",
+      "metric": "soil_biota",
+      "direction": "increase",
+      "evidence_span": "Soil microbial community assembly precedes vegetation development after drastic techniques to mitigate effects of nitrogen deposition.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w08__c03",
+      "passage_id": "ipbes_ch6_responses__w08__p04",
+      "subject": "vegetation restoration",
+      "metric": "SOC",
+      "direction": "increase",
+      "evidence_span": "Dynamics of ecosystem carbon stocks during vegetation restoration on the Loess Plateau of China.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch6_responses__w08__c04",
+      "passage_id": "ipbes_ch6_responses__w08__p05",
+      "subject": "soil inoculation",
+      "metric": "species_richness",
+      "direction": "increase",
+      "evidence_span": "Soil inoculation steers restoration of terrestrial ecosystems.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "conservation practices",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch6_responses__w08__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "soil microbial community assembly",
+      "to_node": "vegetation development",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w08__p02",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "vegetation restoration",
+      "to_node": "SOC",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w08__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "soil inoculation",
+      "to_node": "species_richness",
+      "effect": "increase",
+      "passage_id": "ipbes_ch6_responses__w08__p05",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "ipbes_ch6_responses__w08",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 581,
+    "pdf_end": 590,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:18:08Z",
+    "pdf_sha256": "31379bc23566d8b0"
+  }
+}

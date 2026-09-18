@@ -1,0 +1,144 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Land degradation",
+  "content_type": "assessment",
+  "summary": "This assessment defines land degradation as a negative trend in land condition caused by human-induced processes, including climate change. It highlights the reciprocal relationship between land degradation and climate change, where degradation acts as a driver of climate change through GHG emissions and reduced carbon uptake, while climate change exacerbates degradation processes. The document also discusses sustainable land management (SLM) and sustainable forest management (SFM) as key strategies to avoid, reduce, or reverse land degradation.",
+  "passages": [
+    {
+      "passage_id": "srccl_ch4_land_degradation__w00__p01",
+      "heading_path": [
+        "Executive summary"
+      ],
+      "text": "Land degradation is a driver of climate change through emission of greenhouse gases (GHGs) and reduced rates of carbon uptake (very high confidence). Since 1990, globally the forest area has decreased by 3% (low confidence) with net decreases in the tropics and net increases outside the tropics (high confidence). Lower carbon density in re-growing forests, compared to carbon stocks before deforestation, results in net emissions from land-use change (very high confidence). Forest management that reduces carbon stocks of forest land also leads to emissions, but global estimates of these emissions are uncertain. Cropland soils have lost 20–60% of their organic carbon content prior to cultivation, and soils under conventional agriculture continue to be a source of GHGs (medium confidence).",
+      "page_start": 3,
+      "page_end": 3,
+      "topic": "Land degradation and climate change",
+      "practices": [],
+      "metrics": [
+        "carbon_sequestration_rate",
+        "soil_organic_matter",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "cropland",
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w00__p02",
+      "heading_path": [
+        "4.1 Introduction",
+        "4.1.5 Sustainable land management (SLM) and sustainable forest management (SFM)"
+      ],
+      "text": "The transition from natural to managed forest landscapes usually results in an initial reduction of landscape-level carbon stocks. The magnitude of this reduction is a function of the differential in frequency of stand-replacing natural disturbances (e.g., wildfires) and harvest disturbances, as well as the age-dependence of these disturbances (Harmon et al. 1990; Kurz et al. 1998; Trofymow et al. 2008). SFM applied at the landscape scale to existing unmanaged forests can first reduce average forest carbon stocks and subsequently increase the rate at which CO2 is removed from the atmosphere, because net ecosystem production of forest stands is highest in intermediate stand ages (Kurz et al. 2013; Volkova et al. 2018; Tang et al. 2014).",
+      "page_start": 7,
+      "page_end": 7,
+      "topic": "Sustainable forest management",
+      "practices": [
+        "agroforestry_agrisilvicultural"
+      ],
+      "metrics": [
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "srccl_ch4_land_degradation__w00__p03",
+      "heading_path": [
+        "4.2 Land degradation in the context of climate change",
+        "4.2.1 Processes of land degradation"
+      ],
+      "text": "Chemical soil degradation processes include relatively simple changes, like nutrient depletion resulting from the imbalance of nutrient extraction on harvested products and fertilisation, and more complex ones, such as acidification and increasing metal toxicity. Acidification in croplands is increasingly driven by excessive nitrogen fertilisation and, to a lower extent, by the depletion of cation like calcium, potassium or magnesium through exports in harvested biomass (Guo et al. 2010). One of the most relevant chemical degradation processes of soils in the context of climate change is the depletion of its organic matter pool. Reduced in agricultural soils through the increase of respiration rates by tillage and the decline of below-ground plant biomass inputs, SOM pools have been diminished also by the direct effects of warming, not only in cultivated land, but also under natural vegetation (Bond-Lamberty et al. 2018).",
+      "page_start": 11,
+      "page_end": 11,
+      "topic": "Chemical soil degradation",
+      "practices": [
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "nutrient_availability",
+        "pH"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "srccl_ch4_land_degradation__w00__c01",
+      "passage_id": "srccl_ch4_land_degradation__w00__p01",
+      "subject": "cropland soils",
+      "metric": "soil_organic_matter",
+      "direction": "decrease",
+      "value_low": 20,
+      "value_high": 60,
+      "unit": "percent",
+      "basis": "prior to cultivation",
+      "conditions": null,
+      "evidence_span": "Cropland soils have lost 20–60% of their organic carbon content prior to cultivation",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "srccl_ch4_land_degradation__w00__c02",
+      "passage_id": "srccl_ch4_land_degradation__w00__p01",
+      "subject": "global forest area",
+      "metric": "tree_cover",
+      "direction": "decrease",
+      "value": 3,
+      "unit": "percent",
+      "basis": "since 1990",
+      "conditions": null,
+      "evidence_span": "Since 1990, globally the forest area has decreased by 3% (low confidence)",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "land degradation",
+      "to_node": "climate change",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "emission of greenhouse gases and reduced rates of carbon uptake",
+      "passage_id": "srccl_ch4_land_degradation__w00__p01",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "tillage",
+      "to_node": "soil_organic_matter",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "increase of respiration rates",
+      "passage_id": "srccl_ch4_land_degradation__w00__p03",
+      "strength_stated": "unstated"
+    }
+  ],
+  "_meta": {
+    "unit_id": "srccl_ch4_land_degradation__w00",
+    "doc_id": "ipcc2019_srccl",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 355,
+    "pdf_end": 366,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T08:50:32Z",
+    "pdf_sha256": "495468a71a1bf6c6"
+  }
+}

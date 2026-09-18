@@ -1,0 +1,265 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Associated biodiversity for habitat provisioning",
+  "content_type": "assessment",
+  "summary": "This assessment examines the role of biodiversity in habitat provisioning, noting that habitat services are products of whole ecosystems. It highlights the importance of forests, wetlands, and other ecosystems, and discusses monitoring efforts, including satellite technology, and the status of habitats in the European Union.",
+  "passages": [
+    {
+      "passage_id": "sowbfa_habitat__p01",
+      "heading_path": [
+        "4.3.9 Associated biodiversity for habitat provisioning",
+        "Introduction"
+      ],
+      "text": "A habitat is typically created and maintained via a wide range of interactions among and between abiotic structures and processes (climate, geology, etc.) and components of biodiversity. Habitat services are thus to a large extent products of whole ecosystems rather than of specific components within them.",
+      "page_start": 154,
+      "page_end": 154,
+      "topic": "habitat provisioning",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_habitat__p02",
+      "heading_path": [
+        "4.3.9 Associated biodiversity for habitat provisioning"
+      ],
+      "text": "The country reports note the importance of various components of BFA, mainly at ecosystem level, in habitat provisioning. Most frequently mentioned are forests, followed by marine and coastal ecosystems, such as mangroves and coral reefs, non-marine wetlands (including waterbodies such as lakes and rivers), mountains, grasslands and deserts.",
+      "page_start": 154,
+      "page_end": 154,
+      "topic": "habitat provisioning",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "sowbfa_habitat__p03",
+      "heading_path": [
+        "4.3.9 Associated biodiversity for habitat provisioning",
+        "Status and knowledge"
+      ],
+      "text": "Reports of positive trends predominate in forest production systems. In all fisheries and aquaculture systems, trends are mixed (i.e. neither positive nor negative nor stable trends predominate). Reports of negative trends predominate in crop and livestock systems, reflecting both the analysis of trends in major ecosystem categories presented below in Section 4.5 and the analysis of drivers of change presented in Chapter 3.",
+      "page_start": 155,
+      "page_end": 155,
+      "topic": "habitat trends",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "forest",
+        "rangeland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "sowbfa_habitat__p04",
+      "heading_path": [
+        "4.3.9 Associated biodiversity for habitat provisioning",
+        "Box 4.8 Trends in the state of habitats in the European Union"
+      ],
+      "text": "Only 16 percent of all habitat assessments undertaken in this round of reporting indicated a “favourable” status. Most found the status of ecosystems to be either “unfavourable – inadequate” (47 percent) or “unfavourable – bad” (30 percent).",
+      "page_start": 156,
+      "page_end": 156,
+      "topic": "habitat status",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "sowbfa_habitat__p05",
+      "heading_path": [
+        "4.3.9 Associated biodiversity for habitat provisioning",
+        "Box 4.8 Trends in the state of habitats in the European Union"
+      ],
+      "text": "Where trends are concerned, 30 percent of all assessed habitats fell into the “unfavourable – deteriorating” category and 33 percent into the “unfavourable – stable” category. Only 4 percent were classified as “unfavourable – improving”. Wetland habitats, followed by grasslands, were the categories for which the highest proportion of assessments indicated negative trends.",
+      "page_start": 156,
+      "page_end": 156,
+      "topic": "habitat trends",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "temperate"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "sowbfa_habitat__p06",
+      "heading_path": [
+        "4.3.10 Associated biodiversity for air-quality and climate regulation",
+        "Introduction"
+      ],
+      "text": "Plants, and in particular trees and shrubs, are the direct providers of this service, as they are able to trap particulate and gaseous pollutants from the surrounding air. Capacity to do this varies from species to species depending on characteristics such as leaf structure, size and growth rate, evergreen versus deciduous character, and pollution tolerance.",
+      "page_start": 157,
+      "page_end": 157,
+      "topic": "air quality regulation",
+      "practices": [],
+      "metrics": [
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_habitat__p07",
+      "heading_path": [
+        "4.3.10 Associated biodiversity for air-quality and climate regulation"
+      ],
+      "text": "Spain mentions the role of alfalfa (Medicago sativa) in crop systems, noting that crop rotations that include forage legumes reduce the use of fertilizers and therefore limit greenhouse-gas emissions.",
+      "page_start": 158,
+      "page_end": 158,
+      "topic": "climate regulation",
+      "practices": [
+        "crop_rotation"
+      ],
+      "metrics": [
+        "pollution_load"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "sowbfa_habitat__p08",
+      "heading_path": [
+        "4.3.10 Associated biodiversity for air-quality and climate regulation"
+      ],
+      "text": "The United States of America notes that the pollination activities of native wild bees maintain plant communities that provide valuable ecosystem services, including carbon sequestration.",
+      "page_start": 158,
+      "page_end": 158,
+      "topic": "climate regulation",
+      "practices": [],
+      "metrics": [
+        "carbon_sequestration_rate",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "sowbfa_habitat__c01",
+      "passage_id": "sowbfa_habitat__p04",
+      "subject": "habitat status",
+      "metric": "habitat_diversity",
+      "direction": "decrease",
+      "value": 77,
+      "unit": "percent",
+      "basis": "explicit",
+      "conditions": "European Union",
+      "evidence_span": "Most found the status of ecosystems to be either “unfavourable – inadequate” (47 percent) or “unfavourable – bad” (30 percent).",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_habitat__c02",
+      "passage_id": "sowbfa_habitat__p05",
+      "subject": "habitat trends",
+      "metric": "habitat_diversity",
+      "direction": "decrease",
+      "value": 30,
+      "unit": "percent",
+      "basis": "explicit",
+      "conditions": "European Union",
+      "evidence_span": "Where trends are concerned, 30 percent of all assessed habitats fell into the “unfavourable – deteriorating” category",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_habitat__c03",
+      "passage_id": "sowbfa_habitat__p07",
+      "subject": "crop rotations with forage legumes",
+      "metric": "pollution_load",
+      "direction": "decrease",
+      "basis": "explicit",
+      "conditions": "crop systems",
+      "evidence_span": "Spain mentions the role of alfalfa (Medicago sativa) in crop systems, noting that crop rotations that include forage legumes reduce the use of fertilizers and therefore limit greenhouse-gas emissions.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_habitat__c04",
+      "passage_id": "sowbfa_habitat__p08",
+      "subject": "native wild bees",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "basis": "explicit",
+      "evidence_span": "The United States of America notes that the pollination activities of native wild bees maintain plant communities that provide valuable ecosystem services, including carbon sequestration.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "crop rotations with forage legumes",
+      "to_node": "greenhouse-gas emissions",
+      "effect": "decrease",
+      "condition": "crop systems",
+      "mechanism": "reduce the use of fertilizers",
+      "passage_id": "sowbfa_habitat__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "native wild bees",
+      "to_node": "plant communities",
+      "effect": "increase",
+      "mechanism": "pollination activities",
+      "passage_id": "sowbfa_habitat__p08",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "plant communities",
+      "to_node": "carbon sequestration",
+      "effect": "increase",
+      "passage_id": "sowbfa_habitat__p08",
+      "strength_stated": "unstated"
+    }
+  ],
+  "_meta": {
+    "unit_id": "sowbfa_habitat",
+    "doc_id": "fao2019_sowbfa",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 198,
+    "pdf_end": 202,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T10:56:22Z",
+    "pdf_sha256": "935bfce9485f55ba",
+    "prompt_type": "assessment"
+  }
+}

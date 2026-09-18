@@ -1,0 +1,366 @@
+{
+  "extraction_status": "ok",
+  "section_title": "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+  "content_type": "assessment",
+  "summary": "This document unit covers the status and trends of land degradation, focusing on pesticide and trace element pollution, freshwater degradation, wetland loss, land-cover conversion, and dryland desertification processes including woody densification.",
+  "passages": [
+    {
+      "passage_id": "ipbes_ch4_status_trends__w03__p01",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS"
+      ],
+      "text": "Pesticides affect a range of soil processes, including decomposition of organic matter and infiltration of rainwater. Herbicides generally are less deleterious to soil organisms than insecticides and fungicides, but significantly reduce plant biodiversity. Insecticides and fungicides have greater effects on soil organisms than herbicides, especially copper-containing fungicides.",
+      "page_start": 254,
+      "page_end": 254,
+      "topic": "Pesticide impacts on soil",
+      "practices": [],
+      "metrics": [
+        "soil_biota",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w03__p02",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "Trace elements"
+      ],
+      "text": "Soils are contaminated with trace elements when concentrations are high enough to disrupt ecosystem services. Of the 78 naturally-occurring trace elements, contamination by arsenic, cadmium, chrome, copper, mercury, nickel, lead, selenium and zinc are of greatest environmental concern based on potential for human, wildlife and plant toxicity and the area affected. The loss of terrestrial primary productivity is likely the most significant impact.",
+      "page_start": 254,
+      "page_end": 254,
+      "topic": "Trace element contamination",
+      "practices": [],
+      "metrics": [
+        "biomass"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w03__p03",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.4.3 Freshwater pollution",
+        "Eutrophication"
+      ],
+      "text": "The combination of high levels of organic wastes and high nutrient levels leads to dramatic declines in oxygen owing to microbial respiration, with cascading ecosystem effects such as hypoxic “dead zones”, leading to declines in fisheries and other aquatic organisms that are the main source of protein for many people.",
+      "page_start": 255,
+      "page_end": 255,
+      "topic": "Eutrophication and aquatic ecosystems",
+      "practices": [],
+      "metrics": [
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w03__p04",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.5 Changes in hydrological regime",
+        "4.2.5.1 Freshwater degradation",
+        "Overview"
+      ],
+      "text": "Several types of land degradation can cause green water depletion. Reductions in soil organic matter and soil depth due to soil erosion directly reduce the soil water holding capacity.",
+      "page_start": 256,
+      "page_end": 256,
+      "topic": "Soil degradation and water holding capacity",
+      "practices": [],
+      "metrics": [
+        "soil_organic_matter",
+        "water_holding_capacity",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w03__p05",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.5 Changes in hydrological regime",
+        "4.2.5.1 Freshwater degradation",
+        "Overview"
+      ],
+      "text": "Degradation and reduction in vegetation cover (e.g., by agriculture, overgrazing, deforestation, or fire), exposes soil surfaces to raindrop impact, or creates physical surface crust layers that reduce infiltration rates by orders of magnitude. Increased runoff is the major cause of land degradation through gradual erosion and strongly through frequent flash floods generated by reduced vegetation cover.",
+      "page_start": 256,
+      "page_end": 256,
+      "topic": "Vegetation cover and runoff",
+      "practices": [],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "grassland",
+        "forest"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w03__p06",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.5 Changes in hydrological regime",
+        "4.2.5.1 Freshwater degradation",
+        "Groundwater regimes"
+      ],
+      "text": "Broadly, three semi-independent processes lead to the degradation of aquifers: (1) depletion of aquifer storage due to over-pumping and its effects in reducing both groundwater levels and freshwater availability to terrestrial and aquatic ecosystems, particularly during dry periods; (2) groundwater salinization when salts and nutrients are flushed from subsurface soils during recharge by rain or irrigation, and sometimes in upper estuaries when upstream freshwater inflows have been depleted and salt water intrusion occurs; (3) inputs of pollutions from point sources, such as urban and industrial wastes and chemicals, or from diffuse nonpoint sources, less concentrated but widespread, including nutrients and pesticides from agriculture.",
+      "page_start": 256,
+      "page_end": 256,
+      "topic": "Aquifer degradation",
+      "practices": [
+        "irrigation"
+      ],
+      "metrics": [
+        "salinity",
+        "nutrient_availability"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w03__p07",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.5 Changes in hydrological regime",
+        "4.2.5.2 Wetland loss",
+        "Impact on biodiversity, ecosystem process and function"
+      ],
+      "text": "A meta-analysis comparing restored and undisturbed wetlands found that wetland hydrological dynamics recovered to reference levels right after restoration happened. However, species richness and abundance, recovered to only 77% (on average) of reference values, even 100 years after restoration. After 50 to 100 years, restored wetlands recovered to an average of 74% of their biogeochemical functioning relative to reference wetlands. Nitrogen cycling was below reference levels for 30 years and carbon cycling was only 50% of the reference after 50 years.",
+      "page_start": 258,
+      "page_end": 258,
+      "topic": "Wetland restoration recovery",
+      "practices": [
+        "grassland_restoration"
+      ],
+      "metrics": [
+        "species_richness",
+        "nitrogen",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w03__p08",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.6.2 Drylands",
+        "Bush encroachment (woody densification)"
+      ],
+      "text": "Encroachment by bushes and small trees into formerly herbaceous rangeland (bush encroachment, woody densification) dramatically reduces grazing and hence livestock carrying capacity, habitat structure, biodiversity, fire regimes and hydrology. In extreme cases, this can reduce grazer carrying capacity by up to 90%.",
+      "page_start": 264,
+      "page_end": 264,
+      "topic": "Bush encroachment impacts",
+      "practices": [],
+      "metrics": [
+        "species_richness",
+        "habitat_diversity"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid"
+      ],
+      "land_use": [
+        "rangeland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "ipbes_ch4_status_trends__w03__p09",
+      "heading_path": [
+        "4. STATUS AND TRENDS OF LAND DEGRADATION AND RESTORATION AND ASSOCIATED CHANGES IN BIODIVERSITY AND ECOSYSTEM FUNCTIONS",
+        "4.2.6.2 Drylands",
+        "Bush encroachment (woody densification)"
+      ],
+      "text": "In the southwestern USA, in semi-arid and subhumid regions of >336 mm rainfall, encroachment has been shown to increase above-ground carbon sequestration by 0.7 g C m-2 yr-1 mm-1 rainfall and soil organic carbon gains averaged 385 g C m-2 yr-1. In arid regions (<336 mm), there were decreases in both above and below ground of 6,200 g C m-2.",
+      "page_start": 264,
+      "page_end": 264,
+      "topic": "Bush encroachment and carbon",
+      "practices": [],
+      "metrics": [
+        "SOC",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "arid",
+        "semi-arid",
+        "dry_sub_humid"
+      ],
+      "land_use": [
+        "rangeland"
+      ],
+      "content_role": "evidence"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ipbes_ch4_status_trends__w03__c01",
+      "passage_id": "ipbes_ch4_status_trends__w03__p01",
+      "subject": "Herbicides",
+      "metric": "species_richness",
+      "direction": "decrease",
+      "evidence_span": "Herbicides generally are less deleterious to soil organisms than insecticides and fungicides, but significantly reduce plant biodiversity.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w03__c02",
+      "passage_id": "ipbes_ch4_status_trends__w03__p04",
+      "subject": "Soil organic matter reduction",
+      "metric": "water_holding_capacity",
+      "direction": "decrease",
+      "evidence_span": "Reductions in soil organic matter (see Section 4.2.3.1) and soil depth due to soil erosion (see Section 4.2.1) directly reduce the soil water holding capacity.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w03__c03",
+      "passage_id": "ipbes_ch4_status_trends__w03__p07",
+      "subject": "Wetland restoration",
+      "metric": "species_richness",
+      "direction": "increase",
+      "value": 77,
+      "unit": "percent",
+      "basis": "high confidence",
+      "conditions": "100 years after restoration",
+      "time_horizon_years": 100,
+      "evidence_span": "However, species richness and abundance, recovered to only 77% (on average) of reference values, even 100 years after restoration.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w03__c04",
+      "passage_id": "ipbes_ch4_status_trends__w03__p08",
+      "subject": "Bush encroachment",
+      "metric": "species_richness",
+      "direction": "decrease",
+      "evidence_span": "Encroachment by bushes and small trees into formerly herbaceous rangeland (bush encroachment, woody densification) dramatically reduces grazing and hence livestock carrying capacity, habitat structure, biodiversity, fire regimes and hydrology.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w03__c05",
+      "passage_id": "ipbes_ch4_status_trends__w03__p09",
+      "subject": "Bush encroachment",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 385,
+      "unit": "g_kg",
+      "conditions": "semi-arid and subhumid regions >336 mm rainfall",
+      "evidence_span": "In the southwestern USA, in semi-arid and subhumid regions of >336 mm rainfall, encroachment has been shown to increase above-ground carbon sequestration by 0.7 g C m-2 yr-1 mm-1 rainfall and soil organic carbon gains averaged 385 g C m-2 yr-1.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "ipbes_ch4_status_trends__w03__c06",
+      "passage_id": "ipbes_ch4_status_trends__w03__p09",
+      "subject": "Bush encroachment",
+      "metric": "SOC",
+      "direction": "decrease",
+      "value": 6200,
+      "unit": "g_kg",
+      "conditions": "arid regions <336 mm rainfall",
+      "evidence_span": "In arid regions (<336 mm), there were decreases in both above and below ground of 6,200 g C m-2.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "herbicides",
+      "to_node": "species_richness",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch4_status_trends__w03__p01",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "soil_organic_matter",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "passage_id": "ipbes_ch4_status_trends__w03__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "soil_erosion",
+      "to_node": "water_holding_capacity",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch4_status_trends__w03__p04",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "vegetation_cover",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch4_status_trends__w03__p05",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "bush_encroachment",
+      "to_node": "species_richness",
+      "effect": "decrease",
+      "passage_id": "ipbes_ch4_status_trends__w03__p08",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "bush_encroachment",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "semi-arid and subhumid regions >336 mm rainfall",
+      "passage_id": "ipbes_ch4_status_trends__w03__p09",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "bush_encroachment",
+      "to_node": "SOC",
+      "effect": "decrease",
+      "condition": "arid regions <336 mm rainfall",
+      "passage_id": "ipbes_ch4_status_trends__w03__p09",
+      "strength_stated": "unstated"
+    }
+  ],
+  "_meta": {
+    "unit_id": "ipbes_ch4_status_trends__w03",
+    "doc_id": "ipbes2018_ldr",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.1-assessment",
+    "attempt": 1,
+    "pdf_start": 312,
+    "pdf_end": 323,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T09:14:19Z",
+    "pdf_sha256": "9c765d3d5497a5ff"
+  }
+}

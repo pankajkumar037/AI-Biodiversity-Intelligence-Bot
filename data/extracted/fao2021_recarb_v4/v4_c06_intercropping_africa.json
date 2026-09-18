@@ -1,0 +1,985 @@
+{
+  "extraction_status": "ok",
+  "section_title": "6. Intercropping grain legumes and cereals in Africa",
+  "content_type": "case_study",
+  "summary": "This study presents a meta-analysis of intercropping grain legumes and cereals in Africa, examining its impact on soil organic carbon (SOC) sequestration and other soil properties. The analysis, based on 73 comparisons from 18 studies, indicates that intercropping increased SOC concentration by approximately 15%. Legumes play a key role through nitrogen fixation, nutrient mobilization, and organic matter addition, leading to greater root biomass and improved soil quality. Intercropping also reduced soil erosion by about 46%. However, SOC accumulation varies with climate, soil type, and management practices. The study also touches upon other benefits like improved soil aggregate stability and porosity, and minimization of soil threats such as erosion, nutrient imbalance, acidification, biodiversity loss, and water management issues. Potential drawbacks include competition for resources and the need for careful species selection. The document also lists potential barriers to adoption, including cultural, economic, and knowledge-related factors.",
+  "passages": [
+    {
+      "passage_id": "v4_c06_intercropping_africa__p01",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa"
+      ],
+      "text": "A meta-analysis was conducted across Africa to quantify the extent of soil organic carbon (SOC) sequestration when intercropping grain legumes and cereals is used. Based on 73 pairs of comparisons between intercropping and its cereal monocropping control from 18 studies, intercropping increased SOC concentration by~15%. Through nitrogen (N2) fixation, mobilization of recalcitrant nutrients, and addition of organic material to the soil, legumes play a critical role in maintaining soil productivity in low-input farming systems. By adding diversity and N to the system, intercropping systems generate greater root biomass production. Carbon sequestration, which is enhanced by N2 fixation, can positively influence SOC accretion and soil quality over time. The C sequestration property of an intercropping system is further supported by intercrop's ability to reduce soil erosion by~46%, based on a meta-analysis of 10 and 13 data pairs from 6 studies, suggesting runoff and sediment reduction with intercropping (Daryanto et al., 2020). Variability of SOC stock, however, occurred with climate (e.g. dry or wet), soil (e.g. clay or sand), and management (e.g. with or without crop residue incorporation). Drier climate or sandier soils, for example, tends to accumulate lower SOC. We highlighted the advantage of adding legumes to cereal farming for maintaining soil fertility, a crucial foundation to achieving sustainable agricultural production.",
+      "page_start": 68,
+      "page_end": 68,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "SOC",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "v4_c06_intercropping_africa__p02",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa",
+        "2. Description of the regional case study"
+      ],
+      "text": "This study covers 18 studies from the following countries across continental Africa: Ghana, Kenya, Zimbabwe, the United Republic of Tanzania, Malawi, Nigeria, Swaziland, Niger, South Africa, Benin, Mali, and Ethiopia.",
+      "page_start": 68,
+      "page_end": 68,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v4_c06_intercropping_africa__p03",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa",
+        "4. Possibility of scaling up"
+      ],
+      "text": "The climate, based on Intergovernmental Panel on Climate Change (IPCC) climate zone, range from a warm temperate dry climate, with mean annual rainfall (MAP) of 570 mm to tropical moist, with a MAP of 1200 mm.",
+      "page_start": 69,
+      "page_end": 69,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "temperate",
+        "tropical"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v4_c06_intercropping_africa__p04",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa",
+        "5. Impact on soil organic carbon stocks"
+      ],
+      "text": "In Africa, intercropping increased SOC concentration by~15% compared to sole cropping (monocropping) (Daryanto et al., 2020). Our meta-analysis also suggested a significantly much higher increase in SOC concentration (35%) when cereal plants did not receive N fertilizer compared with those receiving N fertilizer (6%). Nitrogen fixation is generally suppressed by high availability of mineral N (Pelzer et al., 2014), which could influence the overall performance of the intercropping system. The ability of intercropping system to accrue SOC without supplementary N to the cereal crops would therefore be its paramount property to improve soil quality in Africa.",
+      "page_start": 69,
+      "page_end": 69,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping",
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c06_intercropping_africa__p05",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa",
+        "5. Impact on soil organic carbon stocks"
+      ],
+      "text": "But since very few studies reported their bulk density, here we reported site-specific examples (Table 25) of SOC stock in predominantly sandy soils (clay content <15%) of different African regions whose bulk density ranged from 1.2 g/cm³ to 1.68 g/cm³ across depths (up to 30 cm). Taken an example by Kombiok and Clottey (2003), SOC stock was calculated by multiplying SOC concentration with its bulk density. The SOC concentration is 0.77% (7.7 g SOC/kg soil) in the intercropping and 0.52% (5.2 g SOC/kg soil) in the monocropping system; both are in the top 20 cm of soil. With bulk density of 1.45 g/cm³ (Baba et al., 2013), we obtained an SOC stock of 22.4 t/ha (intercrop) and 15.0 t/ha (monocrop) over two years. Subtracting 15 t/ha from 22.4 t/ha and dividing the number by two results in a sequestration rate of 3.7 tC/ha/yr. This number is considered very high; the incorporation of legume (mucuna) biomass might be responsible for such result.",
+      "page_start": 69,
+      "page_end": 69,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c06_intercropping_africa__p06",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa",
+        "5. Impact on soil organic carbon stocks"
+      ],
+      "text": "Except for the study by Kombiok and Clottey (2003) above, the potential annual SOC stock accrual in other studies ranged from 0.3 to 1.3 tC/ha/yr where no fertilizer N was applied (Table 25). This range is similar to a global study indicates that in western-central (e.g. Benin, Nigeria, Mali, Ghana), and east-southern Africa (e.g. Kenya, South Africa), the annual increase of SOC is around 0.58-1.19, 0.55-1.13 tC/ha/yr under medium- high sequestration scenarios (Zomer et al., 2017).",
+      "page_start": 69,
+      "page_end": 69,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping",
+        "integrated_nutrient_mgmt"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c06_intercropping_africa__p07",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa",
+        "5. Impact on soil organic carbon stocks"
+      ],
+      "text": "In another example, we found SOC declines despite the application of intercropping (Swanepoel et al., 2018). Sandy soils and erratic rainfall usually foster C decomposition, and in cases where SOC declines are observed, it is likely that easily decomposable legume residues stimulates the mineralization of SOC (Barthès et al., 2004). Intercropping also cannot immediately offset the loss of SOC when native lands are converted into cultivated lands. In contrast, higher-than-average rainfall that can happen during an experimental period can promote crop growth, generating higher-than-average SOC accumulation.",
+      "page_start": 69,
+      "page_end": 69,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland",
+        "degraded_land"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c06_intercropping_africa__p08",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa",
+        "5. Other benefits of the practice",
+        "5.1. Improvement of soil properties"
+      ],
+      "text": "There is evidence showing that compared to monocropping, intercropping increases in soil aggregate stability and porosity, increases root biomass, exudates production, and mycorrhizal colonization (Mathan, 1989).",
+      "page_start": 71,
+      "page_end": 71,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "soil_organic_matter",
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c06_intercropping_africa__p09",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa",
+        "5. Other benefits of the practice",
+        "5.2 Minimization of threats to soil functions"
+      ],
+      "text": "Intercropping can reduce runoff and erosion as there are more cover that intercepts the kinetic energy of rainfall and protect soil aggregates (Nyawade et al., 2018).",
+      "page_start": 71,
+      "page_end": 71,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c06_intercropping_africa__p10",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa",
+        "5. Other benefits of the practice",
+        "5.2 Minimization of threats to soil functions"
+      ],
+      "text": "Legume residues are relatively rich in N with low C:N ratio, favoring rapid decomposition and subsequent release of N. Some legumes can to mobilize recalcitrant forms of P (Franke et al., 2018) and increase the availability of K, Fe, Zn, and Mn (Inal et al., 2007; Li et al., 2014).",
+      "page_start": 71,
+      "page_end": 71,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "nutrient_availability",
+        "nitrogen"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "v4_c06_intercropping_africa__p11",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa",
+        "5. Other benefits of the practice",
+        "5.2 Minimization of threats to soil functions"
+      ],
+      "text": "While legume can induce soil acidification, a decline in soil pH should be less of a concern in combination with cereal. Moreover, decomposition of legume residues help to increase pH (Tang and Yu, 1999).",
+      "page_start": 71,
+      "page_end": 71,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "pH"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "v4_c06_intercropping_africa__p12",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa",
+        "5. Other benefits of the practice",
+        "5.2 Minimization of threats to soil functions"
+      ],
+      "text": "Intercropping can increase soil biodiversity as plant diversity determines of soil biodiversity (biodiversity begets biodiversity) (Eisenhauer, 2016).",
+      "page_start": 71,
+      "page_end": 71,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "soil_biota",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c06_intercropping_africa__p13",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa",
+        "5. Other benefits of the practice",
+        "5.2 Minimization of threats to soil functions"
+      ],
+      "text": "Intercropping confers resiliency to rainfall variability as suggested by the lack of LER (land equivalent ratio) difference between wet and dry years (Daryanto et al., 2020). Double vegetative layer improves the proportion of soil water transpired compared to the evaporative demand from soils. Some cereals (e.g., sorghum or pearl millet) uses water and intercepted solar radiation more efficiently when water is limited (Runkulatile et al., 1998). Pigeon pea can even supply water to the intercropped maize via hydraulic lift, a process that can be further enhanced when the pigeon pea is shaded (Sekiya and Yano, 2004).",
+      "page_start": 71,
+      "page_end": 71,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "soil_moisture"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "v4_c06_intercropping_africa__p14",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa",
+        "5.3 Increases in production (e.g. food/fuel/feed/timber)"
+      ],
+      "text": "Intercropping grain legumes and cereals do not guarantee a transgressive overyielding (i.e., total yield of the intercrop is greater than the highest yield among the sole crop). However, we might expect an increase in cereal productivity (when additive density is used) with a generally positive relationship between cereal yields and cereal PLER (partial Land Equivalent Ratio) (Daryanto et al., 2020).",
+      "page_start": 72,
+      "page_end": 72,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c06_intercropping_africa__p15",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa",
+        "5.4 Socio-economic benefits"
+      ],
+      "text": "Both labor and variable costs are higher in the intercropping than monocropping system as farmers need to purchase and plant legume seeds. Selecting grain legumes that can be ratooned, such as pigeon pea can minimize such cost while farmers can safeguard their household food availability and income while providing diverse food sources (Rusinamhodzi, Makoko and Sariah, 2017). But in areas where Striga dominates, the integration of Desmodium to intercropped cereals and grain legumes is highly recommended to gain the most benefits from intercropping. It can increase revenue to farmers by ~ 78 percent per growing season, with only ~ 10 percent of an additional cost (both labor and variable cost) (Khan et al., 2009).",
+      "page_start": 72,
+      "page_end": 72,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "v4_c06_intercropping_africa__p16",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa",
+        "6.2 Decreases in production (food/fuel/feed/timber/fibre)"
+      ],
+      "text": "There are possibilities of competition for resources (e.g. water, light), which may influence yield. For example, when pearl millet is intercropped with cowpea, they share the same rooting depth and have overlapped canopy architecture (Nelson et al., 2018).",
+      "page_start": 73,
+      "page_end": 73,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [
+        "crop_yield"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c06_intercropping_africa__p17",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa",
+        "7. Recommendations before implementing the practice"
+      ],
+      "text": "Although in general intercropping is beneficial for soil, the extent of SOC accumulation is affected by management (e.g. no-tillage, residue incorporation), climate and soil type. Inadequate plant biomass often becomes the factor leading to SOC declines despite intercropping practice, as opposed to higher-than-average rainfall that supports biomass production (Naab et al., 2017; Swanepoel et al., 2018).",
+      "page_start": 73,
+      "page_end": 73,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping",
+        "no_till",
+        "reduced_tillage"
+      ],
+      "metrics": [
+        "SOC"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "context"
+    },
+    {
+      "passage_id": "v4_c06_intercropping_africa__p18",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa",
+        "8. Potential barriers for adoption"
+      ],
+      "text": "Preference for grain legumes varied between locations in Africa and factors such as grain characteristics and farmers' culinary preferences need to be considered if a new species to be introduced (Schulz et al., 2003)",
+      "page_start": 73,
+      "page_end": 73,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c06_intercropping_africa__p19",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa",
+        "8. Potential barriers for adoption"
+      ],
+      "text": "Both labor and variable costs are higher in the intercropping than monocropping system as farmers need to purchase and plant legume seeds (Khan et al., 2009).",
+      "page_start": 73,
+      "page_end": 73,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c06_intercropping_africa__p20",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa",
+        "8. Potential barriers for adoption"
+      ],
+      "text": "Education and proximity to extension services contributed significantly to farmers' knowledge, suggesting continuous training and capacity building are essential for achieving sustainable farming management (Abtew et al., 2016).",
+      "page_start": 73,
+      "page_end": 73,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    },
+    {
+      "passage_id": "v4_c06_intercropping_africa__p21",
+      "heading_path": [
+        "6. Intercropping grain legumes and cereals in Africa",
+        "8. Potential barriers for adoption"
+      ],
+      "text": "Farmers rely on local market for seed, which can be a barrier for initial cropping season (McGuire and Sperling, 2016)",
+      "page_start": 73,
+      "page_end": 73,
+      "topic": "Intercropping",
+      "practices": [
+        "intercropping"
+      ],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "constraint"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "v4_c06_intercropping_africa__c01",
+      "passage_id": "v4_c06_intercropping_africa__p01",
+      "subject": "intercropping",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 15.0,
+      "unit": "percent",
+      "basis": "concentration",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "intercropping increased SOC concentration by~15%",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c02",
+      "passage_id": "v4_c06_intercropping_africa__p01",
+      "subject": "intercropping",
+      "metric": "erosion",
+      "direction": "decrease",
+      "value": 46.0,
+      "unit": "percent",
+      "basis": null,
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "intercrop's ability to reduce soil erosion by~46%",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c03",
+      "passage_id": "v4_c06_intercropping_africa__p04",
+      "subject": "intercropping",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 15.0,
+      "unit": "percent",
+      "basis": "concentration",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "intercropping increased SOC concentration by~15%",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c04",
+      "passage_id": "v4_c06_intercropping_africa__p04",
+      "subject": "intercropping (without N fertilizer)",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 35.0,
+      "unit": "percent",
+      "basis": "concentration",
+      "conditions": "cereal plants did not receive N fertilizer",
+      "time_horizon_years": null,
+      "evidence_span": "significantly much higher increase in SOC concentration (35%) when cereal plants did not receive N fertilizer",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c05",
+      "passage_id": "v4_c06_intercropping_africa__p04",
+      "subject": "intercropping (with N fertilizer)",
+      "metric": "SOC",
+      "direction": "increase",
+      "value": 6.0,
+      "unit": "percent",
+      "basis": "concentration",
+      "conditions": "receiving N fertilizer",
+      "time_horizon_years": null,
+      "evidence_span": "compared with those receiving N fertilizer (6%)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c06",
+      "passage_id": "v4_c06_intercropping_africa__p05",
+      "subject": "intercropping",
+      "metric": "SOC",
+      "direction": "increase",
+      "value_low": 15.0,
+      "value_high": 22.4,
+      "unit": "t_ha",
+      "basis": "stock",
+      "conditions": "sandy soils (clay content <15%)",
+      "time_horizon_years": 2,
+      "evidence_span": "we obtained an SOC stock of 22.4 t/ha (intercrop)",
+      "confidence_in_extraction": "derived"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c07",
+      "passage_id": "v4_c06_intercropping_africa__p05",
+      "subject": "monocropping",
+      "metric": "SOC",
+      "direction": "increase",
+      "value_low": 15.0,
+      "value_high": 15.0,
+      "unit": "t_ha",
+      "basis": "stock",
+      "conditions": "sandy soils (clay content <15%)",
+      "time_horizon_years": 2,
+      "evidence_span": "and 15.0 t/ha (monocrop) over two years",
+      "confidence_in_extraction": "derived"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c08",
+      "passage_id": "v4_c06_intercropping_africa__p05",
+      "subject": "intercropping",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "value": 3.7,
+      "unit": "t_ha",
+      "basis": null,
+      "conditions": "sandy soils (clay content <15%)",
+      "time_horizon_years": 1,
+      "evidence_span": "Subtracting 15 t/ha from 22.4 t/ha and dividing the number by two results in a sequestration rate of 3.7 tC/ha/yr",
+      "confidence_in_extraction": "derived"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c09",
+      "passage_id": "v4_c06_intercropping_africa__p06",
+      "subject": "intercropping",
+      "metric": "SOC",
+      "direction": "increase",
+      "value_low": 0.3,
+      "value_high": 1.3,
+      "unit": "t_ha",
+      "basis": "stock accrual",
+      "conditions": "no fertilizer N was applied",
+      "time_horizon_years": 1,
+      "evidence_span": "the potential annual SOC stock accrual in other studies ranged from 0.3 to 1.3 tC/ha/yr where no fertilizer N was applied",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c10",
+      "passage_id": "v4_c06_intercropping_africa__p06",
+      "subject": "intercropping",
+      "metric": "SOC",
+      "direction": "increase",
+      "value_low": 0.55,
+      "value_high": 1.19,
+      "unit": "t_ha",
+      "basis": "annual increase",
+      "conditions": "medium-high sequestration scenarios",
+      "time_horizon_years": 1,
+      "evidence_span": "the annual increase of SOC is around 0.58-1.19, 0.55-1.13 tC/ha/yr under medium- high sequestration scenarios",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c11",
+      "passage_id": "v4_c06_intercropping_africa__p07",
+      "subject": "intercropping",
+      "metric": "SOC",
+      "direction": "decrease",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "we found SOC declines despite the application of intercropping",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c12",
+      "passage_id": "v4_c06_intercropping_africa__p08",
+      "subject": "intercropping",
+      "metric": "soil_organic_matter",
+      "direction": "increase",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "intercropping increases in soil aggregate stability and porosity",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c13",
+      "passage_id": "v4_c06_intercropping_africa__p09",
+      "subject": "intercropping",
+      "metric": "erosion",
+      "direction": "decrease",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Intercropping can reduce runoff and erosion",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c14",
+      "passage_id": "v4_c06_intercropping_africa__p10",
+      "subject": "legume residues",
+      "metric": "nutrient_availability",
+      "direction": "increase",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "mobilize recalcitrant forms of P (Franke et al., 2018) and increase the availability of K, Fe, Zn, and Mn",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c15",
+      "passage_id": "v4_c06_intercropping_africa__p11",
+      "subject": "decomposition of legume residues",
+      "metric": "pH",
+      "direction": "increase",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "decomposition of legume residues help to increase pH",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c16",
+      "passage_id": "v4_c06_intercropping_africa__p12",
+      "subject": "intercropping",
+      "metric": "soil_biota",
+      "direction": "increase",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Intercropping can increase soil biodiversity",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c17",
+      "passage_id": "v4_c06_intercropping_africa__p12",
+      "subject": "intercropping",
+      "metric": "species_richness",
+      "direction": "increase",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "as plant diversity determines of soil biodiversity",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c18",
+      "passage_id": "v4_c06_intercropping_africa__p13",
+      "subject": "intercropping",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "conditions": null,
+      "time_horizon_years": null,
+      "evidence_span": "Double vegetative layer improves the proportion of soil water transpired compared to the evaporative demand from soils",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c19",
+      "passage_id": "v4_c06_intercropping_africa__p14",
+      "subject": "intercropping",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "conditions": "additive density is used",
+      "time_horizon_years": null,
+      "evidence_span": "we might expect an increase in cereal productivity (when additive density is used)",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c20",
+      "passage_id": "v4_c06_intercropping_africa__p15",
+      "subject": "integration of Desmodium",
+      "metric": "crop_yield",
+      "direction": "increase",
+      "value": 78.0,
+      "unit": "percent",
+      "basis": "revenue",
+      "conditions": "areas where Striga dominates",
+      "time_horizon_years": null,
+      "evidence_span": "It can increase revenue to farmers by ~ 78 percent per growing season",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c21",
+      "passage_id": "v4_c06_intercropping_africa__p16",
+      "subject": "intercropping",
+      "metric": "crop_yield",
+      "direction": "decrease",
+      "conditions": "competition for resources (e.g. water, light)",
+      "time_horizon_years": null,
+      "evidence_span": "competition for resources (e.g. water, light), which may influence yield",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "v4_c06_intercropping_africa__c22",
+      "passage_id": "v4_c06_intercropping_africa__p17",
+      "subject": "intercropping",
+      "metric": "SOC",
+      "direction": "decrease",
+      "conditions": "Inadequate plant biomass",
+      "time_horizon_years": null,
+      "evidence_span": "Inadequate plant biomass often becomes the factor leading to SOC declines despite intercropping practice",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "intercropping",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "nitrogen fixation, mobilization of recalcitrant nutrients, addition of organic material",
+      "passage_id": "v4_c06_intercropping_africa__p01",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "more cover intercepts kinetic energy of rainfall and protects soil aggregates",
+      "passage_id": "v4_c06_intercropping_africa__p01",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "nitrogen fixation",
+      "passage_id": "v4_c06_intercropping_africa__p04",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "cereal plants did not receive N fertilizer",
+      "mechanism": "nitrogen fixation",
+      "passage_id": "v4_c06_intercropping_africa__p04",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "receiving N fertilizer",
+      "mechanism": null,
+      "passage_id": "v4_c06_intercropping_africa__p04",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "sandy soils (clay content <15%)",
+      "mechanism": "incorporation of legume biomass",
+      "passage_id": "v4_c06_intercropping_africa__p05",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "SOC",
+      "effect": "increase",
+      "condition": "no fertilizer N was applied",
+      "mechanism": null,
+      "passage_id": "v4_c06_intercropping_africa__p06",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "SOC",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "easily decomposable legume residues stimulates mineralization",
+      "passage_id": "v4_c06_intercropping_africa__p07",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "soil_organic_matter",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c06_intercropping_africa__p08",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "erosion",
+      "effect": "decrease",
+      "condition": null,
+      "mechanism": "more cover intercepts kinetic energy of rainfall and protects soil aggregates",
+      "passage_id": "v4_c06_intercropping_africa__p09",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "legume residues",
+      "to_node": "nutrient_availability",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "rich in N with low C:N ratio, favoring rapid decomposition and subsequent release of N",
+      "passage_id": "v4_c06_intercropping_africa__p10",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "decomposition of legume residues",
+      "to_node": "pH",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": null,
+      "passage_id": "v4_c06_intercropping_africa__p11",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "soil_biota",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "plant diversity",
+      "passage_id": "v4_c06_intercropping_africa__p12",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "species_richness",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "plant diversity",
+      "passage_id": "v4_c06_intercropping_africa__p12",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "condition": null,
+      "mechanism": "double vegetative layer improves proportion of soil water transpired",
+      "passage_id": "v4_c06_intercropping_africa__p13",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": "additive density is used",
+      "mechanism": null,
+      "passage_id": "v4_c06_intercropping_africa__p14",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "integration of Desmodium",
+      "to_node": "crop_yield",
+      "effect": "increase",
+      "condition": "areas where Striga dominates",
+      "mechanism": null,
+      "passage_id": "v4_c06_intercropping_africa__p15",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "crop_yield",
+      "effect": "decrease",
+      "condition": "competition for resources (e.g. water, light)",
+      "mechanism": null,
+      "passage_id": "v4_c06_intercropping_africa__p16",
+      "strength_stated": "moderate"
+    },
+    {
+      "from_node": "intercropping",
+      "to_node": "SOC",
+      "effect": "decrease",
+      "condition": "Inadequate plant biomass",
+      "mechanism": null,
+      "passage_id": "v4_c06_intercropping_africa__p17",
+      "strength_stated": "moderate"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "v4_c06_intercropping_africa",
+    "doc_id": "fao2021_recarb_v4",
+    "model": "gemini-2.5-flash-lite",
+    "prompt_version": "v1.0",
+    "attempt": 1,
+    "pdf_start": 92,
+    "pdf_end": 101,
+    "manifest_practices": [
+      "intercropping"
+    ],
+    "manifest_climate_zones": [
+      "semi-arid"
+    ],
+    "extracted_at": "2026-09-18T08:31:25Z",
+    "pdf_sha256": "cc7a6dba8b35d190"
+  }
+}

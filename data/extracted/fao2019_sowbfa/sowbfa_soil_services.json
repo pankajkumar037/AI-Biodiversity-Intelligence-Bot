@@ -1,0 +1,308 @@
+{
+  "extraction_status": "ok",
+  "section_title": "Associated biodiversity for soil-related ecosystem services",
+  "content_type": "assessment",
+  "summary": "This assessment details the role of soil biodiversity in ecosystem services, including nutrient cycling, soil formation, and water regulation. It highlights that while soil biota are vital for these processes, knowledge of their status is limited and monitoring is inconsistent globally. Major threats include land-use change, pollution, and climate change.",
+  "passages": [
+    {
+      "passage_id": "sowbfa_soil_services__p01",
+      "heading_path": [
+        "4.3.6 Associated biodiversity for soil-related ecosystem services",
+        "Introduction"
+      ],
+      "text": "These organisms are vital to a range of processes that build and maintain the capacity of the soil to support plant growth, regulate water flows and store carbon. All these functions depend on complex webs of interactions between different functional and taxonomic groups of soil organisms.",
+      "page_start": 140,
+      "page_end": 140,
+      "topic": "soil biodiversity functions",
+      "practices": [],
+      "metrics": [
+        "soil_biota",
+        "carbon_sequestration_rate"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_soil_services__p02",
+      "heading_path": [
+        "4.3.6 Associated biodiversity for soil-related ecosystem services",
+        "Introduction"
+      ],
+      "text": "Plants and above-ground animals also contribute, for example by supplying nutrient inputs or protecting the soil against erosion.",
+      "page_start": 140,
+      "page_end": 140,
+      "topic": "soil protection",
+      "practices": [],
+      "metrics": [
+        "nutrient_availability",
+        "erosion"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_soil_services__p03",
+      "heading_path": [
+        "4.3.6 Associated biodiversity for soil-related ecosystem services",
+        "Introduction"
+      ],
+      "text": "The country reports generally indicate that knowledge of the biodiversity that contributes to soil formation and protection and to nutrient cycling in production systems is limited and that trends in the status of these resources are not monitored.",
+      "page_start": 141,
+      "page_end": 141,
+      "topic": "monitoring status",
+      "practices": [],
+      "metrics": [],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "cropland"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "sowbfa_soil_services__p04",
+      "heading_path": [
+        "4.3.6 Associated biodiversity for soil-related ecosystem services",
+        "Status and trends"
+      ],
+      "text": "Among the ten factors identified as major threats to the continued provision of soil ecosystem services, the loss of soil biodiversity is listed as the fourth most important, after soil erosion, organic-carbon decline and nutrient imbalance.",
+      "page_start": 143,
+      "page_end": 143,
+      "topic": "threats to soil services",
+      "practices": [],
+      "metrics": [
+        "soil_organic_matter",
+        "nutrient_availability",
+        "erosion"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "risk"
+    },
+    {
+      "passage_id": "sowbfa_soil_services__p05",
+      "heading_path": [
+        "4.3.6 Associated biodiversity for soil-related ecosystem services",
+        "Status and trends"
+      ],
+      "text": "Many indicators of soil health are in decline and ecosystem services provided by soils are under severe threat.",
+      "page_start": 143,
+      "page_end": 143,
+      "topic": "soil health status",
+      "practices": [],
+      "metrics": [
+        "soil_organic_matter"
+      ],
+      "climate_zones": [
+        "global"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "description"
+    },
+    {
+      "passage_id": "sowbfa_soil_services__p06",
+      "heading_path": [
+        "4.3.6 Associated biodiversity for soil-related ecosystem services",
+        "Status and trends"
+      ],
+      "text": "El Salvador, which notes large-scale soil erosion associated with loss of forest cover and mentions that this has been accompanied by loss of soil invertebrates and micro-organisms.",
+      "page_start": 146,
+      "page_end": 146,
+      "topic": "drivers of soil biodiversity loss",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "soil_biota"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "forest"
+      ],
+      "content_role": "evidence"
+    },
+    {
+      "passage_id": "sowbfa_soil_services__p07",
+      "heading_path": [
+        "4.3.7 Associated biodiversity for water-related ecosystem services",
+        "Introduction"
+      ],
+      "text": "Vegetation promotes the infiltration of water into the soil, thus helping to recharge underground aquifers and lowering flood risk. Soil biota – plants, micro-organisms and invertebrate and vertebrate animals – modifies the structure of the soil and affects the pathways and rates of water infiltration, influencing the capacity of the soil to hold water.",
+      "page_start": 148,
+      "page_end": 148,
+      "topic": "water regulation",
+      "practices": [],
+      "metrics": [
+        "soil_moisture",
+        "water_holding_capacity"
+      ],
+      "climate_zones": [
+        "unstated"
+      ],
+      "land_use": [
+        "unstated"
+      ],
+      "content_role": "mechanism"
+    },
+    {
+      "passage_id": "sowbfa_soil_services__p08",
+      "heading_path": [
+        "4.3.7 Associated biodiversity for water-related ecosystem services",
+        "Box 4.7 Páramos – a vital provider of water-regulating services under threat"
+      ],
+      "text": "The report from Peru states that the country’s páramos are undergoing a process of transformation, desertification and erosion, mainly as a result of overgrazing, extractive activities, intensive agriculture and pollution. It notes that this is directly affecting the ecosystem’s capacity to moderate extreme events, prevent erosion, maintain soil fertility and maintain genetic diversity.",
+      "page_start": 149,
+      "page_end": 149,
+      "topic": "páramo ecosystem services",
+      "practices": [],
+      "metrics": [
+        "erosion",
+        "nutrient_availability",
+        "species_richness"
+      ],
+      "climate_zones": [
+        "arid"
+      ],
+      "land_use": [
+        "rangeland",
+        "cropland"
+      ],
+      "content_role": "risk"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "sowbfa_soil_services__c01",
+      "passage_id": "sowbfa_soil_services__p01",
+      "subject": "soil organisms",
+      "metric": "carbon_sequestration_rate",
+      "direction": "increase",
+      "evidence_span": "These organisms are vital to a range of processes that build and maintain the capacity of the soil to support plant growth, regulate water flows and store carbon.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_soil_services__c02",
+      "passage_id": "sowbfa_soil_services__p06",
+      "subject": "loss of forest cover",
+      "metric": "erosion",
+      "direction": "increase",
+      "evidence_span": "El Salvador, which notes large-scale soil erosion associated with loss of forest cover",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_soil_services__c03",
+      "passage_id": "sowbfa_soil_services__p06",
+      "subject": "loss of forest cover",
+      "metric": "soil_biota",
+      "direction": "decrease",
+      "evidence_span": "El Salvador, which notes large-scale soil erosion associated with loss of forest cover and mentions that this has been accompanied by loss of soil invertebrates and micro-organisms.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_soil_services__c04",
+      "passage_id": "sowbfa_soil_services__p07",
+      "subject": "vegetation",
+      "metric": "soil_moisture",
+      "direction": "increase",
+      "evidence_span": "Vegetation promotes the infiltration of water into the soil, thus helping to recharge underground aquifers and lowering flood risk.",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_soil_services__c05",
+      "passage_id": "sowbfa_soil_services__p07",
+      "subject": "soil biota",
+      "metric": "water_holding_capacity",
+      "direction": "increase",
+      "evidence_span": "Soil biota – plants, micro-organisms and invertebrate and vertebrate animals – modifies the structure of the soil and affects the pathways and rates of water infiltration, influencing the capacity of the soil to hold water",
+      "confidence_in_extraction": "explicit"
+    },
+    {
+      "claim_id": "sowbfa_soil_services__c06",
+      "passage_id": "sowbfa_soil_services__p08",
+      "subject": "overgrazing, extractive activities, intensive agriculture and pollution",
+      "metric": "erosion",
+      "direction": "increase",
+      "evidence_span": "the report from Peru states that the country’s páramos are undergoing a process of transformation, desertification and erosion, mainly as a result of overgrazing, extractive activities, intensive agriculture and pollution.",
+      "confidence_in_extraction": "explicit"
+    }
+  ],
+  "links": [
+    {
+      "from_node": "soil organisms",
+      "to_node": "carbon_sequestration_rate",
+      "effect": "increase",
+      "passage_id": "sowbfa_soil_services__p01",
+      "strength_stated": "strong"
+    },
+    {
+      "from_node": "loss of forest cover",
+      "to_node": "erosion",
+      "effect": "increase",
+      "passage_id": "sowbfa_soil_services__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "loss of forest cover",
+      "to_node": "soil_biota",
+      "effect": "decrease",
+      "passage_id": "sowbfa_soil_services__p06",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "vegetation",
+      "to_node": "soil_moisture",
+      "effect": "increase",
+      "mechanism": "infiltration",
+      "passage_id": "sowbfa_soil_services__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "soil biota",
+      "to_node": "water_holding_capacity",
+      "effect": "increase",
+      "mechanism": "modifying soil structure",
+      "passage_id": "sowbfa_soil_services__p07",
+      "strength_stated": "unstated"
+    },
+    {
+      "from_node": "overgrazing, extractive activities, intensive agriculture and pollution",
+      "to_node": "erosion",
+      "effect": "increase",
+      "passage_id": "sowbfa_soil_services__p08",
+      "strength_stated": "unstated"
+    }
+  ],
+  "practice_profile": null,
+  "_meta": {
+    "unit_id": "sowbfa_soil_services",
+    "doc_id": "fao2019_sowbfa",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "v1.2-p1",
+    "attempt": 1,
+    "pdf_start": 184,
+    "pdf_end": 193,
+    "manifest_practices": [],
+    "manifest_climate_zones": [],
+    "extracted_at": "2026-09-18T10:55:51Z",
+    "pdf_sha256": "09882b726f270a15",
+    "prompt_type": "assessment"
+  }
+}
