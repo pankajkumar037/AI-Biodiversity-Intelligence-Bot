@@ -257,7 +257,7 @@
   }
 
   // ── answer parsing and reveal ──────────────────────────────────
-  const HEADERS = ["SITE", "DIAGNOSIS", "RECOMMENDED", "DOWNGRADED", "EXCLUDED", "REASONING", "REVIEW", "CONFIDENCE", "SOURCES", "WHAT CHANGED", "NOTES"];
+  const HEADERS = ["ANSWER", "SITE", "DIAGNOSIS", "RECOMMENDED", "DOWNGRADED", "EXCLUDED", "REASONING", "REVIEW", "CONFIDENCE", "SOURCES", "WHAT CHANGED", "NOTES"];
   function parse(text) {
     const secs = []; let cur = null;
     for (const line of (text || "").split("\n")) {
@@ -275,6 +275,7 @@
   function sectionEl(s) {
     const d = document.createElement("div");
     switch (s.h) {
+      case "ANSWER": d.className = "lead"; d.textContent = [s.inline, ...s.body].join(" ").trim(); break;
       case "SITE": d.className = "diag"; d.innerHTML = `<span class="lbl">site</span>${chipsFromPipe(s.inline, "")}`; break;
       case "DIAGNOSIS": {
         const [flags, patterns] = s.inline.split(" | patterns: ");

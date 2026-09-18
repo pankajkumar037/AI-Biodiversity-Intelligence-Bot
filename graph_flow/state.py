@@ -25,10 +25,16 @@ def merge_profile(old: dict[str, dict], new: dict[str, dict]) -> dict[str, dict]
     return merged
 
 
-def merge_trace(old: dict[str, Any], new: dict[str, Any]) -> dict[str, Any]:
-    """The trace is built up a section at a time as the pipeline runs."""
+def merge_trace(old: dict[str, Any], new: dict[str, Any] | None) -> dict[str, Any]:
+    """The trace is built up a section at a time as the pipeline runs; None clears it.
+
+    A trace belongs to one turn. Left in the checkpoint, last turn's diagnosis and
+    verification would show under an explain turn that ran neither.
+    """
+    if new is None:
+        return {}
     merged = dict(old or {})
-    merged.update(new or {})
+    merged.update(new)
     return merged
 
 

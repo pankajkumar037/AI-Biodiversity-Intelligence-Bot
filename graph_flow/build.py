@@ -220,6 +220,7 @@ def _turn_state(session_id: str, message: str, profile_patch: dict[str, Any] | N
         "question": None,
         "warnings": None,
         "what_if_baseline": None,
+        "trace": None,
     }
     if profile_patch:
         state["profile"] = as_fields(profile_patch, FieldSource.user, turn)
