@@ -46,7 +46,7 @@ def gemini_api_key() -> str:
 # Flash-Lite does extraction, classification, query rewriting and judging.
 # Flash does the single reasoning call. Never hardcode these elsewhere.
 FAST_MODEL = "gemini-2.5-flash-lite"
-REASONING_MODEL = "gemini-2.5-flash"
+REASONING_MODEL = "gemini-2.5-flash-lite"
 EMBED_MODEL = "gemini-embedding-001"
 EMBED_DIM = 768
 EMBED_TASK_DOCUMENT = "RETRIEVAL_DOCUMENT"
