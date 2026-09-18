@@ -15,9 +15,11 @@ from generation import adjudicate as adjudicate_mod
 from generation import render as render_mod
 from graph_flow.state import AgentState, as_fields, profile_values, to_profile
 from intake import extract, geo, normalize
+from knowledge import loader
 from reasoning import causal, combine, diagnose, sequence, voi
 from reasoning import graph as graph_mod
-from retrieval import planner
+from retrieval import assemble as assemble_mod
+from retrieval import planner, rerank, search
 from verification import checks
 from verification import confidence as confidence_mod
 
@@ -555,6 +557,63 @@ def explain(state: AgentState) -> dict[str, Any]:
             f"[{', '.join(recommendation.mechanism_sources) or 'no source'}]"
         )
     return {"answer": "\n".join(lines)}
+
+
+def concept(state: AgentState) -> dict[str, Any]:
+    """Answer a general question about a practice from the corpus, with no site reasoning.
+
+    The query is built from practice and metric words found in the message, never
+    from the raw message, and the passages are quoted rather than paraphrased, so
+    a concept answer carries the same citations as a recommendation.
+    """
+    message = (state.get("message") or "").lower()
+    cards = loader.practice_cards()
+
+    matched = [
+        practice_id for practice_id in cards
+        if planner.practice_text(practice_id) in message
+        or practice_id.replace("_", " ") in message
+    ]
+    metrics = [
+        metric for metric in ("soil organic carbon", "soil moisture", "erosion",
+                              "pollinators", "species richness", "habitat")
+        if metric in message
+    ]
+
+    if matched:
+        query = f"{planner.practice_text(matched[0])} {' '.join(metrics)} mechanism effects"
+        practice = matched[0]
+    elif metrics:
+        query = f"{' '.join(metrics)} land management mechanism"
+        practice = None
+    else:
+        return {"answer": (
+            "Tell me which practice or which measure you are asking about and I will "
+            "quote what the sources say about it."
+        )}
+
+    hits, level = search.search_with_fallback(
+        query.strip(), None, practice, allow_context_only=True
+    )
+    items = assemble_mod.assemble(rerank.score_chunks(hits, None, level), limit=3)
+    if not items:
+        return {"answer": "I could not find anything on that in the indexed sources."}
+
+    lines = [f"What the sources say about {planner.practice_text(practice) if practice else query.strip()}:", ""]
+    for item in items:
+        page = f", p{item.page_start}" if item.page_start is not None else ""
+        lines.append(f"    {item.text.strip()}")
+        lines.append(f"        — {item.doc_title}{page} [{item.label}]")
+        lines.append("")
+    lines.append("This is general evidence, not advice for your site. "
+                 "Tell me about the land and I will work through what applies there.")
+
+    return {
+        "answer": "\n".join(lines),
+        "evidence": [item.model_dump() for item in items],
+        "trace": {"concept": {"query": query.strip(), "filter_level": level,
+                              "kept": [item.chunk_id for item in items]}},
+    }
 
 
 def out_of_scope(state: AgentState) -> dict[str, Any]:

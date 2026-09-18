@@ -21,6 +21,7 @@ flowchart TD
 
     intent -->|out_of_scope| oos[polite redirect] --> END([answer])
     intent -->|explain| explain[answer from stored<br/>recommendations] --> END
+    intent -->|concept| concept[quote the corpus,<br/>no site reasoning] --> END
     intent -->|new_info / constraint / what_if| slot{slot_check<br/>value of information}
 
     slot -->|one question worth asking| ask[ask exactly one question] --> END
@@ -42,6 +43,11 @@ flowchart TD
 
 Every box above is a LangGraph node. The conditional edges — not the model — decide whether the
 system asks a question, runs the full pipeline, or answers from memory.
+
+Two routes deliberately bypass the reasoning engine. `explain` answers from the recommendations
+already stored for the session, with no new retrieval. `concept` answers a general question by
+quoting the corpus with citations and no LLM in the loop at all, then says plainly that this is
+general evidence rather than advice for the user's site.
 
 ### Division of responsibility
 

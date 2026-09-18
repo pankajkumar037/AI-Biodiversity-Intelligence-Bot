@@ -60,6 +60,8 @@ def _route_after_intent(state: AgentState) -> str:
         return "out_of_scope"
     if intent == Intent.explain.value and state.get("adjudication"):
         return "explain"
+    if intent == Intent.concept.value:
+        return "concept"
     return "slot_check"
 
 
@@ -79,6 +81,7 @@ def chat_graph():
     builder.add_node("slot_check", nodes.slot_check)
     builder.add_node("ask", nodes.ask)
     builder.add_node("explain", nodes.explain)
+    builder.add_node("concept", nodes.concept)
     builder.add_node("out_of_scope", nodes.out_of_scope)
     _add_reasoning_chain(builder)
 
@@ -89,6 +92,7 @@ def chat_graph():
     builder.add_conditional_edges("intent", _route_after_intent, {
         "out_of_scope": "out_of_scope",
         "explain": "explain",
+        "concept": "concept",
         "slot_check": "slot_check",
     })
     builder.add_conditional_edges("slot_check", _route_after_slot_check, {
@@ -96,6 +100,7 @@ def chat_graph():
     })
     builder.add_edge("ask", END)
     builder.add_edge("explain", END)
+    builder.add_edge("concept", END)
     builder.add_edge("out_of_scope", END)
 
     checkpointer = MongoDBSaver(
