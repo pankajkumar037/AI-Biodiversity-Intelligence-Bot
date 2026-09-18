@@ -332,6 +332,7 @@ def adjudicate(state: AgentState) -> dict[str, Any]:
         combos=state.get("combos", []),
         excluded=state.get("excluded", []),
         plan=state.get("plan", []),
+        evidence=items,
     )
 
     previous = state.get("adjudication")
@@ -364,13 +365,14 @@ def verify(state: AgentState) -> dict[str, Any]:
         return {"verification": {"attempts": int(state.get("verify_attempts", 0)),
                                  "checks": {}, "passed": False}}
 
-    adjudication = Adjudication.model_validate(raw)
+    adjudication = checks.normalise(Adjudication.model_validate(raw))
     ctx = _verify_context(state)
     failures, warnings, status, groups = checks.run_checks(adjudication, ctx)
     attempts = int(state.get("verify_attempts", 0))
 
     if not failures:
         return {
+            "adjudication": adjudication.model_dump(),
             "verification": {"attempts": attempts, "checks": status, "passed": True,
                              "warnings": warnings, "stripped_numbers": 0},
             "verify_feedback": None,
@@ -387,8 +389,13 @@ def verify(state: AgentState) -> dict[str, Any]:
     retry = (hard and attempts <= config.MAX_VERIFY_RETRIES) or (soft and attempts < 2)
 
     if retry:
+        # Deduplicate and cap: forty near-identical lines bury the instruction.
+        unique = list(dict.fromkeys(hard or soft))
+        shown = unique[:12]
+        if len(unique) > len(shown):
+            shown.append(f"...and {len(unique) - len(shown)} more of the same kind")
         return {
-            "verify_feedback": "\n".join(f"- {failure}" for failure in (hard or soft)),
+            "verify_feedback": "\n".join(f"- {failure}" for failure in shown),
             "verification": {"attempts": attempts, "checks": status, "passed": False,
                              "warnings": warnings},
         }

@@ -32,10 +32,12 @@ def build_paths(root_causes: list[dict],
     for candidate in candidates:
         ids = []
         for path in candidate["paths"]:
+            # Direction only. A numeric weight here gets copied out as an "estimate".
             registry.append({
                 "id": f"P{counter}", "kind": "effect",
                 "practice": candidate["practice_id"],
-                "path": path["path"], "weight": path["weight"],
+                "path": path["path"],
+                "direction": "raises" if path["weight"] > 0 else "lowers",
             })
             ids.append(f"P{counter}")
             counter += 1
@@ -64,12 +66,27 @@ def dossier_candidates(candidates: list[dict], top_n: int = 6,
     return shortlist
 
 
+def evidence_by_practice(evidence: list[EvidenceItem]) -> dict[str, list[str]]:
+    """practice_id -> the S-labels of retrieved chunks tagged with that practice.
+
+    Telling the model which chunks are about which practice is not citing for it:
+    it still chooses, and V7 still judges whether the text supports the mechanism.
+    """
+    index: dict[str, list[str]] = {}
+    for item in evidence:
+        for practice in item.practices:
+            index.setdefault(practice, []).append(item.label)
+    return index
+
+
 def build_dossier(profile: dict[str, Any], flags: list[str], patterns: list[dict],
                   root_causes: list[dict], leverage: list[dict], candidates: list[dict],
-                  combos: list[dict], excluded: list[dict], plan: list[dict]) -> dict:
+                  combos: list[dict], excluded: list[dict], plan: list[dict],
+                  evidence: list[EvidenceItem] | None = None) -> dict:
     """The compact, engine-produced picture the model is asked to explain."""
     candidates = dossier_candidates(candidates)
     registry, per_candidate = build_paths(root_causes, candidates)
+    labels_for = evidence_by_practice(evidence or [])
     return {
         "site": profile,
         "diagnosis": flags,
@@ -79,29 +96,44 @@ def build_dossier(profile: dict[str, Any], flags: list[str], patterns: list[dict
         ],
         "paths": registry,
         "leverage_ranking": [
-            {"node": item["node"], "score": item["score"], "reaches": item["reaches"]}
-            for item in leverage[:5]
+            {"rank": rank, "node": item["node"], "reaches": item["reaches"]}
+            for rank, item in enumerate(leverage[:5], start=1)
         ],
         "candidates": [
             {
+                "rank": rank,
                 "practice_id": candidate["practice_id"],
                 "name": candidate["name"],
-                "suitability": candidate["suitability"],
                 "addresses": candidate["addresses"],
                 "impacted_metrics": candidate["impacted_metrics"],
-                "net_effects": candidate["net_effects"],
+                # Qualitative on purpose: the model explains direction, never magnitude.
+                "raises": sorted(n for n, v in candidate["net_effects"].items() if v > 0),
+                "lowers": sorted(n for n, v in candidate["net_effects"].items() if v < 0),
                 "mechanism": candidate["mechanism"],
                 "downgraded": candidate["downgraded"],
-                "risks_applied": candidate["risks_applied"],
+                "risks_applied": [
+                    {"risk": r["risk"], "mitigation": r["mitigation"]}
+                    for r in candidate["risks_applied"]
+                ],
                 "time_horizon": candidate["time_horizon"],
                 "path_ids": per_candidate.get(candidate["practice_id"], []),
+                "evidence_labels": labels_for.get(candidate["practice_id"], []),
             }
-            for candidate in candidates
+            for rank, candidate in enumerate(candidates, start=1)
         ],
-        "best_combinations": combos[:3],
+        "best_combinations": [
+            {"combo": c["combo"], "synergy": c["synergy"], "conflicts": c["conflicts"]}
+            for c in combos[:3]
+        ],
         "excluded": excluded,
-        "sequence": plan,
-        "note": "Suitability and net_effects are ranking scores, not real-world effect sizes.",
+        "sequence": [
+            {"order": s["order"], "practice_id": s["practice_id"],
+             "time_horizon": s["time_horizon"], "requires_first": s["requires_first"]}
+            for s in plan
+        ],
+        "note": ("Candidates are listed in the engine's rank order. There are no effect "
+                 "sizes anywhere in this dossier; the only numbers you may report are "
+                 "on CLAIMS lines in the evidence block."),
     }
 
 

@@ -1,6 +1,7 @@
 """V1-V10. Pure Python except V7, which delegates to the judge."""
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass, field
 from typing import Any
 
@@ -24,8 +25,65 @@ class VerifyContext:
 
 
 def _unit(value: str | None) -> str:
+    """'Mg/ha/yr', 'Mg_ha_yr' and 'mg ha yr' are one unit; '%' is 'percent'."""
     text = (value or "").strip().lower()
-    return UNIT_ALIASES.get(text, text)
+    text = UNIT_ALIASES.get(text, text)
+    return re.sub(r"[^a-z0-9]", "", text)
+
+
+_LABEL = re.compile(r"^[\[\s(]*([SP]\d+)[\]\s)]*$", re.IGNORECASE)
+
+
+def _clean_label(raw: str) -> str:
+    """'[s3]' -> 'S3'. Anything else is returned stripped, to fail V2 honestly."""
+    match = _LABEL.match(raw or "")
+    return match.group(1).upper() if match else (raw or "").strip()
+
+
+def _split_labels(values: list[str]) -> list[str]:
+    """Models sometimes pack 'S1, S2' into one string."""
+    out: list[str] = []
+    for value in values:
+        for part in re.split(r"[,;/]+", value or ""):
+            cleaned = _clean_label(part)
+            if cleaned and cleaned not in out:
+                out.append(cleaned)
+    return out
+
+
+def normalise(adjudication: Adjudication) -> Adjudication:
+    """Fix right-id-wrong-field mistakes before checking. Never invents a citation.
+
+    A reasoning step that lists path ids under sources gets them moved to path_id.
+    Labels are unbracketed and upper-cased. Nothing else changes: a path id left in
+    a mechanism source is still a V2 failure, because it is not evidence.
+    """
+    steps = []
+    for step in adjudication.reasoning_chain:
+        sources = _split_labels(step.sources)
+        path_ids = [s for s in sources if s.startswith("P")]
+        evidence = [s for s in sources if s.startswith("S")]
+        path_id = _clean_label(step.path_id) if step.path_id else None
+        if path_id is None and path_ids:
+            path_id = path_ids[0]
+        steps.append(step.model_copy(update={"sources": evidence, "path_id": path_id}))
+
+    recommendations = []
+    for recommendation in adjudication.recommendations:
+        cited = _split_labels(recommendation.mechanism_sources)
+        paths = _split_labels(recommendation.mechanism_paths)
+        paths += [label for label in cited if label.startswith("P") and label not in paths]
+        recommendations.append(recommendation.model_copy(update={
+            "mechanism_sources": [label for label in cited if label.startswith("S")],
+            "mechanism_paths": [label for label in paths if label.startswith("P")],
+            "estimates": [e.model_copy(update={"source": _clean_label(e.source)})
+                          for e in recommendation.estimates],
+            "risks": [r.model_copy(update={"source": _clean_label(r.source)})
+                      for r in recommendation.risks],
+        }))
+    return adjudication.model_copy(update={
+        "reasoning_chain": steps, "recommendations": recommendations,
+    })
 
 
 def _labels(recommendation: Recommendation) -> list[str]:
@@ -185,6 +243,18 @@ def check_v8_generic_language(adjudication: Adjudication) -> list[str]:
     return failures
 
 
+def check_mechanism_paths_exist(adjudication: Adjudication, ctx: VerifyContext) -> list[str]:
+    failures = []
+    for recommendation in adjudication.recommendations:
+        for path_id in recommendation.mechanism_paths:
+            if path_id not in ctx.path_ids:
+                failures.append(
+                    f"V9: {recommendation.practice_id.value} cites path {path_id}, "
+                    f"which is not in the dossier"
+                )
+    return failures
+
+
 def check_v9_steps_anchored(adjudication: Adjudication, ctx: VerifyContext) -> list[str]:
     failures = []
     for step in adjudication.reasoning_chain:
@@ -231,7 +301,8 @@ def run_checks(adjudication: Adjudication, ctx: VerifyContext, judge_mechanisms:
         "V4": check_v4_direction(adjudication, ctx),
         "V6": check_v6_mechanism_and_risk_query(adjudication, ctx),
         "V8": check_v8_generic_language(adjudication),
-        "V9": check_v9_steps_anchored(adjudication, ctx),
+        "V9": check_v9_steps_anchored(adjudication, ctx)
+              + check_mechanism_paths_exist(adjudication, ctx),
         "V10": check_v10_multi_variable(adjudication),
     }
 

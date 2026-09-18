@@ -101,7 +101,7 @@ def _full_dossier(case: dict):
 
     items, traces = _retrieve_for(case, [c["practice_id"] for c in ranked[:4]], names)
     dossier = adjudicate_mod.build_dossier(profile, names, patterns, causes, ranking,
-                                           ranked, combos, excluded, plan)
+                                           ranked, combos, excluded, plan, items)
     return dossier, items, traces, names, ranked, excluded, causes
 
 

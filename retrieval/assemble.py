@@ -67,7 +67,8 @@ def render_evidence_block(items: list[EvidenceItem]) -> str:
         header = (
             f"[{item.label}] {item.doc_title} (p{item.page_start}) "
             f"role={item.content_role} evidence={item.evidence_level} "
-            f"zones={','.join(item.climate_zones) or 'unstated'}"
+            f"zones={','.join(item.climate_zones) or 'unstated'} "
+            f"practices={','.join(item.practices) or 'none'}"
         )
         body = item.text.strip()
         claim_line = f"\nCLAIMS: {'; '.join(claims)}" if claims else "\nCLAIMS: none"

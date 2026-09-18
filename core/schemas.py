@@ -239,28 +239,47 @@ class Estimate(BaseModel):
 
     metric: MetricEnum
     direction: Direction
-    value: float | None = None
-    low: float | None = None
-    high: float | None = None
-    unit: str | None = None
+    value: float | None = Field(
+        default=None,
+        description="A number copied verbatim from a CLAIMS line of the cited chunk. "
+                    "Leave null if no CLAIMS line gives one. Never a score from the dossier.",
+    )
+    low: float | None = Field(default=None, description="Range low, only from a CLAIMS line.")
+    high: float | None = Field(default=None, description="Range high, only from a CLAIMS line.")
+    unit: str | None = Field(default=None, description="The unit exactly as the CLAIMS line gives it.")
     timeframe_years: float | None = None
-    source: str
+    source: str = Field(
+        description="An evidence label from the block, like S3. Never a path id like P3.",
+    )
 
 
 class Risk(BaseModel):
     description: str
     mitigation: str
-    source: str
+    source: str = Field(description="An evidence label like S4 whose text states this risk.")
 
 
 class Recommendation(BaseModel):
-    practice_id: PracticeEnum
-    action: str
+    practice_id: PracticeEnum = Field(description="Exactly as given in the dossier's candidate list.")
+    action: str = Field(description="What to do on this site, naming its crop, season or constraint.")
     mechanism: str
-    mechanism_sources: list[str] = Field(default_factory=list)
+    mechanism_sources: list[str] = Field(
+        default_factory=list,
+        description="One or more evidence labels (S1, S2...) whose text supports the mechanism. "
+                    "Pick from the candidate's evidence_labels in the dossier. Never empty.",
+    )
+    mechanism_paths: list[str] = Field(
+        default_factory=list,
+        description="Path ids (P1, P2...) from the dossier whose causal chain this mechanism follows.",
+    )
     impacted_metrics: list[MetricEnum] = Field(default_factory=list)
-    variables_considered: list[MetricEnum] = Field(default_factory=list)
-    estimates: list[Estimate] = Field(default_factory=list)
+    variables_considered: list[MetricEnum] = Field(
+        default_factory=list, description="At least three distinct metrics.",
+    )
+    estimates: list[Estimate] = Field(
+        default_factory=list,
+        description="Empty unless a CLAIMS line in a cited chunk gives a number for this practice.",
+    )
     time_horizon: TimeHorizon
     risks: list[Risk] = Field(default_factory=list)
 
@@ -268,8 +287,12 @@ class Recommendation(BaseModel):
 class ReasoningStep(BaseModel):
     claim: str
     type: Literal["cause", "effect", "tradeoff", "synergy", "conflict"]
-    path_id: str | None = None
-    sources: list[str] = Field(default_factory=list)
+    path_id: str | None = Field(
+        default=None, description="A path id from the dossier's paths list, like P4, for a causal claim.",
+    )
+    sources: list[str] = Field(
+        default_factory=list, description="Evidence labels like S2 for an evidence claim. Never path ids.",
+    )
 
 
 class Adjudication(BaseModel):
