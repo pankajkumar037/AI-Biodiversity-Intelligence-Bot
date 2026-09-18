@@ -84,6 +84,8 @@ def geo_enrich(state: AgentState) -> dict[str, Any]:
         return {}
 
     lat, lon = round(float(lat), 4), round(float(lon), 4)
+    if place is None:
+        place = geo.reverse_geocode(lat, lon)
     enriched = geo.enrich(lat, lon)
     update: dict[str, dict] = {}
     turn = int(state.get("turn", 0))

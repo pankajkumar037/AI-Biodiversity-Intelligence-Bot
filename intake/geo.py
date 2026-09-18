@@ -11,6 +11,7 @@ USER_AGENT = "darukaa-biodiversity-intelligence/0.1 (hackathon prototype)"
 SOILGRIDS_URL = "https://rest.isric.org/soilgrids/v2.0/properties/query"
 NASA_POWER_URL = "https://power.larc.nasa.gov/api/temporal/climatology/point"
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
+NOMINATIM_REVERSE_URL = "https://nominatim.openstreetmap.org/reverse"
 
 _cache: dict[tuple, Any] = {}
 
@@ -50,6 +51,19 @@ def geocode(place: str) -> dict | None:
         }
     _cache[key] = result
     return result
+
+
+def reverse_geocode(lat: float, lon: float) -> str | None:
+    """Coordinates to a place name via Nominatim, so a user sees where their point landed."""
+    key = ("reverse", *_cell(lat, lon))
+    if key in _cache:
+        return _cache[key]
+    data = _get(NOMINATIM_REVERSE_URL, {"lat": lat, "lon": lon, "format": "json", "zoom": 12})
+    name = None
+    if data and data.get("display_name"):
+        name = data["display_name"]
+    _cache[key] = name
+    return name
 
 
 def soilgrids(lat: float, lon: float) -> dict | None:

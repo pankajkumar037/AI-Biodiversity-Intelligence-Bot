@@ -214,6 +214,7 @@ h1, h2, h3, p { margin: 0; }
 .composer textarea, .composer input { width: 100%; border: 0; background: transparent; font: inherit; color: var(--ink); resize: none; outline: none; padding: 0; }
 .composer textarea { line-height: 1.5; max-height: 200px; }
 #json-input { font-family: var(--mono); font-size: 12.5px; }
+#json-input::placeholder { color: var(--ink-3); white-space: pre-wrap; }
 .composer input[type=text] { border-top: 1px dotted var(--rule); padding-top: 8px; margin-top: 6px; font-size: 13px; }
 .coords-form { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .coords-form input[type=number] { font-family: var(--mono); font-size: 13px; border-bottom: 1px solid var(--rule); padding-bottom: 4px; }
