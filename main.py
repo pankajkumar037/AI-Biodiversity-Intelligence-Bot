@@ -8,7 +8,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from core import db
-from core.schemas import SearchRequest
+from core.schemas import AnalyzeRequest, SearchRequest
+from graph_flow import build
 from retrieval import assemble, rerank, search
 
 app = FastAPI(title="Darukaa Biodiversity Intelligence", version="0.1.0")
@@ -37,6 +38,23 @@ async def unhandled_error(request: Request, exc: Exception) -> JSONResponse:
 def health() -> dict:
     """Database ping, collection counts and Atlas index status."""
     return {"trace_id": str(uuid.uuid4()), **db.ping()}
+
+
+@app.post("/analyze")
+def analyze(request: AnalyzeRequest) -> dict:
+    """Structured site profile in, full verified analysis out. No conversation."""
+    result = build.run_analysis(
+        values=request.profile,
+        constraints=request.constraints,
+        audience=request.audience.value if request.audience else None,
+    )
+    return {
+        "trace_id": str(uuid.uuid4()),
+        "answer": result.get("answer", ""),
+        "recommendations": (result.get("adjudication") or {}).get("recommendations", []),
+        "confidence": result.get("confidence"),
+        "trace": result.get("trace", {}),
+    }
 
 
 @app.post("/search")
