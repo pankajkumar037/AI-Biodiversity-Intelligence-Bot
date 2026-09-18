@@ -251,7 +251,8 @@ def run_checks(adjudication: Adjudication, ctx: VerifyContext, judge_mechanisms:
 def degrade(adjudication: Adjudication,
             ctx: VerifyContext) -> tuple[Adjudication, dict[str, int]]:
     """Last resort: strip what cannot be verified rather than blocking the answer."""
-    counts = {"stripped_numbers": 0, "dropped_steps": 0, "dropped_recommendations": 0}
+    counts = {"stripped_numbers": 0, "dropped_steps": 0, "dropped_recommendations": 0,
+              "dropped_estimates": 0}
     kept_recommendations = []
 
     for recommendation in adjudication.recommendations:
@@ -266,6 +267,11 @@ def degrade(adjudication: Adjudication,
         estimates = []
         for estimate in recommendation.estimates:
             item = ctx.evidence.get(estimate.source)
+            if item is None:
+                # An estimate whose source is not a real evidence label cites nothing
+                # a reader could check, so it is dropped rather than shown.
+                counts["dropped_estimates"] += 1
+                continue
             has_number = not (estimate.value is None and estimate.low is None
                               and estimate.high is None)
             supported = item is not None and any(

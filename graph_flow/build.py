@@ -203,6 +203,8 @@ def run_chat(session_id: str, message: str, profile_patch: dict[str, Any] | None
     from core.schemas import FieldSource
     from graph_flow.state import as_fields
 
+    # Everything here is per-turn state. Leaving any of it in the checkpoint would
+    # let one turn's question, warnings or what-if comparison resurface under the next.
     state: dict[str, Any] = {
         "message": message,
         "session_id": session_id,
@@ -210,6 +212,8 @@ def run_chat(session_id: str, message: str, profile_patch: dict[str, Any] | None
         "verify_attempts": 0,
         "verify_feedback": None,
         "question": None,
+        "warnings": None,
+        "what_if_baseline": None,
     }
     if profile_patch:
         state["profile"] = as_fields(profile_patch, FieldSource.user, turn)

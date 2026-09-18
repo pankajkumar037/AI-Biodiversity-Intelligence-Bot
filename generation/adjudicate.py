@@ -29,7 +29,7 @@ def build_paths(root_causes: list[dict],
         })
         counter += 1
 
-    for candidate in candidates[:6]:
+    for candidate in candidates:
         ids = []
         for path in candidate["paths"]:
             registry.append({
@@ -44,10 +44,31 @@ def build_paths(root_causes: list[dict],
     return registry, per_candidate
 
 
+def dossier_candidates(candidates: list[dict], top_n: int = 6,
+                       extra_risky: int = 2) -> list[dict]:
+    """The best options, plus the most heavily penalised ones.
+
+    Showing only the winners hides the interesting half of the reasoning. A practice
+    the user has just asked about can rank low precisely because it carries a large
+    risk, and that risk is the thing worth explaining.
+    """
+    shortlist = list(candidates[:top_n])
+    chosen = {candidate["practice_id"] for candidate in shortlist}
+    penalised = sorted(
+        (c for c in candidates[top_n:] if c["penalty"] > 0),
+        key=lambda c: c["penalty"], reverse=True,
+    )
+    for candidate in penalised[:extra_risky]:
+        if candidate["practice_id"] not in chosen:
+            shortlist.append(candidate)
+    return shortlist
+
+
 def build_dossier(profile: dict[str, Any], flags: list[str], patterns: list[dict],
                   root_causes: list[dict], leverage: list[dict], candidates: list[dict],
                   combos: list[dict], excluded: list[dict], plan: list[dict]) -> dict:
     """The compact, engine-produced picture the model is asked to explain."""
+    candidates = dossier_candidates(candidates)
     registry, per_candidate = build_paths(root_causes, candidates)
     return {
         "site": profile,
@@ -75,7 +96,7 @@ def build_dossier(profile: dict[str, Any], flags: list[str], patterns: list[dict
                 "time_horizon": candidate["time_horizon"],
                 "path_ids": per_candidate.get(candidate["practice_id"], []),
             }
-            for candidate in candidates[:6]
+            for candidate in candidates
         ],
         "best_combinations": combos[:3],
         "excluded": excluded,
@@ -85,8 +106,12 @@ def build_dossier(profile: dict[str, Any], flags: list[str], patterns: list[dict
 
 
 def path_ids(candidates: list[dict], root_causes: list[dict]) -> set[str]:
-    """Every path id the model is allowed to cite."""
-    registry, _ = build_paths(root_causes, candidates)
+    """Every path id the model is allowed to cite.
+
+    Built from the same shortlist the dossier shows, so verification and the prompt
+    always agree on which ids exist.
+    """
+    registry, _ = build_paths(root_causes, dossier_candidates(candidates))
     return {path["id"] for path in registry}
 
 

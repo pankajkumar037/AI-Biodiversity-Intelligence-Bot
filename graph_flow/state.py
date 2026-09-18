@@ -1,7 +1,6 @@
 """The graph state and its reducers. The LLM never writes the profile directly."""
 from __future__ import annotations
 
-import operator
 from typing import Annotated, Any, TypedDict
 
 from langgraph.graph.message import add_messages
@@ -42,6 +41,17 @@ def add_unique(old: list[str], new: list[str]) -> list[str]:
     return merged
 
 
+def reset_or_extend(old: list[str], new: list[str] | None) -> list[str]:
+    """Like add_unique, but None clears the list.
+
+    Warnings belong to a turn. Without an explicit reset they would accumulate in
+    the checkpoint and a note about turn 2 would reappear under turn 5's answer.
+    """
+    if new is None:
+        return []
+    return add_unique(old, new)
+
+
 class AgentState(TypedDict, total=False):
     """Everything one turn needs. Nodes return partial updates to this."""
 
@@ -50,7 +60,7 @@ class AgentState(TypedDict, total=False):
     user_constraints: Annotated[list[str], add_unique]
     rejected_practices: Annotated[list[str], add_unique]
     trace: Annotated[dict[str, Any], merge_trace]
-    warnings: Annotated[list[str], operator.add]
+    warnings: Annotated[list[str], reset_or_extend]
 
     session_id: str
     turn: int
