@@ -85,16 +85,18 @@ def chat_graph():
     builder.add_node("out_of_scope", nodes.out_of_scope)
     _add_reasoning_chain(builder)
 
-    builder.add_edge(START, "intake")
-    builder.add_edge("intake", "normalize")
-    builder.add_edge("normalize", "geo_enrich")
-    builder.add_edge("geo_enrich", "intent")
+    # Intent first. A concept or out-of-scope turn must never reach intake, or a
+    # general question gets mined for site values it does not contain.
+    builder.add_edge(START, "intent")
     builder.add_conditional_edges("intent", _route_after_intent, {
         "out_of_scope": "out_of_scope",
         "explain": "explain",
         "concept": "concept",
-        "slot_check": "slot_check",
+        "slot_check": "intake",
     })
+    builder.add_edge("intake", "normalize")
+    builder.add_edge("normalize", "geo_enrich")
+    builder.add_edge("geo_enrich", "slot_check")
     builder.add_conditional_edges("slot_check", _route_after_slot_check, {
         "ask": "ask", "diagnose": "diagnose",
     })

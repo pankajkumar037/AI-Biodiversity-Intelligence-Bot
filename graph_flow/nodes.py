@@ -39,10 +39,13 @@ def intake(state: AgentState) -> dict[str, Any]:
     except RuntimeError as exc:
         return {"warnings": [f"Could not read values from your message: {exc}"]}
 
-    values, warnings, rejected = normalize.normalise_draft(draft)
+    values, derived, warnings, rejected = normalize.normalise_draft(draft)
     update: dict[str, Any] = {
-        "profile": as_fields(values, FieldSource.user, turn),
-        "trace": {"intake": {"extracted": values, "rejected": rejected}},
+        "profile": {
+            **as_fields(values, FieldSource.user, turn),
+            **as_fields(derived, FieldSource.inferred, turn, uncertainty=0.6),
+        },
+        "trace": {"intake": {"extracted": values, "derived": derived, "rejected": rejected}},
     }
     if warnings or rejected:
         update["warnings"] = warnings + rejected
@@ -112,12 +115,18 @@ def geo_enrich(state: AgentState) -> dict[str, Any]:
 
 
 def route_intent(state: AgentState) -> dict[str, Any]:
-    """Classify the turn. The first turn is always new information."""
+    """Classify the turn before anything is read into the profile.
+
+    A general question on turn one used to be forced to new_info and then mined for
+    site values it never contained. Every turn is classified now.
+    """
     message = (state.get("message") or "").strip()
-    if not message or int(state.get("turn", 0)) <= 1:
+    if not message:
         return {"intent": Intent.new_info.value}
 
     intent, constraint = extract.classify_intent(message)
+    if intent == Intent.explain and not state.get("adjudication"):
+        intent = Intent.concept
     update: dict[str, Any] = {"intent": intent.value,
                               "trace": {"intent": intent.value}}
     if constraint:

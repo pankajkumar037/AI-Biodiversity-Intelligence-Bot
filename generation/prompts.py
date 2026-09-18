@@ -110,8 +110,14 @@ residue_needed_for_fodder.
 
 EXTRACT_SYSTEM_V1 = """\
 Extract site facts from the user's message into the schema. Rules:
-- Only fill a field the user actually stated or clearly implied. Everything else
+- Only fill a field the user actually stated about their own land. Everything else
   stays null. Do not guess a value from the region or the crop.
+- A general question ("how does X affect Y", "what is Z") describes no site. Return
+  every field null for it, even if it names soil, rainfall or a cropping system.
+  "How does low soil moisture combined with monoculture affect diversity?" states
+  nothing about the user's land.
+- "low soil moisture" is not rainfall. Only fill rainfall fields when the user
+  speaks about rain.
 - Copy every number in the unit the user used. Never convert anything yourself.
   A percentage such as "SOC 0.3%" goes to soc_percent as 0.3. A value in g/kg such
   as "organic carbon 3 g/kg" goes to soc_g_per_kg as 3. Organic matter goes to

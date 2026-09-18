@@ -14,15 +14,15 @@ language model explains.**
 
 ```mermaid
 flowchart TD
-    START([user message]) --> intake[intake<br/>Flash-Lite extraction]
-    intake --> normalize[normalize<br/>units, validation]
-    normalize --> geo[geo_enrich<br/>SoilGrids, NASA POWER, Nominatim]
-    geo --> intent{intent}
+    START([user message]) --> intent{intent<br/>Flash-Lite classifier}
 
     intent -->|out_of_scope| oos[polite redirect] --> END([answer])
     intent -->|explain| explain[answer from stored<br/>recommendations] --> END
     intent -->|concept| concept[quote the corpus,<br/>no site reasoning] --> END
-    intent -->|new_info / constraint / what_if| slot{slot_check<br/>value of information}
+    intent -->|new_info / constraint / what_if| intake[intake<br/>Flash-Lite extraction]
+    intake --> normalize[normalize<br/>units, validation]
+    normalize --> geo[geo_enrich<br/>SoilGrids, NASA POWER, Nominatim]
+    geo --> slot{slot_check<br/>value of information}
 
     slot -->|one question worth asking| ask[ask exactly one question] --> END
     slot -->|enough is known| diagnose[diagnose<br/>thresholds + compound rules]
@@ -44,7 +44,8 @@ flowchart TD
 Every box above is a LangGraph node. The conditional edges — not the model — decide whether the
 system asks a question, runs the full pipeline, or answers from memory.
 
-Two routes deliberately bypass the reasoning engine. `explain` answers from the recommendations
+Intent is classified before anything is read into the profile, so a general question is
+never mined for site values it does not contain. Two routes deliberately bypass the reasoning engine. `explain` answers from the recommendations
 already stored for the session, with no new retrieval. `concept` answers a general question by
 quoting the corpus with citations and no LLM in the loop at all, then says plainly that this is
 general evidence rather than advice for the user's site.

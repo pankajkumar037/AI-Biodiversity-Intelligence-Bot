@@ -19,11 +19,11 @@
 
   // What the system is doing *after* a node finishes, i.e. what the next node does.
   const NEXT_LABEL = {
-    start: "Reading what you said",
+    start: "Working out what you're asking",
     intake: "Filling in what follows from it",
     normalize: "Looking up the location",
-    geo_enrich: "Working out what you're asking",
-    intent: "Checking what's still needed",
+    geo_enrich: "Checking what's still needed",
+    intent: "Reading what you said",
     slot_check: "Diagnosing the site against threshold rules",
     diagnose: "Tracing causes upstream through the graph",
     root_cause: "Finding the leverage points",

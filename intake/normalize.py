@@ -64,12 +64,17 @@ def climate_zone_from_rainfall(rainfall_mm: float) -> str | None:
     return "humid"
 
 
-def normalise_draft(draft: SiteProfileDraft) -> tuple[dict[str, Any], list[str], list[str]]:
+def normalise_draft(
+    draft: SiteProfileDraft,
+) -> tuple[dict[str, Any], dict[str, Any], list[str], list[str]]:
     """Draft to flat profile values.
 
-    Returns (values, warnings about conversions, rejections that need re-checking).
+    Returns (stated values, values derived from a category the user gave, warnings
+    about conversions, rejections that need re-checking). Derived values are kept
+    apart so they can be recorded as inference rather than as something the user said.
     """
     values: dict[str, Any] = {}
+    derived: dict[str, Any] = {}
     warnings: list[str] = []
     rejected: list[str] = []
 
@@ -93,9 +98,7 @@ def normalise_draft(draft: SiteProfileDraft) -> tuple[dict[str, Any], list[str],
     if draft.rainfall_mm is not None:
         values["rainfall_mm"] = float(draft.rainfall_mm)
     elif draft.rainfall_category is not None:
-        # NOTE: stored as a representative figure, not as a measurement. The warning
-        # carries that caveat; it is not a profile field of its own.
-        values["rainfall_mm"] = RAINFALL_CATEGORY_MM[draft.rainfall_category]
+        derived["rainfall_mm"] = RAINFALL_CATEGORY_MM[draft.rainfall_category]
         warnings.append(
             f"Used a representative {draft.rainfall_category} rainfall figure; "
             f"give millimetres if you know them"
@@ -130,7 +133,7 @@ def normalise_draft(draft: SiteProfileDraft) -> tuple[dict[str, Any], list[str],
             rejected.append(problem)
             values.pop(name)
 
-    return values, warnings, rejected
+    return values, derived, warnings, rejected
 
 
 def infer_missing(values: dict[str, Any]) -> dict[str, Any]:
