@@ -217,9 +217,6 @@
       return;
     }
     const d = describe(ev.node, u, trace);
-    if (ev.node === "adjudicate" && (u.verify_attempts || 1) > 1) {
-      const h = document.createElement("li"); h.className = "head"; h.textContent = `retry ${u.verify_attempts - 1}`; msg.steps.appendChild(h);
-    }
     const li = document.createElement("li"); if (d.warn) li.classList.add("warn");
     li.innerHTML = `<span class="n">${esc(ev.node)}</span><span class="d">${esc(d.text)}</span><span class="t">${ev.elapsed_ms >= 1000 ? (ev.elapsed_ms / 1000).toFixed(1) + "s" : ev.elapsed_ms + "ms"}</span>`;
     msg.steps.appendChild(li);
