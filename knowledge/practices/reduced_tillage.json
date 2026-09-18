@@ -1,9 +1,17 @@
 {
   "practice_id": "reduced_tillage",
   "name": "Reduced tillage",
-  "addresses_flags": ["low_SOC", "water_limited"],
+  "addresses_flags": [
+    "low_SOC",
+    "water_limited",
+    "erosion_observed"
+  ],
   "hard_constraints": {
-    "land_use_in": ["cropland", "orchard", "fallow"],
+    "land_use_in": [
+      "cropland",
+      "orchard",
+      "fallow"
+    ],
     "incompatible_constraints": []
   },
   "soft_risks": [
@@ -15,7 +23,13 @@
     }
   ],
   "requires_first": [],
-  "impacted_metrics": ["soil_moisture", "water_holding_capacity", "erosion", "carbon_sequestration_rate", "crop_yield"],
+  "impacted_metrics": [
+    "soil_moisture",
+    "water_holding_capacity",
+    "erosion",
+    "carbon_sequestration_rate",
+    "crop_yield"
+  ],
   "mechanism": "Shallower, less frequent cultivation keeps more aggregates and surface residue intact than conventional ploughing, at a lower equipment cost than full no-till.",
   "time_horizon": "short",
   "region_variants": [],

@@ -22,6 +22,7 @@ class VerifyContext:
     risk_practices: set[str] = field(default_factory=set)
     candidates: dict[str, dict] = field(default_factory=dict)
     excluded_practices: set[str] = field(default_factory=set)
+    problem_flags: set[str] = field(default_factory=set)
 
 
 def _unit(value: str | None) -> str:
@@ -288,6 +289,22 @@ def check_practices_allowed(adjudication: Adjudication, ctx: VerifyContext) -> l
     return failures
 
 
+def check_addresses_problem(adjudication: Adjudication, ctx: VerifyContext) -> list[str]:
+    """A recommendation must address something the user said is wrong, when they said anything."""
+    if not ctx.problem_flags:
+        return []
+    failures = []
+    for recommendation in adjudication.recommendations:
+        candidate = ctx.candidates.get(recommendation.practice_id.value, {})
+        if not set(candidate.get("addresses", [])) & ctx.problem_flags:
+            failures.append(
+                f"V1: {recommendation.practice_id.value} addresses none of the stated "
+                f"problem ({', '.join(sorted(ctx.problem_flags))}). Recommend something "
+                f"that does, or leave it out."
+            )
+    return failures
+
+
 def run_checks(adjudication: Adjudication, ctx: VerifyContext, judge_mechanisms: bool = True
                ) -> tuple[list[str], list[str], dict[str, str], dict[str, list[str]]]:
     """Run every check. Returns (failures, warnings, per-check status, failures by check)."""
@@ -295,7 +312,8 @@ def run_checks(adjudication: Adjudication, ctx: VerifyContext, judge_mechanisms:
     failures: list[str] = []
 
     groups = {
-        "V1": check_v1_structure(adjudication) + check_practices_allowed(adjudication, ctx),
+        "V1": check_v1_structure(adjudication) + check_practices_allowed(adjudication, ctx)
+              + check_addresses_problem(adjudication, ctx),
         "V2": check_v2_sources_exist(adjudication, ctx),
         "V3": check_v3_numbers_grounded(adjudication, ctx),
         "V4": check_v4_direction(adjudication, ctx),
@@ -319,6 +337,12 @@ def run_checks(adjudication: Adjudication, ctx: VerifyContext, judge_mechanisms:
     return failures, warnings, status, groups
 
 
+def drop_steps(adjudication: Adjudication, indices: set[int]) -> Adjudication:
+    """Remove reasoning steps by position. Used for steps the judge found unsupported."""
+    kept = [step for i, step in enumerate(adjudication.reasoning_chain) if i not in indices]
+    return adjudication.model_copy(update={"reasoning_chain": kept})
+
+
 def degrade(adjudication: Adjudication,
             ctx: VerifyContext) -> tuple[Adjudication, dict[str, int]]:
     """Last resort: strip what cannot be verified rather than blocking the answer."""
@@ -330,6 +354,11 @@ def degrade(adjudication: Adjudication,
         if recommendation.practice_id.value in ctx.excluded_practices:
             counts["dropped_recommendations"] += 1
             continue
+        if ctx.problem_flags:
+            candidate = ctx.candidates.get(recommendation.practice_id.value, {})
+            if not set(candidate.get("addresses", [])) & ctx.problem_flags:
+                counts["dropped_recommendations"] += 1
+                continue
         if len({metric.value for metric in recommendation.variables_considered}) < \
                 config.MIN_VARIABLES_PER_RECOMMENDATION:
             counts["dropped_recommendations"] += 1

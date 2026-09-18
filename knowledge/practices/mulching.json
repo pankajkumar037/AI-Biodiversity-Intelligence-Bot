@@ -1,9 +1,21 @@
 {
   "practice_id": "mulching",
   "name": "Organic residue mulching",
-  "addresses_flags": ["water_limited", "low_SOC", "bare_fallow", "dry_subhumid"],
+  "addresses_flags": [
+    "water_limited",
+    "low_SOC",
+    "bare_fallow",
+    "dry_subhumid",
+    "residue_burning",
+    "erosion_observed"
+  ],
   "hard_constraints": {
-    "land_use_in": ["cropland", "fallow", "orchard", "grassland"],
+    "land_use_in": [
+      "cropland",
+      "fallow",
+      "orchard",
+      "grassland"
+    ],
     "max_rainfall_mm": 1000,
     "incompatible_constraints": []
   },
@@ -22,7 +34,14 @@
     }
   ],
   "requires_first": [],
-  "impacted_metrics": ["soil_moisture", "SOC", "temperature", "erosion", "soil_biota", "nutrient_availability"],
+  "impacted_metrics": [
+    "soil_moisture",
+    "SOC",
+    "temperature",
+    "erosion",
+    "soil_biota",
+    "nutrient_availability"
+  ],
   "mechanism": "A surface residue layer cuts evaporation and raindrop impact, holding moisture and feeding soil organisms as it breaks down.",
   "time_horizon": "short",
   "region_variants": [

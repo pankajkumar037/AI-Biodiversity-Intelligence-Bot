@@ -1,9 +1,17 @@
 {
   "practice_id": "terracing",
   "name": "Terracing on sloping land",
-  "addresses_flags": ["water_limited", "low_SOC"],
+  "addresses_flags": [
+    "water_limited",
+    "low_SOC",
+    "erosion_observed"
+  ],
   "hard_constraints": {
-    "land_use_in": ["cropland", "orchard", "fallow"],
+    "land_use_in": [
+      "cropland",
+      "orchard",
+      "fallow"
+    ],
     "incompatible_constraints": []
   },
   "soft_risks": [
@@ -15,7 +23,12 @@
     }
   ],
   "requires_first": [],
-  "impacted_metrics": ["erosion", "soil_moisture", "SOC", "water_holding_capacity"],
+  "impacted_metrics": [
+    "erosion",
+    "soil_moisture",
+    "SOC",
+    "water_holding_capacity"
+  ],
   "mechanism": "Level benches across a slope shorten the run of water downhill, so soil and moisture stay on the field instead of leaving as runoff.",
   "time_horizon": "long",
   "region_variants": [],

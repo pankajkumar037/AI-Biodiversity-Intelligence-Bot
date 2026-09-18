@@ -166,6 +166,13 @@ class SiteProfileDraft(BaseModel):
     lat: float | None = None
     lon: float | None = None
     biodiversity_trend: Literal["declining", "stable", "improving"] | None = None
+    pollinator_trend: Literal["declining", "stable", "improving"] | None = None
+    pesticide_use: Literal["none", "low", "moderate", "high"] | None = None
+    residue_burning: bool | None = None
+    recent_clearing: bool | None = None
+    nearby_pollution_source: str | None = None
+    erosion_observed: bool | None = None
+    soil_moisture_status: Literal["dry", "adequate", "wet"] | None = None
     irrigation: str | None = None
     constraints: list[str] = Field(default_factory=list)
     audience: Audience | None = None

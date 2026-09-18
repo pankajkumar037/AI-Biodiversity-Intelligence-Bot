@@ -1,9 +1,19 @@
 {
   "practice_id": "water_harvesting",
   "name": "In-field rainwater harvesting",
-  "addresses_flags": ["water_limited", "dry_subhumid", "low_SOC"],
+  "addresses_flags": [
+    "water_limited",
+    "dry_subhumid",
+    "low_SOC",
+    "erosion_observed"
+  ],
   "hard_constraints": {
-    "land_use_in": ["cropland", "grassland", "fallow", "orchard"],
+    "land_use_in": [
+      "cropland",
+      "grassland",
+      "fallow",
+      "orchard"
+    ],
     "max_rainfall_mm": 900,
     "incompatible_constraints": []
   },
@@ -16,7 +26,13 @@
     }
   ],
   "requires_first": [],
-  "impacted_metrics": ["soil_moisture", "crop_yield", "biomass", "erosion", "water_holding_capacity"],
+  "impacted_metrics": [
+    "soil_moisture",
+    "crop_yield",
+    "biomass",
+    "erosion",
+    "water_holding_capacity"
+  ],
   "mechanism": "Contour bunds and pits hold rainfall where it falls so it infiltrates instead of running off, extending the moisture available to the crop.",
   "time_horizon": "short",
   "region_variants": [],

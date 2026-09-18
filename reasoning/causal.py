@@ -23,7 +23,46 @@ FLAG_TARGET: dict[str, tuple[str, int]] = {
     "acidic_soil": ("pH", 1),
     "alkaline_soil": ("pH", -1),
     "sodic_risk": ("salinity", -1),
+    "pollinator_decline": ("pollinators", 1),
+    "high_pesticide_use": ("pollution_load", -1),
+    "residue_burning": ("SOC", 1),
+    "recent_clearing": ("tree_cover", 1),
+    "pollution_exposure": ("pollution_load", -1),
+    "erosion_observed": ("erosion", -1),
 }
+
+# Flags that come straight from something the user said is wrong on their land.
+# These are the stated problem; a recommendation has to address at least one.
+PROBLEM_FLAGS = frozenset({
+    "biodiversity_decline", "pollinator_decline", "high_pesticide_use",
+    "residue_burning", "recent_clearing", "pollution_exposure", "erosion_observed",
+})
+
+# Profile facts that correspond to driver nodes in the graph. When a root-cause
+# path starts at one of these and the site has it, the path is observed, not
+# hypothetical, and is reported first.
+SITE_DRIVERS: list[tuple[str, Any, str]] = [
+    ("pesticide_use", {"moderate", "high"}, "pesticide_use"),
+    ("cropping_system", {"monoculture"}, "monoculture"),
+    ("cropping_system", {"monoculture"}, "intensive_agriculture"),
+    ("residue_burning", {True}, "fire"),
+    ("recent_clearing", {True}, "deforestation"),
+    ("recent_clearing", {True}, "land_conversion"),
+    ("nearby_pollution_source", "*", "pollution_load"),
+    ("irrigation", "*", "irrigation"),
+]
+
+
+def observed_drivers(profile: dict[str, Any]) -> set[str]:
+    """Graph driver nodes the site profile says are actually present."""
+    present: set[str] = set()
+    for field_name, accepted, node in SITE_DRIVERS:
+        value = profile.get(field_name)
+        if value is None or value is False or value == "":
+            continue
+        if accepted == "*" or value in accepted:
+            present.add(node)
+    return present
 
 
 def flag_targets(flags: list[str]) -> dict[str, int]:
@@ -78,6 +117,7 @@ def root_causes(graph: nx.MultiDiGraph, symptom_nodes: list[str], profile: dict[
     """Trace each symptom back to upstream drivers, keeping site-consistent paths."""
     found: list[dict] = []
     counter = 1
+    present = observed_drivers(profile)
 
     for symptom in symptom_nodes:
         if symptom not in graph:
@@ -95,6 +135,7 @@ def root_causes(graph: nx.MultiDiGraph, symptom_nodes: list[str], profile: dict[
                         "path": chain,
                         "symptom": symptom,
                         "driver": source,
+                        "observed": source in present,
                         "effect": edge["effect"],
                         "docs": edge["docs"],
                         "mechanisms": edge["mechanisms"],
@@ -105,7 +146,10 @@ def root_causes(graph: nx.MultiDiGraph, symptom_nodes: list[str], profile: dict[
             if not frontier:
                 break
 
-    found.sort(key=lambda item: len(item["path"]))
+    # Drivers the site actually has come first; among those, shorter chains first.
+    found.sort(key=lambda item: (not item["observed"], len(item["path"])))
+    for index, item in enumerate(found, start=1):
+        item["id"] = f"P{index}"
     return found
 
 

@@ -1,9 +1,18 @@
 {
   "practice_id": "crop_rotation",
   "name": "Diversified crop rotation with a legume phase",
-  "addresses_flags": ["monoculture", "low_SOC", "biodiversity_decline"],
+  "addresses_flags": [
+    "monoculture",
+    "low_SOC",
+    "biodiversity_decline",
+    "high_pesticide_use",
+    "pollinator_decline"
+  ],
   "hard_constraints": {
-    "land_use_in": ["cropland", "fallow"],
+    "land_use_in": [
+      "cropland",
+      "fallow"
+    ],
     "incompatible_constraints": []
   },
   "soft_risks": [
@@ -21,7 +30,14 @@
     }
   ],
   "requires_first": [],
-  "impacted_metrics": ["SOC", "nitrogen", "nutrient_availability", "soil_biota", "water_holding_capacity", "crop_yield"],
+  "impacted_metrics": [
+    "SOC",
+    "nitrogen",
+    "nutrient_availability",
+    "soil_biota",
+    "water_holding_capacity",
+    "crop_yield"
+  ],
   "mechanism": "Alternating crop families breaks pest cycles and alternates rooting depth and residue quality, which sustains carbon and nitrogen supply.",
   "time_horizon": "medium",
   "region_variants": [],

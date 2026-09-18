@@ -74,7 +74,12 @@ def score_candidate(card: PracticeCard, flags: list[str], profile: dict[str, Any
     benefit = causal.benefit_for_flags(effects, flags)
 
     addressed = sorted(set(card.addresses_flags) & set(flags))
-    coverage = len(addressed) / len(flags) if flags else 0.0
+    # The problem the user actually raised counts double: a practice that fixes
+    # carbon but ignores the pollinator decline they asked about should not lead.
+    weight = {flag: (2.0 if flag in causal.PROBLEM_FLAGS else 1.0) for flag in flags}
+    total = sum(weight.values())
+    coverage = sum(weight[flag] for flag in addressed) / total if total else 0.0
+    addresses_problem = bool(set(addressed) & causal.PROBLEM_FLAGS)
 
     risks_applied = [
         {
@@ -102,6 +107,7 @@ def score_candidate(card: PracticeCard, flags: list[str], profile: dict[str, Any
         "coverage": round(coverage, 4),
         "benefit": round(benefit, 4),
         "addresses": addressed,
+        "addresses_problem": addresses_problem,
         "net_effects": {node: round(value, 4) for node, value in effects.items()},
         "harms": negative,
         "risks_applied": risks_applied,

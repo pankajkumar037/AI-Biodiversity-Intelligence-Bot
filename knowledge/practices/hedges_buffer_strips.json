@@ -1,9 +1,22 @@
 {
   "practice_id": "hedges_buffer_strips",
   "name": "Field-margin hedges and buffer strips",
-  "addresses_flags": ["low_habitat_diversity", "low_natural_cover", "biodiversity_decline", "monoculture"],
+  "addresses_flags": [
+    "low_habitat_diversity",
+    "low_natural_cover",
+    "biodiversity_decline",
+    "monoculture",
+    "pollinator_decline",
+    "high_pesticide_use",
+    "recent_clearing"
+  ],
   "hard_constraints": {
-    "land_use_in": ["cropland", "grassland", "fallow", "orchard"],
+    "land_use_in": [
+      "cropland",
+      "grassland",
+      "fallow",
+      "orchard"
+    ],
     "incompatible_constraints": []
   },
   "soft_risks": [
@@ -21,7 +34,13 @@
     }
   ],
   "requires_first": [],
-  "impacted_metrics": ["pollinators", "habitat_diversity", "species_richness", "fragmentation", "erosion"],
+  "impacted_metrics": [
+    "pollinators",
+    "habitat_diversity",
+    "species_richness",
+    "fragmentation",
+    "erosion"
+  ],
   "mechanism": "Permanent vegetation at field edges supplies flowering resources and nesting habitat, and reconnects patches across an otherwise uniform field.",
   "time_horizon": "medium",
   "region_variants": [],

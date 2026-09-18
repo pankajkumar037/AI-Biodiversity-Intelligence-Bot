@@ -1,10 +1,20 @@
 {
   "practice_id": "rotational_grazing",
   "name": "Rotational grazing",
-  "addresses_flags": ["low_SOC", "bare_fallow", "biodiversity_decline"],
+  "addresses_flags": [
+    "low_SOC",
+    "bare_fallow",
+    "biodiversity_decline",
+    "erosion_observed"
+  ],
   "hard_constraints": {
-    "land_use_in": ["grassland", "pasture"],
-    "incompatible_constraints": ["no_livestock"]
+    "land_use_in": [
+      "grassland",
+      "pasture"
+    ],
+    "incompatible_constraints": [
+      "no_livestock"
+    ]
   },
   "soft_risks": [
     {
@@ -15,7 +25,13 @@
     }
   ],
   "requires_first": [],
-  "impacted_metrics": ["SOC", "biomass", "species_richness", "erosion", "bulk_density"],
+  "impacted_metrics": [
+    "SOC",
+    "biomass",
+    "species_richness",
+    "erosion",
+    "bulk_density"
+  ],
   "mechanism": "Moving animals between paddocks gives grass time to regrow, keeping root systems and ground cover intact instead of grazing them to bare soil.",
   "time_horizon": "medium",
   "region_variants": [],

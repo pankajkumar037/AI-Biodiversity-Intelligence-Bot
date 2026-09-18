@@ -1,10 +1,21 @@
 {
   "practice_id": "conservation_agriculture",
   "name": "Conservation agriculture (minimum disturbance, cover, rotation)",
-  "addresses_flags": ["low_SOC", "water_limited", "monoculture", "bare_fallow"],
+  "addresses_flags": [
+    "low_SOC",
+    "water_limited",
+    "monoculture",
+    "bare_fallow",
+    "residue_burning",
+    "erosion_observed"
+  ],
   "hard_constraints": {
-    "land_use_in": ["cropland"],
-    "incompatible_constraints": ["no_machinery"]
+    "land_use_in": [
+      "cropland"
+    ],
+    "incompatible_constraints": [
+      "no_machinery"
+    ]
   },
   "soft_risks": [
     {
@@ -20,8 +31,18 @@
       "mitigation": "Retain a partial cover and source fodder from a dedicated strip"
     }
   ],
-  "requires_first": ["mulching", "reduced_tillage"],
-  "impacted_metrics": ["SOC", "erosion", "soil_moisture", "water_holding_capacity", "soil_biota", "crop_yield"],
+  "requires_first": [
+    "mulching",
+    "reduced_tillage"
+  ],
+  "impacted_metrics": [
+    "SOC",
+    "erosion",
+    "soil_moisture",
+    "water_holding_capacity",
+    "soil_biota",
+    "crop_yield"
+  ],
   "mechanism": "Minimum disturbance, permanent soil cover and crop rotation act together so carbon accumulates while the surface stays protected.",
   "time_horizon": "long",
   "region_variants": [],

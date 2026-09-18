@@ -19,14 +19,17 @@ def extract_draft(message: str) -> SiteProfileDraft:
     return result
 
 
-def classify_intent(message: str) -> tuple[Intent, str | None]:
-    """Route a follow-up. Returns (intent, constraint slug when intent is constraint)."""
+ASKS = ("why", "what_if", "recommend", "none")
+
+
+def classify_intent(message: str) -> tuple[Intent, str | None, str]:
+    """Route a turn. Returns (intent, constraint slug or None, what the user asks for)."""
     try:
         verdict = llm.judge(system=prompts.INTENT_SYSTEM_V1, user=message)
     except RuntimeError:
         # NOTE: if the classifier is unavailable, treat the turn as new information
         # rather than refusing to answer.
-        return Intent.new_info, None
+        return Intent.new_info, None, "none"
 
     raw = str(verdict.get("intent", "new_info"))
     try:
@@ -37,4 +40,10 @@ def classify_intent(message: str) -> tuple[Intent, str | None]:
     constraint = verdict.get("constraint")
     if constraint in (None, "null", ""):
         constraint = None
-    return intent, constraint
+
+    asks = str(verdict.get("asks", "none")).lower()
+    if asks not in ASKS:
+        asks = "none"
+    if intent == Intent.what_if:
+        asks = "what_if"
+    return intent, constraint, asks

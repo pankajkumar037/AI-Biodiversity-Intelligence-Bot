@@ -1,9 +1,18 @@
 {
   "practice_id": "no_till",
   "name": "No-till establishment",
-  "addresses_flags": ["low_SOC", "water_limited", "bare_fallow"],
+  "addresses_flags": [
+    "low_SOC",
+    "water_limited",
+    "bare_fallow",
+    "residue_burning",
+    "erosion_observed"
+  ],
   "hard_constraints": {
-    "land_use_in": ["cropland", "orchard"],
+    "land_use_in": [
+      "cropland",
+      "orchard"
+    ],
     "incompatible_constraints": []
   },
   "soft_risks": [
@@ -21,7 +30,14 @@
     }
   ],
   "requires_first": [],
-  "impacted_metrics": ["SOC", "soil_moisture", "water_holding_capacity", "bulk_density", "soil_biota", "carbon_sequestration_rate"],
+  "impacted_metrics": [
+    "SOC",
+    "soil_moisture",
+    "water_holding_capacity",
+    "bulk_density",
+    "soil_biota",
+    "carbon_sequestration_rate"
+  ],
   "mechanism": "Leaving the soil undisturbed keeps aggregates and residue intact, so water infiltrates and stays and carbon is not exposed to rapid oxidation.",
   "time_horizon": "medium",
   "region_variants": [

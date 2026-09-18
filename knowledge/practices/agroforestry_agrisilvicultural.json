@@ -1,11 +1,24 @@
 {
   "practice_id": "agroforestry_agrisilvicultural",
   "name": "Agrisilvicultural agroforestry (trees with crops)",
-  "addresses_flags": ["low_SOC", "monoculture", "low_habitat_diversity", "low_natural_cover", "biodiversity_decline"],
+  "addresses_flags": [
+    "low_SOC",
+    "monoculture",
+    "low_habitat_diversity",
+    "low_natural_cover",
+    "biodiversity_decline",
+    "recent_clearing",
+    "pollinator_decline"
+  ],
   "hard_constraints": {
-    "land_use_in": ["cropland", "fallow"],
+    "land_use_in": [
+      "cropland",
+      "fallow"
+    ],
     "min_rainfall_mm": 300,
-    "incompatible_constraints": ["leased_land_no_trees"]
+    "incompatible_constraints": [
+      "leased_land_no_trees"
+    ]
   },
   "soft_risks": [
     {
@@ -21,8 +34,18 @@
       "mitigation": "Prune to manage shade and keep density below the threshold where competition dominates"
     }
   ],
-  "requires_first": ["mulching"],
-  "impacted_metrics": ["SOC", "habitat_diversity", "species_richness", "soil_moisture", "tree_cover", "erosion", "water_holding_capacity"],
+  "requires_first": [
+    "mulching"
+  ],
+  "impacted_metrics": [
+    "SOC",
+    "habitat_diversity",
+    "species_richness",
+    "soil_moisture",
+    "tree_cover",
+    "erosion",
+    "water_holding_capacity"
+  ],
   "mechanism": "Trees add deep roots and litterfall that build carbon, while the canopy moderates microclimate and provides habitat structure the cropped field lacks.",
   "time_horizon": "long",
   "region_variants": [

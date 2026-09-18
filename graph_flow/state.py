@@ -7,9 +7,17 @@ from langgraph.graph.message import add_messages
 
 from core.schemas import SOURCE_PRIORITY, FieldSource, SiteField, SiteProfile
 
+REPLACE = "__replace__"
+
 
 def merge_profile(old: dict[str, dict], new: dict[str, dict]) -> dict[str, dict]:
-    """Keep the value from the stronger source; a newer user value replaces an older one."""
+    """Keep the value from the stronger source; a newer user value replaces an older one.
+
+    {REPLACE: {...}} swaps the whole profile, which is how a what-if's hypothetical
+    values are cleared and the baseline put back before the next turn.
+    """
+    if new and REPLACE in new:
+        return dict(new[REPLACE] or {})
     merged = dict(old or {})
     for name, field in (new or {}).items():
         current = merged.get(name)
@@ -72,9 +80,12 @@ class AgentState(TypedDict, total=False):
     turn: int
     audience: str | None
     intent: str | None
+    asks: str | None
     message: str
 
     flags: list[str]
+    problem_flags: list[str]
+    restore_profile: dict[str, dict] | None
     flag_details: list[dict]
     fired_rules: list[str]
     patterns: list[dict]

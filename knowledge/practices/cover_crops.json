@@ -1,9 +1,20 @@
 {
   "practice_id": "cover_crops",
   "name": "Cover cropping between cash crops",
-  "addresses_flags": ["low_SOC", "bare_fallow", "monoculture", "biodiversity_decline"],
+  "addresses_flags": [
+    "low_SOC",
+    "bare_fallow",
+    "monoculture",
+    "biodiversity_decline",
+    "erosion_observed",
+    "pollinator_decline"
+  ],
   "hard_constraints": {
-    "land_use_in": ["cropland", "fallow", "orchard"],
+    "land_use_in": [
+      "cropland",
+      "fallow",
+      "orchard"
+    ],
     "incompatible_constraints": []
   },
   "soft_risks": [
@@ -21,7 +32,14 @@
     }
   ],
   "requires_first": [],
-  "impacted_metrics": ["SOC", "soil_moisture", "soil_biota", "nutrient_availability", "erosion", "crop_yield"],
+  "impacted_metrics": [
+    "SOC",
+    "soil_moisture",
+    "soil_biota",
+    "nutrient_availability",
+    "erosion",
+    "crop_yield"
+  ],
   "mechanism": "A living cover returns root and shoot biomass to the soil between cash crops, feeding soil biota and protecting the surface from erosion.",
   "time_horizon": "medium",
   "region_variants": [

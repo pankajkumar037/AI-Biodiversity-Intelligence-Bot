@@ -1,9 +1,23 @@
 {
   "practice_id": "grassland_restoration",
   "name": "Grassland and degraded-land restoration",
-  "addresses_flags": ["low_SOC", "low_natural_cover", "low_habitat_diversity", "biodiversity_decline", "bare_fallow"],
+  "addresses_flags": [
+    "low_SOC",
+    "low_natural_cover",
+    "low_habitat_diversity",
+    "biodiversity_decline",
+    "bare_fallow",
+    "recent_clearing",
+    "pollinator_decline",
+    "erosion_observed"
+  ],
   "hard_constraints": {
-    "land_use_in": ["grassland", "pasture", "fallow", "degraded"],
+    "land_use_in": [
+      "grassland",
+      "pasture",
+      "fallow",
+      "degraded"
+    ],
     "incompatible_constraints": []
   },
   "soft_risks": [
@@ -15,7 +29,14 @@
     }
   ],
   "requires_first": [],
-  "impacted_metrics": ["SOC", "species_richness", "habitat_diversity", "erosion", "biomass", "fragmentation"],
+  "impacted_metrics": [
+    "SOC",
+    "species_richness",
+    "habitat_diversity",
+    "erosion",
+    "biomass",
+    "fragmentation"
+  ],
   "mechanism": "Re-establishing perennial vegetation rebuilds root carbon and ground cover, giving soil biota and above-ground species a continuous habitat again.",
   "time_horizon": "long",
   "region_variants": [],

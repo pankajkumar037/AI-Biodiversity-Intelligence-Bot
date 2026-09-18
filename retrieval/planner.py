@@ -58,7 +58,19 @@ FLAG_QUERY_TEXT = {
     "acidic_soil": "acidic soil management liming",
     "low_natural_cover": "habitat fragmentation natural vegetation cover farmland",
     "biodiversity_decline": "farmland biodiversity decline drivers",
+    "pollinator_decline": "pollinator decline drivers agrochemicals habitat loss farmland",
+    "high_pesticide_use": "pesticide effects on pollinators and soil organisms",
+    "residue_burning": "crop residue burning soil organic carbon loss",
+    "recent_clearing": "land conversion deforestation habitat loss biodiversity",
+    "pollution_exposure": "soil pollution sources effects on soil biota and crops",
+    "erosion_observed": "soil erosion control vegetation cover cropland",
 }
+
+# Queries about the problem the user raised go in before practice queries, so
+# the evidence block always carries something about what they actually asked.
+PROBLEM_FIRST = ("pollinator_decline", "high_pesticide_use", "biodiversity_decline",
+                 "residue_burning", "recent_clearing", "pollution_exposure",
+                 "erosion_observed")
 
 
 def practice_text(practice_id: str) -> str:
@@ -72,7 +84,15 @@ def plan(flags: list[str], practices: list[str], paths: list[dict],
     zone = (site_zone or "").replace("_", " ")
     queries: list[PlannedQuery] = []
 
-    for practice_id in practices[:4]:
+    for flag in PROBLEM_FIRST:
+        if flag in flags and flag in FLAG_QUERY_TEXT:
+            queries.append(PlannedQuery(
+                q=f"{FLAG_QUERY_TEXT[flag]} {zone}".strip(), purpose="support",
+                climate_zone=site_zone,
+            ))
+
+    practice_budget = 4 if len(queries) <= 1 else 3
+    for practice_id in practices[:practice_budget]:
         text = practice_text(practice_id)
         queries.append(PlannedQuery(
             q=f"{text} soil organic carbon biodiversity {zone}".strip(),
@@ -96,6 +116,8 @@ def plan(flags: list[str], practices: list[str], paths: list[dict],
 
     for flag in flags:
         text = FLAG_QUERY_TEXT.get(flag)
+        if flag in PROBLEM_FIRST:
+            continue
         if text and len(queries) < config.MAX_QUERIES:
             queries.append(PlannedQuery(
                 q=f"{text} {zone}".strip(), purpose="support", climate_zone=site_zone,

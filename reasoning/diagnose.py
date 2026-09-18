@@ -40,8 +40,11 @@ def diagnose(profile: dict[str, Any],
                 break
 
         elif "match" in rule:
+            if value is False or str(value).strip() == "":
+                continue
             for option in rule["match"]:
-                if str(value).lower() != str(option["equals"]).lower():
+                wildcard = option["equals"] == "*"
+                if not wildcard and str(value).lower() != str(option["equals"]).lower():
                     continue
                 if option.get("flag"):
                     flags.append(Flag(

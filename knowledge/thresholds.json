@@ -88,5 +88,69 @@
     ],
     "source": "Categorical rule: user-reported trend, treated as an observation not a measurement",
     "verify": false
+  },
+  {
+    "rule_id": "T-POL-01",
+    "metric": "pollinator_trend",
+    "match": [
+      {"equals": "declining", "label": "declining", "flag": "pollinator_decline"}
+    ],
+    "source": "Categorical rule: user-reported pollinator trend; IPBES (2016) treats farmland pollinator decline as a driver-diagnosable condition",
+    "verify": false
+  },
+  {
+    "rule_id": "T-PEST-01",
+    "metric": "pesticide_use",
+    "match": [
+      {"equals": "moderate", "label": "moderate", "flag": "high_pesticide_use"},
+      {"equals": "high", "label": "high", "flag": "high_pesticide_use"}
+    ],
+    "source": "Categorical rule: pesticide use is a recognised pressure on pollinators and soil biota (IPBES 2016; FAO 2018 soil pollution)",
+    "verify": false
+  },
+  {
+    "rule_id": "T-BURN-01",
+    "metric": "residue_burning",
+    "match": [
+      {"equals": "true", "label": "burning", "flag": "residue_burning"}
+    ],
+    "source": "Categorical rule: burning removes the residue that would otherwise return carbon to the soil (FAO Recarbonizing Global Soils Vol. 3)",
+    "verify": false
+  },
+  {
+    "rule_id": "T-CLEAR-01",
+    "metric": "recent_clearing",
+    "match": [
+      {"equals": "true", "label": "cleared", "flag": "recent_clearing"}
+    ],
+    "source": "Categorical rule: land conversion is a primary driver of habitat loss (IPBES 2018 land degradation assessment)",
+    "verify": false
+  },
+  {
+    "rule_id": "T-POLL-01",
+    "metric": "nearby_pollution_source",
+    "match": [
+      {"equals": "*", "label": "exposed", "flag": "pollution_exposure"}
+    ],
+    "source": "Categorical rule: any named nearby pollution source, per FAO (2018) soil pollution sources",
+    "verify": false
+  },
+  {
+    "rule_id": "T-EROS-01",
+    "metric": "erosion_observed",
+    "match": [
+      {"equals": "true", "label": "observed", "flag": "erosion_observed"}
+    ],
+    "source": "Categorical rule: user-observed erosion, treated as an observation",
+    "verify": false
+  },
+  {
+    "rule_id": "T-MOIST-01",
+    "metric": "soil_moisture_status",
+    "match": [
+      {"equals": "dry", "label": "dry", "flag": "water_limited"}
+    ],
+    "source": "Categorical rule: user-reported dry soil is treated as water limitation alongside the rainfall rule",
+    "verify": false
   }
 ]

@@ -26,6 +26,7 @@ def build_paths(root_causes: list[dict],
         registry.append({
             "id": f"P{counter}", "kind": "root_cause",
             "path": cause["path"], "effect": cause.get("effect"),
+            "observed_on_site": bool(cause.get("observed")),
         })
         counter += 1
 
@@ -82,12 +83,15 @@ def evidence_by_practice(evidence: list[EvidenceItem]) -> dict[str, list[str]]:
 def build_dossier(profile: dict[str, Any], flags: list[str], patterns: list[dict],
                   root_causes: list[dict], leverage: list[dict], candidates: list[dict],
                   combos: list[dict], excluded: list[dict], plan: list[dict],
-                  evidence: list[EvidenceItem] | None = None) -> dict:
+                  evidence: list[EvidenceItem] | None = None, asks: str = "none",
+                  problem_flags: list[str] | None = None) -> dict:
     """The compact, engine-produced picture the model is asked to explain."""
     candidates = dossier_candidates(candidates)
     registry, per_candidate = build_paths(root_causes, candidates)
     labels_for = evidence_by_practice(evidence or [])
     return {
+        "question": asks,
+        "stated_problem": list(problem_flags or []),
         "site": profile,
         "diagnosis": flags,
         "patterns": [

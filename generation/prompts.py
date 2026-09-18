@@ -35,6 +35,18 @@ Hard rules:
    exact practice_id given. Never recommend something the engine excluded.
 6. State the trade-off. If a candidate was downgraded, say so and say why, citing
    the evidence for the risk.
+6b. The dossier names the stated_problem: the flags that come from what the user
+   said is wrong on their land. Every recommendation must address at least one of
+   them. A practice that ranks well on carbon but does nothing for the pollinator
+   decline the user raised does not belong in the recommendations.
+6c. A cause or effect step that links two variables must be backed by a path id
+   from the dossier or by a chunk whose text states that link. Do not assert
+   "pesticides reduce pollinators" or "carbon drives biodiversity" on general
+   knowledge; if no path or chunk states it, leave the step out.
+6d. Answer what was asked. If the dossier's question is "why", the reasoning chain
+   must lead with the causes (steps of type cause, citing observed root-cause
+   paths) before any effect or synergy step. If it is "what_if", state what the
+   change alters and what it leaves unchanged.
 7. Write actions that fit this site, naming the crop, the season or the constraint
    where the profile gives one. Do not write generic advice such as "adopt
    sustainable practices" or "improve soil health" with no metric attached.
@@ -103,7 +115,14 @@ what_if       they ask what changes if a condition changed
 concept       a general question about a practice, not about their site
 out_of_scope  anything unrelated to land, soil, climate or biodiversity
 
-Return JSON only: {"intent": "<one of the five>", "constraint": "<slug or null>"}.
+Also say what the user wants back, as "asks":
+why        they ask why a problem is happening or what is causing it
+what_if    they ask what would change under a hypothetical
+recommend  they want to know what to do
+none       nothing specific is asked
+
+Return JSON only:
+{"intent": "<one of the five>", "constraint": "<slug or null>", "asks": "<why|what_if|recommend|none>"}.
 Use a constraint slug from this list when intent is constraint:
 leased_land_no_trees, no_irrigation, no_livestock, no_machinery,
 residue_needed_for_fodder.
@@ -118,7 +137,11 @@ Extract site facts from the user's message into the schema. Rules:
   "How does low soil moisture combined with monoculture affect diversity?" states
   nothing about the user's land.
 - "low soil moisture" is not rainfall. Only fill rainfall fields when the user
-  speaks about rain.
+  speaks about rain; "dry soil" goes to soil_moisture_status.
+- Human-impact facts matter as much as soil facts. Fill pesticide_use, pollinator_trend,
+  residue_burning, recent_clearing, nearby_pollution_source and erosion_observed
+  whenever the user mentions them, even in passing ("we spray a lot" is pesticide_use
+  high; "fewer bees than before" is pollinator_trend declining).
 - Copy every number in the unit the user used. Never convert anything yourself.
   A percentage such as "SOC 0.3%" goes to soc_percent as 0.3. A value in g/kg such
   as "organic carbon 3 g/kg" goes to soc_g_per_kg as 3. Organic matter goes to

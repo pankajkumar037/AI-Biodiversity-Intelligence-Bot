@@ -47,3 +47,34 @@ def check_v7_mechanism_supported(adjudication: Adjudication, ctx) -> list[str]:
                 f"passages say, or cite a chunk that does."
             )
     return failures
+
+
+def unsupported_steps(adjudication: Adjudication, ctx, limit: int = 6) -> tuple[set[int], list[str]]:
+    """Indices of cause/effect steps whose only anchor is evidence that does not state the link.
+
+    A step anchored to a path id rests on the graph, which is itself extracted from
+    the corpus, so only evidence-anchored causal claims are judged here.
+    """
+    dropped: set[int] = set()
+    reasons: list[str] = []
+    judged = 0
+    for index, step in enumerate(adjudication.reasoning_chain):
+        if step.type not in ("cause", "effect") or step.path_id or not step.sources:
+            continue
+        if judged >= limit:
+            break
+        passage = "\n\n".join(
+            f"[{label}] {ctx.evidence[label].text}"
+            for label in step.sources[:3] if label in ctx.evidence
+        )
+        if not passage:
+            continue
+        judged += 1
+        try:
+            supported, reason = mechanism_supported(step.claim, passage)
+        except RuntimeError:
+            continue
+        if not supported:
+            dropped.add(index)
+            reasons.append(f"'{step.claim[:70]}' is not stated by {', '.join(step.sources[:3])}: {reason}")
+    return dropped, reasons

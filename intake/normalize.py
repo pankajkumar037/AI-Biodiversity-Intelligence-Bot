@@ -118,6 +118,20 @@ def normalise_draft(
         values["natural_cover_percent"] = float(draft.natural_cover_percent)
     if draft.biodiversity_trend is not None:
         values["biodiversity_trend"] = draft.biodiversity_trend
+    if draft.pollinator_trend is not None:
+        values["pollinator_trend"] = draft.pollinator_trend
+    if draft.pesticide_use is not None:
+        values["pesticide_use"] = draft.pesticide_use
+    if draft.residue_burning is not None:
+        values["residue_burning"] = bool(draft.residue_burning)
+    if draft.recent_clearing is not None:
+        values["recent_clearing"] = bool(draft.recent_clearing)
+    if draft.nearby_pollution_source is not None:
+        values["nearby_pollution_source"] = draft.nearby_pollution_source.strip().lower()
+    if draft.erosion_observed is not None:
+        values["erosion_observed"] = bool(draft.erosion_observed)
+    if draft.soil_moisture_status is not None:
+        values["soil_moisture_status"] = draft.soil_moisture_status
     if draft.irrigation is not None:
         values["irrigation"] = draft.irrigation.strip().lower()
     if draft.place_name is not None:

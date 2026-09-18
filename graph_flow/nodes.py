@@ -13,7 +13,7 @@ from core.schemas import (
 )
 from generation import adjudicate as adjudicate_mod
 from generation import render as render_mod
-from graph_flow.state import AgentState, as_fields, profile_values, to_profile
+from graph_flow.state import REPLACE, AgentState, as_fields, profile_values, to_profile
 from intake import extract, geo, normalize
 from knowledge import loader
 from reasoning import causal, combine, diagnose, sequence, voi
@@ -118,21 +118,31 @@ def route_intent(state: AgentState) -> dict[str, Any]:
     """Classify the turn before anything is read into the profile.
 
     A general question on turn one used to be forced to new_info and then mined for
-    site values it never contained. Every turn is classified now.
+    site values it never contained. Every turn is classified now. This node also
+    puts the baseline profile back if the previous turn was a what-if, so the
+    hypothetical values never leak into the next question.
     """
     message = (state.get("message") or "").strip()
-    if not message:
-        return {"intent": Intent.new_info.value}
+    update: dict[str, Any] = {}
 
-    intent, constraint = extract.classify_intent(message)
-    update: dict[str, Any] = {"intent": intent.value,
-                              "trace": {"intent": intent.value}}
+    restore = state.get("restore_profile")
+    if restore is not None:
+        update["profile"] = {REPLACE: restore}
+        update["restore_profile"] = None
+
+    if not message:
+        return {**update, "intent": Intent.new_info.value, "asks": "none"}
+
+    intent, constraint, asks = extract.classify_intent(message)
+    update.update({"intent": intent.value, "asks": asks,
+                   "trace": {"intent": intent.value, "asks": asks}})
     if constraint:
         update["user_constraints"] = [constraint]
 
     if intent == Intent.what_if:
-        # Snapshot the standing answer before this turn overwrites it, so the
-        # comparison is against what the user was actually told last time.
+        # Snapshot the standing answer and the full baseline profile. The turn runs
+        # on baseline + the hypothetical change; the baseline is restored next turn.
+        baseline_profile = restore if restore is not None else dict(state.get("profile", {}))
         update["what_if_baseline"] = {
             "flags": list(state.get("flags", [])),
             "practices": [
@@ -142,8 +152,10 @@ def route_intent(state: AgentState) -> dict[str, Any]:
                  "downgraded": candidate["downgraded"]}
                 for candidate in state.get("candidates", [])[:6]
             ],
-            "profile": profile_values(state.get("profile", {})),
+            "profile": {name: field.get("value") for name, field in baseline_profile.items()},
+            "constraints": list(state.get("user_constraints", [])),
         }
+        update["restore_profile"] = baseline_profile
     return update
 
 
@@ -175,13 +187,16 @@ def diagnose_node(state: AgentState) -> dict[str, Any]:
     names = diagnose.flag_names(flags)
     patterns = diagnose.detect_patterns(names)
 
+    problem = [name for name in names if name in causal.PROBLEM_FLAGS]
     return {
         "flags": names,
+        "problem_flags": problem,
         "flag_details": [flag.model_dump() for flag in flags],
         "fired_rules": fired,
         "patterns": [pattern.model_dump() for pattern in patterns],
         "trace": {"diagnosis": {
             "flags": names,
+            "problem_flags": problem,
             "fired_rules": fired,
             "patterns": [pattern.model_dump() for pattern in patterns],
         }},
@@ -197,7 +212,8 @@ def root_cause(state: AgentState) -> dict[str, Any]:
     return {
         "root_causes": causes,
         "trace": {"root_causes": [
-            {"id": cause["id"], "path": cause["path"]} for cause in causes
+            {"id": cause["id"], "path": cause["path"], "observed": cause["observed"]}
+            for cause in causes
         ]},
     }
 
@@ -323,6 +339,7 @@ def _verify_context(state: AgentState) -> checks.VerifyContext:
         risk_practices=risk_practices,
         candidates=candidates,
         excluded_practices={item["practice_id"] for item in state.get("excluded", [])},
+        problem_flags=set(state.get("problem_flags", [])),
     )
 
 
@@ -340,6 +357,8 @@ def adjudicate(state: AgentState) -> dict[str, Any]:
         excluded=state.get("excluded", []),
         plan=state.get("plan", []),
         evidence=items,
+        asks=state.get("asks") or "none",
+        problem_flags=state.get("problem_flags", []),
     )
 
     previous = state.get("adjudication")
@@ -378,13 +397,16 @@ def verify(state: AgentState) -> dict[str, Any]:
     attempts = int(state.get("verify_attempts", 0))
 
     if not failures:
+        adjudication, unsupported = _drop_unsupported_steps(adjudication, ctx)
         return {
             "adjudication": adjudication.model_dump(),
             "verification": {"attempts": attempts, "checks": status, "passed": True,
-                             "warnings": warnings, "stripped_numbers": 0},
+                             "warnings": warnings + unsupported, "stripped_numbers": 0,
+                             "dropped_unsupported_steps": len(unsupported)},
             "verify_feedback": None,
             "trace": {"verification": {"attempts": attempts, "checks": status,
-                                       "warnings": warnings}},
+                                       "warnings": warnings,
+                                       "unsupported_steps": unsupported}},
         }
 
     # V7 is a judgement call, not a hard fact check, so it earns one retry and then
@@ -408,6 +430,8 @@ def verify(state: AgentState) -> dict[str, Any]:
         }
 
     degraded, counts = checks.degrade(adjudication, ctx)
+    degraded, unsupported = _drop_unsupported_steps(degraded, ctx)
+    counts["dropped_unsupported_steps"] = len(unsupported)
     _, post_warnings, post_status, _ = checks.run_checks(degraded, ctx,
                                                          judge_mechanisms=False)
     update: dict[str, Any] = {
@@ -433,6 +457,16 @@ def verify(state: AgentState) -> dict[str, Any]:
             f"chunk and were removed rather than shown unverified."
         )
     return update
+
+
+def _drop_unsupported_steps(adjudication: Adjudication, ctx) -> tuple[Adjudication, list[str]]:
+    """Judge evidence-only causal steps and remove the ones the cited text does not state."""
+    from verification import judge as judge_mod
+
+    indices, reasons = judge_mod.unsupported_steps(adjudication, ctx)
+    if not indices:
+        return adjudication, []
+    return checks.drop_steps(adjudication, indices), reasons
 
 
 def should_retry(state: AgentState) -> str:
@@ -474,6 +508,11 @@ def render(state: AgentState) -> dict[str, Any]:
         extra_penalty=penalty,
     )
 
+    comparison = None
+    baseline = state.get("what_if_baseline")
+    if baseline:
+        comparison = _what_if_comparison(baseline, state)
+
     audience = state.get("audience")
     answer = render_mod.render(
         profile=profile,
@@ -487,83 +526,86 @@ def render(state: AgentState) -> dict[str, Any]:
         evidence=items,
         confidence=report,
         audience=Audience(audience) if audience else None,
+        root_causes=state.get("root_causes", []),
+        asks=state.get("asks") or "none",
+        problem_flags=state.get("problem_flags", []),
+        comparison=comparison,
     )
-
-    baseline = state.get("what_if_baseline")
-    if baseline:
-        answer += _what_if_comparison(baseline, state)
 
     warnings = state.get("warnings", [])
     if warnings:
         answer += "\nNOTES\n" + "\n".join(f"    {note}" for note in warnings) + "\n"
 
-    return {
-        "answer": answer,
+    trace: dict[str, Any] = {
+        "profile": confidence_mod.summarise(profile),
         "confidence": report.model_dump(),
-        "trace": {
-            "profile": confidence_mod.summarise(profile),
-            "confidence": report.model_dump(),
-        },
     }
+    if comparison:
+        trace["what_if"] = {
+            "baseline_state": baseline.get("profile", {}),
+            "hypothetical_state": profile_values(state.get("profile", {})),
+            "change": comparison.get("change", {}),
+            "moved": comparison.get("moved", []),
+            "unchanged": comparison.get("unchanged", []),
+            "constraints": comparison.get("constraints", []),
+        }
+    return {"answer": answer, "confidence": report.model_dump(), "trace": trace}
 
 
-def _what_if_comparison(baseline: dict, state: AgentState) -> str:
-    """Side-by-side of what the change did to the diagnosis and the ranking."""
+def _what_if_comparison(baseline: dict, state: AgentState) -> dict[str, Any]:
+    """Baseline versus hypothetical as data: what moved, what stayed, what still binds."""
     before = {item["practice_id"]: item for item in baseline.get("practices", [])}
-    after = {
-        candidate["practice_id"]: candidate
-        for candidate in state.get("candidates", [])[:6]
-    }
-
-    lines = ["", "WHAT CHANGED"]
-
-    old_flags, new_flags = set(baseline.get("flags", [])), set(state.get("flags", []))
-    if old_flags - new_flags:
-        lines.append(f"    resolved: {', '.join(sorted(old_flags - new_flags))}")
-    if new_flags - old_flags:
-        lines.append(f"    newly flagged: {', '.join(sorted(new_flags - old_flags))}")
+    after = {c["practice_id"]: c for c in state.get("candidates", [])[:6]}
 
     old_values = baseline.get("profile", {})
     new_values = profile_values(state.get("profile", {}))
-    changed = [
-        f"{name}: {old_values.get(name)} -> {value}"
+    change = {
+        name: (old_values.get(name), value)
         for name, value in new_values.items()
-        if old_values.get(name) != value
-    ]
-    if changed:
-        lines.append(f"    inputs: {'; '.join(changed)}")
+        if old_values.get(name) != value and name not in ("lat", "lon")
+    }
+    unchanged = sorted(
+        name for name, value in new_values.items()
+        if old_values.get(name) == value and name not in ("lat", "lon", "place_name")
+    )
+
+    moved: list[str] = []
+    old_flags, new_flags = set(baseline.get("flags", [])), set(state.get("flags", []))
+    if old_flags - new_flags:
+        moved.append(f"resolved: {', '.join(sorted(old_flags - new_flags))}")
+    if new_flags - old_flags:
+        moved.append(f"newly flagged: {', '.join(sorted(new_flags - old_flags))}")
 
     for practice_id, candidate in after.items():
         previous = before.get(practice_id)
         if previous is None:
-            lines.append(
-                f"    {candidate['name']}: now in play at {candidate['suitability']:.2f}"
-            )
+            moved.append(f"{candidate['name']}: now in play at {candidate['suitability']:.2f}")
         elif previous["downgraded"] and not candidate["downgraded"]:
-            lines.append(
-                f"    {candidate['name']}: no longer downgraded "
+            moved.append(
+                f"{candidate['name']}: no longer downgraded "
                 f"({previous['suitability']:.2f} -> {candidate['suitability']:.2f}), "
                 f"the condition behind its risk no longer holds"
             )
         elif not previous["downgraded"] and candidate["downgraded"]:
             risk = candidate["risks_applied"][0]["risk"] if candidate["risks_applied"] else ""
-            lines.append(
-                f"    {candidate['name']}: now downgraded "
+            moved.append(
+                f"{candidate['name']}: now downgraded "
                 f"({previous['suitability']:.2f} -> {candidate['suitability']:.2f}) - {risk}"
             )
         elif abs(previous["suitability"] - candidate["suitability"]) >= 0.05:
-            lines.append(
-                f"    {candidate['name']}: {previous['suitability']:.2f} -> "
-                f"{candidate['suitability']:.2f}"
+            moved.append(
+                f"{candidate['name']}: {previous['suitability']:.2f} -> {candidate['suitability']:.2f}"
             )
-
     for practice_id, previous in before.items():
         if practice_id not in after:
-            lines.append(f"    {previous['name']}: no longer applies")
+            moved.append(f"{previous['name']}: no longer applies")
 
-    if len(lines) == 2:
-        lines.append("    nothing in the ranking moved")
-    return "\n".join(lines) + "\n"
+    return {
+        "change": change,
+        "moved": moved,
+        "unchanged": unchanged,
+        "constraints": list(baseline.get("constraints", [])),
+    }
 
 
 def ask(state: AgentState) -> dict[str, Any]:

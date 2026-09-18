@@ -1,11 +1,23 @@
 {
   "practice_id": "shelterbelts",
   "name": "Shelterbelts and windbreaks",
-  "addresses_flags": ["water_limited", "low_natural_cover", "low_habitat_diversity"],
+  "addresses_flags": [
+    "water_limited",
+    "low_natural_cover",
+    "low_habitat_diversity",
+    "recent_clearing",
+    "erosion_observed"
+  ],
   "hard_constraints": {
-    "land_use_in": ["cropland", "grassland", "fallow"],
+    "land_use_in": [
+      "cropland",
+      "grassland",
+      "fallow"
+    ],
     "min_rainfall_mm": 200,
-    "incompatible_constraints": ["leased_land_no_trees"]
+    "incompatible_constraints": [
+      "leased_land_no_trees"
+    ]
   },
   "soft_risks": [
     {
@@ -16,7 +28,13 @@
     }
   ],
   "requires_first": [],
-  "impacted_metrics": ["erosion", "soil_moisture", "tree_cover", "habitat_diversity", "temperature"],
+  "impacted_metrics": [
+    "erosion",
+    "soil_moisture",
+    "tree_cover",
+    "habitat_diversity",
+    "temperature"
+  ],
   "mechanism": "A row of trees across the prevailing wind slows it near the ground, cutting wind erosion and evaporation in the sheltered zone.",
   "time_horizon": "long",
   "region_variants": [

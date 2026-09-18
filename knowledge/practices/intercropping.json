@@ -1,9 +1,19 @@
 {
   "practice_id": "intercropping",
   "name": "Cereal-legume intercropping",
-  "addresses_flags": ["monoculture", "low_SOC", "biodiversity_decline", "low_habitat_diversity"],
+  "addresses_flags": [
+    "monoculture",
+    "low_SOC",
+    "biodiversity_decline",
+    "low_habitat_diversity",
+    "pollinator_decline",
+    "high_pesticide_use"
+  ],
   "hard_constraints": {
-    "land_use_in": ["cropland", "fallow"],
+    "land_use_in": [
+      "cropland",
+      "fallow"
+    ],
     "incompatible_constraints": []
   },
   "soft_risks": [
@@ -14,8 +24,18 @@
       "mitigation": "Use wider strip arrangements and a drought-tolerant legume, and conserve moisture with mulch first"
     }
   ],
-  "requires_first": ["mulching"],
-  "impacted_metrics": ["SOC", "species_richness", "habitat_diversity", "nitrogen", "soil_biota", "erosion", "crop_yield"],
+  "requires_first": [
+    "mulching"
+  ],
+  "impacted_metrics": [
+    "SOC",
+    "species_richness",
+    "habitat_diversity",
+    "nitrogen",
+    "soil_biota",
+    "erosion",
+    "crop_yield"
+  ],
   "mechanism": "Two crops with different rooting depths and nitrogen habits share the field, adding a legume nitrogen source and more niches above and below ground.",
   "time_horizon": "medium",
   "region_variants": [

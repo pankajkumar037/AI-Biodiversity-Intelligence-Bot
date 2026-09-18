@@ -132,6 +132,12 @@ h1, h2, h3, p { margin: 0; }
 .reason { font-size: 13.5px; color: var(--ink-2); padding: 3px 0; }
 .reason .k { font-family: var(--mono); font-size: 10.5px; color: var(--ink-3); margin-right: 6px; }
 .reason .a { font-family: var(--mono); font-size: 11px; color: var(--moss); margin-left: 4px; }
+.reason .arr { color: var(--ink-3); }
+.reason.obs { color: var(--ink); }
+.reason.obs .k { color: var(--moss); }
+.reason.maybe { color: var(--ink-3); }
+.sources .snip { color: var(--ink-3); }
+.order { font-size: 13.5px; color: var(--ink-2); border-left: 3px solid var(--ochre); padding: 4px 0 4px 12px; margin: 0 0 10px; }
 .review { border-left: 3px solid var(--ochre); padding-left: 12px; color: var(--ink-2); font-size: 14px; }
 .sources p { margin: 0; font-size: 13px; color: var(--ink-2); padding: 2px 0; }
 .sources .lbl { font-family: var(--mono); font-size: 11px; color: var(--moss); margin-right: 6px; }

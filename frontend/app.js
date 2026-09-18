@@ -263,7 +263,7 @@
   }
 
   // ── answer parsing and reveal ──────────────────────────────────
-  const HEADERS = ["ANSWER", "SITE", "DIAGNOSIS", "RECOMMENDED", "DOWNGRADED", "EXCLUDED", "REASONING", "REVIEW", "CONFIDENCE", "SOURCES", "WHAT CHANGED", "NOTES"];
+  const HEADERS = ["ANSWER", "SITE", "DIAGNOSIS", "CAUSES", "WHAT CHANGED", "EVIDENCE", "RECOMMENDED", "TRADE-OFFS", "DOWNGRADED", "EXCLUDED", "REASONING", "REVIEW", "CONFIDENCE", "SOURCES", "NOTES"];
   function parse(text) {
     const secs = []; let cur = null;
     for (const line of (text || "").split("\n")) {
@@ -293,6 +293,7 @@
       case "RECOMMENDED": {
         d.innerHTML = `<h3>Recommended</h3>`; let card = null;
         for (const raw of s.body) {
+          if (raw.trim().startsWith("Order:")) { d.insertAdjacentHTML("beforeend", `<p class="order">${esc(raw.trim())}</p>`); continue; }
           const m = raw.match(/^\[(\d+)\] (.*)$/);
           if (m) { card = document.createElement("div"); card.className = "rec"; card.innerHTML = `<div class="rec-t"><span class="rec-n">${m[1]}</span>${esc(m[2])}</div>`; d.appendChild(card); continue; }
           const r = raw.match(/^\s{4}([A-Za-z ]+?):\s(.*)$/);
@@ -309,6 +310,25 @@
         for (const raw of s.body) { if (!raw.trim()) continue;
           if (raw.startsWith("        would need:")) { if (p) p.insertAdjacentHTML("beforeend", `<span class="why">${esc(raw.trim())}</span>`); }
           else { p = document.createElement("p"); p.textContent = raw.trim(); d.appendChild(p); } }
+        break; }
+      case "CAUSES": {
+        d.innerHTML = `<h3>Why this is happening</h3>` + s.body.filter((l) => l.trim()).map((l) => {
+          const t = l.trim();
+          if (t.startsWith("You reported:")) return `<p class="lead"><b>${esc(t)}</b></p>`;
+          const m = t.match(/^\((.+?)\) (.*?)(?: \[(.+)\])?$/);
+          if (!m) return `<div class="reason">${esc(t)}</div>`;
+          const kind = m[1]; const cls = kind.startsWith("observed") ? "obs" : kind.startsWith("possible") ? "maybe" : "";
+          return `<div class="reason ${cls}"><span class="k">${esc(kind)}</span>${esc(m[2]).replace(/ -&gt; /g, ' <span class="arr">→</span> ')}${m[3] ? `<span class="a">[${esc(m[3])}]</span>` : ""}</div>`;
+        }).join(""); break; }
+      case "EVIDENCE": d.className = "sources"; d.innerHTML = `<h3>Evidence this rests on</h3>` + s.body.filter((l) => l.trim()).map((l) => {
+        const m = l.trim().match(/^\[(S\d+)\] (.*?): (.*)$/); return m ? `<p><span class="lbl">${m[1]}</span><b>${esc(m[2])}</b> — <span class="snip">${esc(m[3])}</span></p>` : `<p>${esc(l.trim())}</p>`; }).join(""); break;
+      case "TRADE-OFFS": {
+        d.className = "list down"; d.innerHTML = `<h3>Trade-offs</h3>`; let p = null;
+        for (const raw of s.body) { if (!raw.trim()) continue; const t = raw.trim();
+          if (raw.startsWith("        would need:")) { if (p) p.insertAdjacentHTML("beforeend", `<span class="why">${esc(t)}</span>`); continue; }
+          const m = t.match(/^\((tradeoff|synergy|conflict)\) (.*?)(?: \[(.+)\])?$/);
+          if (m) { d.insertAdjacentHTML("beforeend", `<div class="reason"><span class="k">${m[1]}</span>${esc(m[2])}${m[3] ? `<span class="a">[${esc(m[3])}]</span>` : ""}</div>`); p = null; continue; }
+          p = document.createElement("p"); p.textContent = t; d.appendChild(p); }
         break; }
       case "REASONING": {
         d.innerHTML = `<h3>Reasoning chain</h3>` + s.body.filter((l) => l.trim()).map((l) => {
