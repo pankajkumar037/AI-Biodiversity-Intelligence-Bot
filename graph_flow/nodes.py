@@ -70,16 +70,21 @@ def geo_enrich(state: AgentState) -> dict[str, Any]:
     """Fill soil and climate from public APIs when we have a location. Optional."""
     values = profile_values(state.get("profile", {}))
     lat, lon = values.get("lat"), values.get("lon")
+    place = None
+    how = "coordinates given"
 
     if (lat is None or lon is None) and values.get("place_name"):
         located = geo.geocode(str(values["place_name"]))
         if located:
             lat, lon = located["lat"], located["lon"]
+            place = located.get("display_name")
+            how = f"geocoded from '{values['place_name']}'"
 
     if lat is None or lon is None:
         return {}
 
-    enriched = geo.enrich(float(lat), float(lon))
+    lat, lon = round(float(lat), 4), round(float(lon), 4)
+    enriched = geo.enrich(lat, lon)
     update: dict[str, dict] = {}
     turn = int(state.get("turn", 0))
 
@@ -93,12 +98,14 @@ def geo_enrich(state: AgentState) -> dict[str, Any]:
             turn, uncertainty=0.3,
         ))
 
+    geo_trace = {"lat": lat, "lon": lon, "place": place, "how": how,
+                 "soil": soil, "climate": climate}
     if not update:
-        return {"trace": {"geo": {"lat": lat, "lon": lon, "result": "no data"}}}
+        return {"trace": {"geo": {**geo_trace, "result": "no data"}}}
     return {
         "profile": {**as_fields({"lat": lat, "lon": lon}, FieldSource.nominatim, turn),
                     **update},
-        "trace": {"geo": {"lat": lat, "lon": lon, "soil": soil, "climate": climate}},
+        "trace": {"geo": geo_trace},
     }
 
 

@@ -12,7 +12,7 @@
   const state = {
     apiBase: localStorage.getItem("darukaa.api") || "",
     sessionId: localStorage.getItem("darukaa.session") || newId(),
-    mode: "text", busy: false, turns: [],
+    mode: "text", busy: false, turns: [], abort: null,
   };
   localStorage.setItem("darukaa.session", state.sessionId);
   const api = (p) => state.apiBase + p;
@@ -71,7 +71,8 @@
     if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); $("#composer").requestSubmit(); }
   });
   $("#composer").addEventListener("submit", (e) => {
-    e.preventDefault(); if (state.busy) return;
+    e.preventDefault();
+    if (state.busy) { state.abort?.abort(); return; }
     if (state.mode === "text") {
       const t = $("#text-input").value.trim(); if (!t) return;
       $("#text-input").value = ""; $("#text-input").style.height = "auto";
@@ -104,8 +105,17 @@
   });
 
   // ── a turn ─────────────────────────────────────────────────────
+  function setBusy(on) {
+    state.busy = on;
+    $("#send").classList.toggle("stop", on);
+    $("#send").setAttribute("aria-label", on ? "Stop" : "Send");
+    $("#send").title = on ? "Stop this turn" : "";
+    $("#demo").disabled = on; $("#new-chat").disabled = on;
+  }
+
   async function runTurn(req) {
-    state.busy = true; $("#send").disabled = true; $("#demo").disabled = true; $("#hero").hidden = true;
+    setBusy(true); $("#hero").hidden = true;
+    state.abort = new AbortController();
 
     if (req.kind === "chat") addUser(req.message);
     else addUser(JSON.stringify(req.profile, null, 2), "structured profile → /analyze");
@@ -126,7 +136,7 @@
         if (ev.type === "node") onNode(msg, trace, ev);
         else if (ev.type === "done") result = ev.result;
         else if (ev.type === "error") throw new Error(`${ev.error}: ${ev.message}`);
-      });
+      }, state.abort.signal);
       if (result?.trace) Object.assign(trace, result.trace);
       finishThinking(msg, Date.now() - started, trace, result);
       await revealAnswer(msg, result, trace);
@@ -137,15 +147,19 @@
       ok = true;
     } catch (err) {
       msg.think.classList.remove("running");
-      $(".label", msg.think).textContent = "Something went wrong";
-      msg.answer.innerHTML = `<p class="m-error">${esc(err.message)}</p>`;
+      const stopped = err.name === "AbortError";
+      $(".label", msg.think).textContent = stopped
+        ? `Stopped after ${((Date.now() - started) / 1000).toFixed(0)}s` : "Something went wrong";
+      msg.answer.innerHTML = stopped
+        ? `<p class="lead">Stopped. The steps that finished are in the block above; nothing was written up.</p>`
+        : `<p class="m-error">${esc(err.message)}</p>`;
     }
-    state.busy = false; $("#send").disabled = false; $("#demo").disabled = false;
+    state.abort = null; setBusy(false);
     return ok;
   }
 
-  async function streamSSE(url, payload, onEvent) {
-    const res = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
+  async function streamSSE(url, payload, onEvent, signal) {
+    const res = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload), signal });
     if (!res.ok || !res.body) throw new Error(`HTTP ${res.status}`);
     const reader = res.body.getReader(); const dec = new TextDecoder(); let buf = "";
     for (;;) {
@@ -211,7 +225,9 @@
       case "intake": { const ex = t.intake?.extracted || {}, k = Object.keys(ex), rej = t.intake?.rejected || [];
         return { text: k.length ? `read ${k.map((x) => x.replace(/_/g, " ")).join(", ")}` : "nothing new stated", warn: rej.length > 0 }; }
       case "normalize": { const k = Object.keys(t.inferred || {}); return { text: k.length ? `inferred ${k.join(", ")} — marked as inference, a stated value would replace it` : "nothing to infer" }; }
-      case "geo_enrich": { const g = t.geo; return { text: g ? (g.result === "no data" ? "coordinates known, APIs returned nothing" : `SoilGrids and NASA POWER at ${fmt(g.lat, 3)}, ${fmt(g.lon, 3)}`) : "no location given" }; }
+      case "geo_enrich": { const g = t.geo; if (!g) return { text: "no location given" };
+        const where = g.place ? g.place.split(",").slice(0, 2).join(",") : `${fmt(g.lat, 4)}, ${fmt(g.lon, 4)}`;
+        return { text: g.result === "no data" ? `located ${where} (${g.how}) — soil and climate APIs returned nothing` : `located ${where} (${g.how}) — pulled SoilGrids and NASA POWER`, warn: g.result === "no data" }; }
       case "intent": return { text: `this is ${(u.intent || "new_info").replace("_", " ")}` };
       case "slot_check": { const s = t.slot_check; return { text: u.question ? `${s?.asked?.replace(/_/g, " ")} would change the answer most — asking for it` : "enough is known to proceed" }; }
       case "diagnose": { const d = t.diagnosis || {}, f = d.flags || [], p = (d.patterns || []).map((x) => x.name.replace(/_/g, " "));
@@ -304,9 +320,23 @@
     el.classList.remove("cursor");
   }
 
+  function locationEl(g) {
+    if (!g || g.lat == null) return null;
+    const d = document.createElement("div"); d.className = "loc";
+    const via = [g.soil && Object.keys(g.soil).length ? "SoilGrids" : null,
+                 g.climate && Object.keys(g.climate).length ? "NASA POWER" : null].filter(Boolean);
+    d.innerHTML = `<span class="pin">located</span>` +
+      (g.place ? `<span>${esc(g.place)}</span>` : "") +
+      `<span class="coords">${fmt(g.lat, 4)}, ${fmt(g.lon, 4)}</span>` +
+      `<span class="how">${esc(g.how || "")}</span>` +
+      (via.length ? `<span class="via">${via.join(" + ")}</span>` : `<span class="how">no soil or climate data returned</span>`);
+    return d;
+  }
+
   async function revealAnswer(msg, result, trace) {
     const box = msg.answer; box.innerHTML = "";
     if (!result) { box.innerHTML = `<p class="m-error">No result returned.</p>`; return; }
+    const loc = locationEl(trace.geo); if (loc) { box.appendChild(loc); await sleep(120); }
 
     if (result.question && !trace.diagnosis) {
       const [q, why] = String(result.answer || result.question).split("\n\nWhy this matters: ");
