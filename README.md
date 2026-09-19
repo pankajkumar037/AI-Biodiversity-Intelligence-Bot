@@ -9,7 +9,7 @@ The design rule this repository follows: **what the code decides is separate fro
 language model explains.**
 
 **Live demo:** https://ai-biodiversity-intelligence-bot.onrender.com/ (free Render tier — the
-first request after idle takes ~50 s to wake). **Repository:** https://github.com/pankajkumar037/AI-Biodiversity-Intelligence-Bot
+first request after idle takes ~50 s to wake). 
 
 ---
 
@@ -134,21 +134,101 @@ off-topic chapters. We read each table of contents, computed the printed-page-to
 offset, and indexed only the useful ranges — about 380 pages. Chapter 7 of ISFR (agroforestry)
 went in; 45 pages of forest-fire monitoring did not.
 
-### The five-stage pipeline
+### The extraction strategy
 
-1. **Slice** — split each PDF into units at natural boundaries. For FAO Vol. 3, one practice =
-   one unit. For IPCC and IPBES, 12-page overlapping windows. 139 unit PDFs, each verified to
-   open on the section its name claims.
-2. **Route** — three extraction prompts, chosen per document type. Practice manuals, scientific
-   assessments and statistical inventories need different instructions. The inventory prompt
-   forbids claims and links entirely, because "forest cover increased by 1,445 km²" is a
-   statistic, not a practice effect.
-3. **Extract** — Gemini 2.5 Flash-Lite reads each sliced PDF directly (not extracted text, so
-   tables survive) and returns structured JSON.
-4. **Validate** — every claim's `evidence_span` must be a verbatim substring of the source.
-   98% passed.
-5. **Normalise** — map free-text node names onto a controlled vocabulary, then deduplicate into
-   a causal graph.
+**The core problem.** The naive approach is: send a PDF to an LLM, get JSON back. That works for
+a 30-page chapter. These documents are 150–870 pages, and a single call over 870 pages either
+exceeds limits or skims — the model returns a shallow summary of an enormous input. So the unit
+of extraction had to shrink. The insight was that you can find those units without an LLM.
+
+**Stage 0 — structure first, deterministically.** Every document has a table of contents. We read
+it, computed the offset between printed page numbers and PDF page indices (IPCC +10, IPBES +58,
+FAO Vol. 3 +18), and derived exact page ranges for each section. Zero tokens spent. That gave a
+natural unit boundary and the ability to drop 85% of each document before extraction: IPCC has
+seven chapters and three are relevant; ISFR has a 45-page forest-fire chapter that will never
+answer a question about soil carbon. Every slice was verified by checking that its first page
+contains the heading its name claims — which caught a real error in the agroforestry manual,
+where the first offset was wrong. 3,500 pages → 139 unit PDFs → ~380 pages actually extracted.
+
+**Stage 1 — the unit is the section, not the document.**
+
+| Document | Unit | Why |
+|---|---|---|
+| FAO Vol. 3 | one practice entry | already organised the way the knowledge base needs |
+| FAO Vol. 4 | one case study | self-contained, with conditions stated |
+| Handa 2019 | one agroforestry model | fixed fields: species, region, rainfall |
+| IPCC / IPBES | 12-page overlapping window | continuous prose with no useful boundaries |
+| Journal papers | whole file | already short |
+
+One page of overlap between windows means a finding split across a boundary is captured by one
+side or the other.
+
+**Stage 2 — one prompt per document type.** This was the decision that mattered most. A single
+prompt produced 2.0 passages per page from FAO manuals and 0.33 from IPCC/IPBES assessments —
+not because assessments are less useful, but because they are written differently. FAO states
+practices; IPCC states synthesised findings buried in citation clutter and confidence language.
+Three prompts resulted:
+
+- **Practice prompt** — description, mechanism, evidence, constraints; fill a practice profile
+  with species, regions, rainfall bands and every stated drawback.
+- **Assessment prompt** — target 10–20 passages per window; strip inline citations from passage
+  text (IPCC is unreadable otherwise) but keep confidence language, because "high confidence" is
+  the finding; prioritise statements linking two or more variables; map confidence wording onto
+  edge strength.
+- **Inventory prompt** (ISFR, GSOCseq) — read tables and charts as content, never estimate a
+  value from a bar height, and return zero claims and zero links, always. A statistical inventory
+  reports areas, not practice effects. Letting "forest cover increased by 1,445 km²" become a
+  claim would poison the recommendation engine.
+
+The re-run with the assessment prompt: 145 → 402 passages, 99 → 238 links, conditional links
+19 → 62. Same documents, same model.
+
+**Stage 3 — extraction with receipts.** Two rules made the output verifiable. Passage text is
+copied, never paraphrased: the model chooses boundaries and labels, it does not rewrite, so
+citations point at real sentences. And every claim carries `evidence_span`, the exact sentence
+containing the number — the mechanism that makes downstream verification possible at all. The
+sliced PDF pages went to Gemini rather than extracted text, because text extraction scrambles
+multi-column layouts and destroys tables; the FAO practice tables and ISFR land-use tables
+survived intact.
+
+**Stage 4 — validation.** Every claim's span was checked as a substring of pypdf's text
+extraction. Initial failure rate: 13%. Investigating the worst file (Joshi, 16 of 38 failing)
+showed the failures were encoding artefacts, not fabrication: `Mg ha⁻¹` rendered differently by
+the two readers, `ln(R)` extracted as `In(R)`. After Unicode normalisation, zero genuine failures
+on that file and 2% across the assessment corpus. That distinction mattered — a naive reading
+would have called it a 13% hallucination rate and triggered a pointless re-extraction.
+
+**Stage 5 — normalisation into a graph.** Raw extraction produced 646 links across 353 distinct
+node names — `cover_crops`, `legume cover crops`, `soil organic carbon`, `SOC`, `soil carbon
+stocks` all appearing separately. The same edge counted three times fragments the graph. We
+built an alias map (exact matches), regex families (anything matching `fertili[sz]` →
+`fertilizer_use`), and promoted genuinely new concepts into the vocabulary rather than forcing
+them into existing buckets. Nodes outside the reasoning scope — REDD+, farm subsidies,
+migration — were tagged peripheral and kept but excluded from traversal, so "what about policy
+drivers?" can be answered with "we have that knowledge and deliberately exclude it from
+site-level advice." 353 → 165 nodes, 646 raw links → 505 unique edges.
+
+Then the filter. The first instinct was `support_count ≥ 2`, which would have kept 61 of 477
+core edges — discarding single-source findings from IPCC with "high confidence" attached. The
+right filter is evidence quality:
+
+```
+keep if support_count >= 2
+     or strength in {strong, moderate}
+     or source is an assessment or meta-analysis
+```
+
+342 traversable edges, 130 conditional.
+
+**What the strategy produced** — engineering choices, not luck: `vegetation_cover → SOC`
+positive above 336 mm rainfall and negative below (same driver, opposite sign, numeric
+threshold); `agroforestry → SOC (decrease)` in dry climates, on the most-supported practice in
+the corpus; `irrigation → salinity` in drylands, appearing twice. None of those survive a
+pipeline that summarises instead of extracting, or that discards conditions to keep edges simple.
+
+The general principle: deterministic work stays deterministic (finding sections, slicing pages,
+validating spans, deduplicating nodes), and the LLM is used only where judgment is genuinely
+required — choosing passage boundaries, labelling roles, and identifying what a document asserts.
 
 ### Why the JSON schema has four levels
 
