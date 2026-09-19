@@ -9,6 +9,25 @@ from core.schemas import SOURCE_PRIORITY, FieldSource, SiteField, SiteProfile
 
 REPLACE = "__replace__"
 
+# Bump when the set of legitimate profile fields changes. A checkpointed session
+# from an older version is wiped on its next turn rather than merged, so values a
+# previous build invented cannot resurface.
+PROFILE_VERSION = 2
+
+ALLOWED_FIELDS = frozenset({
+    "soc_percent", "ph", "rainfall_mm", "climate_zone", "land_use", "crop",
+    "cropping_system", "natural_cover_percent", "habitat_diversity_index",
+    "place_name", "lat", "lon", "biodiversity_trend", "pollinator_trend",
+    "pesticide_use", "residue_burning", "recent_clearing", "nearby_pollution_source",
+    "erosion_observed", "overgrazed", "trees_nearby", "soil_moisture_status",
+    "irrigation", "aridity_index", "temperature_c",
+})
+
+
+def sanitise_profile(profile: dict[str, dict]) -> dict[str, dict]:
+    """Drop any field that is not a site value, whatever an older build stored."""
+    return {name: field for name, field in (profile or {}).items() if name in ALLOWED_FIELDS}
+
 
 def merge_profile(old: dict[str, dict], new: dict[str, dict]) -> dict[str, dict]:
     """Keep the value from the stronger source; a newer user value replaces an older one.
@@ -91,6 +110,7 @@ class AgentState(TypedDict, total=False):
 
     flags: list[str]
     problem_flags: list[str]
+    profile_version: int
     restore_profile: dict[str, dict] | None
     flag_details: list[dict]
     fired_rules: list[str]

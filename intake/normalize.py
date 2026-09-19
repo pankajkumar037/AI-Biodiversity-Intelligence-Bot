@@ -99,6 +99,23 @@ def land_use_in_text(message: str) -> str | None:
     return "cropland" if crop_in_text(message) else None
 
 
+def facts_in_text(message: str) -> dict[str, Any]:
+    """Facts stated plainly enough to read without a model."""
+    text = message.lower()
+    facts: dict[str, Any] = {}
+    if re.search(r"(pollinat\w*|\bbees?\b|butterfl\w*).{0,40}(declin|disappear|fewer|vanish|drop|dying|gone)", text) or \
+       re.search(r"(fewer|less|no|declin\w* )\s*(bees|pollinators|butterflies)", text):
+        facts["pollinator_trend"] = "declining"
+    if re.search(r"(heavy|high|lots? of|a lot of|intensive|excessive)\s+(pesticid|spray|agrochem|chemical)", text) or \
+       re.search(r"(pesticid\w*|spray\w*)\s+(heavily|a lot|intensively|excessively)", text):
+        facts["pesticide_use"] = "high"
+    if re.search(r"overgraz", text):
+        facts["overgrazed"] = True
+    if re.search(r"no trees|treeless|without trees|not a single tree", text):
+        facts["trees_nearby"] = False
+    return facts
+
+
 def zone_in_text(message: str) -> str | None:
     """The climate zone the user named, if they named one. Semi-arid before arid."""
     text = message.lower()

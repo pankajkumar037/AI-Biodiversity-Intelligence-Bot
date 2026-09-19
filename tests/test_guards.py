@@ -70,3 +70,17 @@ def test_a_named_crop_implies_cropland_and_is_read_from_the_text():
 def test_only_known_constraint_slugs_survive():
     assert "low soil moisture" not in normalize.CONSTRAINT_SLUGS
     assert "leased_land_no_trees" in normalize.CONSTRAINT_SLUGS
+
+
+def test_stale_fields_from_an_older_build_are_stripped():
+    from graph_flow.state import sanitise_profile
+    stored = {"audience": {"value": "farmer", "source": "user"},
+              "soc_percent": {"value": 0.3, "source": "user"}}
+    assert list(sanitise_profile(stored)) == ["soc_percent"]
+
+
+def test_plainly_stated_facts_are_read_without_the_model():
+    facts = normalize.facts_in_text(
+        "wheat, heavy pesticide use, and the pollinators are disappearing")
+    assert facts == {"pollinator_trend": "declining", "pesticide_use": "high"}
+    assert normalize.facts_in_text("we hardly spray; bees are fine") == {}

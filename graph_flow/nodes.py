@@ -13,7 +13,15 @@ from core.schemas import (
 )
 from generation import adjudicate as adjudicate_mod
 from generation import render as render_mod
-from graph_flow.state import REPLACE, AgentState, as_fields, profile_values, to_profile
+from graph_flow.state import (
+    PROFILE_VERSION,
+    REPLACE,
+    AgentState,
+    as_fields,
+    profile_values,
+    sanitise_profile,
+    to_profile,
+)
 from intake import extract, geo, normalize
 from knowledge import loader
 from reasoning import causal, combine, diagnose, sequence, voi
@@ -51,6 +59,8 @@ def intake(state: AgentState) -> dict[str, Any]:
     crop = normalize.crop_in_text(message)
     if crop and "crop" not in values:
         values["crop"] = crop
+    for name, value in normalize.facts_in_text(message).items():
+        values.setdefault(name, value)
     land_use = normalize.land_use_in_text(message)
     if land_use and "land_use" not in values:
         # Implied by the words used ("wheat monoculture" is cropland), so inferred.
@@ -161,9 +171,22 @@ def route_intent(state: AgentState) -> dict[str, Any]:
     update: dict[str, Any] = {}
 
     restore = state.get("restore_profile")
-    if restore is not None:
-        update["profile"] = {REPLACE: restore}
+    if state.get("profile_version") != PROFILE_VERSION:
+        # A session checkpointed by an older build. Nothing it stored is trusted.
+        update["profile"] = {REPLACE: {}}
+        update["user_constraints"] = [REPLACE]
+        update["rejected_practices"] = [REPLACE]
+        update["profile_version"] = PROFILE_VERSION
+        update["trace"] = {"session_reset": "stored profile predates the current build"}
+        restore = None
         update["restore_profile"] = None
+    elif restore is not None:
+        update["profile"] = {REPLACE: sanitise_profile(restore)}
+        update["restore_profile"] = None
+    else:
+        clean = sanitise_profile(state.get("profile", {}))
+        if clean.keys() != set(state.get("profile", {}).keys()):
+            update["profile"] = {REPLACE: clean}
 
     if not message:
         return {**update, "intent": Intent.new_info.value, "asks": "none"}
