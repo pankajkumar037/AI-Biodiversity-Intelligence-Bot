@@ -207,6 +207,8 @@ double in scoring, and a recommendation that addresses none of them fails verifi
 
 ## Local setup
 
+Python 3.13 (the pins in `requirements.txt` need ≥3.12).
+
 ```bash
 python -m venv .venv
 .venv/Scripts/activate          # Windows;  source .venv/bin/activate on Unix
@@ -227,6 +229,14 @@ pytest tests/ evals/ -q         # 118 tests, no database or API key needed
 ruff check .
 python evals/run_eval.py        # the A/B/C/D ablation (makes live API calls)
 ```
+
+### Deploying
+
+One service serves both the API and the UI. `render.yaml` describes it for Render (free plan
+works; add the three env vars in the dashboard and set `PYTHON_VERSION` to 3.13). `Dockerfile`
+covers Cloud Run, Railway or anything else. In Atlas → Network Access, allow the host's egress
+IPs or `0.0.0.0/0`. The stream sends a heartbeat every 15 s so proxies do not drop a turn while
+the model is thinking.
 
 ---
 

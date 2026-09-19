@@ -5,6 +5,8 @@ import json
 import uuid
 from collections.abc import Iterator
 from pathlib import Path
+from queue import Empty, Queue
+from threading import Thread
 
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -27,14 +29,39 @@ app.add_middleware(
 )
 
 
+HEARTBEAT_SECONDS = 15
+
+
 def _sse(events: Iterator[dict]) -> Iterator[str]:
-    """Server-sent events framing. Errors become a final event, never a dropped socket."""
+    """Server-sent events framing with a heartbeat. Errors become a final event.
+
+    The pipeline can go quiet for a minute inside one node. Hosting proxies drop a
+    response that sends nothing for that long, so the generator runs in a thread and
+    a comment line goes out whenever it has been silent for HEARTBEAT_SECONDS.
+    """
     trace_id = str(uuid.uuid4())
-    try:
-        for event in events:
-            yield f"data: {json.dumps({'trace_id': trace_id, **event}, default=str)}\n\n"
-    except Exception as exc:  # noqa: BLE001 - reported to the client as an event
-        yield f"data: {json.dumps({'trace_id': trace_id, 'type': 'error', 'error': type(exc).__name__, 'message': str(exc)})}\n\n"
+    queue: Queue = Queue()
+    done = object()
+
+    def pump() -> None:
+        try:
+            for event in events:
+                queue.put(event)
+        except Exception as exc:  # noqa: BLE001 - reported to the client as an event
+            queue.put({"type": "error", "error": type(exc).__name__, "message": str(exc)})
+        finally:
+            queue.put(done)
+
+    Thread(target=pump, daemon=True).start()
+    while True:
+        try:
+            event = queue.get(timeout=HEARTBEAT_SECONDS)
+        except Empty:
+            yield ": ping\n\n"
+            continue
+        if event is done:
+            return
+        yield f"data: {json.dumps({'trace_id': trace_id, **event}, default=str)}\n\n"
 
 
 def _chat_payload(result: dict, session_id: str, turn: int) -> dict:

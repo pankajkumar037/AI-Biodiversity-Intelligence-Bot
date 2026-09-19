@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: darukaa
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.3
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: db_password
+        sync: false
+      - key: MONGODB_URI
+        sync: false
