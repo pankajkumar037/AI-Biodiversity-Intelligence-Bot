@@ -220,3 +220,6 @@ __marimo__/
 # Project
 evals/results.json
 .DS_Store
+
+# Submission document carries live credentials; never commit it
+pankaj_submission.docx

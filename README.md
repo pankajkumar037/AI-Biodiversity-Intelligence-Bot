@@ -8,6 +8,9 @@ checked against a retrieved source.
 The design rule this repository follows: **what the code decides is separate from what the
 language model explains.**
 
+**Live demo:** https://ai-biodiversity-intelligence-bot.onrender.com/ (free Render tier — the
+first request after idle takes ~50 s to wake). **Repository:** https://github.com/pankajkumar037/AI-Biodiversity-Intelligence-Bot
+
 ---
 
 ## Architecture
@@ -107,19 +110,93 @@ figure shown to a user carries a citation.
 
 ## How the knowledge base was built
 
-1. **Curated corpus, not bulk scraping.** 14 documents: IPCC SRCCL and IPBES assessments for
-   authority, FAO *Recarbonizing Global Soils* vols. 3 and 4 for practice detail, Joshi et al.
-   (2023) for quantified meta-analysis, and India-specific agroforestry sources.
-2. **Structured extraction.** Each document was parsed into units, then Flash-Lite tagged every
-   passage with practices, metrics, climate zones and an `evidence_span`-checked claims array.
-3. **Causal edges.** Cause → effect links extracted per chunk were aggregated into
-   `variable_graph`, keeping the conditions verbatim ("semiarid regions", "dryland areas").
-4. **Embedding.** `gemini-embedding-001` at 768 dims, documents as `RETRIEVAL_DOCUMENT`,
-   L2-normalised (truncated Matryoshka vectors are not normalised by the API).
-5. **Practice cards by hand.** Drafts were generated from `practices_draft`, then hand-finished
-   so each `soft_risk` traces to something a source actually states.
+The extraction pipeline lives in `data/notebook/Biodiversity_data_extraction.ipynb`; its
+output is in `data/extracted`, `data/graph` and `data/manifests`, and `db_ingestion/ingest.py`
+loads it into Atlas.
 
-`db_ingestion/ingest.py` reproduces steps 2–4.
+### The corpus: 14 documents, chosen by role
+
+| Role | Documents | Why |
+|---|---|---|
+| **Practice evidence** — what to do | FAO *Recarbonizing Global Soils* Vol. 3 and Vol. 4 | Vol. 3 documents 49 soil practices in a fixed format including drawbacks and constraints, which is why it maps almost directly onto practice cards. Vol. 4 adds 51 field case studies with the conditions attached |
+| **Authority** — what is established | IPCC SRCCL 2019; IPBES Land Degradation and Restoration 2018; IPBES Pollinators 2016; FAO SoWBFA 2019 | SRCCL gives the land–climate–carbon links; IPBES gives the degradation–biodiversity links SRCCL is thin on; the pollinator and SoWBFA reports cover species, pollination and soil biota |
+| **Quantified evidence** | Joshi et al. 2023 (open-access cover-crop meta-analysis); Keerthika et al. 2026 (semi-arid Rajasthan field trial) | The numbers the system is allowed to quote |
+| **Indian grounding** | Handa et al. 2019 (agroforestry models by agro-ecological region); Tewari et al. (hot arid systems) | Regional evidence outranks global when the site matches |
+| **Human impact** | FAO Soil Pollution 2018; India State of Forest Report 2023 | Pollution and land-cover change |
+
+Two selection rules drove everything: every practice needs both a supporting source and a
+source describing its risks, and regional evidence outranks global when the site matches.
+
+### Why not index whole PDFs
+
+The documents total ~3,500 pages. Most of it is front matter, methodology, references and
+off-topic chapters. We read each table of contents, computed the printed-page-to-PDF-page
+offset, and indexed only the useful ranges — about 380 pages. Chapter 7 of ISFR (agroforestry)
+went in; 45 pages of forest-fire monitoring did not.
+
+### The five-stage pipeline
+
+1. **Slice** — split each PDF into units at natural boundaries. For FAO Vol. 3, one practice =
+   one unit. For IPCC and IPBES, 12-page overlapping windows. 139 unit PDFs, each verified to
+   open on the section its name claims.
+2. **Route** — three extraction prompts, chosen per document type. Practice manuals, scientific
+   assessments and statistical inventories need different instructions. The inventory prompt
+   forbids claims and links entirely, because "forest cover increased by 1,445 km²" is a
+   statistic, not a practice effect.
+3. **Extract** — Gemini 2.5 Flash-Lite reads each sliced PDF directly (not extracted text, so
+   tables survive) and returns structured JSON.
+4. **Validate** — every claim's `evidence_span` must be a verbatim substring of the source.
+   98% passed.
+5. **Normalise** — map free-text node names onto a controlled vocabulary, then deduplicate into
+   a causal graph.
+
+### Why the JSON schema has four levels
+
+```
+UnitExtraction
+├── passages[]        verbatim text        → embedded, retrieved, cited
+├── claims[]          numbers + receipts   → verification
+├── links[]           cause → effect       → causal graph
+└── practice_profile                       → practice cards
+```
+
+`passages` alone would be an ordinary RAG. The other three exist for specific reasons:
+
+- **`claims` carry `evidence_span`**, the exact sentence containing the number. That is what
+  lets Python check the model's output: if it writes "SOC +25% [S4]" and S4's claims say 7.3%,
+  the check fails and the number is stripped. Without claims you are trusting the model.
+- **`links` carry a `condition`.** `cover_crops → soil_moisture (decrease, condition:
+  arid|semi-arid)` is what lets the system downgrade a practice for one site and recommend it
+  for another. That conditionality is the difference between reasoning and cheerleading.
+- **`content_role` on each passage** (evidence, mechanism, constraint, risk) means a "what could
+  go wrong" query filters directly to trade-off text instead of hoping it ranks well.
+
+### Result
+
+104 units → 1,008 passages, 649 claims (144 with numbers), 646 links → 505 deduplicated edges,
+342 traversable, 130 conditional.
+
+The graph found things worth having: `vegetation_cover → SOC` is positive above 336 mm rainfall
+and negative below it. Agroforestry, the best-supported practice, carries a documented SOC
+penalty in dry climates. Irrigation raises salinity in drylands.
+
+### Why MongoDB Atlas
+
+| Need | Why Mongo |
+|---|---|
+| Vector search | Atlas has it built in, on the free M0 tier |
+| Keyword search | Atlas Search in the same database; hybrid via reciprocal rank fusion |
+| Nested metadata | Claims live inside their chunk as a sub-document. In a relational store that is a join; here it arrives with the retrieval result, so verification is free |
+| Graph + practices + memory | Separate collections, one connection |
+| Conversation state | LangGraph's MongoDB checkpointer writes to the same cluster |
+
+The alternative was a vector DB plus Postgres plus a separate session store — three services
+for a hackathon. One database holding vectors, text index, structured knowledge and memory is
+simpler to explain and simpler to deploy.
+
+Embeddings are `gemini-embedding-001` at 768 dimensions rather than the 3072 default: it fits
+the free tier comfortably and avoids loading a local embedding model into the web process,
+which would exhaust free hosting memory during the live demo.
 
 ---
 
