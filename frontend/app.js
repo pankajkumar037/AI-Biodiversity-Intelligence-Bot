@@ -11,10 +11,12 @@
 
   const state = {
     apiBase: localStorage.getItem("darukaa.api") || "",
-    sessionId: localStorage.getItem("darukaa.session") || newId(),
+    // A page load is a new conversation. Nothing typed earlier (least of all a
+    // location) may follow the visitor into the next question.
+    sessionId: newId(),
     mode: "text", busy: false, turns: [], abort: null,
   };
-  localStorage.setItem("darukaa.session", state.sessionId);
+  localStorage.removeItem("darukaa.session");
   const api = (p) => state.apiBase + p;
 
   // What the system is doing *after* a node finishes, i.e. what the next node does.
@@ -103,7 +105,7 @@
   $("#new-chat").addEventListener("click", async () => {
     if (state.busy) return;
     try { await fetch(api(`/session/${state.sessionId}/reset`), { method: "POST" }); } catch { /* fine */ }
-    state.sessionId = newId(); localStorage.setItem("darukaa.session", state.sessionId);
+    state.sessionId = newId();
     state.turns = []; $("#messages").innerHTML = ""; $("#hero").hidden = false;
     $("#session-note").textContent = `Session ${state.sessionId}.`;
     window.scrollTo({ top: 0 });

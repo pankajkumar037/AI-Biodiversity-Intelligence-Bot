@@ -71,7 +71,8 @@ def intake(state: AgentState) -> dict[str, Any]:
         **as_fields(derived, FieldSource.inferred, turn, uncertainty=0.6),
     }
     constraints = [c for c in draft.constraints if c in normalize.CONSTRAINT_SLUGS]
-    reset_reason = _new_site_reason(profile_values(state.get("profile", {})), values)
+    reset_reason = _new_site_reason(profile_values(state.get("profile", {})),
+                                    {**values, **derived}, state.get("intent"))
     update: dict[str, Any] = {
         # A different land use or place is a different site: nothing carries over.
         "profile": {REPLACE: fields} if reset_reason else fields,
@@ -90,14 +91,28 @@ def intake(state: AgentState) -> dict[str, Any]:
     return update
 
 
-def _new_site_reason(existing: dict[str, Any], stated: dict[str, Any]) -> str | None:
-    """Why the stored profile should be discarded, or None to keep building on it."""
-    if not existing:
+def _new_site_reason(existing: dict[str, Any], stated: dict[str, Any],
+                     intent: str | None = None) -> str | None:
+    """Why the stored profile should be discarded, or None to keep building on it.
+
+    Two things mean a different site. A land use or place that contradicts the
+    stored one, and a message that describes a site from scratch: SOC, rainfall or
+    climate, and what grows there. The second is what someone does when they start
+    a new question, and nothing from the earlier site (least of all a location that
+    the new message never mentions) may be carried into it. A what-if or a
+    constraint builds on the standing site, so neither ever resets it.
+    """
+    if not existing or intent in (Intent.what_if.value, Intent.constraint.value):
         return None
     for name in ("land_use", "place_name"):
         old, new = existing.get(name), stated.get(name)
         if old and new and str(old).strip().lower() != str(new).strip().lower():
             return f"{name.replace('_', ' ')} changed from {old} to {new}"
+    has_soc = stated.get("soc_percent") is not None or stated.get("soc_g_per_kg") is not None
+    has_water = stated.get("rainfall_mm") is not None or stated.get("climate_zone") is not None
+    has_use = stated.get("land_use") is not None or stated.get("crop") is not None
+    if has_soc and has_water and has_use:
+        return "message describes a site from scratch"
     return None
 
 
@@ -116,10 +131,13 @@ def normalize_node(state: AgentState) -> dict[str, Any]:
 
 def geo_enrich(state: AgentState) -> dict[str, Any]:
     """Fill soil and climate from public APIs when we have a location. Optional."""
-    values = profile_values(state.get("profile", {}))
+    profile = state.get("profile", {})
+    values = profile_values(profile)
     lat, lon = values.get("lat"), values.get("lon")
     place = None
     how = "coordinates given"
+    if (profile.get("lat") or {}).get("source") == FieldSource.nominatim.value:
+        how = "located on an earlier turn"
 
     if (lat is None or lon is None) and values.get("place_name"):
         located = geo.geocode(str(values["place_name"]))

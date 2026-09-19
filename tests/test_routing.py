@@ -42,3 +42,17 @@ def test_a_different_land_use_or_place_is_a_new_site():
     assert _new_site_reason({"land_use": "cropland"}, {"land_use": "Cropland"}) is None
     assert _new_site_reason({"land_use": "cropland"}, {"soc_percent": 0.4}) is None
     assert _new_site_reason({}, {"land_use": "grassland"}) is None
+
+
+def test_a_message_that_describes_a_site_from_scratch_is_a_new_site():
+    from graph_flow.nodes import _new_site_reason
+    stored = {"place_name": "Rajasthan", "lat": 26.81, "lon": 73.77, "climate_zone": "semi-arid",
+              "land_use": "cropland", "soc_percent": 0.5}
+    fresh = {"soc_percent": 0.3, "rainfall_mm": 350.0, "crop": "wheat", "land_use": "cropland"}
+    assert _new_site_reason(stored, fresh, "new_info")
+    # A single added fact builds on the standing site.
+    assert _new_site_reason(stored, {"soc_percent": 0.3}, "new_info") is None
+    assert _new_site_reason(stored, {"soc_percent": 0.3, "rainfall_mm": 350.0}, "new_info") is None
+    # What-ifs and constraints never reset, however much they restate.
+    assert _new_site_reason(stored, fresh, "what_if") is None
+    assert _new_site_reason(stored, fresh, "constraint") is None
