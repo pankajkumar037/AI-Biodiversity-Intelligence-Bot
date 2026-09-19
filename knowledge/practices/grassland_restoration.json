@@ -9,7 +9,8 @@
     "bare_fallow",
     "recent_clearing",
     "pollinator_decline",
-    "erosion_observed"
+    "erosion_observed",
+    "overgrazing"
   ],
   "hard_constraints": {
     "land_use_in": [

@@ -200,7 +200,7 @@ def reset_session(session_id: str) -> None:
 
 
 def _turn_state(session_id: str, message: str, profile_patch: dict[str, Any] | None,
-                turn: int) -> dict[str, Any]:
+                turn: int, audience: str | None = None) -> dict[str, Any]:
     """Fresh per-turn state. Anything left in the checkpoint from last turn would
     let one turn's question, warnings or what-if comparison resurface under the next."""
     from core.schemas import FieldSource
@@ -217,16 +217,18 @@ def _turn_state(session_id: str, message: str, profile_patch: dict[str, Any] | N
         "what_if_baseline": None,
         "trace": None,
     }
+    if audience:
+        state["audience"] = audience
     if profile_patch:
         state["profile"] = as_fields(profile_patch, FieldSource.user, turn)
     return state
 
 
 def run_chat(session_id: str, message: str, profile_patch: dict[str, Any] | None = None,
-             turn: int = 1) -> dict[str, Any]:
+             turn: int = 1, audience: str | None = None) -> dict[str, Any]:
     """Run one conversational turn against the checkpointed thread."""
     return chat_graph().invoke(
-        _turn_state(session_id, message, profile_patch, turn),
+        _turn_state(session_id, message, profile_patch, turn, audience),
         config={"configurable": {"thread_id": session_id}},
     )
 
@@ -243,7 +245,7 @@ def _node_event(node: str, update: dict[str, Any], elapsed_ms: int) -> dict[str,
 
 
 def stream_chat(session_id: str, message: str, profile_patch: dict[str, Any] | None = None,
-                turn: int = 1):
+                turn: int = 1, audience: str | None = None):
     """Yield one event per node as the turn runs, then the finished result.
 
     LangGraph's update stream is what makes the reasoning visible while it happens:
@@ -256,7 +258,7 @@ def stream_chat(session_id: str, message: str, profile_patch: dict[str, Any] | N
     started = time.perf_counter()
     last = started
 
-    for event in graph.stream(_turn_state(session_id, message, profile_patch, turn),
+    for event in graph.stream(_turn_state(session_id, message, profile_patch, turn, audience),
                               config=config, stream_mode="updates"):
         now = time.perf_counter()
         for node, update in event.items():

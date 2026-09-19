@@ -141,7 +141,8 @@ Extract site facts from the user's message into the schema. Rules:
 - Human-impact facts matter as much as soil facts. Fill pesticide_use, pollinator_trend,
   residue_burning, recent_clearing, nearby_pollution_source and erosion_observed
   whenever the user mentions them, even in passing ("we spray a lot" is pesticide_use
-  high; "fewer bees than before" is pollinator_trend declining).
+  high; "fewer bees than before" is pollinator_trend declining). "overgrazed" is
+  overgrazed true; "no trees nearby" is trees_nearby false.
 - Copy every number in the unit the user used. Never convert anything yourself.
   A percentage such as "SOC 0.3%" goes to soc_percent as 0.3. A value in g/kg such
   as "organic carbon 3 g/kg" goes to soc_g_per_kg as 3. Organic matter goes to

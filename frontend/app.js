@@ -133,7 +133,7 @@
     const payload = req.kind === "chat"
       ? { session_id: state.sessionId, message: req.message, profile_patch: req.profile_patch || null }
       : { profile: req.profile, constraints: req.constraints, audience: $("#audience").value || null };
-    if (req.kind === "chat" && $("#audience").value) payload.profile_patch = { ...(payload.profile_patch || {}), audience: $("#audience").value };
+    if (req.kind === "chat" && $("#audience").value) payload.audience = $("#audience").value;
 
     const started = Date.now();
     try {

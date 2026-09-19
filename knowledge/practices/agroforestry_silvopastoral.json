@@ -1,11 +1,24 @@
 {
   "practice_id": "agroforestry_silvopastoral",
   "name": "Silvopastoral agroforestry (trees with pasture)",
-  "addresses_flags": ["low_SOC", "low_habitat_diversity", "low_natural_cover", "biodiversity_decline"],
+  "addresses_flags": [
+    "low_SOC",
+    "low_habitat_diversity",
+    "low_natural_cover",
+    "biodiversity_decline",
+    "overgrazing"
+  ],
   "hard_constraints": {
-    "land_use_in": ["grassland", "pasture", "fallow"],
+    "land_use_in": [
+      "grassland",
+      "pasture",
+      "fallow"
+    ],
     "min_rainfall_mm": 250,
-    "incompatible_constraints": ["leased_land_no_trees", "no_livestock"]
+    "incompatible_constraints": [
+      "leased_land_no_trees",
+      "no_livestock"
+    ]
   },
   "soft_risks": [
     {
@@ -16,7 +29,14 @@
     }
   ],
   "requires_first": [],
-  "impacted_metrics": ["SOC", "tree_cover", "habitat_diversity", "bulk_density", "soil_biota", "biomass"],
+  "impacted_metrics": [
+    "SOC",
+    "tree_cover",
+    "habitat_diversity",
+    "bulk_density",
+    "soil_biota",
+    "biomass"
+  ],
   "mechanism": "Scattered trees supply dry-season fodder and shade while their litter and roots raise carbon in pasture soils.",
   "time_horizon": "long",
   "region_variants": [],

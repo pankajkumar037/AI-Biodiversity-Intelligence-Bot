@@ -64,13 +64,14 @@ FLAG_QUERY_TEXT = {
     "recent_clearing": "land conversion deforestation habitat loss biodiversity",
     "pollution_exposure": "soil pollution sources effects on soil biota and crops",
     "erosion_observed": "soil erosion control vegetation cover cropland",
+    "overgrazing": "overgrazing grazing pressure rangeland degradation recovery",
 }
 
 # Queries about the problem the user raised go in before practice queries, so
 # the evidence block always carries something about what they actually asked.
 PROBLEM_FIRST = ("pollinator_decline", "high_pesticide_use", "biodiversity_decline",
                  "residue_burning", "recent_clearing", "pollution_exposure",
-                 "erosion_observed")
+                 "erosion_observed", "overgrazing")
 
 
 def practice_text(practice_id: str) -> str:

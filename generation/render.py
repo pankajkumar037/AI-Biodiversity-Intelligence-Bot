@@ -28,6 +28,7 @@ FLAG_TEXT = {
     "recent_clearing": "land was recently cleared",
     "pollution_exposure": "a pollution source is nearby",
     "erosion_observed": "erosion is visible",
+    "overgrazing": "the land is overgrazed",
     "low_natural_cover": "little natural cover nearby",
     "low_habitat_diversity": "habitat diversity is low",
     "bare_fallow": "bare fallow",
@@ -42,11 +43,21 @@ def _site_line(profile: SiteProfile) -> str:
     parts = []
     for name, field in profile.fields.items():
         parts.append(f"{name.replace('_', ' ')} {field.value} ({field.source.value})")
+    unknown = [name for name in OPTIONAL_KNOWN if profile.value(name) is None]
+    if unknown:
+        parts.append("unknown: " + ", ".join(n.replace("_", " ") for n in unknown))
     return " | ".join(parts) if parts else "no site values supplied"
 
 
+OPTIONAL_KNOWN = ["ph", "natural_cover_percent", "pesticide_use"]
+
+
 def _diagnosis_line(flags: list, patterns: list) -> str:
-    names = " | ".join(f"{flag.flag} [{flag.rule_id}]" for flag in flags) or "no flags raised"
+    seen: dict[str, list[str]] = {}
+    for flag in flags:
+        seen.setdefault(flag.flag, []).append(flag.rule_id)
+    names = " | ".join(f"{name} [{', '.join(rules)}]" for name, rules in seen.items()) \
+        or "no flags raised"
     if patterns:
         names += " | patterns: " + ", ".join(
             f"{pattern.name} [{pattern.rule_id}]" for pattern in patterns
@@ -120,8 +131,11 @@ def causes_section(flags: list, patterns: list, root_causes: list[dict],
         loop = " -> ".join(pattern.loop) if pattern.loop else ""
         lines.append(f"    (pattern) {pattern.name.replace('_', ' ')}: {loop} [{pattern.rule_id}]")
 
+    cause_ids = {cause["id"] for cause in unique}
     for step in adjudication.reasoning_chain:
-        if step.type in ("cause", "effect"):
+        # Practice-effect steps describe remedies; only steps about what is driving
+        # the problem belong here.
+        if step.type == "cause" or (step.path_id in cause_ids):
             anchor = step.path_id or ", ".join(step.sources) or "-"
             lines.append(f"    ({step.type}) {step.claim} [{anchor}]")
 

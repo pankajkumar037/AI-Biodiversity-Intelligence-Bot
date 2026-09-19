@@ -172,10 +172,11 @@ class SiteProfileDraft(BaseModel):
     recent_clearing: bool | None = None
     nearby_pollution_source: str | None = None
     erosion_observed: bool | None = None
+    overgrazed: bool | None = None
+    trees_nearby: bool | None = None
     soil_moisture_status: Literal["dry", "adequate", "wet"] | None = None
     irrigation: str | None = None
     constraints: list[str] = Field(default_factory=list)
-    audience: Audience | None = None
 
 
 # ── diagnosis ──────────────────────────────────────────────────────────
@@ -365,6 +366,7 @@ class ChatRequest(BaseModel):
     session_id: str
     message: str
     profile_patch: dict[str, Any] | None = None
+    audience: Audience | None = None
 
 
 class AnalyzeRequest(BaseModel):

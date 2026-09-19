@@ -23,8 +23,6 @@ from retrieval import planner, rerank, search
 from verification import checks
 from verification import confidence as confidence_mod
 
-CRITICAL_SLOTS = ["soc_percent", "rainfall_mm", "land_use", "cropping_system"]
-
 
 # ── input ──────────────────────────────────────────────────────────────
 def intake(state: AgentState) -> dict[str, Any]:
@@ -40,28 +38,45 @@ def intake(state: AgentState) -> dict[str, Any]:
         return {"warnings": [f"Could not read values from your message: {exc}"]}
 
     values, derived, warnings, rejected = normalize.normalise_draft(draft)
+
+    # Guard against invention: a value stays only if the message talks about it.
+    dropped = normalize.unsupported_fields(values, message)
+    for name in dropped:
+        values.pop(name, None)
+    if "rainfall_category" in dropped:
+        derived.pop("rainfall_mm", None)
+    zone = normalize.zone_in_text(message)
+    if zone and "climate_zone" not in values:
+        values["climate_zone"] = zone
+    crop = normalize.crop_in_text(message)
+    if crop and "crop" not in values:
+        values["crop"] = crop
+    land_use = normalize.land_use_in_text(message)
+    if land_use and "land_use" not in values:
+        # Implied by the words used ("wheat monoculture" is cropland), so inferred.
+        derived["land_use"] = land_use
+
     fields = {
         **as_fields(values, FieldSource.user, turn),
         **as_fields(derived, FieldSource.inferred, turn, uncertainty=0.6),
     }
+    constraints = [c for c in draft.constraints if c in normalize.CONSTRAINT_SLUGS]
     reset_reason = _new_site_reason(profile_values(state.get("profile", {})), values)
     update: dict[str, Any] = {
         # A different land use or place is a different site: nothing carries over.
         "profile": {REPLACE: fields} if reset_reason else fields,
         "trace": {"intake": {"extracted": values, "derived": derived, "rejected": rejected,
-                             "profile_reset": reset_reason}},
+                             "dropped_unsupported": dropped, "profile_reset": reset_reason}},
     }
     if reset_reason:
         update["what_if_baseline"] = None
         update["restore_profile"] = None
-        update["user_constraints"] = [REPLACE, *draft.constraints]
+        update["user_constraints"] = [REPLACE, *constraints]
         update["rejected_practices"] = [REPLACE]
-    elif draft.constraints:
-        update["user_constraints"] = draft.constraints
+    elif constraints:
+        update["user_constraints"] = constraints
     if warnings or rejected:
         update["warnings"] = warnings + rejected
-    if draft.audience:
-        update["audience"] = draft.audience.value
     return update
 
 
@@ -179,23 +194,48 @@ def route_intent(state: AgentState) -> dict[str, Any]:
     return update
 
 
+def missing_required(values: dict[str, Any]) -> list[str]:
+    """What a confident answer needs and does not have, after geo-enrichment.
+
+    Land use cannot be looked up; SOC and rainfall can be when there is a location,
+    so they are only "missing" once enrichment has had its chance.
+    """
+    missing = []
+    if values.get("land_use") is None:
+        missing.append("land_use")
+    if values.get("soc_percent") is None:
+        missing.append("soc_percent")
+    if values.get("rainfall_mm") is None and values.get("climate_zone") is None:
+        missing.append("rainfall_mm")
+    if values.get("land_use") == "cropland" and values.get("cropping_system") is None:
+        missing.append("cropping_system")
+    return missing
+
+
 def slot_check(state: AgentState) -> dict[str, Any]:
-    """Ask at most one question, chosen by which answer could change the advice."""
+    """Ask before answering when something required is still unknown.
+
+    One question per turn, chosen by value of information among the missing
+    required slots. Nothing is assumed in their place.
+    """
     values = profile_values(state.get("profile", {}))
     constraints = list(state.get("user_constraints", []))
 
-    known = [slot for slot in CRITICAL_SLOTS if values.get(slot) is not None]
-    if len(known) >= 2:
+    missing = missing_required(values)
+    if not missing:
         return {"question": None}
 
-    ranked = voi.rank_slots(values, constraints)
+    ranked = voi.rank_slots(values, constraints, slots=missing)
     if not ranked:
-        return {"question": None}
+        slot = missing[0]
+        question, reason = voi.QUESTIONS.get(slot, (f"What is the site's {slot}?", ""))
+        ranked = [{"slot": slot, "question": question, "reason": reason, "flip_score": 0}]
 
     best = ranked[0]
     return {
         "question": render_mod.render_question(best["question"], best["reason"]),
-        "trace": {"slot_check": {"asked": best["slot"], "ranking": ranked[:4]}},
+        "trace": {"slot_check": {"asked": best["slot"], "missing": missing,
+                                 "ranking": ranked[:4]}},
     }
 
 

@@ -29,6 +29,7 @@ FLAG_TARGET: dict[str, tuple[str, int]] = {
     "recent_clearing": ("tree_cover", 1),
     "pollution_exposure": ("pollution_load", -1),
     "erosion_observed": ("erosion", -1),
+    "overgrazing": ("biomass", 1),
 }
 
 # Flags that come straight from something the user said is wrong on their land.
@@ -36,6 +37,7 @@ FLAG_TARGET: dict[str, tuple[str, int]] = {
 PROBLEM_FLAGS = frozenset({
     "biodiversity_decline", "pollinator_decline", "high_pesticide_use",
     "residue_burning", "recent_clearing", "pollution_exposure", "erosion_observed",
+    "overgrazing",
 })
 
 # Profile facts that correspond to driver nodes in the graph. When a root-cause
@@ -49,8 +51,12 @@ SITE_DRIVERS: list[tuple[str, Any, str]] = [
     ("recent_clearing", {True}, "deforestation"),
     ("recent_clearing", {True}, "land_conversion"),
     ("nearby_pollution_source", "*", "pollution_load"),
+    ("overgrazed", {True}, "grazing_pressure"),
     ("irrigation", "*", "irrigation"),
 ]
+
+# Words that mean "no" for a free-text field such as irrigation.
+NEGATIVE_VALUES = {"none", "no", "nil", "false", "0", "rainfed", "not irrigated"}
 
 
 def observed_drivers(profile: dict[str, Any]) -> set[str]:
@@ -59,6 +65,8 @@ def observed_drivers(profile: dict[str, Any]) -> set[str]:
     for field_name, accepted, node in SITE_DRIVERS:
         value = profile.get(field_name)
         if value is None or value is False or value == "":
+            continue
+        if isinstance(value, str) and value.strip().lower() in NEGATIVE_VALUES:
             continue
         if accepted == "*" or value in accepted:
             present.add(node)
@@ -118,6 +126,7 @@ def root_causes(graph: nx.MultiDiGraph, symptom_nodes: list[str], profile: dict[
     found: list[dict] = []
     counter = 1
     present = observed_drivers(profile)
+    interventions = _practice_nodes()
 
     for symptom in symptom_nodes:
         if symptom not in graph:
@@ -127,7 +136,8 @@ def root_causes(graph: nx.MultiDiGraph, symptom_nodes: list[str], profile: dict[
             next_frontier = []
             for node, path in frontier:
                 for source, edge in graph_mod.in_edges(graph, node, profile):
-                    if source in path:
+                    if source in path or source in interventions:
+                        # A practice upstream of a metric is a remedy, not a cause.
                         continue
                     chain = [source] + path
                     found.append({
@@ -151,6 +161,13 @@ def root_causes(graph: nx.MultiDiGraph, symptom_nodes: list[str], profile: dict[
     for index, item in enumerate(found, start=1):
         item["id"] = f"P{index}"
     return found
+
+
+@lru_cache(maxsize=1)
+def _practice_nodes() -> frozenset[str]:
+    """Graph nodes that are interventions rather than site conditions."""
+    from core.schemas import PracticeEnum
+    return frozenset(p.value for p in PracticeEnum) | {"biochar", "afforestation", "restoration"}
 
 
 @lru_cache(maxsize=1)

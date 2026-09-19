@@ -5,7 +5,8 @@
     "low_SOC",
     "bare_fallow",
     "biodiversity_decline",
-    "erosion_observed"
+    "erosion_observed",
+    "overgrazing"
   ],
   "hard_constraints": {
     "land_use_in": [

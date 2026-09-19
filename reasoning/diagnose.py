@@ -40,7 +40,7 @@ def diagnose(profile: dict[str, Any],
                 break
 
         elif "match" in rule:
-            if value is False or str(value).strip() == "":
+            if value is None or str(value).strip() == "":
                 continue
             for option in rule["match"]:
                 wildcard = option["equals"] == "*"

@@ -105,6 +105,7 @@ def chat(request: ChatRequest) -> dict:
         message=request.message,
         profile_patch=request.profile_patch,
         turn=turn,
+        audience=request.audience.value if request.audience else None,
     )
     build.save_session(request.session_id, result)
     return {"trace_id": str(uuid.uuid4()), **_chat_payload(result, request.session_id, turn)}
@@ -117,7 +118,8 @@ def chat_stream(request: ChatRequest) -> StreamingResponse:
 
     def events() -> Iterator[dict]:
         for event in build.stream_chat(request.session_id, request.message,
-                                       request.profile_patch, turn):
+                                       request.profile_patch, turn,
+                                       request.audience.value if request.audience else None):
             if event["type"] == "done":
                 event = {**event, "result": _chat_payload(event["result"],
                                                           request.session_id, turn)}

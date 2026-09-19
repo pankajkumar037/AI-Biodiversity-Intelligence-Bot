@@ -3,9 +3,20 @@
     "rule_id": "T-SOC-01",
     "metric": "soc_percent",
     "bands": [
-      {"max": 0.5, "label": "low", "flag": "low_SOC"},
-      {"min": 0.5, "max": 0.75, "label": "medium"},
-      {"min": 0.75, "label": "high"}
+      {
+        "max": 0.5,
+        "label": "low",
+        "flag": "low_SOC"
+      },
+      {
+        "min": 0.5,
+        "max": 0.75,
+        "label": "medium"
+      },
+      {
+        "min": 0.75,
+        "label": "high"
+      }
     ],
     "source": "Soil Health Card / Indian soil testing organic carbon classes: low <0.5%, medium 0.5-0.75%, high >0.75%",
     "verify": true
@@ -14,11 +25,33 @@
     "rule_id": "T-PH-01",
     "metric": "ph",
     "bands": [
-      {"max": 5.5, "label": "strongly_acidic", "flag": "acidic_soil"},
-      {"min": 5.5, "max": 6.5, "label": "acidic", "flag": "acidic_soil"},
-      {"min": 6.5, "max": 7.5, "label": "neutral"},
-      {"min": 7.5, "max": 8.5, "label": "alkaline", "flag": "alkaline_soil"},
-      {"min": 8.5, "label": "strongly_alkaline", "flag": "sodic_risk"}
+      {
+        "max": 5.5,
+        "label": "strongly_acidic",
+        "flag": "acidic_soil"
+      },
+      {
+        "min": 5.5,
+        "max": 6.5,
+        "label": "acidic",
+        "flag": "acidic_soil"
+      },
+      {
+        "min": 6.5,
+        "max": 7.5,
+        "label": "neutral"
+      },
+      {
+        "min": 7.5,
+        "max": 8.5,
+        "label": "alkaline",
+        "flag": "alkaline_soil"
+      },
+      {
+        "min": 8.5,
+        "label": "strongly_alkaline",
+        "flag": "sodic_risk"
+      }
     ],
     "source": "Standard agronomic soil reaction classes (USDA / ICAR soil testing)",
     "verify": true
@@ -27,11 +60,33 @@
     "rule_id": "T-AI-01",
     "metric": "aridity_index",
     "bands": [
-      {"max": 0.05, "label": "hyper_arid", "flag": "water_limited"},
-      {"min": 0.05, "max": 0.2, "label": "arid", "flag": "water_limited"},
-      {"min": 0.2, "max": 0.5, "label": "semi_arid", "flag": "water_limited"},
-      {"min": 0.5, "max": 0.65, "label": "dry_sub_humid", "flag": "dry_subhumid"},
-      {"min": 0.65, "label": "humid"}
+      {
+        "max": 0.05,
+        "label": "hyper_arid",
+        "flag": "water_limited"
+      },
+      {
+        "min": 0.05,
+        "max": 0.2,
+        "label": "arid",
+        "flag": "water_limited"
+      },
+      {
+        "min": 0.2,
+        "max": 0.5,
+        "label": "semi_arid",
+        "flag": "water_limited"
+      },
+      {
+        "min": 0.5,
+        "max": 0.65,
+        "label": "dry_sub_humid",
+        "flag": "dry_subhumid"
+      },
+      {
+        "min": 0.65,
+        "label": "humid"
+      }
     ],
     "source": "UNEP/UNCCD aridity index (P/PET) classes as used in the Global Aridity Index database",
     "verify": false
@@ -40,10 +95,26 @@
     "rule_id": "T-RAIN-01",
     "metric": "rainfall_mm",
     "bands": [
-      {"max": 300, "label": "very_low", "flag": "water_limited"},
-      {"min": 300, "max": 600, "label": "low", "flag": "water_limited"},
-      {"min": 600, "max": 1000, "label": "moderate"},
-      {"min": 1000, "label": "high"}
+      {
+        "max": 300,
+        "label": "very_low",
+        "flag": "water_limited"
+      },
+      {
+        "min": 300,
+        "max": 600,
+        "label": "low",
+        "flag": "water_limited"
+      },
+      {
+        "min": 600,
+        "max": 1000,
+        "label": "moderate"
+      },
+      {
+        "min": 1000,
+        "label": "high"
+      }
     ],
     "source": "Arid <300 mm and semi-arid 300-600 mm rainfall bands used for Indian dryland agro-ecological zoning",
     "verify": true
@@ -52,9 +123,21 @@
     "rule_id": "T-COVER-01",
     "metric": "natural_cover_percent",
     "bands": [
-      {"max": 10, "label": "very_low", "flag": "low_natural_cover"},
-      {"min": 10, "max": 30, "label": "low", "flag": "low_natural_cover"},
-      {"min": 30, "label": "adequate"}
+      {
+        "max": 10,
+        "label": "very_low",
+        "flag": "low_natural_cover"
+      },
+      {
+        "min": 10,
+        "max": 30,
+        "label": "low",
+        "flag": "low_natural_cover"
+      },
+      {
+        "min": 30,
+        "label": "adequate"
+      }
     ],
     "source": "Landscape ecology guidance that habitat below roughly 30% of the landscape sharply reduces connectivity; band edges are a starting estimate",
     "verify": true
@@ -63,9 +146,21 @@
     "rule_id": "T-HAB-01",
     "metric": "habitat_diversity_index",
     "bands": [
-      {"max": 0.8, "label": "very_low", "flag": "low_habitat_diversity"},
-      {"min": 0.8, "max": 1.3, "label": "low", "flag": "low_habitat_diversity"},
-      {"min": 1.3, "label": "adequate"}
+      {
+        "max": 0.8,
+        "label": "very_low",
+        "flag": "low_habitat_diversity"
+      },
+      {
+        "min": 0.8,
+        "max": 1.3,
+        "label": "low",
+        "flag": "low_habitat_diversity"
+      },
+      {
+        "min": 1.3,
+        "label": "adequate"
+      }
     ],
     "source": "Shannon H' over land cover class proportions in a 1 km buffer; band edges are a starting estimate and need a landscape-ecology source",
     "verify": true
@@ -74,8 +169,16 @@
     "rule_id": "T-SYS-01",
     "metric": "cropping_system",
     "match": [
-      {"equals": "monoculture", "label": "monoculture", "flag": "monoculture"},
-      {"equals": "fallow", "label": "fallow", "flag": "bare_fallow"}
+      {
+        "equals": "monoculture",
+        "label": "monoculture",
+        "flag": "monoculture"
+      },
+      {
+        "equals": "fallow",
+        "label": "fallow",
+        "flag": "bare_fallow"
+      }
     ],
     "source": "Categorical rule: a single-species system carries the diversity penalties described in FAO SOWBFA (2019)",
     "verify": false
@@ -84,7 +187,11 @@
     "rule_id": "T-BIO-01",
     "metric": "biodiversity_trend",
     "match": [
-      {"equals": "declining", "label": "declining", "flag": "biodiversity_decline"}
+      {
+        "equals": "declining",
+        "label": "declining",
+        "flag": "biodiversity_decline"
+      }
     ],
     "source": "Categorical rule: user-reported trend, treated as an observation not a measurement",
     "verify": false
@@ -93,7 +200,11 @@
     "rule_id": "T-POL-01",
     "metric": "pollinator_trend",
     "match": [
-      {"equals": "declining", "label": "declining", "flag": "pollinator_decline"}
+      {
+        "equals": "declining",
+        "label": "declining",
+        "flag": "pollinator_decline"
+      }
     ],
     "source": "Categorical rule: user-reported pollinator trend; IPBES (2016) treats farmland pollinator decline as a driver-diagnosable condition",
     "verify": false
@@ -102,8 +213,16 @@
     "rule_id": "T-PEST-01",
     "metric": "pesticide_use",
     "match": [
-      {"equals": "moderate", "label": "moderate", "flag": "high_pesticide_use"},
-      {"equals": "high", "label": "high", "flag": "high_pesticide_use"}
+      {
+        "equals": "moderate",
+        "label": "moderate",
+        "flag": "high_pesticide_use"
+      },
+      {
+        "equals": "high",
+        "label": "high",
+        "flag": "high_pesticide_use"
+      }
     ],
     "source": "Categorical rule: pesticide use is a recognised pressure on pollinators and soil biota (IPBES 2016; FAO 2018 soil pollution)",
     "verify": false
@@ -112,7 +231,11 @@
     "rule_id": "T-BURN-01",
     "metric": "residue_burning",
     "match": [
-      {"equals": "true", "label": "burning", "flag": "residue_burning"}
+      {
+        "equals": "true",
+        "label": "burning",
+        "flag": "residue_burning"
+      }
     ],
     "source": "Categorical rule: burning removes the residue that would otherwise return carbon to the soil (FAO Recarbonizing Global Soils Vol. 3)",
     "verify": false
@@ -121,7 +244,11 @@
     "rule_id": "T-CLEAR-01",
     "metric": "recent_clearing",
     "match": [
-      {"equals": "true", "label": "cleared", "flag": "recent_clearing"}
+      {
+        "equals": "true",
+        "label": "cleared",
+        "flag": "recent_clearing"
+      }
     ],
     "source": "Categorical rule: land conversion is a primary driver of habitat loss (IPBES 2018 land degradation assessment)",
     "verify": false
@@ -130,7 +257,11 @@
     "rule_id": "T-POLL-01",
     "metric": "nearby_pollution_source",
     "match": [
-      {"equals": "*", "label": "exposed", "flag": "pollution_exposure"}
+      {
+        "equals": "*",
+        "label": "exposed",
+        "flag": "pollution_exposure"
+      }
     ],
     "source": "Categorical rule: any named nearby pollution source, per FAO (2018) soil pollution sources",
     "verify": false
@@ -139,7 +270,11 @@
     "rule_id": "T-EROS-01",
     "metric": "erosion_observed",
     "match": [
-      {"equals": "true", "label": "observed", "flag": "erosion_observed"}
+      {
+        "equals": "true",
+        "label": "observed",
+        "flag": "erosion_observed"
+      }
     ],
     "source": "Categorical rule: user-observed erosion, treated as an observation",
     "verify": false
@@ -148,9 +283,39 @@
     "rule_id": "T-MOIST-01",
     "metric": "soil_moisture_status",
     "match": [
-      {"equals": "dry", "label": "dry", "flag": "water_limited"}
+      {
+        "equals": "dry",
+        "label": "dry",
+        "flag": "water_limited"
+      }
     ],
     "source": "Categorical rule: user-reported dry soil is treated as water limitation alongside the rainfall rule",
+    "verify": false
+  },
+  {
+    "rule_id": "T-GRAZ-01",
+    "metric": "overgrazed",
+    "match": [
+      {
+        "equals": "true",
+        "label": "overgrazed",
+        "flag": "overgrazing"
+      }
+    ],
+    "source": "Categorical rule: user-reported overgrazing; grazing pressure is a graph driver with edges from IPCC SRCCL and IPBES",
+    "verify": false
+  },
+  {
+    "rule_id": "T-TREE-01",
+    "metric": "trees_nearby",
+    "match": [
+      {
+        "equals": "false",
+        "label": "no trees",
+        "flag": "low_natural_cover"
+      }
+    ],
+    "source": "Categorical rule: user reports no trees or natural vegetation nearby, treated as low natural cover",
     "verify": false
   }
 ]
